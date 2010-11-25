@@ -13,7 +13,7 @@ This WordPress plugin extends the Gravity Forms plugin with the Dutch translatio
 The [Gravity Forms](http://www.gravityforms.com/) developers don't focus on translating 
 their plugin. Instead they concentrate on the core functionalities of the plugin itself. 
 Therefore there are regular updates of the Gravity Forms plugin. However, after each 
-automatic update, the manually placed Dutch translation are deleted. This plugin fixes 
+automatic update, the manually placed Dutch translations are deleted. This plugin fixes 
 that issue for all the Dutch WordPress and Gravity Forms users!
 
 
