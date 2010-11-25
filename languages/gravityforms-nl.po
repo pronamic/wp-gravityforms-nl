@@ -1,0 +1,2489 @@
+# Translation of Gravity Forms in Dutch
+# This file is distributed under the same license as the Gravity Forms package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2010-10-25 09:11:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Gravity Forms\n"
+
+msgid "Insert form field"
+msgstr "Formulierveld invoegen"
+
+msgid "All Submitted Fields"
+msgstr "Alle toegevoegde velden"
+
+msgid "Required form fields"
+msgstr "Verplichte velden"
+
+msgid "Optional form fields"
+msgstr "Optionele velden"
+
+msgid "Client IP Address"
+msgstr "IP-adres gebruiker"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Embed Post/Page Id"
+msgstr "Id insluitbericht/-pagina"
+
+msgid "Embed Post/Page Title"
+msgstr "Titel insluitbericht/-pagina"
+
+msgid "Embed URL"
+msgstr "Insluit-url"
+
+msgid "Entry Id"
+msgstr "Id inzending"
+
+msgid "Entry URL"
+msgstr "Url inzending"
+
+msgid "Form Id"
+msgstr "Formulier-id"
+
+msgid "Form Title"
+msgstr "Formuliertitel"
+
+msgid "Post Id"
+msgstr "Bericht-id"
+
+msgid "Post Edit URL"
+msgstr "Bericht bewerken url"
+
+msgid "User Display Name"
+msgstr "Weergavenaam gebruiker"
+
+msgid "User Email"
+msgstr "E-mailadres gebruiker"
+
+msgid "User Login"
+msgstr "Gebruikersnaam"
+
+msgid "%s ago"
+msgstr "%s geleden"
+
+msgid "%1$s at %2$s"
+msgstr "%1$s op %2$s"
+
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+msgid "Albania"
+msgstr "Albanië"
+
+msgid "Algeria"
+msgstr "Algerije"
+
+msgid "Andorra"
+msgstr "Andorra"
+
+msgid "Angola"
+msgstr "Angola"
+
+msgid "Antigua and Barbuda"
+msgstr "Antigua en Barbuda"
+
+msgid "Argentina"
+msgstr "Argentinië"
+
+msgid "Armenia"
+msgstr "Armenië"
+
+msgid "Australia"
+msgstr "Australië"
+
+msgid "Austria"
+msgstr "Oostenrijk"
+
+msgid "Azerbaijan"
+msgstr "Azerbeidzjan"
+
+msgid "Bahamas"
+msgstr "Bahama's"
+
+msgid "Bahrain"
+msgstr "Bahrein"
+
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+msgid "Barbados"
+msgstr "Barbados"
+
+msgid "Belarus"
+msgstr "Wit-Rusland"
+
+msgid "Belgium"
+msgstr "België"
+
+msgid "Belize"
+msgstr "Belize"
+
+msgid "Benin"
+msgstr "Benin"
+
+msgid "Bermuda"
+msgstr "Bermuda"
+
+msgid "Bhutan"
+msgstr "Bhutan"
+
+msgid "Bolivia"
+msgstr "Bolivia"
+
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnië en Herzegovina"
+
+msgid "Botswana"
+msgstr "Botswana"
+
+msgid "Brazil"
+msgstr "Brazilië"
+
+msgid "Brunei"
+msgstr "Brunei "
+
+msgid "Bulgaria"
+msgstr "Bulgarije"
+
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+msgid "Burundi"
+msgstr "Burundi"
+
+msgid "Cambodia"
+msgstr "Cambodja"
+
+msgid "Cameroon"
+msgstr "Kameroen"
+
+msgid "Canada"
+msgstr "Canada"
+
+msgid "Cape Verde"
+msgstr "Kaapverdië"
+
+msgid "Central African Republic"
+msgstr "Centraal-Afrikaanse Republiek"
+
+msgid "Chad"
+msgstr "Tsjaad"
+
+msgid "Chile"
+msgstr "Chili"
+
+msgid "China"
+msgstr "China"
+
+msgid "Colombia"
+msgstr "Colombia"
+
+msgid "Comoros"
+msgstr "Comoren"
+
+msgid "Congo"
+msgstr "Congo"
+
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+msgid "C&ocirc;te d'Ivoire"
+msgstr "Ivoorkust"
+
+msgid "Croatia"
+msgstr "Kroatië"
+
+msgid "Cuba"
+msgstr "Cuba"
+
+msgid "Cyprus"
+msgstr "Cyprus"
+
+msgid "Czech Republic"
+msgstr "Centraal-Afrikaanse Republiek"
+
+msgid "Denmark"
+msgstr "Denemarken"
+
+msgid "Djibouti"
+msgstr "Djibouti"
+
+msgid "Dominica"
+msgstr "Dominica"
+
+msgid "Dominican Republic"
+msgstr "Centraal-Afrikaanse Republiek"
+
+msgid "East Timor"
+msgstr "Oost-Timor"
+
+msgid "Ecuador"
+msgstr "Ecuador"
+
+msgid "Egypt"
+msgstr "Egypte"
+
+msgid "El Salvador"
+msgstr "El Salvador"
+
+msgid "Equatorial Guinea"
+msgstr "Equatoriaal-Guinea"
+
+msgid "Eritrea"
+msgstr "Eritrea"
+
+msgid "Estonia"
+msgstr "Estland"
+
+msgid "Ethiopia"
+msgstr "Ethiopië"
+
+msgid "Fiji"
+msgstr "Fiji"
+
+msgid "Finland"
+msgstr "Finland"
+
+msgid "France"
+msgstr "Frankrijk"
+
+msgid "Gabon"
+msgstr "Gabon"
+
+msgid "Gambia"
+msgstr "Gambia"
+
+msgid "Georgia"
+msgstr "Georgië"
+
+msgid "Germany"
+msgstr "Duitsland"
+
+msgid "Ghana"
+msgstr "Ghana"
+
+msgid "Greece"
+msgstr "Griekenland"
+
+msgid "Grenada"
+msgstr "Grenada"
+
+msgid "Guatemala"
+msgstr "Guatemala"
+
+msgid "Guinea"
+msgstr "Guinee"
+
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+msgid "Guyana"
+msgstr "Guyana"
+
+msgid "Haiti"
+msgstr "Haïti"
+
+msgid "Honduras"
+msgstr "Honduras"
+
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgid "Hungary"
+msgstr "Hongarije"
+
+msgid "Iceland"
+msgstr "IJsland"
+
+msgid "India"
+msgstr "India"
+
+msgid "Indonesia"
+msgstr "Indonesië"
+
+msgid "Iran"
+msgstr "Iran"
+
+msgid "Iraq"
+msgstr "Irak"
+
+msgid "Ireland"
+msgstr "Ierland"
+
+msgid "Israel"
+msgstr "Israël"
+
+msgid "Italy"
+msgstr "Italië"
+
+msgid "Jamaica"
+msgstr "Jamaica"
+
+msgid "Japan"
+msgstr "Japan"
+
+msgid "Jordan"
+msgstr "Jordanië"
+
+msgid "Kazakhstan"
+msgstr "Kazachstan"
+
+msgid "Kenya"
+msgstr "Kenia"
+
+msgid "Kiribati"
+msgstr "Kiribati"
+
+msgid "North Korea"
+msgstr "Noord-Korea"
+
+msgid "South Korea"
+msgstr "Zuid-Korea"
+
+msgid "Kuwait"
+msgstr "Koeweit"
+
+msgid "Kyrgyzstan"
+msgstr "Kirgizië"
+
+msgid "Laos"
+msgstr "Laos"
+
+msgid "Latvia"
+msgstr "Letland"
+
+msgid "Lebanon"
+msgstr "Libanon"
+
+msgid "Lesotho"
+msgstr "Lesotho"
+
+msgid "Liberia"
+msgstr "Liberia"
+
+msgid "Libya"
+msgstr "Libië"
+
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+msgid "Lithuania"
+msgstr "Litouwen"
+
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+msgid "Macedonia"
+msgstr "Macedonië"
+
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+msgid "Malawi"
+msgstr "Malawi"
+
+msgid "Malaysia"
+msgstr "Maleisië"
+
+msgid "Maldives"
+msgstr "Maldiven"
+
+msgid "Mali"
+msgstr "Mali"
+
+msgid "Malta"
+msgstr "Malta"
+
+msgid "Marshall Islands"
+msgstr "Marshalleilanden"
+
+msgid "Mauritania"
+msgstr "Mauritanië"
+
+msgid "Mauritius"
+msgstr "Mauritius"
+
+msgid "Mexico"
+msgstr "Mexico"
+
+msgid "Micronesia"
+msgstr "Micronesia"
+
+msgid "Moldova"
+msgstr "Moldavië"
+
+msgid "Monaco"
+msgstr "Monaco"
+
+msgid "Mongolia"
+msgstr "Mongolië"
+
+msgid "Montenegro"
+msgstr "Montenegro"
+
+msgid "Morocco"
+msgstr "Marokko"
+
+msgid "Mozambique"
+msgstr "Mozambique"
+
+msgid "Myanmar"
+msgstr "Myanmar"
+
+msgid "Namibia"
+msgstr "Namibië"
+
+msgid "Nauru"
+msgstr "Nauru"
+
+msgid "Nepal"
+msgstr "Nepal"
+
+msgid "Netherlands"
+msgstr "Nederland"
+
+msgid "New Zealand"
+msgstr "Nieuw formulier"
+
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+msgid "Niger"
+msgstr "Niger"
+
+msgid "Nigeria"
+msgstr "Nigeria"
+
+msgid "Norway"
+msgstr "Noorwegen"
+
+msgid "Oman"
+msgstr "Oman"
+
+msgid "Pakistan"
+msgstr "Pakistan"
+
+msgid "Palau"
+msgstr "Palau"
+
+msgid "Palestine"
+msgstr "Palestina"
+
+msgid "Panama"
+msgstr "Panama"
+
+msgid "Papua New Guinea"
+msgstr "Papoea-Nieuw-Guinea"
+
+msgid "Paraguay"
+msgstr "Paraguay"
+
+msgid "Peru"
+msgstr "Peru"
+
+msgid "Philippines"
+msgstr "Filipijnen"
+
+msgid "Poland"
+msgstr "Polen"
+
+msgid "Portugal"
+msgstr "Portugal"
+
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+msgid "Qatar"
+msgstr "Qatar"
+
+msgid "Romania"
+msgstr "Roemenië"
+
+msgid "Russia"
+msgstr "Rusland"
+
+msgid "Rwanda"
+msgstr "Rwanda"
+
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts en Nevis"
+
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent en de Grenadines"
+
+msgid "Samoa"
+msgstr "Samoa"
+
+msgid "San Marino"
+msgstr "San Marino"
+
+msgid "Sao Tome and Principe"
+msgstr "Sao Tomé en Principe"
+
+msgid "Saudi Arabia"
+msgstr "Saoedi-Arabië"
+
+msgid "Senegal"
+msgstr "Senegal"
+
+msgid "Serbia and Montenegro"
+msgstr "Antigua en Barbuda"
+
+msgid "Seychelles"
+msgstr "Seychellen"
+
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+msgid "Singapore"
+msgstr "Singapore"
+
+msgid "Slovakia"
+msgstr "Slowakije"
+
+msgid "Slovenia"
+msgstr "Slovenië"
+
+msgid "Solomon Islands"
+msgstr "Salomonseilanden"
+
+msgid "Somalia"
+msgstr "Somalië"
+
+msgid "South Africa"
+msgstr "Zuid-Afrika"
+
+msgid "Spain"
+msgstr "Spanje"
+
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+msgid "Sudan"
+msgstr "Soedan"
+
+msgid "Suriname"
+msgstr "Suriname"
+
+msgid "Swaziland"
+msgstr "Swaziland"
+
+msgid "Sweden"
+msgstr "Zweden"
+
+msgid "Switzerland"
+msgstr "Zwitserland"
+
+msgid "Syria"
+msgstr "Syrië"
+
+msgid "Taiwan"
+msgstr "Taiwan"
+
+msgid "Tajikistan"
+msgstr "Tadzjikistan"
+
+msgid "Tanzania"
+msgstr "Tanzania"
+
+msgid "Thailand"
+msgstr "Thailand"
+
+msgid "Togo"
+msgstr "Togo"
+
+msgid "Tonga"
+msgstr "Tonga"
+
+msgid "Trinidad and Tobago"
+msgstr "Antigua en Barbuda"
+
+msgid "Tunisia"
+msgstr "Tunesië"
+
+msgid "Turkey"
+msgstr "Turkije"
+
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+msgid "Uganda"
+msgstr "Uganda"
+
+msgid "Ukraine"
+msgstr "Oekraïne"
+
+msgid "United Arab Emirates"
+msgstr "Verenigde Arabische Emiraten"
+
+msgid "United Kingdom"
+msgstr "Verenigd Koninkrijk"
+
+msgid "United States"
+msgstr "Verenigde Staten"
+
+msgid "Uruguay"
+msgstr "Uruguay"
+
+msgid "Uzbekistan"
+msgstr "Oezbekistan"
+
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+msgid "Vatican City"
+msgstr "Vaticaanstad"
+
+msgid "Venezuela"
+msgstr "Venezuela"
+
+msgid "Vietnam"
+msgstr "Vietnam"
+
+msgid "Yemen"
+msgstr "Yemen"
+
+msgid "Zambia"
+msgstr "Zambia"
+
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+msgid "South Dakota"
+msgstr "South Dakota"
+
+msgid "Texas"
+msgstr "Texas"
+
+msgid "Vermont"
+msgstr "Vermont"
+
+msgid "Wisconsin"
+msgstr "Wisconsin"
+
+msgid "Alberta"
+msgstr "Alberta"
+
+msgid "Manitoba"
+msgstr "Manitoba"
+
+msgid "Quebec"
+msgstr "Quebec"
+
+msgid "Phone format:"
+msgstr "Indeling telefoonnummer:"
+
+msgid "File"
+msgstr "Bestand"
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "Caption"
+msgstr "Onderschrift"
+
+msgid "Description"
+msgstr "Beschrijving"
+
+msgid "Prefix"
+msgstr "Titulatuur"
+
+msgid "First"
+msgstr "Voornaam"
+
+msgid "Last"
+msgstr "Achternaam"
+
+msgid "Suffix"
+msgstr "Tussenvoegsel"
+
+msgid "State"
+msgstr "Staat"
+
+msgid "Zip Code"
+msgstr "Plaats"
+
+msgid "Province"
+msgstr "Provincie"
+
+msgid "Postal Code"
+msgstr "Plaats"
+
+msgid "State / Province / Region"
+msgstr "Staat / provincie / regio"
+
+msgid "Zip / Postal Code"
+msgstr "Plaats"
+
+msgid "Street Address"
+msgstr "Straat + huisnummer"
+
+msgid "Address Line 2"
+msgstr "Adresregel 2"
+
+msgid "City"
+msgstr "Postcode"
+
+msgid "Country"
+msgstr "Land"
+
+msgid "MM"
+msgstr "MM"
+
+msgid "HH"
+msgstr "HH"
+
+msgid "AM"
+msgstr "AM"
+
+msgid "PM"
+msgstr "PM"
+
+msgid "Download file"
+msgstr "Bestand downloaden"
+
+msgid "Delete file"
+msgstr "Bestand verwijderen"
+
+msgid "To use the reCaptcha field you must first do the following:"
+msgstr "Om het reCaptcha veld te gebruiken moet je eerst het volgende doen:"
+
+msgid "Click to view"
+msgstr "Klik om te bekijken"
+
+msgid "You don't have permission to download a file"
+msgstr "Je hebt geen toestemming om een bestand te downloaden"
+
+msgid "OOps! We couldn't find your lead. Please try again"
+msgstr "Helaas. Er werd niets gevonden."
+
+msgid "Entry has been deleted."
+msgstr "Inzending is verwijderd."
+
+msgid "Back to entries list"
+msgstr "Terug naar overzicht van inzendingen"
+
+msgid "'Would you like to delete this file? \\'Cancel\\' to stop. \\'OK\\' to delete'"
+msgstr "'Wil je dit bestand verwijderen? \\'Annulerenl\\' om te stoppen. \\'OK\\' om te verwijderen'"
+
+msgid "Ajax error while deleting field."
+msgstr "Ajax fout tijdens verwijderen van veld."
+
+msgid "Gravity Forms"
+msgstr "Gravity Forms"
+
+msgid "Entry #"
+msgstr "Inzendings #"
+
+msgid "&laquo; back to entries list"
+msgstr "&laquo; terug naar lijst met inzendingen"
+
+msgid "Info"
+msgstr "Informatie"
+
+msgid "Submitted on"
+msgstr "Ingediend op"
+
+msgid "User IP"
+msgstr "IP gebruiker"
+
+msgid "Embed Url"
+msgstr "Embed URL"
+
+msgid "Edit Post"
+msgstr "Bericht bewerken"
+
+msgid "Click to edit post"
+msgstr "Klik om bericht te bewerken"
+
+msgid "You are about to delete this entry. \\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr "Je staat op het punt om deze inzending te verwijderen. \\'Annuleren\\' om te stoppen, \\'OK\\' om te verwijderen."
+
+msgid "Delete"
+msgstr "Verwijderen"
+
+msgid "Edit Entry"
+msgstr "Wijzig inzending"
+
+msgid "Update Entry"
+msgstr "Update inzending"
+
+msgid "Cancel"
+msgstr "Annuleer"
+
+msgid "Add Note"
+msgstr "Toevoegen"
+
+msgid "Notes"
+msgstr "Notities"
+
+msgid "Entry Updated."
+msgstr "Inzending bijgewerkt."
+
+msgid "Details"
+msgstr "Details"
+
+msgid " Bulk action"
+msgstr "Bulk actie"
+
+msgid " Bulk action "
+msgstr "Bulk actie"
+
+msgid "Apply"
+msgstr "Toepassen"
+
+msgid "added on"
+msgstr "toegevoegd op"
+
+msgid "Also email this note to"
+msgstr "Deze notitie ook e-mailen ook naar"
+
+msgid "Subject:"
+msgstr "Onderwerp:"
+
+msgid "Entry # "
+msgstr "Entry #"
+
+msgid "&laquo;"
+msgstr "&laquo;"
+
+msgid "&raquo;"
+msgstr "&raquo;"
+
+msgid "Ajax error while setting lead property"
+msgstr "Ajax fout tijdens het instellen van de lead eigenschap"
+
+msgid "Entries"
+msgstr "Inzendingen"
+
+msgid "All"
+msgstr "Alle"
+
+msgid "Unread"
+msgstr "Ongelezen"
+
+msgid "Starred"
+msgstr "Met ster aangeduid"
+
+msgid "Search Entries:"
+msgstr "Doorzoek inzendingen:"
+
+msgid "Search"
+msgstr "Zoeken"
+
+msgid "Bulk action"
+msgstr "Bulk actie"
+
+msgid "Mark as Read"
+msgstr "Markeren als gelezen"
+
+msgid "Mark as Unread"
+msgstr "Markeren als ongelezen"
+
+msgid "Add Star"
+msgstr "Ster toevoegen"
+
+msgid "Remove Star"
+msgstr "Ster verwijderen"
+
+msgid "Select a Form"
+msgstr "Selecteer een formulier"
+
+msgid "Displaying %d - %d of %d"
+msgstr "Toont %d - %d van %d"
+
+msgid "Select Columns"
+msgstr "Actieve kolommen"
+
+msgid "View this entry"
+msgstr "Bekijk deze inzending"
+
+msgid "View"
+msgstr "Bekijk"
+
+msgid "Mark read"
+msgstr "Markeer gelezen"
+
+msgid "Mark this entry as unread"
+msgstr "Markeer deze inzending als ongelezen"
+
+msgid "Mark unread"
+msgstr "Markeer als gelezen"
+
+msgid "Delete this entry"
+msgstr "Verwijder deze inzending"
+
+msgid "'You are about to delete this entry. \\'Cancel\\' to stop, \\'OK\\' to delete.'"
+msgstr "'Je staat op het punt deze inzending te verwijderen. \\'Annulerenl\\' om te stoppen, \\'OK\\' om te verwijderen.'"
+
+msgid "This form does not have any entries yet."
+msgstr "Dit formulier heeft nog geen inzendingen."
+
+msgid "Bulk action "
+msgstr "Bulk actie"
+
+msgid "Ajax error while selecting a form"
+msgstr "Ajax fout tijdens selecteren formulier"
+
+msgid "Deselect All"
+msgstr "Alles Deselecteren"
+
+msgid "Select All"
+msgstr "Selecteer Alles"
+
+msgid "Ajax error while exporting."
+msgstr "Ajax error tijdfens exporteren."
+
+msgid "Export Form Entries"
+msgstr "Exporteer de inzendingen van dit formulier"
+
+msgid "Select A Form"
+msgstr "Selecteer een formulier"
+
+msgid "Select a form"
+msgstr "Selecteer een formulier"
+
+msgid "Select Fields"
+msgstr "Selecteer velden"
+
+msgid "Select Date Range"
+msgstr "Selecteer datumbereik"
+
+msgid "Start"
+msgstr "Begin"
+
+msgid "End"
+msgstr "Einde"
+
+msgid "Date Range is optional, if no date range is selected all entries will be exported."
+msgstr "Datumbereik is optioneel. Indien je geen bereik instelt worden alle inzendingen geëxporteerd."
+
+msgid "Download Export File"
+msgstr "Download exportbestand"
+
+msgid "Exporting entries. Please wait..."
+msgstr "Bezig inzendingen te exporteren. Even geduld..."
+
+msgid "Entry Date"
+msgstr "Inzenddatum"
+
+msgid "Source Url"
+msgstr "Herkomst URL"
+
+msgid "Could not create export folder. Make sure your /wp-content/uploads folder is writable"
+msgstr "Aanmaken exportmap is mislukt. Zorg dat de map wp-content/uploads beschijfbaar is (CHMOD 777)"
+
+msgid "Form Settings"
+msgstr "Instellingen"
+
+msgid "Form Editor"
+msgstr "Formuliereneditor"
+
+msgid "Delete this Form"
+msgstr "Verwijder dit formulier"
+
+msgid "Would you like to delete this form and ALL entries associated with it? \\'Cancel\\' to stop. \\'OK\\' to delete"
+msgstr "Wil je dit formulier en alle gerelateerde inzendingen verwijderen? \\'Annulerenl\\' om te stoppen. \\'OK\\' om te verwijderen"
+
+msgid "Delete Form"
+msgstr "Verwijder formulier"
+
+msgid "Edit Form's properties"
+msgstr "Bewerk formuliereigenschappen"
+
+msgid "Edit"
+msgstr "Bewerk"
+
+msgid "Properties"
+msgstr "Instellingen"
+
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+msgid "Confirmation"
+msgstr "Bevestiging"
+
+msgid "Label Placement"
+msgstr "Veldlabel"
+
+msgid "Top aligned"
+msgstr "Boven uitgelijnd"
+
+msgid "Left aligned"
+msgstr "Links uitgelijnd"
+
+msgid "Right aligned"
+msgstr "Rechtsuitgelijnd"
+
+msgid "Form Button"
+msgstr "Formulierknop"
+
+msgid "Default"
+msgstr "Standaard"
+
+msgid "Image"
+msgstr "Afbeelding"
+
+msgid "Text:"
+msgstr "Tekst:"
+
+msgid "Image Path:"
+msgstr "Afbeeldingspad:"
+
+msgid "CSS Class Name"
+msgstr "CSS Class naam"
+
+msgid "Limit number of entries"
+msgstr "Beperk het aantal inzendingen"
+
+msgid "Number of Entries"
+msgstr "Aantal inzendingen"
+
+msgid "Entry Limit Reached Message"
+msgstr "Entry Limiet Bereikt Bericht"
+
+msgid "Schedule form"
+msgstr "Agendeer Formulier"
+
+msgid "Start Date/Time"
+msgstr "Start Datum/Tijd"
+
+msgid "End Date/Time"
+msgstr "Einddatum/tijd"
+
+msgid "Form Expired Message"
+msgstr "Bericht als formulier verlopen is"
+
+msgid "Confirmation Message"
+msgstr "Bevestigingsbericht"
+
+msgid "Text"
+msgstr "Tekst"
+
+msgid "Page"
+msgstr "Pagina"
+
+msgid "Redirect"
+msgstr "Redirect"
+
+msgid "Pass Field Data Via Query String"
+msgstr "Pass Field Data Via Query String"
+
+msgid "Sample: phone={Phone:1}&email{Email:2}"
+msgstr "Voorbeeld: phone={Phone:1}&email{Email:2}"
+
+msgid "Update Form"
+msgstr "Update formulier"
+
+msgid "Save Form"
+msgstr "Formulier opslaan"
+
+msgid "Saving form. Please wait..."
+msgstr "Formulier opslaan. Even geduld a.u.b."
+
+msgid "You have successfully saved your form!"
+msgstr "Het formulier is succesvol opgeslagen!"
+
+msgid "What do you want to do next?"
+msgstr "Wat wil je hierna doen?"
+
+msgid "Preview this form"
+msgstr "Bekijk formulier vooraf"
+
+msgid "Preview this Form"
+msgstr "Formulier vooraf bekijken"
+
+msgid "Setup email notifications for this form"
+msgstr "Stel e-mailnotificaties in voor dit formulier"
+
+msgid "Setup Email Notifications for this Form"
+msgstr "Stel e-mailnotificaties in voor dit formulier"
+
+msgid "Continue editing this form"
+msgstr "Ga door met bewerken van dit formulier"
+
+msgid "Continue Editing this Form"
+msgstr "Ga door met bewerken van dit formulier"
+
+msgid "I am done. Take me back to form list"
+msgstr "Ik ben klaar. Breng me terug naar formulierenoverzicht"
+
+msgid "Return to Form List"
+msgstr "Terug naar formulierenoverzicht"
+
+msgid "Form updated successfully."
+msgstr "Het formulier is succesvol opgeslagen!"
+
+msgid "Continue Editing"
+msgstr "Ga door met bewerken"
+
+msgid "Setup Email Notifications"
+msgstr "Maak notificatieberichten voor dit formulier"
+
+msgid "View this form's entries"
+msgstr "Bekijk de inzendingen van dit formulier"
+
+msgid "View Entries"
+msgstr "Bekijk inzendingen"
+
+msgid "Preview Form"
+msgstr "Bekijk formulier vooraf"
+
+msgid "Field Label"
+msgstr "Veld label"
+
+msgid "Field Type"
+msgstr "Veldsoort"
+
+msgid "Single line text"
+msgstr "Tekstregel"
+
+msgid "Paragraph Text"
+msgstr "Tekstveld"
+
+msgid "Drop Down"
+msgstr "Drop Down"
+
+msgid "Number"
+msgstr "Nummer"
+
+msgid "Multiple Choice"
+msgstr "Meerkeuze"
+
+msgid "Hidden"
+msgstr "Verborgen"
+
+msgid "Advanced Fields"
+msgstr "Geavanceerde velden"
+
+msgid "Time"
+msgstr "Tijd"
+
+msgid "Phone"
+msgstr "Telefoon"
+
+msgid "Website"
+msgstr "Website"
+
+msgid "Email"
+msgstr "E-mailadres"
+
+msgid "Theme"
+msgstr "Thema"
+
+msgid "Red"
+msgstr "Rood"
+
+msgid "White"
+msgstr "Wit"
+
+msgid "Black Glass"
+msgstr "Zwart glas"
+
+msgid "Clean"
+msgstr "Schoon"
+
+msgid "Custom Field Name"
+msgstr "Naam aangepast veld"
+
+msgid "Existing"
+msgstr "Bestaand"
+
+msgid "New"
+msgstr "Nieuw"
+
+msgid "Select an existing custom field"
+msgstr "Selecteer een bestaand aangepast veld"
+
+msgid "Post Status"
+msgstr "Berichtstatus"
+
+msgid "Default Post Author"
+msgstr "Standaard auteur"
+
+msgid "Use logged in user as author"
+msgstr "Gebruik ingelogde gebruiker als auteur"
+
+msgid "Post Category"
+msgstr "Berichtcategorie"
+
+msgid "Category"
+msgstr "Categorie"
+
+msgid "All Categories"
+msgstr "Alle categorieën"
+
+msgid "Select Categories"
+msgstr "Selecteer Categorieën"
+
+msgid "Image Metadata"
+msgstr "Metagegevens van de afbeelding"
+
+msgid "Address Type"
+msgstr "Adrestype"
+
+msgid "International"
+msgstr "Internationaal"
+
+msgid "Canadian"
+msgstr "Canadees"
+
+msgid "Default State"
+msgstr "Standaard staat"
+
+msgid "Default Province"
+msgstr "Standaard provincie"
+
+msgid "Default Country"
+msgstr "Standaard land"
+
+msgid "Hide Country Field"
+msgstr "Verberg landveld"
+
+msgid "Hide Address Line 2 Field"
+msgstr "Verberg adresregel 2"
+
+msgid "Name Format"
+msgstr "Naamindeling"
+
+msgid "Normal"
+msgstr "Normaal"
+
+msgid "Extended"
+msgstr "Uitgebreid"
+
+msgid "Simple"
+msgstr "Eenvoudig"
+
+msgid "Date Input Type"
+msgstr "Invoertype datum"
+
+msgid "Date Field"
+msgstr "Datumveld"
+
+msgid "Date Picker"
+msgstr "Datumkiezer"
+
+msgid "No Icon"
+msgstr "Geen icoon"
+
+msgid "Calendar Icon"
+msgstr "Kalendericoon"
+
+msgid "Custom Icon"
+msgstr "Aangepast icoon"
+
+msgid "Image Path: "
+msgstr "Afbeeldingspad:"
+
+msgid "Preview this form to see your custom icon."
+msgstr "Voorbeeldweergave van dit formulier gebruiken om je eigen pictogram te zien."
+
+msgid "Date Format"
+msgstr "Datumindeling"
+
+msgid "Allowed file extensions"
+msgstr "Toegestane bestandformaten"
+
+msgid "Separated with commas (i.e. jpg, gif, png, pdf)"
+msgstr "Kommagescheiden (b.v. jpg, gif, png, pdf)"
+
+msgid "Phone Format"
+msgstr "Telefoonformaat"
+
+msgid "Choices"
+msgstr "Keuzes"
+
+msgid "Bulk Add / Predefined Choices"
+msgstr "Bulk toevoegen / Voorgedefinieerde keuzes"
+
+msgid "Countries"
+msgstr "Landen"
+
+msgid "U.S. States"
+msgstr "Amerikaanse staten"
+
+msgid "Continents"
+msgstr "Continenten"
+
+msgid "Africa"
+msgstr "Afrika"
+
+msgid "Asia"
+msgstr "Azië"
+
+msgid "North America"
+msgstr "Noord-Amerika"
+
+msgid "South America"
+msgstr "Zuid-Amerika"
+
+msgid "Gender"
+msgstr "Geslacht"
+
+msgid "Male"
+msgstr "Man"
+
+msgid "Female"
+msgstr "Vrouw"
+
+msgid "Age"
+msgstr "Leeftijd"
+
+msgid "Under 18"
+msgstr "Onder 18"
+
+msgid "65 or Above"
+msgstr "65 of Ouder"
+
+msgid "Marital Status"
+msgstr "Burgerlijke staat"
+
+msgid "Single"
+msgstr "Single"
+
+msgid "Married"
+msgstr "Getrouwd"
+
+msgid "Divorced"
+msgstr "Gescheiden"
+
+msgid "Retired"
+msgstr "Verlopen"
+
+msgid "Student"
+msgstr "Student"
+
+msgid "Full-Time"
+msgstr "Full-Time"
+
+msgid "Part-Time"
+msgstr "Deeltijd"
+
+msgid "Contract"
+msgstr "Contract"
+
+msgid "Intern"
+msgstr "Intern"
+
+msgid "Seasonal"
+msgstr "Seizoensgebonden"
+
+msgid "Customer Service"
+msgstr "Klantenservice"
+
+msgid "Green"
+msgstr "Groen"
+
+msgid "Installation/Maintenance"
+msgstr "Installatie / Onderhoud"
+
+msgid "Insurance"
+msgstr "Verzekeringen"
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Legal"
+msgstr "Juridisch"
+
+msgid "Retail"
+msgstr "Retail"
+
+msgid "Sales"
+msgstr "Verkoop"
+
+msgid "Income"
+msgstr "Inkomen"
+
+msgid "Education"
+msgstr "Opleiding"
+
+msgid "Days of the Week"
+msgstr "Dagen van de week"
+
+msgid "Sunday"
+msgstr "Zondag"
+
+msgid "Monday"
+msgstr "Maandag"
+
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+msgid "Wednesday"
+msgstr "Woensdag"
+
+msgid "Thursday"
+msgstr "Donderdag"
+
+msgid "Friday"
+msgstr "Vrijdag"
+
+msgid "Saturday"
+msgstr "Zaterdag"
+
+msgid "Months of the Year"
+msgstr "Maanden van het jaar"
+
+msgid "January"
+msgstr "Januari"
+
+msgid "February"
+msgstr "Februari"
+
+msgid "March"
+msgstr "Maart"
+
+msgid "April"
+msgstr "April"
+
+msgid "May"
+msgstr "Mei"
+
+msgid "June"
+msgstr "Juni"
+
+msgid "July"
+msgstr "Juli"
+
+msgid "August"
+msgstr "Augustus"
+
+msgid "September"
+msgstr "September"
+
+msgid "October"
+msgstr "Oktober"
+
+msgid "November"
+msgstr "November"
+
+msgid "December"
+msgstr "December"
+
+msgid "Everyday"
+msgstr "Dagelijks"
+
+msgid "How Long"
+msgstr "Hoe lang"
+
+msgid "Satisfaction"
+msgstr "Tevredenheid"
+
+msgid "Neutral"
+msgstr "Neutraal"
+
+msgid "Importance"
+msgstr "Belang"
+
+msgid "Important"
+msgstr "Belangrijk"
+
+msgid "Agreement"
+msgstr "Overeenkomst"
+
+msgid "Comparison"
+msgstr "Vergelijking"
+
+msgid "Not Sure"
+msgstr "Niet zeker"
+
+msgid "Size"
+msgstr "Maat"
+
+msgid "Extra Small"
+msgstr "Extra Small"
+
+msgid "Small"
+msgstr "Small"
+
+msgid "Medium"
+msgstr "Medium"
+
+msgid "Large"
+msgstr "Large"
+
+msgid "Extra Large"
+msgstr "Extra Large"
+
+msgid "Rules"
+msgstr "Regels"
+
+msgid "Required"
+msgstr "Verplicht"
+
+msgid "No Duplicates"
+msgstr "Geen duplicaten"
+
+msgid "Range"
+msgstr "Bereik"
+
+msgid "Min"
+msgstr "Min."
+
+msgid "Max"
+msgstr "Max."
+
+msgid "Admin Label"
+msgstr "Adminlabel"
+
+msgid "Field Size"
+msgstr "Veldgrootte"
+
+msgid "Default Value"
+msgstr "Standaardwaarde"
+
+msgid "Validation Message"
+msgstr "Validatiebericht"
+
+msgid "Language"
+msgstr "Taal"
+
+msgid "English"
+msgstr "Engels"
+
+msgid "Dutch"
+msgstr "Nederlands"
+
+msgid "French"
+msgstr "Frans"
+
+msgid "German"
+msgstr "Duits"
+
+msgid "Portuguese"
+msgstr "Portugees"
+
+msgid "Russian"
+msgstr "Russisch"
+
+msgid "Spanish"
+msgstr "Spaans"
+
+msgid "Turkish"
+msgstr "Turks"
+
+msgid "Visibility"
+msgstr "Zichtbaarheid"
+
+msgid "Everyone"
+msgstr "Iedereen"
+
+msgid "Admin Only"
+msgstr "Alleen admin"
+
+msgid "Allow field to be populated dynamically"
+msgstr "Sta toe dat veld dynamisch gevuld kan worden"
+
+msgid "Enable Conditional Logic"
+msgstr "Conditionele logica instellen"
+
+msgid "Add Fields"
+msgstr "Velden toevoegen"
+
+msgid "Standard Fields"
+msgstr "Standaard velden"
+
+msgid "Single Line Text"
+msgstr "Tekstregel"
+
+msgid "Checkboxes"
+msgstr "Selectievakjes"
+
+msgid "Section Break"
+msgstr "Sectie-einde"
+
+msgid "Name"
+msgstr "Naam"
+
+msgid "Address"
+msgstr "Adres"
+
+msgid "File Upload"
+msgstr "Bestandsupload"
+
+msgid "Post Fields"
+msgstr "Berichtvelden"
+
+msgid "Body"
+msgstr "Hoofdtekst"
+
+msgid "Excerpt"
+msgstr "Samenvatting"
+
+msgid "Tags"
+msgstr "Tags"
+
+msgid "Custom Field"
+msgstr "Aangepast veld"
+
+msgid "Insert variable"
+msgstr "Variabele invoegen"
+
+msgid "HTTP Referer URL"
+msgstr "HTTP Referer URL"
+
+msgid "Oops! We could not locate your form."
+msgstr "Helaas! Het formulier werd niet gevonden."
+
+msgid "Sorry. This form is no longer available."
+msgstr "Sorry. Dit formulier is niet langer beschikbaar."
+
+msgid "Sorry. This form is no longer accepting new submissions."
+msgstr "Sorry. Dit formulier accepteert geen nieuwe inzendingen."
+
+msgid "There was a problem with your submission."
+msgstr "Er was een probleem met de verzending."
+
+msgid "Errors have been highlighted below "
+msgstr "Fouten zijn hieronder uitgelicht"
+
+msgid "Submit"
+msgstr "Verzenden"
+
+msgid "Edit this form"
+msgstr "Bewerk dit formulier"
+
+msgid "This field is required. Please enter a value."
+msgstr "Dit veld is verplicht. Vul a.u.b een waarde in."
+
+msgid "This field requires an unique entry and the values you entered have been already been used"
+msgstr "Dit veld vereist een unieke code; de waarde(s) die je invulde zijn al eerder gebruikt"
+
+msgid "This field is required. Please enter the first and last name."
+msgstr "Dit veld is verplicht. Vul a.u.b. voornaam en achternaam in"
+
+msgid "This field is required. Please enter a complete address."
+msgstr "Dit veld is verplicht. Type a.u.b. een volledig adres."
+
+msgid "Please enter a valid email address."
+msgstr "Vul a.u.b. een geldig e-mailadres in"
+
+msgid "Please enter a valid time."
+msgstr "Voer a.u.b. een geldige tijd in"
+
+msgid "Please enter a valid Website URL (i.e. http://www.gravityforms.com)."
+msgstr "Vul a.u.b. een geldige website URL in (b.v. http://www.gravityforms.com)."
+
+msgid "The reCAPTCHA wasn't entered correctly. Go back and try it again."
+msgstr "De reCAPTCHA is niet juist ingevoerd. Ga terug en probeer opnieuw."
+
+msgid "The uploaded file type is not allowed. Must be one of the following: %s"
+msgstr "Het geüploade bestand is niet toegestaan. Moet een van de volgende:%s"
+
+msgid "click to delete this field"
+msgstr "klik om veld te verwijderen"
+
+msgid "click to edit this field"
+msgstr "klik om veld te bewerken"
+
+msgid "Inactive"
+msgstr "Inactief"
+
+msgid "Active"
+msgstr "Actief"
+
+msgid "Ajax error while update form"
+msgstr "Ajax fout tijdens bijwerken formulier"
+
+msgid "Edit Forms"
+msgstr "Bewerk formulieren"
+
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+msgid "WARNING: You are about to delete this form and ALL entries associated with it. "
+msgstr "WAARSCHUWING: Je staat op het punt dit formulier en alle geassocieerde inzendingen te verwijderen."
+
+msgid "\\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr "\\'Annuleren\\' om te stoppen, \\'OK\\' om te verwijderen."
+
+msgid "Id"
+msgstr "ID"
+
+msgid "Views"
+msgstr "Weergaves"
+
+msgid "Conversion"
+msgstr "Conversie"
+
+msgid "Preview"
+msgstr "Vooraf bekijken"
+
+msgid "View entries generated by this form"
+msgstr "Bekijk inzendingen van dit formulier."
+
+msgid "Edit notifications sent by this form"
+msgstr "Bewerk notificaties verzonden door dit formulier."
+
+msgid "Notifications"
+msgstr "Notificaties"
+
+msgid "Duplicate this form"
+msgstr "Dupliceer dit formulier"
+
+msgid "Duplicate"
+msgstr "Dupliceer"
+
+msgid "You don't have adequate permission to delete forms."
+msgstr "Je hebt onvoldoende rechten om formulieren te verwijderen."
+
+msgid "You don't have adequate permission to create forms."
+msgstr "Je hebt onvoldoende toestemming om formulieren te creëren."
+
+msgid "You don't have adequate permission to delete entries."
+msgstr "Je hebt onvoldoende toestemming om gegevens te verwijderen."
+
+msgid "You don't have adequate permission to add notes."
+msgstr "Je hebt onvoldoende toestemming om notities toe te voegen."
+
+msgid "You don't have adequate permission to delete notes."
+msgstr "Je hebt onvoldoende toestemming om notities te verwijderen."
+
+msgid "You don't have adequate permission to edit entries."
+msgstr "Je hebt onvoldoende toestemming om gegevens te bewerken."
+
+msgid "Forms"
+msgstr "Formulieren"
+
+msgid "New Form"
+msgstr "Nieuw formulier"
+
+msgid "Settings"
+msgstr "Instellingen"
+
+msgid "Export"
+msgstr "Exporteer"
+
+msgid "Help"
+msgstr "Help"
+
+msgid "Add Gravity Form"
+msgstr "Voeg Gravity Form toe"
+
+msgid "Please select a form"
+msgstr "Selecteer een formulier"
+
+msgid "Insert A Form"
+msgstr "Formulier invoegen"
+
+msgid "Select a form below to add it to your post or page."
+msgstr "Selecteer hieronder een formulier om het aan je bericht of pagina toe te voegen"
+
+msgid "Can't find your form? Make sure it is active."
+msgstr "Kun je een formulier niet vinden? Zorg dat het actief is."
+
+msgid "display form title"
+msgstr "toon formuliertitel"
+
+msgid "display form description"
+msgstr "toon formulierbeschrijving"
+
+msgid "There is a new version of Gravity Forms available."
+msgstr "Nieuwe versie van Gravity Forms beschikbaar"
+
+msgid "View version %s Details"
+msgstr "Bekijk details van versie %s"
+
+msgid "<a href=\"admin.php?page=gf_settings\">Register</a> your copy of Gravity Forms to receive access to automatic upgrades and support. Need a license key? <a href=\"http://www.gravityforms.com\">Purchase one now</a>."
+msgstr "<a href=\"admin.php?page=gf_settings\">Registreer</a> je exemplaar van Gravity Formsom  toegang tot automatische upgrades en ondersteuning te krijgen. Heb je een licentiesleutel nodig? <a href=\"http://www.gravityforms.com\">Koop een er nu een</a>."
+
+msgid "Oops!! Something went wrong.<br/>Please try again or <a href='http://www.gravityforms.com'>contact us</a>."
+msgstr "Er is iets verkeerd gegaan.<br/>Probeer s.v.p. opnieuw of <a href='http://www.gravityforms.com'>neem contact met ons op</a>."
+
+msgid "View All Entries"
+msgstr "Bekijk alle inzendingen"
+
+msgid "View Unread Entries"
+msgstr "Lees ongelezen inzendingen"
+
+msgid "Gravity Forms Help"
+msgstr "Gravity Forms versie"
+
+msgid "Embedding a form"
+msgstr "Een formulier embedden"
+
+msgid "There are two ways to embed a form to a post or page."
+msgstr "Er zijn twee manieren om een formulier te embedden in een bericht of pagina."
+
+msgid "Shortcode:"
+msgstr "Shortcode:"
+
+msgid "Add the following shortcode to your page or post"
+msgstr "Voeg de volgende shortcode toe aan je pagina of bericht"
+
+msgid "id"
+msgstr "ID"
+
+msgid "(Required) The id of the form to be embedded"
+msgstr "(Verplicht) Het id van het toe te voegen formulier"
+
+msgid "title"
+msgstr "title"
+
+msgid "(Optional) Whether or not do display the form title. Defaults to 'false'"
+msgstr "(Optioneel) Wel of niet tonen van formuliertitel. Standaard op 'false'"
+
+msgid "description"
+msgstr "description"
+
+msgid "(Optional) Whether or not do display the form description. Defaults to 'false'"
+msgstr "(Optioneel) Wel of niet tonen van formulierbeschrijving. Standaard op 'false'"
+
+msgid "Add the following function call to your template"
+msgstr "Voeg de volgende 'function call' toe aan je template"
+
+msgid "Parameter 1 (id)"
+msgstr "Inzending ID"
+
+msgid "Parameter 2 (title)"
+msgstr "Parameter 2 (titel)"
+
+msgid "Parameter 3(description)"
+msgstr "Parameter 3(beschrijving)"
+
+msgid "Action Hooks and Filters"
+msgstr "Actiehaken en -filters"
+
+msgid "The following hooks and filters allow developers to integrate Gravity Forms with other plugins."
+msgstr "De volgende hooks en filters bieden ontwikkelaars de mogelijkheid om Gravity Forms te integreren met andere plugins."
+
+msgid "This action hook runs during form submission after validation has taken place and before entry data has been saved"
+msgstr "De 'action hook' loopt tijdens invullen van formulier, na validatie en voordat de gegevens van de inzending zijn opgeslagen."
+
+msgid "Sample"
+msgstr "Voorbeeld"
+
+msgid "This action hook runs after entry data has been saved"
+msgstr "De 'action hook' loop nadat de gegevens van de inzending zijn opgeslagen"
+
+msgid "Filters the form submit buton"
+msgstr "Filtert de verzendknop van het formulier"
+
+msgid "Same as gform_submit_button, but it only applies to the specified form"
+msgstr "Zelfde als gform_submit_button, maar is alleen van toepassing op specifiek formulier"
+
+msgid "The form title you have entered is already taken. Please enter an unique form title"
+msgstr "De gekozen formuliertitel is al in gebruik. Geef het formulier een unieke naam."
+
+msgid "Ajax error while setting post template"
+msgstr "Ajax fout tijdens het instellen van de lead eigenschap"
+
+msgid "Warning! Deleting this field will also delete all entry data associated with it. \\'Cancel\\' to stop. \\'OK\\' to delete"
+msgstr "Let op! Door dit veld te verwijderen zullen alle gekoppelde gegevens verloren gaan. \\'Annulerenl\\' om te stoppen. \\'OK\\' om te verwijderen"
+
+msgid "Untitled"
+msgstr "Geen titel"
+
+msgid "First Choice"
+msgstr "Eerste keuze"
+
+msgid "Second Choice"
+msgstr "Tweede keuze"
+
+msgid "Third Choice"
+msgstr "Derde keuze"
+
+msgid "State / Province"
+msgstr "Provincie"
+
+msgid "Hidden Field"
+msgstr "Verborgen veld"
+
+msgid "Post Title"
+msgstr "Titel van bericht"
+
+msgid "Post Body"
+msgstr "Berichttekst"
+
+msgid "Post Excerpt"
+msgstr "Samenvatting"
+
+msgid "Post Tags"
+msgstr "Bericht tags"
+
+msgid "Post Custom Field"
+msgstr "Aangepast veld"
+
+msgid "Post Image"
+msgstr "Bericht Afbeelding"
+
+msgid "Only one reCAPTCHA field can be added to the form."
+msgstr "Slechts een reCAPTCHA veld mogelijk."
+
+msgid "Ajax error while adding field"
+msgstr "Ajax fout tijdens toevoegen veld"
+
+msgid "Close"
+msgstr "Sluiten"
+
+msgid "Ajax error while changing input type"
+msgstr "Ajax Fout tijdens het wijzigen van het input type"
+
+msgid "To use conditional logic, please create a drop down, checkbox or multiple choice field."
+msgstr "Voor het gebruik van conditionele logic, maak een drop-down,  checkbox of een multiple-choice veld."
+
+msgid "Show"
+msgstr "Toon"
+
+msgid "Hide"
+msgstr "Verberg"
+
+msgid "this field if"
+msgstr "dit veld als"
+
+msgid "Any"
+msgstr "één"
+
+msgid "of the following match:"
+msgstr "van de volgende passende:"
+
+msgid "is"
+msgstr "is"
+
+msgid "is not"
+msgstr "is niet"
+
+msgid "Parameter Name:"
+msgstr "Parameter Naam:"
+
+msgid "Select a field"
+msgstr "Selecteer een veld"
+
+msgid "User IP Address"
+msgstr "IP-adres gebruiker"
+
+msgid "Send to"
+msgstr "Stuur naar"
+
+msgid "if"
+msgstr "als"
+
+msgid "Notification to Administrator"
+msgstr "Notificatiebericht voor adminstrator"
+
+msgid "Enable email notification to administrators"
+msgstr "E-mailnotificatie voor beheerders inschakelen"
+
+msgid "Enter a message below to receive a notification email when users submit this form."
+msgstr "Type hieronder een bericht om een notificatie te krijgen als een gebruiker het formulier ingevuld heeft."
+
+msgid "Send To Email"
+msgstr "Aan"
+
+msgid "Routing"
+msgstr "Routing"
+
+msgid "Please enter a valid email address"
+msgstr "Vul een geldig emailadres"
+
+msgid "To use notification routing, your form must have a drop down, checkbox or multiple choice field."
+msgstr "Voor het gebruik van de notificatie-routing, moet je formulier een drop-down-, checkbox- of meerkeuzeveld bevatten."
+
+msgid "Please enter a valid email address for all highlighted routing rules above."
+msgstr "Vul een geldig e-mail adres voor alle gemarkeerde routing regels hierboven."
+
+msgid "From Email"
+msgstr "Van"
+
+msgid "OR"
+msgstr "OR"
+
+msgid "Select an email field"
+msgstr "Selecteer een e-mailveld"
+
+msgid "Reply To"
+msgstr "Antwoord op"
+
+msgid "BCC"
+msgstr "BCC"
+
+msgid "Subject"
+msgstr "Onderwerp"
+
+msgid "Please enter a subject for the notification email"
+msgstr "Geef een onderwerp voor de email notificatie"
+
+msgid "Message"
+msgstr "Bericht"
+
+msgid "Please enter a message for the notification email"
+msgstr "Vul een bericht voor de notificatie email"
+
+msgid "Notification to User"
+msgstr "Notificatiebericht voor gebruiker"
+
+msgid "Enable email notification to users"
+msgstr "Schakel email notificatie in aan gebruikers"
+
+msgid "Enter a message below to send users an automatic response when they submit this form."
+msgstr "Type hieronder een bericht om gebruikers automatisch een notificatie te sturen als zij het formulier invullen."
+
+msgid "Send To Field"
+msgstr "Sturen naar veld"
+
+msgid "Reply To (optional)"
+msgstr "Beantwoord aan (optioneel)"
+
+msgid "Please enter a subject for the user notification email"
+msgstr "Geef een onderwerp voor de aanmelding email-notificatie voor de gebruiker"
+
+msgid "Please enter a message for the user notification email"
+msgstr "Vul een boodschap in voor de gebruiker notificatie email"
+
+msgid "Save Settings"
+msgstr "Instellingen opslaan"
+
+msgid "Notification Updated."
+msgstr "Notificatie bijgewerkt"
+
+msgid "Notification could not be updated. Please enter all required information below."
+msgstr "Notificatie kon niet worden bijgewerkt. Vul alle benodigde informatie hieronder."
+
+msgid "You don't have adequate permission to preview forms."
+msgstr "Je hebt onvoldoende toestemming om formulier voorbeelden te zien."
+
+msgid "Form Preview"
+msgstr "Formulier vooraf bekijken"
+
+msgid "close window"
+msgstr "venster sluiten"
+
+msgid "You don't have adequate permission to view entries."
+msgstr "Je hebt onvoldoende toestemming om de gegevens te bekijken."
+
+msgid "Form Id and Lead Id are required parameters."
+msgstr "Formulier Id en Lead Id zijn vereiste parameters."
+
+msgid "Oops! We could not locate your form. Please try again."
+msgstr "Helaas! Formulier niet traceerbaar. Probeer a.u.b. opnieuw."
+
+msgid "Active Columns"
+msgstr "Actieve kolommen"
+
+msgid "Inactive Columns"
+msgstr "Inactieve kolommen"
+
+msgid "Save"
+msgstr "Opslaan"
+
+msgid "Gravity Forms Settings"
+msgstr "Gravity Forms instellingen"
+
+msgid "You don't have adequate permission to edit settings."
+msgstr "Je hebt onvoldoende toestemming om instellingen te bewerken."
+
+msgid "You don't have adequate permission to uninstall Gravity Forms."
+msgstr "Je hebt onvoldoende toestemming om Gravity Forms te verwijderen."
+
+msgid "Support License Key"
+msgstr "Support licentiecode"
+
+msgid "The license key is used for access to automatic upgrades and support."
+msgstr "De licentiecode wordt gebruikt voor automatische upgrades en support."
+
+msgid "Output CSS"
+msgstr "Output CSS"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "No"
+msgstr "Nee"
+
+msgid "Set this to No if you would like to disable the plugin from outputting the form CSS."
+msgstr "Selecteer Nee als je geen gebruik wilt maken van de standaard styling van Gravity Forms."
+
+msgid "reCAPTCHA Settings"
+msgstr "reCAPTCHA instellingen"
+
+msgid "Gravity Forms integrates with reCAPTCHA, a free CAPTCHA service that helps to digitize books while protecting your forms from spam bots. "
+msgstr "Gravity Formulieren integreert met reCAPTCHA, een gratis CAPTCHA service die helpt om boeken te digitaliseren en tegelijk formulieren beschermt tegen spamrobots. "
+
+msgid "Read more about reCAPTCHA"
+msgstr "Lees meer over reCAPTCHA"
+
+msgid "reCAPTCHA Public Key"
+msgstr "reCAPTCHA Public Key"
+
+msgid "Required only if you decide to use the reCAPTCHA field."
+msgstr "Alleen noodzakelijk als je besluit reCAPTCHA te gebruiken."
+
+msgid "reCAPTCHA Private Key"
+msgstr "reCAPTCHA Private Key"
+
+msgid "Installation Status"
+msgstr "Installatiestatus"
+
+msgid "PHP Version"
+msgstr "PHP versie"
+
+msgid "Gravity Forms requires PHP 5 or above."
+msgstr "Gravity Forms vereist PHP 5 of hoger."
+
+msgid "MySQL Version"
+msgstr "MySQL versie"
+
+msgid "Gravity Forms requires MySQL 5 or above."
+msgstr "Gravity Forms vereist MySQL 5 of hoger."
+
+msgid "WordPress Version"
+msgstr "WordPress versie"
+
+msgid "Gravity Forms requires WordPress 2.8 or above."
+msgstr "Gravity Forms vereist WordPress 2.8 of hoger."
+
+msgid "Gravity Forms Version"
+msgstr "Gravity Forms versie"
+
+msgid "Uninstall Gravity Forms"
+msgstr "Gravity Forms deïnstalleren"
+
+msgid "Warning! This operation deletes ALL Gravity Forms data."
+msgstr "Let op! Deze actie verwijdert ALLE gegevens van Gravity Forms."
+
+msgid "Warning! ALL Gravity Forms data will be deleted, including entries. This cannot be undone. \\'OK\\' to delete, \\'Cancel\\' to stop"
+msgstr "Let op! ALLE Gravity Formulieren gegevens worden verwijderd, inclusief aantekeningen. Dit kan niet ongedaan worden gemaakt. \\'OK\\' om te verwijderen, \\'Annuleren\\' om te stoppen"
+
+msgid "Settings Updated"
+msgstr "Instellingen bijgewerkt"
+
+msgid "Send To Email Address"
+msgstr "Aan emailadres"
+
+msgid "Enter the email address you would like the administrator notification email sent to."
+msgstr "Type het e-mailadres waar je de admin-notificatie naartoe wilt sturen."
+
+msgid "Allows notification to be sent do different email addresses depending on values selected in the form."
+msgstr "Maakt notificaties mogelijk die naar verschillende e-mailadressen verzonden kunnen worden, afhankelijk van gekozen waarden in het formulier."
+
+msgid "From Email Address"
+msgstr "Van emailadres"
+
+msgid "Enter the email address you would like the administrator notification email sent from, or select the email from available email form fields."
+msgstr "Type het e-mailadres van de afzender van de admin-notificatie of selecteer het e-mailadres uit de formuliervelden."
+
+msgid "Enter the email address you would like to be used as the reply to address for the administrator notification email."
+msgstr "Voer het emailadres dat je wilt gebruiken als het antwoordadres voor de beheerder email notificatie."
+
+msgid "Blind Carbon Copy Addresses"
+msgstr "BCC Adressen"
+
+msgid "Enter a comma separated list of email addresses you would like to receive a BCC of the administrator notification email."
+msgstr "Voer een kommagescheiden lijst van e-mailadressen in waarvan je wilt dat deze een BCC krijgen van de admin-notificatie."
+
+msgid "Select the email form field that the user notification email should be sent to."
+msgstr "Selecteer het e-mail formulierveld waar het gebruikersnotificatiebericht naartoe gestuurd moet worden."
+
+msgid "Enter a comma separated list of email addresses you would like to receive a BCC of the user notification email."
+msgstr "Voer een kommagescheiden lijst van e-mailadressen in waarvan je wilt dat deze een BCC krijgen van het gebruikersnotificatiebericht."
+
+msgid "Enter the email address you would like the user notification email sent from."
+msgstr "Voer het e-mailadres van de afzender van de notificatie voor inzenders."
+
+msgid "Reply To Address"
+msgstr "Antwoord op Adres"
+
+msgid "Enter the email address you would like to be used as the reply to address for the user notification email."
+msgstr "Type het e-mailadres dat je als antwoordadres wilt gebruiken voor de notificatiemail."
+
+msgid "Limit Form Activity"
+msgstr "Limiteer Formulier Activiteit"
+
+msgid "Limit the number of entries a form can generate and/or schedule a time period the form is active."
+msgstr "Beperk het aantal inzendingen dat een formulier kan genereren en/of plan een periode dat het formulier actief is."
+
+msgid "Limit Number of Entries"
+msgstr "Beperk maximum aantal inzendingen"
+
+msgid "Enter a number in the input box below to limit the number of entries allowed for this form. The form will become inactive when that number is reached."
+msgstr "Voer een getal in het invoerveld hieronder om het aantal toegestane inzendingen voor dit formulier te beperken. Het formulier wordt inactief wanneer dat aantal is bereikt."
+
+msgid "Schedule Form"
+msgstr "Formulierplanning"
+
+msgid "Schedule a time period the form is active."
+msgstr "Plan een periode dat het formulier actief is."
+
+msgid "Enter the title of your form."
+msgstr "Voer de titel van je formulier in."
+
+msgid "Form Description"
+msgstr "Formulier Beschrijving"
+
+msgid "Enter a description for your form. This may be used for user instructions."
+msgstr "Bepaal de beschrijving van je formulier. Je kunt dit gebruiken om gebruikers instructies te geven."
+
+msgid "Form Label Placement"
+msgstr "Formulier Label Placement"
+
+msgid "Select the label placement.  Labels can be top aligned above a field, left aligned to the left of a field, or right aligned to the left of a field."
+msgstr "Bepaal hoe je de labels wilt plaatsen. Labels kunnen boven een veld, links van een veld of recht van een veld geplaatst worden."
+
+msgid "Form Button Text"
+msgstr "Tekst voor formulierknop"
+
+msgid "Enter the text you would like to appear on the form submit button."
+msgstr "Vul de tekst in die je voor de verzendknop wilt gebruiken."
+
+msgid "Form Button Image"
+msgstr "Formulier Knop Afbeelding"
+
+msgid "Enter the path to an image you would like to use as the form submit button."
+msgstr "Definieer de locatie van de afbeelding die je als verzendknop wilt gebruiken."
+
+msgid "Form CSS Class Name"
+msgstr "Formulier CSS class naam"
+
+msgid "Enter the CSS class name you would like to use in order to override the default styles for this form."
+msgstr "Type de CSS classnaam die je wilt gebruiken om de standaard styling te overschrijven."
+
+msgid "Confirmation Message Text"
+msgstr "Bevestigingsbericht tekst"
+
+msgid "Enter the text you would like the user to see on the confirmation page of this form."
+msgstr "Type de tekst die je wilt gebruiken voor de bevestigingspagina van dit formulier."
+
+msgid "Redirect Form to Page"
+msgstr "Omleiden naar pagina"
+
+msgid "Select the page you would like the user to be redirected to after they have submitted the form."
+msgstr "Selecteer de pagina waar je zou willen dat de gebruiker naar wordt doorgestuurd nadat ze het formulier hebben ingevuld."
+
+msgid "Redirect Form to URL"
+msgstr "Redirect Formulier naar URL"
+
+msgid "Enter the URL of the webpage you would like the user to be redirected to after they have submitted the form."
+msgstr "Type de URL waar je gebruikers naartoe wilt lijden nadat zij het formulier hebben ingevuld."
+
+msgid "Pass Data Via Query String"
+msgstr "Pass Data Via Queryreeksfilter"
+
+msgid "To pass field data to the confirmation page, build a Query String using the 'Insert form field' drop down. <a href='http://en.wikipedia.org/wiki/Query_string' target='_blank'>..more info on querystrings &raquo;</a>"
+msgstr "Om veld data naar de bevestigingspagina te sturen, bouw je een Query String met behulp van de 'Insert formulier veld' drop-down. <a href='http://en.wikipedia.org/wiki/Query_string' target='_blank'> .. meer info over querystrings &raquo;</a>"
+
+msgid "Enter the label of the form field.  This is the field title the user will see when filling out the form."
+msgstr "Type een label voon het veld.  Dit is zichtbaar tijdens het invullen van het formulier."
+
+msgid "Recaptcha Theme"
+msgstr "ReCAPTCHA Thema"
+
+msgid "Select the visual theme for the reCAPTCHA field the available options to better match your site design."
+msgstr "Selecteer het visuele thema voor het reCAPTCHA veld zodat het beter bij de stijl van je website past."
+
+msgid "Select the custom field name from available existing custom fields, or enter a new custom field name."
+msgstr "Selecteer de naam van het aangepaste veld uit beschikbaar bestaande aangepaste velden of type een nieuwe naam."
+
+msgid "Field type"
+msgstr "Soort veld"
+
+msgid "Select the type of field from the available form fields."
+msgstr "Selecteer het gewenste veldtype uit de beschikbare formuliervelden."
+
+msgid "Select the type of inputs you would like to use for the date field. Date Picker will let users select a date from a calendar. Date Field will let users free type the date."
+msgstr "Selecteer het type input dat je wilt gebruiken voor het datumveld. Date Picker laat gebruikers een datum kiezen uit een kalender. In het datumveld kunnen gebruikers zelf de datum aangeven."
+
+msgid "Select the type of address you would like to use."
+msgstr "Selecteer het type adres dat je wilt gebruiken."
+
+msgid "Select the state you would like to be selected by default when the form gets displayed."
+msgstr "Selecteer de staat die je zou je willen worden tonen als standaard wanneer het formulier wordt weergegeven."
+
+msgid "Select the province you would like to be selected by default when the form gets displayed."
+msgstr "Selecteer de provincie die je standaard geselecteerd wilt hebben wanneer het formulier wordt weergegeven."
+
+msgid "Select the country you would like to be selected by default when the form gets displayed."
+msgstr "Selecteer het land wat je standaard geselecteerd wilt hebben wanneer het formulier wordt weergegeven."
+
+msgid "Hide Country"
+msgstr "Verberg Land"
+
+msgid "For addresses that only apply to one country, you can choose to not display the country drop down. Entries will still be recorded with the selected country."
+msgstr "Voor de adressen die alleen van toepassing op een land, kunt je ervoor kiezen om de land drop-down niet weer te geven. Inzendingen zullen nog worden opgenomen met het geselecteerde land."
+
+msgid "Hide Address Line 2"
+msgstr "Verberg Adres Regel 2"
+
+msgid "Check this box to prevent the extra address input (Address Line 2) from being displayed in the form."
+msgstr "Selecteer dit vakje om de extra adres-ingang (Adres Regel 2) weer te gegeven in het formulier."
+
+msgid "Field Name Format"
+msgstr "Veldnaam Format"
+
+msgid "Select the format you would like to use for the Name field.  There are 3 options, Normal which includes First and Last Name, Extended which adds Prefix and Suffix, or Simple which is a single input field."
+msgstr "Selecteer het formaat dat je wilt gebruiken voor het Naamveld. Er zijn 3 opties. Normaal: voor- en achternaam. Uitgebreid: voorvoegsel en achtervoegsel. Eenvoudig: een enkel veld."
+
+msgid "Field Date Format"
+msgstr "Veld Datum Format"
+
+msgid "Select the format you would like to use for the date input.  Available options are MM/DD/YYYY and DD/MM/YYYY."
+msgstr "Selecteer het formaat dat je wilt gebruiken voor de datum. Beschikbare opties zijn MM / DD / JJJJ en DD / MM / JJJJ."
+
+msgid "Allowed File Extensions"
+msgstr "Toegestane Bestandsextensies"
+
+msgid "Enter that allowed file extensions for file uploads.  This will limit what type of files a user may upload."
+msgstr "Bepaal de toegestane bestandsformaten voor uploads."
+
+msgid "Phone Number Format"
+msgstr "Telefoonnummer Format"
+
+msgid "Select the format you would like to use for the phone input.  Available options are domestic US/CANADA style phone number and international long format phone number."
+msgstr "Selecteer het format dat je wilt gebruiken voor de telefoonnummer ingang. Beschikbare opties VS / Canada telefoonnummers en internationale lange-format telefoonnummer."
+
+msgid "Field Description"
+msgstr "Veld Beschrijving"
+
+msgid "Enter the description for the form field.  This will be displayed to the user and provide some direction on how the field should be filled out or selected."
+msgstr "Type een beschrijving voor dit veld. Dit wordt getoond aan de gebruiker en biedt insctructies voor het invullen van het veld."
+
+msgid "Required Field"
+msgstr "Verplicht veld"
+
+msgid "Select this option to make the form field required.  A required field will prevent the form from being submitted if it is not filled out or selected."
+msgstr "Selecteer deze optie om dit veld verplicht te maken. Een niet ingevuld of onjuist ingevuld verplicht veld zal voorkomen dat een formulier verzonden wordt."
+
+msgid "Select this option to limit user input to unique values only.  This will require that a value entered in a field does not currently exist in the entry database for that field."
+msgstr "Selecteer deze optie als je wilt dat de gebruiker alleen unieke waarden kan invullen. Dit vereist dat de ingevulde waarde nog niet bestaat in de database voor dat veld."
+
+msgid "Number Range"
+msgstr "Aantal Range"
+
+msgid "Enter the minimum and maximum values for this form field.  This will require that the value entered by the user must fall within this range."
+msgstr "Bepaal een minimum en maximum waarde voor dit veld the minimum and maximum values for this form field.  Dit vereist dat de ingevulde waarde binnen het bepaalde bereik moet vallen."
+
+msgid "Enter the admin label of the form field.  Entering a value in this field will override the Field Label when displayed in the Gravity Forms administration tool."
+msgstr "Type een admin label voor dit veld. Het invoeren van een waarde in dit veld heeft voorrang op het veld Label in de admin weergave."
+
+msgid "Select a form field size from the available options.  This will set the width of the field."
+msgstr "Selecteer een veldgrootte uit de beschikbare opties. Dit zal de breedte van het veld bepalen."
+
+msgid "If you would like to pre-populate the value of a field, enter it here."
+msgstr "Type hier een de stadaardwaarde die je aan het veld mee wilt geven."
+
+msgid "If you would like to override the default error validation for a field, enter it here.  This message will be displayed if there is an error with this field when the user submits the form."
+msgstr "Wil je de standaard fout validatie overschrijven voor een veld, dan kun je hier een bericht invoeren dat wordt weergegeven als een gebruiker een ongeldige waarde heeft ingevuld."
+
+msgid "reCaptcha Language"
+msgstr "recaptcha Taal"
+
+msgid "Select the language you would like to use for the reCAPTCHA display from the available options."
+msgstr "Selecteer de taal die je wilt gebruiken voor reCAPTCHA."
+
+msgid "Enter the CSS class name you would like to use in order to override the default styles for this field."
+msgstr "Type de CSS classnaam die je wilt gebruiken om de standaard styling van dit veld te overschrijven."
+
+msgid "Select the visibility for this field. Field visibility set to Everyone will be visible by the user submitting the form. Form field visibility set to Admin Only will only be visible within the Gravity Forms administration tool.<br /><br />Setting a field to Admin Only is useful for creating fields that can be used to set a status or priority level on submitted entries."
+msgstr "Selecteer de zichtbaarheid voor dit gebied. Veld zichtbaarheid ingesteld op Iedereen zal zichtbaar zijn voor de gebruiker die het formulier verzendt. Formulier veld zichtbaarheid is ingesteld op Admin zal alleen zichtbaar zijn binnen de Gravity Forms administratie tool. <br /> <br /> Het instellen van een veld op Admin Alleen is bruikbaar voor het maken van velden die kunnen worden gebruikt om een status of prioriteit in te stellen op de ingediende inzendingen."
+
+msgid "Field Choices"
+msgstr "Veld Keuzes"
+
+msgid "Add Choices to this field. You can mark each choice as checked by default by using the radio/checkbox fields on the left."
+msgstr "Voeg keuzes toe voor dit veld. Je kunt iedere keuze markeren als standaard aangevinkt met behulp van de radio / checkbox velden aan de linkerkant."
+
+msgid "Conditional Logic"
+msgstr "Conditionele Logica"
+
+msgid "Create rules to dynamically display or hide this field based on values from another field"
+msgstr "Regels creëren om dynamisch velden weer te geven of te verbergen op basis van waarden uit een ander veld"
+
+msgid "Select which categories are displayed. You can choose to display all of them or select individual ones."
+msgstr "Selecteer welke categorieën worden weergegeven. Je kunt ervoor kiezen om ze allemaal weer te geven of selecteer ze individueel."
+
+msgid "Select the post status that will be used for the post that is created by the form entry."
+msgstr "Selecteer de bericht status die gebruikt moet worden voor een bericht die gemaakt wordt door het formulier."
+
+msgid "Post Author"
+msgstr "Auteur bericht"
+
+msgid "Select the author that will be used for the post that is created by the form entry."
+msgstr "Selecteer de auteur die gebruikt moet worden voor het bericht dat wordt aangemaakt door het formulier."
+
+msgid "Select the category that will be used for the post that is created by the form entry."
+msgstr "Selecteer de categorie die gebruikt zal worden voor het bericht dat wordt aangemaakt door de formulier entry."
+
+msgid "Use Current User as Author"
+msgstr "Gebruik Huidige Gebruiker als Auteur"
+
+msgid "Selecting this option will set the post author to the WordPress user that submitted the form."
+msgstr "Selecteren van deze optie zet de post auteur WordPress gebruiker die het formulier heeft ingediend."
+
+msgid "Image Meta"
+msgstr "Afbeeldingsmeta"
+
+msgid "Select one or more image metadata field to be displayed along with the image upload field. They enable users to enter additional information about the uploaded image."
+msgstr "Selecteer een of meer metagegevens velden van de afbeelding die getoond moeten worden samen met het uploaden van afbeeldingen veld. Ze stellen gebruikers in staat om aanvullende informatie over de geladen afbeelding in te voeren."
+
+msgid "Incoming Field Data"
+msgstr "Inkomende veldgegevens"
+
+msgid "Check this option to enable data to be passed to the form and pre-populate this field dynamically. Data can be passed via Query Strings, Shortcode and/or Hooks"
+msgstr "Vink deze optie aan om meer gegevens door te geven aan het formulier en de pre-populate van dit veld dynamisch. Gegevens kunnen worden doorgegeven via Query Strings, Shortcode en / of Hooks"
+
+msgid "Standard Fields provide basic form functionality. Use them to create a wide variety of flexible fields."
+msgstr "Standaardvelden bieden de basis formulierfunctionaliteit. Gebruik ze om een breed scala aan flexibele velden te maken."
+
+msgid "Advanced Fields are for specific uses.  They enable advanced formatting of regularly used fields such as Name, Email, Address, etc."
+msgstr "Geavanceerde velden bevatten veelgebruikte formuliervelden als naam, e-mail, adres, etc. om tijd en dubbel werk te besparen, maar ook om geavanceerde opmaak mogelijk te maken."
+
+msgid "Post Fields allow you to add fields to your form that create Post Drafts in WordPress from the submitted data."
+msgstr "Berichtvelden bieden de mogelijkheid om velden toe te voegen aan je formulier. Deze velden maken automatisch conceptberichten aan in WordPress."
+
+msgid "Export Selected Form"
+msgstr "Exporteer het Geselecteerde Formulier"
+
+msgid "Select the form you would like to export entry data from. You may only export data from one form at a time."
+msgstr "Selecteer het formulier waarvan je data wilt exporteren. Je kunt per keer slecht gegevens van één formulier exporteren."
+
+msgid "Export Selected Fields"
+msgstr "Exporteer de geselecteerde velden"
+
+msgid "Select the fields from the select form you would like to export data from."
+msgstr "Selecteer de velden waarvan je de gegevens wilt exporteren."
+
+msgid "Export Date Range"
+msgstr "Exporteer Datum Bereik"
+
+msgid "Select a date range. Setting a range will only export entries submitted during that date range. If no range is set, all entries will be exported."
+msgstr "Selecteer een datumbereik. Instellen van een datumbereik zal alleen inzendingen binnen dat bereik exporteren. Als er geen bereik is ingesteld, worden alle inzendingen geëxporteerd."
+
+msgid "Settings License Key"
+msgstr "Settings License Key"
+
+msgid "Your Gravity Forms support license key is used to verify your support package, enable automatic updates and receive support."
+msgstr "De Gravity Forms support license key wordt gebruikt om te verifiëren of je recht hebt op automatische updates."
+
+msgid "Select yes or no to enable or disable CSS output.  Setting this to no will disable the standard Gravity Forms CSS from being included in your theme."
+msgstr "Selecteer ja of nee om CSS output in of uit te schakelen. Dit zal de standaard styling van Gravity Forms uitschakelen."
+
+msgid "reCaptcha Public Key"
+msgstr "recaptcha Public Key"
+
+msgid "Enter your reCAPTCHA Public Key, if you do not have a key you can register for one at the provided link.  reCAPTCHA is a free service."
+msgstr "Type hier je reCAPTCHA Prvate Key. Nog geen reCAPTCHA Key? Meld je aan via de verstrekte link. reCAPTCHA is een gratis service."
+
+msgid "reCaptcha Private Key"
+msgstr "recaptcha Private Key"
+
+msgid "Enter your reCAPTCHA Private Key, if you do not have a key you can register for one at the provided link.  reCAPTCHA is a free service."
+msgstr "Type hier je reCAPTCHA Prvate Key. Nog geen reCAPTCHA Key? Meld je aan via de verstrekte link. reCAPTCHA is een gratis service."
+
+msgid "Entries Conversion"
+msgstr "Entries Conversie"
+
+msgid "Conversion is the percentage of form views that generated an entry. If a form was viewed twice, and one entry was generated, the conversion will be 50%."
+msgstr "Conversie is het percentage van formulierweergaves dat inzending oplevert. Als een formulier twee keer is bekeken, en een keer ingevuld is, zal de conversie 50% zijn."
