@@ -1,5 +1,5 @@
 === Gravity Forms (nl) ===
-Contributors: pronamic, remcotolsma, brainscrewer
+Contributors: pronamic, remcotolsma, Brainscrewer
 Tags: gravityforms, gravity, form, forms, translation, dutch, nl, nl_NL
 Requires at least: 3.0
 Tested up to: 3.0
