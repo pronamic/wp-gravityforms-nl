@@ -1,9 +1,9 @@
 === Gravity Forms (nl) ===
-Contributors: pronamic, remcotolsma 
+Contributors: pronamic, remcotolsma, brainscrewer
 Tags: gravityforms, gravity, form, forms, translation, dutch, nl, nl_NL
 Requires at least: 3.0
 Tested up to: 3.0
-Stable tag: 1.4.3.1
+Stable tag: 1.4.5
 
 This WordPress plugin extends the Gravity Forms plugin with the Dutch translation.
 
@@ -24,6 +24,9 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 
 == Changelog ==
+
+= 1.4.5 =
+*	Added 370 new translations (thanks to [Pim Vellinga](http://twitter.com/brainscrewer)) 
 
 = 1.4.3.1 =
 *	Initial release (thanks to [Jelke Boonstra](http://twitter.com/jelkeboonstra), [Karel-Jan Tolsma](http://twitter.com/kjtolsma), 
