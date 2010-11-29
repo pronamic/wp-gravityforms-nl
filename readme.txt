@@ -31,7 +31,7 @@ WordPress installation and then activate the Plugin from Plugins page.
 = 1.4.3.1 =
 *	Initial release (thanks to [Jelke Boonstra](http://twitter.com/jelkeboonstra), [Karel-Jan Tolsma](http://twitter.com/kjtolsma), 
 	[Pim Vellinga](http://twitter.com/brainscrewer), [Remkus de Vries](http://twitter.com/DeFries) 
-	and [Jan Egbert](http://twitter.com/janegbert))
+	and [Jan Egbert Krikken](http://twitter.com/janegbert))
 
 
 == Links ==
