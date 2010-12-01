@@ -25,6 +25,11 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 == Changelog ==
 
+= 1.4.? =
+*	Added the Dutch translation of the [jQuery UI datepicker](http://jqueryui.com/demos/datepicker/)
+	[This Dutch translation of jQuery UI date picker can be found in on Google Code] (http://code.google.com/p/jquery-ui/source/browse/trunk/ui/i18n/jquery.ui.datepicker-nl.js)
+	More information about this can be bound on [the weblog of Remco Tolsma](http://remcotolsma.nl/2010/10/gravity-forms-datepicker-in-het-nederlands/)
+
 = 1.4.5 =
 *	Added 370 new translations (thanks to [Pim Vellinga](http://twitter.com/brainscrewer)) 
 
