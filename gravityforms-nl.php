@@ -10,6 +10,12 @@ Author URI: http://pronamic.eu/
 License: GPL
 */
 
+function pronamic_gravityforms_init() {
+	load_plugin_textdomain('gravityformsuserregistration', false, dirname(plugin_basename(__FILE__)) . '/languages/');
+}
+
+add_action('init', 'pronamic_gravityforms_init');
+
 function pronamic_gravityforms_change_mo_file_location($moFile, $domain) {
 	$isDutch = (WPLANG == 'nl' || WPLANG == 'nl_NL');
 
