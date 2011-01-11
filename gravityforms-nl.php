@@ -11,11 +11,18 @@ License: GPL
 */
 
 function pronamic_gravityforms_change_mo_file_location($moFile, $domain) {
-	$isGravityForms = ($domain == 'gravityforms');
 	$isDutch = (WPLANG == 'nl' || WPLANG == 'nl_NL');
 
-	if($isGravityForms && $isDutch) {
-		$moFile = __DIR__ . '/languages/' . pathinfo($moFile, PATHINFO_BASENAME);
+	$isGravityForms = ($domain == 'gravityforms');
+	if($isDutch && $isGravityForms) {
+		//$moFile = __DIR__ . '/languages/' . pathinfo($moFile, PATHINFO_BASENAME);
+		$moFile = __DIR__ . '/languages/gravityforms-' . WPLANG . '.mo';
+	}
+
+	$isGravityFormsUserRegistration = ($domain == 'gravityformsuserregistration' || $domain == 'gravityforms_user_registration');
+	if($isDutch && $isGravityFormsUserRegistration) {
+		//$moFile = __DIR__ . '/languages/' . pathinfo($moFile, PATHINFO_BASENAME);
+		$moFile = __DIR__ . '/languages/gravityformsuserregistration-' . WPLANG . '.mo';
 	}
 
 	return $moFile;
