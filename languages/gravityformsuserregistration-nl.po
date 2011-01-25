@@ -1,302 +1,354 @@
+# Translation of 1.0.beta3.1 in Dutch
+# This file is distributed under the same license as the 1.0.beta3.1 package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gravity Forms User Registration\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-11 16:36+0100\n"
-"PO-Revision-Date: 2011-01-11 16:36+0100\n"
-"Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
-"Language-Team: Pronamic <info@pronamic.nl>\n"
+"PO-Revision-Date: 2011-01-25 09:25+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__withdesc;_ewithdesc;_c;_n_noop:1,2;__ngettext_noop:1,2;_x:2c,1;_nc:1,2;esc_attr_e;esc_html_e;esc_attr__;_nx:4c,1,2;_nx_noop:4c,1,2;esc_html_x:2c,1\n"
-"X-Poedit-Basepath: W:\\beta.devoetbaltrainer.nl\\httpdocs\\wp-content\\plugins\\gravityformsuserregistration\n"
-"X-Poedit-Language: Dutch\n"
-"X-Poedit-Country: NETHERLANDS\n"
-"X-Poedit-SearchPath-0: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: 1.0.beta3.1\n"
+"POT-Creation-Date: \n"
+"Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
+"Language-Team: \n"
 
-#: plugin-upgrade.php:53
-#: userregistration.php:159
-#, php-format
-msgid "View version %s Details"
-msgstr "Bekijk versie %s Details"
+#: userregistration.php:1446
+msgid ""
+"New site created by %1s\n"
+"\n"
+"Address: http://%2s\n"
+"Name: %3s"
+msgstr ""
+"Nieuwe website aangemaakt door %1s\n"
+"\n"
+"Adres: http://%2s\n"
+"Naam: %3s"
 
-#: plugin-upgrade.php:72
-#, php-format
-msgid "Oops!! Something went wrong.%sPlease try again or %scontact us%s."
-msgstr "Er ging iets verkeerd. %sProbeer het later nogmaals of neem %scontact met ons op%s."
+#: userregistration.php:231
+msgid "When WordPress Multisite is enabled, checking this option will enable the creation of a new site on the network when a new user registers."
+msgstr "Als WordPress Multisite is ingeschakelen zal het aanvinken van deze optie er voor zorgen dat er een nieuwe website wordt aangemaakt zodra een nieuwe gebruiker zich registreert."
 
-#: userregistration.php:152
-msgid "Gravity Forms "
-msgstr "Formulieren"
+#: userregistration.php:1386
+msgid "The following words are reserved for use by WordPress functions and cannot be used as blog names: <code>%s</code>"
+msgstr "De volgende woorden zijn gereserveerd door WordPress functies en kunnen daarom niet gebruikt worden als weblog naam: <code>%s</code>"
 
-#: userregistration.php:159
-msgid "There is a new version of Gravity Forms User Registration Add-On available."
-msgstr "Er is een nieuwere versie beschikbaar van de Gebruiker registratie plugin."
+#: userregistration.php:232
+msgid "Select the form field that should be used for the site address."
+msgstr "Selecteer het formulierveld dat gebruikt moet worden voor het website adres."
 
-#: userregistration.php:160
-#, php-format
-msgid "%sRegister%s your copy of Gravity Forms to receive access to automatic upgrades and support. Need a license key? %sPurchase one now%s."
-msgstr "%sRegistreer%s uw kopie van Gravity Forms om automatische update en support te ontvangen. Licensie sleutel nodig? %sSchaf een aan%s."
+#: userregistration.php:233
+msgid "Select the form field that should be used for the site title."
+msgstr "Selecteer het formulierveld dat gebruikt moet worden voor de website titel."
 
-#: userregistration.php:200
-#: userregistration.php:226
-#: userregistration.php:274
-#: userregistration.php:463
-#: userregistration.php:1575
-msgid "User Registration"
-msgstr "Gebruiker registratie"
+#: userregistration.php:1447
+msgid "[%s] New Site Created"
+msgstr "[%s] Nieuw website aangemaakt"
 
-#: userregistration.php:216
-#: userregistration.php:553
-msgid "Gravity Form"
-msgstr "Formulier"
-
-#: userregistration.php:216
-msgid "Select the Gravity Form you would like to use to register users for your WordPress website."
-msgstr "Selecteer het formulier dat u wilt gebruiken om gebruikers te registreren voor de WordPress website."
-
-#: userregistration.php:217
-#: userregistration.php:586
-msgid "Username"
-msgstr "Gebruikersnaam"
-
-#: userregistration.php:217
-msgid "Select the form field that should be used for the user's username."
-msgstr "Selecteer het formulierveld dat gebruikt wordt voor de gebruikersnaam."
-
-#: userregistration.php:218
-#: userregistration.php:591
-msgid "First Name"
-msgstr "Voornaam"
-
-#: userregistration.php:218
-msgid "Select the form field that should be used for the user's first name."
-msgstr "Selecteer het formulierveld dat gebruikt wordt voor de voornaam."
-
-#: userregistration.php:219
-#: userregistration.php:596
-msgid "Last Name"
-msgstr "Achternaam"
-
-#: userregistration.php:219
-msgid "Select the form field that should be used for the user's last name."
-msgstr "Selecteer het formulierveld dat gebruikt wordt voor de achternaam."
-
-#: userregistration.php:220
-#: userregistration.php:601
-msgid "Email Address"
-msgstr "E-mailadres"
-
-#: userregistration.php:220
-msgid "Select the form field that should be used for the user's email address."
-msgstr "Selecteer het formulierveld dat gebruikt wordt voor het e-mailadres."
-
-#: userregistration.php:221
-#: userregistration.php:606
-msgid "Password"
-msgstr "Wachtwoord"
-
-#: userregistration.php:221
-msgid "Select the form field that should be used for the user's password."
-msgstr "Selecteer het formulierveld dat gebruikt wordt voor het wachtwoord."
-
-#: userregistration.php:222
-#: userregistration.php:615
-msgid "Role"
-msgstr "Rol"
-
-#: userregistration.php:222
-msgid "Select the role the user should be assigned."
-msgstr "Selecteer de rol die aan de gebruiker zal worden toegewezen."
-
-#: userregistration.php:223
-#: userregistration.php:634
-msgid "Send Email?"
-msgstr "E-mail versturen?"
-
-#: userregistration.php:223
-msgid "Specify whether to send the password to the new user by email. <em class=\"enabled-by-default\">Enabled by default.</em>"
-msgstr "Selecteer als u het wachtwoord naar de nieuwe gebruiker wilt sturen.  <em class=\"enabled-by-default\">Standaard geselecteerd.</em>"
-
-#: userregistration.php:224
-#: userregistration.php:641
-msgid "Set As Post Author"
-msgstr "Specificeren als auteur"
-
-#: userregistration.php:224
-msgid "When a form submission creates a post and registers a user, set the new user as the post author. <em class=\"enabled-by-default\">Enabled by default.</em>"
-msgstr "Wanneer een formulier wordt verzonden en een gebruiker registreerd, specificeer de nieuwe gebruiker als auteur. <em class=\"enabled-by-default\">Standaard geselcteerd.</em>"
-
-#: userregistration.php:225
-#: userregistration.php:648
-msgid "Registration Condition"
-msgstr "Registratie voorwaarde"
-
-#: userregistration.php:225
-msgid "When the registration condition is enabled, form submissions will only register the user when the condition is met. When disabled the user will not be registered."
-msgstr "Wanneer de registratie voorwaarde is ingesteld, zullen inzendingen alleen geregistreerd worden als er aan de voorwaarde is voldaan. Als het is uitgeschakeld zal de gebruiker niet gereistreerd worden."
-
-#: userregistration.php:226
-msgid "The selected form also has a User Registration feed. These options allow you to specify how you would like the PayPal and User Registration Add-ons to work together."
-msgstr "Het geselecteerd formulier heeft ook een registratie feed. Deze opties geven je de mogelijkheid om de samenwerking tussen Paypal en de Gebruiker registratie add-on op te geven."
-
-#: userregistration.php:257
-msgid "Feed deleted."
-msgstr "Feed verwijderd."
-
-#: userregistration.php:268
-msgid "Feeds deleted."
-msgstr "Feeds verwijderd."
-
-#: userregistration.php:275
-msgid "User Registration Forms"
-msgstr "Gebruiker registratie formulieren"
-
-#: userregistration.php:276
-msgid "Add New"
-msgstr "Nieuwe toevoegen"
-
-#: userregistration.php:286
-#: userregistration.php:288
-msgid "Bulk action"
-msgstr "Bulk actie"
-
-#: userregistration.php:289
-#: userregistration.php:331
-msgid "Delete"
-msgstr "Verwijderen"
-
-#: userregistration.php:292
+#: userregistration.php:300
 msgid "Apply"
 msgstr "Toepassen"
 
-#: userregistration.php:292
-msgid "Delete selected feeds? "
-msgstr "Geselcteerde feeds verwijderen?"
-
-#: userregistration.php:292
-#: userregistration.php:331
-msgid "\\'Cancel\\' to stop, \\'OK\\' to delete."
-msgstr "\\'Annuleer\\' om te stoppen, \\'OK\\' om te verwijderen."
-
-#: userregistration.php:301
-#: userregistration.php:309
-msgid "Form"
-msgstr "Formulier"
-
-#: userregistration.php:322
-#: userregistration.php:369
-msgid "Active"
-msgstr "Actief"
-
-#: userregistration.php:322
-#: userregistration.php:365
-msgid "Inactive"
-msgstr "Inactief"
-
-#: userregistration.php:324
-#: userregistration.php:327
-msgid "Edit"
-msgstr "Bewerken"
-
-#: userregistration.php:331
-msgid "Delete this feed? "
-msgstr "Feed verwijderen?"
-
-#: userregistration.php:343
-#, php-format
+#: userregistration.php:351
 msgid "You don't have any User Registration feeds configured. Let's go %screate one%s!"
-msgstr "U heeft geen registratie formulieren geconfigureerd. %sMaar er een aan%s!"
+msgstr "Je hebt geen gebruikersregistratie formulier geconfigureerd. %sMaak er één aan%s!"
 
-#: userregistration.php:380
-msgid "Ajax error while updating feed"
-msgstr "Ajax fout gedurende het updaten van de feed"
-
-#: userregistration.php:410
-#: userregistration.php:413
-msgid "Uninstall User Registration Add-On"
-msgstr "Uninstall Gebruiker registratie plugin"
-
-#: userregistration.php:411
-msgid "Warning! This operation deletes ALL User Registration Feeds."
-msgstr "Pas op! Deze optie zal alle feeds verwijderen."
-
-#: userregistration.php:413
-msgid "Warning! ALL User Registration Feeds will be deleted. This cannot be undone. \\'OK\\' to delete, \\'Cancel\\' to stop"
-msgstr "Pas op! Alle feeds worden verwijderd. Dit kan niet hersteld worden. \\'OK\\' om ze te verwijderen, \\'Annuleer\\' om te stoppen"
-
-#: userregistration.php:464
-msgid "User Registration Settings"
-msgstr "Gebruiker registratie instellingen"
-
-#: userregistration.php:511
-#, php-format
+#: userregistration.php:522
 msgid "Feed Updated. %sback to list%s"
-msgstr "Feed is bijgewerkt. %sterug naar lijst%s"
+msgstr "Feed geüpdate. %sTerug naar lijst%s"
 
-#: userregistration.php:556
-msgid "Select a form"
-msgstr "Selecteer een formulier"
-
-#: userregistration.php:576
-msgid "The form selected does not have any Email fields. Please add an Email field to the form and try again."
-msgstr "Het geselecteerde formulier heeft geen e-mailadres veld. Voeg een e-mailadres veld toe en probeer het nogmaals."
-
-#: userregistration.php:637
-msgid "Send this password to the new user by email."
-msgstr "Verstuur dit wachtwoord per e-mail naar de nieuwe gebruiker."
-
-#: userregistration.php:644
-#: userregistration.php:652
-msgid "Enable"
-msgstr "Toepassen"
-
-#: userregistration.php:657
-msgid "Register the user if "
-msgstr "Registreer de gebruiker als"
-
-#: userregistration.php:663
-msgid "is"
-msgstr "is"
-
-#: userregistration.php:664
-msgid "is not"
-msgstr "is niet"
-
-#: userregistration.php:671
-msgid "To create a registration condition, your form must have a drop down, checkbox or multiple choice field"
-msgstr "Om een registratie voorwaarde te creeeren dient het formulier een drop down, selectievak of een meerkeuze veld te hebben."
-
-#: userregistration.php:682
+#: userregistration.php:703
 msgid "Save"
 msgstr "Opslaan"
 
-#: userregistration.php:682
+#: plugin-upgrade.php:53
+#: userregistration.php:163
+msgid "View version %s Details"
+msgstr "Bekijk versie %s details"
+
+#: plugin-upgrade.php:72
+msgid "Oops!! Something went wrong.%sPlease try again or %scontact us%s."
+msgstr "Oeps! Er ging iets verkeerd.%sProbeer het nogmaals of neem %scontact met ons op%s."
+
+#: userregistration.php:156
+msgid "Gravity Forms "
+msgstr "Gravity Forms"
+
+#: userregistration.php:163
+msgid "There is a new version of Gravity Forms User Registration Add-On available."
+msgstr "Er is een nieuwe versie van de Gravity Forms gebruikersregistratie add-on beschikbaar."
+
+#: userregistration.php:164
+msgid "%sRegister%s your copy of Gravity Forms to receive access to automatic upgrades and support. Need a license key? %sPurchase one now%s."
+msgstr "%sRegistreer%s je kopie van Gravity Forms om automatisch upgrade en support te ontvangen. Heb je een licentiecode nodig? %sKoop er nu één%s."
+
+#: userregistration.php:220
+msgid "Select the Gravity Form you would like to use to register users for your WordPress website."
+msgstr "Selecteer het Gravity Forms formulier die je wilt gebruiken om gebruikers te laten registreren op je WordPress website."
+
+#: userregistration.php:221
+msgid "Select the form field that should be used for the user's username."
+msgstr "Selecteer het formulierveld die gebruikt moet worden voor de gebruikersnaam."
+
+#: userregistration.php:222
+msgid "Select the form field that should be used for the user's first name."
+msgstr "Selecteer het formulierveld die gebruikt moet worden voor de voornaam."
+
+#: userregistration.php:223
+msgid "Select the form field that should be used for the user's last name."
+msgstr "Selecteer het formulierveld die gebruikt moet worden voor de achternaam."
+
+#: userregistration.php:224
+msgid "Select the form field that should be used for the user's email address."
+msgstr "Selecteer het formulierveld die gebruikt moet worden voor het e-mailadres."
+
+#: userregistration.php:225
+msgid "Select the form field that should be used for the user's password."
+msgstr "Selecteer het formulierveld die gebruikt moet worden voor het wachtwoord."
+
+#: userregistration.php:226
+msgid "Select the role the user should be assigned."
+msgstr "Selecteer de rol die gebruiker toegewezen moet krijgen."
+
+#: userregistration.php:227
+msgid "Specify whether to send the password to the new user by email. <em class=\"enabled-by-default\">Enabled by default.</em>"
+msgstr "Geef aan of het wachtwoord via de e-mail verstuurd moet worden aan de nieuwe gebruiker. <em class=\"enabled-by-default\">Standaard ingeschakeld.</em>"
+
+#: userregistration.php:228
+msgid "When a form submission creates a post and registers a user, set the new user as the post author. <em class=\"enabled-by-default\">Enabled by default.</em>"
+msgstr "Aks een formulier inzending een nieuw bericht aanmaakt en een gebruiker registreert, de nieuwe gebruiker als bericht auteur instellen. <em class=\"enabled-by-default\">Standaard ingeschakeld.</em>"
+
+#: userregistration.php:229
+msgid "When the registration condition is enabled, form submissions will only register the user when the condition is met. When disabled the user will not be registered."
+msgstr "Als de registratie conditie is ingeschakeld zal een gebruiker alleen geregistreerd worden als de inzending voldoet aan de conditie. Wanneer uitgeschakeld zal de gebruiker niet geregistreerd worden."
+
+#: userregistration.php:230
+msgid "The selected form also has a User Registration feed. These options allow you to specify how you would like the PayPal and User Registration Add-ons to work together."
+msgstr "Het geselecteerde formulier heeft ook een gebruikersregistratie formulier. Binnen deze opties kun je aangeven hoe PayPal en de gebruikersregistratie add-on moeten samenwerken."
+
+#: userregistration.php:300
+msgid "Delete selected feeds? "
+msgstr "Verwijder geselecteerde feeds?"
+
+#: userregistration.php:421
+msgid "Warning! ALL User Registration Feeds will be deleted. This cannot be undone. \\'OK\\' to delete, \\'Cancel\\' to stop"
+msgstr "Waarschuwing! Alle gebruikersregistratie formulieren zullen worden verwijderd. Dit kan niet ongedaan worden gemaakt. \\'OK\\' om te verwijderen, \\'Annuleren\\' om te stoppen."
+
+#: userregistration.php:703
 msgid "Update"
-msgstr "Bijwerken"
+msgstr "Update"
+
+#: userregistration.php:1901
+msgid "You don't have adequate permission to uninstall the PayPal Add-On."
+msgstr "Je hebt niet voldoende rechten om de PayPal add-on te verwijderen."
+
+#: userregistration.php:1946
+msgid "Full"
+msgstr "Vol"
+
+#: userregistration.php:265
+msgid "Feed deleted."
+msgstr "Feed verwijderd."
+
+#: userregistration.php:276
+msgid "Feeds deleted."
+msgstr "Feeds verwijderd."
+
+#: userregistration.php:204
+#: userregistration.php:230
+#: userregistration.php:282
+#: userregistration.php:472
+#: userregistration.php:1758
+msgid "User Registration"
+msgstr "Gebruikersregistratie"
+
+#: userregistration.php:283
+msgid "User Registration Forms"
+msgstr "Gebruikersregistratie formulieren"
+
+#: userregistration.php:284
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: userregistration.php:294
+#: userregistration.php:296
+msgid "Bulk action"
+msgstr "Bulkactie"
+
+#: userregistration.php:297
+#: userregistration.php:339
+msgid "Delete"
+msgstr "Verwijder"
+
+#: userregistration.php:309
+#: userregistration.php:317
+msgid "Form"
+msgstr "Formulier"
+
+#: userregistration.php:332
+#: userregistration.php:335
+msgid "Edit"
+msgstr "Bewerken"
+
+#: userregistration.php:339
+msgid "Delete this feed? "
+msgstr "Verwijder deze feed?"
+
+#: userregistration.php:300
+#: userregistration.php:339
+msgid "\\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr "\\'Annuleer\\' om te stoppen, \\'OK\\' om te verwijderen."
+
+#: userregistration.php:330
+#: userregistration.php:373
+msgid "Inactive"
+msgstr "Inactief"
+
+#: userregistration.php:330
+#: userregistration.php:377
+msgid "Active"
+msgstr "Actief"
+
+#: userregistration.php:388
+msgid "Ajax error while updating feed"
+msgstr "AJAX fout tijdens updaten feed"
+
+#: userregistration.php:418
+#: userregistration.php:421
+msgid "Uninstall User Registration Add-On"
+msgstr "Verwijder gebruikersregistratie add-on"
+
+#: userregistration.php:419
+msgid "Warning! This operation deletes ALL User Registration Feeds."
+msgstr "Waarschuwing! Deze operatie verwijderd ALLE gebruiker registratie feeds."
+
+#: userregistration.php:473
+msgid "User Registration Settings"
+msgstr "Gebruikersregistratie instellingen"
+
+#: userregistration.php:220
+#: userregistration.php:564
+msgid "Gravity Form"
+msgstr "Gravity Forms formulier"
+
+#: userregistration.php:567
+msgid "Select a form"
+msgstr "Selecteer een formulier"
+
+#: userregistration.php:587
+msgid "The form selected does not have any Email fields. Please add an Email field to the form and try again."
+msgstr "Het geselecteerde formulier heeft geen e-mailvelden. Voeg een e-mailveld toe aan het formulier en probeer het opnieuw."
+
+#: userregistration.php:221
+#: userregistration.php:599
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: userregistration.php:222
+#: userregistration.php:604
+msgid "First Name"
+msgstr "Voornaam"
+
+#: userregistration.php:223
+#: userregistration.php:609
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: userregistration.php:224
+#: userregistration.php:614
+msgid "Email Address"
+msgstr "E-mailadres"
+
+#: userregistration.php:225
+#: userregistration.php:619
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: userregistration.php:226
+#: userregistration.php:628
+msgid "Role"
+msgstr "Rol"
+
+#: userregistration.php:227
+#: userregistration.php:655
+msgid "Send Email?"
+msgstr "Verstuur e-mail?"
+
+#: userregistration.php:658
+msgid "Send this password to the new user by email."
+msgstr "Verstuurd dit wachtwoord per e-mail naar de nieuwe gebruiker."
+
+#: userregistration.php:228
+#: userregistration.php:662
+msgid "Set As Post Author"
+msgstr "Stel in als bericht auteur"
+
+#: userregistration.php:665
+#: userregistration.php:673
+msgid "Enable"
+msgstr "Inschakelen"
+
+#: userregistration.php:229
+#: userregistration.php:669
+msgid "Registration Condition"
+msgstr "Registratie conditie"
+
+#: userregistration.php:678
+msgid "Register the user if "
+msgstr "Registreer de gebruiker als"
 
 #: userregistration.php:684
+msgid "is"
+msgstr "is"
+
+#: userregistration.php:685
+msgid "is not"
+msgstr "is niet"
+
+#: userregistration.php:692
+msgid "To create a registration condition, your form must have a drop down, checkbox or multiple choice field"
+msgstr "Voor het creëren van een registratie conditie moet je formulier een drop-down, selectievakje of meerkeuzeveld bevatten"
+
+#: userregistration.php:705
 msgid "Cancel"
 msgstr "Annuleren"
 
-#: userregistration.php:727
+#: userregistration.php:750
 msgid "Ajax error while selecting a form"
-msgstr "Ajax fout gedurende het selecteren van een formulier"
+msgstr "AJAX fout tijdens formulier selectie"
 
-#: userregistration.php:1581
+#: userregistration.php:231
+#: userregistration.php:1319
+msgid "Create Site"
+msgstr "Creëer website"
+
+#: userregistration.php:1321
+msgid "Create new site when a user registers."
+msgstr "Creëer nieuwe website zodra gebruiker registreert."
+
+#: userregistration.php:232
+#: userregistration.php:1327
+msgid "Site Address"
+msgstr "Website adres"
+
+#: userregistration.php:233
+#: userregistration.php:1332
+msgid "Site Title"
+msgstr "Website titel"
+
+#: userregistration.php:1769
 msgid "Register user only when a payment is received."
-msgstr "Registreer een gebruiker pas als de betaling is ontvangen."
+msgstr "Registreer gebruiker alleen zodra betaling is ontvangen."
 
-#: userregistration.php:1586
-msgid "Update user when subscription is cancelled."
-msgstr "Update de gebruiker wanneer een abonnement is geannuleerd."
+#: userregistration.php:1771
+msgid "Register user and create site only when a payment is received."
+msgstr "Registreer gebruiker en creëer website alleen zodra betaling is ontvangen."
 
-#: userregistration.php:1664
-msgid "You don't have adequate permission to uninstall the PayPal Add-On."
-msgstr "U bent niet bevoegd om de PayPal plugin te verwijderen."
+#: userregistration.php:1779
+msgid "Update <strong>user</strong> when subscription is cancelled."
+msgstr "Update <strong>gebruiker</strong>zodra abonnement is geannuleerd."
 
-#: userregistration.php:1709
-msgid "Full"
-msgstr "Volledig"
+#: userregistration.php:1794
+msgid "Update <strong>site</strong> when subscription is cancelled."
+msgstr "Update <strong>website</strong> zodra abonnement is geannuleerd."
 

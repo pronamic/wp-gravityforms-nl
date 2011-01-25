@@ -1,12 +1,12 @@
 === Gravity Forms (nl) ===
-Contributors: pronamic, remcotolsma, Brainscrewer
+Contributors: pronamic, remcotolsma
 Tags: gravityforms, gravity, form, forms, translation, dutch, nl, nl_NL
 Requires at least: 3.0
 Tested up to: 3.0
-Stable tag: 1.4.5
+Stable tag: 2.0
 
 This WordPress plugin extends the Gravity Forms plugin with the Dutch translation.
-
+Gravity Forms version 1.5.rc3.4 | User Registration Add-On version 1.0.beta3.1
 
 == Description ==
 
@@ -27,10 +27,12 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 == Changelog ==
 
-= 1.4.? =
+= 2.0 =
 *	Added the Dutch translation of the [jQuery UI datepicker](http://jqueryui.com/demos/datepicker/)
 	[This Dutch translation of jQuery UI date picker can be found in on Google Code] (http://code.google.com/p/jquery-ui/source/browse/trunk/ui/i18n/jquery.ui.datepicker-nl.js)
 	More information about this can be bound on [the weblog of Remco Tolsma](http://remcotolsma.nl/2010/10/gravity-forms-datepicker-in-het-nederlands/)
+*	Updated the Dutch translation set to Gravity Forms version 1.5.rc3.4.
+*	Added the Dutch translation set of the User Registration Add-On version 1.0.beta3.1.
 
 = 1.4.5 =
 *	Added 370 new translations (thanks to [Pim Vellinga](http://twitter.com/brainscrewer)) 
