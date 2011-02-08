@@ -2,7 +2,7 @@
 /*
 Plugin Name: Gravity Forms (nl)
 Plugin URI: http://pronamic.eu/wordpress/gravityforms-nl/
-Description: <strong>Gravity Forms</strong> 1.5.rc3.4 | <strong>User Registration Add-On</strong> 1.0.beta3.1 | Extends the Gravity Forms plugin and add-ons with the Dutch language
+Description: <strong>Gravity Forms</strong> public 1.4.5 | beta 1.5.RC4 | <strong>User Registration Add-On</strong> 1.0.beta3.1 | Extends the Gravity Forms plugin and add-ons with the Dutch language
 Version: 2.0
 Requires at least: 3.0
 Author: Pronamic
@@ -12,7 +12,7 @@ License: GPL
 
 class GravityFormsNL {
 	/**
-	 * Start
+	 * Bootstrap
 	 */
 	public static function bootstrap() {
 		add_action('init', array(__CLASS__, 'init'));
@@ -43,9 +43,19 @@ class GravityFormsNL {
 		$isDutch = (WPLANG == 'nl' || WPLANG == 'nl_NL');
 
 		// Gravity Forms
+		$version = null;
+		if(class_exists('GFCommon')) {
+			$version = GFCommon::$version;
+        }
+
 		$isGravityForms = ($domain == 'gravityforms');
 		if($isDutch && $isGravityForms) {
-			$moFile = __DIR__ . '/languages/gravityforms-' . WPLANG . '.mo';
+			$moFile = __DIR__ . '/languages/' . $version . '/gravityforms-' . WPLANG . '.mo';
+
+			// if specific version MO file is not available point to the public release version
+			if(!is_readable($moFile)) {
+				$moFile = __DIR__ . '/languages/gravityforms-' . WPLANG . '.mo';
+			}
 		}
 
 		// User Registration Add-On

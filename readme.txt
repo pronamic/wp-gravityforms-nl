@@ -27,6 +27,10 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 == Changelog ==
 
+= 2.1 =
+*	Added the Dutch translation for Gravity Forms version 1.5.RC4.
+*	In case of a beta Gravity Forms release load the beta translations, otherwise load the public release translations.
+
 = 2.0 =
 *	Added the Dutch translation of the [jQuery UI datepicker](http://jqueryui.com/demos/datepicker/)
 	[This Dutch translation of jQuery UI date picker can be found in on Google Code] (http://code.google.com/p/jquery-ui/source/browse/trunk/ui/i18n/jquery.ui.datepicker-nl.js)
