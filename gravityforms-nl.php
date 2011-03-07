@@ -3,7 +3,7 @@
 Plugin Name: Gravity Forms (nl)
 Plugin URI: http://pronamic.eu/wordpress/gravityforms-nl/
 Description: <strong>Gravity Forms</strong> public 1.4.5 | beta 1.5.RC4 | <strong>User Registration Add-On</strong> 1.0.beta3.1 | Extends the Gravity Forms plugin and add-ons with the Dutch language
-Version: 2.1
+Version: 2.2
 Requires at least: 3.0
 Author: Pronamic
 Author URI: http://pronamic.eu/
@@ -42,6 +42,8 @@ class GravityFormsNL {
 	function loadMoFile($moFile, $domain) {
 		$isDutch = (WPLANG == 'nl' || WPLANG == 'nl_NL');
 
+		$dir = dirname(__FILE__);
+
 		// Gravity Forms
 		$version = null;
 		if(class_exists('GFCommon')) {
@@ -50,18 +52,18 @@ class GravityFormsNL {
 
 		$isGravityForms = ($domain == 'gravityforms');
 		if($isDutch && $isGravityForms) {
-			$moFile = __DIR__ . '/languages/' . $version . '/gravityforms-' . WPLANG . '.mo';
+			$moFile = $dir . '/languages/' . $version . '/gravityforms-' . WPLANG . '.mo';
 
 			// if specific version MO file is not available point to the public release version
 			if(!is_readable($moFile)) {
-				$moFile = __DIR__ . '/languages/gravityforms-' . WPLANG . '.mo';
+				$moFile = $dir . '/languages/gravityforms-' . WPLANG . '.mo';
 			}
 		}
 
 		// User Registration Add-On
 		$isGravityFormsUserRegistration = ($domain == 'gravityformsuserregistration' || $domain == 'gravityforms_user_registration');
 		if($isDutch && $isGravityFormsUserRegistration) {
-			$moFile = __DIR__ . '/languages/gravityformsuserregistration-' . WPLANG . '.mo';
+			$moFile = $dir . '/languages/gravityformsuserregistration-' . WPLANG . '.mo';
 		}
 	
 		return $moFile;
