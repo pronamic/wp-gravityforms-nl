@@ -3,7 +3,7 @@
 Plugin Name: Gravity Forms (nl)
 Plugin URI: http://pronamic.eu/wordpress/gravityforms-nl/
 Description: <strong>Gravity Forms</strong> public 1.4.5 | beta 1.5.RC4 | <strong>User Registration Add-On</strong> 1.0.beta3.1 | Extends the Gravity Forms plugin and add-ons with the Dutch language
-Version: 2.2
+Version: 2.3
 Requires at least: 3.0
 Author: Pronamic
 Author URI: http://pronamic.eu/
@@ -39,31 +39,27 @@ class GravityFormsNL {
 	 * @param string $moFile
 	 * @param string $domain
 	 */
-	function loadMoFile($moFile, $domain) {
+	public static function loadMoFile($moFile, $domain) {
 		$isDutch = (WPLANG == 'nl' || WPLANG == 'nl_NL');
 
-		$dir = dirname(__FILE__);
-
 		// Gravity Forms
-		$version = null;
-		if(class_exists('GFCommon')) {
-			$version = GFCommon::$version;
-        }
-
 		$isGravityForms = ($domain == 'gravityforms');
 		if($isDutch && $isGravityForms) {
-			$moFile = $dir . '/languages/' . $version . '/gravityforms-' . WPLANG . '.mo';
+			$version = null;
+			if(class_exists('GFCommon')) {
+				$version = GFCommon::$version;
+	        }
 
-			// if specific version MO file is not available point to the public release version
-			if(!is_readable($moFile)) {
-				$moFile = $dir . '/languages/gravityforms-' . WPLANG . '.mo';
-			}
+			$moFile = self::getMoFile('gravityforms', $version);
 		}
 
 		// User Registration Add-On
 		$isGravityFormsUserRegistration = ($domain == 'gravityformsuserregistration' || $domain == 'gravityforms_user_registration');
 		if($isDutch && $isGravityFormsUserRegistration) {
-			$moFile = $dir . '/languages/gravityformsuserregistration-' . WPLANG . '.mo';
+			// Unfortunately the static var GFUser::$version is private
+			$version = get_option('gf_user_registration_version');
+
+			$moFile = self::getMoFile('gravityformsuserregistration', $version);
 		}
 	
 		return $moFile;
@@ -72,9 +68,28 @@ class GravityFormsNL {
 	////////////////////////////////////////////////////////////
 
 	/**
+	 * Get the MO file for the specified domain and version
+	 * Enter description here ...
+	 */
+	public static function getMoFile($domain, $version) {
+		$dir = dirname(__FILE__);
+
+		$moFile = $dir . '/languages/' . $domain . '/' . $version . '/' . WPLANG . '.mo';
+
+		// if specific version MO file is not available point to the current public release (cpr) version 
+		if(!is_readable($moFile)) {
+			$moFile = $dir . '/languages/' . $domain . '/cpr/' . WPLANG . '.mo';
+		}
+
+		return $moFile;
+	}
+
+	////////////////////////////////////////////////////////////
+
+	/**
 	 * Gravity Forms translate datepicker
 	 */
-	function translateDatepicker() {
+	public static function translateDatepicker() {
 		if(wp_script_is('gforms_ui_datepicker')) {
 			$srcUrl = plugins_url('js/jquery.ui.datepicker-nl.js', __FILE__);
 	

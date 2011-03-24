@@ -1,12 +1,12 @@
 === Gravity Forms (nl) ===
 Contributors: pronamic, remcotolsma
-Tags: gravityforms, gravity, form, forms, translation, dutch, nl, nl_NL
+Tags: gravityforms, gravity, form, forms, translation, dutch, nl, nl_NL, user registration
 Requires at least: 3.0
-Tested up to: 3.0.4
-Stable tag: 2.2
+Tested up to: 3.1
+Stable tag: 2.3
 
 This WordPress plugin extends the Gravity Forms plugin with the Dutch translation.
-Gravity Forms version 1.5.rc3.4 | User Registration Add-On version 1.0.beta3.1
+Gravity Forms version 1.5 | User Registration Add-On version 1.0
 
 == Description ==
 
@@ -26,6 +26,12 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 
 == Changelog ==
+
+= 2.3 =
+*	Changed the directory structure of the translations, domains and versions
+*	Removed all the .PO files from the plugin (are available within the Pronamic GlotPress)
+*	Added the translations of Gravity Forms version 1.5
+*	Added the translations of Gravity Forms User Registration Add-On version 1.0
 
 = 2.2 = 
 *	Replaced PHP 5.3 __DIR__ constant with dirname(__FILE__), plugin should now work on PHP 5.2 (or higher)
