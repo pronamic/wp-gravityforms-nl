@@ -61,6 +61,8 @@ class GravityFormsNL {
 				'utm_content' => self::PLUGIN_NAME
 			);
 
+			$utm = array_map('rawurlencode', $utm);
+
 			// Twitter, we use the iframe solution, because the JavaScript soluction had some issies with Facebook
 			// @see http://dev.twitter.com/pages/tweet_button
 			$utm['utm_source'] = 'twitter';
