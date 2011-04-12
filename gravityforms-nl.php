@@ -2,8 +2,8 @@
 /*
 Plugin Name: Gravity Forms (nl)
 Plugin URI: http://pronamic.eu/wordpress/gravityforms-nl/
-Description: <strong>Gravity Forms</strong> public 1.5.1.1 | <strong>User Registration Add-On</strong> 1.0 | Extends the Gravity Forms plugin and add-ons with the Dutch language
-Version: 2.3
+Description: <strong>Gravity Forms</strong> public 1.5.1.1 | <strong>User Registration Add-On</strong> 1.0 | Extends the Gravity Forms plugin and add-ons with the Dutch language 
+Version: 2.4
 Requires at least: 3.0
 Author: Pronamic
 Author URI: http://pronamic.eu/
@@ -11,6 +11,22 @@ License: GPL
 */
 
 class GravityFormsNL {
+	/**
+	 * The officiale name of this plugin
+	 * 
+	 * @var string
+	 */
+	const PLUGIN_NAME = 'Gravity Forms (nl)';
+
+	/**
+	 * The URL to this plugin
+	 * 
+	 * @var string
+	 */
+	const PLUGIN_URL_PAGE = 'http://pronamic.eu/wordpress/gravityforms-nl/';
+
+	////////////////////////////////////////////////////////////
+
 	/**
 	 * Bootstrap
 	 */
@@ -20,6 +36,66 @@ class GravityFormsNL {
 		add_filter('load_textdomain_mofile', array(__CLASS__, 'loadMoFile'), 10, 2);
 	
 		add_action('wp_print_scripts', array(__CLASS__, 'translateDatepicker'));
+
+		add_filter('plugin_row_meta', array(__CLASS__, 'pluginRowMeta'), 10, 4);
+	}
+
+	////////////////////////////////////////////////////////////
+
+	/**
+	 * Plugin row meta
+	 * 
+	 * @param array $meta
+	 * @param string $file
+	 * @param unknown $data
+	 * @param unknown $status
+	 */
+	public static function pluginRowMeta($meta, $file, $data, $status) {
+		if($file == plugin_basename(__FILE__)) {
+			$share = '<div style="margin-top: .5em;">';
+			
+			// UTM
+			$utm = array(
+				'utm_medium' => 'wp-admin' , 
+				'utm_campaign' => 'WordPress plugins' ,
+				'utm_content' => self::PLUGIN_NAME
+			);
+
+			// Twitter, we use the iframe solution, because the JavaScript soluction had some issies with Facebook
+			// @see http://dev.twitter.com/pages/tweet_button
+			$utm['utm_source'] = 'twitter';
+			$url = add_query_arg($utm, self::PLUGIN_URL_PAGE);
+
+			$share .= sprintf('<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="%s" data-via="%s" data-text="%s" data-related="%s">Tweet</a>', 
+				esc_attr($url) , 
+				esc_attr('pronamic') , 
+				esc_attr(sprintf('Check out the "%s" #WordPress plugin', self::PLUGIN_NAME)) , 
+				esc_attr('remcotolsma:' . sprintf('Devloper of the "%s" plugin', self::PLUGIN_NAME))  
+			);
+
+			$share .= '<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>';
+
+			// Facebook
+			// @see http://developers.facebook.com/docs/reference/plugins/like/
+			$utm['utm_source'] = 'facebook';
+			$url = add_query_arg($utm, self::PLUGIN_URL_PAGE);
+
+			$languages = array('en_US', 'fr_FR', 'nl_NL');
+
+			$share .= sprintf('<script src="http://connect.facebook.net/%s/all.js#xfbml=1"></script>',
+				in_array(WPLANG, $languages) ? WPLANG : 'en_US'
+			);
+
+			$share .= sprintf('<fb:like href="%s" show_faces="false" width="450" font=""></fb:like>', 
+				esc_attr($url)
+			);
+
+			$share .= '</div>';
+
+			$meta[] = $share;
+		}
+
+		return $meta;
 	}
 
 	////////////////////////////////////////////////////////////

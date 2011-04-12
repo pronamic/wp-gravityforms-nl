@@ -30,6 +30,7 @@ WordPress installation and then activate the Plugin from Plugins page.
 = 2.4 =
 *	Added the translation for Gravity Forms version 1.5.1.1 (2 new translations)
 *	Improved some old translations
+*	Added Twitter and Facebook share buttons on plugins page
 
 = 2.3 =
 *	Changed the directory structure of the translations, domains and versions
@@ -68,3 +69,13 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 [markdown syntax]: http://daringfireball.net/projects/markdown/syntax
             "Markdown is what the parser uses to process much of the readme file"
+
+
+== Pronamic plugins ==
+
+*	[Pronamic Google Maps](http://wordpress.org/extend/plugins/pronamic-google-maps/)
+*	[Gravity Forms (nl)](http://wordpress.org/extend/plugins/gravityforms-nl/)
+*	[Pronamic Page Widget](http://wordpress.org/extend/plugins/pronamic-page-widget/)
+*	[Pronamic Page Teasers](http://wordpress.org/extend/plugins/pronamic-page-teasers/)
+*	[Maildit](http://wordpress.org/extend/plugins/maildit/)
+*	[Pronamic Framework](http://wordpress.org/extend/plugins/pronamic-framework/)
