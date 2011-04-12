@@ -66,8 +66,8 @@ class GravityFormsNL {
 			$utm['utm_source'] = 'twitter';
 			$url = add_query_arg($utm, self::PLUGIN_URL_PAGE);
 
-			$share .= sprintf('<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="%s" data-via="%s" data-text="%s" data-related="%s">Tweet</a>', 
-				esc_attr($url) , 
+			$share .= sprintf('<a href="http://twitter.com/share" class="twitter-share-button" data-url="%s" data-via="%s" data-text="%s" data-related="%s" data-count="horizontal">Tweet</a>', 
+				esc_url($url) , 
 				esc_attr('pronamic') , 
 				esc_attr(sprintf('Check out the "%s" #WordPress plugin', self::PLUGIN_NAME)) , 
 				esc_attr('remcotolsma:' . sprintf('Devloper of the "%s" plugin', self::PLUGIN_NAME))  
@@ -87,7 +87,7 @@ class GravityFormsNL {
 			);
 
 			$share .= sprintf('<fb:like href="%s" show_faces="false" width="450" font=""></fb:like>', 
-				esc_attr($url)
+				esc_url($url) 
 			);
 
 			$share .= '</div>';
