@@ -3,10 +3,10 @@ Contributors: pronamic, remcotolsma
 Tags: gravityforms, gravity, form, forms, translation, dutch, nl, nl_NL, user registration
 Requires at least: 3.0
 Tested up to: 3.1
-Stable tag: 2.3
+Stable tag: 2.4.2
 
 This WordPress plugin extends the Gravity Forms plugin with the Dutch translation.
-Gravity Forms version 1.5 | User Registration Add-On version 1.0
+Gravity Forms version 1.5.2 | User Registration Add-On version 1.0
 
 == Description ==
 
@@ -26,6 +26,17 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 
 == Changelog ==
+
+= 2.4.2 = 
+*	Added the translation for Gravity Forms version 1.5.2
+
+= 2.4.1 =
+*	Fixed the translation of "New Zealand" from "Nieuw formulier" to "Nieuw-Zeeland"
+ 
+= 2.4 =
+*	Added the translation for Gravity Forms version 1.5.1.1 (2 new translations)
+*	Improved some old translations
+*	Added Twitter and Facebook share buttons on plugins page
 
 = 2.3 =
 *	Changed the directory structure of the translations, domains and versions
@@ -64,3 +75,13 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 [markdown syntax]: http://daringfireball.net/projects/markdown/syntax
             "Markdown is what the parser uses to process much of the readme file"
+
+
+== Pronamic plugins ==
+
+*	[Pronamic Google Maps](http://wordpress.org/extend/plugins/pronamic-google-maps/)
+*	[Gravity Forms (nl)](http://wordpress.org/extend/plugins/gravityforms-nl/)
+*	[Pronamic Page Widget](http://wordpress.org/extend/plugins/pronamic-page-widget/)
+*	[Pronamic Page Teasers](http://wordpress.org/extend/plugins/pronamic-page-teasers/)
+*	[Maildit](http://wordpress.org/extend/plugins/maildit/)
+*	[Pronamic Framework](http://wordpress.org/extend/plugins/pronamic-framework/)
