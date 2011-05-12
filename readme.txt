@@ -85,3 +85,5 @@ WordPress installation and then activate the Plugin from Plugins page.
 *	[Pronamic Page Teasers](http://wordpress.org/extend/plugins/pronamic-page-teasers/)
 *	[Maildit](http://wordpress.org/extend/plugins/maildit/)
 *	[Pronamic Framework](http://wordpress.org/extend/plugins/pronamic-framework/)
+
+:-)
