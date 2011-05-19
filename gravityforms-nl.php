@@ -2,8 +2,8 @@
 /*
 Plugin Name: Gravity Forms (nl)
 Plugin URI: http://pronamic.eu/wordpress/gravityforms-nl/
-Description: <strong>Gravity Forms</strong> public 1.5 | <strong>User Registration Add-On</strong> 1.0 | Extends the Gravity Forms plugin and add-ons with the Dutch language
-Version: 2.3
+Description: <strong>Gravity Forms</strong> public 1.5.2.2 | <strong>User Registration Add-On</strong> 1.0 | <strong>Campaign Monitor Add-On</strong> 1.6 | Extends the Gravity Forms plugin and add-ons with the Dutch language 
+Version: 2.4.3
 Requires at least: 3.0
 Author: Pronamic
 Author URI: http://pronamic.eu/
@@ -11,6 +11,22 @@ License: GPL
 */
 
 class GravityFormsNL {
+	/**
+	 * The officiale name of this plugin
+	 * 
+	 * @var string
+	 */
+	const PLUGIN_NAME = 'Gravity Forms (nl)';
+
+	/**
+	 * The URL to this plugin
+	 * 
+	 * @var string
+	 */
+	const PLUGIN_URL_PAGE = 'http://pronamic.eu/wordpress/gravityforms-nl/';
+
+	////////////////////////////////////////////////////////////
+
 	/**
 	 * Bootstrap
 	 */
@@ -54,12 +70,21 @@ class GravityFormsNL {
 		}
 
 		// User Registration Add-On
-		$isGravityFormsUserRegistration = ($domain == 'gravityformsuserregistration' || $domain == 'gravityforms_user_registration');
-		if($isDutch && $isGravityFormsUserRegistration) {
+		$isUserRegistrationAddOn = ($domain == 'gravityformsuserregistration' || $domain == 'gravityforms_user_registration');
+		if($isDutch && $isUserRegistrationAddOn) {
 			// Unfortunately the static var GFUser::$version is private
 			$version = get_option('gf_user_registration_version');
 
 			$moFile = self::getMoFile('gravityformsuserregistration', $version);
+		}
+
+		// Campaign Monitor Add-On
+		$isCampaignMonitorAddOn = ($domain == 'gravityformscampaignmonitor');
+		if($isDutch && $isCampaignMonitorAddOn) {
+			// Unfortunately the static var GFCampaignMonitor::$version is private
+			$version = get_option('gf_campaignmonitor_version');
+
+			$moFile = self::getMoFile('gravityformscampaignmonitor', $version);
 		}
 	
 		return $moFile;
@@ -92,7 +117,7 @@ class GravityFormsNL {
 	public static function translateDatepicker() {
 		if(wp_script_is('gforms_ui_datepicker')) {
 			$srcUrl = plugins_url('js/jquery.ui.datepicker-nl.js', __FILE__);
-	
+
 			wp_enqueue_script('gforms_ui_datepicker_nl', $srcUrl, array('gforms_ui_datepicker'), false, true);
 	    }
 	}
