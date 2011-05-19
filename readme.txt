@@ -6,7 +6,7 @@ Tested up to: 3.1
 Stable tag: 2.4.3
 
 This WordPress plugin extends the Gravity Forms plugin with the Dutch translation.
-Gravity Forms version 1.5.2 | User Registration Add-On version 1.0 | Gravity Forms Campaign Monitor Add-On version 1.6
+Gravity Forms version 1.5.2.2 | User Registration Add-On version 1.0 | Gravity Forms Campaign Monitor Add-On version 1.6
 
 == Description ==
 
