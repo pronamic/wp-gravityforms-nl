@@ -116,6 +116,7 @@ class GravityFormsNL {
 	 */
 	public static function translateDatepicker() {
 		if(wp_script_is('gforms_ui_datepicker')) {
+			// @see http://code.google.com/p/jquery-ui/source/browse/trunk/ui/i18n/jquery.ui.datepicker-nl.js
 			$srcUrl = plugins_url('js/jquery.ui.datepicker-nl.js', __FILE__);
 
 			wp_enqueue_script('gforms_ui_datepicker_nl', $srcUrl, array('gforms_ui_datepicker'), false, true);
