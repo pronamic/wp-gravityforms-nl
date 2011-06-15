@@ -2,11 +2,11 @@
 Contributors: pronamic, remcotolsma
 Tags: gravityforms, gravity, form, forms, translation, dutch, nl, nl_NL, user registration
 Requires at least: 3.0
-Tested up to: 3.1
-Stable tag: 2.4.3
+Tested up to: 3.2
+Stable tag: 2.4.4
 
 This WordPress plugin extends the Gravity Forms plugin with the Dutch translation.
-Gravity Forms version 1.5.2.2 | User Registration Add-On version 1.0 | Gravity Forms Campaign Monitor Add-On version 1.6
+Gravity Forms version 1.5.2.3 | User Registration Add-On version 1.0 | Gravity Forms Campaign Monitor Add-On version 1.6
 
 == Description ==
 
@@ -27,6 +27,16 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 == Changelog ==
 
+= 2.4.4 =
+*	Updated to Gravity Forms version 1.5.2.3
+*	Added the translation for "GREENLAND" and "Greenland"
+*	Improved the translation of "Label Placement" from "Veldlabel" to "Label positie"
+*	Improved the translation of "Right aligned" from "Rechtsuitgelijnd" to "Rechts uitgelijnd"
+*	Improved the translation of "Law Enforcement/Security" from "Rechtshandhaving / Veiligheid" to "Rechtshandhaving / veiligheid"
+*	Improved the translation of "Form Button Text" from "Tekst voor formulierknop" to "Formulier knop tekst"
+*	Improved the translation of "Form Button" from "Formulierknop" to "Formulier knop"
+* 	Improved the tranlsations of a lot more texts
+ 
 = 2.4.3 =
 *	Added the translation for Gravity Forms version 1.5.2.2
 *	Removed the social buttons from the WordPress plugin page
