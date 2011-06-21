@@ -2,8 +2,8 @@
 /*
 Plugin Name: Gravity Forms (nl)
 Plugin URI: http://pronamic.eu/wordpress/gravityforms-nl/
-Description: <strong>Gravity Forms</strong> public 1.5.2.2 | <strong>User Registration Add-On</strong> 1.0 | <strong>Campaign Monitor Add-On</strong> 1.6 | Extends the Gravity Forms plugin and add-ons with the Dutch language 
-Version: 2.4.3
+Description: <strong>Gravity Forms</strong> public 1.5.2.3 | <strong>User Registration Add-On</strong> 1.0 | <strong>Campaign Monitor Add-On</strong> 1.6 | Extends the Gravity Forms plugin and add-ons with the Dutch language 
+Version: 2.4.5
 Requires at least: 3.0
 Author: Pronamic
 Author URI: http://pronamic.eu/
@@ -12,18 +12,18 @@ License: GPL
 
 class GravityFormsNL {
 	/**
-	 * The officiale name of this plugin
+	 * The current langauge
 	 * 
 	 * @var string
 	 */
-	const PLUGIN_NAME = 'Gravity Forms (nl)';
+	private static $language;
 
 	/**
-	 * The URL to this plugin
+	 * Flag for the dutch langauge, true if current langauge is dutch, false otherwise
 	 * 
-	 * @var string
+	 * @var boolean
 	 */
-	const PLUGIN_URL_PAGE = 'http://pronamic.eu/wordpress/gravityforms-nl/';
+	private static $isDutch;
 
 	////////////////////////////////////////////////////////////
 
@@ -44,6 +44,9 @@ class GravityFormsNL {
 	 * Initialize
 	 */
 	public static function init() {
+		self::$language = get_option('WPLANG', WPLANG);
+		self::$isDutch = (self::$language == 'nl' || self::$language == 'nl_NL');
+
 		load_plugin_textdomain('gravityformsuserregistration', false, dirname(plugin_basename(__FILE__)) . '/languages/');
 	}
 
@@ -56,11 +59,9 @@ class GravityFormsNL {
 	 * @param string $domain
 	 */
 	public static function loadMoFile($moFile, $domain) {
-		$isDutch = (WPLANG == 'nl' || WPLANG == 'nl_NL');
-
 		// Gravity Forms
 		$isGravityForms = ($domain == 'gravityforms');
-		if($isDutch && $isGravityForms) {
+		if(self::$isDutch && $isGravityForms) {
 			$version = null;
 			if(class_exists('GFCommon')) {
 				$version = GFCommon::$version;
@@ -71,7 +72,7 @@ class GravityFormsNL {
 
 		// User Registration Add-On
 		$isUserRegistrationAddOn = ($domain == 'gravityformsuserregistration' || $domain == 'gravityforms_user_registration');
-		if($isDutch && $isUserRegistrationAddOn) {
+		if(self::$isDutch && $isUserRegistrationAddOn) {
 			// Unfortunately the static var GFUser::$version is private
 			$version = get_option('gf_user_registration_version');
 
@@ -80,30 +81,29 @@ class GravityFormsNL {
 
 		// Campaign Monitor Add-On
 		$isCampaignMonitorAddOn = ($domain == 'gravityformscampaignmonitor');
-		if($isDutch && $isCampaignMonitorAddOn) {
+		if(self::$isDutch && $isCampaignMonitorAddOn) {
 			// Unfortunately the static var GFCampaignMonitor::$version is private
 			$version = get_option('gf_campaignmonitor_version');
 
 			$moFile = self::getMoFile('gravityformscampaignmonitor', $version);
 		}
-	
+
 		return $moFile;
 	}
 
 	////////////////////////////////////////////////////////////
 
 	/**
-	 * Get the MO file for the specified domain and version
-	 * Enter description here ...
+	 * Get the MO file for the specified domain, version and language
 	 */
 	public static function getMoFile($domain, $version) {
 		$dir = dirname(__FILE__);
 
-		$moFile = $dir . '/languages/' . $domain . '/' . $version . '/' . WPLANG . '.mo';
+		$moFile = $dir . '/languages/' . $domain . '/' . $version . '/' . self::$language . '.mo';
 
 		// if specific version MO file is not available point to the current public release (cpr) version 
 		if(!is_readable($moFile)) {
-			$moFile = $dir . '/languages/' . $domain . '/cpr/' . WPLANG . '.mo';
+			$moFile = $dir . '/languages/' . $domain . '/cpr/' . self::$language . '.mo';
 		}
 
 		return $moFile;
@@ -115,7 +115,7 @@ class GravityFormsNL {
 	 * Gravity Forms translate datepicker
 	 */
 	public static function translateDatepicker() {
-		if(wp_script_is('gforms_ui_datepicker')) {
+		if(self::$isDutch && wp_script_is('gforms_ui_datepicker')) {
 			// @see http://code.google.com/p/jquery-ui/source/browse/trunk/ui/i18n/jquery.ui.datepicker-nl.js
 			$srcUrl = plugins_url('js/jquery.ui.datepicker-nl.js', __FILE__);
 
