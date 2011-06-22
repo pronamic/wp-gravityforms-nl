@@ -2,7 +2,7 @@
 /*
 Plugin Name: Gravity Forms (nl)
 Plugin URI: http://pronamic.eu/wordpress/gravityforms-nl/
-Description: <strong>Gravity Forms</strong> public 1.5.2.3 | <strong>User Registration Add-On</strong> 1.0 | <strong>Campaign Monitor Add-On</strong> 1.7 | Extends the Gravity Forms plugin and add-ons with the Dutch language 
+Description: <strong>Gravity Forms</strong> public 1.5.2.3 | <strong>User Registration Add-On</strong> 1.0 | <strong>Campaign Monitor Add-On</strong> 1.7 | <strong>MailChimp Add-On</strong> 1.4 | <strong>PayPal Add-On</strong> 1.2.3 | Extends the Gravity Forms plugin and add-ons with the Dutch language 
 Version: 2.4.5
 Requires at least: 3.0
 Author: Pronamic
@@ -86,6 +86,24 @@ class GravityFormsNL {
 			$version = get_option('gf_campaignmonitor_version');
 
 			$moFile = self::getMoFile('gravityformscampaignmonitor', $version);
+		}
+
+		// MailChimp Add-On
+		$isMailChimpAddOn = ($domain == 'gravityformsmailchimp');
+		if(self::$isDutch && $isMailChimpAddOn) {
+			// Unfortunately the static var GFMailChimp::$version is private
+			$version = get_option('gf_mailchimp_version');
+
+			$moFile = self::getMoFile('gravityformsmailchimp', $version);
+		}
+		
+		// PayPal Add-On
+		$isPayPalAddOn = ($domain == 'gravityformspaypal');
+		if(self::$isDutch && $isPayPalAddOn) {
+			// Unfortunately the static var GFPayPal::$version is private
+			$version = get_option('gf_paypal_version');
+
+			$moFile = self::getMoFile('gravityformspaypal', $version);
 		}
 
 		return $moFile;
