@@ -6,7 +6,7 @@ Tested up to: 3.2
 Stable tag: 2.4.5
 
 This WordPress plugin extends the Gravity Forms plugin with the Dutch translation.
-Gravity Forms version 1.5.2.3 | User Registration Add-On version 1.0 | Gravity Forms Campaign Monitor Add-On version 1.6
+Gravity Forms version 1.5.2.3 | User Registration Add-On version 1.0 | Gravity Forms Campaign Monitor Add-On version 1.7
 
 == Description ==
 
@@ -26,6 +26,9 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 
 == Changelog ==
+
+= 2.4.6 =
+*	Updated to Gravity Forms Campaign Monitor Add-On version 1.7
 
 = 2.4.5 =
 *	Improved the translation of "New submission from" from "Nieuw aanmeldingsformulier" to "Nieuwe inzending via" 
