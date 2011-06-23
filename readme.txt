@@ -6,9 +6,12 @@ Tested up to: 3.2
 Stable tag: 2.4.6
 
 This WordPress plugin extends the Gravity Forms plugin with the Dutch translation.
-Extends the Gravity Forms plugin and add-ons with the Dutch language: <strong>Gravity Forms</strong> public 1.5.2.8 | <strong>User Registration Add-On</strong> 1.0 | <strong>Campaign Monitor Add-On</strong> 1.7 | <strong>MailChimp Add-On</strong> 1.4 | <strong>PayPal Add-On</strong> 1.2.3
 
 == Description ==
+
+<strong>Gravity Forms</strong> public 1.5.2.8 | <strong>User Registration Add-On</strong> 1.0 | 
+<strong>Campaign Monitor Add-On</strong> 1.7 | <strong>MailChimp Add-On</strong> 1.4 | 
+<strong>PayPal Add-On</strong> 1.2.3
 
 > This plugin requires the <a href="http://www.gravityforms.com/">Gravity Forms plugin</a>. <strong>Don't use Gravity Forms? <a href="http://www.gravityforms.com/">Buy the plugin</a></strong> and start using this revolutionary plugin!
 
