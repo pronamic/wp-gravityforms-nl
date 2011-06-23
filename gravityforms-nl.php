@@ -2,8 +2,8 @@
 /*
 Plugin Name: Gravity Forms (nl)
 Plugin URI: http://pronamic.eu/wordpress/gravityforms-nl/
-Description: <strong>Gravity Forms</strong> public 1.5.2.3 | <strong>User Registration Add-On</strong> 1.0 | <strong>Campaign Monitor Add-On</strong> 1.7 | <strong>MailChimp Add-On</strong> 1.4 | <strong>PayPal Add-On</strong> 1.2.3 | Extends the Gravity Forms plugin and add-ons with the Dutch language 
-Version: 2.4.5
+Description: Extends the Gravity Forms plugin and add-ons with the Dutch language: <strong>Gravity Forms</strong> public 1.5.2.8 | <strong>User Registration Add-On</strong> 1.0 | <strong>Campaign Monitor Add-On</strong> 1.7 | <strong>MailChimp Add-On</strong> 1.4 | <strong>PayPal Add-On</strong> 1.2.3 
+Version: 2.4.6
 Requires at least: 3.0
 Author: Pronamic
 Author URI: http://pronamic.eu/
