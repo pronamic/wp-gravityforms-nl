@@ -3,12 +3,15 @@ Contributors: pronamic, remcotolsma
 Tags: gravityforms, gravity, form, forms, translation, dutch, nl, nl_NL, user registration
 Requires at least: 3.0
 Tested up to: 3.2
-Stable tag: 2.4.4
+Stable tag: 2.4.7
 
 This WordPress plugin extends the Gravity Forms plugin with the Dutch translation.
-Gravity Forms version 1.5.2.3 | User Registration Add-On version 1.0 | Gravity Forms Campaign Monitor Add-On version 1.6
 
 == Description ==
+
+<strong>Gravity Forms</strong> public 1.5.2.8 | <strong>User Registration Add-On</strong> 1.2 | 
+<strong>Campaign Monitor Add-On</strong> 1.8 | <strong>MailChimp Add-On</strong> 1.5 | 
+<strong>PayPal Add-On</strong> 1.2.3
 
 > This plugin requires the <a href="http://www.gravityforms.com/">Gravity Forms plugin</a>. <strong>Don't use Gravity Forms? <a href="http://www.gravityforms.com/">Buy the plugin</a></strong> and start using this revolutionary plugin!
 
@@ -26,6 +29,23 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 
 == Changelog ==
+
+= 2.4.7 = 
+*	Updated to Gravity Forms Campaign Monitor Add-On version 1.8
+*	Updated to Gravity Forms MailChimp Add-On version 1.5
+*	Updated to Gravity Forms User Registration Add-On version 1.2
+
+= 2.4.6 =
+*	Updated to Gravity Forms version 1.5.2.8 (added 3 new translations)
+*	Updated to Gravity Forms Campaign Monitor Add-On version 1.7
+*	Added the translation for Gravity Forms MailChimp Add-On version 1.4
+*	Added the translation for Gravity Forms PayPal Add-On version 1.2.3
+
+= 2.4.5 =
+*	Improved the translation of "New submission from" from "Nieuw aanmeldingsformulier" to "Nieuwe inzending via" 
+*	Replaced the use of the constant WPLANG with "self::$language = get_option('WPLANG', WPLANG);" so the plugin works correct in multisites
+*	Enqueue the jQuery datepicker dutch translation only if the language is dutch
+*	Removed two unused constants: PLUGIN_NAME and PLUGIN_URL_PAGE
 
 = 2.4.4 =
 *	Updated to Gravity Forms version 1.5.2.3
