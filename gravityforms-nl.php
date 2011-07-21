@@ -65,7 +65,7 @@ class GravityFormsNL {
 			$version = null;
 			if(class_exists('GFCommon')) {
 				$version = GFCommon::$version;
-	        }
+		}
 
 			$moFile = self::getMoFile('gravityforms', $version);
 		}
@@ -138,7 +138,7 @@ class GravityFormsNL {
 			$srcUrl = plugins_url('js/jquery.ui.datepicker-nl.js', __FILE__);
 
 			wp_enqueue_script('gforms_ui_datepicker_nl', $srcUrl, array('gforms_ui_datepicker'), false, true);
-	    }
+		}
 	}
 }
 
