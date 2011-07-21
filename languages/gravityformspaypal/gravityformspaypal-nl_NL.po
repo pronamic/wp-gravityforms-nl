@@ -1,0 +1,833 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms PayPal Add-On\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-22 13:36+0100\n"
+"PO-Revision-Date: 2011-06-22 13:38+0100\n"
+"Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
+"Language-Team: Pronamic <info@pronamic.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__withdesc;_ewithdesc;_c;_n_noop:1,2;__ngettext_noop:1,2;_x:2c,1;_nc:1,2;esc_attr_e;esc_html_e;esc_attr__;_nx:4c,1,2;_nx_noop:4c,1,2;esc_html_x:2c,1;esc_html__;_ex:2c,1\n"
+"X-Poedit-Basepath: W:\\rt\\httpdocs\\wp-content\\plugins\\gravityformspaypal\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: plugin-upgrade.php:56
+#: paypal.php:148
+#, php-format
+msgid "View version %s Details"
+msgstr ""
+
+#: plugin-upgrade.php:75
+#, php-format
+msgid "Oops!! Something went wrong.%sPlease try again or %scontact us%s."
+msgstr ""
+
+#: paypal.php:141
+msgid "Gravity Forms "
+msgstr ""
+
+#: paypal.php:148
+msgid "There is a new version of Gravity Forms PayPal Add-On available."
+msgstr ""
+
+#: paypal.php:149
+#, php-format
+msgid "%sRegister%s your copy of Gravity Forms to receive access to automatic upgrades and support. Need a license key? %sPurchase one now%s."
+msgstr ""
+
+#: paypal.php:188
+#: paypal.php:550
+#: paypal.php:962
+msgid "PayPal"
+msgstr ""
+
+#: paypal.php:204
+#: paypal.php:1047
+msgid "PayPal Email Address"
+msgstr ""
+
+#: paypal.php:204
+msgid "Enter the PayPal email address where payment should be received."
+msgstr ""
+
+#: paypal.php:205
+#: paypal.php:1058
+msgid "Mode"
+msgstr ""
+
+#: paypal.php:205
+msgid "Select Production to receive live payments. Select Test for testing purposes when using the PayPal development sandbox."
+msgstr ""
+
+#: paypal.php:206
+#: paypal.php:334
+#: paypal.php:343
+#: paypal.php:1067
+msgid "Transaction Type"
+msgstr ""
+
+#: paypal.php:206
+msgid "Select which PayPal transaction type should be used. Products and Services, Donations or Subscription."
+msgstr ""
+
+#: paypal.php:207
+#: paypal.php:1077
+msgid "Gravity Form"
+msgstr ""
+
+#: paypal.php:207
+msgid "Select which Gravity Forms you would like to integrate with PayPal."
+msgstr ""
+
+#: paypal.php:208
+#: paypal.php:1186
+msgid "Customer"
+msgstr ""
+
+#: paypal.php:208
+msgid "Map your Form Fields to the available PayPal customer information fields."
+msgstr ""
+
+#: paypal.php:209
+#: paypal.php:1197
+msgid "Page Style"
+msgstr ""
+
+#: paypal.php:209
+msgid "This option allows you to select which PayPal page style should be used if you have setup a custom payment page style with PayPal."
+msgstr ""
+
+#: paypal.php:210
+#: paypal.php:1201
+msgid "Continue Button Label"
+msgstr ""
+
+#: paypal.php:210
+msgid "Enter the text that should appear on the continue button once payment has been completed via PayPal."
+msgstr ""
+
+#: paypal.php:211
+#: paypal.php:1205
+msgid "Cancel URL"
+msgstr ""
+
+#: paypal.php:211
+msgid "Enter the URL the user should be sent to should they cancel before completing their PayPal payment."
+msgstr ""
+
+#: paypal.php:212
+#: paypal.php:1210
+msgid "Options"
+msgstr ""
+
+#: paypal.php:212
+msgid "Turn on or off the available PayPal checkout options."
+msgstr ""
+
+#: paypal.php:213
+#: paypal.php:1110
+msgid "Recurring Amount"
+msgstr ""
+
+#: paypal.php:213
+msgid "Select which field determines the recurring payment amount."
+msgstr ""
+
+#: paypal.php:214
+#: paypal.php:1117
+msgid "Billing Cycle"
+msgstr ""
+
+#: paypal.php:214
+msgid "Select your billing cycle.  This determines how often the recurring payment should occur."
+msgstr ""
+
+#: paypal.php:215
+#: paypal.php:1136
+msgid "Recurring Times"
+msgstr ""
+
+#: paypal.php:215
+msgid "Select how many times the recurring payment should be made.  The default is to bill the customer until the subscription is canceled."
+msgstr ""
+
+#: paypal.php:216
+#: paypal.php:218
+#: paypal.php:1153
+#: paypal.php:1164
+msgid "Trial Period"
+msgstr ""
+
+#: paypal.php:216
+msgid "Enable a trial period.  The users recurring payment will not begin until after this trial period."
+msgstr ""
+
+#: paypal.php:217
+#: paypal.php:1160
+msgid "Trial Amount"
+msgstr ""
+
+#: paypal.php:217
+msgid "Enter the trial period amount or leave it blank for a free trial."
+msgstr ""
+
+#: paypal.php:218
+msgid "Select the trial period length."
+msgstr ""
+
+#: paypal.php:219
+#: paypal.php:1254
+msgid "PayPal Condition"
+msgstr ""
+
+#: paypal.php:219
+msgid "When the PayPal condition is enabled, form submissions will only be sent to PayPal when the condition is met. When disabled all form submissions will be sent to PayPal."
+msgstr ""
+
+#: paypal.php:282
+msgid "Feed deleted."
+msgstr ""
+
+#: paypal.php:293
+msgid "Feeds deleted."
+msgstr ""
+
+#: paypal.php:299
+msgid "PayPal Transactions"
+msgstr ""
+
+#: paypal.php:301
+msgid "PayPal Forms"
+msgstr ""
+
+#: paypal.php:305
+msgid "Add New"
+msgstr ""
+
+#: paypal.php:318
+#: paypal.php:320
+msgid "Bulk action"
+msgstr ""
+
+#: paypal.php:321
+#: paypal.php:381
+msgid "Delete"
+msgstr ""
+
+#: paypal.php:324
+msgid "Apply"
+msgstr ""
+
+#: paypal.php:324
+msgid "Delete selected feeds? "
+msgstr ""
+
+#: paypal.php:324
+#: paypal.php:381
+msgid "\\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr ""
+
+#: paypal.php:333
+#: paypal.php:342
+msgid "Form"
+msgstr ""
+
+#: paypal.php:356
+#, php-format
+msgid "To get started, please configure your %sPayPal Settings%s."
+msgstr ""
+
+#: paypal.php:366
+#: paypal.php:434
+msgid "Active"
+msgstr ""
+
+#: paypal.php:366
+#: paypal.php:430
+msgid "Inactive"
+msgstr ""
+
+#: paypal.php:368
+#: paypal.php:371
+msgid "Edit"
+msgstr ""
+
+#: paypal.php:374
+msgid "View Stats"
+msgstr ""
+
+#: paypal.php:374
+msgid "Stats"
+msgstr ""
+
+#: paypal.php:377
+msgid "View Entries"
+msgstr ""
+
+#: paypal.php:377
+msgid "Entries"
+msgstr ""
+
+#: paypal.php:381
+msgid "Delete this feed? "
+msgstr ""
+
+#: paypal.php:389
+msgid "Product and Services"
+msgstr ""
+
+#: paypal.php:393
+msgid "Donation"
+msgstr ""
+
+#: paypal.php:397
+msgid "Subscription"
+msgstr ""
+
+#: paypal.php:410
+#, php-format
+msgid "You don't have any PayPal feeds configured. Let's go %screate one%s!"
+msgstr ""
+
+#: paypal.php:445
+msgid "Ajax error while updating feed"
+msgstr ""
+
+#: paypal.php:476
+msgid "PayPal Settings"
+msgstr ""
+
+#: paypal.php:478
+msgid "Gravity Forms requires IPN to be enabled on your PayPal account. Follow the following steps to confirm IPN is enabled."
+msgstr ""
+
+#: paypal.php:482
+#, php-format
+msgid "Navigate to your PayPal %sIPN Settings page.%s"
+msgstr ""
+
+#: paypal.php:483
+msgid "If IPN is already enabled, you will see your current IPN settings along with a button to turn off IPN. If that is the case, just check the confirmation box below and you are ready to go!"
+msgstr ""
+
+#: paypal.php:484
+msgid "If IPN is not enabled, click the 'Choose IPN Settings' button."
+msgstr ""
+
+#: paypal.php:485
+#, php-format
+msgid "Click the box to enable IPN and enter the following Notification URL: %s"
+msgstr ""
+
+#: paypal.php:489
+msgid "Confirm that your have configured your PayPal account to enable IPN"
+msgstr ""
+
+#: paypal.php:504
+#: paypal.php:507
+msgid "Uninstall PayPal Add-On"
+msgstr ""
+
+#: paypal.php:505
+msgid "Warning! This operation deletes ALL PayPal Feeds."
+msgstr ""
+
+#: paypal.php:507
+msgid "Warning! ALL PayPal Feeds will be deleted. This cannot be undone. \\'OK\\' to delete, \\'Cancel\\' to stop"
+msgstr ""
+
+#: paypal.php:517
+msgid "Select a product"
+msgstr ""
+
+#: paypal.php:551
+msgid "PayPal Stats"
+msgstr ""
+
+#: paypal.php:555
+msgid "Daily"
+msgstr ""
+
+#: paypal.php:556
+msgid "Weekly"
+msgstr ""
+
+#: paypal.php:557
+msgid "Monthly"
+msgstr ""
+
+#: paypal.php:578
+msgid "No payments have been made yet."
+msgstr ""
+
+#: paypal.php:641
+msgid "Week "
+msgstr ""
+
+#: paypal.php:663
+msgid "Total Orders"
+msgstr ""
+
+#: paypal.php:668
+msgid "Total Donations"
+msgstr ""
+
+#: paypal.php:673
+msgid "Active Subscriptions"
+msgstr ""
+
+#: paypal.php:681
+msgid "Total Revenue"
+msgstr ""
+
+#: paypal.php:700
+msgid "** Free trial transactions will only be reflected in the graph after the first payment is made (i.e. after trial period ends)"
+msgstr ""
+
+#: paypal.php:751
+#: paypal.php:818
+#: paypal.php:888
+msgid "New Subscriptions"
+msgstr ""
+
+#: paypal.php:751
+#: paypal.php:818
+#: paypal.php:888
+msgid "Renewals"
+msgstr ""
+
+#: paypal.php:754
+#: paypal.php:821
+#: paypal.php:891
+msgid "Orders"
+msgstr ""
+
+#: paypal.php:757
+#: paypal.php:824
+#: paypal.php:894
+msgid "Revenue"
+msgstr ""
+
+#: paypal.php:776
+msgid "Orders Today"
+msgstr ""
+
+#: paypal.php:780
+msgid "Donations Today"
+msgstr ""
+
+#: paypal.php:784
+msgid "Subscriptions Today"
+msgstr ""
+
+#: paypal.php:788
+msgid "Revenue Today"
+msgstr ""
+
+#: paypal.php:824
+msgid "Week"
+msgstr "Week"
+
+#: paypal.php:844
+msgid "Orders this Week"
+msgstr ""
+
+#: paypal.php:848
+msgid "Donations this Week"
+msgstr ""
+
+#: paypal.php:852
+msgid "Subscriptions this Week"
+msgstr ""
+
+#: paypal.php:857
+msgid "Revenue this Week"
+msgstr ""
+
+#: paypal.php:913
+msgid "Orders this Month"
+msgstr ""
+
+#: paypal.php:917
+msgid "Donations this Month"
+msgstr ""
+
+#: paypal.php:921
+msgid "Subscriptions this Month"
+msgstr ""
+
+#: paypal.php:925
+msgid "Revenue this Month"
+msgstr ""
+
+#: paypal.php:939
+msgid "Jan"
+msgstr ""
+
+#: paypal.php:939
+msgid "Feb"
+msgstr ""
+
+#: paypal.php:939
+msgid "Mar"
+msgstr ""
+
+#: paypal.php:939
+msgid "Apr"
+msgstr ""
+
+#: paypal.php:939
+msgid "May"
+msgstr ""
+
+#: paypal.php:939
+msgid "Jun"
+msgstr ""
+
+#: paypal.php:939
+msgid "Jul"
+msgstr ""
+
+#: paypal.php:939
+msgid "Aug"
+msgstr ""
+
+#: paypal.php:939
+msgid "Sep"
+msgstr ""
+
+#: paypal.php:939
+msgid "Oct"
+msgstr ""
+
+#: paypal.php:939
+msgid "Nov"
+msgstr ""
+
+#: paypal.php:939
+msgid "Dec"
+msgstr ""
+
+#: paypal.php:963
+msgid "PayPal Transaction Settings"
+msgstr ""
+
+#: paypal.php:1021
+#, php-format
+msgid "Feed Updated. %sback to list%s"
+msgstr ""
+
+#: paypal.php:1040
+msgid "There was an issue saving your feed. Please address the errors below and try again."
+msgstr ""
+
+#: paypal.php:1061
+msgid "Production"
+msgstr ""
+
+#: paypal.php:1064
+msgid "Test"
+msgstr ""
+
+#: paypal.php:1070
+msgid "Select a transaction type"
+msgstr ""
+
+#: paypal.php:1071
+msgid "Products and Services"
+msgstr ""
+
+#: paypal.php:1072
+msgid "Donations"
+msgstr ""
+
+#: paypal.php:1073
+msgid "Subscriptions"
+msgstr ""
+
+#: paypal.php:1080
+msgid "Select a form"
+msgstr ""
+
+#: paypal.php:1100
+msgid "The form selected does not have any Product fields. Please add a Product field to the form and try again."
+msgstr ""
+
+#: paypal.php:1103
+msgid "The form selected does not have any Donation fields. Please add a Donation field to the form and try again."
+msgstr ""
+
+#: paypal.php:1128
+#: paypal.php:1175
+msgid "day(s)"
+msgstr ""
+
+#: paypal.php:1129
+#: paypal.php:1176
+msgid "week(s)"
+msgstr ""
+
+#: paypal.php:1130
+#: paypal.php:1177
+msgid "month(s)"
+msgstr ""
+
+#: paypal.php:1131
+#: paypal.php:1178
+msgid "year(s)"
+msgstr ""
+
+#: paypal.php:1138
+msgid "Infinite"
+msgstr ""
+
+#: paypal.php:1149
+msgid "Try to bill again after failed attempt."
+msgstr ""
+
+#: paypal.php:1155
+#: paypal.php:1261
+msgid "Enable"
+msgstr ""
+
+#: paypal.php:1215
+msgid "Do not prompt buyer to include a shipping address."
+msgstr ""
+
+#: paypal.php:1219
+msgid "Do not prompt buyer to include a note with payment."
+msgstr ""
+
+#: paypal.php:1223
+msgid "Send admin notification only when payment is received."
+msgstr ""
+
+#: paypal.php:1227
+msgid "Send user notification only when payment is received."
+msgstr ""
+
+#: paypal.php:1234
+msgid "Create post only when payment is received."
+msgstr ""
+
+#: paypal.php:1239
+msgid "Update Post when subscription is cancelled."
+msgstr ""
+
+#: paypal.php:1242
+msgid "Mark Post as Draft"
+msgstr ""
+
+#: paypal.php:1243
+msgid "Delete Post"
+msgstr ""
+
+#: paypal.php:1269
+msgid "Send to PayPal if "
+msgstr ""
+
+#: paypal.php:1275
+msgid "is"
+msgstr ""
+
+#: paypal.php:1276
+msgid "is not"
+msgstr ""
+
+#: paypal.php:1283
+msgid "To create a registration condition, your form must have a drop down, checkbox or multiple choice field"
+msgstr ""
+
+#: paypal.php:1295
+msgid "  Save  "
+msgstr ""
+
+#: paypal.php:1295
+msgid "Update"
+msgstr ""
+
+#: paypal.php:1296
+msgid "Cancel"
+msgstr ""
+
+#: paypal.php:1343
+msgid "Ajax error while selecting a form"
+msgstr ""
+
+#: paypal.php:1620
+msgid "Click here to continue"
+msgstr ""
+
+#: paypal.php:1806
+#, php-format
+msgid "Subscription payment has been made. Amount: %s. Transaction Id: %s"
+msgstr ""
+
+#: paypal.php:1825
+#, php-format
+msgid "Subscription has been cancelled. Subscriber Id: %s"
+msgstr ""
+
+#: paypal.php:1845
+#, php-format
+msgid "Subscription has expired. Subscriber Id: %s"
+msgstr ""
+
+#: paypal.php:1854
+#, php-format
+msgid "Subscription signup has failed. Subscriber Id: %s"
+msgstr ""
+
+#: paypal.php:1876
+#, php-format
+msgid "Payment has been approved. Amount: %s. Transaction Id: %s"
+msgstr ""
+
+#: paypal.php:1888
+#, php-format
+msgid "Payment has been reversed. Transaction Id: %s. Reason: %s"
+msgstr ""
+
+#: paypal.php:1900
+#, php-format
+msgid "Payment reversal has been canceled and the funds have been transferred to your account. Transaction Id: %s"
+msgstr ""
+
+#: paypal.php:1912
+#, php-format
+msgid "Payment has been denied. Transaction Id: %s"
+msgstr ""
+
+#: paypal.php:1926
+#, php-format
+msgid "Payment is pending. Amount: %s. Transaction Id: %s. Reason: %s"
+msgstr ""
+
+#: paypal.php:1938
+#, php-format
+msgid "Payment has been refunded. Refunded amount: %s. Transaction Id: %s"
+msgstr ""
+
+#: paypal.php:1950
+#, php-format
+msgid "Authorization has been voided. Transaction Id: %s"
+msgstr ""
+
+#: paypal.php:1962
+#, php-format
+msgid "Payment has been authorized. You can capture funds from your PayPal control panel. Transaction Id: %s"
+msgstr ""
+
+#: paypal.php:1973
+#, php-format
+msgid "Payment has Failed. Failed payments occur when they are made via your customer's bank account and could not be completed. Transaction Id: %s"
+msgstr ""
+
+#: paypal.php:2019
+#, php-format
+msgid "Subscription has been created. Subscriber Id: %s"
+msgstr ""
+
+#: paypal.php:2026
+msgid "The payment is pending because your customer did not include a confirmed shipping address and your Payment Receiving Preferences is set to allow you to manually accept or deny each of these payments. To change your preference, go to the Preferences section of your Profile."
+msgstr ""
+
+#: paypal.php:2029
+msgid "You set the payment action to Authorization and have not yet captured funds."
+msgstr ""
+
+#: paypal.php:2032
+msgid "The payment is pending because it was made by an eCheck that has not yet cleared."
+msgstr ""
+
+#: paypal.php:2035
+msgid "The payment is pending because you hold a non-U.S. account and do not have a withdrawal mechanism. You must manually accept or deny this payment from your Account Overview."
+msgstr ""
+
+#: paypal.php:2038
+msgid "You do not have a balance in the currency sent, and you do not have your Payment Receiving Preferences set to automatically convert and accept this payment. You must manually accept or deny this payment."
+msgstr ""
+
+#: paypal.php:2041
+msgid "You set the payment action to Order and have not yet captured funds."
+msgstr ""
+
+#: paypal.php:2044
+msgid "The payment is pending while it is being reviewed by PayPal for risk."
+msgstr ""
+
+#: paypal.php:2047
+msgid "The payment is pending because it was made to an email address that is not yet registered or confirmed."
+msgstr ""
+
+#: paypal.php:2050
+msgid "The payment is pending because it was made via credit card and you must upgrade your account to Business or Premier status in order to receive the funds. upgrade can also mean that you have reached the monthly limit for transactions on your account."
+msgstr ""
+
+#: paypal.php:2053
+msgid "The payment is pending because you are not yet verified. You must verify your account before you can accept this payment."
+msgstr ""
+
+#: paypal.php:2056
+#: paypal.php:2059
+#: paypal.php:2090
+msgid "Reason has not been specified. For more information, contact PayPal Customer Service."
+msgstr ""
+
+#: paypal.php:2067
+msgid "Reversal of an adjustment"
+msgstr ""
+
+#: paypal.php:2069
+msgid "A reversal has occurred on this transaction due to a complaint about the transaction from your customer."
+msgstr ""
+
+#: paypal.php:2072
+msgid "A reversal has occurred on this transaction due to a chargeback by your customer."
+msgstr ""
+
+#: paypal.php:2075
+msgid "Reimbursement for a chargeback."
+msgstr ""
+
+#: paypal.php:2078
+msgid "Settlement of a chargeback."
+msgstr ""
+
+#: paypal.php:2081
+msgid "A reversal has occurred on this transaction due to your customer triggering a money-back guarantee."
+msgstr ""
+
+#: paypal.php:2084
+msgid "Non-specified reason."
+msgstr ""
+
+#: paypal.php:2087
+msgid "A reversal has occurred on this transaction because you have given the customer a refund."
+msgstr ""
+
+#: paypal.php:2223
+msgid "with options"
+msgstr ""
+
+#: paypal.php:2234
+msgid "You don't have adequate permission to uninstall the PayPal Add-On."
+msgstr ""
+
+#: paypal.php:2278
+msgid "PayPal Fields"
+msgstr ""
+
+#: paypal.php:2278
+msgid "Form Fields"
+msgstr ""
+
+#: paypal.php:2311
+msgid "Select a field"
+msgstr ""
+
