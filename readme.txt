@@ -3,13 +3,13 @@ Contributors: pronamic, remcotolsma
 Tags: gravityforms, gravity, form, forms, translation, dutch, nl, nl_NL, user registration
 Requires at least: 3.0
 Tested up to: 3.2
-Stable tag: 2.4.8
+Stable tag: 2.4.9
 
 This WordPress plugin extends the Gravity Forms plugin with the Dutch translation.
 
 == Description ==
 
-<strong>Gravity Forms</strong> public 1.5.2.8 | <strong>User Registration Add-On</strong> 1.2.6 | 
+<strong>Gravity Forms</strong> public 1.5.2.8 | <strong>User Registration Add-On</strong> 1.2.6.1 | 
 <strong>Campaign Monitor Add-On</strong> 1.8 | <strong>MailChimp Add-On</strong> 1.5 | 
 <strong>PayPal Add-On</strong> 1.2.3
 
@@ -29,6 +29,9 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 
 == Changelog ==
+
+= 2.4.9 =
+*	Updated to Gravity Forms User Registration Add-On version 1.2.6.1
 
 = 2.4.8 =
 *	Updated to Gravity Forms User Registration Add-On version 1.2.6 (added 3 new translations)
