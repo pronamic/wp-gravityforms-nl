@@ -3,14 +3,16 @@ Contributors: pronamic, remcotolsma
 Tags: gravityforms, gravity, form, forms, translation, dutch, nl, nl_NL, user registration
 Requires at least: 3.0
 Tested up to: 3.2
-Stable tag: 2.4.9
+Stable tag: 2.5
 
 This WordPress plugin extends the Gravity Forms plugin with the Dutch translation.
 
 == Description ==
 
-<strong>Gravity Forms</strong> public 1.5.2.8 | <strong>User Registration Add-On</strong> 1.2.6.1 | 
-<strong>Campaign Monitor Add-On</strong> 1.8 | <strong>MailChimp Add-On</strong> 1.5 | 
+<strong>Gravity Forms</strong> 1.5.2.8 and 1.6beta3 | 
+<strong>User Registration Add-On</strong> 1.2.6.1 | 
+<strong>Campaign Monitor Add-On</strong> 1.8 | 
+<strong>MailChimp Add-On</strong> 1.5 | 
 <strong>PayPal Add-On</strong> 1.2.3
 
 > This plugin requires the <a href="http://www.gravityforms.com/">Gravity Forms plugin</a>. <strong>Don't use Gravity Forms? <a href="http://www.gravityforms.com/">Buy the plugin</a></strong> and start using this revolutionary plugin!
@@ -29,6 +31,11 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 
 == Changelog ==
+
+= 2.5 =
+*	Added the translation of some JavaScript variables wich are not translatable within Gravity Forms itself
+*	Added the translation for Gravity Forms 1.6beta3
+*	Added the translation for Gravity Forms 1.6beta2
 
 = 2.4.9 =
 *	Updated to Gravity Forms User Registration Add-On version 1.2.6.1
@@ -126,5 +133,5 @@ WordPress installation and then activate the Plugin from Plugins page.
 *	[Pronamic Page Teasers](http://wordpress.org/extend/plugins/pronamic-page-teasers/)
 *	[Maildit](http://wordpress.org/extend/plugins/maildit/)
 *	[Pronamic Framework](http://wordpress.org/extend/plugins/pronamic-framework/)
+*	[Pronamic iDEAL](http://wordpress.org/extend/plugins/pronamic-ideal/)
 
-:-)

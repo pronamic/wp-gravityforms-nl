@@ -3,7 +3,7 @@
 Plugin Name: Gravity Forms (nl)
 Plugin URI: http://pronamic.eu/wordpress/gravityforms-nl/
 Description: Extends the Gravity Forms plugin and add-ons with the Dutch language: <strong>Gravity Forms</strong> public 1.5.2.8 | <strong>User Registration Add-On</strong> 1.2.6.1 | <strong>Campaign Monitor Add-On</strong> 1.8 | <strong>MailChimp Add-On</strong> 1.5 | <strong>PayPal Add-On</strong> 1.2.3 
-Version: 2.4.9
+Version: 2.5
 Requires at least: 3.0
 Author: Pronamic
 Author URI: http://pronamic.eu/
@@ -11,6 +11,15 @@ License: GPL
 */
 
 class GravityFormsNL {
+	/**
+	 * The text domain of this plugin
+	 * 
+	 * @var string
+	 */
+	const TEXT_DOMAIN = 'gravityforms-nl';
+
+	////////////////////////////////////////////////////////////
+
 	/**
 	 * The current langauge
 	 * 
@@ -34,7 +43,9 @@ class GravityFormsNL {
 		add_action('init', array(__CLASS__, 'init'));
 
 		add_filter('load_textdomain_mofile', array(__CLASS__, 'loadMoFile'), 10, 2);
-	
+
+		add_filter('gform_admin_pre_render', array(__CLASS__, 'gFormAdminPreRender'));
+
 		add_action('wp_print_scripts', array(__CLASS__, 'translateDatepicker'));
 	}
 
@@ -43,11 +54,18 @@ class GravityFormsNL {
 	/**
 	 * Initialize
 	 */
-	public static function init() {
+	public static function init() {		
+		// Constants
 		self::$language = get_option('WPLANG', WPLANG);
 		self::$isDutch = (self::$language == 'nl' || self::$language == 'nl_NL');
 
-		load_plugin_textdomain('gravityformsuserregistration', false, dirname(plugin_basename(__FILE__)) . '/languages/');
+		$relPath = dirname(plugin_basename(__FILE__)) . '/languages/';
+
+		// Load plugin text domain - Gravity Forms (nl)
+		load_plugin_textdomain(self::TEXT_DOMAIN, false, $relPath);
+
+		// Load plugin text domain - Gravity Forms user registration Add-On
+		load_plugin_textdomain('gravityformsuserregistration', false, $relPath);
 	}
 
 	////////////////////////////////////////////////////////////
@@ -65,7 +83,7 @@ class GravityFormsNL {
 			$version = null;
 			if(class_exists('GFCommon')) {
 				$version = GFCommon::$version;
-		}
+			}
 
 			$moFile = self::getMoFile('gravityforms', $version);
 		}
@@ -139,6 +157,26 @@ class GravityFormsNL {
 
 			wp_enqueue_script('gforms_ui_datepicker_nl', $srcUrl, array('gforms_ui_datepicker'), false, true);
 		}
+	}
+
+	////////////////////////////////////////////////////////////
+
+	/**
+	 * Gravity Forms admin pre render
+	 */
+	public static function gFormAdminPreRender($form) {
+		wp_register_script('gravityforms-nl-forms', plugins_url('js/forms-nl.js', __FILE__));
+
+		wp_localize_script('gravityforms-nl-forms', 'gravityFormsNlL10n', array(
+			'formTitle' => __('Untitled Form', self::TEXT_DOMAIN) , 
+			'formDescription' => __('We would love to hear from you! Please fill out this form and we will get in touch with you shortly.', self::TEXT_DOMAIN) ,  
+			'confirmationMessage' => __('Thanks for contacting us! We will get in touch with you shortly.', self::TEXT_DOMAIN) , 
+			'buttonText' => __('Submit', self::TEXT_DOMAIN)
+		));
+		
+		wp_print_scripts(array('gravityforms-nl-forms'));
+		
+		return $form;
 	}
 }
 
