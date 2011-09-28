@@ -3,7 +3,7 @@ Contributors: pronamic, remcotolsma
 Tags: gravityforms, gravity, form, forms, translation, dutch, nl, nl_NL, user registration
 Requires at least: 3.0
 Tested up to: 3.2
-Stable tag: 2.5.1
+Stable tag: 2.5.2
 
 This WordPress plugin extends the Gravity Forms plugin with the Dutch translation.
 
@@ -31,6 +31,9 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 
 == Changelog ==
+
+= 2.5.2 =
+*	Added support for the WPML Multilingual CMS in request of [Anne Jan Roeleveld](http://www.freshter.com/)
 
 = 2.5.1 =
 *	Added translation for Gravity Forms 1.5.3

@@ -3,7 +3,7 @@
 Plugin Name: Gravity Forms (nl)
 Plugin URI: http://pronamic.eu/wordpress/gravityforms-nl/
 Description: Extends the Gravity Forms plugin and add-ons with the Dutch language: <strong>Gravity Forms</strong> 1.5.3 and 1.6.rc1 | <strong>User Registration Add-On</strong> 1.2.6.1 | <strong>Campaign Monitor Add-On</strong> 1.8 | <strong>MailChimp Add-On</strong> 1.5 | <strong>PayPal Add-On</strong> 1.2.3 
-Version: 2.5.1
+Version: 2.5.2
 Requires at least: 3.0
 Author: Pronamic
 Author URI: http://pronamic.eu/
@@ -58,6 +58,10 @@ class GravityFormsNL {
 		// Constants
 		self::$language = get_option('WPLANG', WPLANG);
 		self::$isDutch = (self::$language == 'nl' || self::$language == 'nl_NL');
+		
+		if(defined('ICL_LANGUAGE_CODE')) {
+			self::$isDutch = ICL_LANGUAGE_CODE == 'nl';
+		}
 
 		$relPath = dirname(plugin_basename(__FILE__)) . '/languages/';
 
