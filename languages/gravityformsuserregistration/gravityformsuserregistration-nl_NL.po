@@ -2,22 +2,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Gravity Forms User Registration Add-On\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-04 10:09+0100\n"
-"PO-Revision-Date: 2011-08-04 10:11+0100\n"
+"POT-Creation-Date: 2011-10-05 08:52+0100\n"
+"PO-Revision-Date: 2011-11-03 09:52+0100\n"
 "Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__withdesc;_ewithdesc;_c;_n_noop:1,2;__ngettext_noop:1,2;_x:2c,1;_nc:1,2;esc_attr_e;esc_html_e;esc_attr__;_nx:4c,1,2;_nx_noop:4c,1,2;esc_html_x:2c,1;esc_html__;_ex:2c,1\n"
-"X-Poedit-Basepath: C:\\Users\\Remco\\Downloads\\gravityformsuserregistration_1.2.6.1\\gravityformsuserregistration\n"
+"X-Poedit-Basepath: C:\\Users\\Remco\\Downloads\\gravityformsuserregistration_1.2.11\\gravityformsuserregistration\n"
 "X-Poedit-Language: Dutch\n"
 "X-Poedit-Country: NETHERLANDS\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: plugin-upgrade.php:56
-#: userregistration.php:167
+#: userregistration.php:169
 #, php-format
 msgid "View version %s Details"
 msgstr ""
@@ -27,366 +27,366 @@ msgstr ""
 msgid "Oops!! Something went wrong.%sPlease try again or %scontact us%s."
 msgstr ""
 
-#: userregistration.php:160
+#: userregistration.php:162
 msgid "Gravity Forms "
 msgstr ""
 
-#: userregistration.php:167
+#: userregistration.php:169
 msgid "There is a new version of Gravity Forms User Registration Add-On available."
 msgstr ""
 
-#: userregistration.php:168
+#: userregistration.php:170
 #, php-format
 msgid "%sRegister%s your copy of Gravity Forms to receive access to automatic upgrades and support. Need a license key? %sPurchase one now%s."
 msgstr ""
 
-#: userregistration.php:208
-#: userregistration.php:234
-#: userregistration.php:286
-#: userregistration.php:523
-#: userregistration.php:1987
+#: userregistration.php:210
+#: userregistration.php:236
+#: userregistration.php:288
+#: userregistration.php:525
+#: userregistration.php:2005
 #, fuzzy
 msgid "User Registration"
 msgstr "Meer arbitrage"
 
-#: userregistration.php:224
-#: userregistration.php:626
+#: userregistration.php:226
+#: userregistration.php:628
 msgid "Gravity Form"
 msgstr ""
 
-#: userregistration.php:224
+#: userregistration.php:226
 msgid "Select the Gravity Form you would like to use to register users for your WordPress website."
 msgstr ""
 
-#: userregistration.php:225
-#: userregistration.php:661
+#: userregistration.php:227
+#: userregistration.php:663
 msgid "Username"
 msgstr ""
 
-#: userregistration.php:225
+#: userregistration.php:227
 msgid "Select the form field that should be used for the user's username."
 msgstr ""
 
-#: userregistration.php:226
-#: userregistration.php:666
+#: userregistration.php:228
+#: userregistration.php:668
 #, fuzzy
 msgid "First Name"
 msgstr "Voornaam"
 
-#: userregistration.php:226
+#: userregistration.php:228
 msgid "Select the form field that should be used for the user's first name."
 msgstr ""
 
-#: userregistration.php:227
-#: userregistration.php:671
+#: userregistration.php:229
+#: userregistration.php:673
 #, fuzzy
 msgid "Last Name"
 msgstr "Nieuwe fase naam"
 
-#: userregistration.php:227
+#: userregistration.php:229
 msgid "Select the form field that should be used for the user's last name."
 msgstr ""
 
-#: userregistration.php:228
-#: userregistration.php:676
+#: userregistration.php:230
+#: userregistration.php:678
 #, fuzzy
 msgid "Email Address"
 msgstr "Adres"
 
-#: userregistration.php:228
+#: userregistration.php:230
 msgid "Select the form field that should be used for the user's email address."
 msgstr ""
 
-#: userregistration.php:229
-#: userregistration.php:681
+#: userregistration.php:231
+#: userregistration.php:683
 msgid "Password"
 msgstr ""
 
-#: userregistration.php:229
+#: userregistration.php:231
 msgid "Select the form field that should be used for the user's password."
 msgstr ""
 
-#: userregistration.php:230
-#: userregistration.php:690
+#: userregistration.php:232
+#: userregistration.php:692
 #, fuzzy
 msgid "Role"
 msgstr "Dossiers"
 
-#: userregistration.php:230
+#: userregistration.php:232
 msgid "Select the role the user should be assigned."
 msgstr ""
 
-#: userregistration.php:231
-#: userregistration.php:717
+#: userregistration.php:233
+#: userregistration.php:719
 #, fuzzy
 msgid "Send Email?"
 msgstr "Gebruikersnaam of e-mailadres:"
 
-#: userregistration.php:231
+#: userregistration.php:233
 msgid "Specify whether to send the password to the new user by email. <em class=\"enabled-by-default\">Enabled by default.</em>"
 msgstr ""
 
-#: userregistration.php:232
-#: userregistration.php:724
+#: userregistration.php:234
+#: userregistration.php:726
 #, fuzzy
 msgid "Set As Post Author"
 msgstr "Auteur"
 
-#: userregistration.php:232
+#: userregistration.php:234
 msgid "When a form submission creates a post and registers a user, set the new user as the post author. <em class=\"enabled-by-default\">Enabled by default.</em>"
 msgstr ""
 
-#: userregistration.php:233
-#: userregistration.php:731
+#: userregistration.php:235
+#: userregistration.php:733
 msgid "Registration Condition"
 msgstr ""
 
-#: userregistration.php:233
+#: userregistration.php:235
 msgid "When the registration condition is enabled, form submissions will only register the user when the condition is met. When disabled the user will not be registered."
 msgstr ""
 
-#: userregistration.php:234
+#: userregistration.php:236
 msgid "The selected form also has a User Registration feed. These options allow you to specify how you would like the PayPal and User Registration Add-ons to work together."
 msgstr ""
 
-#: userregistration.php:235
-#: userregistration.php:1437
+#: userregistration.php:237
+#: userregistration.php:1441
 msgid "Create Site"
 msgstr ""
 
-#: userregistration.php:235
+#: userregistration.php:237
 msgid "When WordPress Multisite is enabled, checking this option will enable the creation of a new site on the network when a new user registers."
 msgstr ""
 
-#: userregistration.php:236
-#: userregistration.php:1445
+#: userregistration.php:238
+#: userregistration.php:1449
 #, fuzzy
 msgid "Site Address"
 msgstr "Adres"
 
-#: userregistration.php:236
+#: userregistration.php:238
 msgid "Select the form field that should be used for the site address."
 msgstr ""
 
-#: userregistration.php:237
-#: userregistration.php:1450
+#: userregistration.php:239
+#: userregistration.php:1454
 #, fuzzy
 msgid "Site Title"
 msgstr "Titel"
 
-#: userregistration.php:237
+#: userregistration.php:239
 msgid "Select the form field that should be used for the site title."
 msgstr ""
 
-#: userregistration.php:257
+#: userregistration.php:259
 #, php-format
 msgid "User Registration Add-On requires Gravity Forms %s. Upgrade automatically on the %sPlugin page%s."
 msgstr ""
 
-#: userregistration.php:269
+#: userregistration.php:271
 msgid "Feed deleted."
 msgstr ""
 
-#: userregistration.php:280
+#: userregistration.php:282
 msgid "Feeds deleted."
 msgstr ""
 
-#: userregistration.php:287
+#: userregistration.php:289
 msgid "User Registration Forms"
 msgstr ""
 
-#: userregistration.php:288
+#: userregistration.php:290
 msgid "Add New"
 msgstr ""
 
-#: userregistration.php:298
 #: userregistration.php:300
+#: userregistration.php:302
 msgid "Bulk action"
 msgstr ""
 
-#: userregistration.php:301
-#: userregistration.php:343
-#: userregistration.php:2026
+#: userregistration.php:303
+#: userregistration.php:345
+#: userregistration.php:2044
 msgid "Delete"
 msgstr ""
 
-#: userregistration.php:304
+#: userregistration.php:306
 msgid "Apply"
 msgstr ""
 
-#: userregistration.php:304
+#: userregistration.php:306
 msgid "Delete selected feeds? "
 msgstr ""
 
-#: userregistration.php:304
-#: userregistration.php:343
+#: userregistration.php:306
+#: userregistration.php:345
 msgid "\\'Cancel\\' to stop, \\'OK\\' to delete."
 msgstr ""
 
-#: userregistration.php:313
-#: userregistration.php:321
+#: userregistration.php:315
+#: userregistration.php:323
 msgid "Form"
 msgstr ""
 
-#: userregistration.php:334
-#: userregistration.php:381
+#: userregistration.php:336
+#: userregistration.php:383
 msgid "Active"
 msgstr ""
 
-#: userregistration.php:334
-#: userregistration.php:377
+#: userregistration.php:336
+#: userregistration.php:379
 msgid "Inactive"
 msgstr ""
 
-#: userregistration.php:336
-#: userregistration.php:339
+#: userregistration.php:338
+#: userregistration.php:341
 msgid "Edit"
 msgstr ""
 
-#: userregistration.php:343
+#: userregistration.php:345
 msgid "Delete this feed? "
 msgstr ""
 
-#: userregistration.php:355
+#: userregistration.php:357
 #, php-format
 msgid "You don't have any User Registration feeds configured. Let's go %screate one%s!"
 msgstr ""
 
-#: userregistration.php:392
+#: userregistration.php:394
 msgid "Ajax error while updating feed"
 msgstr ""
 
-#: userregistration.php:413
+#: userregistration.php:415
 #, php-format
 msgid "Gravity Forms User Registration Add-On has been successfully uninstalled. It can be re-activated from the %splugins page%s."
 msgstr ""
 
-#: userregistration.php:434
-#: userregistration.php:524
+#: userregistration.php:436
+#: userregistration.php:526
 msgid "User Registration Settings"
 msgstr ""
 
-#: userregistration.php:438
+#: userregistration.php:440
 #, fuzzy
 msgid "Custom Registration Page"
 msgstr "Meer arbitrage"
 
-#: userregistration.php:441
+#: userregistration.php:443
 msgid "Enable Custom Registration Page"
 msgstr ""
 
-#: userregistration.php:460
+#: userregistration.php:462
 #, fuzzy
 msgid "Save Settings"
 msgstr "Bijeenkomsten"
 
-#: userregistration.php:468
-#: userregistration.php:471
+#: userregistration.php:470
+#: userregistration.php:473
 msgid "Uninstall User Registration Add-On"
 msgstr ""
 
-#: userregistration.php:469
+#: userregistration.php:471
 msgid "Warning! This operation deletes ALL User Registration Feeds."
 msgstr ""
 
-#: userregistration.php:471
+#: userregistration.php:473
 msgid "Warning! ALL User Registration Feeds will be deleted. This cannot be undone. \\'OK\\' to delete, \\'Cancel\\' to stop"
 msgstr ""
 
-#: userregistration.php:582
+#: userregistration.php:584
 #, php-format
 msgid "Feed Updated. %sback to list%s"
 msgstr ""
 
-#: userregistration.php:602
+#: userregistration.php:604
 #, fuzzy
 msgid "Auto Generate Password"
 msgstr "Nieuw wachtwoord"
 
-#: userregistration.php:619
+#: userregistration.php:621
 msgid "Your Registration Feed could not be saved. Please update the errors below and re-save your feed."
 msgstr ""
 
-#: userregistration.php:629
+#: userregistration.php:631
 msgid "Select a form"
 msgstr ""
 
-#: userregistration.php:649
+#: userregistration.php:651
 msgid "The form selected does not have any Email fields. Please add an Email field to the form and try again."
 msgstr ""
 
-#: userregistration.php:661
-#: userregistration.php:676
-#: userregistration.php:1445
-#: userregistration.php:1450
+#: userregistration.php:663
+#: userregistration.php:678
+#: userregistration.php:1449
+#: userregistration.php:1454
 #, fuzzy
 msgid "required"
 msgstr "(verplicht)"
 
-#: userregistration.php:720
+#: userregistration.php:722
 msgid "Send this password to the new user by email."
 msgstr ""
 
-#: userregistration.php:727
-#: userregistration.php:735
+#: userregistration.php:729
+#: userregistration.php:737
 msgid "Enable"
 msgstr ""
 
-#: userregistration.php:740
+#: userregistration.php:742
 msgid "Register the user if "
 msgstr ""
 
-#: userregistration.php:746
+#: userregistration.php:748
 msgid "is"
 msgstr ""
 
-#: userregistration.php:747
+#: userregistration.php:749
 msgid "is not"
 msgstr ""
 
-#: userregistration.php:754
+#: userregistration.php:756
 msgid "To create a registration condition, your form must have a drop down, checkbox or multiple choice field"
 msgstr ""
 
-#: userregistration.php:765
+#: userregistration.php:767
 msgid "Save"
 msgstr ""
 
-#: userregistration.php:765
+#: userregistration.php:767
 msgid "Update"
 msgstr ""
 
-#: userregistration.php:766
+#: userregistration.php:768
 msgid "Cancel"
 msgstr ""
 
-#: userregistration.php:814
+#: userregistration.php:816
 msgid "Ajax error while selecting a form"
-msgstr ""
-
-#: userregistration.php:890
-#: userregistration.php:1299
-msgid "add another rule"
 msgstr ""
 
 #: userregistration.php:892
 #: userregistration.php:1301
+msgid "add another rule"
+msgstr ""
+
+#: userregistration.php:894
+#: userregistration.php:1303
 msgid "remove this rule"
 msgstr ""
 
-#: userregistration.php:936
+#: userregistration.php:938
 msgid "Enter Meta Name"
 msgstr ""
 
-#: userregistration.php:1434
+#: userregistration.php:1438
 msgid "Multisite Options"
 msgstr ""
 
-#: userregistration.php:1439
+#: userregistration.php:1443
 msgid "Create new site when a user registers."
 msgstr ""
 
-#: userregistration.php:1580
+#: userregistration.php:1584
 #, php-format
 msgid ""
 "New site created by %1s\n"
@@ -395,77 +395,77 @@ msgid ""
 "Name: %3s"
 msgstr ""
 
-#: userregistration.php:1581
+#: userregistration.php:1585
 #, php-format
 msgid "[%s] New Site Created"
 msgstr ""
 
-#: userregistration.php:1776
+#: userregistration.php:1794
 msgid "This username is already registered"
 msgstr ""
 
-#: userregistration.php:1779
+#: userregistration.php:1797
 msgid "The username can only contain alphanumeric characters (A-Z, 0-9), underscores, dashes and spaces"
 msgstr ""
 
-#: userregistration.php:1782
+#: userregistration.php:1800
 msgid "The username can only contain alphanumeric characters (A-Z, 0-9), underscores and dashes"
 msgstr ""
 
-#: userregistration.php:1785
+#: userregistration.php:1803
 #, fuzzy
 msgid "The username can not be empty"
 msgstr "Gebruikersnaam kan niet worden gewijzigd."
 
-#: userregistration.php:1791
+#: userregistration.php:1809
 msgid "This email address is already registered"
 msgstr ""
 
-#: userregistration.php:1794
+#: userregistration.php:1812
 #, fuzzy
 msgid "The email address can not be empty"
 msgstr "Uw e-mail adres wordt niet gepubliceerd."
 
-#: userregistration.php:1798
+#: userregistration.php:1816
 msgid "Passwords may not contain the character \"\\\""
 msgstr ""
 
-#: userregistration.php:1998
+#: userregistration.php:2016
 msgid "Register user only when a payment is received."
 msgstr ""
 
-#: userregistration.php:2000
+#: userregistration.php:2018
 msgid "Register user and create site only when a payment is received."
 msgstr ""
 
-#: userregistration.php:2008
+#: userregistration.php:2026
 msgid "Update <strong>user</strong> when subscription is cancelled."
 msgstr ""
 
-#: userregistration.php:2014
+#: userregistration.php:2032
 #, php-format
 msgid "Set User as %s"
 msgstr ""
 
-#: userregistration.php:2023
+#: userregistration.php:2041
 msgid "Update <strong>site</strong> when subscription is cancelled."
 msgstr ""
 
-#: userregistration.php:2026
+#: userregistration.php:2044
 msgid "Deactivate"
 msgstr ""
 
-#: userregistration.php:2028
+#: userregistration.php:2046
 #, php-format
 msgid "%s site"
 msgstr ""
 
-#: userregistration.php:2128
+#: userregistration.php:2146
 msgid "You don't have adequate permission to uninstall the User Registration Add-On."
 msgstr ""
 
-#: userregistration.php:2174
-#: userregistration.php:2233
+#: userregistration.php:2192
+#: userregistration.php:2251
 msgid "Full"
 msgstr ""
 
