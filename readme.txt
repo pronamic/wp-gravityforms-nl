@@ -1,6 +1,6 @@
 === Gravity Forms (nl) ===
 Contributors: pronamic, remcotolsma
-Tags: gravityforms, gravity, form, forms, translation, dutch, nl, nl_NL, user registration
+Tags: gravityforms, gravity, form, forms, gravity forms, translation, dutch, nl, nl_NL, user registration
 Requires at least: 3.0
 Tested up to: 3.2
 Stable tag: 2.5.6
