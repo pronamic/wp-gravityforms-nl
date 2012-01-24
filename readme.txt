@@ -10,10 +10,10 @@ This WordPress plugin extends the Gravity Forms plugin with the Dutch translatio
 
 == Description ==
 
-<strong>Gravity Forms</strong> 1.6.2 | 
+<strong>Gravity Forms</strong> 1.6.2.1.1 | 
 <strong>User Registration Add-On</strong> 1.2.11 | 
 <strong>Campaign Monitor Add-On</strong> 1.9 | 
-<strong>MailChimp Add-On</strong> 1.5 | 
+<strong>MailChimp Add-On</strong> 1.6.1 | 
 <strong>PayPal Add-On</strong> 1.3.1
 
 > This plugin requires the <a href="http://www.gravityforms.com/">Gravity Forms plugin</a>. <strong>Don't use Gravity Forms? <a href="http://www.gravityforms.com/">Buy the plugin</a></strong> and start using this revolutionary plugin!
