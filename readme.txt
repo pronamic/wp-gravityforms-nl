@@ -5,6 +5,7 @@ Donate link: http://pronamic.eu/donate/?for=wp-plugin-gravityforms-nl&source=wp-
 Requires at least: 3.0
 Tested up to: 3.3.1
 Stable tag: 2.5.7
+Text Domain: gravityforms-nl
 
 This WordPress plugin extends the Gravity Forms plugin with the Dutch translation.
 
