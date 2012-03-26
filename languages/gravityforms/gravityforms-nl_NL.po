@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Gravity Forms\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-21 08:46+0100\n"
-"PO-Revision-Date: 2012-03-21 08:46+0100\n"
+"POT-Creation-Date: 2012-03-26 08:50+0100\n"
+"PO-Revision-Date: 2012-03-26 08:50+0100\n"
 "Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "MIME-Version: 1.0\n"
@@ -221,14 +221,14 @@ msgid "Custom"
 msgstr ""
 
 #: common.php:891
-#: entry_detail.php:743
+#: entry_detail.php:746
 #, fuzzy
 msgid "Order"
 msgstr "Beoordeling"
 
 #: common.php:922
 #: common.php:1729
-#: entry_detail.php:818
+#: entry_detail.php:821
 #: gravityforms.php:993
 #: js.php:594
 #, fuzzy
@@ -237,24 +237,24 @@ msgstr "Portaal"
 
 #: common.php:939
 #: common.php:1721
-#: entry_detail.php:755
+#: entry_detail.php:758
 #, fuzzy
 msgid "Product"
 msgstr "Project"
 
 #: common.php:940
-#: entry_detail.php:756
+#: entry_detail.php:759
 msgid "Qty"
 msgstr ""
 
 #: common.php:941
-#: entry_detail.php:757
+#: entry_detail.php:760
 msgid "Unit Price"
 msgstr ""
 
 #: common.php:942
 #: common.php:2316
-#: entry_detail.php:758
+#: entry_detail.php:761
 #: form_detail.php:812
 #: form_detail.php:1572
 #: js.php:571
@@ -3105,32 +3105,32 @@ msgstr "Artikelen"
 msgid "include notes"
 msgstr ""
 
-#: entry_detail.php:455
+#: entry_detail.php:458
 #, fuzzy
 msgid "Notes"
 msgstr "Nieuws"
 
-#: entry_detail.php:491
+#: entry_detail.php:494
 #, fuzzy
 msgid "Entry Updated."
 msgstr "Einddatum:"
 
-#: entry_detail.php:503
+#: entry_detail.php:506
 msgid "Details"
 msgstr "Details"
 
-#: entry_detail.php:552
+#: entry_detail.php:555
 #, fuzzy
 msgid " Bulk action"
 msgstr "Reactie"
 
-#: entry_detail.php:554
+#: entry_detail.php:557
 #: entry_list.php:611
 #: entry_list.php:1119
 msgid " Bulk action "
 msgstr ""
 
-#: entry_detail.php:555
+#: entry_detail.php:558
 #: form_detail.php:1642
 #: form_display.php:1912
 #: form_list.php:142
@@ -3140,7 +3140,7 @@ msgstr ""
 msgid "Delete"
 msgstr "Verwijder bericht"
 
-#: entry_detail.php:558
+#: entry_detail.php:561
 #: entry_list.php:659
 #: entry_list.php:1166
 #: form_list.php:147
@@ -3148,29 +3148,29 @@ msgstr "Verwijder bericht"
 msgid "Apply"
 msgstr ""
 
-#: entry_detail.php:605
+#: entry_detail.php:608
 msgid "added on"
 msgstr ""
 
-#: entry_detail.php:619
+#: entry_detail.php:622
 #, fuzzy
 msgid "Add Note"
 msgstr "Nieuwe toevoegen"
 
-#: entry_detail.php:626
+#: entry_detail.php:629
 msgid "Also email this note to"
 msgstr ""
 
-#: entry_detail.php:634
+#: entry_detail.php:637
 msgid "Subject:"
 msgstr "Onderwerp:"
 
-#: entry_detail.php:661
+#: entry_detail.php:664
 #: print-entry.php:50
 msgid "Entry # "
 msgstr ""
 
-#: entry_detail.php:667
+#: entry_detail.php:670
 msgid "show empty fields"
 msgstr ""
 
