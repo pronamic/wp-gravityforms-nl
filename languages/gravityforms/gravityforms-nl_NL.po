@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Gravity Forms\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-26 08:50+0100\n"
-"PO-Revision-Date: 2012-03-26 08:50+0100\n"
+"POT-Creation-Date: 2012-03-28 08:24+0100\n"
+"PO-Revision-Date: 2012-03-28 08:24+0100\n"
 "Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "MIME-Version: 1.0\n"
@@ -395,7 +395,7 @@ msgstr "Website"
 #: common.php:1695
 #: form_detail.php:991
 #: js.php:475
-#: notification.php:322
+#: notification.php:317
 #, fuzzy
 msgid "Email"
 msgstr "E-mailadres"
@@ -3904,8 +3904,8 @@ msgid "Redirect"
 msgstr "wijzigen"
 
 #: form_detail.php:522
-#: notification.php:521
-#: notification.php:652
+#: notification.php:516
+#: notification.php:647
 msgid "Disable Auto-formatting"
 msgstr ""
 
@@ -6343,13 +6343,13 @@ msgstr ""
 
 #: js.php:831
 #: notification.php:151
-#: notification.php:367
+#: notification.php:362
 msgid "is"
 msgstr ""
 
 #: js.php:831
 #: notification.php:151
-#: notification.php:368
+#: notification.php:363
 msgid "is not"
 msgstr ""
 
@@ -6393,152 +6393,152 @@ msgid "User IP Address"
 msgstr "Adres"
 
 #: notification.php:149
-#: notification.php:364
+#: notification.php:359
 msgid "Send to"
 msgstr ""
 
 #: notification.php:150
-#: notification.php:365
+#: notification.php:360
 msgid "if"
 msgstr ""
 
-#: notification.php:299
+#: notification.php:294
 msgid "Notification to Administrator"
 msgstr ""
 
-#: notification.php:304
+#: notification.php:299
 msgid "Enable email notification to administrators"
 msgstr ""
 
-#: notification.php:307
+#: notification.php:302
 msgid "Enter a message below to receive a notification email when users submit this form."
 msgstr ""
 
-#: notification.php:316
+#: notification.php:311
 #, fuzzy
 msgid "Send To Email"
 msgstr "Gebruikersnaam of e-mailadres:"
 
-#: notification.php:327
+#: notification.php:322
 #, fuzzy
 msgid "Routing"
 msgstr "Route"
 
-#: notification.php:335
+#: notification.php:330
 msgid "Please enter a valid email address"
 msgstr ""
 
-#: notification.php:346
+#: notification.php:341
 msgid "To use notification routing, your form must have a drop down, checkbox or radio button field."
 msgstr ""
 
-#: notification.php:382
+#: notification.php:377
 msgid "Please enter a valid email address for all highlighted routing rules above."
 msgstr ""
 
-#: notification.php:394
-#: notification.php:578
+#: notification.php:389
+#: notification.php:573
 #, fuzzy
 msgid "From Name"
 msgstr "Voornaam"
 
-#: notification.php:401
-#: notification.php:426
-#: notification.php:452
+#: notification.php:396
+#: notification.php:421
+#: notification.php:447
 msgid "OR"
 msgstr ""
 
-#: notification.php:403
+#: notification.php:398
 msgid "Select a name field"
 msgstr ""
 
-#: notification.php:419
-#: notification.php:585
+#: notification.php:414
+#: notification.php:580
 #, fuzzy
 msgid "From Email"
 msgstr "E-mailadres"
 
-#: notification.php:428
-#: notification.php:454
+#: notification.php:423
+#: notification.php:449
 msgid "Select an email field"
 msgstr ""
 
-#: notification.php:445
+#: notification.php:440
 msgid "Reply To"
 msgstr ""
 
-#: notification.php:470
-#: notification.php:599
+#: notification.php:465
+#: notification.php:594
 msgid "BCC"
 msgstr ""
 
-#: notification.php:482
-#: notification.php:612
+#: notification.php:477
+#: notification.php:607
 msgid "Subject"
 msgstr "Onderwerp"
 
-#: notification.php:490
+#: notification.php:485
 msgid "Please enter a subject for the notification email"
 msgstr ""
 
-#: notification.php:501
-#: notification.php:631
+#: notification.php:496
+#: notification.php:626
 msgid "Message"
 msgstr ""
 
-#: notification.php:513
+#: notification.php:508
 msgid "Please enter a message for the notification email"
 msgstr ""
 
-#: notification.php:534
+#: notification.php:529
 msgid "Notification to User"
 msgstr ""
 
-#: notification.php:545
+#: notification.php:540
 #, php-format
 msgid "Your form does not have any %semail%s field."
 msgstr ""
 
-#: notification.php:547
+#: notification.php:542
 #, php-format
 msgid "Sending notifications to users require that the form has at least one email field. %sEdit your form%s"
 msgstr ""
 
-#: notification.php:554
+#: notification.php:549
 msgid "Enable email notification to users"
 msgstr ""
 
-#: notification.php:558
+#: notification.php:553
 msgid "Enter a message below to send users an automatic response when they submit this form."
 msgstr ""
 
-#: notification.php:562
+#: notification.php:557
 msgid "Send To Field"
 msgstr ""
 
-#: notification.php:592
+#: notification.php:587
 msgid "Reply To (optional)"
 msgstr ""
 
-#: notification.php:620
+#: notification.php:615
 msgid "Please enter a subject for the user notification email"
 msgstr ""
 
-#: notification.php:644
+#: notification.php:639
 msgid "Please enter a message for the user notification email"
 msgstr ""
 
-#: notification.php:670
+#: notification.php:665
 #, fuzzy
 msgid "Save Settings"
 msgstr "Bijeenkomsten"
 
-#: notification.php:683
+#: notification.php:678
 #, fuzzy
 msgid "Notification Updated."
 msgstr "Publicatiedatum"
 
-#: notification.php:690
+#: notification.php:685
 msgid "Notification could not be updated. Please enter all required information below."
 msgstr ""
 
