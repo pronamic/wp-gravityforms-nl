@@ -2,24 +2,15 @@
 /*
 Plugin Name: Gravity Forms (nl)
 Plugin URI: http://pronamic.eu/wp-plugins/gravityforms-nl/
-Description: Extends the Gravity Forms plugin and add-ons with the Dutch language: <strong>Gravity Forms</strong> 1.6.2 | <strong>User Registration Add-On</strong> 1.2.11 | <strong>Campaign Monitor Add-On</strong> 1.9 | <strong>MailChimp Add-On</strong> 1.5 | <strong>PayPal Add-On</strong> 1.3.1 
-Version: 2.5.6
+Description: Extends the Gravity Forms plugin and add-ons with the Dutch language: <strong>Gravity Forms</strong> 1.6.3.3.4 | <strong>User Registration Add-On</strong> 1.3 | <strong>Campaign Monitor Add-On</strong> 1.9 | <strong>MailChimp Add-On</strong> 1.6.1 | <strong>PayPal Add-On</strong> 1.4 | <strong>Signature Add-On</strong> 1.0.beta1
+Version: 2.5.14
 Requires at least: 3.0
 Author: Pronamic
 Author URI: http://pronamic.eu/
-License: GPL
+Text Domain: gravityforms_nl
 */
 
 class GravityFormsNL {
-	/**
-	 * The text domain of this plugin
-	 * 
-	 * @var string
-	 */
-	const TEXT_DOMAIN = 'gravityforms-nl';
-
-	////////////////////////////////////////////////////////////
-
 	/**
 	 * The current langauge
 	 * 
@@ -40,11 +31,13 @@ class GravityFormsNL {
 	 * Bootstrap
 	 */
 	public static function bootstrap() {
-		add_action('init', array(__CLASS__, 'init'));
+		// Priority is set to 8, beceasu the Signature Add-On is using priority 9
+		add_action('init', array(__CLASS__, 'init'), 8);
 
 		add_filter('load_textdomain_mofile', array(__CLASS__, 'loadMoFile'), 10, 2);
 
 		add_filter('gform_admin_pre_render', array(__CLASS__, 'gFormAdminPreRender'));
+		add_filter('gform_currencies', array(__CLASS__, 'updateCurrency'));
 
 		add_action('wp_print_scripts', array(__CLASS__, 'translateDatepicker'));
 	}
@@ -66,7 +59,7 @@ class GravityFormsNL {
 		$relPath = dirname(plugin_basename(__FILE__)) . '/languages/';
 
 		// Load plugin text domain - Gravity Forms (nl)
-		load_plugin_textdomain(self::TEXT_DOMAIN, false, $relPath);
+		load_plugin_textdomain('gravityforms_nl', false, $relPath);
 
 		// Load plugin text domain - Gravity Forms user registration Add-On
 		load_plugin_textdomain('gravityformsuserregistration', false, $relPath);
@@ -118,7 +111,7 @@ class GravityFormsNL {
 
 			$moFile = self::getMoFile('gravityformsmailchimp', $version);
 		}
-		
+
 		// PayPal Add-On
 		$isPayPalAddOn = ($domain == 'gravityformspaypal');
 		if(self::$isDutch && $isPayPalAddOn) {
@@ -126,6 +119,15 @@ class GravityFormsNL {
 			$version = get_option('gf_paypal_version');
 
 			$moFile = self::getMoFile('gravityformspaypal', $version);
+		}
+		
+		// Signature Add-On
+		$isSignatureAddOn = ($domain == 'gravityformssignature');
+		if(self::$isDutch && $isSignatureAddOn) {
+			// Unfortunately the static var GFSignature::$version is private
+			$version = get_option('gf_signature_version');
+
+			$moFile = self::getMoFile('gravityformssignature', $version);
 		}
 
 		return $moFile;
@@ -172,15 +174,36 @@ class GravityFormsNL {
 		wp_register_script('gravityforms-nl-forms', plugins_url('js/forms-nl.js', __FILE__));
 
 		wp_localize_script('gravityforms-nl-forms', 'gravityFormsNlL10n', array(
-			'formTitle' => __('Untitled Form', self::TEXT_DOMAIN) , 
-			'formDescription' => __('We would love to hear from you! Please fill out this form and we will get in touch with you shortly.', self::TEXT_DOMAIN) ,  
-			'confirmationMessage' => __('Thanks for contacting us! We will get in touch with you shortly.', self::TEXT_DOMAIN) , 
-			'buttonText' => __('Submit', self::TEXT_DOMAIN)
+			'formTitle' => __('Untitled Form', 'gravityforms_nl') , 
+			'formDescription' => __('We would love to hear from you! Please fill out this form and we will get in touch with you shortly.', 'gravityforms_nl') ,  
+			'confirmationMessage' => __('Thanks for contacting us! We will get in touch with you shortly.', 'gravityforms_nl') , 
+			'buttonText' => __('Submit', 'gravityforms_nl')
 		));
 		
 		wp_print_scripts(array('gravityforms-nl-forms'));
 		
 		return $form;
+	}
+
+	////////////////////////////////////////////////////////////
+
+	/**
+	 * Update currency
+	 * 
+	 * @param array $currencies
+	 */
+	public static function updateCurrency($currencies) {
+		$currencies['EUR'] = array(
+			'name' => __('Euro', 'gravityforms_nl') ,  
+			'symbol_left' => '€' , 
+			'symbol_right' => '' ,  
+			'symbol_padding' => ' ' , 
+			'thousand_separator' => '.' , 
+			'decimal_separator' => ',' , 
+			'decimals' => 2
+		);
+
+		return $currencies; 
 	}
 }
 
