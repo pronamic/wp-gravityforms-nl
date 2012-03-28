@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Gravity Forms User Registration Add-On\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-02-10 13:33+0100\n"
-"PO-Revision-Date: 2012-02-10 13:33+0100\n"
+"POT-Creation-Date: 2012-03-28 08:43+0100\n"
+"PO-Revision-Date: 2012-03-28 08:43+0100\n"
 "Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "MIME-Version: 1.0\n"
@@ -44,7 +44,7 @@ msgstr ""
 #: userregistration.php:236
 #: userregistration.php:290
 #: userregistration.php:529
-#: userregistration.php:2186
+#: userregistration.php:2194
 #, fuzzy
 msgid "User Registration"
 msgstr "Meer arbitrage"
@@ -160,7 +160,7 @@ msgid "The selected form also has a User Registration feed. These options allow 
 msgstr ""
 
 #: userregistration.php:237
-#: userregistration.php:1474
+#: userregistration.php:1482
 msgid "Create Site"
 msgstr ""
 
@@ -169,7 +169,7 @@ msgid "When WordPress Multisite is enabled, checking this option will enable the
 msgstr ""
 
 #: userregistration.php:238
-#: userregistration.php:1482
+#: userregistration.php:1490
 #, fuzzy
 msgid "Site Address"
 msgstr "Adres"
@@ -179,7 +179,7 @@ msgid "Select the form field that should be used for the site address."
 msgstr ""
 
 #: userregistration.php:239
-#: userregistration.php:1487
+#: userregistration.php:1495
 #, fuzzy
 msgid "Site Title"
 msgstr "Titel"
@@ -189,7 +189,7 @@ msgid "Select the form field that should be used for the site title."
 msgstr ""
 
 #: userregistration.php:240
-#: userregistration.php:1493
+#: userregistration.php:1501
 #, fuzzy
 msgid "Site Role"
 msgstr "Titel"
@@ -199,7 +199,7 @@ msgid "Select role the user should be assigned on the newly created site."
 msgstr ""
 
 #: userregistration.php:241
-#: userregistration.php:1504
+#: userregistration.php:1512
 msgid "Current Site Role"
 msgstr ""
 
@@ -235,7 +235,7 @@ msgstr ""
 
 #: userregistration.php:305
 #: userregistration.php:347
-#: userregistration.php:2225
+#: userregistration.php:2233
 msgid "Delete"
 msgstr ""
 
@@ -346,10 +346,10 @@ msgstr ""
 
 #: userregistration.php:668
 #: userregistration.php:706
-#: userregistration.php:1482
-#: userregistration.php:1487
-#: userregistration.php:1494
-#: userregistration.php:1505
+#: userregistration.php:1490
+#: userregistration.php:1495
+#: userregistration.php:1502
+#: userregistration.php:1513
 #, fuzzy
 msgid "required"
 msgstr "(verplicht)"
@@ -409,16 +409,20 @@ msgstr ""
 msgid "Enter Meta Name"
 msgstr ""
 
-#: userregistration.php:1471
+#: userregistration.php:1257
+msgid "BuddyPress Profile"
+msgstr ""
+
+#: userregistration.php:1479
 #, fuzzy
 msgid "Network Options"
 msgstr "Rubriek"
 
-#: userregistration.php:1476
+#: userregistration.php:1484
 msgid "Create new site when a user registers."
 msgstr ""
 
-#: userregistration.php:1680
+#: userregistration.php:1688
 #, php-format
 msgid ""
 "New site created by %1s\n"
@@ -427,81 +431,81 @@ msgid ""
 "Name: %3s"
 msgstr ""
 
-#: userregistration.php:1681
+#: userregistration.php:1689
 #, php-format
 msgid "[%s] New Site Created"
 msgstr ""
 
-#: userregistration.php:1975
+#: userregistration.php:1983
 msgid "This username is already registered"
 msgstr ""
 
-#: userregistration.php:1978
+#: userregistration.php:1986
 msgid "The username can only contain alphanumeric characters (A-Z, 0-9), underscores, dashes and spaces"
 msgstr ""
 
-#: userregistration.php:1981
+#: userregistration.php:1989
 msgid "The username can only contain alphanumeric characters (A-Z, 0-9), underscores and dashes"
 msgstr ""
 
-#: userregistration.php:1984
+#: userregistration.php:1992
 #, fuzzy
 msgid "The username can not be empty"
 msgstr "Gebruikersnaam kan niet worden gewijzigd."
 
-#: userregistration.php:1990
+#: userregistration.php:1998
 msgid "This email address is already registered"
 msgstr ""
 
-#: userregistration.php:1993
+#: userregistration.php:2001
 #, fuzzy
 msgid "The email address can not be empty"
 msgstr "Uw e-mail adres wordt niet gepubliceerd."
 
-#: userregistration.php:1997
+#: userregistration.php:2005
 msgid "Passwords may not contain the character \"\\\""
 msgstr ""
 
-#: userregistration.php:2197
+#: userregistration.php:2205
 msgid "Register user only when a payment is received."
 msgstr ""
 
-#: userregistration.php:2199
+#: userregistration.php:2207
 msgid "Register user and create site only when a payment is received."
 msgstr ""
 
-#: userregistration.php:2207
+#: userregistration.php:2215
 msgid "Update <strong>user</strong> when subscription is cancelled."
 msgstr ""
 
-#: userregistration.php:2213
+#: userregistration.php:2221
 #, php-format
 msgid "Set User as %s"
 msgstr ""
 
-#: userregistration.php:2222
+#: userregistration.php:2230
 msgid "Update <strong>site</strong> when subscription is cancelled."
 msgstr ""
 
-#: userregistration.php:2225
+#: userregistration.php:2233
 msgid "Deactivate"
 msgstr ""
 
-#: userregistration.php:2227
+#: userregistration.php:2235
 #, php-format
 msgid "%s site"
 msgstr ""
 
-#: userregistration.php:2327
+#: userregistration.php:2335
 msgid "You don't have adequate permission to uninstall the User Registration Add-On."
 msgstr ""
 
-#: userregistration.php:2373
-#: userregistration.php:2432
+#: userregistration.php:2381
+#: userregistration.php:2440
 msgid "Full"
 msgstr ""
 
-#: userregistration.php:2580
+#: userregistration.php:2589
 #, fuzzy
 msgid "&mdash; No role for this site &mdash;"
 msgstr "&mdash; Selecteren &mdash;"
