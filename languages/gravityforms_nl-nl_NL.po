@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Gravity Forms (nl)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-20 11:09+0100\n"
-"PO-Revision-Date: 2011-09-20 11:09+0100\n"
+"POT-Creation-Date: 2012-03-26 10:20+0100\n"
+"PO-Revision-Date: 2012-03-26 10:20+0100\n"
 "Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "MIME-Version: 1.0\n"
@@ -16,21 +16,25 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: gravityforms-nl.php:169
+#: gravityforms-nl.php:176
 msgid "Untitled Form"
 msgstr "Formulier zonder titel"
 
-#: gravityforms-nl.php:170
+#: gravityforms-nl.php:177
 msgid "We would love to hear from you! Please fill out this form and we will get in touch with you shortly."
 msgstr "We horen graag van u! Vul dit formulier in en we zullen zo snel mogelijk contact met u opnemen."
 
-#: gravityforms-nl.php:171
+#: gravityforms-nl.php:178
 msgid "Thanks for contacting us! We will get in touch with you shortly."
 msgstr "Bedankt voor uw bericht. Wij zullen zo snel mogelijk contact met u opnemen."
 
-#: gravityforms-nl.php:172
+#: gravityforms-nl.php:179
 msgid "Submit"
 msgstr "Verzenden"
+
+#: gravityforms-nl.php:196
+msgid "Euro"
+msgstr "Euro"
 
 #~ msgid "Thumbnail"
 #~ msgstr "Miniatuur"
