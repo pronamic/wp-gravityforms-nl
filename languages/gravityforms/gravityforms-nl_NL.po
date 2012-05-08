@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Gravity Forms\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-05-03 08:33+0100\n"
-"PO-Revision-Date: 2012-05-03 08:33+0100\n"
+"POT-Creation-Date: 2012-05-08 14:58+0100\n"
+"PO-Revision-Date: 2012-05-08 14:58+0100\n"
 "Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "MIME-Version: 1.0\n"
@@ -121,7 +121,7 @@ msgid "All Pricing Fields"
 msgstr ""
 
 #: common.php:332
-#: common.php:4198
+#: common.php:4199
 #: form_detail.php:1605
 #: form_detail.php:1607
 #, fuzzy
@@ -135,7 +135,7 @@ msgstr ""
 
 #: common.php:334
 #: common.php:335
-#: common.php:1758
+#: common.php:1759
 #: form_detail.php:999
 #: form_detail.php:1838
 #: form_detail.php:2472
@@ -164,7 +164,7 @@ msgstr ""
 #: common.php:339
 #: entry_detail.php:287
 #: export.php:515
-#: gravityforms.php:1453
+#: gravityforms.php:1465
 msgid "Entry Id"
 msgstr ""
 
@@ -190,7 +190,7 @@ msgstr ""
 
 #: common.php:346
 #: export.php:522
-#: gravityforms.php:1460
+#: gravityforms.php:1472
 #, fuzzy
 msgid "Post Id"
 msgstr "Berichten"
@@ -229,40 +229,40 @@ msgstr ""
 msgid "Allowable form fields"
 msgstr "Verplichte velden zijn gemarkeerd als %s"
 
-#: common.php:965
+#: common.php:966
 #: entry_detail.php:758
 #, fuzzy
 msgid "Order"
 msgstr "Beoordeling"
 
-#: common.php:996
-#: common.php:1802
+#: common.php:997
+#: common.php:1803
 #: entry_detail.php:833
-#: gravityforms.php:1007
+#: gravityforms.php:1019
 #: js.php:596
 #, fuzzy
 msgid "Total"
 msgstr "Portaal"
 
-#: common.php:1013
-#: common.php:1794
+#: common.php:1014
+#: common.php:1795
 #: entry_detail.php:770
 #, fuzzy
 msgid "Product"
 msgstr "Project"
 
-#: common.php:1014
+#: common.php:1015
 #: entry_detail.php:771
 msgid "Qty"
 msgstr ""
 
-#: common.php:1015
+#: common.php:1016
 #: entry_detail.php:772
 msgid "Unit Price"
 msgstr ""
 
-#: common.php:1016
-#: common.php:2399
+#: common.php:1017
+#: common.php:2400
 #: entry_detail.php:773
 #: form_detail.php:824
 #: form_detail.php:1584
@@ -272,38 +272,38 @@ msgstr ""
 msgid "Price"
 msgstr "Artikelen"
 
-#: common.php:1068
+#: common.php:1069
 #, fuzzy
 msgid "Total:"
 msgstr "Titel"
 
-#: common.php:1475
+#: common.php:1476
 #, php-format
 msgid "%s ago"
 msgstr ""
 
-#: common.php:1477
-#: common.php:1480
+#: common.php:1478
+#: common.php:1481
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s op %2$s"
 
-#: common.php:1653
-#: common.php:1725
+#: common.php:1654
+#: common.php:1726
 #, php-format
 msgid "%d of %d items shown. Edit field to view all"
 msgstr ""
 
-#: common.php:1734
+#: common.php:1735
 msgid "Single Line Text"
 msgstr ""
 
-#: common.php:1736
+#: common.php:1737
 #: form_detail.php:990
 msgid "Paragraph Text"
 msgstr ""
 
-#: common.php:1738
+#: common.php:1739
 #: form_detail.php:798
 #: form_detail.php:815
 #: form_detail.php:849
@@ -315,14 +315,14 @@ msgstr ""
 msgid "Drop Down"
 msgstr ""
 
-#: common.php:1740
+#: common.php:1741
 #: form_detail.php:992
 #: form_detail.php:1019
 #: form_detail.php:1210
 msgid "Multi Select"
 msgstr ""
 
-#: common.php:1742
+#: common.php:1743
 #: form_detail.php:877
 #: form_detail.php:993
 #: js.php:482
@@ -330,7 +330,7 @@ msgstr ""
 msgid "Number"
 msgstr "Aantal slaapplaatsen"
 
-#: common.php:1744
+#: common.php:1745
 #: form_detail.php:850
 #: form_detail.php:994
 #: form_detail.php:1020
@@ -338,7 +338,7 @@ msgstr "Aantal slaapplaatsen"
 msgid "Checkboxes"
 msgstr ""
 
-#: common.php:1746
+#: common.php:1747
 #: form_detail.php:799
 #: form_detail.php:816
 #: form_detail.php:851
@@ -349,59 +349,59 @@ msgstr ""
 msgid "Radio Buttons"
 msgstr ""
 
-#: common.php:1748
+#: common.php:1749
 #: form_detail.php:801
 #: form_detail.php:879
 #: form_detail.php:996
 msgid "Hidden"
 msgstr ""
 
-#: common.php:1750
+#: common.php:1751
 msgid "HTML"
 msgstr ""
 
-#: common.php:1752
+#: common.php:1753
 #: js.php:370
 #, fuzzy
 msgid "Section Break"
 msgstr "Sectie 1"
 
-#: common.php:1754
-#: form_display.php:2082
+#: common.php:1755
+#: form_display.php:2086
 msgid "Page Break"
 msgstr ""
 
-#: common.php:1756
+#: common.php:1757
 #: js.php:401
 #: js.php:573
 msgid "Name"
 msgstr "Naam"
 
-#: common.php:1760
+#: common.php:1761
 #: form_detail.php:1000
 #: js.php:502
 #, fuzzy
 msgid "Time"
 msgstr "Titel"
 
-#: common.php:1762
+#: common.php:1763
 #: form_detail.php:1001
 #: js.php:491
 msgid "Phone"
 msgstr ""
 
-#: common.php:1764
+#: common.php:1765
 #: js.php:456
 msgid "Address"
 msgstr "Adres"
 
-#: common.php:1766
+#: common.php:1767
 #: form_detail.php:1002
 #: js.php:507
 msgid "Website"
 msgstr "Website"
 
-#: common.php:1768
+#: common.php:1769
 #: form_detail.php:1003
 #: js.php:475
 #: notification.php:404
@@ -409,63 +409,63 @@ msgstr "Website"
 msgid "Email"
 msgstr "E-mailadres"
 
-#: common.php:1770
+#: common.php:1771
 #: js.php:513
 msgid "Password"
 msgstr "Wachtwoord"
 
-#: common.php:1772
+#: common.php:1773
 #: form_detail.php:1004
 msgid "File Upload"
 msgstr ""
 
-#: common.php:1774
+#: common.php:1775
 msgid "CAPTCHA"
 msgstr ""
 
-#: common.php:1776
+#: common.php:1777
 #: form_detail.php:1005
 #: js.php:393
 #, fuzzy
 msgid "List"
 msgstr "Achternaam"
 
-#: common.php:1778
+#: common.php:1779
 #: js.php:463
 msgid "Credit Card"
 msgstr ""
 
-#: common.php:1780
-#: common.php:2662
-#: common.php:3754
+#: common.php:1781
+#: common.php:2663
+#: common.php:3755
 #: form_detail.php:289
 #: form_detail.php:1322
 #: form_list.php:171
 #: form_list.php:189
-#: gravityforms.php:1005
+#: gravityforms.php:1017
 msgid "Title"
 msgstr "Titel"
 
-#: common.php:1782
+#: common.php:1783
 msgid "Body"
 msgstr ""
 
-#: common.php:1784
+#: common.php:1785
 msgid "Excerpt"
 msgstr ""
 
-#: common.php:1786
+#: common.php:1787
 #, fuzzy
 msgid "Tags"
 msgstr "Pagina's: %s"
 
-#: common.php:1788
+#: common.php:1789
 #: form_detail.php:1219
 #, fuzzy
 msgid "Category"
 msgstr "Categorie:"
 
-#: common.php:1790
+#: common.php:1791
 #: form_detail.php:342
 #: form_detail.php:718
 #: form_detail.php:912
@@ -473,2112 +473,2112 @@ msgstr "Categorie:"
 msgid "Image"
 msgstr ""
 
-#: common.php:1792
+#: common.php:1793
 msgid "Custom Field"
 msgstr ""
 
-#: common.php:1796
+#: common.php:1797
 #: js.php:573
 #: js.php:643
 msgid "Quantity"
 msgstr ""
 
-#: common.php:1798
+#: common.php:1799
 #: js.php:602
 #, fuzzy
 msgid "Option"
 msgstr "Acties"
 
-#: common.php:1800
+#: common.php:1801
 #: js.php:585
 #, fuzzy
 msgid "Shipping"
 msgstr "Schepen in"
 
-#: common.php:1883
+#: common.php:1884
 msgid "Afghanistan"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Albania"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 #, fuzzy
 msgid "Algeria"
 msgstr "Agenda"
 
-#: common.php:1883
+#: common.php:1884
 msgid "American Samoa"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 #, fuzzy
 msgid "Andorra"
 msgstr "Agenda"
 
-#: common.php:1883
+#: common.php:1884
 msgid "Angola"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Antigua and Barbuda"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 #, fuzzy
 msgid "Argentina"
 msgstr "Agenda"
 
-#: common.php:1883
+#: common.php:1884
 #, fuzzy
 msgid "Armenia"
 msgstr "Agenda"
 
-#: common.php:1883
+#: common.php:1884
 #: form_detail.php:1599
 msgid "Australia"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 #, fuzzy
 msgid "Austria"
 msgstr "Auteur"
 
-#: common.php:1883
+#: common.php:1884
 msgid "Azerbaijan"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Bahamas"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Bahrain"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Bangladesh"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Barbados"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Belarus"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Belgium"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Belize"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Benin"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Bermuda"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Bhutan"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Bolivia"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Bosnia and Herzegovina"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Botswana"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Brazil"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Brunei"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Bulgaria"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Burkina Faso"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Burundi"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Cambodia"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Cameroon"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Canada"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Cape Verde"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Central African Republic"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Chad"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 #, fuzzy
 msgid "Chile"
 msgstr "Dossiers"
 
-#: common.php:1883
+#: common.php:1884
 msgid "China"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Colombia"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Comoros"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Congo, Democratic Republic of the"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Congo, Republic of the"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Costa Rica"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "C&ocirc;te d'Ivoire"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Croatia"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 #, fuzzy
 msgid "Cuba"
 msgstr "Clubnaam"
 
-#: common.php:1883
+#: common.php:1884
 msgid "Cyprus"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Czech Republic"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Denmark"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Djibouti"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Dominica"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Dominican Republic"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "East Timor"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Ecuador"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Egypt"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "El Salvador"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Equatorial Guinea"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Eritrea"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Estonia"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Ethiopia"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Fiji"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 msgid "Finland"
 msgstr ""
 
-#: common.php:1883
+#: common.php:1884
 #, fuzzy
 msgid "France"
 msgstr "relevantie"
 
-#: common.php:1883
+#: common.php:1884
 msgid "Gabon"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Gambia"
 msgstr ""
 
-#: common.php:1884
-#: common.php:2103
-#: common.php:2118
+#: common.php:1885
+#: common.php:2104
+#: common.php:2119
 msgid "Georgia"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Germany"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Ghana"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 #, fuzzy
 msgid "Greece"
 msgstr "relevantie"
 
-#: common.php:1884
+#: common.php:1885
 #, fuzzy
 msgid "Greenland"
 msgstr "Beoordeling"
 
-#: common.php:1884
+#: common.php:1885
 #, fuzzy
 msgid "Grenada"
 msgstr "Beoordeling"
 
-#: common.php:1884
+#: common.php:1885
 #, fuzzy
 msgid "Guam"
 msgstr "Wedstrijd"
 
-#: common.php:1884
+#: common.php:1885
 msgid "Guatemala"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Guinea"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Guinea-Bissau"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Guyana"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Haiti"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Honduras"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Hong Kong"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Hungary"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Iceland"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "India"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Indonesia"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Iran"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Iraq"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 #, fuzzy
 msgid "Ireland"
 msgstr "relevantie"
 
-#: common.php:1884
+#: common.php:1885
 msgid "Israel"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Italy"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Jamaica"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Japan"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Jordan"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Kazakhstan"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Kenya"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Kiribati"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 #, fuzzy
 msgid "North Korea"
 msgstr "Meest gelezen"
 
-#: common.php:1884
+#: common.php:1885
 #, fuzzy
 msgid "South Korea"
 msgstr "Meest gelezen"
 
-#: common.php:1884
+#: common.php:1885
 msgid "Kuwait"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Kyrgyzstan"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Laos"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Latvia"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Lebanon"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 #, fuzzy
 msgid "Lesotho"
 msgstr "Lengte"
 
-#: common.php:1884
+#: common.php:1885
 msgid "Liberia"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Libya"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Liechtenstein"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Lithuania"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Luxembourg"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Macedonia"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Madagascar"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Malawi"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Malaysia"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Maldives"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Mali"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Malta"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Marshall Islands"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Mauritania"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Mauritius"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Mexico"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Micronesia"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Moldova"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 #, fuzzy
 msgid "Monaco"
 msgstr "Contact"
 
-#: common.php:1884
+#: common.php:1885
 msgid "Mongolia"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Montenegro"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Morocco"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Mozambique"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Myanmar"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Namibia"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Nauru"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Nepal"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 msgid "Netherlands"
 msgstr ""
 
-#: common.php:1884
+#: common.php:1885
 #, fuzzy
 msgid "New Zealand"
 msgstr "Nieuwe vacature"
 
-#: common.php:1885
+#: common.php:1886
 msgid "Nicaragua"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Niger"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Nigeria"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Norway"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Northern Mariana Islands"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Oman"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Pakistan"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Palau"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 #, fuzzy
 msgid "Palestine"
 msgstr "Realisatie"
 
-#: common.php:1885
+#: common.php:1886
 msgid "Panama"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Papua New Guinea"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Paraguay"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Peru"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Philippines"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Poland"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 #, fuzzy
 msgid "Portugal"
 msgstr "Portaal"
 
-#: common.php:1885
+#: common.php:1886
 msgid "Puerto Rico"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Qatar"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Romania"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Russia"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Rwanda"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Saint Kitts and Nevis"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Saint Lucia"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Saint Vincent and the Grenadines"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Samoa"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "San Marino"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Sao Tome and Principe"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Saudi Arabia"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Senegal"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Serbia and Montenegro"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 #, fuzzy
 msgid "Seychelles"
 msgstr "Zoek leeftijden"
 
-#: common.php:1885
+#: common.php:1886
 msgid "Sierra Leone"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Singapore"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Slovakia"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Slovenia"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Solomon Islands"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Somalia"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "South Africa"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Spain"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Sri Lanka"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Sudan"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Sudan, South"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 #, fuzzy
 msgid "Suriname"
 msgstr "Gebruikersnaam"
 
-#: common.php:1885
+#: common.php:1886
 msgid "Swaziland"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Sweden"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Switzerland"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Syria"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Taiwan"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Tajikistan"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Tanzania"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Thailand"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 #, fuzzy
 msgid "Togo"
 msgstr "Uitloggen"
 
-#: common.php:1885
+#: common.php:1886
 msgid "Tonga"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Trinidad and Tobago"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Tunisia"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Turkey"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Turkmenistan"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "Tuvalu"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 #, fuzzy
 msgid "Uganda"
 msgstr "Agenda"
 
-#: common.php:1885
+#: common.php:1886
 msgid "Ukraine"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "United Arab Emirates"
 msgstr ""
 
-#: common.php:1885
+#: common.php:1886
 msgid "United Kingdom"
 msgstr ""
 
-#: common.php:1886
-#: common.php:3552
+#: common.php:1887
+#: common.php:3553
 msgid "United States"
 msgstr ""
 
-#: common.php:1886
+#: common.php:1887
 msgid "Uruguay"
 msgstr ""
 
-#: common.php:1886
+#: common.php:1887
 msgid "Uzbekistan"
 msgstr ""
 
-#: common.php:1886
+#: common.php:1887
 msgid "Vanuatu"
 msgstr ""
 
-#: common.php:1886
+#: common.php:1887
 #, fuzzy
 msgid "Vatican City"
 msgstr "Vacature"
 
-#: common.php:1886
+#: common.php:1887
 msgid "Venezuela"
 msgstr ""
 
-#: common.php:1886
+#: common.php:1887
 msgid "Vietnam"
 msgstr ""
 
-#: common.php:1886
+#: common.php:1887
 msgid "Virgin Islands, British"
 msgstr ""
 
-#: common.php:1886
+#: common.php:1887
 msgid "Virgin Islands, U.S."
 msgstr ""
 
-#: common.php:1886
+#: common.php:1887
 msgid "Yemen"
 msgstr ""
 
-#: common.php:1886
+#: common.php:1887
 msgid "Zambia"
 msgstr ""
 
-#: common.php:1886
+#: common.php:1887
 msgid "Zimbabwe"
 msgstr ""
 
-#: common.php:1893
+#: common.php:1894
 msgid "AFGHANISTAN"
 msgstr ""
 
-#: common.php:1894
+#: common.php:1895
 msgid "ALBANIA"
 msgstr ""
 
-#: common.php:1895
+#: common.php:1896
 msgid "ALGERIA"
 msgstr ""
 
-#: common.php:1896
+#: common.php:1897
 msgid "AMERICAN SAMOA"
 msgstr ""
 
-#: common.php:1897
+#: common.php:1898
 msgid "ANDORRA"
 msgstr ""
 
-#: common.php:1898
+#: common.php:1899
 msgid "ANGOLA"
 msgstr ""
 
-#: common.php:1899
+#: common.php:1900
 msgid "ANTIGUA AND BARBUDA"
 msgstr ""
 
-#: common.php:1900
+#: common.php:1901
 msgid "ARGENTINA"
 msgstr ""
 
-#: common.php:1901
+#: common.php:1902
 msgid "ARMENIA"
 msgstr ""
 
-#: common.php:1902
+#: common.php:1903
 msgid "AUSTRALIA"
 msgstr ""
 
-#: common.php:1903
+#: common.php:1904
 msgid "AUSTRIA"
 msgstr ""
 
-#: common.php:1904
+#: common.php:1905
 msgid "AZERBAIJAN"
 msgstr ""
 
-#: common.php:1905
+#: common.php:1906
 msgid "BAHAMAS"
 msgstr ""
 
-#: common.php:1906
+#: common.php:1907
 msgid "BAHRAIN"
 msgstr ""
 
-#: common.php:1907
+#: common.php:1908
 msgid "BANGLADESH"
 msgstr ""
 
-#: common.php:1908
+#: common.php:1909
 msgid "BARBADOS"
 msgstr ""
 
-#: common.php:1909
+#: common.php:1910
 msgid "BELARUS"
 msgstr ""
 
-#: common.php:1910
+#: common.php:1911
 msgid "BELGIUM"
 msgstr ""
 
-#: common.php:1911
+#: common.php:1912
 msgid "BELIZE"
 msgstr ""
 
-#: common.php:1912
+#: common.php:1913
 msgid "BENIN"
 msgstr ""
 
-#: common.php:1913
+#: common.php:1914
 msgid "BERMUDA"
 msgstr ""
 
-#: common.php:1914
+#: common.php:1915
 msgid "BHUTAN"
 msgstr ""
 
-#: common.php:1915
+#: common.php:1916
 msgid "BOLIVIA"
 msgstr ""
 
-#: common.php:1916
+#: common.php:1917
 msgid "BOSNIA AND HERZEGOVINA"
 msgstr ""
 
-#: common.php:1917
+#: common.php:1918
 msgid "BOTSWANA"
 msgstr ""
 
-#: common.php:1918
+#: common.php:1919
 msgid "BRAZIL"
 msgstr ""
 
-#: common.php:1919
+#: common.php:1920
 msgid "BRUNEI"
 msgstr ""
 
-#: common.php:1920
+#: common.php:1921
 msgid "BULGARIA"
 msgstr ""
 
-#: common.php:1921
+#: common.php:1922
 msgid "BURKINA FASO"
 msgstr ""
 
-#: common.php:1922
+#: common.php:1923
 msgid "BURUNDI"
 msgstr ""
 
-#: common.php:1923
+#: common.php:1924
 msgid "CAMBODIA"
 msgstr ""
 
-#: common.php:1924
+#: common.php:1925
 msgid "CAMEROON"
 msgstr ""
 
-#: common.php:1925
+#: common.php:1926
 msgid "CANADA"
 msgstr ""
 
-#: common.php:1926
+#: common.php:1927
 msgid "CAPE VERDE"
 msgstr ""
 
-#: common.php:1927
+#: common.php:1928
 msgid "CENTRAL AFRICAN REPUBLIC"
 msgstr ""
 
-#: common.php:1928
+#: common.php:1929
 msgid "CHAD"
 msgstr ""
 
-#: common.php:1929
+#: common.php:1930
 msgid "CHILE"
 msgstr ""
 
-#: common.php:1930
+#: common.php:1931
 msgid "CHINA"
 msgstr ""
 
-#: common.php:1931
+#: common.php:1932
 msgid "COLOMBIA"
 msgstr ""
 
-#: common.php:1932
+#: common.php:1933
 msgid "COMOROS"
 msgstr ""
 
-#: common.php:1933
+#: common.php:1934
 msgid "CONGO, DEMOCRATIC REPUBLIC OF THE"
 msgstr ""
 
-#: common.php:1934
+#: common.php:1935
 msgid "CONGO, REPUBLIC OF THE"
 msgstr ""
 
-#: common.php:1935
+#: common.php:1936
 msgid "COSTA RICA"
 msgstr ""
 
-#: common.php:1936
+#: common.php:1937
 msgid "C&OCIRC;TE D'IVOIRE"
 msgstr ""
 
-#: common.php:1937
+#: common.php:1938
 msgid "CROATIA"
 msgstr ""
 
-#: common.php:1938
+#: common.php:1939
 msgid "CUBA"
 msgstr ""
 
-#: common.php:1939
+#: common.php:1940
 msgid "CYPRUS"
 msgstr ""
 
-#: common.php:1940
+#: common.php:1941
 msgid "CZECH REPUBLIC"
 msgstr ""
 
-#: common.php:1941
+#: common.php:1942
 msgid "DENMARK"
 msgstr ""
 
-#: common.php:1942
+#: common.php:1943
 msgid "DJIBOUTI"
 msgstr ""
 
-#: common.php:1943
+#: common.php:1944
 msgid "DOMINICA"
 msgstr ""
 
-#: common.php:1944
+#: common.php:1945
 msgid "DOMINICAN REPUBLIC"
 msgstr ""
 
-#: common.php:1945
+#: common.php:1946
 msgid "EAST TIMOR"
 msgstr ""
 
-#: common.php:1946
+#: common.php:1947
 msgid "ECUADOR"
 msgstr ""
 
-#: common.php:1947
+#: common.php:1948
 msgid "EGYPT"
 msgstr ""
 
-#: common.php:1948
+#: common.php:1949
 msgid "EL SALVADOR"
 msgstr ""
 
-#: common.php:1949
+#: common.php:1950
 msgid "EQUATORIAL GUINEA"
 msgstr ""
 
-#: common.php:1950
+#: common.php:1951
 msgid "ERITREA"
 msgstr ""
 
-#: common.php:1951
+#: common.php:1952
 msgid "ESTONIA"
 msgstr ""
 
-#: common.php:1952
+#: common.php:1953
 msgid "ETHIOPIA"
 msgstr ""
 
-#: common.php:1953
+#: common.php:1954
 msgid "FIJI"
 msgstr ""
 
-#: common.php:1954
+#: common.php:1955
 msgid "FINLAND"
 msgstr ""
 
-#: common.php:1955
+#: common.php:1956
 msgid "FRANCE"
 msgstr ""
 
-#: common.php:1956
+#: common.php:1957
 msgid "GABON"
 msgstr ""
 
-#: common.php:1957
+#: common.php:1958
 msgid "GAMBIA"
 msgstr ""
 
-#: common.php:1958
+#: common.php:1959
 msgid "GEORGIA"
 msgstr ""
 
-#: common.php:1959
+#: common.php:1960
 msgid "GERMANY"
 msgstr ""
 
-#: common.php:1960
+#: common.php:1961
 msgid "GHANA"
 msgstr ""
 
-#: common.php:1961
+#: common.php:1962
 msgid "GREECE"
 msgstr ""
 
-#: common.php:1962
+#: common.php:1963
 msgid "GREENLAND"
 msgstr ""
 
-#: common.php:1963
+#: common.php:1964
 msgid "GRENADA"
 msgstr ""
 
-#: common.php:1964
+#: common.php:1965
 msgid "GUAM"
 msgstr ""
 
-#: common.php:1965
+#: common.php:1966
 msgid "GUATEMALA"
 msgstr ""
 
-#: common.php:1966
+#: common.php:1967
 msgid "GUINEA"
 msgstr ""
 
-#: common.php:1967
+#: common.php:1968
 msgid "GUINEA-BISSAU"
 msgstr ""
 
-#: common.php:1968
+#: common.php:1969
 msgid "GUYANA"
 msgstr ""
 
-#: common.php:1969
+#: common.php:1970
 msgid "HAITI"
 msgstr ""
 
-#: common.php:1970
+#: common.php:1971
 msgid "HONDURAS"
 msgstr ""
 
-#: common.php:1971
+#: common.php:1972
 msgid "HONG KONG"
 msgstr ""
 
-#: common.php:1972
+#: common.php:1973
 msgid "HUNGARY"
 msgstr ""
 
-#: common.php:1973
+#: common.php:1974
 msgid "ICELAND"
 msgstr ""
 
-#: common.php:1974
+#: common.php:1975
 msgid "INDIA"
 msgstr ""
 
-#: common.php:1975
+#: common.php:1976
 msgid "INDONESIA"
 msgstr ""
 
-#: common.php:1976
+#: common.php:1977
 msgid "IRAN"
 msgstr ""
 
-#: common.php:1977
+#: common.php:1978
 msgid "IRAQ"
 msgstr ""
 
-#: common.php:1978
+#: common.php:1979
 msgid "IRELAND"
 msgstr ""
 
-#: common.php:1979
+#: common.php:1980
 msgid "ISRAEL"
 msgstr ""
 
-#: common.php:1980
+#: common.php:1981
 msgid "ITALY"
 msgstr ""
 
-#: common.php:1981
+#: common.php:1982
 msgid "JAMAICA"
 msgstr ""
 
-#: common.php:1982
+#: common.php:1983
 msgid "JAPAN"
 msgstr ""
 
-#: common.php:1983
+#: common.php:1984
 msgid "JORDAN"
 msgstr ""
 
-#: common.php:1984
+#: common.php:1985
 msgid "KAZAKHSTAN"
 msgstr ""
 
-#: common.php:1985
+#: common.php:1986
 msgid "KENYA"
 msgstr ""
 
-#: common.php:1986
+#: common.php:1987
 msgid "KIRIBATI"
 msgstr ""
 
-#: common.php:1987
+#: common.php:1988
 msgid "NORTH KOREA"
 msgstr ""
 
-#: common.php:1988
+#: common.php:1989
 msgid "SOUTH KOREA"
 msgstr ""
 
-#: common.php:1989
+#: common.php:1990
 msgid "KUWAIT"
 msgstr ""
 
-#: common.php:1990
+#: common.php:1991
 msgid "KYRGYZSTAN"
 msgstr ""
 
-#: common.php:1991
+#: common.php:1992
 msgid "LAOS"
 msgstr ""
 
-#: common.php:1992
+#: common.php:1993
 msgid "LATVIA"
 msgstr ""
 
-#: common.php:1993
+#: common.php:1994
 msgid "LEBANON"
 msgstr ""
 
-#: common.php:1994
+#: common.php:1995
 msgid "LESOTHO"
 msgstr ""
 
-#: common.php:1995
+#: common.php:1996
 msgid "LIBERIA"
 msgstr ""
 
-#: common.php:1996
+#: common.php:1997
 msgid "LIBYA"
 msgstr ""
 
-#: common.php:1997
+#: common.php:1998
 msgid "LIECHTENSTEIN"
 msgstr ""
 
-#: common.php:1998
+#: common.php:1999
 msgid "LITHUANIA"
 msgstr ""
 
-#: common.php:1999
+#: common.php:2000
 msgid "LUXEMBOURG"
 msgstr ""
 
-#: common.php:2000
+#: common.php:2001
 msgid "MACEDONIA"
 msgstr ""
 
-#: common.php:2001
+#: common.php:2002
 msgid "MADAGASCAR"
 msgstr ""
 
-#: common.php:2002
+#: common.php:2003
 msgid "MALAWI"
 msgstr ""
 
-#: common.php:2003
+#: common.php:2004
 msgid "MALAYSIA"
 msgstr ""
 
-#: common.php:2004
+#: common.php:2005
 msgid "MALDIVES"
 msgstr ""
 
-#: common.php:2005
+#: common.php:2006
 msgid "MALI"
 msgstr ""
 
-#: common.php:2006
+#: common.php:2007
 msgid "MALTA"
 msgstr ""
 
-#: common.php:2007
+#: common.php:2008
 msgid "MARSHALL ISLANDS"
 msgstr ""
 
-#: common.php:2008
+#: common.php:2009
 msgid "MAURITANIA"
 msgstr ""
 
-#: common.php:2009
+#: common.php:2010
 msgid "MAURITIUS"
 msgstr ""
 
-#: common.php:2010
+#: common.php:2011
 msgid "MEXICO"
 msgstr ""
 
-#: common.php:2011
+#: common.php:2012
 msgid "MICRONESIA"
 msgstr ""
 
-#: common.php:2012
+#: common.php:2013
 msgid "MOLDOVA"
 msgstr ""
 
-#: common.php:2013
+#: common.php:2014
 msgid "MONACO"
 msgstr ""
 
-#: common.php:2014
+#: common.php:2015
 msgid "MONGOLIA"
 msgstr ""
 
-#: common.php:2015
+#: common.php:2016
 msgid "MONTENEGRO"
 msgstr ""
 
-#: common.php:2016
+#: common.php:2017
 msgid "MOROCCO"
 msgstr ""
 
-#: common.php:2017
+#: common.php:2018
 msgid "MOZAMBIQUE"
 msgstr ""
 
-#: common.php:2018
+#: common.php:2019
 msgid "MYANMAR"
 msgstr ""
 
-#: common.php:2019
+#: common.php:2020
 msgid "NAMIBIA"
 msgstr ""
 
-#: common.php:2020
+#: common.php:2021
 msgid "NAURU"
 msgstr ""
 
-#: common.php:2021
+#: common.php:2022
 msgid "NEPAL"
 msgstr ""
 
-#: common.php:2022
+#: common.php:2023
 msgid "NETHERLANDS"
 msgstr ""
 
-#: common.php:2023
+#: common.php:2024
 msgid "NEW ZEALAND"
 msgstr ""
 
-#: common.php:2024
+#: common.php:2025
 msgid "NICARAGUA"
 msgstr ""
 
-#: common.php:2025
+#: common.php:2026
 msgid "NIGER"
 msgstr ""
 
-#: common.php:2026
+#: common.php:2027
 msgid "NIGERIA"
 msgstr ""
 
-#: common.php:2027
+#: common.php:2028
 msgid "NORTHERN MARIANA ISLANDS"
 msgstr ""
 
-#: common.php:2028
+#: common.php:2029
 msgid "NORWAY"
 msgstr ""
 
-#: common.php:2029
+#: common.php:2030
 msgid "OMAN"
 msgstr ""
 
-#: common.php:2030
+#: common.php:2031
 msgid "PAKISTAN"
 msgstr ""
 
-#: common.php:2031
+#: common.php:2032
 msgid "PALAU"
 msgstr ""
 
-#: common.php:2032
+#: common.php:2033
 msgid "PALESTINE"
 msgstr ""
 
-#: common.php:2033
+#: common.php:2034
 msgid "PANAMA"
 msgstr ""
 
-#: common.php:2034
+#: common.php:2035
 msgid "PAPUA NEW GUINEA"
 msgstr ""
 
-#: common.php:2035
+#: common.php:2036
 msgid "PARAGUAY"
 msgstr ""
 
-#: common.php:2036
+#: common.php:2037
 msgid "PERU"
 msgstr ""
 
-#: common.php:2037
+#: common.php:2038
 msgid "PHILIPPINES"
 msgstr ""
 
-#: common.php:2038
+#: common.php:2039
 msgid "POLAND"
 msgstr ""
 
-#: common.php:2039
+#: common.php:2040
 msgid "PORTUGAL"
 msgstr ""
 
-#: common.php:2040
+#: common.php:2041
 msgid "PUERTO RICO"
 msgstr ""
 
-#: common.php:2041
+#: common.php:2042
 msgid "QATAR"
 msgstr ""
 
-#: common.php:2042
+#: common.php:2043
 msgid "ROMANIA"
 msgstr ""
 
-#: common.php:2043
+#: common.php:2044
 #, fuzzy
 msgid "RUSSIA"
 msgstr "RSS"
 
-#: common.php:2044
+#: common.php:2045
 msgid "RWANDA"
 msgstr ""
 
-#: common.php:2045
+#: common.php:2046
 msgid "SAINT KITTS AND NEVIS"
 msgstr ""
 
-#: common.php:2046
+#: common.php:2047
 msgid "SAINT LUCIA"
 msgstr ""
 
-#: common.php:2047
+#: common.php:2048
 msgid "SAINT VINCENT AND THE GRENADINES"
 msgstr ""
 
-#: common.php:2048
+#: common.php:2049
 msgid "SAMOA"
 msgstr ""
 
-#: common.php:2049
+#: common.php:2050
 msgid "SAN MARINO"
 msgstr ""
 
-#: common.php:2050
+#: common.php:2051
 msgid "SAO TOME AND PRINCIPE"
 msgstr ""
 
-#: common.php:2051
+#: common.php:2052
 msgid "SAUDI ARABIA"
 msgstr ""
 
-#: common.php:2052
+#: common.php:2053
 msgid "SENEGAL"
 msgstr ""
 
-#: common.php:2053
+#: common.php:2054
 msgid "SERBIA AND MONTENEGRO"
 msgstr ""
 
-#: common.php:2054
+#: common.php:2055
 msgid "SEYCHELLES"
 msgstr ""
 
-#: common.php:2055
+#: common.php:2056
 msgid "SIERRA LEONE"
 msgstr ""
 
-#: common.php:2056
+#: common.php:2057
 msgid "SINGAPORE"
 msgstr ""
 
-#: common.php:2057
+#: common.php:2058
 msgid "SLOVAKIA"
 msgstr ""
 
-#: common.php:2058
+#: common.php:2059
 msgid "SLOVENIA"
 msgstr ""
 
-#: common.php:2059
+#: common.php:2060
 msgid "SOLOMON ISLANDS"
 msgstr ""
 
-#: common.php:2060
+#: common.php:2061
 msgid "SOMALIA"
 msgstr ""
 
-#: common.php:2061
+#: common.php:2062
 msgid "SOUTH AFRICA"
 msgstr ""
 
-#: common.php:2062
+#: common.php:2063
 msgid "SPAIN"
 msgstr ""
 
-#: common.php:2063
+#: common.php:2064
 msgid "SRI LANKA"
 msgstr ""
 
-#: common.php:2064
+#: common.php:2065
 msgid "SUDAN"
 msgstr ""
 
-#: common.php:2065
+#: common.php:2066
 msgid "SUDAN, SOUTH"
 msgstr ""
 
-#: common.php:2066
+#: common.php:2067
 msgid "SURINAME"
 msgstr ""
 
-#: common.php:2067
+#: common.php:2068
 msgid "SWAZILAND"
 msgstr ""
 
-#: common.php:2068
+#: common.php:2069
 msgid "SWEDEN"
 msgstr ""
 
-#: common.php:2069
+#: common.php:2070
 msgid "SWITZERLAND"
 msgstr ""
 
-#: common.php:2070
+#: common.php:2071
 msgid "SYRIA"
 msgstr ""
 
-#: common.php:2071
+#: common.php:2072
 msgid "TAIWAN"
 msgstr ""
 
-#: common.php:2072
+#: common.php:2073
 msgid "TAJIKISTAN"
 msgstr ""
 
-#: common.php:2073
+#: common.php:2074
 msgid "TANZANIA"
 msgstr ""
 
-#: common.php:2074
+#: common.php:2075
 msgid "THAILAND"
 msgstr ""
 
-#: common.php:2075
+#: common.php:2076
 msgid "TOGO"
 msgstr ""
 
-#: common.php:2076
+#: common.php:2077
 msgid "TONGA"
 msgstr ""
 
-#: common.php:2077
+#: common.php:2078
 msgid "TRINIDAD AND TOBAGO"
 msgstr ""
 
-#: common.php:2078
+#: common.php:2079
 msgid "TUNISIA"
 msgstr ""
 
-#: common.php:2079
+#: common.php:2080
 msgid "TURKEY"
 msgstr ""
 
-#: common.php:2080
+#: common.php:2081
 msgid "TURKMENISTAN"
 msgstr ""
 
-#: common.php:2081
+#: common.php:2082
 msgid "TUVALU"
 msgstr ""
 
-#: common.php:2082
+#: common.php:2083
 msgid "UGANDA"
 msgstr ""
 
-#: common.php:2083
+#: common.php:2084
 msgid "UKRAINE"
 msgstr ""
 
-#: common.php:2084
+#: common.php:2085
 msgid "UNITED ARAB EMIRATES"
 msgstr ""
 
-#: common.php:2085
+#: common.php:2086
 msgid "UNITED KINGDOM"
 msgstr ""
 
-#: common.php:2086
+#: common.php:2087
 msgid "UNITED STATES"
 msgstr ""
 
-#: common.php:2087
+#: common.php:2088
 msgid "URUGUAY"
 msgstr ""
 
-#: common.php:2088
+#: common.php:2089
 msgid "UZBEKISTAN"
 msgstr ""
 
-#: common.php:2089
+#: common.php:2090
 msgid "VANUATU"
 msgstr ""
 
-#: common.php:2090
+#: common.php:2091
 msgid "VATICAN CITY"
 msgstr ""
 
-#: common.php:2091
+#: common.php:2092
 msgid "VENEZUELA"
 msgstr ""
 
-#: common.php:2092
+#: common.php:2093
 msgid "VIRGIN ISLANDS, BRITISH"
 msgstr ""
 
-#: common.php:2093
+#: common.php:2094
 msgid "VIRGIN ISLANDS, U.S."
 msgstr ""
 
-#: common.php:2094
+#: common.php:2095
 msgid "VIETNAM"
 msgstr ""
 
-#: common.php:2095
+#: common.php:2096
 msgid "YEMEN"
 msgstr ""
 
-#: common.php:2096
+#: common.php:2097
 msgid "ZAMBIA"
 msgstr ""
 
-#: common.php:2097
+#: common.php:2098
 msgid "ZIMBABWE"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2108
+#: common.php:2104
+#: common.php:2109
 msgid "Alabama"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2109
+#: common.php:2104
+#: common.php:2110
 msgid "Alaska"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2110
+#: common.php:2104
+#: common.php:2111
 msgid "Arizona"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2111
+#: common.php:2104
+#: common.php:2112
 msgid "Arkansas"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2112
+#: common.php:2104
+#: common.php:2113
 msgid "California"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2113
+#: common.php:2104
+#: common.php:2114
 msgid "Colorado"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2114
+#: common.php:2104
+#: common.php:2115
 #, fuzzy
 msgid "Connecticut"
 msgstr "Contact"
 
-#: common.php:2103
-#: common.php:2115
+#: common.php:2104
+#: common.php:2116
 msgid "Delaware"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2116
+#: common.php:2104
+#: common.php:2117
 msgid "District of Columbia"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2117
+#: common.php:2104
+#: common.php:2118
 msgid "Florida"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2119
+#: common.php:2104
+#: common.php:2120
 msgid "Hawaii"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2120
+#: common.php:2104
+#: common.php:2121
 msgid "Idaho"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2121
+#: common.php:2104
+#: common.php:2122
 msgid "Illinois"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2122
+#: common.php:2104
+#: common.php:2123
 msgid "Indiana"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2123
+#: common.php:2104
+#: common.php:2124
 msgid "Iowa"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2124
+#: common.php:2104
+#: common.php:2125
 msgid "Kansas"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2125
+#: common.php:2104
+#: common.php:2126
 msgid "Kentucky"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2126
+#: common.php:2104
+#: common.php:2127
 msgid "Louisiana"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2127
+#: common.php:2104
+#: common.php:2128
 #, fuzzy
 msgid "Maine"
 msgstr "Vakblad"
 
-#: common.php:2103
-#: common.php:2128
+#: common.php:2104
+#: common.php:2129
 msgid "Maryland"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2129
+#: common.php:2104
+#: common.php:2130
 msgid "Massachusetts"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2130
+#: common.php:2104
+#: common.php:2131
 msgid "Michigan"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2131
+#: common.php:2104
+#: common.php:2132
 msgid "Minnesota"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2132
+#: common.php:2104
+#: common.php:2133
 msgid "Mississippi"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2133
+#: common.php:2104
+#: common.php:2134
 msgid "Missouri"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2134
+#: common.php:2104
+#: common.php:2135
 #, fuzzy
 msgid "Montana"
 msgstr "Maand:"
 
-#: common.php:2103
-#: common.php:2135
+#: common.php:2104
+#: common.php:2136
 msgid "Nebraska"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2136
+#: common.php:2104
+#: common.php:2137
 msgid "Nevada"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2137
+#: common.php:2104
+#: common.php:2138
 #, fuzzy
 msgid "New Hampshire"
 msgstr "Nieuwe wedstrijd"
 
-#: common.php:2103
-#: common.php:2138
+#: common.php:2104
+#: common.php:2139
 #, fuzzy
 msgid "New Jersey"
 msgstr "Nieuwe oefenstof"
 
-#: common.php:2103
-#: common.php:2139
+#: common.php:2104
+#: common.php:2140
 #, fuzzy
 msgid "New Mexico"
 msgstr "Nieuwe bijeenkomst"
 
-#: common.php:2103
-#: common.php:2140
+#: common.php:2104
+#: common.php:2141
 #, fuzzy
 msgid "New York"
 msgstr "Nieuw wachtwoord"
 
-#: common.php:2103
-#: common.php:2141
+#: common.php:2104
+#: common.php:2142
 msgid "North Carolina"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2142
+#: common.php:2104
+#: common.php:2143
 msgid "North Dakota"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2143
+#: common.php:2104
+#: common.php:2144
 msgid "Ohio"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2144
+#: common.php:2104
+#: common.php:2145
 msgid "Oklahoma"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2145
+#: common.php:2104
+#: common.php:2146
 #, fuzzy
 msgid "Oregon"
 msgstr "Regio"
 
-#: common.php:2103
-#: common.php:2146
+#: common.php:2104
+#: common.php:2147
 msgid "Pennsylvania"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2147
+#: common.php:2104
+#: common.php:2148
 msgid "Rhode Island"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2148
+#: common.php:2104
+#: common.php:2149
 msgid "South Carolina"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2149
+#: common.php:2104
+#: common.php:2150
 msgid "South Dakota"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2150
+#: common.php:2104
+#: common.php:2151
 msgid "Tennessee"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2151
+#: common.php:2104
+#: common.php:2152
 #, fuzzy
 msgid "Texas"
 msgstr "Teasers"
 
-#: common.php:2103
-#: common.php:2152
+#: common.php:2104
+#: common.php:2153
 msgid "Utah"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2153
+#: common.php:2104
+#: common.php:2154
 msgid "Vermont"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2154
+#: common.php:2104
+#: common.php:2155
 msgid "Virginia"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2155
+#: common.php:2104
+#: common.php:2156
 msgid "Washington"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2156
+#: common.php:2104
+#: common.php:2157
 msgid "West Virginia"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2157
+#: common.php:2104
+#: common.php:2158
 msgid "Wisconsin"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2158
+#: common.php:2104
+#: common.php:2159
 msgid "Wyoming"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2159
+#: common.php:2104
+#: common.php:2160
 msgid "Armed Forces Americas"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2160
+#: common.php:2104
+#: common.php:2161
 msgid "Armed Forces Europe"
 msgstr ""
 
-#: common.php:2103
-#: common.php:2161
+#: common.php:2104
+#: common.php:2162
 msgid "Armed Forces Pacific"
 msgstr ""
 
-#: common.php:2171
+#: common.php:2172
 #, fuzzy
 msgid "Alberta"
 msgstr "slaapplaatsen"
 
-#: common.php:2171
+#: common.php:2172
 msgid "British Columbia"
 msgstr ""
 
-#: common.php:2171
+#: common.php:2172
 msgid "Manitoba"
 msgstr ""
 
-#: common.php:2171
+#: common.php:2172
 msgid "New Brunswick"
 msgstr ""
 
-#: common.php:2171
+#: common.php:2172
 msgid "Newfoundland & Labrador"
 msgstr ""
 
-#: common.php:2171
+#: common.php:2172
 msgid "Northwest Territories"
 msgstr ""
 
-#: common.php:2171
+#: common.php:2172
 #, fuzzy
 msgid "Nova Scotia"
 msgstr "Geen secties"
 
-#: common.php:2171
+#: common.php:2172
 msgid "Nunavut"
 msgstr ""
 
-#: common.php:2171
+#: common.php:2172
 msgid "Ontario"
 msgstr ""
 
-#: common.php:2171
+#: common.php:2172
 msgid "Prince Edward Island"
 msgstr ""
 
-#: common.php:2171
+#: common.php:2172
 #, fuzzy
 msgid "Quebec"
 msgstr "Onderwerp"
 
-#: common.php:2171
+#: common.php:2172
 msgid "Saskatchewan"
 msgstr ""
 
-#: common.php:2171
+#: common.php:2172
 msgid "Yukon"
 msgstr ""
 
-#: common.php:2222
+#: common.php:2223
 #, php-format
 msgid "Please enter a value between %s and %s."
 msgstr ""
 
-#: common.php:2224
+#: common.php:2225
 #, php-format
 msgid "Please enter a value greater than or equal to %s."
 msgstr ""
 
-#: common.php:2226
+#: common.php:2227
 #, php-format
 msgid "Please enter a value less than or equal to %s."
 msgstr ""
 
-#: common.php:2228
+#: common.php:2229
 msgid "Please enter a valid number"
 msgstr ""
 
-#: common.php:2261
-#: common.php:3316
+#: common.php:2262
+#: common.php:3317
 #, fuzzy
 msgid "Month"
 msgstr "Maand:"
 
-#: common.php:2265
+#: common.php:2266
 msgid "Day"
 msgstr ""
 
-#: common.php:2271
-#: common.php:3326
+#: common.php:2272
+#: common.php:3327
 #, fuzzy
 msgid "Year"
 msgstr "Zoeken"
 
-#: common.php:2345
+#: common.php:2346
 msgid "Product fields are not editable"
 msgstr ""
 
-#: common.php:2348
+#: common.php:2349
 msgid "Donations are not editable"
 msgstr ""
 
-#: common.php:2384
-#: common.php:2388
+#: common.php:2385
+#: common.php:2389
 msgid "Quantity:"
 msgstr ""
 
-#: common.php:2467
-#: common.php:2475
+#: common.php:2468
+#: common.php:2476
 #, fuzzy
 msgid "Enter Email"
 msgstr "Gebruikersnaam of e-mailadres:"
 
-#: common.php:2467
-#: common.php:2475
+#: common.php:2468
+#: common.php:2476
 msgid "Confirm Email"
 msgstr ""
 
-#: common.php:2565
+#: common.php:2566
 #: js.php:896
 msgid "Phone format:"
 msgstr ""
 
-#: common.php:2652
-#: common.php:3014
+#: common.php:2653
+#: common.php:3015
 #, fuzzy
 msgid "delete"
 msgstr "wijzig / verwijder"
 
-#: common.php:2656
+#: common.php:2657
 #: js.php:518
 #, fuzzy
 msgid "File"
 msgstr "Dossiers"
 
-#: common.php:2665
-#: common.php:3755
+#: common.php:2666
+#: common.php:3756
 #: form_detail.php:1327
 #, fuzzy
 msgid "Caption"
 msgstr "Reactie"
 
-#: common.php:2668
-#: common.php:3756
+#: common.php:2669
+#: common.php:3757
 #: form_detail.php:297
 #: form_detail.php:1332
 #: form_detail.php:1751
@@ -2586,215 +2586,215 @@ msgstr "Reactie"
 msgid "Description"
 msgstr "Projectgegevens"
 
-#: common.php:2678
+#: common.php:2679
 msgid "Click to select..."
 msgstr ""
 
-#: common.php:2717
+#: common.php:2718
 #: form_display.php:1789
 msgid "Strength indicator"
 msgstr ""
 
-#: common.php:2724
+#: common.php:2725
 #, fuzzy
 msgid "Enter Password"
 msgstr "Nieuw wachtwoord"
 
-#: common.php:2724
+#: common.php:2725
 #, fuzzy
 msgid "Confirm Password"
 msgstr "Wachtwoord"
 
-#: common.php:2744
+#: common.php:2745
 #: js.php:407
 #, fuzzy
 msgid "Prefix"
 msgstr "Premium"
 
-#: common.php:2744
-#: common.php:2753
+#: common.php:2745
+#: common.php:2754
 #: js.php:407
 #: js.php:413
 #, fuzzy
 msgid "First"
 msgstr "Voornaam"
 
-#: common.php:2744
-#: common.php:2753
+#: common.php:2745
+#: common.php:2754
 #: js.php:407
 #: js.php:413
 #, fuzzy
 msgid "Last"
 msgstr "Achternaam"
 
-#: common.php:2744
+#: common.php:2745
 #: js.php:407
 msgid "Suffix"
 msgstr ""
 
-#: common.php:2777
-#: common.php:3552
+#: common.php:2778
+#: common.php:3553
 #: form_detail.php:1369
 #, fuzzy
 msgid "State"
 msgstr "Status"
 
-#: common.php:2778
-#: common.php:3552
+#: common.php:2779
+#: common.php:3553
 msgid "Zip Code"
 msgstr ""
 
-#: common.php:2798
+#: common.php:2799
 #: js.php:457
 #, fuzzy
 msgid "Street Address"
 msgstr "Adres"
 
-#: common.php:2805
+#: common.php:2806
 #: js.php:457
 #, fuzzy
 msgid "Address Line 2"
 msgstr "Adres"
 
-#: common.php:2815
-#: common.php:2831
+#: common.php:2816
+#: common.php:2832
 #: js.php:457
 msgid "City"
 msgstr "Plaats"
 
-#: common.php:2852
+#: common.php:2853
 #: js.php:458
 msgid "Country"
 msgstr "Land"
 
-#: common.php:2874
-#: common.php:2916
-#: common.php:2933
-#: common.php:2947
-#: common.php:3000
+#: common.php:2875
+#: common.php:2917
+#: common.php:2934
+#: common.php:2948
+#: common.php:3001
 msgid "MM"
 msgstr ""
 
-#: common.php:2875
-#: common.php:2911
-#: common.php:2938
-#: common.php:2952
+#: common.php:2876
+#: common.php:2912
+#: common.php:2939
+#: common.php:2953
 msgid "DD"
 msgstr ""
 
-#: common.php:2876
-#: common.php:2921
-#: common.php:2929
-#: common.php:2957
+#: common.php:2877
+#: common.php:2922
+#: common.php:2930
+#: common.php:2958
 msgid "YYYY"
 msgstr ""
 
-#: common.php:2998
+#: common.php:2999
 msgid "AM"
 msgstr ""
 
-#: common.php:2998
+#: common.php:2999
 msgid "PM"
 msgstr ""
 
-#: common.php:3000
+#: common.php:3001
 msgid "HH"
 msgstr ""
 
-#: common.php:3008
+#: common.php:3009
 msgid "Download file"
 msgstr ""
 
-#: common.php:3008
+#: common.php:3009
 #, fuzzy
 msgid "Delete file"
 msgstr "Verwijder bericht"
 
-#: common.php:3059
+#: common.php:3060
 msgid "To use the reCaptcha field you must first do the following:"
 msgstr ""
 
-#: common.php:3059
+#: common.php:3060
 #, php-format
 msgid "Sign up%s for a free reCAPTCHA account"
 msgstr ""
 
-#: common.php:3059
+#: common.php:3060
 #, php-format
 msgid "Enter your reCAPTCHA keys in the %ssettings page%s"
 msgstr ""
 
-#: common.php:3132
-#, fuzzy
-msgid "Cardholder Name"
-msgstr "Aantal slaapplaatsen"
-
-#: common.php:3133
+#: common.php:3131
 #: js.php:465
 #, fuzzy
 msgid "Card Number"
 msgstr "Aantal slaapplaatsen"
 
-#: common.php:3152
+#: common.php:3150
 #: js.php:466
 #, fuzzy
 msgid "Expiration Date"
 msgstr "Oefenwedstrijd"
 
-#: common.php:3162
+#: common.php:3160
 #: js.php:467
 msgid "Security Code"
 msgstr ""
 
-#: common.php:3247
+#: common.php:3166
+#, fuzzy
+msgid "Cardholder Name"
+msgstr "Aantal slaapplaatsen"
+
+#: common.php:3248
 #, fuzzy
 msgid "Add a row"
 msgstr "Nieuwe toevoegen"
 
-#: common.php:3248
+#: common.php:3249
 msgid "Remove this row"
 msgstr ""
 
-#: common.php:3551
+#: common.php:3552
 #: form_detail.php:1570
 msgid "International"
 msgstr ""
 
-#: common.php:3551
+#: common.php:3552
 #: js.php:458
 msgid "Zip / Postal Code"
 msgstr ""
 
-#: common.php:3551
+#: common.php:3552
 msgid "State / Province / Region"
 msgstr ""
 
-#: common.php:3553
+#: common.php:3554
 msgid "Canadian"
 msgstr ""
 
-#: common.php:3553
+#: common.php:3554
 #: form_detail.php:1373
 #, fuzzy
 msgid "Postal Code"
 msgstr "Plaats reactie"
 
-#: common.php:3553
+#: common.php:3554
 msgid "Province"
 msgstr ""
 
-#: common.php:3760
-#: common.php:3775
+#: common.php:3761
+#: common.php:3776
 #: entry_list.php:891
 #: entry_list.php:901
 msgid "Click to view"
 msgstr ""
 
-#: common.php:3811
+#: common.php:3812
 msgid "Qty: "
 msgstr ""
 
-#: common.php:3811
+#: common.php:3812
 msgid "Price: "
 msgstr ""
 
@@ -2926,7 +2926,7 @@ msgstr ""
 
 #: entry_detail.php:290
 #: export.php:524
-#: gravityforms.php:1462
+#: gravityforms.php:1474
 msgid "User IP"
 msgstr ""
 
@@ -2955,7 +2955,7 @@ msgstr ""
 
 #: entry_detail.php:313
 #: export.php:521
-#: gravityforms.php:1459
+#: gravityforms.php:1471
 #, fuzzy
 msgid "Payment Status"
 msgstr "Status"
@@ -2966,7 +2966,7 @@ msgstr ""
 
 #: entry_detail.php:317
 #: export.php:520
-#: gravityforms.php:1458
+#: gravityforms.php:1470
 #, fuzzy
 msgid "Payment Date"
 msgstr "Speeldatum"
@@ -2978,7 +2978,7 @@ msgstr "Begindatum:"
 
 #: entry_detail.php:323
 #: export.php:518
-#: gravityforms.php:1456
+#: gravityforms.php:1468
 msgid "Transaction Id"
 msgstr ""
 
@@ -2989,7 +2989,7 @@ msgstr "Abonneenummer"
 
 #: entry_detail.php:329
 #: export.php:519
-#: gravityforms.php:1457
+#: gravityforms.php:1469
 #, fuzzy
 msgid "Payment Amount"
 msgstr "Pagina niet gevonden"
@@ -3060,13 +3060,13 @@ msgstr "Update classificatie"
 
 #: entry_detail.php:399
 #: form_detail.php:1653
-#: gravityforms.php:914
+#: gravityforms.php:926
 msgid "Cancel"
 msgstr ""
 
 #: entry_detail.php:411
 #: form_list.php:229
-#: gravityforms.php:1568
+#: gravityforms.php:1580
 #: notification.php:375
 #, fuzzy
 msgid "Notifications"
@@ -3297,8 +3297,8 @@ msgstr "Interviews"
 #: form_list.php:173
 #: form_list.php:191
 #: form_list.php:227
-#: gravityforms.php:735
-#: gravityforms.php:1575
+#: gravityforms.php:747
+#: gravityforms.php:1587
 #, fuzzy
 msgid "Entries"
 msgstr "Interviews"
@@ -3310,7 +3310,7 @@ msgid "All"
 msgstr "Alles"
 
 #: entry_list.php:590
-#: gravityforms.php:1006
+#: gravityforms.php:1018
 msgid "Unread"
 msgstr ""
 
@@ -3576,7 +3576,7 @@ msgid "Select a form below to export entries. Once you have selected a form you 
 msgstr ""
 
 #: export.php:400
-#: gravityforms.php:1588
+#: gravityforms.php:1600
 msgid "Select A Form"
 msgstr ""
 
@@ -3610,23 +3610,23 @@ msgid "Exporting entries. Please wait..."
 msgstr ""
 
 #: export.php:514
-#: gravityforms.php:1452
+#: gravityforms.php:1464
 msgid "Created By (User Id)"
 msgstr ""
 
 #: export.php:516
-#: gravityforms.php:1454
+#: gravityforms.php:1466
 #, fuzzy
 msgid "Entry Date"
 msgstr "Einddatum:"
 
 #: export.php:517
-#: gravityforms.php:1455
+#: gravityforms.php:1467
 msgid "Source Url"
 msgstr ""
 
 #: export.php:523
-#: gravityforms.php:1461
+#: gravityforms.php:1473
 #, fuzzy
 msgid "User Agent"
 msgstr "Inloggen"
@@ -3705,7 +3705,7 @@ msgid "Loading..."
 msgstr ""
 
 #: form_detail.php:222
-#: gravityforms.php:733
+#: gravityforms.php:745
 #, fuzzy
 msgid "New Form"
 msgstr "Formulier"
@@ -3735,7 +3735,7 @@ msgid "Form updated successfully."
 msgstr ""
 
 #: form_detail.php:266
-#: gravityforms.php:1567
+#: gravityforms.php:1579
 #, fuzzy
 msgid "Form Settings"
 msgstr "Geen secties"
@@ -5246,7 +5246,7 @@ msgid "Custom Mask Instructions"
 msgstr "Bouwfouten"
 
 #: form_detail.php:1821
-#: gravityforms.php:751
+#: gravityforms.php:763
 msgid "Help"
 msgstr ""
 
@@ -5507,7 +5507,7 @@ msgstr "Formulier"
 
 #: form_detail.php:2328
 #: form_list.php:224
-#: gravityforms.php:1582
+#: gravityforms.php:1594
 #, fuzzy
 msgid "Preview"
 msgstr "Overzicht"
@@ -5668,7 +5668,7 @@ msgid "No results matched"
 msgstr ""
 
 #: form_display.php:1746
-#: form_display.php:2217
+#: form_display.php:2223
 msgid "of"
 msgstr ""
 
@@ -5712,20 +5712,20 @@ msgstr "Type schip"
 msgid "click to edit this field"
 msgstr ""
 
-#: form_display.php:2131
+#: form_display.php:2137
 msgid "This page is unsecured. Do not enter a real credit card number. Use this field only for testing purposes. "
 msgstr ""
 
-#: form_display.php:2217
+#: form_display.php:2223
 #, fuzzy
 msgid "Step"
 msgstr "Straat"
 
-#: form_display.php:2244
+#: form_display.php:2250
 msgid "Sorry. This form is no longer accepting new submissions."
 msgstr ""
 
-#: form_display.php:2260
+#: form_display.php:2266
 msgid "Sorry. This form is no longer available."
 msgstr ""
 
@@ -5770,7 +5770,7 @@ msgid "WARNING: You are about to delete ALL entries associated with the selected
 msgstr ""
 
 #: form_list.php:119
-#: gravityforms.php:731
+#: gravityforms.php:743
 #, fuzzy
 msgid "Edit Forms"
 msgstr "Registratieformulier"
@@ -5825,141 +5825,142 @@ msgstr ""
 msgid "You don't have any forms. Let's go %screate one%s!"
 msgstr ""
 
-#: gravityforms.php:727
+#: gravityforms.php:733
 #, fuzzy
 msgid "Update Available"
 msgstr "Update magazine"
 
-#: gravityforms.php:728
-#: gravityforms.php:992
+#: gravityforms.php:738
+#: gravityforms.php:740
+#: gravityforms.php:1004
 #, fuzzy
 msgid "Forms"
 msgstr "Formulier"
 
-#: gravityforms.php:742
-#: gravityforms.php:932
+#: gravityforms.php:754
+#: gravityforms.php:944
 #, fuzzy
 msgid "Settings"
 msgstr "Bijeenkomsten"
 
-#: gravityforms.php:744
+#: gravityforms.php:756
 #, fuzzy
 msgid "Import/Export"
 msgstr "Importeer"
 
-#: gravityforms.php:747
+#: gravityforms.php:759
 #, fuzzy
 msgid "Updates"
 msgstr "Update classificatie"
 
-#: gravityforms.php:748
+#: gravityforms.php:760
 #: help.php:39
 msgid "Add-Ons"
 msgstr ""
 
-#: gravityforms.php:857
+#: gravityforms.php:869
 msgid "Add Gravity Form"
 msgstr ""
 
-#: gravityforms.php:868
+#: gravityforms.php:880
 msgid "Please select a form"
 msgstr ""
 
-#: gravityforms.php:888
+#: gravityforms.php:900
 #, fuzzy
 msgid "Insert A Form"
 msgstr "Registratieformulier"
 
-#: gravityforms.php:890
+#: gravityforms.php:902
 msgid "Select a form below to add it to your post or page."
 msgstr ""
 
-#: gravityforms.php:895
+#: gravityforms.php:907
 msgid "Select a Form"
 msgstr ""
 
-#: gravityforms.php:905
+#: gravityforms.php:917
 msgid "Can't find your form? Make sure it is active."
 msgstr ""
 
-#: gravityforms.php:908
+#: gravityforms.php:920
 #, fuzzy
 msgid "Display form title"
 msgstr "Weergavenaam"
 
-#: gravityforms.php:909
+#: gravityforms.php:921
 msgid "Display form description"
 msgstr ""
 
-#: gravityforms.php:910
+#: gravityforms.php:922
 msgid "Enable AJAX"
 msgstr ""
 
-#: gravityforms.php:947
+#: gravityforms.php:959
 msgid "There is a new version of Gravity Forms available."
 msgstr ""
 
-#: gravityforms.php:947
+#: gravityforms.php:959
 #, php-format
 msgid "View version %s Details"
 msgstr ""
 
-#: gravityforms.php:948
+#: gravityforms.php:960
 msgid "<a href=\"admin.php?page=gf_settings\">Register</a> your copy of Gravity Forms to receive access to automatic upgrades and support. Need a license key? <a href=\"http://www.gravityforms.com\">Purchase one now</a>."
 msgstr ""
 
-#: gravityforms.php:977
+#: gravityforms.php:989
 msgid "Oops!! Something went wrong.<br/>Please try again or <a href='http://www.gravityforms.com'>contact us</a>."
 msgstr ""
 
-#: gravityforms.php:1019
-#: gravityforms.php:1022
+#: gravityforms.php:1031
+#: gravityforms.php:1034
 #, fuzzy
 msgid "View All Entries"
 msgstr "Bekijk alle interviews"
 
-#: gravityforms.php:1021
+#: gravityforms.php:1033
 #, fuzzy, php-format
 msgid "Last Entry: %s"
 msgstr "Update evenement categorie"
 
-#: gravityforms.php:1032
+#: gravityforms.php:1044
 #, fuzzy
 msgid "View All Forms"
 msgstr "Bekijk alle interviews"
 
-#: gravityforms.php:1039
+#: gravityforms.php:1051
 #, php-format
 msgid "You don't have any forms. Let's go %s create one %s!"
 msgstr ""
 
-#: gravityforms.php:1069
+#: gravityforms.php:1081
 #, php-format
 msgid "There is an update available for Gravity Forms. %sView Details%s %s"
 msgstr ""
 
-#: gravityforms.php:1072
+#: gravityforms.php:1084
 #, fuzzy
 msgid "Dismiss"
 msgstr "Regio's"
 
-#: gravityforms.php:1171
+#: gravityforms.php:1183
 msgid "Add-On browser is currently unavailable. Please try again later."
 msgstr ""
 
-#: gravityforms.php:1303
+#: gravityforms.php:1315
 msgid "There was an error while resending the notifications."
 msgstr ""
 
-#: gravityforms.php:1315
+#: gravityforms.php:1327
 msgid "The <strong>Send To</strong> email address provided is not valid."
 msgstr ""
 
-#: gravityforms.php:1566
+#: gravityforms.php:1578
 msgid "Form Editor"
 msgstr ""
 
-#: gravityforms.php:1593
+#: gravityforms.php:1605
 msgid "Switch Form"
 msgstr ""
 
@@ -6616,16 +6617,16 @@ msgid "You don't have adequate permission to preview forms."
 msgstr ""
 
 #: preview.php:30
-#: preview.php:51
+#: preview.php:49
 msgid "Form Preview"
 msgstr ""
 
-#: preview.php:51
+#: preview.php:49
 #: print-entry.php:57
 msgid "close window"
 msgstr ""
 
-#: preview.php:53
+#: preview.php:51
 msgid "Note: This is a simple form preview. This form may display differently when added to your page based on inheritance from individual theme styles."
 msgstr ""
 
