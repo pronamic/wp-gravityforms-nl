@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Gravity Forms\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-05-23 09:35+0100\n"
-"PO-Revision-Date: 2012-05-23 09:35+0100\n"
+"POT-Creation-Date: 2012-05-23 09:44+0100\n"
+"PO-Revision-Date: 2012-05-23 09:44+0100\n"
 "Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "MIME-Version: 1.0\n"
@@ -121,7 +121,7 @@ msgid "All Pricing Fields"
 msgstr ""
 
 #: common.php:332
-#: common.php:4199
+#: common.php:4203
 #: form_detail.php:1606
 #: form_detail.php:1608
 #, fuzzy
@@ -367,7 +367,7 @@ msgid "Section Break"
 msgstr "Sectie 1"
 
 #: common.php:1755
-#: form_display.php:2126
+#: form_display.php:2154
 msgid "Page Break"
 msgstr ""
 
@@ -437,7 +437,7 @@ msgstr ""
 
 #: common.php:1781
 #: common.php:2663
-#: common.php:3755
+#: common.php:3757
 #: form_detail.php:290
 #: form_detail.php:1323
 #: form_list.php:171
@@ -1295,7 +1295,7 @@ msgid "United Kingdom"
 msgstr ""
 
 #: common.php:1887
-#: common.php:3553
+#: common.php:3555
 msgid "United States"
 msgstr ""
 
@@ -2514,7 +2514,7 @@ msgid "Please enter a valid number"
 msgstr ""
 
 #: common.php:2262
-#: common.php:3317
+#: common.php:3319
 #, fuzzy
 msgid "Month"
 msgstr "Maand:"
@@ -2524,7 +2524,7 @@ msgid "Day"
 msgstr ""
 
 #: common.php:2272
-#: common.php:3327
+#: common.php:3329
 #, fuzzy
 msgid "Year"
 msgstr "Zoeken"
@@ -2571,14 +2571,14 @@ msgid "File"
 msgstr "Dossiers"
 
 #: common.php:2666
-#: common.php:3756
+#: common.php:3758
 #: form_detail.php:1328
 #, fuzzy
 msgid "Caption"
 msgstr "Reactie"
 
 #: common.php:2669
-#: common.php:3757
+#: common.php:3759
 #: form_detail.php:298
 #: form_detail.php:1333
 #: form_detail.php:1752
@@ -2591,7 +2591,7 @@ msgid "Click to select..."
 msgstr ""
 
 #: common.php:2718
-#: form_display.php:1829
+#: form_display.php:1857
 msgid "Strength indicator"
 msgstr ""
 
@@ -2633,14 +2633,14 @@ msgid "Suffix"
 msgstr ""
 
 #: common.php:2778
-#: common.php:3553
+#: common.php:3555
 #: form_detail.php:1370
 #, fuzzy
 msgid "State"
 msgstr "Status"
 
 #: common.php:2779
-#: common.php:3553
+#: common.php:3555
 msgid "Zip Code"
 msgstr ""
 
@@ -2724,77 +2724,77 @@ msgstr ""
 msgid "Enter your reCAPTCHA keys in the %ssettings page%s"
 msgstr ""
 
-#: common.php:3131
+#: common.php:3133
 #: js.php:468
 #, fuzzy
 msgid "Card Number"
 msgstr "Aantal slaapplaatsen"
 
-#: common.php:3150
+#: common.php:3152
 #: js.php:469
 #, fuzzy
 msgid "Expiration Date"
 msgstr "Oefenwedstrijd"
 
-#: common.php:3160
+#: common.php:3162
 #: js.php:470
 msgid "Security Code"
 msgstr ""
 
-#: common.php:3166
+#: common.php:3168
 #, fuzzy
 msgid "Cardholder Name"
 msgstr "Aantal slaapplaatsen"
 
-#: common.php:3248
+#: common.php:3250
 #, fuzzy
 msgid "Add a row"
 msgstr "Nieuwe toevoegen"
 
-#: common.php:3249
+#: common.php:3251
 msgid "Remove this row"
 msgstr ""
 
-#: common.php:3552
+#: common.php:3554
 #: form_detail.php:1571
 msgid "International"
 msgstr ""
 
-#: common.php:3552
+#: common.php:3554
 #: js.php:461
 msgid "Zip / Postal Code"
 msgstr ""
 
-#: common.php:3552
+#: common.php:3554
 msgid "State / Province / Region"
 msgstr ""
 
-#: common.php:3554
+#: common.php:3556
 msgid "Canadian"
 msgstr ""
 
-#: common.php:3554
+#: common.php:3556
 #: form_detail.php:1374
 #, fuzzy
 msgid "Postal Code"
 msgstr "Plaats reactie"
 
-#: common.php:3554
+#: common.php:3556
 msgid "Province"
 msgstr ""
 
-#: common.php:3761
-#: common.php:3776
+#: common.php:3763
+#: common.php:3778
 #: entry_list.php:891
 #: entry_list.php:901
 msgid "Click to view"
 msgstr ""
 
-#: common.php:3812
+#: common.php:3814
 msgid "Qty: "
 msgstr ""
 
-#: common.php:3812
+#: common.php:3814
 msgid "Price: "
 msgstr ""
 
@@ -3045,7 +3045,7 @@ msgstr "Meest gelezen"
 #: form_detail.php:271
 #: form_detail.php:572
 #: form_detail.php:696
-#: form_display.php:2105
+#: form_display.php:2133
 #: form_list.php:217
 #: form_list.php:223
 #: js.php:136
@@ -3143,7 +3143,7 @@ msgstr ""
 
 #: entry_detail.php:570
 #: form_detail.php:1655
-#: form_display.php:2102
+#: form_display.php:2130
 #: form_list.php:142
 #: form_list.php:235
 #: form_list.php:285
@@ -3659,7 +3659,7 @@ msgstr ""
 
 #: form_detail.php:70
 #: form_display.php:525
-#: form_display.php:2010
+#: form_display.php:2038
 #: js.php:385
 #, fuzzy
 msgid "Previous"
@@ -3694,7 +3694,7 @@ msgid "Thanks for contacting us! We will get in touch with you shortly."
 msgstr ""
 
 #: form_detail.php:78
-#: form_display.php:686
+#: form_display.php:712
 #, fuzzy
 msgid "Submit"
 msgstr "Sub titel:"
@@ -5188,23 +5188,23 @@ msgid "Minimum Strength"
 msgstr ""
 
 #: form_detail.php:1725
-#: form_display.php:1829
+#: form_display.php:1857
 #, fuzzy
 msgid "Short"
 msgstr "Haven"
 
 #: form_detail.php:1726
-#: form_display.php:1829
+#: form_display.php:1857
 msgid "Bad"
 msgstr ""
 
 #: form_detail.php:1727
-#: form_display.php:1829
+#: form_display.php:1857
 msgid "Good"
 msgstr ""
 
 #: form_detail.php:1728
-#: form_display.php:1829
+#: form_display.php:1857
 #, fuzzy
 msgid "Strong"
 msgstr "Rubriek"
@@ -5542,190 +5542,190 @@ msgid "Errors have been highlighted below."
 msgstr ""
 
 #: form_display.php:525
-#: form_display.php:2010
+#: form_display.php:2038
 #, fuzzy
 msgid "Previous Page"
 msgstr "Registreren pagina"
 
-#: form_display.php:973
-#: form_display.php:1200
-#: form_display.php:1311
-#: form_display.php:1323
+#: form_display.php:999
+#: form_display.php:1226
+#: form_display.php:1337
+#: form_display.php:1349
 msgid "This field is required."
 msgstr ""
 
-#: form_display.php:982
+#: form_display.php:1008
 msgid "This date has already been taken. Please select a new date."
 msgstr ""
 
-#: form_display.php:986
+#: form_display.php:1012
 msgid "This field requires an unique entry and the values you entered have been already been used."
 msgstr ""
 
-#: form_display.php:987
+#: form_display.php:1013
 #, php-format
 msgid "This field requires an unique entry and '%s' has already been used"
 msgstr ""
 
-#: form_display.php:997
+#: form_display.php:1023
 msgid "Please enter a valid value."
 msgstr ""
 
-#: form_display.php:997
+#: form_display.php:1023
 msgid "Invalid selection. Please select one of the available choices."
 msgstr ""
 
-#: form_display.php:1006
+#: form_display.php:1032
 msgid "Your passwords do not match."
 msgstr ""
 
-#: form_display.php:1014
+#: form_display.php:1040
 #, fuzzy
 msgid "Your password does not meet the required strength. <br/>Hint: To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ & )."
 msgstr "Hint: Het wachtwoord moet minimaal 7 karakters lang zijn. Om het wachtwoord sterker te maken kun je gebruik maken van hoofd- en kleine letters, nummers en symbolen zoals  ! \" ? $ % ^ &amp; )."
 
-#: form_display.php:1026
+#: form_display.php:1052
 msgid "This field is required. Please enter the first and last name."
 msgstr ""
 
-#: form_display.php:1042
+#: form_display.php:1068
 msgid "This field is required. Please enter a complete address."
 msgstr ""
 
-#: form_display.php:1055
+#: form_display.php:1081
 msgid "Please enter your credit card information."
 msgstr ""
 
-#: form_display.php:1063
+#: form_display.php:1089
 msgid "Please enter your card's security code."
 msgstr ""
 
-#: form_display.php:1067
+#: form_display.php:1093
 msgid "Invalid credit card number."
 msgstr ""
 
-#: form_display.php:1071
+#: form_display.php:1097
 msgid "is not supported. Please enter one of the supported credit cards."
 msgstr ""
 
-#: form_display.php:1079
+#: form_display.php:1105
 msgid "Please enter a valid email address."
 msgstr ""
 
-#: form_display.php:1085
+#: form_display.php:1111
 msgid "Your emails do not match."
 msgstr ""
 
-#: form_display.php:1099
+#: form_display.php:1125
 msgid "Please enter a valid amount."
 msgstr ""
 
-#: form_display.php:1112
+#: form_display.php:1138
 msgid "Please enter a valid quantity. Quantity cannot contain decimals."
 msgstr ""
 
-#: form_display.php:1161
+#: form_display.php:1187
 #, php-format
 msgid "Please enter a valid date in the format (%s)."
 msgstr ""
 
-#: form_display.php:1161
+#: form_display.php:1187
 msgid "Please enter a valid date."
 msgstr ""
 
-#: form_display.php:1191
+#: form_display.php:1217
 msgid "Please enter a valid time."
 msgstr ""
 
-#: form_display.php:1206
+#: form_display.php:1232
 msgid "Please enter a valid Website URL (i.e. http://www.gravityforms.com)."
 msgstr ""
 
-#: form_display.php:1219
-#: form_display.php:1254
+#: form_display.php:1245
+#: form_display.php:1280
 msgid "The CAPTCHA wasn't entered correctly. Go back and try it again."
 msgstr ""
 
-#: form_display.php:1275
+#: form_display.php:1301
 msgid "The reCAPTCHA wasn't entered correctly. Go back and try it again."
 msgstr ""
 
-#: form_display.php:1288
+#: form_display.php:1314
 msgid "The uploaded file type is not allowed."
 msgstr ""
 
-#: form_display.php:1292
+#: form_display.php:1318
 #, php-format
 msgid "The uploaded file type is not allowed. Must be one of the following: %s"
 msgstr ""
 
-#: form_display.php:1307
+#: form_display.php:1333
 msgid "Please enter a valid quantity"
 msgstr ""
 
-#: form_display.php:1769
+#: form_display.php:1797
 msgid "No results matched"
 msgstr ""
 
-#: form_display.php:1786
-#: form_display.php:2263
+#: form_display.php:1814
+#: form_display.php:2291
 msgid "of"
 msgstr ""
 
-#: form_display.php:1786
+#: form_display.php:1814
 msgid "max characters"
 msgstr ""
 
-#: form_display.php:1829
+#: form_display.php:1857
 msgid "Mismatch"
 msgstr ""
 
-#: form_display.php:2009
+#: form_display.php:2037
 #: js.php:383
 msgid "Next"
 msgstr ""
 
-#: form_display.php:2009
+#: form_display.php:2037
 #, fuzzy
 msgid "Next Page"
 msgstr "Registreren pagina"
 
-#: form_display.php:2099
+#: form_display.php:2127
 msgid "click to duplicate this field"
 msgstr ""
 
-#: form_display.php:2099
+#: form_display.php:2127
 #: form_list.php:232
 msgid "Duplicate"
 msgstr ""
 
-#: form_display.php:2102
+#: form_display.php:2130
 msgid "click to delete this field"
 msgstr ""
 
-#: form_display.php:2105
+#: form_display.php:2133
 #, fuzzy
 msgid "Field ID"
 msgstr "Type schip"
 
-#: form_display.php:2105
+#: form_display.php:2133
 msgid "click to edit this field"
 msgstr ""
 
-#: form_display.php:2177
+#: form_display.php:2205
 msgid "This page is unsecured. Do not enter a real credit card number. Use this field only for testing purposes. "
 msgstr ""
 
-#: form_display.php:2263
+#: form_display.php:2291
 #, fuzzy
 msgid "Step"
 msgstr "Straat"
 
-#: form_display.php:2290
+#: form_display.php:2318
 msgid "Sorry. This form is no longer accepting new submissions."
 msgstr ""
 
-#: form_display.php:2306
+#: form_display.php:2334
 msgid "Sorry. This form is no longer available."
 msgstr ""
 

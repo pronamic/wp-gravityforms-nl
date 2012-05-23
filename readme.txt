@@ -4,16 +4,16 @@ Tags: gravityforms, gravity, form, forms, gravity forms, translation, dutch, nl,
 Donate link: http://pronamic.eu/donate/?for=wp-plugin-gravityforms-nl&source=wp-plugin-readme-txt
 Requires at least: 3.0
 Tested up to: 3.3.1
-Stable tag: 2.6.2
+Stable tag: 2.6.3
 
 This WordPress plugin extends the Gravity Forms plugin with the Dutch translation.
 
 == Description ==
 
-<strong>Gravity Forms</strong> 1.6.4.3 | 
+<strong>Gravity Forms</strong> 1.6.4.4 | 
 <strong>User Registration Add-On</strong> 1.4 | 
 <strong>Campaign Monitor Add-On</strong> 1.9 | 
-<strong>MailChimp Add-On</strong> 1.6.1 | 
+<strong>MailChimp Add-On</strong> 1.6.3 | 
 <strong>PayPal Add-On</strong> 1.4 | 
 <strong>Signature Add-On</strong> 1.0.beta1
 
@@ -36,6 +36,7 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 = 2.6.3 =
 *	Updated to Gravity Forms version 1.6.4.3, improved a few translations
+*	Updated to Gravity Forms version 1.6.4.4, improved a few translations
 
 = 2.6.2 =
 *	Updated to Gravity Forms version 1.6.4.2, improved a few translations
