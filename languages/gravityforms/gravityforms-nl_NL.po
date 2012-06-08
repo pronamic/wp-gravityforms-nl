@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Gravity Forms\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-05-23 09:44+0100\n"
-"PO-Revision-Date: 2012-05-23 09:44+0100\n"
+"POT-Creation-Date: 2012-06-08 09:00+0100\n"
+"PO-Revision-Date: 2012-06-08 09:00+0100\n"
 "Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "MIME-Version: 1.0\n"
@@ -95,6 +95,7 @@ msgstr ""
 
 #: common.php:231
 #: common.php:411
+#: form_detail.php:2470
 msgid "Insert Merge Tag"
 msgstr ""
 
@@ -164,7 +165,7 @@ msgstr ""
 #: common.php:339
 #: entry_detail.php:287
 #: export.php:515
-#: gravityforms.php:1485
+#: gravityforms.php:1491
 msgid "Entry Id"
 msgstr ""
 
@@ -190,7 +191,7 @@ msgstr ""
 
 #: common.php:346
 #: export.php:522
-#: gravityforms.php:1492
+#: gravityforms.php:1498
 #, fuzzy
 msgid "Post Id"
 msgstr "Berichten"
@@ -238,7 +239,7 @@ msgstr "Beoordeling"
 #: common.php:997
 #: common.php:1803
 #: entry_detail.php:833
-#: gravityforms.php:1039
+#: gravityforms.php:1045
 #: js.php:599
 #, fuzzy
 msgid "Total"
@@ -367,7 +368,7 @@ msgid "Section Break"
 msgstr "Sectie 1"
 
 #: common.php:1755
-#: form_display.php:2154
+#: form_display.php:2162
 msgid "Page Break"
 msgstr ""
 
@@ -442,7 +443,7 @@ msgstr ""
 #: form_detail.php:1323
 #: form_list.php:171
 #: form_list.php:189
-#: gravityforms.php:1037
+#: gravityforms.php:1043
 msgid "Title"
 msgstr "Titel"
 
@@ -2591,7 +2592,7 @@ msgid "Click to select..."
 msgstr ""
 
 #: common.php:2718
-#: form_display.php:1857
+#: form_display.php:1865
 msgid "Strength indicator"
 msgstr ""
 
@@ -2926,7 +2927,7 @@ msgstr ""
 
 #: entry_detail.php:290
 #: export.php:524
-#: gravityforms.php:1494
+#: gravityforms.php:1500
 msgid "User IP"
 msgstr ""
 
@@ -2955,7 +2956,7 @@ msgstr ""
 
 #: entry_detail.php:313
 #: export.php:521
-#: gravityforms.php:1491
+#: gravityforms.php:1497
 #, fuzzy
 msgid "Payment Status"
 msgstr "Status"
@@ -2966,7 +2967,7 @@ msgstr ""
 
 #: entry_detail.php:317
 #: export.php:520
-#: gravityforms.php:1490
+#: gravityforms.php:1496
 #, fuzzy
 msgid "Payment Date"
 msgstr "Speeldatum"
@@ -2978,7 +2979,7 @@ msgstr "Begindatum:"
 
 #: entry_detail.php:323
 #: export.php:518
-#: gravityforms.php:1488
+#: gravityforms.php:1494
 msgid "Transaction Id"
 msgstr ""
 
@@ -2989,7 +2990,7 @@ msgstr "Abonneenummer"
 
 #: entry_detail.php:329
 #: export.php:519
-#: gravityforms.php:1489
+#: gravityforms.php:1495
 #, fuzzy
 msgid "Payment Amount"
 msgstr "Pagina niet gevonden"
@@ -3045,7 +3046,7 @@ msgstr "Meest gelezen"
 #: form_detail.php:271
 #: form_detail.php:572
 #: form_detail.php:696
-#: form_display.php:2133
+#: form_display.php:2141
 #: form_list.php:217
 #: form_list.php:223
 #: js.php:136
@@ -3060,13 +3061,13 @@ msgstr "Update classificatie"
 
 #: entry_detail.php:399
 #: form_detail.php:1654
-#: gravityforms.php:946
+#: gravityforms.php:952
 msgid "Cancel"
 msgstr ""
 
 #: entry_detail.php:411
 #: form_list.php:229
-#: gravityforms.php:1600
+#: gravityforms.php:1606
 #: notification.php:375
 #, fuzzy
 msgid "Notifications"
@@ -3143,7 +3144,7 @@ msgstr ""
 
 #: entry_detail.php:570
 #: form_detail.php:1655
-#: form_display.php:2130
+#: form_display.php:2138
 #: form_list.php:142
 #: form_list.php:235
 #: form_list.php:285
@@ -3297,8 +3298,8 @@ msgstr "Interviews"
 #: form_list.php:173
 #: form_list.php:191
 #: form_list.php:227
-#: gravityforms.php:767
-#: gravityforms.php:1607
+#: gravityforms.php:773
+#: gravityforms.php:1613
 #, fuzzy
 msgid "Entries"
 msgstr "Interviews"
@@ -3310,7 +3311,7 @@ msgid "All"
 msgstr "Alles"
 
 #: entry_list.php:590
-#: gravityforms.php:1038
+#: gravityforms.php:1044
 msgid "Unread"
 msgstr ""
 
@@ -3576,7 +3577,7 @@ msgid "Select a form below to export entries. Once you have selected a form you 
 msgstr ""
 
 #: export.php:400
-#: gravityforms.php:1620
+#: gravityforms.php:1626
 msgid "Select A Form"
 msgstr ""
 
@@ -3610,23 +3611,23 @@ msgid "Exporting entries. Please wait..."
 msgstr ""
 
 #: export.php:514
-#: gravityforms.php:1484
+#: gravityforms.php:1490
 msgid "Created By (User Id)"
 msgstr ""
 
 #: export.php:516
-#: gravityforms.php:1486
+#: gravityforms.php:1492
 #, fuzzy
 msgid "Entry Date"
 msgstr "Einddatum:"
 
 #: export.php:517
-#: gravityforms.php:1487
+#: gravityforms.php:1493
 msgid "Source Url"
 msgstr ""
 
 #: export.php:523
-#: gravityforms.php:1493
+#: gravityforms.php:1499
 #, fuzzy
 msgid "User Agent"
 msgstr "Inloggen"
@@ -3658,8 +3659,8 @@ msgid "Save"
 msgstr ""
 
 #: form_detail.php:70
-#: form_display.php:525
-#: form_display.php:2038
+#: form_display.php:531
+#: form_display.php:2046
 #: js.php:385
 #, fuzzy
 msgid "Previous"
@@ -3694,7 +3695,7 @@ msgid "Thanks for contacting us! We will get in touch with you shortly."
 msgstr ""
 
 #: form_detail.php:78
-#: form_display.php:712
+#: form_display.php:718
 #, fuzzy
 msgid "Submit"
 msgstr "Sub titel:"
@@ -3705,7 +3706,7 @@ msgid "Loading..."
 msgstr ""
 
 #: form_detail.php:223
-#: gravityforms.php:765
+#: gravityforms.php:771
 #, fuzzy
 msgid "New Form"
 msgstr "Formulier"
@@ -3735,7 +3736,7 @@ msgid "Form updated successfully."
 msgstr ""
 
 #: form_detail.php:267
-#: gravityforms.php:1599
+#: gravityforms.php:1605
 #, fuzzy
 msgid "Form Settings"
 msgstr "Geen secties"
@@ -5188,23 +5189,23 @@ msgid "Minimum Strength"
 msgstr ""
 
 #: form_detail.php:1725
-#: form_display.php:1857
+#: form_display.php:1865
 #, fuzzy
 msgid "Short"
 msgstr "Haven"
 
 #: form_detail.php:1726
-#: form_display.php:1857
+#: form_display.php:1865
 msgid "Bad"
 msgstr ""
 
 #: form_detail.php:1727
-#: form_display.php:1857
+#: form_display.php:1865
 msgid "Good"
 msgstr ""
 
 #: form_detail.php:1728
-#: form_display.php:1857
+#: form_display.php:1865
 #, fuzzy
 msgid "Strong"
 msgstr "Rubriek"
@@ -5246,7 +5247,7 @@ msgid "Custom Mask Instructions"
 msgstr "Bouwfouten"
 
 #: form_detail.php:1822
-#: gravityforms.php:783
+#: gravityforms.php:789
 msgid "Help"
 msgstr ""
 
@@ -5507,14 +5508,10 @@ msgstr "Formulier"
 
 #: form_detail.php:2329
 #: form_list.php:224
-#: gravityforms.php:1614
+#: gravityforms.php:1620
 #, fuzzy
 msgid "Preview"
 msgstr "Overzicht"
-
-#: form_detail.php:2470
-msgid "Insert variable"
-msgstr ""
 
 #: form_detail.php:2479
 msgid "HTTP Referer URL"
@@ -5524,208 +5521,208 @@ msgstr ""
 msgid "New submission from"
 msgstr ""
 
-#: form_display.php:371
+#: form_display.php:377
 msgid "Oops! We could not locate your form."
 msgstr ""
 
-#: form_display.php:388
+#: form_display.php:394
 #, fuzzy
 msgid "Sorry. You must be logged in to view this form."
 msgstr "Je moet ingelogd zijn om je profiel te bekijken."
 
-#: form_display.php:494
+#: form_display.php:500
 msgid "There was a problem with your submission."
 msgstr ""
 
-#: form_display.php:494
+#: form_display.php:500
 msgid "Errors have been highlighted below."
 msgstr ""
 
-#: form_display.php:525
-#: form_display.php:2038
+#: form_display.php:531
+#: form_display.php:2046
 #, fuzzy
 msgid "Previous Page"
 msgstr "Registreren pagina"
 
-#: form_display.php:999
-#: form_display.php:1226
-#: form_display.php:1337
-#: form_display.php:1349
+#: form_display.php:1010
+#: form_display.php:1237
+#: form_display.php:1341
+#: form_display.php:1357
 msgid "This field is required."
 msgstr ""
 
-#: form_display.php:1008
+#: form_display.php:1019
 msgid "This date has already been taken. Please select a new date."
 msgstr ""
 
-#: form_display.php:1012
+#: form_display.php:1023
 msgid "This field requires an unique entry and the values you entered have been already been used."
 msgstr ""
 
-#: form_display.php:1013
+#: form_display.php:1024
 #, php-format
 msgid "This field requires an unique entry and '%s' has already been used"
 msgstr ""
 
-#: form_display.php:1023
+#: form_display.php:1034
 msgid "Please enter a valid value."
 msgstr ""
 
-#: form_display.php:1023
+#: form_display.php:1034
 msgid "Invalid selection. Please select one of the available choices."
 msgstr ""
 
-#: form_display.php:1032
+#: form_display.php:1043
 msgid "Your passwords do not match."
 msgstr ""
 
-#: form_display.php:1040
+#: form_display.php:1051
 #, fuzzy
 msgid "Your password does not meet the required strength. <br/>Hint: To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ & )."
 msgstr "Hint: Het wachtwoord moet minimaal 7 karakters lang zijn. Om het wachtwoord sterker te maken kun je gebruik maken van hoofd- en kleine letters, nummers en symbolen zoals  ! \" ? $ % ^ &amp; )."
 
-#: form_display.php:1052
+#: form_display.php:1063
 msgid "This field is required. Please enter the first and last name."
 msgstr ""
 
-#: form_display.php:1068
+#: form_display.php:1079
 msgid "This field is required. Please enter a complete address."
 msgstr ""
 
-#: form_display.php:1081
+#: form_display.php:1092
 msgid "Please enter your credit card information."
 msgstr ""
 
-#: form_display.php:1089
+#: form_display.php:1100
 msgid "Please enter your card's security code."
 msgstr ""
 
-#: form_display.php:1093
+#: form_display.php:1104
 msgid "Invalid credit card number."
 msgstr ""
 
-#: form_display.php:1097
+#: form_display.php:1108
 msgid "is not supported. Please enter one of the supported credit cards."
 msgstr ""
 
-#: form_display.php:1105
+#: form_display.php:1116
 msgid "Please enter a valid email address."
 msgstr ""
 
-#: form_display.php:1111
+#: form_display.php:1122
 msgid "Your emails do not match."
 msgstr ""
 
-#: form_display.php:1125
+#: form_display.php:1136
 msgid "Please enter a valid amount."
 msgstr ""
 
-#: form_display.php:1138
+#: form_display.php:1149
 msgid "Please enter a valid quantity. Quantity cannot contain decimals."
 msgstr ""
 
-#: form_display.php:1187
+#: form_display.php:1198
 #, php-format
 msgid "Please enter a valid date in the format (%s)."
 msgstr ""
 
-#: form_display.php:1187
+#: form_display.php:1198
 msgid "Please enter a valid date."
 msgstr ""
 
-#: form_display.php:1217
+#: form_display.php:1228
 msgid "Please enter a valid time."
 msgstr ""
 
-#: form_display.php:1232
+#: form_display.php:1243
 msgid "Please enter a valid Website URL (i.e. http://www.gravityforms.com)."
 msgstr ""
 
-#: form_display.php:1245
-#: form_display.php:1280
+#: form_display.php:1256
+#: form_display.php:1291
 msgid "The CAPTCHA wasn't entered correctly. Go back and try it again."
 msgstr ""
 
-#: form_display.php:1301
+#: form_display.php:1312
 msgid "The reCAPTCHA wasn't entered correctly. Go back and try it again."
 msgstr ""
 
-#: form_display.php:1314
+#: form_display.php:1325
 msgid "The uploaded file type is not allowed."
 msgstr ""
 
-#: form_display.php:1318
+#: form_display.php:1329
 #, php-format
 msgid "The uploaded file type is not allowed. Must be one of the following: %s"
 msgstr ""
 
-#: form_display.php:1333
+#: form_display.php:1345
 msgid "Please enter a valid quantity"
 msgstr ""
 
-#: form_display.php:1797
+#: form_display.php:1805
 msgid "No results matched"
 msgstr ""
 
-#: form_display.php:1814
-#: form_display.php:2291
+#: form_display.php:1822
+#: form_display.php:2299
 msgid "of"
 msgstr ""
 
-#: form_display.php:1814
+#: form_display.php:1822
 msgid "max characters"
 msgstr ""
 
-#: form_display.php:1857
+#: form_display.php:1865
 msgid "Mismatch"
 msgstr ""
 
-#: form_display.php:2037
+#: form_display.php:2045
 #: js.php:383
 msgid "Next"
 msgstr ""
 
-#: form_display.php:2037
+#: form_display.php:2045
 #, fuzzy
 msgid "Next Page"
 msgstr "Registreren pagina"
 
-#: form_display.php:2127
+#: form_display.php:2135
 msgid "click to duplicate this field"
 msgstr ""
 
-#: form_display.php:2127
+#: form_display.php:2135
 #: form_list.php:232
 msgid "Duplicate"
 msgstr ""
 
-#: form_display.php:2130
+#: form_display.php:2138
 msgid "click to delete this field"
 msgstr ""
 
-#: form_display.php:2133
+#: form_display.php:2141
 #, fuzzy
 msgid "Field ID"
 msgstr "Type schip"
 
-#: form_display.php:2133
+#: form_display.php:2141
 msgid "click to edit this field"
 msgstr ""
 
-#: form_display.php:2205
+#: form_display.php:2213
 msgid "This page is unsecured. Do not enter a real credit card number. Use this field only for testing purposes. "
 msgstr ""
 
-#: form_display.php:2291
+#: form_display.php:2299
 #, fuzzy
 msgid "Step"
 msgstr "Straat"
 
-#: form_display.php:2318
+#: form_display.php:2326
 msgid "Sorry. This form is no longer accepting new submissions."
 msgstr ""
 
-#: form_display.php:2334
+#: form_display.php:2342
 msgid "Sorry. This form is no longer available."
 msgstr ""
 
@@ -5770,7 +5767,7 @@ msgid "WARNING: You are about to delete ALL entries associated with the selected
 msgstr ""
 
 #: form_list.php:119
-#: gravityforms.php:763
+#: gravityforms.php:769
 #, fuzzy
 msgid "Edit Forms"
 msgstr "Registratieformulier"
@@ -5825,142 +5822,142 @@ msgstr ""
 msgid "You don't have any forms. Let's go %screate one%s!"
 msgstr ""
 
-#: gravityforms.php:753
+#: gravityforms.php:759
 #, fuzzy
 msgid "Update Available"
 msgstr "Update magazine"
 
-#: gravityforms.php:758
-#: gravityforms.php:760
-#: gravityforms.php:1024
+#: gravityforms.php:764
+#: gravityforms.php:766
+#: gravityforms.php:1030
 #, fuzzy
 msgid "Forms"
 msgstr "Formulier"
 
-#: gravityforms.php:774
-#: gravityforms.php:964
+#: gravityforms.php:780
+#: gravityforms.php:970
 #, fuzzy
 msgid "Settings"
 msgstr "Bijeenkomsten"
 
-#: gravityforms.php:776
+#: gravityforms.php:782
 #, fuzzy
 msgid "Import/Export"
 msgstr "Importeer"
 
-#: gravityforms.php:779
+#: gravityforms.php:785
 #, fuzzy
 msgid "Updates"
 msgstr "Update classificatie"
 
-#: gravityforms.php:780
+#: gravityforms.php:786
 #: help.php:39
 msgid "Add-Ons"
 msgstr ""
 
-#: gravityforms.php:889
+#: gravityforms.php:895
 msgid "Add Gravity Form"
 msgstr ""
 
-#: gravityforms.php:900
+#: gravityforms.php:906
 msgid "Please select a form"
 msgstr ""
 
-#: gravityforms.php:920
+#: gravityforms.php:926
 #, fuzzy
 msgid "Insert A Form"
 msgstr "Registratieformulier"
 
-#: gravityforms.php:922
+#: gravityforms.php:928
 msgid "Select a form below to add it to your post or page."
 msgstr ""
 
-#: gravityforms.php:927
+#: gravityforms.php:933
 msgid "Select a Form"
 msgstr ""
 
-#: gravityforms.php:937
+#: gravityforms.php:943
 msgid "Can't find your form? Make sure it is active."
 msgstr ""
 
-#: gravityforms.php:940
+#: gravityforms.php:946
 #, fuzzy
 msgid "Display form title"
 msgstr "Weergavenaam"
 
-#: gravityforms.php:941
+#: gravityforms.php:947
 msgid "Display form description"
 msgstr ""
 
-#: gravityforms.php:942
+#: gravityforms.php:948
 msgid "Enable AJAX"
 msgstr ""
 
-#: gravityforms.php:979
+#: gravityforms.php:985
 msgid "There is a new version of Gravity Forms available."
 msgstr ""
 
-#: gravityforms.php:979
+#: gravityforms.php:985
 #, php-format
 msgid "View version %s Details"
 msgstr ""
 
-#: gravityforms.php:980
+#: gravityforms.php:986
 msgid "<a href=\"admin.php?page=gf_settings\">Register</a> your copy of Gravity Forms to receive access to automatic upgrades and support. Need a license key? <a href=\"http://www.gravityforms.com\">Purchase one now</a>."
 msgstr ""
 
-#: gravityforms.php:1009
+#: gravityforms.php:1015
 msgid "Oops!! Something went wrong.<br/>Please try again or <a href='http://www.gravityforms.com'>contact us</a>."
 msgstr ""
 
-#: gravityforms.php:1051
-#: gravityforms.php:1054
+#: gravityforms.php:1057
+#: gravityforms.php:1060
 #, fuzzy
 msgid "View All Entries"
 msgstr "Bekijk alle interviews"
 
-#: gravityforms.php:1053
+#: gravityforms.php:1059
 #, fuzzy, php-format
 msgid "Last Entry: %s"
 msgstr "Update evenement categorie"
 
-#: gravityforms.php:1064
+#: gravityforms.php:1070
 #, fuzzy
 msgid "View All Forms"
 msgstr "Bekijk alle interviews"
 
-#: gravityforms.php:1071
+#: gravityforms.php:1077
 #, php-format
 msgid "You don't have any forms. Let's go %s create one %s!"
 msgstr ""
 
-#: gravityforms.php:1101
+#: gravityforms.php:1107
 #, php-format
 msgid "There is an update available for Gravity Forms. %sView Details%s %s"
 msgstr ""
 
-#: gravityforms.php:1104
+#: gravityforms.php:1110
 #, fuzzy
 msgid "Dismiss"
 msgstr "Regio's"
 
-#: gravityforms.php:1203
+#: gravityforms.php:1209
 msgid "Add-On browser is currently unavailable. Please try again later."
 msgstr ""
 
-#: gravityforms.php:1335
+#: gravityforms.php:1341
 msgid "There was an error while resending the notifications."
 msgstr ""
 
-#: gravityforms.php:1347
+#: gravityforms.php:1353
 msgid "The <strong>Send To</strong> email address provided is not valid."
 msgstr ""
 
-#: gravityforms.php:1598
+#: gravityforms.php:1604
 msgid "Form Editor"
 msgstr ""
 
-#: gravityforms.php:1625
+#: gravityforms.php:1631
 msgid "Switch Form"
 msgstr ""
 
