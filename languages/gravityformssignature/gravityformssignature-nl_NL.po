@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Gravity Forms Signature Add-On\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-26 09:34+0100\n"
-"PO-Revision-Date: 2012-03-26 09:34+0100\n"
+"POT-Creation-Date: 2012-07-05 10:24+0100\n"
+"PO-Revision-Date: 2012-07-05 10:24+0100\n"
 "Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 
 #: plugin-upgrade.php:53
-#: signature.php:137
+#: signature.php:197
 #, php-format
 msgid "View version %s Details"
 msgstr ""
@@ -27,108 +27,109 @@ msgstr ""
 msgid "Oops!! Something went wrong.%sPlease try again or %scontact us%s."
 msgstr ""
 
-#: signature.php:115
-#: signature.php:446
+#: signature.php:131
+#: signature.php:140
+#: signature.php:506
 msgid "Signature"
 msgstr ""
 
-#: signature.php:130
+#: signature.php:190
 msgid "Gravity Forms "
 msgstr ""
 
-#: signature.php:137
+#: signature.php:197
 msgid "There is a new version of Gravity Forms Signature Add-On available."
 msgstr ""
 
-#: signature.php:138
+#: signature.php:198
 #, php-format
 msgid "%sRegister%s your copy of Gravity Forms to receive access to automatic upgrades and support. Need a license key? %sPurchase one now%s."
 msgstr ""
 
-#: signature.php:185
-#: signature.php:219
+#: signature.php:245
+#: signature.php:279
 msgid "Background Color"
 msgstr ""
 
-#: signature.php:185
+#: signature.php:245
 msgid "Select the color to be used for the background of the signature area"
 msgstr ""
 
-#: signature.php:186
-#: signature.php:226
+#: signature.php:246
+#: signature.php:286
 msgid "Border Color"
 msgstr ""
 
-#: signature.php:186
+#: signature.php:246
 msgid "Select the color to be used for the border around the signature area"
 msgstr ""
 
-#: signature.php:187
-#: signature.php:262
+#: signature.php:247
+#: signature.php:322
 msgid "Pen Color"
 msgstr ""
 
-#: signature.php:187
+#: signature.php:247
 msgid "Select the color of the pen to be used for the signature"
 msgstr ""
 
-#: signature.php:188
+#: signature.php:248
 msgid "Width"
 msgstr "Breedte"
 
-#: signature.php:188
+#: signature.php:248
 msgid "Enter the width for the signature area in pixels."
 msgstr ""
 
-#: signature.php:189
-#: signature.php:245
+#: signature.php:249
+#: signature.php:305
 msgid "Border Style"
 msgstr ""
 
-#: signature.php:189
+#: signature.php:249
 msgid "Select the border style to be used around the signature area"
 msgstr ""
 
-#: signature.php:190
-#: signature.php:269
+#: signature.php:250
+#: signature.php:329
 msgid "Pen Size"
 msgstr ""
 
-#: signature.php:190
+#: signature.php:250
 msgid "Select the width of the pen to be used for the signature"
 msgstr ""
 
-#: signature.php:191
-#: signature.php:233
+#: signature.php:251
+#: signature.php:293
 msgid "Border Width"
 msgstr ""
 
-#: signature.php:191
+#: signature.php:251
 msgid "Select the border width to be used around the signature area"
 msgstr ""
 
-#: signature.php:192
+#: signature.php:252
 msgid "Message"
 msgstr ""
 
-#: signature.php:192
+#: signature.php:252
 msgid "Write the message you would like to be sent. You can insert fields submitted by the user by selecting them from the 'Insert Variable' drop down."
 msgstr ""
 
-#: signature.php:203
+#: signature.php:263
 msgid "Field Width"
 msgstr ""
 
-#: signature.php:398
-#: signature.php:417
+#: signature.php:458
+#: signature.php:477
 msgid "Click to view"
 msgstr ""
 
-#: signature.php:485
+#: signature.php:545
 msgid "sign again"
 msgstr ""
 
-#: signature.php:524
+#: signature.php:584
 msgid "Please enter your signature."
 msgstr ""
 
