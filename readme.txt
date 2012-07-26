@@ -10,7 +10,7 @@ This WordPress plugin extends the Gravity Forms plugin with the Dutch translatio
 
 == Description ==
 
-<strong>Gravity Forms</strong> 1.6.4.5 | 
+<strong>Gravity Forms</strong> 1.6.5 | 
 <strong>User Registration Add-On</strong> 1.4 | 
 <strong>Campaign Monitor Add-On</strong> 2.0 | 
 <strong>MailChimp Add-On</strong> 1.7 | 
@@ -33,6 +33,9 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 
 == Changelog ==
+
+= 2.6.6 =
+*	Updated to Gravity Forms version 1.6.5, added 3 translations and improved a few
 
 = 2.6.5 =
 *	Updated to Gravity Forms Signature Add-On version 1.0
