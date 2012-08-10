@@ -135,6 +135,15 @@ class GravityFormsNL {
 
 			$moFile = self::getMoFile('gravityformssignature', $version);
 		}
+		
+		// Polls Add-On
+		$is_polls_addon = ($domain == 'gravityformspolls');
+		if ( self::$isDutch && $is_polls_addon ) {
+			// Unfortunately the static var GFPolls::$version is private
+			$version = 'cpr'; // there is no way to retrieve to version
+
+			$moFile = self::getMoFile('gravityformspolls', $version);
+		}
 
 		return $moFile;
 	}
