@@ -38,14 +38,14 @@ class GravityFormsNL {
 	 */
 	public static function bootstrap() {
 		// Priority is set to 8, beceasu the Signature Add-On is using priority 9
-		add_action( 'init', array( __CLASS__, 'init' ), 8 );
+		add_action( 'init',                   array( __CLASS__, 'init' ), 8 );
 
 		add_filter( 'load_textdomain_mofile', array( __CLASS__, 'load_textdomain_mofile' ), 10, 2 );
 
 		add_filter( 'gform_admin_pre_render', array( __CLASS__, 'gform_admin_pre_render' ) );
-		add_filter( 'gform_currencies', array( __CLASS__, 'gform_currencies' ) );
+		add_filter( 'gform_currencies',       array( __CLASS__, 'gform_currencies' ) );
 
-		add_action( 'wp_print_scripts', array( __CLASS__, 'wp_print_scripts' ) );
+		add_action( 'wp_print_scripts',       array( __CLASS__, 'wp_print_scripts' ) );
 	}
 
 	////////////////////////////////////////////////////////////
@@ -196,10 +196,10 @@ class GravityFormsNL {
 		wp_register_script( 'gravityforms-nl-forms', plugins_url( 'js/forms-nl.js', __FILE__ ) );
 
 		wp_localize_script( 'gravityforms-nl-forms', 'gravityFormsNlL10n', array(
-			'formTitle' => __( 'Untitled Form', 'gravityforms_nl' ) , 
-			'formDescription' => __( 'We would love to hear from you! Please fill out this form and we will get in touch with you shortly.', 'gravityforms_nl' ) ,  
+			'formTitle'           => __( 'Untitled Form', 'gravityforms_nl' ) , 
+			'formDescription'     => __( 'We would love to hear from you! Please fill out this form and we will get in touch with you shortly.', 'gravityforms_nl' ) ,  
 			'confirmationMessage' => __( 'Thanks for contacting us! We will get in touch with you shortly.', 'gravityforms_nl' ) , 
-			'buttonText' => __( 'Submit', 'gravityforms_nl' )
+			'buttonText'          => __( 'Submit', 'gravityforms_nl' )
 		));
 
 		wp_print_scripts( array( 'gravityforms-nl-forms' ) );
@@ -216,13 +216,13 @@ class GravityFormsNL {
 	 */
 	public static function gform_currencies( $currencies ) {
 		$currencies['EUR'] = array(
-			'name' => __( 'Euro', 'gravityforms_nl' ) ,  
-			'symbol_left' => '€' , 
-			'symbol_right' => '' ,  
-			'symbol_padding' => ' ' , 
+			'name'               => __( 'Euro', 'gravityforms_nl' ) ,  
+			'symbol_left'        => '€' , 
+			'symbol_right'       => '' ,  
+			'symbol_padding'     => ' ' , 
 			'thousand_separator' => '.' , 
-			'decimal_separator' => ',' , 
-			'decimals' => 2
+			'decimal_separator'  => ',' , 
+			'decimals'           => 2
 		);
 
 		return $currencies; 
