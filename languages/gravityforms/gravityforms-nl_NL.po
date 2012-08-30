@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Gravity Forms\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-26 09:27+0100\n"
-"PO-Revision-Date: 2012-07-26 09:27+0100\n"
+"POT-Creation-Date: 2012-08-30 20:01+0100\n"
+"PO-Revision-Date: 2012-08-30 20:01+0100\n"
 "Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "MIME-Version: 1.0\n"
@@ -3632,27 +3632,6 @@ msgstr ""
 msgid "User Agent"
 msgstr "Inloggen"
 
-#: forms_model.php:406
-#: forms_model.php:724
-msgid "You don't have adequate permission to delete entries."
-msgstr ""
-
-#: forms_model.php:460
-msgid "You don't have adequate permission to delete forms."
-msgstr ""
-
-#: forms_model.php:488
-msgid "You don't have adequate permission to create forms."
-msgstr ""
-
-#: forms_model.php:773
-msgid "You don't have adequate permission to delete notes."
-msgstr ""
-
-#: forms_model.php:802
-msgid "You don't have adequate permission to edit entries."
-msgstr ""
-
 #: form_detail.php:67
 #: form_detail.php:1656
 msgid "Save"
@@ -5826,6 +5805,27 @@ msgstr ""
 #: form_list.php:269
 #, php-format
 msgid "You don't have any forms. Let's go %screate one%s!"
+msgstr ""
+
+#: forms_model.php:406
+#: forms_model.php:724
+msgid "You don't have adequate permission to delete entries."
+msgstr ""
+
+#: forms_model.php:460
+msgid "You don't have adequate permission to delete forms."
+msgstr ""
+
+#: forms_model.php:488
+msgid "You don't have adequate permission to create forms."
+msgstr ""
+
+#: forms_model.php:773
+msgid "You don't have adequate permission to delete notes."
+msgstr ""
+
+#: forms_model.php:802
+msgid "You don't have adequate permission to edit entries."
 msgstr ""
 
 #: gravityforms.php:764
