@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Gravity Forms Signature Add-On\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-19 08:28+0100\n"
-"PO-Revision-Date: 2012-09-19 08:28+0100\n"
+"POT-Creation-Date: 2012-09-19 08:50+0100\n"
+"PO-Revision-Date: 2012-09-19 08:50+0100\n"
 "Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "Language: nl_NL\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: Poedit 1.5.3\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: plugin-upgrade.php:53 signature.php:206
+#: plugin-upgrade.php:53 signature.php:246
 #, php-format
 msgid "View version %s Details"
 msgstr ""
@@ -28,130 +28,124 @@ msgstr ""
 msgid "Oops!! Something went wrong.%sPlease try again or %scontact us%s."
 msgstr ""
 
-#: signature.php:140 signature.php:149 signature.php:520
+#: signature.php:180 signature.php:189 signature.php:560
 msgid "Signature"
 msgstr ""
 
-#: signature.php:199
+#: signature.php:239
 msgid "Gravity Forms "
 msgstr ""
 
-#: signature.php:206
+#: signature.php:246
 msgid "There is a new version of Gravity Forms Signature Add-On available."
 msgstr ""
 
-#: signature.php:207
+#: signature.php:247
 #, php-format
 msgid ""
 "%sRegister%s your copy of Gravity Forms to receive access to automatic "
 "upgrades and support. Need a license key? %sPurchase one now%s."
 msgstr ""
 
-#: signature.php:254 signature.php:288
+#: signature.php:294 signature.php:328
 msgid "Background Color"
 msgstr ""
 
-#: signature.php:254
+#: signature.php:294
 msgid "Select the color to be used for the background of the signature area"
 msgstr ""
 
-#: signature.php:255 signature.php:295
+#: signature.php:295 signature.php:335
 msgid "Border Color"
 msgstr ""
 
-#: signature.php:255
+#: signature.php:295
 msgid "Select the color to be used for the border around the signature area"
 msgstr ""
 
-#: signature.php:256 signature.php:331
+#: signature.php:296 signature.php:371
 msgid "Pen Color"
 msgstr ""
 
-#: signature.php:256
+#: signature.php:296
 msgid "Select the color of the pen to be used for the signature"
 msgstr ""
 
-#: signature.php:257
+#: signature.php:297
 msgid "Width"
-msgstr "Breedte"
+msgstr ""
 
-#: signature.php:257
+#: signature.php:297
 msgid "Enter the width for the signature area in pixels."
 msgstr ""
 
-#: signature.php:258 signature.php:314
+#: signature.php:298 signature.php:354
 msgid "Border Style"
 msgstr ""
 
-#: signature.php:258
+#: signature.php:298
 msgid "Select the border style to be used around the signature area"
 msgstr ""
 
-#: signature.php:259 signature.php:338
+#: signature.php:299 signature.php:378
 msgid "Pen Size"
 msgstr ""
 
-#: signature.php:259
+#: signature.php:299
 msgid "Select the width of the pen to be used for the signature"
 msgstr ""
 
-#: signature.php:260 signature.php:302
+#: signature.php:300 signature.php:342
 msgid "Border Width"
 msgstr ""
 
-#: signature.php:260
+#: signature.php:300
 msgid "Select the border width to be used around the signature area"
 msgstr ""
 
-#: signature.php:261
+#: signature.php:301
 msgid "Message"
 msgstr ""
 
-#: signature.php:261
+#: signature.php:301
 msgid ""
 "Write the message you would like to be sent. You can insert fields submitted "
 "by the user by selecting them from the 'Insert Variable' drop down."
 msgstr ""
 
-#: signature.php:272
+#: signature.php:312
 msgid "Field Width"
 msgstr ""
 
-#: signature.php:468 signature.php:487
+#: signature.php:508 signature.php:527
 msgid "Click to view"
 msgstr ""
 
-#: signature.php:561
+#: signature.php:615
 msgid "Download file"
 msgstr ""
 
-#: signature.php:562
-#, fuzzy
+#: signature.php:616
 msgid "Delete file"
-msgstr "Verwijder bericht"
+msgstr ""
 
-#: signature.php:588
+#: signature.php:619
 msgid "sign again"
 msgstr ""
 
-#: signature.php:633
+#: signature.php:665
 msgid ""
 "'Would you like to delete this file? \\'Cancel\\' to stop. \\'OK\\' to "
 "delete'"
 msgstr ""
 
-#: signature.php:645
-msgid "This signature has been deleted."
-msgstr ""
-
-#: signature.php:663
+#: signature.php:696
 msgid "Please enter your signature."
 msgstr ""
 
-#: signature.php:742
-#, fuzzy
+#: signature.php:775
 msgid "There was an issue deleting this signature."
-msgstr "Er zijn geen berichten in deze categorie."
+msgstr ""
 
 #, fuzzy
 #~ msgid "Form Title"
