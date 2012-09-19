@@ -15,7 +15,7 @@ This WordPress plugin extends the Gravity Forms plugin with the Dutch translatio
 <strong>Campaign Monitor Add-On</strong> 2.0 | 
 <strong>MailChimp Add-On</strong> 1.7 | 
 <strong>PayPal Add-On</strong> 1.5 | 
-<strong>Signature Add-On</strong> 1.0 | 
+<strong>Signature Add-On</strong> 1.1 | 
 <strong>Polls Add-On</strong> 1.0.beta1
 
 > This plugin requires the <a href="http://www.gravityforms.com/">Gravity Forms plugin</a>. <strong>Don't use Gravity Forms? <a href="http://www.gravityforms.com/">Buy the plugin</a></strong> and start using this revolutionary plugin!
@@ -34,6 +34,9 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 
 == Changelog ==
+
+= 2.6.10 =
+*	Updated to Gravity Forms Signature Add-On version 1.1
 
 = 2.6.9 =
 *	Updated to Gravity Forms version 1.6.7, removed 1 translation and improved a few
