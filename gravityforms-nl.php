@@ -14,6 +14,8 @@ Text Domain: gravityforms_nl
 Domain Path: /languages/
 
 License: GPL
+
+GitHub URI: https://github.com/pronamic/wp-gravityforms-nl
 */
 
 class GravityFormsNL {
