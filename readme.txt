@@ -37,6 +37,7 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 = 2.6.13 =
 *	Updated to Gravity Forms version 1.6.9, improved a few translations
+*	Removed translations of different versions, saving almost 10 MB
 
 = 2.6.12 =
 *	Added translations for Gravity Forms version 1.6.8.1
