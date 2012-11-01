@@ -83,69 +83,18 @@ class GravityFormsNL {
 	 */
 	public static function load_textdomain_mofile( $mo_file, $domain ) {
 		if ( self::$is_dutch ) {
-			// Gravity Forms
-			$is_gravity_forms = ( $domain == 'gravityforms' );
-			if ( $is_gravity_forms ) {
-				$version = null;
-				if ( class_exists( 'GFCommon' ) ) {
-					$version = GFCommon::$version;
-				}
-	
-				$mo_file = self::get_mo_file( 'gravityforms', $version );
-			}
-	
-			// User Registration Add-On
-			$is_user_registration_addon = ( $domain == 'gravityformsuserregistration' || $domain == 'gravityforms_user_registration' );
-			if ( $is_user_registration_addon ) {
-				// Unfortunately the static var GFUser::$version is private
-				$version = get_option( 'gf_user_registration_version' );
-	
-				$mo_file = self::get_mo_file( 'gravityformsuserregistration', $version );
-			}
-	
-			// Campaign Monitor Add-On
-			$is_campaign_monitor_addon = ( $domain == 'gravityformscampaignmonitor' );
-			if ( $is_campaign_monitor_addon ) {
-				// Unfortunately the static var GFCampaignMonitor::$version is private
-				$version = get_option( 'gf_campaignmonitor_version' );
-	
-				$mo_file = self::get_mo_file( 'gravityformscampaignmonitor', $version );
-			}
-	
-			// MailChimp Add-On
-			$is_mailchimp_addon = ( $domain == 'gravityformsmailchimp' );
-			if ( $is_mailchimp_addon ) {
-				// Unfortunately the static var GFMailChimp::$version is private
-				$version = get_option( 'gf_mailchimp_version' );
-	
-				$mo_file = self::get_mo_file( 'gravityformsmailchimp', $version );
-			}
-	
-			// PayPal Add-On
-			$is_paypal_addon = ( $domain == 'gravityformspaypal' );
-			if ( $is_paypal_addon ) {
-				// Unfortunately the static var GFPayPal::$version is private
-				$version = get_option( 'gf_paypal_version' );
-	
-				$mo_file = self::get_mo_file( 'gravityformspaypal', $version );
-			}
+			$domains = array(
+				'gravityforms',
+				'gravityformscampaignmonitor',
+				'gravityformsmailchimp',
+				'gravityformspaypal',
+				'gravityformspolls',
+				'gravityformssignature',
+				'gravityformsuserregistration'
+			);
 			
-			// Signature Add-On
-			$is_signature_addon = ( $domain == 'gravityformssignature' );
-			if ( $is_signature_addon ) {
-				// Unfortunately the static var GFSignature::$version is private
-				$version = get_option( 'gf_signature_version' );
-	
-				$mo_file = self::get_mo_file( 'gravityformssignature', $version );
-			}
-			
-			// Polls Add-On
-			$is_polls_addon = ( $domain == 'gravityformspolls' );
-			if ( $is_polls_addon ) {
-				// Unfortunately the static var GFPolls::$version is private
-				$version = 'cpr'; // there is no way to retrieve the version
-	
-				$mo_file = self::get_mo_file( 'gravityformspolls', $version );
+			if ( in_array( $domain, $domains ) ) {
+				$mo_file = self::get_mo_file( $domain );
 			}
 		}
 
@@ -158,10 +107,9 @@ class GravityFormsNL {
 	 * Get the MO file for the specified domain, version and language
 	 * 
 	 * @param string $domain
-	 * @param string $version
 	 * @return string
 	 */
-	private static function get_mo_file( $domain, $version ) {
+	private static function get_mo_file( $domain ) {
 		$dir = dirname( __FILE__ );
 
 		$mo_file = $dir . '/languages/' . $domain . '/' . self::$language . '.mo';
