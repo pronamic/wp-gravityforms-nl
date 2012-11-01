@@ -164,12 +164,7 @@ class GravityFormsNL {
 	private static function get_mo_file( $domain, $version ) {
 		$dir = dirname( __FILE__ );
 
-		$mo_file = $dir . '/languages/' . $domain . '/' . $version . '/' . self::$language . '.mo';
-
-		// if specific version MO file is not available point to the current public release (cpr) version 
-		if ( ! is_readable( $mo_file ) ) {
-			$mo_file = $dir . '/languages/' . $domain . '/cpr/' . self::$language . '.mo';
-		}
+		$mo_file = $dir . '/languages/' . $domain . '/' . self::$language . '.mo';
 
 		return $mo_file;
 	}
