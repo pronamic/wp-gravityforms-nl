@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Gravity Forms\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-05 10:34+0100\n"
-"PO-Revision-Date: 2012-10-05 10:34+0100\n"
+"POT-Creation-Date: 2012-12-05 10:56+0100\n"
+"PO-Revision-Date: 2012-12-05 10:57+0100\n"
 "Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "Language: nl_NL\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-Poedit-Basepath: ../\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 1.5.3\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: common.php:194
@@ -95,7 +95,7 @@ msgstr ""
 msgid "Insert Merge Tag"
 msgstr ""
 
-#: common.php:235 js.php:915
+#: common.php:235 js.php:916
 msgid "All Submitted Fields"
 msgstr ""
 
@@ -116,7 +116,7 @@ msgstr ""
 msgid "All Pricing Fields"
 msgstr ""
 
-#: common.php:332 common.php:4208 form_detail.php:1609 form_detail.php:1611
+#: common.php:332 common.php:4210 form_detail.php:1609 form_detail.php:1611
 #, fuzzy
 msgid "Other"
 msgstr "meter"
@@ -126,8 +126,8 @@ msgid "Client IP Address"
 msgstr ""
 
 #: common.php:334 common.php:335 common.php:1763 form_detail.php:1003
-#: form_detail.php:1842 form_detail.php:2476 form_detail.php:2477 js.php:498
-#: js.php:915
+#: form_detail.php:1842 form_detail.php:2476 form_detail.php:2477 js.php:499
+#: js.php:916
 #, fuzzy
 msgid "Date"
 msgstr "datum"
@@ -144,7 +144,7 @@ msgstr ""
 msgid "Embed URL"
 msgstr ""
 
-#: common.php:339 entry_detail.php:287 export.php:610 select_columns.php:83
+#: common.php:339 entry_detail.php:287 export.php:615 select_columns.php:85
 msgid "Entry Id"
 msgstr ""
 
@@ -157,7 +157,7 @@ msgstr ""
 msgid "Form Id"
 msgstr "Formulier"
 
-#: common.php:342 js.php:915 tooltips.php:34
+#: common.php:342 js.php:916 tooltips.php:34
 #, fuzzy
 msgid "Form Title"
 msgstr "Titel"
@@ -166,7 +166,7 @@ msgstr "Titel"
 msgid "HTTP User Agent"
 msgstr ""
 
-#: common.php:346 export.php:617
+#: common.php:346 export.php:622
 #, fuzzy
 msgid "Post Id"
 msgstr "Berichten"
@@ -205,7 +205,7 @@ msgid "Order"
 msgstr "Beoordeling"
 
 #: common.php:997 common.php:1807 entry_detail.php:839 gravityforms.php:1056
-#: js.php:597
+#: js.php:598
 #, fuzzy
 msgid "Total"
 msgstr "Portaal"
@@ -224,7 +224,7 @@ msgid "Unit Price"
 msgstr ""
 
 #: common.php:1017 common.php:2405 entry_detail.php:779 form_detail.php:828
-#: form_detail.php:1588 js.php:574 js.php:633
+#: form_detail.php:1588 js.php:575 js.php:634
 #, fuzzy
 msgid "Price"
 msgstr "Artikelen"
@@ -275,7 +275,7 @@ msgstr ""
 msgid "Multi Select"
 msgstr ""
 
-#: common.php:1747 form_detail.php:881 form_detail.php:997 js.php:483
+#: common.php:1747 form_detail.php:881 form_detail.php:997 js.php:484
 #, fuzzy
 msgid "Number"
 msgstr "Aantal slaapplaatsen"
@@ -300,42 +300,42 @@ msgstr ""
 msgid "HTML"
 msgstr ""
 
-#: common.php:1757 js.php:371
+#: common.php:1757 js.php:372
 #, fuzzy
 msgid "Section Break"
 msgstr "Sectie 1"
 
-#: common.php:1759 form_display.php:2210
+#: common.php:1759 form_display.php:2217
 msgid "Page Break"
 msgstr ""
 
-#: common.php:1761 js.php:402 js.php:574
+#: common.php:1761 js.php:403 js.php:575
 msgid "Name"
 msgstr "Naam"
 
-#: common.php:1765 form_detail.php:1004 js.php:503
+#: common.php:1765 form_detail.php:1004 js.php:504
 #, fuzzy
 msgid "Time"
 msgstr "Titel"
 
-#: common.php:1767 form_detail.php:1005 js.php:492
+#: common.php:1767 form_detail.php:1005 js.php:493
 msgid "Phone"
 msgstr ""
 
-#: common.php:1769 js.php:457
+#: common.php:1769 js.php:458
 msgid "Address"
 msgstr "Adres"
 
-#: common.php:1771 form_detail.php:1006 js.php:508
+#: common.php:1771 form_detail.php:1006 js.php:509
 msgid "Website"
 msgstr "Website"
 
-#: common.php:1773 form_detail.php:1007 js.php:476 notification.php:404
+#: common.php:1773 form_detail.php:1007 js.php:477 notification.php:404
 #, fuzzy
 msgid "Email"
 msgstr "E-mailadres"
 
-#: common.php:1775 js.php:514
+#: common.php:1775 js.php:515
 msgid "Password"
 msgstr "Wachtwoord"
 
@@ -347,16 +347,16 @@ msgstr ""
 msgid "CAPTCHA"
 msgstr ""
 
-#: common.php:1781 form_detail.php:1009 js.php:394
+#: common.php:1781 form_detail.php:1009 js.php:395
 #, fuzzy
 msgid "List"
 msgstr "Achternaam"
 
-#: common.php:1783 js.php:464
+#: common.php:1783 js.php:465
 msgid "Credit Card"
 msgstr ""
 
-#: common.php:1785 common.php:2668 common.php:3762 form_detail.php:292
+#: common.php:1785 common.php:2668 common.php:3764 form_detail.php:292
 #: form_detail.php:1326 form_list.php:170 form_list.php:188
 #: gravityforms.php:1054 widget.php:66
 msgid "Title"
@@ -389,16 +389,16 @@ msgstr ""
 msgid "Custom Field"
 msgstr ""
 
-#: common.php:1801 js.php:574 js.php:644
+#: common.php:1801 js.php:575 js.php:645
 msgid "Quantity"
 msgstr ""
 
-#: common.php:1803 js.php:603
+#: common.php:1803 js.php:604
 #, fuzzy
 msgid "Option"
 msgstr "Acties"
 
-#: common.php:1805 js.php:586
+#: common.php:1805 js.php:587
 #, fuzzy
 msgid "Shipping"
 msgstr "Schepen in"
@@ -1199,7 +1199,7 @@ msgstr ""
 msgid "United Kingdom"
 msgstr ""
 
-#: common.php:1892 common.php:3560
+#: common.php:1892 common.php:3562
 msgid "United States"
 msgstr ""
 
@@ -2399,7 +2399,7 @@ msgstr "Gebruikersnaam of e-mailadres:"
 msgid "Confirm Email"
 msgstr ""
 
-#: common.php:2571 js.php:906
+#: common.php:2571 js.php:907
 msgid "Phone format:"
 msgstr ""
 
@@ -2408,17 +2408,17 @@ msgstr ""
 msgid "delete"
 msgstr "wijzig / verwijder"
 
-#: common.php:2662 js.php:519
+#: common.php:2662 js.php:520
 #, fuzzy
 msgid "File"
 msgstr "Dossiers"
 
-#: common.php:2671 common.php:3763 form_detail.php:1331
+#: common.php:2671 common.php:3765 form_detail.php:1331
 #, fuzzy
 msgid "Caption"
 msgstr "Reactie"
 
-#: common.php:2674 common.php:3764 form_detail.php:300 form_detail.php:1336
+#: common.php:2674 common.php:3766 form_detail.php:300 form_detail.php:1336
 #: form_detail.php:1755
 #, fuzzy
 msgid "Description"
@@ -2428,7 +2428,7 @@ msgstr "Projectgegevens"
 msgid "Click to select..."
 msgstr ""
 
-#: common.php:2723 form_display.php:1913
+#: common.php:2723 form_display.php:1920
 msgid "Strength indicator"
 msgstr ""
 
@@ -2442,49 +2442,49 @@ msgstr "Nieuw wachtwoord"
 msgid "Confirm Password"
 msgstr "Wachtwoord"
 
-#: common.php:2750 js.php:408
+#: common.php:2750 js.php:409
 #, fuzzy
 msgid "Prefix"
 msgstr "Premium"
 
-#: common.php:2750 common.php:2759 js.php:408 js.php:414
+#: common.php:2750 common.php:2759 js.php:409 js.php:415
 #, fuzzy
 msgid "First"
 msgstr "Voornaam"
 
-#: common.php:2750 common.php:2759 js.php:408 js.php:414
+#: common.php:2750 common.php:2759 js.php:409 js.php:415
 #, fuzzy
 msgid "Last"
 msgstr "Achternaam"
 
-#: common.php:2750 js.php:408
+#: common.php:2750 js.php:409
 msgid "Suffix"
 msgstr ""
 
-#: common.php:2783 common.php:3560 form_detail.php:1373
+#: common.php:2783 common.php:3562 form_detail.php:1373
 #, fuzzy
 msgid "State"
 msgstr "Status"
 
-#: common.php:2784 common.php:3560
+#: common.php:2784 common.php:3562
 msgid "Zip Code"
 msgstr ""
 
-#: common.php:2804 js.php:458
+#: common.php:2804 js.php:459
 #, fuzzy
 msgid "Street Address"
 msgstr "Adres"
 
-#: common.php:2811 js.php:458
+#: common.php:2811 js.php:459
 #, fuzzy
 msgid "Address Line 2"
 msgstr "Adres"
 
-#: common.php:2821 common.php:2837 js.php:458
+#: common.php:2821 common.php:2837 js.php:459
 msgid "City"
 msgstr "Plaats"
 
-#: common.php:2858 js.php:459
+#: common.php:2858 js.php:460
 msgid "Country"
 msgstr "Land"
 
@@ -2536,17 +2536,17 @@ msgstr ""
 msgid "Enter your reCAPTCHA keys in the %ssettings page%s"
 msgstr ""
 
-#: common.php:3138 js.php:466
+#: common.php:3138 js.php:467
 #, fuzzy
 msgid "Card Number"
 msgstr "Aantal slaapplaatsen"
 
-#: common.php:3157 js.php:467
+#: common.php:3157 js.php:468
 #, fuzzy
 msgid "Expiration Date"
 msgstr "Oefenwedstrijd"
 
-#: common.php:3167 js.php:468
+#: common.php:3167 js.php:469
 msgid "Security Code"
 msgstr ""
 
@@ -2564,40 +2564,40 @@ msgstr "Nieuwe toevoegen"
 msgid "Remove this row"
 msgstr ""
 
-#: common.php:3559 form_detail.php:1574
+#: common.php:3561 form_detail.php:1574
 msgid "International"
 msgstr ""
 
-#: common.php:3559 js.php:459
+#: common.php:3561 js.php:460
 msgid "Zip / Postal Code"
 msgstr ""
 
-#: common.php:3559
+#: common.php:3561
 msgid "State / Province / Region"
 msgstr ""
 
-#: common.php:3561
+#: common.php:3563
 msgid "Canadian"
 msgstr ""
 
-#: common.php:3561 form_detail.php:1377
+#: common.php:3563 form_detail.php:1377
 #, fuzzy
 msgid "Postal Code"
 msgstr "Plaats reactie"
 
-#: common.php:3561
+#: common.php:3563
 msgid "Province"
 msgstr ""
 
-#: common.php:3768 common.php:3783 entry_list.php:890 entry_list.php:900
+#: common.php:3770 common.php:3785 entry_list.php:890 entry_list.php:900
 msgid "Click to view"
 msgstr ""
 
-#: common.php:3819
+#: common.php:3821
 msgid "Qty: "
 msgstr ""
 
-#: common.php:3819
+#: common.php:3821
 msgid "Price: "
 msgstr ""
 
@@ -2727,11 +2727,11 @@ msgstr ""
 msgid "Submitted on"
 msgstr ""
 
-#: entry_detail.php:290 export.php:619 select_columns.php:85
+#: entry_detail.php:290 export.php:624 select_columns.php:87
 msgid "User IP"
 msgstr ""
 
-#: entry_detail.php:295 select_columns.php:91
+#: entry_detail.php:295 select_columns.php:93
 #, fuzzy
 msgid "User"
 msgstr "Gebruikersnaam"
@@ -2754,7 +2754,7 @@ msgstr "Project bewerken"
 msgid "Click to edit post"
 msgstr ""
 
-#: entry_detail.php:313 export.php:616 select_columns.php:87
+#: entry_detail.php:313 export.php:621 select_columns.php:89
 #, fuzzy
 msgid "Payment Status"
 msgstr "Status"
@@ -2763,7 +2763,7 @@ msgstr "Status"
 msgid "Subscription Status"
 msgstr ""
 
-#: entry_detail.php:317 export.php:615 select_columns.php:90
+#: entry_detail.php:317 export.php:620 select_columns.php:92
 #, fuzzy
 msgid "Payment Date"
 msgstr "Speeldatum"
@@ -2773,7 +2773,7 @@ msgstr "Speeldatum"
 msgid "Start Date"
 msgstr "Begindatum:"
 
-#: entry_detail.php:323 export.php:613 select_columns.php:88
+#: entry_detail.php:323 export.php:618 select_columns.php:90
 msgid "Transaction Id"
 msgstr ""
 
@@ -2782,7 +2782,7 @@ msgstr ""
 msgid "Subscriber Id"
 msgstr "Abonneenummer"
 
-#: entry_detail.php:329 export.php:614 select_columns.php:89
+#: entry_detail.php:329 export.php:619 select_columns.php:91
 #, fuzzy
 msgid "Payment Amount"
 msgstr "Pagina niet gevonden"
@@ -2791,8 +2791,8 @@ msgstr "Pagina niet gevonden"
 msgid "Subscription Amount"
 msgstr ""
 
-#: entry_detail.php:344 entry_list.php:623 entry_list.php:1002
-#: entry_list.php:1138
+#: entry_detail.php:344 entry_list.php:623 entry_list.php:1001
+#: entry_list.php:1137
 msgid "Not Spam"
 msgstr ""
 
@@ -2802,14 +2802,14 @@ msgid ""
 msgstr ""
 
 #: entry_detail.php:350 entry_detail.php:363 entry_list.php:617
-#: entry_list.php:627 entry_list.php:986 entry_list.php:1012
-#: entry_list.php:1132 entry_list.php:1142
+#: entry_list.php:627 entry_list.php:985 entry_list.php:1011
+#: entry_list.php:1131 entry_list.php:1141
 #, fuzzy
 msgid "Delete Permanently"
 msgstr "Verwijder bericht"
 
-#: entry_detail.php:358 entry_list.php:613 entry_list.php:976
-#: entry_list.php:1128
+#: entry_detail.php:358 entry_list.php:613 entry_list.php:975
+#: entry_list.php:1127
 #, fuzzy
 msgid "Restore"
 msgstr "Gerelateerd"
@@ -2825,7 +2825,7 @@ msgstr "Meest gelezen"
 
 #: entry_detail.php:394 entry_list.php:761 entry_list.php:784
 #: form_detail.php:273 form_detail.php:574 form_detail.php:699
-#: form_display.php:2189 form_list.php:216 form_list.php:222 js.php:136
+#: form_display.php:2196 form_list.php:216 form_list.php:222 js.php:136
 msgid "Edit"
 msgstr "Bewerken"
 
@@ -2835,7 +2835,7 @@ msgid "Update"
 msgstr "Update classificatie"
 
 #: entry_detail.php:399 form_detail.php:1657 gravityforms.php:963
-#: select_columns.php:144
+#: select_columns.php:147
 msgid "Cancel"
 msgstr ""
 
@@ -2861,7 +2861,7 @@ msgid "Send To"
 msgstr "Gebruikersnaam of e-mailadres:"
 
 #: entry_detail.php:435 entry_list.php:324 entry_list.php:638
-#: entry_list.php:691 entry_list.php:1153
+#: entry_list.php:691 entry_list.php:1152
 #, fuzzy
 msgid "Resend Notifications"
 msgstr "Geen secties"
@@ -2871,7 +2871,7 @@ msgid "Resending..."
 msgstr ""
 
 #: entry_detail.php:448 entry_list.php:639 entry_list.php:725
-#: entry_list.php:1154
+#: entry_list.php:1153
 #, fuzzy
 msgid "Print"
 msgstr "Artikelen"
@@ -2899,17 +2899,17 @@ msgstr "Details"
 msgid " Bulk action"
 msgstr "Reactie"
 
-#: entry_detail.php:575 entry_list.php:608 entry_list.php:1123
+#: entry_detail.php:575 entry_list.php:608 entry_list.php:1122
 msgid " Bulk action "
 msgstr ""
 
-#: entry_detail.php:576 form_detail.php:1658 form_display.php:2186
+#: entry_detail.php:576 form_detail.php:1658 form_display.php:2193
 #: form_list.php:141 form_list.php:234 form_list.php:284
 #, fuzzy
 msgid "Delete"
 msgstr "Verwijder bericht"
 
-#: entry_detail.php:579 entry_list.php:656 entry_list.php:1170
+#: entry_detail.php:579 entry_list.php:656 entry_list.php:1169
 #: form_list.php:146 form_list.php:289
 msgid "Apply"
 msgstr ""
@@ -3053,7 +3053,7 @@ msgstr "Interviews"
 msgid "Entries"
 msgstr "Interviews"
 
-#: entry_list.php:586 form_list.php:127 js.php:825
+#: entry_list.php:586 form_list.php:127 js.php:826
 msgid "All"
 msgstr "Alles"
 
@@ -3066,13 +3066,13 @@ msgstr ""
 msgid "Starred"
 msgstr "Straat"
 
-#: entry_list.php:592 entry_list.php:644 entry_list.php:1035
-#: entry_list.php:1158
+#: entry_list.php:592 entry_list.php:644 entry_list.php:1034
+#: entry_list.php:1157
 msgid "Spam"
 msgstr ""
 
-#: entry_list.php:596 entry_list.php:650 entry_list.php:1045
-#: entry_list.php:1164
+#: entry_list.php:596 entry_list.php:650 entry_list.php:1044
+#: entry_list.php:1163
 #, fuzzy
 msgid "Trash"
 msgstr "Pagina's: %s"
@@ -3086,26 +3086,26 @@ msgstr "Zoek evenementen"
 msgid "Search"
 msgstr "Zoeken"
 
-#: entry_list.php:606 entry_list.php:1121 form_list.php:138 form_list.php:140
+#: entry_list.php:606 entry_list.php:1120 form_list.php:138 form_list.php:140
 #: form_list.php:281 form_list.php:283
 #, fuzzy
 msgid "Bulk action"
 msgstr "Reactie"
 
-#: entry_list.php:634 entry_list.php:1149
+#: entry_list.php:634 entry_list.php:1148
 msgid "Mark as Read"
 msgstr ""
 
-#: entry_list.php:635 entry_list.php:1150
+#: entry_list.php:635 entry_list.php:1149
 #, fuzzy
 msgid "Mark as Unread"
 msgstr "Meest gelezen"
 
-#: entry_list.php:636 entry_list.php:1151
+#: entry_list.php:636 entry_list.php:1150
 msgid "Add Star"
 msgstr ""
 
-#: entry_list.php:637 entry_list.php:1152
+#: entry_list.php:637 entry_list.php:1151
 msgid "Remove Star"
 msgstr ""
 
@@ -3157,131 +3157,135 @@ msgstr ""
 msgid "Select Columns"
 msgstr "Rubrieken"
 
-#: entry_list.php:971 entry_list.php:997 entry_list.php:1024
+#: entry_list.php:970 entry_list.php:996 entry_list.php:1023
 #, fuzzy
 msgid "View this entry"
 msgstr "Bekijk evenement"
 
-#: entry_list.php:971 entry_list.php:997 entry_list.php:1024
+#: entry_list.php:970 entry_list.php:996 entry_list.php:1023
 #, fuzzy
 msgid "View"
 msgstr "Bekijk schip"
 
-#: entry_list.php:976
+#: entry_list.php:975
 #, fuzzy
 msgid "Restore this entry"
 msgstr "Verwijder bericht"
 
-#: entry_list.php:986 entry_list.php:1012
+#: entry_list.php:985 entry_list.php:1011
 #, fuzzy
 msgid "Delete this entry permanently"
 msgstr "Verwijder bericht"
 
-#: entry_list.php:1002
+#: entry_list.php:1001
 msgid "Mark this entry as not spam"
 msgstr ""
 
-#: entry_list.php:1028
+#: entry_list.php:1027
 #, fuzzy
 msgid "Mark read"
 msgstr "Meest gelezen"
 
-#: entry_list.php:1028
+#: entry_list.php:1027
 msgid "Mark this entry as unread"
 msgstr ""
 
-#: entry_list.php:1028
+#: entry_list.php:1027
 #, fuzzy
 msgid "Mark unread"
 msgstr "Meest gelezen"
 
-#: entry_list.php:1035
+#: entry_list.php:1034
 msgid "Mark this entry as spam"
 msgstr ""
 
-#: entry_list.php:1045
+#: entry_list.php:1044
 msgid "Move this entry to the trash"
 msgstr ""
 
-#: entry_list.php:1085
+#: entry_list.php:1084
 msgid "This form does not have any unread entries."
 msgstr ""
 
-#: entry_list.php:1089
+#: entry_list.php:1088
 msgid "This form does not have any starred entries."
 msgstr ""
 
-#: entry_list.php:1093
+#: entry_list.php:1092
 msgid "This form does not have any spam."
 msgstr ""
 
-#: entry_list.php:1098
+#: entry_list.php:1097
 msgid "This form does not have any entries in the trash."
 msgstr ""
 
-#: entry_list.php:1103
+#: entry_list.php:1102
 msgid "This form does not have any entries yet."
 msgstr ""
 
-#: entry_list.php:1316
+#: entry_list.php:1315
 #, php-format
 msgid "Displaying %s - %s of %s"
 msgstr ""
 
-#: export.php:26
+#: export.php:11
+msgid "Please select the fields to be exported"
+msgstr ""
+
+#: export.php:31
 msgid "Please select the forms to be exported"
 msgstr ""
 
-#: export.php:183
+#: export.php:188
 msgid "Export Entries"
 msgstr ""
 
-#: export.php:184 export.php:307
+#: export.php:189 export.php:313
 msgid "Export Forms"
 msgstr ""
 
-#: export.php:185 export.php:272
+#: export.php:190 export.php:278
 #, fuzzy
 msgid "Import Forms"
 msgstr "Importeer informatie"
 
-#: export.php:250
+#: export.php:256
 msgid ""
 "Forms could not be imported. Please make sure your XML export file is in the "
 "correct format."
 msgstr ""
 
-#: export.php:255
+#: export.php:261
 msgid ""
 "Forms could not be imported. Your XML export file is not compatible with "
 "your current version of Gravity Forms."
 msgstr ""
 
-#: export.php:260
+#: export.php:266
 #, fuzzy
 msgid "forms"
 msgstr "Formulier"
 
-#: export.php:260
+#: export.php:266
 #, fuzzy
 msgid "form"
 msgstr "Formulier"
 
-#: export.php:277
+#: export.php:283
 msgid ""
 "Select the Gravity Forms XML file you would like to import. When you click "
 "the import button below, Gravity Forms will import the forms."
 msgstr ""
 
-#: export.php:289
+#: export.php:295
 msgid "Select File"
 msgstr ""
 
-#: export.php:294
+#: export.php:300
 msgid "Import"
 msgstr "Importeer"
 
-#: export.php:312
+#: export.php:318
 msgid ""
 "Select the forms you would like to export. When you click the download "
 "button below, Gravity Forms will create a XML file for you to save to your "
@@ -3289,32 +3293,32 @@ msgid ""
 "to import the forms."
 msgstr ""
 
-#: export.php:318
+#: export.php:324
 #, fuzzy
 msgid "Select Forms"
 msgstr "Verwijder bericht"
 
-#: export.php:338 export.php:445
+#: export.php:344 export.php:451
 msgid "Download Export File"
 msgstr ""
 
-#: export.php:358
+#: export.php:364
 msgid "Ajax error while selecting a form"
 msgstr ""
 
-#: export.php:371
+#: export.php:377
 msgid "Deselect All"
 msgstr ""
 
-#: export.php:371
+#: export.php:377
 msgid "Select All"
 msgstr ""
 
-#: export.php:387
+#: export.php:393
 msgid "Export Form Entries"
 msgstr ""
 
-#: export.php:392
+#: export.php:398
 msgid ""
 "Select a form below to export entries. Once you have selected a form you may "
 "select the fields you would like to export and an optional date range. When "
@@ -3322,55 +3326,55 @@ msgid ""
 "for you to save to your computer."
 msgstr ""
 
-#: export.php:399 gravityforms.php:1627
+#: export.php:405 gravityforms.php:1627
 msgid "Select A Form"
 msgstr ""
 
-#: export.php:403
+#: export.php:409
 msgid "Select a form"
 msgstr ""
 
-#: export.php:417
+#: export.php:423
 msgid "Select Fields"
 msgstr ""
 
-#: export.php:424
+#: export.php:430
 msgid "Select Date Range"
 msgstr ""
 
-#: export.php:429
+#: export.php:435
 #, fuzzy
 msgid "Start"
 msgstr "Status"
 
-#: export.php:434
+#: export.php:440
 msgid "End"
 msgstr ""
 
-#: export.php:437
+#: export.php:443
 msgid ""
 "Date Range is optional, if no date range is selected all entries will be "
 "exported."
 msgstr ""
 
-#: export.php:447
+#: export.php:453
 msgid "Exporting entries. Please wait..."
 msgstr ""
 
-#: export.php:609
+#: export.php:614
 msgid "Created By (User Id)"
 msgstr ""
 
-#: export.php:611 select_columns.php:84
+#: export.php:616 select_columns.php:86
 #, fuzzy
 msgid "Entry Date"
 msgstr "Einddatum:"
 
-#: export.php:612 select_columns.php:86
+#: export.php:617 select_columns.php:88
 msgid "Source Url"
 msgstr ""
 
-#: export.php:618
+#: export.php:623
 #, fuzzy
 msgid "User Agent"
 msgstr "Inloggen"
@@ -3395,11 +3399,11 @@ msgstr ""
 msgid "You don't have adequate permission to edit entries."
 msgstr ""
 
-#: form_detail.php:67 form_detail.php:1656 select_columns.php:143
+#: form_detail.php:67 form_detail.php:1656 select_columns.php:146
 msgid "Save"
 msgstr ""
 
-#: form_detail.php:70 form_display.php:537 form_display.php:2094 js.php:383
+#: form_detail.php:70 form_display.php:537 form_display.php:2101 js.php:384
 #, fuzzy
 msgid "Previous"
 msgstr "Premium"
@@ -4889,20 +4893,20 @@ msgstr ""
 msgid "Minimum Strength"
 msgstr ""
 
-#: form_detail.php:1728 form_display.php:1913
+#: form_detail.php:1728 form_display.php:1920
 #, fuzzy
 msgid "Short"
 msgstr "Haven"
 
-#: form_detail.php:1729 form_display.php:1913
+#: form_detail.php:1729 form_display.php:1920
 msgid "Bad"
 msgstr ""
 
-#: form_detail.php:1730 form_display.php:1913
+#: form_detail.php:1730 form_display.php:1920
 msgid "Good"
 msgstr ""
 
-#: form_detail.php:1731 form_display.php:1913
+#: form_detail.php:1731 form_display.php:1920
 #, fuzzy
 msgid "Strong"
 msgstr "Rubriek"
@@ -5223,44 +5227,44 @@ msgstr ""
 msgid "Errors have been highlighted below."
 msgstr ""
 
-#: form_display.php:537 form_display.php:2094
+#: form_display.php:537 form_display.php:2101
 #, fuzzy
 msgid "Previous Page"
 msgstr "Registreren pagina"
 
-#: form_display.php:1023 form_display.php:1252 form_display.php:1356
-#: form_display.php:1372
+#: form_display.php:1030 form_display.php:1259 form_display.php:1363
+#: form_display.php:1379
 msgid "This field is required."
 msgstr ""
 
-#: form_display.php:1034
+#: form_display.php:1041
 msgid "This date has already been taken. Please select a new date."
 msgstr ""
 
-#: form_display.php:1038
+#: form_display.php:1045
 msgid ""
 "This field requires an unique entry and the values you entered have been "
 "already been used."
 msgstr ""
 
-#: form_display.php:1039
+#: form_display.php:1046
 #, php-format
 msgid "This field requires an unique entry and '%s' has already been used"
 msgstr ""
 
-#: form_display.php:1049
+#: form_display.php:1056
 msgid "Please enter a valid value."
 msgstr ""
 
-#: form_display.php:1049
+#: form_display.php:1056
 msgid "Invalid selection. Please select one of the available choices."
 msgstr ""
 
-#: form_display.php:1058
+#: form_display.php:1065
 msgid "Your passwords do not match."
 msgstr ""
 
-#: form_display.php:1066
+#: form_display.php:1073
 #, fuzzy
 msgid ""
 "Your password does not meet the required strength. <br/>Hint: To make it "
@@ -5271,146 +5275,146 @@ msgstr ""
 "sterker te maken kun je gebruik maken van hoofd- en kleine letters, nummers "
 "en symbolen zoals  ! \" ? $ % ^ &amp; )."
 
-#: form_display.php:1078
+#: form_display.php:1085
 msgid "This field is required. Please enter the first and last name."
 msgstr ""
 
-#: form_display.php:1094
+#: form_display.php:1101
 msgid "This field is required. Please enter a complete address."
 msgstr ""
 
-#: form_display.php:1107
+#: form_display.php:1114
 msgid "Please enter your credit card information."
 msgstr ""
 
-#: form_display.php:1115
+#: form_display.php:1122
 msgid "Please enter your card's security code."
 msgstr ""
 
-#: form_display.php:1119
+#: form_display.php:1126
 msgid "Invalid credit card number."
 msgstr ""
 
-#: form_display.php:1123
+#: form_display.php:1130
 msgid "is not supported. Please enter one of the supported credit cards."
 msgstr ""
 
-#: form_display.php:1131
+#: form_display.php:1138
 msgid "Please enter a valid email address."
 msgstr ""
 
-#: form_display.php:1137
+#: form_display.php:1144
 msgid "Your emails do not match."
 msgstr ""
 
-#: form_display.php:1151
+#: form_display.php:1158
 msgid "Please enter a valid amount."
 msgstr ""
 
-#: form_display.php:1164
+#: form_display.php:1171
 msgid "Please enter a valid quantity. Quantity cannot contain decimals."
 msgstr ""
 
-#: form_display.php:1213
+#: form_display.php:1220
 #, php-format
 msgid "Please enter a valid date in the format (%s)."
 msgstr ""
 
-#: form_display.php:1213
+#: form_display.php:1220
 msgid "Please enter a valid date."
 msgstr ""
 
-#: form_display.php:1243
+#: form_display.php:1250
 msgid "Please enter a valid time."
 msgstr ""
 
-#: form_display.php:1258
+#: form_display.php:1265
 msgid "Please enter a valid Website URL (i.e. http://www.gravityforms.com)."
 msgstr ""
 
-#: form_display.php:1271 form_display.php:1306
+#: form_display.php:1278 form_display.php:1313
 msgid "The CAPTCHA wasn't entered correctly. Go back and try it again."
 msgstr ""
 
-#: form_display.php:1327
+#: form_display.php:1334
 msgid "The reCAPTCHA wasn't entered correctly. Go back and try it again."
 msgstr ""
 
-#: form_display.php:1340
+#: form_display.php:1347
 msgid "The uploaded file type is not allowed."
 msgstr ""
 
-#: form_display.php:1344
+#: form_display.php:1351
 #, php-format
 msgid "The uploaded file type is not allowed. Must be one of the following: %s"
 msgstr ""
 
-#: form_display.php:1360
+#: form_display.php:1367
 msgid "Please enter a valid quantity"
 msgstr ""
 
-#: form_display.php:1853
+#: form_display.php:1860
 msgid "No results matched"
 msgstr ""
 
-#: form_display.php:1870 form_display.php:2347
+#: form_display.php:1877 form_display.php:2354
 msgid "of"
 msgstr ""
 
-#: form_display.php:1870
+#: form_display.php:1877
 msgid "max characters"
 msgstr ""
 
-#: form_display.php:1913
+#: form_display.php:1920
 msgid "Mismatch"
 msgstr ""
 
-#: form_display.php:2093 js.php:381
+#: form_display.php:2100 js.php:382
 msgid "Next"
 msgstr ""
 
-#: form_display.php:2093
+#: form_display.php:2100
 #, fuzzy
 msgid "Next Page"
 msgstr "Registreren pagina"
 
-#: form_display.php:2183
+#: form_display.php:2190
 msgid "click to duplicate this field"
 msgstr ""
 
-#: form_display.php:2183 form_list.php:231
+#: form_display.php:2190 form_list.php:231
 msgid "Duplicate"
 msgstr ""
 
-#: form_display.php:2186
+#: form_display.php:2193
 msgid "click to delete this field"
 msgstr ""
 
-#: form_display.php:2189
+#: form_display.php:2196
 #, fuzzy
 msgid "Field ID"
 msgstr "Type schip"
 
-#: form_display.php:2189
+#: form_display.php:2196
 msgid "click to edit this field"
 msgstr ""
 
-#: form_display.php:2261
+#: form_display.php:2268
 msgid ""
 "This page is unsecured. Do not enter a real credit card number. Use this "
 "field only for testing purposes. "
 msgstr ""
 
-#: form_display.php:2347
+#: form_display.php:2354
 #, fuzzy
 msgid "Step"
 msgstr "Straat"
 
-#: form_display.php:2374
+#: form_display.php:2381
 msgid "Sorry. This form is no longer accepting new submissions."
 msgstr ""
 
-#: form_display.php:2390
+#: form_display.php:2397
 msgid "Sorry. This form is no longer available."
 msgstr ""
 
@@ -5574,10 +5578,7 @@ msgid "View version %s Details"
 msgstr ""
 
 #: gravityforms.php:997
-msgid ""
-"<a href=\"admin.php?page=gf_settings\">Register</a> your copy of Gravity "
-"Forms to receive access to automatic upgrades and support. Need a license "
-"key? <a href=\"http://www.gravityforms.com\">Purchase one now</a>."
+msgid "<a href=\""
 msgstr ""
 
 #: gravityforms.php:1026
@@ -5927,216 +5928,216 @@ msgid ""
 "it. \\'Cancel\\' to stop. \\'OK\\' to delete"
 msgstr ""
 
-#: js.php:387
+#: js.php:388
 msgid "HTML Block"
 msgstr ""
 
-#: js.php:421 js.php:434 js.php:446 js.php:663
+#: js.php:422 js.php:435 js.php:447 js.php:664
 #, fuzzy
 msgid "Untitled"
 msgstr "Titel"
 
-#: js.php:424 js.php:438 js.php:439 js.php:450 js.php:451
+#: js.php:425 js.php:439 js.php:440 js.php:451 js.php:452
 #, fuzzy
 msgid "First Choice"
 msgstr "Voornaam"
 
-#: js.php:424 js.php:438 js.php:439 js.php:450 js.php:451
+#: js.php:425 js.php:439 js.php:440 js.php:451 js.php:452
 msgid "Second Choice"
 msgstr ""
 
-#: js.php:424 js.php:438 js.php:439 js.php:450 js.php:451
+#: js.php:425 js.php:439 js.php:440 js.php:451 js.php:452
 msgid "Third Choice"
 msgstr ""
 
-#: js.php:459
+#: js.php:460
 msgid "State / Province"
 msgstr ""
 
-#: js.php:469
+#: js.php:470
 #, fuzzy
 msgid "Card Type"
 msgstr "Types"
 
-#: js.php:470
+#: js.php:471
 msgid "Cardholder\\'s Name"
 msgstr ""
 
-#: js.php:524
+#: js.php:525
 msgid "Hidden Field"
 msgstr ""
 
-#: js.php:528
+#: js.php:529
 #, fuzzy
 msgid "Post Title"
 msgstr "Titel"
 
-#: js.php:532
+#: js.php:533
 msgid "Post Body"
 msgstr ""
 
-#: js.php:536
+#: js.php:537
 msgid "Post Excerpt"
 msgstr ""
 
-#: js.php:541
+#: js.php:542
 #, fuzzy
 msgid "Post Tags"
 msgstr "Berichten"
 
-#: js.php:548
+#: js.php:549
 #, fuzzy
 msgid "Post Custom Field"
 msgstr "Plaats reactie"
 
-#: js.php:551
+#: js.php:552
 #, fuzzy
 msgid "Post Image"
 msgstr "Plaats reactie"
 
-#: js.php:559
+#: js.php:560
 msgid "Captcha"
 msgstr ""
 
-#: js.php:567
+#: js.php:568
 #, fuzzy
 msgid "Product Name"
 msgstr "Publicatie naam"
 
-#: js.php:609
+#: js.php:610
 msgid "First Option"
 msgstr ""
 
-#: js.php:609
+#: js.php:610
 #, fuzzy
 msgid "Second Option"
 msgstr "Rubriek"
 
-#: js.php:609
+#: js.php:610
 msgid "Third Option"
 msgstr ""
 
-#: js.php:620
+#: js.php:621
 #, fuzzy
 msgid "Donation"
 msgstr "Locatie:"
 
-#: js.php:694
+#: js.php:695
 msgid "Only one reCAPTCHA field can be added to the form."
 msgstr ""
 
-#: js.php:705
+#: js.php:706
 msgid "Only one Shipping field can be added to the form"
 msgstr ""
 
-#: js.php:712
+#: js.php:713
 msgid "Only one Post Content field can be added to the form"
 msgstr ""
 
-#: js.php:718
+#: js.php:719
 msgid "Only one Post Title field can be added to the form"
 msgstr ""
 
-#: js.php:724
+#: js.php:725
 msgid "Only one Post Excerpt field can be added to the form"
 msgstr ""
 
-#: js.php:730
+#: js.php:731
 msgid "Only one credit card field can be added to the form"
 msgstr ""
 
-#: js.php:737
+#: js.php:738
 msgid "You must add a product field to the form first"
 msgstr ""
 
-#: js.php:759
+#: js.php:760
 msgid "Ajax error while adding field"
 msgstr ""
 
-#: js.php:774
+#: js.php:775
 msgid "Ajax error while duplicating field"
 msgstr ""
 
-#: js.php:798
+#: js.php:799
 msgid "Ajax error while changing input type"
 msgstr ""
 
-#: js.php:817
+#: js.php:818
 msgid "this field if"
 msgstr ""
 
-#: js.php:819
+#: js.php:820
 msgid "this page"
 msgstr ""
 
-#: js.php:821
+#: js.php:822
 msgid "this form button"
 msgstr ""
 
-#: js.php:823
+#: js.php:824
 msgid "Show"
 msgstr ""
 
-#: js.php:823
+#: js.php:824
 #, fuzzy
 msgid "Hide"
 msgstr "Kop"
 
-#: js.php:825
+#: js.php:826
 msgid "Any"
 msgstr ""
 
-#: js.php:826
+#: js.php:827
 msgid "of the following match:"
 msgstr ""
 
-#: js.php:838 notification.php:180 notification.php:449
+#: js.php:839 notification.php:180 notification.php:449
 msgid "is"
 msgstr ""
 
-#: js.php:838 notification.php:181 notification.php:450
+#: js.php:839 notification.php:181 notification.php:450
 msgid "is not"
 msgstr ""
 
-#: js.php:838 notification.php:182 notification.php:451
+#: js.php:839 notification.php:182 notification.php:451
 msgid "greater than"
 msgstr ""
 
-#: js.php:838 notification.php:183 notification.php:452
+#: js.php:839 notification.php:183 notification.php:452
 msgid "less than"
 msgstr ""
 
-#: js.php:838 notification.php:184 notification.php:453
+#: js.php:839 notification.php:184 notification.php:453
 #, fuzzy
 msgid "contains"
 msgstr "Maand:"
 
-#: js.php:838 notification.php:185 notification.php:454
+#: js.php:839 notification.php:185 notification.php:454
 msgid "starts with"
 msgstr ""
 
-#: js.php:838 notification.php:186 notification.php:455
+#: js.php:839 notification.php:186 notification.php:455
 msgid "ends with"
 msgstr ""
 
-#: js.php:872
+#: js.php:873
 msgid "Drag to re-order"
 msgstr ""
 
-#: js.php:881
+#: js.php:882
 #, fuzzy
 msgid "add another choice"
 msgstr "Update classificatie"
 
-#: js.php:884
+#: js.php:885
 msgid "remove this choice"
 msgstr ""
 
-#: js.php:915
+#: js.php:916
 msgid "Select a field"
 msgstr ""
 
-#: js.php:915
+#: js.php:916
 #, fuzzy
 msgid "User IP Address"
 msgstr "Adres"
@@ -6328,22 +6329,22 @@ msgstr ""
 msgid "Print Preview"
 msgstr "Overzicht"
 
-#: select_columns.php:21
+#: select_columns.php:23
 msgid "Oops! We could not locate your form. Please try again."
 msgstr ""
 
-#: select_columns.php:94
+#: select_columns.php:97
 msgid ""
 "Drag & drop to order and select which columns are displayed in the entries "
 "table."
 msgstr ""
 
-#: select_columns.php:97
+#: select_columns.php:100
 #, fuzzy
 msgid "Active Columns"
 msgstr "Acties"
 
-#: select_columns.php:112
+#: select_columns.php:115
 msgid "Inactive Columns"
 msgstr ""
 
