@@ -2,7 +2,7 @@
 /*
 Plugin Name: Gravity Forms (nl)
 Plugin URI: http://pronamic.eu/wp-plugins/gravityforms-nl/
-Description: Extends the Gravity Forms plugin and add-ons with the Dutch language: <strong>Gravity Forms</strong> 1.6.11 | <strong>User Registration Add-On</strong> 1.4 | <strong>Campaign Monitor Add-On</strong> 2.0 | <strong>MailChimp Add-On</strong> 1.7 | <strong>PayPal Add-On</strong> 1.5 | <strong>Signature Add-On</strong> 1.2 | <strong>Polls Add-On</strong> 1.0
+Description: Extends the Gravity Forms plugin and add-ons with the Dutch language: <strong>Gravity Forms</strong> 1.6.12 | <strong>User Registration Add-On</strong> 1.4 | <strong>Campaign Monitor Add-On</strong> 2.0 | <strong>MailChimp Add-On</strong> 1.7 | <strong>PayPal Add-On</strong> 1.6 | <strong>Signature Add-On</strong> 1.2 | <strong>Polls Add-On</strong> 1.0
 
 Version: 2.6.18
 Requires at least: 3.0
@@ -48,6 +48,34 @@ class GravityFormsNL {
 		add_filter( 'gform_currencies',       array( __CLASS__, 'gform_currencies' ) );
 
 		add_action( 'wp_print_scripts',       array( __CLASS__, 'wp_print_scripts' ) );
+
+		/*
+		 * @since Gravity Forms v1.6.12
+		 * 
+		 * Gravity Forms don't execute the load_plugin_textdomain() in the 'init'
+		 * action, therefor we have to make sure this plugin will load first
+		 * 
+		 * @see http://stv.whtly.com/2011/09/03/forcing-a-wordpress-plugin-to-be-loaded-before-all-other-plugins/
+		 */ 
+		add_action( 'activated_plugin',       array( __CLASS__, 'activated_plugin' ) );
+	}
+
+	////////////////////////////////////////////////////////////
+
+	/**
+	 * Activated plugin
+	 */
+	function activated_plugin() {
+		$path = str_replace( WP_PLUGIN_DIR . '/', '', __FILE__ );
+
+		if ( $plugins = get_option( 'active_plugins' ) ) {
+			if ( $key = array_search( $path, $plugins ) ) {
+				array_splice( $plugins, $key, 1 );
+				array_unshift( $plugins, $path );
+
+				update_option( 'active_plugins', $plugins );
+			}
+		}
 	}
 
 	////////////////////////////////////////////////////////////
@@ -56,14 +84,6 @@ class GravityFormsNL {
 	 * Initialize
 	 */
 	public static function init() {		
-		// Constants
-		self::$language = get_option( 'WPLANG', WPLANG );
-		self::$is_dutch = ( self::$language == 'nl' || self::$language == 'nl_NL' );
-		
-		if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
-			self::$is_dutch = ICL_LANGUAGE_CODE == 'nl';
-		}
-
 		$rel_path = dirname( plugin_basename( __FILE__ ) ) . '/languages/';
 
 		// Load plugin text domain - Gravity Forms (nl)
@@ -82,6 +102,17 @@ class GravityFormsNL {
 	 * @param string $domain
 	 */
 	public static function load_textdomain_mofile( $mo_file, $domain ) {
+		if ( self::$language == null ) {
+			self::$language = get_option( 'WPLANG', WPLANG );
+			self::$is_dutch = ( self::$language == 'nl' || self::$language == 'nl_NL' );
+		}
+
+		// The ICL_LANGUAGE_CODE constant is defined from an plugin, so this constant
+		// is not always defined in the first 'load_textdomain_mofile' filter call
+		if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
+			self::$is_dutch = ( ICL_LANGUAGE_CODE == 'nl' );
+		}
+
 		if ( self::$is_dutch ) {
 			$domains = array(
 				'gravityforms',
@@ -92,7 +123,7 @@ class GravityFormsNL {
 				'gravityformssignature',
 				'gravityformsuserregistration'
 			);
-			
+
 			if ( in_array( $domain, $domains ) ) {
 				$mo_file = self::get_mo_file( $domain );
 			}
