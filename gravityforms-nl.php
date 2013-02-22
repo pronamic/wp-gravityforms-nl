@@ -44,9 +44,10 @@ class GravityFormsNL {
 
 		add_filter( 'load_textdomain_mofile', array( __CLASS__, 'load_textdomain_mofile' ), 10, 2 );
 
-		add_filter( 'gform_admin_pre_render', array( __CLASS__, 'gform_admin_pre_render' ) );
-		add_filter( 'gform_currencies',       array( __CLASS__, 'gform_currencies' ) );
-		add_filter( 'gform_address_types',    array( __CLASS__, 'gform_address_types' ) );
+		add_filter( 'gform_admin_pre_render',       array( __CLASS__, 'gform_admin_pre_render' ) );
+		add_filter( 'gform_currencies',             array( __CLASS__, 'gform_currencies' ) );
+		add_filter( 'gform_address_types',          array( __CLASS__, 'gform_address_types' ) );
+		add_filter( 'gform_address_display_format', array( __CLASS__, 'gform_address_display_format' ) );
 
 		add_action( 'wp_print_scripts',       array( __CLASS__, 'wp_print_scripts' ) );
 
@@ -236,6 +237,22 @@ class GravityFormsNL {
 		);
 
 		return $address_types; 
+	}
+
+	////////////////////////////////////////////////////////////
+
+	/**
+	 * Address display format
+	 * 
+	 * @see http://www.gravityhelp.com/documentation/page/Gform_address_display_format
+	 * @param array $address_types
+	 */
+	public static function gform_address_display_format( $format ) {
+		if ( self::$is_dutch ) {
+			return 'zip_before_city';
+		}
+		
+		return $format;
 	}
 }
 
