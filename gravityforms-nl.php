@@ -46,6 +46,7 @@ class GravityFormsNL {
 
 		add_filter( 'gform_admin_pre_render', array( __CLASS__, 'gform_admin_pre_render' ) );
 		add_filter( 'gform_currencies',       array( __CLASS__, 'gform_currencies' ) );
+		add_filter( 'gform_address_types',    array( __CLASS__, 'gform_address_types' ) );
 
 		add_action( 'wp_print_scripts',       array( __CLASS__, 'wp_print_scripts' ) );
 
@@ -202,6 +203,39 @@ class GravityFormsNL {
 		);
 
 		return $currencies; 
+	}
+
+	////////////////////////////////////////////////////////////
+
+	/**
+	 * Address types
+	 * 
+	 * @param array $address_types
+	 */
+	public static function gform_address_types( $address_types ) {
+		// @see http://www.gravityhelp.com/forums/topic/add-custom-field-to-address-field-set
+		$address_types['dutch'] = array(
+			'label'       => __( 'Dutch', 'gravityforms_nl' ),
+			'country'     => __( 'Netherlands', 'gravityforms_nl' ),
+			'zip_label'   => __( 'Postal Code', 'gravityforms_nl' ),
+			'state_label' => __( 'Province', 'gravityforms_nl' ),
+			'states'      => array(
+				__( 'Drenthe', 'gravityforms_nl' ),
+				__( 'Flevoland', 'gravityforms_nl' ),
+				__( 'Friesland', 'gravityforms_nl' ),
+				__( 'Gelderland', 'gravityforms_nl' ),
+				__( 'Groningen', 'gravityforms_nl' ),
+				__( 'Limburg', 'gravityforms_nl' ),
+				__( 'Noord-Brabant', 'gravityforms_nl' ),
+				__( 'Noord-Holland', 'gravityforms_nl' ),
+				__( 'Overijssel', 'gravityforms_nl' ),
+				__( 'Utrecht', 'gravityforms_nl' ),
+				__( 'Zeeland', 'gravityforms_nl' ),
+				__( 'Zuid-Holland', 'gravityforms_nl' )
+			)
+		);
+
+		return $address_types; 
 	}
 }
 
