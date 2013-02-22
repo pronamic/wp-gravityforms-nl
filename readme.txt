@@ -4,7 +4,7 @@ Tags: gravityforms, gravity, form, forms, gravity forms, translation, dutch, nl,
 Donate link: http://pronamic.eu/donate/?for=wp-plugin-gravityforms-nl&source=wp-plugin-readme-txt
 Requires at least: 3.0
 Tested up to: 3.5.1
-Stable tag: 2.6.19
+Stable tag: 2.7
 
 This WordPress plugin extends the Gravity Forms plugin with the Dutch translation.
 
@@ -34,6 +34,10 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 
 == Changelog ==
+
+= 2.7 =
+*	Added Dutch address type
+*	Move Zip field before City field
 
 = 2.6.19 =
 *	Improved a few translations
