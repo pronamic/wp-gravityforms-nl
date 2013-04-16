@@ -1,22 +1,21 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Pronamic
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Gravity Forms PayPal Add-On\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-13 09:31+0100\n"
-"PO-Revision-Date: 2013-02-13 09:31+0100\n"
-"Last-Translator: Remco Tolsma <info@remcotolsma.nl>\n"
-"Language-Team: Pronamic <info@pronamic.nl>\n"
-"Language: nl_NL\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: Pronamic <info@pronamic.nl>\n"
+"POT-Creation-Date: 2013-04-16 16:07+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__withdesc;_ewithdesc;_c;"
-"_n_noop:1,2;__ngettext_noop:1,2;_x:2c,1;_nc:1,2;esc_attr_e;esc_html_e;"
-"esc_attr__;_nx:4c,1,2;_nx_noop:4c,1,2;esc_html_x:2c,1;esc_html__;_ex:2c,1\n"
-"X-Poedit-Basepath: ../\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.5.5\n"
-"X-Poedit-SearchPath-0: .\n"
 
 #: paypal.php:201
 msgid "Gravity Forms "
@@ -42,7 +41,7 @@ msgstr ""
 msgid "PayPal"
 msgstr ""
 
-#: paypal.php:264 paypal.php:1233
+#: paypal.php:264 paypal.php:1234
 msgid "PayPal Email Address"
 msgstr ""
 
@@ -50,7 +49,7 @@ msgstr ""
 msgid "Enter the PayPal email address where payment should be received."
 msgstr ""
 
-#: paypal.php:265 paypal.php:1244
+#: paypal.php:265 paypal.php:1245
 msgid "Mode"
 msgstr ""
 
@@ -60,7 +59,7 @@ msgid ""
 "when using the PayPal development sandbox."
 msgstr ""
 
-#: paypal.php:266 paypal.php:443 paypal.php:452 paypal.php:1253
+#: paypal.php:266 paypal.php:443 paypal.php:452 paypal.php:1254
 msgid "Transaction Type"
 msgstr ""
 
@@ -70,7 +69,7 @@ msgid ""
 "Donations or Subscription."
 msgstr ""
 
-#: paypal.php:267 paypal.php:1263
+#: paypal.php:267 paypal.php:1264
 msgid "Gravity Form"
 msgstr ""
 
@@ -78,7 +77,7 @@ msgstr ""
 msgid "Select which Gravity Forms you would like to integrate with PayPal."
 msgstr ""
 
-#: paypal.php:268 paypal.php:1372
+#: paypal.php:268 paypal.php:1373
 msgid "Customer"
 msgstr ""
 
@@ -87,7 +86,7 @@ msgid ""
 "Map your Form Fields to the available PayPal customer information fields."
 msgstr ""
 
-#: paypal.php:269 paypal.php:1383
+#: paypal.php:269 paypal.php:1384
 msgid "Page Style"
 msgstr ""
 
@@ -97,7 +96,7 @@ msgid ""
 "you have setup a custom payment page style with PayPal."
 msgstr ""
 
-#: paypal.php:270 paypal.php:1387
+#: paypal.php:270 paypal.php:1388
 msgid "Continue Button Label"
 msgstr ""
 
@@ -107,7 +106,7 @@ msgid ""
 "been completed via PayPal."
 msgstr ""
 
-#: paypal.php:271 paypal.php:1391
+#: paypal.php:271 paypal.php:1392
 msgid "Cancel URL"
 msgstr ""
 
@@ -117,7 +116,7 @@ msgid ""
 "completing their PayPal payment."
 msgstr ""
 
-#: paypal.php:272 paypal.php:1396
+#: paypal.php:272 paypal.php:1397
 msgid "Options"
 msgstr ""
 
@@ -125,7 +124,7 @@ msgstr ""
 msgid "Turn on or off the available PayPal checkout options."
 msgstr ""
 
-#: paypal.php:273 paypal.php:1296
+#: paypal.php:273 paypal.php:1297
 msgid "Recurring Amount"
 msgstr ""
 
@@ -135,7 +134,7 @@ msgid ""
 "Total' to use the total of all pricing fields as the recurring amount."
 msgstr ""
 
-#: paypal.php:274 paypal.php:1303
+#: paypal.php:274 paypal.php:1304
 msgid "Billing Cycle"
 msgstr ""
 
@@ -145,7 +144,7 @@ msgid ""
 "should occur."
 msgstr ""
 
-#: paypal.php:275 paypal.php:1322
+#: paypal.php:275 paypal.php:1323
 msgid "Recurring Times"
 msgstr ""
 
@@ -155,7 +154,7 @@ msgid ""
 "to bill the customer until the subscription is canceled."
 msgstr ""
 
-#: paypal.php:276 paypal.php:278 paypal.php:1339 paypal.php:1350
+#: paypal.php:276 paypal.php:278 paypal.php:1340 paypal.php:1351
 msgid "Trial Period"
 msgstr ""
 
@@ -165,7 +164,7 @@ msgid ""
 "after this trial period."
 msgstr ""
 
-#: paypal.php:277 paypal.php:1346
+#: paypal.php:277 paypal.php:1347
 msgid "Trial Amount"
 msgstr ""
 
@@ -177,7 +176,7 @@ msgstr ""
 msgid "Select the trial period length."
 msgstr ""
 
-#: paypal.php:279 paypal.php:1470
+#: paypal.php:279 paypal.php:1471
 msgid "PayPal Condition"
 msgstr ""
 
@@ -460,7 +459,7 @@ msgstr ""
 
 #: paypal.php:947
 msgid "Week"
-msgstr "Week"
+msgstr ""
 
 #: paypal.php:967
 msgid "Orders this Week"
@@ -559,272 +558,272 @@ msgstr ""
 msgid "PayPal Transaction Settings"
 msgstr ""
 
-#: paypal.php:1208
+#: paypal.php:1209
 #, php-format
 msgid "Feed Updated. %sback to list%s"
 msgstr ""
 
-#: paypal.php:1226
+#: paypal.php:1227
 msgid ""
 "There was an issue saving your feed. Please address the errors below and try "
 "again."
 msgstr ""
 
-#: paypal.php:1247
+#: paypal.php:1248
 msgid "Production"
 msgstr ""
 
-#: paypal.php:1250
+#: paypal.php:1251
 msgid "Test"
 msgstr ""
 
-#: paypal.php:1256
+#: paypal.php:1257
 msgid "Select a transaction type"
 msgstr ""
 
-#: paypal.php:1257
+#: paypal.php:1258
 msgid "Products and Services"
 msgstr ""
 
-#: paypal.php:1258
+#: paypal.php:1259
 msgid "Donations"
 msgstr ""
 
-#: paypal.php:1259
+#: paypal.php:1260
 msgid "Subscriptions"
 msgstr ""
 
-#: paypal.php:1266
+#: paypal.php:1267
 msgid "Select a form"
 msgstr ""
 
-#: paypal.php:1286 paypal.php:1289
+#: paypal.php:1287 paypal.php:1290
 msgid ""
 "The form selected does not have any Product fields. Please add a Product "
 "field to the form and try again."
 msgstr ""
 
-#: paypal.php:1314 paypal.php:1361
+#: paypal.php:1315 paypal.php:1362
 msgid "day(s)"
 msgstr ""
 
-#: paypal.php:1315 paypal.php:1362
+#: paypal.php:1316 paypal.php:1363
 msgid "week(s)"
 msgstr ""
 
-#: paypal.php:1316 paypal.php:1363
+#: paypal.php:1317 paypal.php:1364
 msgid "month(s)"
 msgstr ""
 
-#: paypal.php:1317 paypal.php:1364
+#: paypal.php:1318 paypal.php:1365
 msgid "year(s)"
 msgstr ""
 
-#: paypal.php:1324
+#: paypal.php:1325
 msgid "Infinite"
 msgstr ""
 
-#: paypal.php:1335
+#: paypal.php:1336
 msgid "Try to bill again after failed attempt."
 msgstr ""
 
-#: paypal.php:1341 paypal.php:1477
+#: paypal.php:1342 paypal.php:1478
 msgid "Enable"
 msgstr ""
 
-#: paypal.php:1401
+#: paypal.php:1402
 msgid "Do not prompt buyer to include a shipping address."
 msgstr ""
 
-#: paypal.php:1405
+#: paypal.php:1406
 msgid "Do not prompt buyer to include a note with payment."
 msgstr ""
 
-#: paypal.php:1410
+#: paypal.php:1411
 msgid "Send admin notification only when payment is received."
 msgstr ""
 
-#: paypal.php:1414
+#: paypal.php:1415
 msgid "Send user notification only when payment is received."
 msgstr ""
 
-#: paypal.php:1422
+#: paypal.php:1423
 msgid "Create post only when payment is received."
 msgstr ""
 
-#: paypal.php:1427
+#: paypal.php:1428
 msgid "Update Post when subscription is cancelled."
 msgstr ""
 
-#: paypal.php:1430
+#: paypal.php:1431
 msgid "Mark Post as Draft"
 msgstr ""
 
-#: paypal.php:1431
+#: paypal.php:1432
 msgid "Delete Post"
 msgstr ""
 
-#: paypal.php:1440
+#: paypal.php:1441
 msgid "Notifications"
 msgstr ""
 
-#: paypal.php:1446
+#: paypal.php:1447
 msgid "Send notifications only when payment is received."
 msgstr ""
 
-#: paypal.php:1485
+#: paypal.php:1486
 msgid "Send to PayPal if "
 msgstr ""
 
-#: paypal.php:1489
+#: paypal.php:1490
 msgid "is"
 msgstr ""
 
-#: paypal.php:1490
+#: paypal.php:1491
 msgid "is not"
 msgstr ""
 
-#: paypal.php:1491
+#: paypal.php:1492
 msgid "greater than"
 msgstr ""
 
-#: paypal.php:1492
+#: paypal.php:1493
 msgid "less than"
 msgstr ""
 
-#: paypal.php:1493
+#: paypal.php:1494
 msgid "contains"
 msgstr ""
 
-#: paypal.php:1494
+#: paypal.php:1495
 msgid "starts with"
 msgstr ""
 
-#: paypal.php:1495
+#: paypal.php:1496
 msgid "ends with"
 msgstr ""
 
-#: paypal.php:1501
+#: paypal.php:1502
 msgid ""
 "To create a registration condition, your form must have a field supported by "
 "conditional logic."
 msgstr ""
 
-#: paypal.php:1512
+#: paypal.php:1513
 msgid "  Save  "
 msgstr ""
 
-#: paypal.php:1512
+#: paypal.php:1513
 msgid "Update"
 msgstr ""
 
-#: paypal.php:1513
+#: paypal.php:1514
 msgid "Cancel"
 msgstr ""
 
-#: paypal.php:1559
+#: paypal.php:1560
 msgid "Ajax error while selecting a form"
 msgstr ""
 
-#: paypal.php:1756
+#: paypal.php:1757
 msgid "Enter value"
 msgstr ""
 
-#: paypal.php:1896
+#: paypal.php:1897
 msgid "Click here to continue"
 msgstr ""
 
-#: paypal.php:2149
+#: paypal.php:2150
 #, php-format
 msgid ""
 "Payment amount (%s) does not match subscription amount. Subscription will "
 "not be activated. Transaction Id: %s"
 msgstr ""
 
-#: paypal.php:2154
+#: paypal.php:2155
 #, php-format
 msgid "Subscription payment has been made. Amount: %s. Transaction Id: %s"
 msgstr ""
 
-#: paypal.php:2175
+#: paypal.php:2176
 #, php-format
 msgid "Subscription has been cancelled. Subscriber Id: %s"
 msgstr ""
 
-#: paypal.php:2198
+#: paypal.php:2199
 #, php-format
 msgid "Subscription has expired. Subscriber Id: %s"
 msgstr ""
 
-#: paypal.php:2208
+#: paypal.php:2209
 #, php-format
 msgid "Subscription signup has failed. Subscriber Id: %s"
 msgstr ""
 
-#: paypal.php:2238
+#: paypal.php:2239
 #, php-format
 msgid "Payment has been approved. Amount: %s. Transaction Id: %s"
 msgstr ""
 
-#: paypal.php:2242
+#: paypal.php:2243
 #, php-format
 msgid ""
 "Payment amount (%s) does not match product price. Entry will not be marked "
 "as Approved. Transaction Id: %s"
 msgstr ""
 
-#: paypal.php:2257
+#: paypal.php:2258
 #, php-format
 msgid "Payment has been reversed. Transaction Id: %s. Reason: %s"
 msgstr ""
 
-#: paypal.php:2271
+#: paypal.php:2272
 #, php-format
 msgid ""
 "Payment reversal has been canceled and the funds have been transferred to "
 "your account. Transaction Id: %s"
 msgstr ""
 
-#: paypal.php:2285
+#: paypal.php:2286
 #, php-format
 msgid "Payment has been denied. Transaction Id: %s"
 msgstr ""
 
-#: paypal.php:2301
+#: paypal.php:2302
 #, php-format
 msgid "Payment is pending. Amount: %s. Transaction Id: %s. Reason: %s"
 msgstr ""
 
-#: paypal.php:2315
+#: paypal.php:2316
 #, php-format
 msgid "Payment has been refunded. Refunded amount: %s. Transaction Id: %s"
 msgstr ""
 
-#: paypal.php:2329
+#: paypal.php:2330
 #, php-format
 msgid "Authorization has been voided. Transaction Id: %s"
 msgstr ""
 
-#: paypal.php:2343
+#: paypal.php:2344
 #, php-format
 msgid ""
 "Payment has been authorized. You can capture funds from your PayPal control "
 "panel. Transaction Id: %s"
 msgstr ""
 
-#: paypal.php:2356
+#: paypal.php:2357
 #, php-format
 msgid ""
 "Payment has Failed. Failed payments occur when they are made via your "
 "customer's bank account and could not be completed. Transaction Id: %s"
 msgstr ""
 
-#: paypal.php:2420
+#: paypal.php:2421
 #, php-format
 msgid "Subscription has been created. Subscriber Id: %s"
 msgstr ""
 
-#: paypal.php:2427
+#: paypal.php:2428
 msgid ""
 "The payment is pending because your customer did not include a confirmed "
 "shipping address and your Payment Receiving Preferences is set to allow you "
@@ -832,46 +831,46 @@ msgid ""
 "preference, go to the Preferences section of your Profile."
 msgstr ""
 
-#: paypal.php:2430
+#: paypal.php:2431
 msgid ""
 "You set the payment action to Authorization and have not yet captured funds."
 msgstr ""
 
-#: paypal.php:2433
+#: paypal.php:2434
 msgid ""
 "The payment is pending because it was made by an eCheck that has not yet "
 "cleared."
 msgstr ""
 
-#: paypal.php:2436
+#: paypal.php:2437
 msgid ""
 "The payment is pending because you hold a non-U.S. account and do not have a "
 "withdrawal mechanism. You must manually accept or deny this payment from "
 "your Account Overview."
 msgstr ""
 
-#: paypal.php:2439
+#: paypal.php:2440
 msgid ""
 "You do not have a balance in the currency sent, and you do not have your "
 "Payment Receiving Preferences set to automatically convert and accept this "
 "payment. You must manually accept or deny this payment."
 msgstr ""
 
-#: paypal.php:2442
+#: paypal.php:2443
 msgid "You set the payment action to Order and have not yet captured funds."
 msgstr ""
 
-#: paypal.php:2445
+#: paypal.php:2446
 msgid "The payment is pending while it is being reviewed by PayPal for risk."
 msgstr ""
 
-#: paypal.php:2448
+#: paypal.php:2449
 msgid ""
 "The payment is pending because it was made to an email address that is not "
 "yet registered or confirmed."
 msgstr ""
 
-#: paypal.php:2451
+#: paypal.php:2452
 msgid ""
 "The payment is pending because it was made via credit card and you must "
 "upgrade your account to Business or Premier status in order to receive the "
@@ -879,83 +878,83 @@ msgid ""
 "transactions on your account."
 msgstr ""
 
-#: paypal.php:2454
+#: paypal.php:2455
 msgid ""
 "The payment is pending because you are not yet verified. You must verify "
 "your account before you can accept this payment."
 msgstr ""
 
-#: paypal.php:2457 paypal.php:2460 paypal.php:2491
+#: paypal.php:2458 paypal.php:2461 paypal.php:2492
 msgid ""
 "Reason has not been specified. For more information, contact PayPal Customer "
 "Service."
 msgstr ""
 
-#: paypal.php:2468
+#: paypal.php:2469
 msgid "Reversal of an adjustment"
 msgstr ""
 
-#: paypal.php:2470
+#: paypal.php:2471
 msgid ""
 "A reversal has occurred on this transaction due to a complaint about the "
 "transaction from your customer."
 msgstr ""
 
-#: paypal.php:2473
+#: paypal.php:2474
 msgid ""
 "A reversal has occurred on this transaction due to a chargeback by your "
 "customer."
 msgstr ""
 
-#: paypal.php:2476
+#: paypal.php:2477
 msgid "Reimbursement for a chargeback."
 msgstr ""
 
-#: paypal.php:2479
+#: paypal.php:2480
 msgid "Settlement of a chargeback."
 msgstr ""
 
-#: paypal.php:2482
+#: paypal.php:2483
 msgid ""
 "A reversal has occurred on this transaction due to your customer triggering "
 "a money-back guarantee."
 msgstr ""
 
-#: paypal.php:2485
+#: paypal.php:2486
 msgid "Non-specified reason."
 msgstr ""
 
-#: paypal.php:2488
+#: paypal.php:2489
 msgid ""
 "A reversal has occurred on this transaction because you have given the "
 "customer a refund."
 msgstr ""
 
-#: paypal.php:2739
+#: paypal.php:2743
 msgid "with options"
 msgstr ""
 
-#: paypal.php:2750
+#: paypal.php:2754
 msgid "You don't have adequate permission to uninstall the PayPal Add-On."
 msgstr ""
 
-#: paypal.php:2794
+#: paypal.php:2798
 msgid "PayPal Fields"
 msgstr ""
 
-#: paypal.php:2794
+#: paypal.php:2798
 msgid "Form Fields"
 msgstr ""
 
-#: paypal.php:2827
+#: paypal.php:2831
 msgid "Select a field"
 msgstr ""
 
-#: paypal.php:2839
+#: paypal.php:2843
 msgid "Form Total"
 msgstr ""
 
-#: paypal.php:3013
+#: paypal.php:3017
 #, php-format
 msgid ""
 "Payment information was manually updated. Status: %s. Amount: %s. "

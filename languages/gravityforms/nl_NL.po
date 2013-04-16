@@ -1,0 +1,6884 @@
+# Translation of 1.6.12 in Dutch
+# This file is distributed under the same license as the 1.6.12 package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-04-16 15:00:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: 1.6.12\n"
+
+#: gravityforms.php:1725
+msgid "Edit this form"
+msgstr "Bewerk dit formulier"
+
+#: gravityforms.php:1737
+msgid "Edit settings for this form"
+msgstr "Bewerk instellingen voor dit formulier"
+
+#: gravityforms.php:1749
+msgid "Edit notifications for this form"
+msgstr "Bewerk notificaties voor dit formulier"
+
+#: common.php:194
+msgid "Select image size"
+msgstr "Selecteer beeldformaat"
+
+#: common.php:195
+msgid "Thumbnail"
+msgstr "Miniatuur"
+
+#: common.php:196
+msgid "Thumbnail - Left Aligned"
+msgstr "Miniatuur - Links uitgelijnd"
+
+#: common.php:197
+msgid "Thumbnail - Centered"
+msgstr "Miniatuur - Gecentreerd"
+
+#: common.php:198
+msgid "Thumbnail - Right Aligned"
+msgstr "Miniatuur - Rechts uitgelijnd"
+
+#: common.php:200 form_detail.php:1054 form_detail.php:1621
+#: form_detail.php:2033
+msgid "Medium"
+msgstr "Medium"
+
+#: common.php:201
+msgid "Medium - Left Aligned"
+msgstr "Gemiddeld - Links uitgelijnd"
+
+#: common.php:202
+msgid "Medium - Centered"
+msgstr "Gemiddeld - Gecentreerd"
+
+#: common.php:203
+msgid "Medium - Right Aligned"
+msgstr "Gemiddeld - Rechts uitgelijnd"
+
+#: common.php:205 form_detail.php:1055 form_detail.php:1621
+#: form_detail.php:2034
+msgid "Large"
+msgstr "Large"
+
+#: common.php:206
+msgid "Large - Left Aligned"
+msgstr "Groot - Links uitgelijnd"
+
+#: common.php:207
+msgid "Large - Centered"
+msgstr "Groot - Gecentreerd"
+
+#: common.php:208
+msgid "Large - Right Aligned"
+msgstr "Groot - Rechts uitgelijnd"
+
+#: common.php:210
+msgid "Full Size"
+msgstr "Op ware grootte"
+
+#: common.php:211
+msgid "Full Size - Left Aligned"
+msgstr "Op ware grootte - Links uitgelijnd"
+
+#: common.php:212
+msgid "Full Size - Centered"
+msgstr "Op ware grootte - Gecentreerd"
+
+#: common.php:213
+msgid "Full Size - Right Aligned"
+msgstr "Op ware grootte - Rechts uitgelijnd"
+
+#: common.php:231 common.php:411 form_detail.php:2473
+msgid "Insert Merge Tag"
+msgstr "Samenvoegen tag invoegen"
+
+#: common.php:235 js.php:915
+msgid "All Submitted Fields"
+msgstr "Alle toegevoegde velden"
+
+#: common.php:290
+msgid "Required form fields"
+msgstr "Verplichte formulier velden"
+
+#: common.php:302
+msgid "Optional form fields"
+msgstr "Optionele formulier velden"
+
+#: common.php:314
+msgid "Pricing form fields"
+msgstr "Prijs formulier velden"
+
+#: common.php:318
+msgid "All Pricing Fields"
+msgstr "Alle prijs velden"
+
+#: common.php:332 common.php:4216 form_detail.php:1609 form_detail.php:1611
+msgid "Other"
+msgstr "Ander"
+
+#: common.php:333 form_detail.php:2475
+msgid "Client IP Address"
+msgstr "Bezoeker IP-adres"
+
+#: common.php:334 common.php:335 common.php:1769 form_detail.php:1003
+#: form_detail.php:1842 form_detail.php:2476 form_detail.php:2477 js.php:498
+#: js.php:915
+msgid "Date"
+msgstr "Datum"
+
+#: common.php:336 form_detail.php:2478
+msgid "Embed Post/Page Id"
+msgstr "Bericht/pagina ID insluiten"
+
+#: common.php:337 form_detail.php:2479
+msgid "Embed Post/Page Title"
+msgstr "Bericht/pagina titel insluiten"
+
+#: common.php:338 form_detail.php:2480
+msgid "Embed URL"
+msgstr "URL insluiten"
+
+#: common.php:339 entry_detail.php:287 export.php:632
+msgid "Entry Id"
+msgstr "Inzending ID"
+
+#: common.php:340
+msgid "Entry URL"
+msgstr "Inzending URL"
+
+#: common.php:341
+msgid "Form Id"
+msgstr "Formulier ID"
+
+#: common.php:342 js.php:915
+msgid "Form Title"
+msgstr "Formulier titel"
+
+#: common.php:343 form_detail.php:2481
+msgid "HTTP User Agent"
+msgstr "HTTP User Agent"
+
+#: common.php:346 export.php:639
+msgid "Post Id"
+msgstr "Bericht ID"
+
+#: common.php:347
+msgid "Post Edit URL"
+msgstr "Bericht bewerken URL"
+
+#: common.php:350 form_detail.php:2483
+msgid "User Display Name"
+msgstr "Weergavenaam gebruiker"
+
+#: common.php:351 form_detail.php:2484
+msgid "User Email"
+msgstr "E-mailadres gebruiker"
+
+#: common.php:352 form_detail.php:2485
+msgid "User Login"
+msgstr "Gebruikersnaam"
+
+#: common.php:360 common.php:441 form_detail.php:621 form_detail.php:1816
+msgid "Custom"
+msgstr "Aangepast"
+
+#: common.php:412
+msgid "Allowable form fields"
+msgstr "Toegestane formulier velden"
+
+#: common.php:966 entry_detail.php:764
+msgid "Order"
+msgstr "Bestel"
+
+#: common.php:997 common.php:1813 entry_detail.php:839 gravityforms.php:1077
+#: js.php:597
+msgid "Total"
+msgstr "Totaal"
+
+#: common.php:1014 common.php:1805 entry_detail.php:776
+msgid "Product"
+msgstr "Product"
+
+#: common.php:1015 entry_detail.php:777
+msgid "Qty"
+msgstr "Aantal"
+
+#: common.php:1016 entry_detail.php:778
+msgid "Unit Price"
+msgstr "Eenheidsprijs"
+
+#: common.php:1017 common.php:2411 entry_detail.php:779 form_detail.php:828
+#: form_detail.php:1588 js.php:574 js.php:633
+msgid "Price"
+msgstr "Prijs"
+
+#: common.php:1069
+msgid "Total:"
+msgstr "Totaal:"
+
+#: common.php:1407
+msgid "Gravity Forms require WordPress %s or greater. You must upgrade WordPress in order to use Gravity Forms"
+msgstr "Gravity Forms vereist WordPress %s of hoger. Je moet WordPress bijwerken om Gravity Forms te gebruiken."
+
+#: common.php:1486
+msgid "%s ago"
+msgstr "%s geleden"
+
+#: common.php:1488 common.php:1491
+msgid "%1$s at %2$s"
+msgstr "%1$s op %2$s"
+
+#: common.php:1664 common.php:1736
+msgid "%d of %d items shown. Edit field to view all"
+msgstr "%d van %d items weergegeven. Wijzig veld om alles weer te geven"
+
+#: common.php:1745
+msgid "Single Line Text"
+msgstr "Tekstregel"
+
+#: common.php:1747 form_detail.php:994
+msgid "Paragraph Text"
+msgstr "Tekstveld"
+
+#: common.php:1749 form_detail.php:802 form_detail.php:819 form_detail.php:853
+#: form_detail.php:867 form_detail.php:882 form_detail.php:995
+#: form_detail.php:1022 form_detail.php:1211
+msgid "Drop Down"
+msgstr "Uitschuifkeuzelijst"
+
+#: common.php:1751 form_detail.php:996 form_detail.php:1023
+#: form_detail.php:1214
+msgid "Multi Select"
+msgstr "Multikeuzelijst"
+
+#: common.php:1753 form_detail.php:881 form_detail.php:997 js.php:483
+msgid "Number"
+msgstr "Nummer"
+
+#: common.php:1755 form_detail.php:854 form_detail.php:998 form_detail.php:1024
+#: form_detail.php:1212
+msgid "Checkboxes"
+msgstr "Selectievakjes"
+
+#: common.php:1757 form_detail.php:803 form_detail.php:820 form_detail.php:855
+#: form_detail.php:869 form_detail.php:999 form_detail.php:1025
+#: form_detail.php:1213
+msgid "Radio Buttons"
+msgstr "Keuzerondjes"
+
+#: common.php:1759 form_detail.php:805 form_detail.php:883 form_detail.php:1000
+msgid "Hidden"
+msgstr "Verborgen"
+
+#: common.php:1761
+msgid "HTML"
+msgstr "HTML"
+
+#: common.php:1763 js.php:371
+msgid "Section Break"
+msgstr "Sectie-einde"
+
+#: common.php:1765 form_display.php:2218
+msgid "Page Break"
+msgstr "Pagina-einde"
+
+#: common.php:1767 js.php:402 js.php:574
+msgid "Name"
+msgstr "Naam"
+
+#: common.php:1771 form_detail.php:1004 js.php:503
+msgid "Time"
+msgstr "Tijd"
+
+#: common.php:1773 form_detail.php:1005 js.php:492
+msgid "Phone"
+msgstr "Telefoon"
+
+#: common.php:1775 js.php:457
+msgid "Address"
+msgstr "Adres"
+
+#: common.php:1777 form_detail.php:1006 js.php:508
+msgid "Website"
+msgstr "Website"
+
+#: common.php:1779 form_detail.php:1007 js.php:476 notification.php:404
+msgid "Email"
+msgstr "E-mailadres"
+
+#: common.php:1781 js.php:514
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: common.php:1783 form_detail.php:1008
+msgid "File Upload"
+msgstr "Bestandsupload"
+
+#: common.php:1785
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: common.php:1787 form_detail.php:1009 js.php:394
+msgid "List"
+msgstr "Lijst"
+
+#: common.php:1789 js.php:464
+msgid "Credit Card"
+msgstr "Creditcard"
+
+#: common.php:1791 common.php:2674 common.php:3770 form_detail.php:292
+#: form_detail.php:1326 form_list.php:170 form_list.php:188
+#: gravityforms.php:1075
+msgid "Title"
+msgstr "Titel"
+
+#: common.php:1793
+msgid "Body"
+msgstr "Hoofdtekst"
+
+#: common.php:1795
+msgid "Excerpt"
+msgstr "Samenvatting"
+
+#: common.php:1797
+msgid "Tags"
+msgstr "Tags"
+
+#: common.php:1799 form_detail.php:1223
+msgid "Category"
+msgstr "Categorie"
+
+#: common.php:1801 form_detail.php:345 form_detail.php:722 form_detail.php:916
+#: form_detail.php:953
+msgid "Image"
+msgstr "Afbeelding"
+
+#: common.php:1803
+msgid "Custom Field"
+msgstr "Aangepast veld"
+
+#: common.php:1807 js.php:574 js.php:644
+msgid "Quantity"
+msgstr "Aantal"
+
+#: common.php:1809 js.php:603
+msgid "Option"
+msgstr "Optie"
+
+#: common.php:1811 js.php:586
+msgid "Shipping"
+msgstr "Verzending"
+
+#: common.php:1895
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#: common.php:1895
+msgid "Albania"
+msgstr "Albanië"
+
+#: common.php:1895
+msgid "Algeria"
+msgstr "Algerije"
+
+#: common.php:1895
+msgid "American Samoa"
+msgstr "Amerikaans-Samoa"
+
+#: common.php:1895
+msgid "Andorra"
+msgstr "Andorra"
+
+#: common.php:1895
+msgid "Angola"
+msgstr "Angola"
+
+#: common.php:1895
+msgid "Antigua and Barbuda"
+msgstr "Antigua en Barbuda"
+
+#: common.php:1895
+msgid "Argentina"
+msgstr "Argentinië"
+
+#: common.php:1895
+msgid "Armenia"
+msgstr "Armenië"
+
+#: common.php:1895 form_detail.php:1603
+msgid "Australia"
+msgstr "Australië"
+
+#: common.php:1895
+msgid "Austria"
+msgstr "Oostenrijk"
+
+#: common.php:1895
+msgid "Azerbaijan"
+msgstr "Azerbeidzjan"
+
+#: common.php:1895
+msgid "Bahamas"
+msgstr "Bahama's"
+
+#: common.php:1895
+msgid "Bahrain"
+msgstr "Bahrein"
+
+#: common.php:1895
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: common.php:1895
+msgid "Barbados"
+msgstr "Barbados"
+
+#: common.php:1895
+msgid "Belarus"
+msgstr "Wit-Rusland"
+
+#: common.php:1895
+msgid "Belgium"
+msgstr "België"
+
+#: common.php:1895
+msgid "Belize"
+msgstr "Belize"
+
+#: common.php:1895
+msgid "Benin"
+msgstr "Benin"
+
+#: common.php:1895
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: common.php:1895
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: common.php:1895
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: common.php:1895
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnië en Herzegovina"
+
+#: common.php:1895
+msgid "Botswana"
+msgstr "Botswana"
+
+#: common.php:1895
+msgid "Brazil"
+msgstr "Brazilië"
+
+#: common.php:1895
+msgid "Brunei"
+msgstr "Brunei "
+
+#: common.php:1895
+msgid "Bulgaria"
+msgstr "Bulgarije"
+
+#: common.php:1895
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: common.php:1895
+msgid "Burundi"
+msgstr "Burundi"
+
+#: common.php:1895
+msgid "Cambodia"
+msgstr "Cambodja"
+
+#: common.php:1895
+msgid "Cameroon"
+msgstr "Kameroen"
+
+#: common.php:1895
+msgid "Canada"
+msgstr "Canada"
+
+#: common.php:1895
+msgid "Cape Verde"
+msgstr "Kaapverdië"
+
+#: common.php:1895
+msgid "Central African Republic"
+msgstr "Centraal-Afrikaanse Republiek"
+
+#: common.php:1895
+msgid "Chad"
+msgstr "Tsjaad"
+
+#: common.php:1895
+msgid "Chile"
+msgstr "Chili"
+
+#: common.php:1895
+msgid "China"
+msgstr "China"
+
+#: common.php:1895
+msgid "Colombia"
+msgstr "Colombia"
+
+#: common.php:1895
+msgid "Comoros"
+msgstr "Comoren"
+
+#: common.php:1895
+msgid "Congo, Democratic Republic of the"
+msgstr "Congo, Democratische Republiek"
+
+#: common.php:1895
+msgid "Congo, Republic of the"
+msgstr "Congo, Republiek"
+
+#: common.php:1895
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: common.php:1895
+msgid "C&ocirc;te d'Ivoire"
+msgstr "Ivoorkust"
+
+#: common.php:1895
+msgid "Croatia"
+msgstr "Kroatië"
+
+#: common.php:1895
+msgid "Cuba"
+msgstr "Cuba"
+
+#: common.php:1895
+msgid "Cyprus"
+msgstr "Cyprus"
+
+#: common.php:1895
+msgid "Czech Republic"
+msgstr "Centraal-Afrikaanse Republiek"
+
+#: common.php:1895
+msgid "Denmark"
+msgstr "Denemarken"
+
+#: common.php:1895
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: common.php:1895
+msgid "Dominica"
+msgstr "Dominica"
+
+#: common.php:1895
+msgid "Dominican Republic"
+msgstr "Centraal-Afrikaanse Republiek"
+
+#: common.php:1895
+msgid "East Timor"
+msgstr "Oost-Timor"
+
+#: common.php:1895
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: common.php:1895
+msgid "Egypt"
+msgstr "Egypte"
+
+#: common.php:1895
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: common.php:1895
+msgid "Equatorial Guinea"
+msgstr "Equatoriaal-Guinea"
+
+#: common.php:1895
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: common.php:1895
+msgid "Estonia"
+msgstr "Estland"
+
+#: common.php:1895
+msgid "Ethiopia"
+msgstr "Ethiopië"
+
+#: common.php:1895
+msgid "Fiji"
+msgstr "Fiji"
+
+#: common.php:1895
+msgid "Finland"
+msgstr "Finland"
+
+#: common.php:1895
+msgid "France"
+msgstr "Frankrijk"
+
+#: common.php:1895
+msgid "Gabon"
+msgstr "Gabon"
+
+#: common.php:1896
+msgid "Gambia"
+msgstr "Gambia"
+
+#: common.php:1896 common.php:2115 common.php:2130
+msgid "Georgia"
+msgstr "Georgië"
+
+#: common.php:1896
+msgid "Germany"
+msgstr "Duitsland"
+
+#: common.php:1896
+msgid "Ghana"
+msgstr "Ghana"
+
+#: common.php:1896
+msgid "Greece"
+msgstr "Griekenland"
+
+#: common.php:1896
+msgid "Greenland"
+msgstr "Groenland"
+
+#: common.php:1896
+msgid "Grenada"
+msgstr "Grenada"
+
+#: common.php:1896
+msgid "Guam"
+msgstr "Guam"
+
+#: common.php:1896
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: common.php:1896
+msgid "Guinea"
+msgstr "Guinee"
+
+#: common.php:1896
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: common.php:1896
+msgid "Guyana"
+msgstr "Guyana"
+
+#: common.php:1896
+msgid "Haiti"
+msgstr "Haïti"
+
+#: common.php:1896
+msgid "Honduras"
+msgstr "Honduras"
+
+#: common.php:1896
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: common.php:1896
+msgid "Hungary"
+msgstr "Hongarije"
+
+#: common.php:1896
+msgid "Iceland"
+msgstr "IJsland"
+
+#: common.php:1896
+msgid "India"
+msgstr "India"
+
+#: common.php:1896
+msgid "Indonesia"
+msgstr "Indonesië"
+
+#: common.php:1896
+msgid "Iran"
+msgstr "Iran"
+
+#: common.php:1896
+msgid "Iraq"
+msgstr "Irak"
+
+#: common.php:1896
+msgid "Ireland"
+msgstr "Ierland"
+
+#: common.php:1896
+msgid "Israel"
+msgstr "Israël"
+
+#: common.php:1896
+msgid "Italy"
+msgstr "Italië"
+
+#: common.php:1896
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: common.php:1896
+msgid "Japan"
+msgstr "Japan"
+
+#: common.php:1896
+msgid "Jordan"
+msgstr "Jordanië"
+
+#: common.php:1896
+msgid "Kazakhstan"
+msgstr "Kazachstan"
+
+#: common.php:1896
+msgid "Kenya"
+msgstr "Kenia"
+
+#: common.php:1896
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: common.php:1896
+msgid "North Korea"
+msgstr "Noord-Korea"
+
+#: common.php:1896
+msgid "South Korea"
+msgstr "Zuid-Korea"
+
+#: common.php:1896
+msgid "Kuwait"
+msgstr "Koeweit"
+
+#: common.php:1896
+msgid "Kyrgyzstan"
+msgstr "Kirgizië"
+
+#: common.php:1896
+msgid "Laos"
+msgstr "Laos"
+
+#: common.php:1896
+msgid "Latvia"
+msgstr "Letland"
+
+#: common.php:1896
+msgid "Lebanon"
+msgstr "Libanon"
+
+#: common.php:1896
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: common.php:1896
+msgid "Liberia"
+msgstr "Liberia"
+
+#: common.php:1896
+msgid "Libya"
+msgstr "Libië"
+
+#: common.php:1896
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: common.php:1896
+msgid "Lithuania"
+msgstr "Litouwen"
+
+#: common.php:1896
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+#: common.php:1896
+msgid "Macedonia"
+msgstr "Macedonië"
+
+#: common.php:1896
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+#: common.php:1896
+msgid "Malawi"
+msgstr "Malawi"
+
+#: common.php:1896
+msgid "Malaysia"
+msgstr "Maleisië"
+
+#: common.php:1896
+msgid "Maldives"
+msgstr "Maldiven"
+
+#: common.php:1896
+msgid "Mali"
+msgstr "Mali"
+
+#: common.php:1896
+msgid "Malta"
+msgstr "Malta"
+
+#: common.php:1896
+msgid "Marshall Islands"
+msgstr "Marshalleilanden"
+
+#: common.php:1896
+msgid "Mauritania"
+msgstr "Mauritanië"
+
+#: common.php:1896
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: common.php:1896
+msgid "Mexico"
+msgstr "Mexico"
+
+#: common.php:1896
+msgid "Micronesia"
+msgstr "Micronesia"
+
+#: common.php:1896
+msgid "Moldova"
+msgstr "Moldavië"
+
+#: common.php:1896
+msgid "Monaco"
+msgstr "Monaco"
+
+#: common.php:1896
+msgid "Mongolia"
+msgstr "Mongolië"
+
+#: common.php:1896
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: common.php:1896
+msgid "Morocco"
+msgstr "Marokko"
+
+#: common.php:1896
+msgid "Mozambique"
+msgstr "Mozambique"
+
+#: common.php:1896
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: common.php:1896
+msgid "Namibia"
+msgstr "Namibië"
+
+#: common.php:1896
+msgid "Nauru"
+msgstr "Nauru"
+
+#: common.php:1896
+msgid "Nepal"
+msgstr "Nepal"
+
+#: common.php:1896
+msgid "Netherlands"
+msgstr "Nederland"
+
+#: common.php:1896
+msgid "New Zealand"
+msgstr "Nieuw-Zeeland"
+
+#: common.php:1897
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: common.php:1897
+msgid "Niger"
+msgstr "Niger"
+
+#: common.php:1897
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: common.php:1897
+msgid "Norway"
+msgstr "Noorwegen"
+
+#: common.php:1897
+msgid "Northern Mariana Islands"
+msgstr "Noordelijke Marianen"
+
+#: common.php:1897
+msgid "Oman"
+msgstr "Oman"
+
+#: common.php:1897
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: common.php:1897
+msgid "Palau"
+msgstr "Palau"
+
+#: common.php:1897
+msgid "Palestine"
+msgstr "Palestina"
+
+#: common.php:1897
+msgid "Panama"
+msgstr "Panama"
+
+#: common.php:1897
+msgid "Papua New Guinea"
+msgstr "Papoea-Nieuw-Guinea"
+
+#: common.php:1897
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: common.php:1897
+msgid "Peru"
+msgstr "Peru"
+
+#: common.php:1897
+msgid "Philippines"
+msgstr "Filipijnen"
+
+#: common.php:1897
+msgid "Poland"
+msgstr "Polen"
+
+#: common.php:1897
+msgid "Portugal"
+msgstr "Portugal"
+
+#: common.php:1897
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: common.php:1897
+msgid "Qatar"
+msgstr "Qatar"
+
+#: common.php:1897
+msgid "Romania"
+msgstr "Roemenië"
+
+#: common.php:1897
+msgid "Russia"
+msgstr "Rusland"
+
+#: common.php:1897
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: common.php:1897
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts en Nevis"
+
+#: common.php:1897
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+#: common.php:1897
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent en de Grenadines"
+
+#: common.php:1897
+msgid "Samoa"
+msgstr "Samoa"
+
+#: common.php:1897
+msgid "San Marino"
+msgstr "San Marino"
+
+#: common.php:1897
+msgid "Sao Tome and Principe"
+msgstr "Sao Tomé en Principe"
+
+#: common.php:1897
+msgid "Saudi Arabia"
+msgstr "Saoedi-Arabië"
+
+#: common.php:1897
+msgid "Senegal"
+msgstr "Senegal"
+
+#: common.php:1897
+msgid "Serbia and Montenegro"
+msgstr "Antigua en Barbuda"
+
+#: common.php:1897
+msgid "Seychelles"
+msgstr "Seychellen"
+
+#: common.php:1897
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: common.php:1897
+msgid "Singapore"
+msgstr "Singapore"
+
+#: common.php:1897
+msgid "Slovakia"
+msgstr "Slowakije"
+
+#: common.php:1897
+msgid "Slovenia"
+msgstr "Slovenië"
+
+#: common.php:1897
+msgid "Solomon Islands"
+msgstr "Salomonseilanden"
+
+#: common.php:1897
+msgid "Somalia"
+msgstr "Somalië"
+
+#: common.php:1897
+msgid "South Africa"
+msgstr "Zuid-Afrika"
+
+#: common.php:1897
+msgid "Spain"
+msgstr "Spanje"
+
+#: common.php:1897
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: common.php:1897
+msgid "Sudan"
+msgstr "Soedan"
+
+#: common.php:1897
+msgid "Sudan, South"
+msgstr "Zoedan, Zuid"
+
+#: common.php:1897
+msgid "Suriname"
+msgstr "Suriname"
+
+#: common.php:1897
+msgid "Swaziland"
+msgstr "Swaziland"
+
+#: common.php:1897
+msgid "Sweden"
+msgstr "Zweden"
+
+#: common.php:1897
+msgid "Switzerland"
+msgstr "Zwitserland"
+
+#: common.php:1897
+msgid "Syria"
+msgstr "Syrië"
+
+#: common.php:1897
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: common.php:1897
+msgid "Tajikistan"
+msgstr "Tadzjikistan"
+
+#: common.php:1897
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: common.php:1897
+msgid "Thailand"
+msgstr "Thailand"
+
+#: common.php:1897
+msgid "Togo"
+msgstr "Togo"
+
+#: common.php:1897
+msgid "Tonga"
+msgstr "Tonga"
+
+#: common.php:1897
+msgid "Trinidad and Tobago"
+msgstr "Antigua en Barbuda"
+
+#: common.php:1897
+msgid "Tunisia"
+msgstr "Tunesië"
+
+#: common.php:1897
+msgid "Turkey"
+msgstr "Turkije"
+
+#: common.php:1897
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: common.php:1897
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: common.php:1897
+msgid "Uganda"
+msgstr "Uganda"
+
+#: common.php:1897
+msgid "Ukraine"
+msgstr "Oekraïne"
+
+#: common.php:1897
+msgid "United Arab Emirates"
+msgstr "Verenigde Arabische Emiraten"
+
+#: common.php:1897
+msgid "United Kingdom"
+msgstr "Verenigd Koninkrijk"
+
+#: common.php:1898 common.php:3568
+msgid "United States"
+msgstr "Verenigde Staten"
+
+#: common.php:1898
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: common.php:1898
+msgid "Uzbekistan"
+msgstr "Oezbekistan"
+
+#: common.php:1898
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: common.php:1898
+msgid "Vatican City"
+msgstr "Vaticaanstad"
+
+#: common.php:1898
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: common.php:1898
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: common.php:1898
+msgid "Virgin Islands, British"
+msgstr "Britse Maagdeneilanden"
+
+#: common.php:1898
+msgid "Virgin Islands, U.S."
+msgstr "Amerikaanse Maagdeneilanden"
+
+#: common.php:1898
+msgid "Yemen"
+msgstr "Yemen"
+
+#: common.php:1898
+msgid "Zambia"
+msgstr "Zambia"
+
+#: common.php:1898
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: common.php:1905
+msgid "AFGHANISTAN"
+msgstr "AFGHANISTAN"
+
+#: common.php:1906
+msgid "ALBANIA"
+msgstr "ALBANIË"
+
+#: common.php:1907
+msgid "ALGERIA"
+msgstr "ALGERIJE"
+
+#: common.php:1908
+msgid "AMERICAN SAMOA"
+msgstr "AMERIKAANS-SAMOA"
+
+#: common.php:1909
+msgid "ANDORRA"
+msgstr "ANDORRA"
+
+#: common.php:1910
+msgid "ANGOLA"
+msgstr "ANGOLA"
+
+#: common.php:1911
+msgid "ANTIGUA AND BARBUDA"
+msgstr "ANTIGUA EN BARBUDA"
+
+#: common.php:1912
+msgid "ARGENTINA"
+msgstr "ARGENTINIË"
+
+#: common.php:1913
+msgid "ARMENIA"
+msgstr "ARMENIË"
+
+#: common.php:1914
+msgid "AUSTRALIA"
+msgstr "AUSTRALIË"
+
+#: common.php:1915
+msgid "AUSTRIA"
+msgstr "OOSTENRIJK"
+
+#: common.php:1916
+msgid "AZERBAIJAN"
+msgstr "AZERBEIDZJAN"
+
+#: common.php:1917
+msgid "BAHAMAS"
+msgstr "BAHAMAS"
+
+#: common.php:1918
+msgid "BAHRAIN"
+msgstr "BAHREIN"
+
+#: common.php:1919
+msgid "BANGLADESH"
+msgstr "BANGLADESH"
+
+#: common.php:1920
+msgid "BARBADOS"
+msgstr "BARBADOS"
+
+#: common.php:1921
+msgid "BELARUS"
+msgstr "WIT-RUSLAND"
+
+#: common.php:1922
+msgid "BELGIUM"
+msgstr "BELGIË"
+
+#: common.php:1923
+msgid "BELIZE"
+msgstr "BELIZE"
+
+#: common.php:1924
+msgid "BENIN"
+msgstr "BENIN"
+
+#: common.php:1925
+msgid "BERMUDA"
+msgstr "BERMUDA"
+
+#: common.php:1926
+msgid "BHUTAN"
+msgstr "BHUTAN"
+
+#: common.php:1927
+msgid "BOLIVIA"
+msgstr "BOLIVIA"
+
+#: common.php:1928
+msgid "BOSNIA AND HERZEGOVINA"
+msgstr "BOSNIË-HERZEGOVINA"
+
+#: common.php:1929
+msgid "BOTSWANA"
+msgstr "BOTSWANA"
+
+#: common.php:1930
+msgid "BRAZIL"
+msgstr "BRAZILIË"
+
+#: common.php:1931
+msgid "BRUNEI"
+msgstr "BRUNEI"
+
+#: common.php:1932
+msgid "BULGARIA"
+msgstr "BULGARIJE"
+
+#: common.php:1933
+msgid "BURKINA FASO"
+msgstr "BURKINA FASO"
+
+#: common.php:1934
+msgid "BURUNDI"
+msgstr "BURUNDI"
+
+#: common.php:1935
+msgid "CAMBODIA"
+msgstr "CAMBODJA"
+
+#: common.php:1936
+msgid "CAMEROON"
+msgstr "KAMEROEN"
+
+#: common.php:1937
+msgid "CANADA"
+msgstr "CANADA"
+
+#: common.php:1938
+msgid "CAPE VERDE"
+msgstr "KAAPVERDIË"
+
+#: common.php:1939
+msgid "CENTRAL AFRICAN REPUBLIC"
+msgstr "CENTRAAL-AFRIKAANSE REPUBLIEK"
+
+#: common.php:1940
+msgid "CHAD"
+msgstr "TSJAAD"
+
+#: common.php:1941
+msgid "CHILE"
+msgstr "CHILI"
+
+#: common.php:1942
+msgid "CHINA"
+msgstr "CHINA"
+
+#: common.php:1943
+msgid "COLOMBIA"
+msgstr "COLOMBIA"
+
+#: common.php:1944
+msgid "COMOROS"
+msgstr "COMOREN"
+
+#: common.php:1945
+msgid "CONGO, DEMOCRATIC REPUBLIC OF THE"
+msgstr "CONGO, DEMOCRATISCHE REPUBLIEK"
+
+#: common.php:1946
+msgid "CONGO, REPUBLIC OF THE"
+msgstr "CONGO, REPUBLIEK"
+
+#: common.php:1947
+msgid "COSTA RICA"
+msgstr "COSTA RICA"
+
+#: common.php:1948
+msgid "C&OCIRC;TE D'IVOIRE"
+msgstr "IVOORKUST"
+
+#: common.php:1949
+msgid "CROATIA"
+msgstr "KROATIË"
+
+#: common.php:1950
+msgid "CUBA"
+msgstr "CUBA"
+
+#: common.php:1951
+msgid "CYPRUS"
+msgstr "CYPRUS"
+
+#: common.php:1952
+msgid "CZECH REPUBLIC"
+msgstr "TSJECHIË"
+
+#: common.php:1953
+msgid "DENMARK"
+msgstr "DENEMARKEN"
+
+#: common.php:1954
+msgid "DJIBOUTI"
+msgstr "DJIBOUTI"
+
+#: common.php:1955
+msgid "DOMINICA"
+msgstr "DOMINICA"
+
+#: common.php:1956
+msgid "DOMINICAN REPUBLIC"
+msgstr "DOMINICAANSE REPUBLIEK"
+
+#: common.php:1957
+msgid "EAST TIMOR"
+msgstr "OOST-TIMOR"
+
+#: common.php:1958
+msgid "ECUADOR"
+msgstr "ECUADOR"
+
+#: common.php:1959
+msgid "EGYPT"
+msgstr "EGYPTE"
+
+#: common.php:1960
+msgid "EL SALVADOR"
+msgstr "EL SALVADOR"
+
+#: common.php:1961
+msgid "EQUATORIAL GUINEA"
+msgstr "EQUATORIAAL-GUINEE"
+
+#: common.php:1962
+msgid "ERITREA"
+msgstr "ERITREA"
+
+#: common.php:1963
+msgid "ESTONIA"
+msgstr "ESTLAND"
+
+#: common.php:1964
+msgid "ETHIOPIA"
+msgstr "ETHIOPIË"
+
+#: common.php:1965
+msgid "FIJI"
+msgstr "FIJI"
+
+#: common.php:1966
+msgid "FINLAND"
+msgstr "FINLAND"
+
+#: common.php:1967
+msgid "FRANCE"
+msgstr "FRANKRIJK"
+
+#: common.php:1968
+msgid "GABON"
+msgstr "GABON"
+
+#: common.php:1969
+msgid "GAMBIA"
+msgstr "GAMBIA"
+
+#: common.php:1970
+msgid "GEORGIA"
+msgstr "GEORGIë"
+
+#: common.php:1971
+msgid "GERMANY"
+msgstr "DUITSLAND"
+
+#: common.php:1972
+msgid "GHANA"
+msgstr "GHANA"
+
+#: common.php:1973
+msgid "GREECE"
+msgstr "GRIEKENLAND"
+
+#: common.php:1974
+msgid "GREENLAND"
+msgstr "GROENLAND"
+
+#: common.php:1975
+msgid "GRENADA"
+msgstr "GRENADA"
+
+#: common.php:1976
+msgid "GUAM"
+msgstr "GUAM"
+
+#: common.php:1977
+msgid "GUATEMALA"
+msgstr "GUATAMALA"
+
+#: common.php:1978
+msgid "GUINEA"
+msgstr "GUINEA"
+
+#: common.php:1979
+msgid "GUINEA-BISSAU"
+msgstr "GUINEE-BISSAU"
+
+#: common.php:1980
+msgid "GUYANA"
+msgstr "GUYANA"
+
+#: common.php:1981
+msgid "HAITI"
+msgstr "HAÏTI"
+
+#: common.php:1982
+msgid "HONDURAS"
+msgstr "HONDURAS"
+
+#: common.php:1983
+msgid "HONG KONG"
+msgstr "HONG KONG"
+
+#: common.php:1984
+msgid "HUNGARY"
+msgstr "HONGARIJE"
+
+#: common.php:1985
+msgid "ICELAND"
+msgstr "IJSLAND"
+
+#: common.php:1986
+msgid "INDIA"
+msgstr "INDIA"
+
+#: common.php:1987
+msgid "INDONESIA"
+msgstr "INDONESIË"
+
+#: common.php:1988
+msgid "IRAN"
+msgstr "IRAN"
+
+#: common.php:1989
+msgid "IRAQ"
+msgstr "IRAK"
+
+#: common.php:1990
+msgid "IRELAND"
+msgstr "IERLAND"
+
+#: common.php:1991
+msgid "ISRAEL"
+msgstr "ISREAL"
+
+#: common.php:1992
+msgid "ITALY"
+msgstr "ITALIË"
+
+#: common.php:1993
+msgid "JAMAICA"
+msgstr "JAMAICA"
+
+#: common.php:1994
+msgid "JAPAN"
+msgstr "JAPAN"
+
+#: common.php:1995
+msgid "JORDAN"
+msgstr "JORDANIË"
+
+#: common.php:1996
+msgid "KAZAKHSTAN"
+msgstr "KAZACHSTAN"
+
+#: common.php:1997
+msgid "KENYA"
+msgstr "KENIA"
+
+#: common.php:1998
+msgid "KIRIBATI"
+msgstr "KIRIBATI"
+
+#: common.php:1999
+msgid "NORTH KOREA"
+msgstr "NOORD KOREA"
+
+#: common.php:2000
+msgid "SOUTH KOREA"
+msgstr "ZUID KOREA"
+
+#: common.php:2001
+msgid "KUWAIT"
+msgstr "KUWEIT"
+
+#: common.php:2002
+msgid "KYRGYZSTAN"
+msgstr "KIRZIGIË"
+
+#: common.php:2003
+msgid "LAOS"
+msgstr "LAOS"
+
+#: common.php:2004
+msgid "LATVIA"
+msgstr "LETLAND"
+
+#: common.php:2005
+msgid "LEBANON"
+msgstr "LIBANON"
+
+#: common.php:2006
+msgid "LESOTHO"
+msgstr "LESOTHO"
+
+#: common.php:2007
+msgid "LIBERIA"
+msgstr "LIBERIA"
+
+#: common.php:2008
+msgid "LIBYA"
+msgstr "LIBIË"
+
+#: common.php:2009
+msgid "LIECHTENSTEIN"
+msgstr "LIECHTENSTEIN"
+
+#: common.php:2010
+msgid "LITHUANIA"
+msgstr "LITOUWEN"
+
+#: common.php:2011
+msgid "LUXEMBOURG"
+msgstr "LUXEMBURG"
+
+#: common.php:2012
+msgid "MACEDONIA"
+msgstr "MACEDONIË"
+
+#: common.php:2013
+msgid "MADAGASCAR"
+msgstr "MADAGASCAR"
+
+#: common.php:2014
+msgid "MALAWI"
+msgstr "MALAWI"
+
+#: common.php:2015
+msgid "MALAYSIA"
+msgstr "MALEISIË"
+
+#: common.php:2016
+msgid "MALDIVES"
+msgstr "MALDIVEN"
+
+#: common.php:2017
+msgid "MALI"
+msgstr "MALI"
+
+#: common.php:2018
+msgid "MALTA"
+msgstr "MALTA"
+
+#: common.php:2019
+msgid "MARSHALL ISLANDS"
+msgstr "MARSHALLEILANDEN"
+
+#: common.php:2020
+msgid "MAURITANIA"
+msgstr "MAURITANIË"
+
+#: common.php:2021
+msgid "MAURITIUS"
+msgstr "MAURITIUS"
+
+#: common.php:2022
+msgid "MEXICO"
+msgstr "MEXICO"
+
+#: common.php:2023
+msgid "MICRONESIA"
+msgstr "MICRONESIË"
+
+#: common.php:2024
+msgid "MOLDOVA"
+msgstr "MOLDAVIË"
+
+#: common.php:2025
+msgid "MONACO"
+msgstr "MONACO"
+
+#: common.php:2026
+msgid "MONGOLIA"
+msgstr "MONGOLIË"
+
+#: common.php:2027
+msgid "MONTENEGRO"
+msgstr "MONTENEGRO"
+
+#: common.php:2028
+msgid "MOROCCO"
+msgstr "MAROKKO"
+
+#: common.php:2029
+msgid "MOZAMBIQUE"
+msgstr "MOZAMBIQUE"
+
+#: common.php:2030
+msgid "MYANMAR"
+msgstr "MYANMAR"
+
+#: common.php:2031
+msgid "NAMIBIA"
+msgstr "NAMIBË"
+
+#: common.php:2032
+msgid "NAURU"
+msgstr "MAURU"
+
+#: common.php:2033
+msgid "NEPAL"
+msgstr "NEPAL"
+
+#: common.php:2034
+msgid "NETHERLANDS"
+msgstr "NEDERLAND"
+
+#: common.php:2035
+msgid "NEW ZEALAND"
+msgstr "NIEUW ZEELAND"
+
+#: common.php:2036
+msgid "NICARAGUA"
+msgstr "NICARAGUA"
+
+#: common.php:2037
+msgid "NIGER"
+msgstr "NIGER"
+
+#: common.php:2038
+msgid "NIGERIA"
+msgstr "NIGERIA"
+
+#: common.php:2039
+msgid "NORTHERN MARIANA ISLANDS"
+msgstr "NOORDELIJKE MARIANEN"
+
+#: common.php:2040
+msgid "NORWAY"
+msgstr "NOORWEGEN"
+
+#: common.php:2041
+msgid "OMAN"
+msgstr "OMAN"
+
+#: common.php:2042
+msgid "PAKISTAN"
+msgstr "PAKISTAN"
+
+#: common.php:2043
+msgid "PALAU"
+msgstr "PALAU"
+
+#: common.php:2044
+msgid "PALESTINE"
+msgstr "PALESTINA"
+
+#: common.php:2045
+msgid "PANAMA"
+msgstr "PANAMA"
+
+#: common.php:2046
+msgid "PAPUA NEW GUINEA"
+msgstr "PAPUA NIEUW GUINEA"
+
+#: common.php:2047
+msgid "PARAGUAY"
+msgstr "PARAGUAY"
+
+#: common.php:2048
+msgid "PERU"
+msgstr "PERU"
+
+#: common.php:2049
+msgid "PHILIPPINES"
+msgstr "FILLIPIJNEN"
+
+#: common.php:2050
+msgid "POLAND"
+msgstr "POLEN"
+
+#: common.php:2051
+msgid "PORTUGAL"
+msgstr "PORTUGAL"
+
+#: common.php:2052
+msgid "PUERTO RICO"
+msgstr "PUERTO RICO"
+
+#: common.php:2053
+msgid "QATAR"
+msgstr "QATAR"
+
+#: common.php:2054
+msgid "ROMANIA"
+msgstr "ROEMENIË"
+
+#: common.php:2055
+msgid "RUSSIA"
+msgstr "RUSLAND"
+
+#: common.php:2056
+msgid "RWANDA"
+msgstr "RWANDA"
+
+#: common.php:2057
+msgid "SAINT KITTS AND NEVIS"
+msgstr "SAINT KITTS AND NEVIS"
+
+#: common.php:2058
+msgid "SAINT LUCIA"
+msgstr "SAINT LUCIA"
+
+#: common.php:2059
+msgid "SAINT VINCENT AND THE GRENADINES"
+msgstr "SAINT VINCENT AND THE GRENADINES"
+
+#: common.php:2060
+msgid "SAMOA"
+msgstr "SAMOA"
+
+#: common.php:2061
+msgid "SAN MARINO"
+msgstr "SAN MARINO"
+
+#: common.php:2062
+msgid "SAO TOME AND PRINCIPE"
+msgstr "SAO TOMÉ EN PRINCIPE"
+
+#: common.php:2063
+msgid "SAUDI ARABIA"
+msgstr "SAUDI-ARABIË"
+
+#: common.php:2064
+msgid "SENEGAL"
+msgstr "SENEGAL"
+
+#: common.php:2065
+msgid "SERBIA AND MONTENEGRO"
+msgstr "SERVIË EN MONTENEGRO"
+
+#: common.php:2066
+msgid "SEYCHELLES"
+msgstr "SEYCHELLEN"
+
+#: common.php:2067
+msgid "SIERRA LEONE"
+msgstr "SIERRA LEONE"
+
+#: common.php:2068
+msgid "SINGAPORE"
+msgstr "SINGAPORE"
+
+#: common.php:2069
+msgid "SLOVAKIA"
+msgstr "SLOWAKIJE"
+
+#: common.php:2070
+msgid "SLOVENIA"
+msgstr "SLOVENIË"
+
+#: common.php:2071
+msgid "SOLOMON ISLANDS"
+msgstr "SALOMONSEILANDEN"
+
+#: common.php:2072
+msgid "SOMALIA"
+msgstr "SOMALIË"
+
+#: common.php:2073
+msgid "SOUTH AFRICA"
+msgstr "ZUID AFRIKA"
+
+#: common.php:2074
+msgid "SPAIN"
+msgstr "SPANJE"
+
+#: common.php:2075
+msgid "SRI LANKA"
+msgstr "SRI LANKA"
+
+#: common.php:2076
+msgid "SUDAN"
+msgstr "SUDAN"
+
+#: common.php:2077
+msgid "SUDAN, SOUTH"
+msgstr "SOEDAN, ZUID"
+
+#: common.php:2078
+msgid "SURINAME"
+msgstr "SURINAME"
+
+#: common.php:2079
+msgid "SWAZILAND"
+msgstr "SWAZILAND"
+
+#: common.php:2080
+msgid "SWEDEN"
+msgstr "ZWEDEN"
+
+#: common.php:2081
+msgid "SWITZERLAND"
+msgstr "ZWITSERLAND"
+
+#: common.php:2082
+msgid "SYRIA"
+msgstr "SYRIË"
+
+#: common.php:2083
+msgid "TAIWAN"
+msgstr "TAIWAN"
+
+#: common.php:2084
+msgid "TAJIKISTAN"
+msgstr "TAJIKISTAN"
+
+#: common.php:2085
+msgid "TANZANIA"
+msgstr "TANZANIA"
+
+#: common.php:2086
+msgid "THAILAND"
+msgstr "THAILAND"
+
+#: common.php:2087
+msgid "TOGO"
+msgstr "TOGO"
+
+#: common.php:2088
+msgid "TONGA"
+msgstr "TONGA"
+
+#: common.php:2089
+msgid "TRINIDAD AND TOBAGO"
+msgstr "TRINIDAD EN TOBAGO"
+
+#: common.php:2090
+msgid "TUNISIA"
+msgstr "TUNESÏE"
+
+#: common.php:2091
+msgid "TURKEY"
+msgstr "TURKIJE"
+
+#: common.php:2092
+msgid "TURKMENISTAN"
+msgstr "TURKMENISTAN"
+
+#: common.php:2093
+msgid "TUVALU"
+msgstr "TUVALU"
+
+#: common.php:2094
+msgid "UGANDA"
+msgstr "OEGANDA"
+
+#: common.php:2095
+msgid "UKRAINE"
+msgstr "OEKRAÏNE"
+
+#: common.php:2096
+msgid "UNITED ARAB EMIRATES"
+msgstr "VERENIGDE ARABISCHE EMIRATEN"
+
+#: common.php:2097
+msgid "UNITED KINGDOM"
+msgstr "VERENIGD KONINKRIJK"
+
+#: common.php:2098
+msgid "UNITED STATES"
+msgstr "VERENIGDE STATEN"
+
+#: common.php:2099
+msgid "URUGUAY"
+msgstr "URUGUAY"
+
+#: common.php:2100
+msgid "UZBEKISTAN"
+msgstr "OEZBEKISTAN"
+
+#: common.php:2101
+msgid "VANUATU"
+msgstr "VANUATU"
+
+#: common.php:2102
+msgid "VATICAN CITY"
+msgstr "VATICAANSTAD"
+
+#: common.php:2103
+msgid "VENEZUELA"
+msgstr "VENEZUELA"
+
+#: common.php:2104
+msgid "VIRGIN ISLANDS, BRITISH"
+msgstr "VIRGIN ISLANDS, ENGELSE"
+
+#: common.php:2105
+msgid "VIRGIN ISLANDS, U.S."
+msgstr "VIRGIN ISLANDS, V.S"
+
+#: common.php:2106
+msgid "VIETNAM"
+msgstr "VIETNAM"
+
+#: common.php:2107
+msgid "YEMEN"
+msgstr "JEMEN"
+
+#: common.php:2108
+msgid "ZAMBIA"
+msgstr "ZAMBIË"
+
+#: common.php:2109
+msgid "ZIMBABWE"
+msgstr "ZIMBABWE"
+
+#: common.php:2115 common.php:2120
+msgid "Alabama"
+msgstr "Alabama"
+
+#: common.php:2115 common.php:2121
+msgid "Alaska"
+msgstr "Alaska"
+
+#: common.php:2115 common.php:2122
+msgid "Arizona"
+msgstr "Arizona"
+
+#: common.php:2115 common.php:2123
+msgid "Arkansas"
+msgstr "Arkansas"
+
+#: common.php:2115 common.php:2124
+msgid "California"
+msgstr "California"
+
+#: common.php:2115 common.php:2125
+msgid "Colorado"
+msgstr "Colorado"
+
+#: common.php:2115 common.php:2126
+msgid "Connecticut"
+msgstr "Connecticut"
+
+#: common.php:2115 common.php:2127
+msgid "Delaware"
+msgstr "Delaware"
+
+#: common.php:2115 common.php:2128
+msgid "District of Columbia"
+msgstr "District of Columbia"
+
+#: common.php:2115 common.php:2129
+msgid "Florida"
+msgstr "Florida"
+
+#: common.php:2115 common.php:2131
+msgid "Hawaii"
+msgstr "Hawaii"
+
+#: common.php:2115 common.php:2132
+msgid "Idaho"
+msgstr "Idaho"
+
+#: common.php:2115 common.php:2133
+msgid "Illinois"
+msgstr "Illinois"
+
+#: common.php:2115 common.php:2134
+msgid "Indiana"
+msgstr "Indiana"
+
+#: common.php:2115 common.php:2135
+msgid "Iowa"
+msgstr "Iowa"
+
+#: common.php:2115 common.php:2136
+msgid "Kansas"
+msgstr "Kansas"
+
+#: common.php:2115 common.php:2137
+msgid "Kentucky"
+msgstr "Kentucky"
+
+#: common.php:2115 common.php:2138
+msgid "Louisiana"
+msgstr "Louisiana"
+
+#: common.php:2115 common.php:2139
+msgid "Maine"
+msgstr "Maine"
+
+#: common.php:2115 common.php:2140
+msgid "Maryland"
+msgstr "Maryland"
+
+#: common.php:2115 common.php:2141
+msgid "Massachusetts"
+msgstr "Massachusetts"
+
+#: common.php:2115 common.php:2142
+msgid "Michigan"
+msgstr "Michigan"
+
+#: common.php:2115 common.php:2143
+msgid "Minnesota"
+msgstr "Minnesota"
+
+#: common.php:2115 common.php:2144
+msgid "Mississippi"
+msgstr "Mississippi"
+
+#: common.php:2115 common.php:2145
+msgid "Missouri"
+msgstr "Missouri"
+
+#: common.php:2115 common.php:2146
+msgid "Montana"
+msgstr "Montana"
+
+#: common.php:2115 common.php:2147
+msgid "Nebraska"
+msgstr "Nebraska"
+
+#: common.php:2115 common.php:2148
+msgid "Nevada"
+msgstr "Nevada"
+
+#: common.php:2115 common.php:2149
+msgid "New Hampshire"
+msgstr "New Hampshire"
+
+#: common.php:2115 common.php:2150
+msgid "New Jersey"
+msgstr "New Jersey"
+
+#: common.php:2115 common.php:2151
+msgid "New Mexico"
+msgstr "New Mexico"
+
+#: common.php:2115 common.php:2152
+msgid "New York"
+msgstr "New York"
+
+#: common.php:2115 common.php:2153
+msgid "North Carolina"
+msgstr "North Carolina"
+
+#: common.php:2115 common.php:2154
+msgid "North Dakota"
+msgstr "South Dakota"
+
+#: common.php:2115 common.php:2155
+msgid "Ohio"
+msgstr "Ohio"
+
+#: common.php:2115 common.php:2156
+msgid "Oklahoma"
+msgstr "Oklahoma"
+
+#: common.php:2115 common.php:2157
+msgid "Oregon"
+msgstr "Oregon"
+
+#: common.php:2115 common.php:2158
+msgid "Pennsylvania"
+msgstr "Pennsylvania"
+
+#: common.php:2115 common.php:2159
+msgid "Rhode Island"
+msgstr "Rhode Island"
+
+#: common.php:2115 common.php:2160
+msgid "South Carolina"
+msgstr "South Carolina"
+
+#: common.php:2115 common.php:2161
+msgid "South Dakota"
+msgstr "South Dakota"
+
+#: common.php:2115 common.php:2162
+msgid "Tennessee"
+msgstr "Tennessee"
+
+#: common.php:2115 common.php:2163
+msgid "Texas"
+msgstr "Texas"
+
+#: common.php:2115 common.php:2164
+msgid "Utah"
+msgstr "Utah"
+
+#: common.php:2115 common.php:2165
+msgid "Vermont"
+msgstr "Vermont"
+
+#: common.php:2115 common.php:2166
+msgid "Virginia"
+msgstr "Virginia"
+
+#: common.php:2115 common.php:2167
+msgid "Washington"
+msgstr "Washington"
+
+#: common.php:2115 common.php:2168
+msgid "West Virginia"
+msgstr "West Virginia"
+
+#: common.php:2115 common.php:2169
+msgid "Wisconsin"
+msgstr "Wisconsin"
+
+#: common.php:2115 common.php:2170
+msgid "Wyoming"
+msgstr "Wyoming"
+
+#: common.php:2115 common.php:2171
+msgid "Armed Forces Americas"
+msgstr "Armed Forces Americas"
+
+#: common.php:2115 common.php:2172
+msgid "Armed Forces Europe"
+msgstr "Armed Forces Europe"
+
+#: common.php:2115 common.php:2173
+msgid "Armed Forces Pacific"
+msgstr "Armed Forces Pacific"
+
+#: common.php:2183
+msgid "Alberta"
+msgstr "Alberta"
+
+#: common.php:2183
+msgid "British Columbia"
+msgstr "British Columbia"
+
+#: common.php:2183
+msgid "Manitoba"
+msgstr "Manitoba"
+
+#: common.php:2183
+msgid "New Brunswick"
+msgstr "New Brunswick"
+
+#: common.php:2183
+msgid "Newfoundland & Labrador"
+msgstr "Newfoundland & Labrador"
+
+#: common.php:2183
+msgid "Northwest Territories"
+msgstr "Northwest Territories"
+
+#: common.php:2183
+msgid "Nova Scotia"
+msgstr "Nova Scotia"
+
+#: common.php:2183
+msgid "Nunavut"
+msgstr "Nunavut"
+
+#: common.php:2183
+msgid "Ontario"
+msgstr "Ontario"
+
+#: common.php:2183
+msgid "Prince Edward Island"
+msgstr "Prins Edwardeiland"
+
+#: common.php:2183
+msgid "Quebec"
+msgstr "Quebec"
+
+#: common.php:2183
+msgid "Saskatchewan"
+msgstr "Saskatchewan"
+
+#: common.php:2183
+msgid "Yukon"
+msgstr "Yukon"
+
+#: common.php:2234
+msgid "Please enter a value between %s and %s."
+msgstr "Voer een waarde in tussen %s en %s."
+
+#: common.php:2236
+msgid "Please enter a value greater than or equal to %s."
+msgstr "Voer een waarde in groter of gelijk aan %s."
+
+#: common.php:2238
+msgid "Please enter a value less than or equal to %s."
+msgstr "Voer een waarde in kleiner of gelijk aan %s."
+
+#: common.php:2240
+msgid "Please enter a valid number"
+msgstr "Voer een geldig nummer in"
+
+#: common.php:2273 common.php:3330
+msgid "Month"
+msgstr "Maand"
+
+#: common.php:2277
+msgid "Day"
+msgstr "Dag"
+
+#: common.php:2283 common.php:3340
+msgid "Year"
+msgstr "Jaar"
+
+#: common.php:2357
+msgid "Product fields are not editable"
+msgstr "Productvelden zijn niet bewerkbaar"
+
+#: common.php:2360
+msgid "Donations are not editable"
+msgstr "Donaties zijn niet bewerkbaar"
+
+#: common.php:2396 common.php:2400
+msgid "Quantity:"
+msgstr "Aantal:"
+
+#: common.php:2479 common.php:2487
+msgid "Enter Email"
+msgstr "Voer e-mailadres in"
+
+#: common.php:2479 common.php:2487
+msgid "Confirm Email"
+msgstr "Bevestig e-mailadres"
+
+#: common.php:2577 js.php:906
+msgid "Phone format:"
+msgstr "Telefoonnummer notatie:"
+
+#: common.php:2664 common.php:3026
+msgid "delete"
+msgstr "verwijder"
+
+#: common.php:2668 js.php:519
+msgid "File"
+msgstr "Bestand"
+
+#: common.php:2677 common.php:3771 form_detail.php:1331
+msgid "Caption"
+msgstr "Onderschrift"
+
+#: common.php:2680 common.php:3772 form_detail.php:300 form_detail.php:1336
+#: form_detail.php:1755
+msgid "Description"
+msgstr "Beschrijving"
+
+#: common.php:2690
+msgid "Click to select..."
+msgstr "Klik om te selecteren..."
+
+#: common.php:2729 form_display.php:1921
+msgid "Strength indicator"
+msgstr "Sterkte-indicator"
+
+#: common.php:2736
+msgid "Enter Password"
+msgstr "Wachtwoord invoeren"
+
+#: common.php:2736
+msgid "Confirm Password"
+msgstr "Wachtwoord bevestigen"
+
+#: common.php:2756 js.php:408
+msgid "Prefix"
+msgstr "Titulatuur"
+
+#: common.php:2756 common.php:2765 js.php:408 js.php:414
+msgid "First"
+msgstr "Voornaam"
+
+#: common.php:2756 common.php:2765 js.php:408 js.php:414
+msgid "Last"
+msgstr "Achternaam"
+
+#: common.php:2756 js.php:408
+msgid "Suffix"
+msgstr "Tussenvoegsel"
+
+#: common.php:2789 common.php:3568 form_detail.php:1373
+msgid "State"
+msgstr "Staat"
+
+#: common.php:2790 common.php:3568
+msgid "Zip Code"
+msgstr "Postcode"
+
+#: common.php:2810 js.php:458
+msgid "Street Address"
+msgstr "Straat + huisnummer"
+
+#: common.php:2817 js.php:458
+msgid "Address Line 2"
+msgstr "Adresregel 2"
+
+#: common.php:2827 common.php:2843 js.php:458
+msgid "City"
+msgstr "Plaats"
+
+#: common.php:2864 js.php:459
+msgid "Country"
+msgstr "Land"
+
+#: common.php:2886 common.php:2928 common.php:2945 common.php:2959
+#: common.php:3012
+msgid "MM"
+msgstr "MM"
+
+#: common.php:2887 common.php:2923 common.php:2950 common.php:2964
+msgid "DD"
+msgstr "DD"
+
+#: common.php:2888 common.php:2933 common.php:2941 common.php:2969
+msgid "YYYY"
+msgstr "JJJJ"
+
+#: common.php:3010
+msgid "AM"
+msgstr "AM"
+
+#: common.php:3010
+msgid "PM"
+msgstr "PM"
+
+#: common.php:3012
+msgid "HH"
+msgstr "UU"
+
+#: common.php:3020
+msgid "Download file"
+msgstr "Bestand downloaden"
+
+#: common.php:3020
+msgid "Delete file"
+msgstr "Bestand verwijderen"
+
+#: common.php:3071
+msgid "To use the reCaptcha field you must first do the following:"
+msgstr "Om het reCaptcha veld te gebruiken moet je eerst het volgende doen:"
+
+#: common.php:3071
+msgid "Sign up%s for a free reCAPTCHA account"
+msgstr "Meld je aan%s voor een gratis reCAPTCHA account"
+
+#: common.php:3071
+msgid "Enter your reCAPTCHA keys in the %ssettings page%s"
+msgstr "Voer je reCAPTCHA sleutels in op de %sinstellingen pagina%s"
+
+#: common.php:3144 js.php:466
+msgid "Card Number"
+msgstr "Kaartnummer"
+
+#: common.php:3163 js.php:467
+msgid "Expiration Date"
+msgstr "Vervaldatum"
+
+#: common.php:3173 js.php:468
+msgid "Security Code"
+msgstr "Beveiligingscode"
+
+#: common.php:3179
+msgid "Cardholder Name"
+msgstr "Naam kaarthouder"
+
+#: common.php:3261
+msgid "Add a row"
+msgstr "Rij toevoegen"
+
+#: common.php:3262
+msgid "Remove this row"
+msgstr "Verwijder deze rij"
+
+#: common.php:3567 form_detail.php:1574
+msgid "International"
+msgstr "Internationaal"
+
+#: common.php:3567 js.php:459
+msgid "Zip / Postal Code"
+msgstr "Postcode"
+
+#: common.php:3567
+msgid "State / Province / Region"
+msgstr "Staat/provincie/regio"
+
+#: common.php:3569
+msgid "Canadian"
+msgstr "Canadees"
+
+#: common.php:3569 form_detail.php:1377
+msgid "Postal Code"
+msgstr "Postcode"
+
+#: common.php:3569
+msgid "Province"
+msgstr "Provincie"
+
+#: common.php:3776 common.php:3791 entry_list.php:889 entry_list.php:899
+msgid "Click to view"
+msgstr "Klik om te bekijken"
+
+#: common.php:3827
+msgid "Qty: "
+msgstr "Aantal:"
+
+#: common.php:3827
+msgid "Price: "
+msgstr "Prijs: "
+
+#: currency.php:94
+msgid "Australian Dollar"
+msgstr "Australische dollar"
+
+#: currency.php:95
+msgid "Brazilian Real"
+msgstr "Braziliaanse real"
+
+#: currency.php:96
+msgid "Canadian Dollar"
+msgstr "Canadese dollar"
+
+#: currency.php:97
+msgid "Czech Koruna"
+msgstr "Tsjechische kroon"
+
+#: currency.php:98
+msgid "Danish Krone"
+msgstr "Deense kroon"
+
+#: currency.php:99
+msgid "Euro"
+msgstr "Euro"
+
+#: currency.php:100
+msgid "Hong Kong Dollar"
+msgstr "Hongkongse dollar"
+
+#: currency.php:101
+msgid "Hungarian Forint"
+msgstr "Forint"
+
+#: currency.php:102
+msgid "Israeli New Sheqel"
+msgstr "Sjekel"
+
+#: currency.php:103
+msgid "Japanese Yen"
+msgstr "Yen"
+
+#: currency.php:104
+msgid "Malaysian Ringgit"
+msgstr "Ringgit"
+
+#: currency.php:105
+msgid "Mexican Peso"
+msgstr "Mexicaanse peso"
+
+#: currency.php:106
+msgid "Norwegian Krone"
+msgstr "Noorse kroon"
+
+#: currency.php:107
+msgid "New Zealand Dollar"
+msgstr "Nieuw-Zeelandse dollar"
+
+#: currency.php:108
+msgid "Philippine Peso"
+msgstr "Filipijnse peso"
+
+#: currency.php:109
+msgid "Polish Zloty"
+msgstr "Zloty"
+
+#: currency.php:110
+msgid "Pound Sterling"
+msgstr "Pond sterling"
+
+#: currency.php:111
+msgid "Singapore Dollar"
+msgstr "Singaporese dollar"
+
+#: currency.php:112
+msgid "Swedish Krona"
+msgstr "Zweedse kroon"
+
+#: currency.php:113
+msgid "Swiss Franc"
+msgstr "Zwitserse frank"
+
+#: currency.php:114
+msgid "Taiwan New Dollar"
+msgstr "Taiwanese dollar"
+
+#: currency.php:115
+msgid "Thai Baht"
+msgstr "Thaise baht"
+
+#: currency.php:116
+msgid "U.S. Dollar"
+msgstr "Amerikaanse dollar"
+
+#: entry_detail.php:56
+msgid "Oops! We couldn't find your lead. Please try again"
+msgstr "Oeps! We konden uw inzending niet vinden. Probeer het opnieuw"
+
+#: entry_detail.php:145
+msgid "'Would you like to delete this file? \\'Cancel\\' to stop. \\'OK\\' to delete'"
+msgstr "'Wil je dit bestand verwijderen? \\'Annuleren\\' om te stoppen. \\'OK\\' om te verwijderen'"
+
+#: entry_detail.php:154 js.php:350
+msgid "Ajax error while deleting field."
+msgstr "Ajax fout tijdens verwijderen van veld."
+
+#: entry_detail.php:199 entry_list.php:361
+msgid "You must select at least one type of notification to resend."
+msgstr "U moet ten minste één type notificatie selecteren om opnieuw te verzenden."
+
+#: entry_detail.php:218
+msgid "Notifications were resent successfully."
+msgstr "Notificaties zijn succesvol opnieuw verstuurd."
+
+#: entry_detail.php:262
+msgid "Entry #"
+msgstr "Inzending #"
+
+#: entry_detail.php:281
+msgid "Info"
+msgstr "Informatie"
+
+#: entry_detail.php:288
+msgid "Submitted on"
+msgstr "Ingediend op"
+
+#: entry_detail.php:290 export.php:641
+msgid "User IP"
+msgstr "IP gebruiker"
+
+#: entry_detail.php:295
+msgid "User"
+msgstr "Gebruiker"
+
+#: entry_detail.php:295
+msgid "View user profile"
+msgstr "Gebruikersprofiel bekijken"
+
+#: entry_detail.php:301
+msgid "Embed Url"
+msgstr "Embed URL"
+
+#: entry_detail.php:307
+msgid "Edit Post"
+msgstr "Bericht bewerken"
+
+#: entry_detail.php:307
+msgid "Click to edit post"
+msgstr "Klik om bericht te bewerken"
+
+#: entry_detail.php:313 export.php:638
+msgid "Payment Status"
+msgstr "Betalingsstatus"
+
+#: entry_detail.php:313
+msgid "Subscription Status"
+msgstr "Abonnement status"
+
+#: entry_detail.php:317 export.php:637
+msgid "Payment Date"
+msgstr "Betalingsdatum"
+
+#: entry_detail.php:317
+msgid "Start Date"
+msgstr "Startdatum"
+
+#: entry_detail.php:323 export.php:635
+msgid "Transaction Id"
+msgstr "Transactie ID"
+
+#: entry_detail.php:323
+msgid "Subscriber Id"
+msgstr "Abonnee ID"
+
+#: entry_detail.php:329 export.php:636
+msgid "Payment Amount"
+msgstr "Te betalen bedrag"
+
+#: entry_detail.php:329
+msgid "Subscription Amount"
+msgstr "Inschrijvingsbedrag"
+
+#: entry_detail.php:344 entry_list.php:622 entry_list.php:1000
+#: entry_list.php:1136
+msgid "Not Spam"
+msgstr "Geen spam"
+
+#: entry_detail.php:350 entry_detail.php:363
+msgid "You are about to delete this entry. \\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr "Je staat op het punt om deze inzending te verwijderen. \\'Annuleren\\' om te stoppen, \\'OK\\' om te verwijderen."
+
+#: entry_detail.php:350 entry_detail.php:363 entry_list.php:616
+#: entry_list.php:626 entry_list.php:984 entry_list.php:1010
+#: entry_list.php:1130 entry_list.php:1140
+msgid "Delete Permanently"
+msgstr "Verwijder permanent"
+
+#: entry_detail.php:358 entry_list.php:612 entry_list.php:974
+#: entry_list.php:1126
+msgid "Restore"
+msgstr "Herstellen"
+
+#: entry_detail.php:372
+msgid "Move to Trash"
+msgstr "Verplaats naar prullenbak"
+
+#: entry_detail.php:378
+msgid "Mark as Spam"
+msgstr "Markeren als spam"
+
+#: entry_detail.php:394 entry_list.php:760 entry_list.php:783
+#: form_detail.php:273 form_detail.php:574 form_detail.php:699
+#: form_display.php:2197 form_list.php:216 form_list.php:222
+#: gravityforms.php:1724 js.php:136
+msgid "Edit"
+msgstr "Bewerken"
+
+#: entry_detail.php:394 form_detail.php:68
+msgid "Update"
+msgstr "Update"
+
+#: entry_detail.php:399 form_detail.php:1657 gravityforms.php:984
+msgid "Cancel"
+msgstr "Annuleer"
+
+#: entry_detail.php:412 form_list.php:224 gravityforms.php:1748
+#: notification.php:375
+msgid "Notifications"
+msgstr "Notificaties"
+
+#: entry_detail.php:419 entry_list.php:675
+msgid "Admin Notification"
+msgstr "Beheerder notificatie"
+
+#: entry_detail.php:422 entry_list.php:678
+msgid "User Notification"
+msgstr "Gebruiker notificatie"
+
+#: entry_detail.php:429 entry_list.php:685
+msgid "Send To"
+msgstr "Verstuur naar"
+
+#: entry_detail.php:435 entry_list.php:324 entry_list.php:637
+#: entry_list.php:690 entry_list.php:1151
+msgid "Resend Notifications"
+msgstr "Notificaties opnieuw versturen"
+
+#: entry_detail.php:437 entry_list.php:692
+msgid "Resending..."
+msgstr "Opnieuw versturen..."
+
+#: entry_detail.php:448 entry_list.php:638 entry_list.php:724
+#: entry_list.php:1152
+msgid "Print"
+msgstr "Afdrukken"
+
+#: entry_detail.php:451
+msgid "include notes"
+msgstr "notities invoegen"
+
+#: entry_detail.php:474
+msgid "Notes"
+msgstr "Notities"
+
+#: entry_detail.php:512
+msgid "Entry Updated."
+msgstr "Inzending bijgewerkt."
+
+#: entry_detail.php:524
+msgid "Details"
+msgstr "Details"
+
+#: entry_detail.php:573
+msgid " Bulk action"
+msgstr "Bulk actie"
+
+#: entry_detail.php:575 entry_list.php:607 entry_list.php:1121
+msgid " Bulk action "
+msgstr "Bulk actie"
+
+#: entry_detail.php:576 form_detail.php:1658 form_display.php:2194
+#: form_list.php:141 form_list.php:235 form_list.php:285
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: entry_detail.php:579 entry_list.php:655 entry_list.php:1168
+#: form_list.php:146 form_list.php:290
+msgid "Apply"
+msgstr "Toepassen"
+
+#: entry_detail.php:626
+msgid "added on"
+msgstr "toegevoegd op"
+
+#: entry_detail.php:640
+msgid "Add Note"
+msgstr "Toevoegen"
+
+#: entry_detail.php:647
+msgid "Also email this note to"
+msgstr "Deze notitie ook e-mailen ook naar"
+
+#: entry_detail.php:655
+msgid "Subject:"
+msgstr "Onderwerp:"
+
+#: entry_detail.php:682 print-entry.php:50
+msgid "Entry # "
+msgstr "Inzending #"
+
+#: entry_detail.php:688
+msgid "show empty fields"
+msgstr "lege velden weergeven"
+
+#: entry_list.php:15
+msgid "You don't have any active forms. Let's go %screate one%s"
+msgstr "U heeft geen actieve formulieren. %sMaak er nu één%s"
+
+#: entry_list.php:42
+msgid "Entry deleted."
+msgstr "Inzending verwijderd."
+
+#: entry_list.php:51
+msgid "%d entries"
+msgstr "%d inzendingen"
+
+#: entry_list.php:51
+msgid "1 entry"
+msgstr "1 inzending"
+
+#: entry_list.php:56
+msgid "%s deleted."
+msgstr "%s verwijderd."
+
+#: entry_list.php:61
+msgid "%s moved to Trash."
+msgstr "%s verplaatst naar de prullenbak."
+
+#: entry_list.php:66
+msgid "%s restored from the Trash."
+msgstr "%s hersteld van de prullenbak."
+
+#: entry_list.php:71
+msgid "%s restored from the spam."
+msgstr "%s hersteld van de spam."
+
+#: entry_list.php:76
+msgid "%s marked as spam."
+msgstr "%s gemarkeerd als spam."
+
+#: entry_list.php:81
+msgid "%s marked as read."
+msgstr "%s gemarkeerd als gelezen."
+
+#: entry_list.php:86
+msgid "%s marked as unread."
+msgstr "%s gemarkeerd als ongelezen."
+
+#: entry_list.php:91
+msgid "%s starred."
+msgstr "%s met ster."
+
+#: entry_list.php:96
+msgid "%s unstarred."
+msgstr "%s zonder ster."
+
+#: entry_list.php:176
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: entry_list.php:177
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: entry_list.php:262
+msgid "Ajax error while setting lead property"
+msgstr "AJAX fout tijdens het instellen van de inzending eigenschap"
+
+#: entry_list.php:316
+msgid "Please select at least one entry."
+msgstr "Selecteer ten minste één inzending."
+
+#: entry_list.php:330
+msgid "Print Entries"
+msgstr "Inzendingen afdrukken"
+
+#: entry_list.php:383
+msgid "Notifications for %s were resent successfully."
+msgstr "Notificaties voor %s zijn succesvol opnieuw verzonden."
+
+#: entry_list.php:384
+msgid "entry"
+msgstr "inzending"
+
+#: entry_list.php:384
+msgid "entries"
+msgstr "inzendingen"
+
+#: entry_list.php:488
+msgid "Entry List"
+msgstr "Inzending lijst"
+
+#: entry_list.php:573 form_list.php:172 form_list.php:190 form_list.php:227
+#: gravityforms.php:779 gravityforms.php:1762
+msgid "Entries"
+msgstr "Inzendingen"
+
+#: entry_list.php:585 form_list.php:127 js.php:825
+msgid "All"
+msgstr "Alles"
+
+#: entry_list.php:586 gravityforms.php:1076
+msgid "Unread"
+msgstr "Ongelezen"
+
+#: entry_list.php:587
+msgid "Starred"
+msgstr "Met ster aangeduid"
+
+#: entry_list.php:591 entry_list.php:643 entry_list.php:1033
+#: entry_list.php:1156
+msgid "Spam"
+msgstr "Spam"
+
+#: entry_list.php:595 entry_list.php:649 entry_list.php:1043
+#: entry_list.php:1162
+msgid "Trash"
+msgstr "Prullenbak"
+
+#: entry_list.php:598
+msgid "Search Entries:"
+msgstr "Doorzoek inzendingen:"
+
+#: entry_list.php:599
+msgid "Search"
+msgstr "Zoeken"
+
+#: entry_list.php:605 entry_list.php:1119 form_list.php:138 form_list.php:140
+#: form_list.php:282 form_list.php:284
+msgid "Bulk action"
+msgstr "Bulk actie"
+
+#: entry_list.php:633 entry_list.php:1147
+msgid "Mark as Read"
+msgstr "Markeren als gelezen"
+
+#: entry_list.php:634 entry_list.php:1148
+msgid "Mark as Unread"
+msgstr "Markeren als ongelezen"
+
+#: entry_list.php:635 entry_list.php:1149
+msgid "Add Star"
+msgstr "Ster toevoegen"
+
+#: entry_list.php:636 entry_list.php:1150
+msgid "Remove Star"
+msgstr "Ster verwijderen"
+
+#: entry_list.php:659
+msgid "WARNING! This operation cannot be undone. Empty trash? \\'Ok\\' to empty trash. \\'Cancel\\' to abort."
+msgstr "WAARSCHUWING! Deze handeling kan niet ongedaan gemaakt worden. Prullenbak legen? \\'Ok\\' om de prullenbak te legen. \\'Annuleren\\' om af te breken."
+
+#: entry_list.php:659
+msgid "WARNING! This operation cannot be undone. Permanently delete all spam? \\'Ok\\' to delete. \\'Cancel\\' to abort."
+msgstr "WAARSCHUWING! Deze handeling kan niet ongedaan gemaakt worden. Permanent alle spam verwijderen? \\'Ok\\' om te verwijderen. \\'Annuleren\\' om af te breken."
+
+#: entry_list.php:660
+msgid "Empty Trash"
+msgstr "Prullenbak legen"
+
+#: entry_list.php:660
+msgid "Delete All Spam"
+msgstr "Verwijder alle spam"
+
+#: entry_list.php:672
+msgid "Specify which notifications you would like to resend for the selected entries."
+msgstr "Geef aan welke notificaties je opnieuw wilt versturen voor de geselecteerde inzendingen."
+
+#: entry_list.php:698
+msgid "Close Window"
+msgstr "Venster sluiten"
+
+#: entry_list.php:712
+msgid "Print all of the selected entries at once."
+msgstr "Alle geselecteerde inzendingen in één keer afdrukken."
+
+#: entry_list.php:716
+msgid "Include notes"
+msgstr "Notities invoegen"
+
+#: entry_list.php:721
+msgid "Add page break between entries"
+msgstr "Pagina-einde invoegen tussen de inzendingen"
+
+#: entry_list.php:760
+msgid "Select Columns"
+msgstr "Selecteer kolommen"
+
+#: entry_list.php:969 entry_list.php:995 entry_list.php:1022
+msgid "View this entry"
+msgstr "Bekijk deze inzending"
+
+#: entry_list.php:969 entry_list.php:995 entry_list.php:1022
+msgid "View"
+msgstr "Bekijk"
+
+#: entry_list.php:974
+msgid "Restore this entry"
+msgstr "Herstel deze inzending"
+
+#: entry_list.php:984 entry_list.php:1010
+msgid "Delete this entry permanently"
+msgstr "Verwijder deze inzending permanent"
+
+#: entry_list.php:1000
+msgid "Mark this entry as not spam"
+msgstr "Markeer deze inzending als geen spam"
+
+#: entry_list.php:1026
+msgid "Mark read"
+msgstr "Markeer gelezen"
+
+#: entry_list.php:1026
+msgid "Mark this entry as unread"
+msgstr "Markeer deze inzending als ongelezen"
+
+#: entry_list.php:1026
+msgid "Mark unread"
+msgstr "Markeer als ongelezen"
+
+#: entry_list.php:1033
+msgid "Mark this entry as spam"
+msgstr "Markeer deze inzending als spam"
+
+#: entry_list.php:1043
+msgid "Move this entry to the trash"
+msgstr "Verplaats deze inzending naar de prullenbak"
+
+#: entry_list.php:1083
+msgid "This form does not have any unread entries."
+msgstr "Dit formulier heeft geen ongelezen inzendingen."
+
+#: entry_list.php:1087
+msgid "This form does not have any starred entries."
+msgstr "Dit formulier heeft geen inzendingen met ster."
+
+#: entry_list.php:1091
+msgid "This form does not have any spam."
+msgstr "Dit formulier heeft geen spam."
+
+#: entry_list.php:1096
+msgid "This form does not have any entries in the trash."
+msgstr "Dit formulier heeft geen inzendingen in de prullenbak."
+
+#: entry_list.php:1101
+msgid "This form does not have any entries yet."
+msgstr "Dit formulier heeft nog geen inzendingen."
+
+#: entry_list.php:1314
+msgid "Displaying %s - %s of %s"
+msgstr "Toont %s - %s van %s"
+
+#: export.php:11
+msgid "Please select the fields to be exported"
+msgstr "Selecteer de velden die geëxporteerd moeten worden"
+
+#: export.php:31
+msgid "Please select the forms to be exported"
+msgstr "Selecteer de formulieren die je wilt exporteren"
+
+#: export.php:188
+msgid "Export Entries"
+msgstr "Exporteer inzendingen"
+
+#: export.php:189 export.php:313
+msgid "Export Forms"
+msgstr "Exporteer formulieren"
+
+#: export.php:190 export.php:278
+msgid "Import Forms"
+msgstr "Formulieren importeren"
+
+#: export.php:256
+msgid "Forms could not be imported. Please make sure your XML export file is in the correct format."
+msgstr "Formulieren konden niet worden geïmporteerd. Zorg er voor dat je XML export bestand correct is opgemaakt."
+
+#: export.php:261
+msgid "Forms could not be imported. Your XML export file is not compatible with your current version of Gravity Forms."
+msgstr "Formulieren konden niet worden geïmporteerd. Je XML export bestand is niet geschikt voor de huidige versie van Gravity Forms."
+
+#: export.php:266
+msgid "forms"
+msgstr "formulieren"
+
+#: export.php:266
+msgid "form"
+msgstr "formulier"
+
+#: export.php:283
+msgid "Select the Gravity Forms XML file you would like to import. When you click the import button below, Gravity Forms will import the forms."
+msgstr "Selecteer het Gravity Forms XML bestand die je wilt importeren. Zodra je klikt op de import button hieronder zal Gravity Forms de formulieren importeren."
+
+#: export.php:295
+msgid "Select File"
+msgstr "Selecteer bestand"
+
+#: export.php:300
+msgid "Import"
+msgstr "Importeer"
+
+#: export.php:318
+msgid "Select the forms you would like to export. When you click the download button below, Gravity Forms will create a XML file for you to save to your computer. Once you've saved the download file, you can use the Import tool to import the forms."
+msgstr "Selecteer de formulieren die je wilt exporteren. Zodra je klikt op de download button hieronder zal Gravity Forms een XML bestand creëren die je op je computer kunt opslaan. Zodra je het bestand hebt opgeslagen kun je de formulieren importeren via de import tool."
+
+#: export.php:324
+msgid "Select Forms"
+msgstr "Selecteer formulieren"
+
+#: export.php:344 export.php:451
+msgid "Download Export File"
+msgstr "Download exportbestand"
+
+#: export.php:364
+msgid "Ajax error while selecting a form"
+msgstr "AJAX fout tijdens selecteren formulier"
+
+#: export.php:377
+msgid "Deselect All"
+msgstr "Alles Deselecteren"
+
+#: export.php:377
+msgid "Select All"
+msgstr "Selecteer Alles"
+
+#: export.php:393
+msgid "Export Form Entries"
+msgstr "Exporteer de inzendingen van dit formulier"
+
+#: export.php:398
+msgid "Select a form below to export entries. Once you have selected a form you may select the fields you would like to export and an optional date range. When you click the download button below, Gravity Forms will create a CSV file for you to save to your computer."
+msgstr "Selecteer een formulier hieronder om inzendingen te exporteren. Zodra je een formulier hebt geselecteerd kun je de velden selecteren die je wilt exporteren en eventueel een periode opgeven. Zodra je klikt op de download button hieronder zal Gravity Forms een CSV bestand, die je op je computer kunt opslaan, creëren."
+
+#: export.php:405 gravityforms.php:1632
+msgid "Select A Form"
+msgstr "Selecteer een formulier"
+
+#: export.php:409
+msgid "Select a form"
+msgstr "Selecteer een formulier"
+
+#: export.php:423
+msgid "Select Fields"
+msgstr "Selecteer velden"
+
+#: export.php:430
+msgid "Select Date Range"
+msgstr "Selecteer periode"
+
+#: export.php:435
+msgid "Start"
+msgstr "Begin"
+
+#: export.php:440
+msgid "End"
+msgstr "Einde"
+
+#: export.php:443
+msgid "Date Range is optional, if no date range is selected all entries will be exported."
+msgstr "Periode is optioneel. Indien je geen periode instelt worden alle inzendingen geëxporteerd."
+
+#: export.php:453
+msgid "Exporting entries. Please wait..."
+msgstr "Bezig inzendingen te exporteren. Even geduld..."
+
+#: export.php:631
+msgid "Created By (User Id)"
+msgstr "Gemaakt door (gebruiker ID)"
+
+#: export.php:633
+msgid "Entry Date"
+msgstr "Inzenddatum"
+
+#: export.php:634
+msgid "Source Url"
+msgstr "Herkomst URL"
+
+#: export.php:640
+msgid "User Agent"
+msgstr "User Agent"
+
+#: form_detail.php:67 form_detail.php:1656
+msgid "Save"
+msgstr "Opslaan"
+
+#: form_detail.php:70 form_display.php:537 form_display.php:2102 js.php:383
+msgid "Previous"
+msgstr "Vorige"
+
+#: form_detail.php:71
+msgid "Select a format"
+msgstr "Selecteer een notatie"
+
+#: form_detail.php:73
+msgid "5 of %d items shown. Edit field to view all"
+msgstr "5 van %d items weergegeven. Wijzig veld om alles te bekijken"
+
+#: form_detail.php:74
+msgid "Enter a value"
+msgstr "Voer een waarde in"
+
+#: form_detail.php:75
+msgid "Untitled Form"
+msgstr "Formulier zonder titel"
+
+#: form_detail.php:76
+msgid "We would love to hear from you! Please fill out this form and we will get in touch with you shortly."
+msgstr "We horen graag van u! Vul onderstaand formulier in en wij nemen zo snel mogelijk contact met u op."
+
+#: form_detail.php:77
+msgid "Thanks for contacting us! We will get in touch with you shortly."
+msgstr "Bedankt voor uw bericht! We nemen zo snel mogelijk contact met u op."
+
+#: form_detail.php:78 form_display.php:726
+msgid "Submit"
+msgstr "Verzenden"
+
+#: form_detail.php:79 form_detail.php:1583
+msgid "show values"
+msgstr "waarden weergeven"
+
+#: form_detail.php:80
+msgid " hide values"
+msgstr "waarden verbergen"
+
+#: form_detail.php:81 notification.php:300
+msgid "Loading..."
+msgstr "Bezig met laden..."
+
+#: form_detail.php:225 gravityforms.php:777
+msgid "New Form"
+msgstr "Nieuw formulier"
+
+#: form_detail.php:225
+msgid "Form Editor :"
+msgstr "Formulier editor:"
+
+#: form_detail.php:234 form_detail.php:2335
+msgid "There was an error while saving your form."
+msgstr "Er is een fout opgetreden tijdens het opslaan van je formulier."
+
+#: form_detail.php:235 form_detail.php:2336
+msgid "Please %scontact our support team%s."
+msgstr "Neem %scontact op met ons support team%s."
+
+#: form_detail.php:243
+msgid "The form title you have entered is already taken. Please enter an unique form title."
+msgstr "Het formulier titel die u heeft ingevoerd is al in gebruik. Voer een unieke formulier titel in."
+
+#: form_detail.php:251 form_detail.php:2331
+msgid "Form updated successfully."
+msgstr "Het formulier is succesvol opgeslagen!"
+
+#: form_detail.php:269 gravityforms.php:1736
+msgid "Form Settings"
+msgstr "Instellingen"
+
+#: form_detail.php:271
+msgid "Form ID"
+msgstr "Formulier ID"
+
+#: form_detail.php:273
+msgid "Edit Form's properties"
+msgstr "Bewerk formuliereigenschappen"
+
+#: form_detail.php:283 form_detail.php:579 form_detail.php:704
+#: form_detail.php:767
+msgid "Properties"
+msgstr "Instellingen"
+
+#: form_detail.php:284 form_detail.php:580 form_detail.php:768
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: form_detail.php:285
+msgid "Confirmation"
+msgstr "Bevestiging"
+
+#: form_detail.php:308
+msgid "Label Placement"
+msgstr "Label positie"
+
+#: form_detail.php:312
+msgid "Top aligned"
+msgstr "Boven uitgelijnd"
+
+#: form_detail.php:313
+msgid "Left aligned"
+msgstr "Links uitgelijnd"
+
+#: form_detail.php:314
+msgid "Right aligned"
+msgstr "Rechts uitgelijnd"
+
+#: form_detail.php:320
+msgid "Description Placement"
+msgstr "Omschrijving plaatsing"
+
+#: form_detail.php:324
+msgid "Below inputs"
+msgstr "Onder invoervelden"
+
+#: form_detail.php:325
+msgid "Above inputs"
+msgstr "Boven invoervelden"
+
+#: form_detail.php:335
+msgid "Form Button"
+msgstr "Formulier button"
+
+#: form_detail.php:339 form_detail.php:716 form_detail.php:910
+#: form_detail.php:947
+msgid "Default"
+msgstr "Standaard"
+
+#: form_detail.php:351 form_detail.php:728 form_detail.php:922
+#: form_detail.php:959
+msgid "Text:"
+msgstr "Tekst:"
+
+#: form_detail.php:358 form_detail.php:735 form_detail.php:929
+#: form_detail.php:966
+msgid "Image Path:"
+msgstr "Afbeeldingspad:"
+
+#: form_detail.php:366 form_detail.php:2183
+msgid "Enable Conditional Logic"
+msgstr "Conditionele logica inschakelen"
+
+#: form_detail.php:377 form_detail.php:672 form_detail.php:2112
+msgid "CSS Class Name"
+msgstr "CSS klasse naam"
+
+#: form_detail.php:384
+msgid "Limit number of entries"
+msgstr "Beperk het aantal inzendingen"
+
+#: form_detail.php:390
+msgid "Number of Entries"
+msgstr "Aantal inzendingen"
+
+#: form_detail.php:395
+msgid "total entries"
+msgstr "totaal aantal inzendingen"
+
+#: form_detail.php:396
+msgid "per day"
+msgstr "per dag"
+
+#: form_detail.php:397
+msgid "per week"
+msgstr "per week"
+
+#: form_detail.php:398
+msgid "per month"
+msgstr "per maand"
+
+#: form_detail.php:399
+msgid "per year"
+msgstr "per jaar"
+
+#: form_detail.php:403
+msgid "Entry Limit Reached Message"
+msgstr "Inzending limiet bereikt bericht"
+
+#: form_detail.php:410
+msgid "Schedule form"
+msgstr "Formulier inplannen"
+
+#: form_detail.php:415
+msgid "Start Date/Time"
+msgstr "Start datum/tijd"
+
+#: form_detail.php:446
+msgid "End Date/Time"
+msgstr "Eind datum/tijd"
+
+#: form_detail.php:478
+msgid "Form Expired Message"
+msgstr "Bericht als formulier verlopen is"
+
+#: form_detail.php:485
+msgid "Enable anti-spam honeypot"
+msgstr "Anti-spam honeypot inschakelen"
+
+#: form_detail.php:489
+msgid "Enable animation"
+msgstr "Animaties inschakelen"
+
+#: form_detail.php:493
+msgid "Require user to be logged in"
+msgstr "Vereist gebruiker om in te loggen"
+
+#: form_detail.php:498
+msgid "Require Login Message"
+msgstr "Inloggen vereist bericht"
+
+#: form_detail.php:510
+msgid "Confirmation Message"
+msgstr "Bevestigingsbericht"
+
+#: form_detail.php:514
+msgid "Text"
+msgstr "Tekst"
+
+#: form_detail.php:520 js.php:78
+msgid "Page"
+msgstr "Pagina"
+
+#: form_detail.php:526
+msgid "Redirect"
+msgstr "Redirect"
+
+#: form_detail.php:536 notification.php:606 notification.php:737
+msgid "Disable Auto-formatting"
+msgstr "Auto-opmaak uitschakelen"
+
+#: form_detail.php:542
+msgid "Select a page"
+msgstr "Selecteer een pagina"
+
+#: form_detail.php:551
+msgid "Pass Field Data Via Query String"
+msgstr "Pass Field Data Via Query String"
+
+#: form_detail.php:558
+msgid "Sample: phone={Phone:1}&email{Email:2}"
+msgstr "Voorbeeld: phone={Phone:1}&email{Email:2}"
+
+#: form_detail.php:574 form_detail.php:699
+msgid "Edit Last Page"
+msgstr "Bewerk laatste pagina"
+
+#: form_detail.php:576
+msgid "First Page Options"
+msgstr "Eerste pagina opties"
+
+#: form_detail.php:587
+msgid "Progress Indicator"
+msgstr "Voortgangsindicator"
+
+#: form_detail.php:593
+msgid "Progress Bar"
+msgstr "Voortgangsbalk"
+
+#: form_detail.php:598
+msgid "Steps"
+msgstr "Stappen"
+
+#: form_detail.php:603 form_detail.php:1727
+msgid "None"
+msgstr "Geen"
+
+#: form_detail.php:612
+msgid "Style"
+msgstr "Opmaak"
+
+#: form_detail.php:616
+msgid "Blue"
+msgstr "Blauw"
+
+#: form_detail.php:617
+msgid "Gray"
+msgstr "Grijs"
+
+#: form_detail.php:618 form_detail.php:1609
+msgid "Green"
+msgstr "Groen"
+
+#: form_detail.php:619
+msgid "Orange"
+msgstr "Oranje"
+
+#: form_detail.php:620 form_detail.php:1087
+msgid "Red"
+msgstr "Rood"
+
+#: form_detail.php:627
+msgid "Text Color"
+msgstr "Tekstkleur"
+
+#: form_detail.php:634 form_detail.php:1072
+msgid "Background Color"
+msgstr "Achtergrondkleur"
+
+#: form_detail.php:641
+msgid "Page Names"
+msgstr "Pagina namen"
+
+#: form_detail.php:652
+msgid "Display completed progress bar on confirmation"
+msgstr "Voltooide voortgangsbalk weergeven bij bevestiging"
+
+#: form_detail.php:660
+msgid "Completion Text"
+msgstr "Afronding tekst"
+
+#: form_detail.php:701
+msgid "Last Page Options"
+msgstr "Opties voor laatste pagina"
+
+#: form_detail.php:710 form_detail.php:941
+msgid "Previous Button"
+msgstr "Vorige button"
+
+#: form_detail.php:749
+msgid "You have successfully saved your form!"
+msgstr "Het formulier is succesvol opgeslagen!"
+
+#: form_detail.php:750
+msgid "What would you like to do next?"
+msgstr "Wat wilt u nu doen?"
+
+#: form_detail.php:751 form_detail.php:2332 form_list.php:229
+#: gravityforms.php:1777
+msgid "Preview this form"
+msgstr "Bekijk formulier vooraf"
+
+#: form_detail.php:751
+msgid "Preview this Form"
+msgstr "Formulier vooraf bekijken"
+
+#: form_detail.php:754
+msgid "Setup email notifications for this form"
+msgstr "Stel e-mail notificaties in voor dit formulier"
+
+#: form_detail.php:754
+msgid "Setup Email Notifications for this Form"
+msgstr "Stel e-mail notificaties in voor dit formulier"
+
+#: form_detail.php:757
+msgid "Continue editing this form"
+msgstr "Ga door met bewerken van dit formulier"
+
+#: form_detail.php:757
+msgid "Continue Editing this Form"
+msgstr "Ga door met bewerken van dit formulier"
+
+#: form_detail.php:759
+msgid "I am done. Take me back to form list"
+msgstr "Ik ben klaar. Breng me terug naar formulierenoverzicht"
+
+#: form_detail.php:759
+msgid "Return to Form List"
+msgstr "Terug naar formulierenoverzicht"
+
+#: form_detail.php:777
+msgid "Field Label"
+msgstr "Veld label"
+
+#: form_detail.php:785
+msgid "Product Field"
+msgstr "Product veld"
+
+#: form_detail.php:797 form_detail.php:814 form_detail.php:849
+#: form_detail.php:863 form_detail.php:877 form_detail.php:988
+#: form_detail.php:1017 form_detail.php:1207
+msgid "Field Type"
+msgstr "Veld type"
+
+#: form_detail.php:801
+msgid "Single Product"
+msgstr "Enkel product"
+
+#: form_detail.php:804 form_detail.php:868
+msgid "User Defined Price"
+msgstr "Gebruiker gedefinieerde prijs"
+
+#: form_detail.php:806
+msgid "Calculation"
+msgstr "Berekening"
+
+#: form_detail.php:818
+msgid "Single Method"
+msgstr "Enkele methode"
+
+#: form_detail.php:839
+msgid "Disable quantity field"
+msgstr "Aantal veld uitschakelen"
+
+#: form_detail.php:892
+msgid "Content"
+msgstr "Inhoud"
+
+#: form_detail.php:905
+msgid "Next Button"
+msgstr "Volgende button"
+
+#: form_detail.php:979
+msgid "Disable default margins"
+msgstr "Standaard marges uitschakelen"
+
+#: form_detail.php:992 form_detail.php:2283
+msgid "Standard Fields"
+msgstr "Standaard velden"
+
+#: form_detail.php:993 form_detail.php:1021
+msgid "Single line text"
+msgstr "Tekstregel"
+
+#: form_detail.php:1002 form_detail.php:2284
+msgid "Advanced Fields"
+msgstr "Geavanceerde velden"
+
+#: form_detail.php:1036
+msgid "Type"
+msgstr "Type"
+
+#: form_detail.php:1040
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: form_detail.php:1041
+msgid "Really Simple CAPTCHA"
+msgstr "Really Simple CAPTCHA"
+
+#: form_detail.php:1042
+msgid "Math Challenge"
+msgstr "Reken uitdaging"
+
+#: form_detail.php:1050 form_detail.php:1621
+msgid "Size"
+msgstr "Maat"
+
+#: form_detail.php:1053 form_detail.php:1621 form_detail.php:2032
+msgid "Small"
+msgstr "Small"
+
+#: form_detail.php:1063
+msgid "Font Color"
+msgstr "Lettertype kleur"
+
+#: form_detail.php:1083
+msgid "Theme"
+msgstr "Thema"
+
+#: form_detail.php:1088
+msgid "White"
+msgstr "Wit"
+
+#: form_detail.php:1089
+msgid "Black Glass"
+msgstr "Zwart glas"
+
+#: form_detail.php:1090
+msgid "Clean"
+msgstr "Schoon"
+
+#: form_detail.php:1098
+msgid "Custom Field Name"
+msgstr "Naam aangepast veld"
+
+#: form_detail.php:1104
+msgid "Existing"
+msgstr "Bestaand"
+
+#: form_detail.php:1110
+msgid "New"
+msgstr "Nieuw"
+
+#: form_detail.php:1116
+msgid "Select an existing custom field"
+msgstr "Selecteer een bestaand aangepast veld"
+
+#: form_detail.php:1133
+msgid "Post Status"
+msgstr "Berichtstatus"
+
+#: form_detail.php:1137
+msgid "Draft"
+msgstr "Concept"
+
+#: form_detail.php:1138
+msgid "Pending Review"
+msgstr "In afwachting van beoordeling"
+
+#: form_detail.php:1139
+msgid "Published"
+msgstr "Gepubliceerd"
+
+#: form_detail.php:1147
+msgid "Default Post Author"
+msgstr "Standaard auteur"
+
+#: form_detail.php:1157
+msgid "Use logged in user as author"
+msgstr "Gebruik ingelogde gebruiker als auteur"
+
+#: form_detail.php:1169
+msgid "Post Format"
+msgstr "Bericht notatie"
+
+#: form_detail.php:1195 js.php:363
+msgid "Post Category"
+msgstr "Bericht categorie"
+
+#: form_detail.php:1229
+msgid "All Categories"
+msgstr "Alle categorieën"
+
+#: form_detail.php:1235
+msgid "Select Categories"
+msgstr "Selecteer categorieën"
+
+#: form_detail.php:1258
+msgid "Display placeholder"
+msgstr "Plaatshouder weergeven"
+
+#: form_detail.php:1264
+msgid "Placeholder Label"
+msgstr "Plaatshouder label"
+
+#: form_detail.php:1274 form_detail.php:1291 form_detail.php:1308
+msgid "Create content template"
+msgstr "Creëer content sjabloon"
+
+#: form_detail.php:1323
+msgid "Image Metadata"
+msgstr "Metagegevens van de afbeelding"
+
+#: form_detail.php:1346
+msgid "Set as Featured Image"
+msgstr "Stel in als uitgelichte afbeelding"
+
+#: form_detail.php:1358
+msgid "Address Type"
+msgstr "Adres type"
+
+#: form_detail.php:1386
+msgid "Default %s"
+msgstr "Standaard %s"
+
+#: form_detail.php:1402
+msgid "Default Country"
+msgstr "Standaard land"
+
+#: form_detail.php:1412
+msgid "Hide Country Field"
+msgstr "Verberg land veld"
+
+#: form_detail.php:1424
+msgid "Hide %s Field"
+msgstr "Verberg %s veld"
+
+#: form_detail.php:1436
+msgid "Hide Address Line 2 Field"
+msgstr "Verberg adresregel 2"
+
+#: form_detail.php:1446
+msgid "Name Format"
+msgstr "Naam notatie"
+
+#: form_detail.php:1450
+msgid "Normal"
+msgstr "Normaal"
+
+#: form_detail.php:1451
+msgid "Extended"
+msgstr "Uitgebreid"
+
+#: form_detail.php:1452
+msgid "Simple"
+msgstr "Eenvoudig"
+
+#: form_detail.php:1460
+msgid "Date Input Type"
+msgstr "Datum invoer type"
+
+#: form_detail.php:1464
+msgid "Date Field"
+msgstr "Datumveld"
+
+#: form_detail.php:1465
+msgid "Date Picker"
+msgstr "Datumkiezer"
+
+#: form_detail.php:1466
+msgid "Date Drop Down"
+msgstr "Datum uitschuifkeuzelijst"
+
+#: form_detail.php:1472
+msgid "No Icon"
+msgstr "Geen icoon"
+
+#: form_detail.php:1477
+msgid "Calendar Icon"
+msgstr "Kalendericoon"
+
+#: form_detail.php:1482
+msgid "Custom Icon"
+msgstr "Aangepast icoon"
+
+#: form_detail.php:1487
+msgid "Image Path: "
+msgstr "Afbeeldingspad:"
+
+#: form_detail.php:1490
+msgid "Preview this form to see your custom icon."
+msgstr "Voorbeeldweergave van dit formulier gebruiken om je eigen pictogram te zien."
+
+#: form_detail.php:1499
+msgid "Date Format"
+msgstr "Datum notatie"
+
+#: form_detail.php:1517
+msgid "Allowed file extensions"
+msgstr "Toegestane bestandformaten"
+
+#: form_detail.php:1521
+msgid "Separated with commas (i.e. jpg, gif, png, pdf)"
+msgstr "Kommagescheiden (bijv: jpg, gif, png, pdf)"
+
+#: form_detail.php:1530
+msgid "Enable multiple columns"
+msgstr "Meerdere kolommen inschakelen"
+
+#: form_detail.php:1542
+msgid "Maximum Rows"
+msgstr "Maximum aantal rijen"
+
+#: form_detail.php:1554
+msgid "Time Format"
+msgstr "Tijd notatie"
+
+#: form_detail.php:1558
+msgid "12 hour"
+msgstr "12 uur"
+
+#: form_detail.php:1559
+msgid "24 hour"
+msgstr "24 uur"
+
+#: form_detail.php:1569
+msgid "Phone Format"
+msgstr "Telefoon notatie"
+
+#: form_detail.php:1585
+msgid "Choices"
+msgstr "Keuzes"
+
+#: form_detail.php:1588
+msgid "Label"
+msgstr "Label"
+
+#: form_detail.php:1588
+msgid "Value"
+msgstr "Waarde"
+
+#: form_detail.php:1592
+msgid "Bulk Add / Predefined Choices"
+msgstr "Bulk toevoegen / Voorgedefinieerde keuzes"
+
+#: form_detail.php:1600
+msgid "Countries"
+msgstr "Landen"
+
+#: form_detail.php:1601
+msgid "U.S. States"
+msgstr "Amerikaanse staten"
+
+#: form_detail.php:1602
+msgid "Canadian Province/Territory"
+msgstr "Canadese provincie / gebied"
+
+#: form_detail.php:1603
+msgid "Continents"
+msgstr "Continenten"
+
+#: form_detail.php:1603
+msgid "Africa"
+msgstr "Afrika"
+
+#: form_detail.php:1603
+msgid "Antarctica"
+msgstr "Antarctica"
+
+#: form_detail.php:1603
+msgid "Asia"
+msgstr "Azië"
+
+#: form_detail.php:1603
+msgid "Europe"
+msgstr "Europa"
+
+#: form_detail.php:1603
+msgid "North America"
+msgstr "Noord-Amerika"
+
+#: form_detail.php:1603
+msgid "South America"
+msgstr "Zuid-Amerika"
+
+#: form_detail.php:1604
+msgid "Gender"
+msgstr "Geslacht"
+
+#: form_detail.php:1604
+msgid "Male"
+msgstr "Man"
+
+#: form_detail.php:1604
+msgid "Female"
+msgstr "Vrouw"
+
+#: form_detail.php:1604 form_detail.php:1605 form_detail.php:1607
+#: form_detail.php:1610 form_detail.php:1611
+msgid "Prefer Not to Answer"
+msgstr "Liever niet te beantwoorden"
+
+#: form_detail.php:1605
+msgid "Age"
+msgstr "Leeftijd"
+
+#: form_detail.php:1605
+msgid "Under 18"
+msgstr "Onder 18"
+
+#: form_detail.php:1605
+msgid "18-24"
+msgstr "18-24"
+
+#: form_detail.php:1605
+msgid "25-34"
+msgstr "25-34"
+
+#: form_detail.php:1605
+msgid "35-44"
+msgstr "35-44"
+
+#: form_detail.php:1605
+msgid "45-54"
+msgstr "45-54"
+
+#: form_detail.php:1605
+msgid "55-64"
+msgstr "55-64"
+
+#: form_detail.php:1605
+msgid "65 or Above"
+msgstr "65 of ouder"
+
+#: form_detail.php:1606
+msgid "Marital Status"
+msgstr "Burgerlijke staat"
+
+#: form_detail.php:1606
+msgid "Single"
+msgstr "Single"
+
+#: form_detail.php:1606
+msgid "Married"
+msgstr "Getrouwd"
+
+#: form_detail.php:1606
+msgid "Divorced"
+msgstr "Gescheiden"
+
+#: form_detail.php:1606
+msgid "Widowed"
+msgstr "Weduwe"
+
+#: form_detail.php:1607
+msgid "Employment"
+msgstr "Werkgelegenheid"
+
+#: form_detail.php:1607
+msgid "Employed Full-Time"
+msgstr "Full-time werkzaam"
+
+#: form_detail.php:1607
+msgid "Employed Part-Time"
+msgstr "Part-time werkzaam"
+
+#: form_detail.php:1607
+msgid "Self-employed"
+msgstr "Zelfstandig"
+
+#: form_detail.php:1607
+msgid "Not employed"
+msgstr "Niet in dienst"
+
+#: form_detail.php:1607
+msgid " but looking for work"
+msgstr "op zoek naar werk"
+
+#: form_detail.php:1607
+msgid "Not employed and not looking for work"
+msgstr "Niet in dienst en niet op zoek naar werk"
+
+#: form_detail.php:1607
+msgid "Homemaker"
+msgstr "Huisman/vrouw"
+
+#: form_detail.php:1607
+msgid "Retired"
+msgstr "Verlopen"
+
+#: form_detail.php:1607
+msgid "Student"
+msgstr "Student"
+
+#: form_detail.php:1608
+msgid "Job Type"
+msgstr "Type werk"
+
+#: form_detail.php:1608
+msgid "Full-Time"
+msgstr "Full-time"
+
+#: form_detail.php:1608
+msgid "Part-Time"
+msgstr "Deeltijd"
+
+#: form_detail.php:1608
+msgid "Per Diem"
+msgstr "Per dag"
+
+#: form_detail.php:1608
+msgid "Employee"
+msgstr "Werknemer"
+
+#: form_detail.php:1608
+msgid "Temporary"
+msgstr "Tijdelijk"
+
+#: form_detail.php:1608
+msgid "Contract"
+msgstr "Contract"
+
+#: form_detail.php:1608
+msgid "Intern"
+msgstr "Intern"
+
+#: form_detail.php:1608
+msgid "Seasonal"
+msgstr "Seizoensgebonden"
+
+#: form_detail.php:1609
+msgid "Industry"
+msgstr "Industrie"
+
+#: form_detail.php:1609
+msgid "Accounting/Finance"
+msgstr "Boekhouding/financiën"
+
+#: form_detail.php:1609
+msgid "Advertising/Public Relations"
+msgstr "Reclame / public relations"
+
+#: form_detail.php:1609
+msgid "Aerospace/Aviation"
+msgstr "Ruimtevaart/luchtvaart"
+
+#: form_detail.php:1609
+msgid "Arts/Entertainment/Publishing"
+msgstr "Kunst/entertainment/uitgever"
+
+#: form_detail.php:1609
+msgid "Automotive"
+msgstr "Automobiel"
+
+#: form_detail.php:1609
+msgid "Banking/Mortgage"
+msgstr "Bank/hypotheek"
+
+#: form_detail.php:1609
+msgid "Business Development"
+msgstr "Handelsontwikkeling"
+
+#: form_detail.php:1609
+msgid "Business Opportunity"
+msgstr "Handelsmogelijkheden"
+
+#: form_detail.php:1609
+msgid "Clerical/Administrative"
+msgstr "Bedienden/administratief"
+
+#: form_detail.php:1609
+msgid "Construction/Facilities"
+msgstr "Bouw/voorzieningen"
+
+#: form_detail.php:1609
+msgid "Consumer Goods"
+msgstr "Consumentengoederen "
+
+#: form_detail.php:1609
+msgid "Customer Service"
+msgstr "Klantenservice"
+
+#: form_detail.php:1609
+msgid "Education/Training"
+msgstr "Opleiding/training"
+
+#: form_detail.php:1609
+msgid "Energy/Utilities"
+msgstr "Energie/nutsbedrijven"
+
+#: form_detail.php:1609
+msgid "Engineering"
+msgstr "Engineering"
+
+#: form_detail.php:1609
+msgid "Government/Military"
+msgstr "Overheid/leger"
+
+#: form_detail.php:1609
+msgid "Healthcare"
+msgstr "Gezondheidszorg"
+
+#: form_detail.php:1609
+msgid "Hospitality/Travel"
+msgstr "Reisdienstverlening/reizen"
+
+#: form_detail.php:1609
+msgid "Human Resources"
+msgstr "Human resources"
+
+#: form_detail.php:1609
+msgid "Installation/Maintenance"
+msgstr "Installatie/onderhoud"
+
+#: form_detail.php:1609
+msgid "Insurance"
+msgstr "Verzekeringen"
+
+#: form_detail.php:1609
+msgid "Internet"
+msgstr "Internet"
+
+#: form_detail.php:1609
+msgid "Job Search Aids"
+msgstr "Banenmarkt"
+
+#: form_detail.php:1609
+msgid "Law Enforcement/Security"
+msgstr "Rechtshandhaving/veiligheid"
+
+#: form_detail.php:1609
+msgid "Legal"
+msgstr "Juridisch"
+
+#: form_detail.php:1609
+msgid "Management/Executive"
+msgstr "Management/directie"
+
+#: form_detail.php:1609
+msgid "Manufacturing/Operations"
+msgstr "Productie/operaties"
+
+#: form_detail.php:1609
+msgid "Marketing"
+msgstr "Marketing"
+
+#: form_detail.php:1609
+msgid "Non-Profit/Volunteer"
+msgstr "Non-profit/vrijwilliger"
+
+#: form_detail.php:1609
+msgid "Pharmaceutical/Biotech"
+msgstr "Farmaceutische/biotech"
+
+#: form_detail.php:1609
+msgid "Professional Services"
+msgstr "Professionele diensten"
+
+#: form_detail.php:1609
+msgid "QA/Quality Control"
+msgstr "QA/Quality control"
+
+#: form_detail.php:1609
+msgid "Real Estate"
+msgstr "Ontroerend goed"
+
+#: form_detail.php:1609
+msgid "Restaurant/Food Service"
+msgstr "Restaurant/etenswaar"
+
+#: form_detail.php:1609
+msgid "Retail"
+msgstr "Retail"
+
+#: form_detail.php:1609
+msgid "Sales"
+msgstr "Verkoop"
+
+#: form_detail.php:1609
+msgid "Science/Research"
+msgstr "Wetenschap/onderzoek"
+
+#: form_detail.php:1609
+msgid "Skilled Labor"
+msgstr "Geschoolde arbeidskrachten"
+
+#: form_detail.php:1609
+msgid "Technology"
+msgstr "Techologie"
+
+#: form_detail.php:1609
+msgid "Telecommunications"
+msgstr "Telecommunicatie"
+
+#: form_detail.php:1609
+msgid "Transportation/Logistics"
+msgstr "Transport/logistiek"
+
+#: form_detail.php:1610
+msgid "Income"
+msgstr "Inkomen"
+
+#: form_detail.php:1610
+msgid "Under $20,000"
+msgstr "Onder € 20.000"
+
+#: form_detail.php:1610
+msgid "$20,000 - $30,000"
+msgstr "€ 20.000 - € 30.000"
+
+#: form_detail.php:1610
+msgid "$30,000 - $40,000"
+msgstr "€ 30.000 - € 40.000"
+
+#: form_detail.php:1610
+msgid "$40,000 - $50,000"
+msgstr "€ 40.000 - € 50.000"
+
+#: form_detail.php:1610
+msgid "$50,000 - $75,000"
+msgstr "€ 50.000 - € 75.000"
+
+#: form_detail.php:1610
+msgid "$75,000 - $100,000"
+msgstr "€ 75.000 - € 100.000"
+
+#: form_detail.php:1610
+msgid "$100,000 - $150,000"
+msgstr "€ 100.000 - € 150.000"
+
+#: form_detail.php:1610
+msgid "$150,000 or more"
+msgstr "€ 150.000 of meer"
+
+#: form_detail.php:1611
+msgid "Education"
+msgstr "Opleiding"
+
+#: form_detail.php:1611
+msgid "High School"
+msgstr "Middelbare school"
+
+#: form_detail.php:1611
+msgid "Associate Degree"
+msgstr "Associate Degree"
+
+#: form_detail.php:1611
+msgid "Bachelor's Degree"
+msgstr "Bachelor"
+
+#: form_detail.php:1611
+msgid "Graduate of Professional Degree"
+msgstr "Afgestudeerd aan de professionele graad"
+
+#: form_detail.php:1611
+msgid "Some College"
+msgstr "Sommige college"
+
+#: form_detail.php:1612
+msgid "Days of the Week"
+msgstr "Dagen van de week"
+
+#: form_detail.php:1612
+msgid "Sunday"
+msgstr "Zondag"
+
+#: form_detail.php:1612
+msgid "Monday"
+msgstr "Maandag"
+
+#: form_detail.php:1612
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+#: form_detail.php:1612
+msgid "Wednesday"
+msgstr "Woensdag"
+
+#: form_detail.php:1612
+msgid "Thursday"
+msgstr "Donderdag"
+
+#: form_detail.php:1612
+msgid "Friday"
+msgstr "Vrijdag"
+
+#: form_detail.php:1612
+msgid "Saturday"
+msgstr "Zaterdag"
+
+#: form_detail.php:1613
+msgid "Months of the Year"
+msgstr "Maanden van het jaar"
+
+#: form_detail.php:1613
+msgid "January"
+msgstr "Januari"
+
+#: form_detail.php:1613
+msgid "February"
+msgstr "Februari"
+
+#: form_detail.php:1613
+msgid "March"
+msgstr "Maart"
+
+#: form_detail.php:1613
+msgid "April"
+msgstr "April"
+
+#: form_detail.php:1613
+msgid "May"
+msgstr "Mei"
+
+#: form_detail.php:1613
+msgid "June"
+msgstr "Juni"
+
+#: form_detail.php:1613
+msgid "July"
+msgstr "Juli"
+
+#: form_detail.php:1613
+msgid "August"
+msgstr "Augustus"
+
+#: form_detail.php:1613
+msgid "September"
+msgstr "September"
+
+#: form_detail.php:1613
+msgid "October"
+msgstr "Oktober"
+
+#: form_detail.php:1613
+msgid "November"
+msgstr "November"
+
+#: form_detail.php:1613
+msgid "December"
+msgstr "December"
+
+#: form_detail.php:1614
+msgid "How Often"
+msgstr "Hoe vaak"
+
+#: form_detail.php:1614
+msgid "Everyday"
+msgstr "Dagelijks"
+
+#: form_detail.php:1614
+msgid "Once a week"
+msgstr "Eén keer per week"
+
+#: form_detail.php:1614
+msgid "2 to 3 times a week"
+msgstr "2 tot 3 keer per week"
+
+#: form_detail.php:1614
+msgid "Once a month"
+msgstr "Eén keer per maand"
+
+#: form_detail.php:1614
+msgid " 2 to 3 times a month"
+msgstr "2 tot 3 keer per maand"
+
+#: form_detail.php:1614
+msgid "Less than once a month"
+msgstr "Minder dan één keer per maand"
+
+#: form_detail.php:1615
+msgid "How Long"
+msgstr "Hoe lang"
+
+#: form_detail.php:1615
+msgid "Less than a month"
+msgstr "Minder dan een maand"
+
+#: form_detail.php:1615
+msgid "1-6 months"
+msgstr "1-6 maanden"
+
+#: form_detail.php:1615
+msgid "1-3 years"
+msgstr "1-3 jaar"
+
+#: form_detail.php:1615
+msgid "Over 3 Years"
+msgstr "Meer dan 3 jaar"
+
+#: form_detail.php:1615
+msgid "Never used"
+msgstr "Nooit gebruikt"
+
+#: form_detail.php:1616
+msgid "Satisfaction"
+msgstr "Tevredenheid"
+
+#: form_detail.php:1616
+msgid "Very Satisfied"
+msgstr "Zeer tevreden"
+
+#: form_detail.php:1616
+msgid "Satisfied"
+msgstr "Tevreden"
+
+#: form_detail.php:1616
+msgid "Neutral"
+msgstr "Neutraal"
+
+#: form_detail.php:1616
+msgid "Unsatisfied"
+msgstr "Niet tevreden"
+
+#: form_detail.php:1616
+msgid "Very Unsatisfied"
+msgstr "Zeer ontevreden"
+
+#: form_detail.php:1617
+msgid "Importance"
+msgstr "Belang"
+
+#: form_detail.php:1617
+msgid "Very Important"
+msgstr "Zeer belangrijk"
+
+#: form_detail.php:1617
+msgid "Important"
+msgstr "Belangrijk"
+
+#: form_detail.php:1617
+msgid "Somewhat Important"
+msgstr "Iets  belangrijker"
+
+#: form_detail.php:1617
+msgid "Not Important"
+msgstr "Niet belangrijk"
+
+#: form_detail.php:1618
+msgid "Agreement"
+msgstr "Overeenkomst"
+
+#: form_detail.php:1618
+msgid "Strongly Agree"
+msgstr "Helemaal mee eens"
+
+#: form_detail.php:1618
+msgid "Agree"
+msgstr "Akkoord"
+
+#: form_detail.php:1618
+msgid "Disagree"
+msgstr "Oneens"
+
+#: form_detail.php:1618
+msgid "Strongly Disagree"
+msgstr "Zeer oneens"
+
+#: form_detail.php:1619
+msgid "Comparison"
+msgstr "Vergelijking"
+
+#: form_detail.php:1619
+msgid "Much Better"
+msgstr "Veel beter"
+
+#: form_detail.php:1619
+msgid "Somewhat Better"
+msgstr "Iets beter"
+
+#: form_detail.php:1619
+msgid "About the Same"
+msgstr "Ongeveer hetzelfde"
+
+#: form_detail.php:1619
+msgid "Somewhat Worse"
+msgstr "Iets slechter"
+
+#: form_detail.php:1619
+msgid "Much Worse"
+msgstr "Veel slechter"
+
+#: form_detail.php:1620
+msgid "Would You"
+msgstr "Zou je"
+
+#: form_detail.php:1620
+msgid "Definitely"
+msgstr "Absoluut"
+
+#: form_detail.php:1620
+msgid "Probably"
+msgstr "Waarschijnlijk"
+
+#: form_detail.php:1620
+msgid "Not Sure"
+msgstr "Niet zeker"
+
+#: form_detail.php:1620
+msgid "Probably Not"
+msgstr "Waarschijnlijk niet"
+
+#: form_detail.php:1620
+msgid "Definitely Not"
+msgstr "Absoluut niet"
+
+#: form_detail.php:1621
+msgid "Extra Small"
+msgstr "Extra klein"
+
+#: form_detail.php:1621
+msgid "Extra Large"
+msgstr "Extra groot"
+
+#: form_detail.php:1630
+msgid "Select a category and customize the predefined choices or paste your own list to bulk add choices."
+msgstr "Selecteer een categorie en pas de vooraf gedefinieerde keuzes aan of plak je eigen lijst om keuzes snel toe te voegen."
+
+#: form_detail.php:1648
+msgid "Insert Choices"
+msgstr "Keuzes invoegen"
+
+#: form_detail.php:1653
+msgid "Save as new custom choice"
+msgstr "Opslaan als nieuwe aangepaste keuze"
+
+#: form_detail.php:1655
+msgid "Save as"
+msgstr "Opslaan als"
+
+#: form_detail.php:1655
+msgid "Enter name"
+msgstr "Naam invoeren"
+
+#: form_detail.php:1655
+msgid "enter name"
+msgstr "naam invoeren"
+
+#: form_detail.php:1682
+msgid "Enable \"other\" choice"
+msgstr "\"Andere\" keuze inschakelen"
+
+#: form_detail.php:1695
+msgid "Enable Email Confirmation"
+msgstr "E-mail bevestiging inschakelen"
+
+#: form_detail.php:1705
+msgid "Enable Password Strength"
+msgstr "Wachtwoord sterkte inschakelen"
+
+#: form_detail.php:1716
+msgid "Enable enhanced user interface"
+msgstr "Betere gebruikersinterface inschakelen"
+
+#: form_detail.php:1723
+msgid "Minimum Strength"
+msgstr "Minimale sterkte"
+
+#: form_detail.php:1728 form_display.php:1921
+msgid "Short"
+msgstr "Kort"
+
+#: form_detail.php:1729 form_display.php:1921
+msgid "Bad"
+msgstr "Slecht"
+
+#: form_detail.php:1730 form_display.php:1921
+msgid "Good"
+msgstr "Goed"
+
+#: form_detail.php:1731 form_display.php:1921
+msgid "Strong"
+msgstr "Sterk"
+
+#: form_detail.php:1741
+msgid "Number Format"
+msgstr "Getal notatie"
+
+#: form_detail.php:1764
+msgid "Supported Credit Cards"
+msgstr "Ondersteunde creditcards"
+
+#: form_detail.php:1784
+msgid "Card Icon Style"
+msgstr "Kaart icoon opmaak"
+
+#: form_detail.php:1788 form_detail.php:1810
+msgid "Standard"
+msgstr "Standaard"
+
+#: form_detail.php:1789
+msgid "3D"
+msgstr "3D"
+
+#: form_detail.php:1799
+msgid "Input Mask"
+msgstr "Invoer mask"
+
+#: form_detail.php:1824
+msgid "Enter a custom mask"
+msgstr "Voer een aangepaste masker in"
+
+#: form_detail.php:1825
+msgid "Custom Mask Instructions"
+msgstr "Aangepaste masker instructies"
+
+#: form_detail.php:1825 gravityforms.php:795
+msgid "Help"
+msgstr "Help"
+
+#: form_detail.php:1830 form_detail.php:1953
+msgid "Usage"
+msgstr "Gebruik"
+
+#: form_detail.php:1832 form_detail.php:1955
+msgid "Use a <em>'9'</em> to indicate a numerical character."
+msgstr "Gebruik een <em>'9'</em> om een ​​numerieke karakter aan te geven."
+
+#: form_detail.php:1833 form_detail.php:1956
+msgid "Use a lower case <em>'a'</em> to indicate an alphabetical character."
+msgstr "Gebruik een kleine letter <em>'a'</em> om een ​​letter uit het alfabet aan te geven."
+
+#: form_detail.php:1834 form_detail.php:1957
+msgid "Use an asterick <em>'*'</em> to indicate any alphanumeric character."
+msgstr "Gebruik een asterisk <em>'*'</em> om een alfanumeriek teken aan te geven."
+
+#: form_detail.php:1835 form_detail.php:1958
+msgid "Use a question mark <em>'?'</em> to indicate optional characters. <em>Note:</em> All characters after the question mark will be optional."
+msgstr "Gebruik een vraagteken <em>'?'</em> om optionele tekens aan te geven. <em>Opmerking:</em> Alle tekens na het vraagteken zijn optioneel."
+
+#: form_detail.php:1836 form_detail.php:1959
+msgid "All other characters are literal values and will be displayed automatically."
+msgstr "Alle andere karakters zijn letterlijke waarden en zullen automatisch weergegeven worden."
+
+#: form_detail.php:1839
+msgid "Examples"
+msgstr "Voorbeelden"
+
+#: form_detail.php:1843 form_detail.php:1848 form_detail.php:1853
+#: form_detail.php:1858 form_detail.php:1863
+msgid "Mask"
+msgstr "Masker"
+
+#: form_detail.php:1844 form_detail.php:1849 form_detail.php:1854
+#: form_detail.php:1859 form_detail.php:1864
+msgid "Valid Input"
+msgstr "Geldige invoer"
+
+#: form_detail.php:1847
+msgid "Social Security Number"
+msgstr "Burgerservicenummer"
+
+#: form_detail.php:1852
+msgid "Course Code"
+msgstr "Cursus code"
+
+#: form_detail.php:1857
+msgid "License Key"
+msgstr "Licentiesleutel"
+
+#: form_detail.php:1862
+msgid "Zip Code w/ Optional Plus Four"
+msgstr "Postcode met optioneel plus vier"
+
+#: form_detail.php:1872
+msgid "Select a Mask"
+msgstr "Selecteer een masker"
+
+#: form_detail.php:1891
+msgid "Maximum Characters"
+msgstr "Maximaal aantal karakters"
+
+#: form_detail.php:1901
+msgid "Range"
+msgstr "Bereik"
+
+#: form_detail.php:1907
+msgid "Min"
+msgstr "Min."
+
+#: form_detail.php:1913
+msgid "Max"
+msgstr "Max."
+
+#: form_detail.php:1929
+msgid "Enable Calculation"
+msgstr "Berekening inschakelen"
+
+#: form_detail.php:1937
+msgid "Formula"
+msgstr "Formule"
+
+#: form_detail.php:1967
+msgid "Rounding"
+msgstr "Afronding"
+
+#: form_detail.php:1991
+msgid "Rules"
+msgstr "Regels"
+
+#: form_detail.php:1994
+msgid "Required"
+msgstr "Verplicht"
+
+#: form_detail.php:2000
+msgid "No Duplicates"
+msgstr "Geen duplicaten"
+
+#: form_detail.php:2018
+msgid "Admin Label"
+msgstr "Admin label"
+
+#: form_detail.php:2028
+msgid "Field Size"
+msgstr "Veldgrootte"
+
+#: form_detail.php:2042 form_detail.php:2053
+msgid "Default Value"
+msgstr "Standaardwaarde"
+
+#: form_detail.php:2063
+msgid "Validation Message"
+msgstr "Validatiebericht"
+
+#: form_detail.php:2073
+msgid "Credit Card Icon Style"
+msgstr "Creditcard icoon opmaak"
+
+#: form_detail.php:2093
+msgid "Language"
+msgstr "Taal"
+
+#: form_detail.php:2097
+msgid "English"
+msgstr "Engels"
+
+#: form_detail.php:2098
+msgid "Dutch"
+msgstr "Nederlands"
+
+#: form_detail.php:2099
+msgid "French"
+msgstr "Frans"
+
+#: form_detail.php:2100
+msgid "German"
+msgstr "Duits"
+
+#: form_detail.php:2101
+msgid "Portuguese"
+msgstr "Portugees"
+
+#: form_detail.php:2102
+msgid "Russian"
+msgstr "Russisch"
+
+#: form_detail.php:2103
+msgid "Spanish"
+msgstr "Spaans"
+
+#: form_detail.php:2104
+msgid "Turkish"
+msgstr "Turks"
+
+#: form_detail.php:2122
+msgid "Add Icon URL"
+msgstr "Toevoegen icoon URL"
+
+#: form_detail.php:2132
+msgid "Delete Icon URL"
+msgstr "Verwijder icoon URL"
+
+#: form_detail.php:2141
+msgid "Enable Password Input"
+msgstr "Wachtwoord invoerveld inschakelen"
+
+#: form_detail.php:2148
+msgid "Force SSL"
+msgstr "Forceer SSL"
+
+#: form_detail.php:2155
+msgid "Visibility"
+msgstr "Zichtbaarheid"
+
+#: form_detail.php:2159
+msgid "Everyone"
+msgstr "Iedereen"
+
+#: form_detail.php:2164
+msgid "Admin Only"
+msgstr "Alleen admin"
+
+#: form_detail.php:2173
+msgid "Allow field to be populated dynamically"
+msgstr "Sta toe dat veld dynamisch gevuld kan worden"
+
+#: form_detail.php:2194
+msgid "Enable Page Conditional Logic"
+msgstr "Pagina conditionele logica inschakelen"
+
+#: form_detail.php:2206
+msgid "Enable Next Button Conditional Logic"
+msgstr "Volgende button conditionele logica inschakelen"
+
+#: form_detail.php:2285
+msgid "Post Fields"
+msgstr "Bericht velden"
+
+#: form_detail.php:2289
+msgid "Pricing Fields"
+msgstr "Prijs velden"
+
+#: form_detail.php:2317
+msgid "Delete this Form"
+msgstr "Verwijder dit formulier"
+
+#: form_detail.php:2317
+msgid "Would you like to delete this form and ALL entries associated with it? \\'Cancel\\' to stop. \\'OK\\' to delete"
+msgstr "Wil je dit formulier en alle gerelateerde inzendingen verwijderen? \\'Annuleren\\' om te stoppen. \\'OK\\' om te verwijderen"
+
+#: form_detail.php:2317
+msgid "Delete Form"
+msgstr "Verwijder formulier"
+
+#: form_detail.php:2321
+msgid "Update Form"
+msgstr "Update formulier"
+
+#: form_detail.php:2321
+msgid "Save Form"
+msgstr "Formulier opslaan"
+
+#: form_detail.php:2332 form_list.php:229 gravityforms.php:1776
+msgid "Preview"
+msgstr "Preview"
+
+#: form_detail.php:2482
+msgid "HTTP Referer URL"
+msgstr "HTTP Referer URL"
+
+#: form_detail.php:2594
+msgid "New submission from"
+msgstr "Nieuwe inzending via"
+
+#: form_display.php:383
+msgid "Oops! We could not locate your form."
+msgstr "Helaas! Het formulier werd niet gevonden."
+
+#: form_display.php:400
+msgid "Sorry. You must be logged in to view this form."
+msgstr "Sorry. Je moet ingelogd zijn om dit formulier te bekijken."
+
+#: form_display.php:506
+msgid "There was a problem with your submission."
+msgstr "Er was een probleem met de verzending."
+
+#: form_display.php:506
+msgid "Errors have been highlighted below."
+msgstr "Fouten zijn hieronder gemarkeerd."
+
+#: form_display.php:537 form_display.php:2102
+msgid "Previous Page"
+msgstr "Vorige pagina"
+
+#: form_display.php:1031 form_display.php:1260 form_display.php:1364
+#: form_display.php:1380
+msgid "This field is required."
+msgstr "Dit veld is verplicht."
+
+#: form_display.php:1042
+msgid "This date has already been taken. Please select a new date."
+msgstr "Deze datum is al in gebruik. Selecteer een nieuwe datum."
+
+#: form_display.php:1046
+msgid "This field requires an unique entry and the values you entered have been already been used."
+msgstr "Dit veld vereist een unieke waarde en de waarden die u heeft ingevoerd zijn al in gebruik."
+
+#: form_display.php:1047
+msgid "This field requires an unique entry and '%s' has already been used"
+msgstr "Dit veld vereist een unieke inzending en '%s' is al gebruikt"
+
+#: form_display.php:1057
+msgid "Please enter a valid value."
+msgstr "Voer een geldige waarde in."
+
+#: form_display.php:1057
+msgid "Invalid selection. Please select one of the available choices."
+msgstr "Ongeldige selectie. Selecteer één van de beschikbare keuzes."
+
+#: form_display.php:1066
+msgid "Your passwords do not match."
+msgstr "Je wachtwoorden komen niet overeen."
+
+#: form_display.php:1074
+msgid "Your password does not meet the required strength. <br/>Hint: To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ & )."
+msgstr "Het wachtwoord voldoet niet aan de eisen. <br/>Tip: Om deze sterker te maken kun je een combinatie gebruiken van kleine- en hoofdletters, nummers en tekens als ! \" ? $ % ^ & )."
+
+#: form_display.php:1086
+msgid "This field is required. Please enter the first and last name."
+msgstr "Dit veld is verplicht. Voer je voornaam en achternaam in."
+
+#: form_display.php:1102
+msgid "This field is required. Please enter a complete address."
+msgstr "Dit veld is verplicht. Voer een volledig adres in."
+
+#: form_display.php:1115
+msgid "Please enter your credit card information."
+msgstr "Voer je creditcard informatie in."
+
+#: form_display.php:1123
+msgid "Please enter your card's security code."
+msgstr "Voer je kaart beveiligingscode in."
+
+#: form_display.php:1127
+msgid "Invalid credit card number."
+msgstr "Ongeldig creditcard nummer."
+
+#: form_display.php:1131
+msgid "is not supported. Please enter one of the supported credit cards."
+msgstr "wordt niet ondersteund. Voer één van de ondersteunde creditcards in."
+
+#: form_display.php:1139
+msgid "Please enter a valid email address."
+msgstr "Voer een geldig e-mailadres in."
+
+#: form_display.php:1145
+msgid "Your emails do not match."
+msgstr "Je e-mailadressen komen niet overeen."
+
+#: form_display.php:1159
+msgid "Please enter a valid amount."
+msgstr "Voer een geldig bedrag in."
+
+#: form_display.php:1172
+msgid "Please enter a valid quantity. Quantity cannot contain decimals."
+msgstr "Voor een geldig aantal in. Aantal kan geen cijfers achter de komma bevatten."
+
+#: form_display.php:1221
+msgid "Please enter a valid date in the format (%s)."
+msgstr "Voer een geldige datum in het formaat (%s)."
+
+#: form_display.php:1221
+msgid "Please enter a valid date."
+msgstr "Voer een geldige datum in."
+
+#: form_display.php:1251
+msgid "Please enter a valid time."
+msgstr "Voer een geldige tijd in."
+
+#: form_display.php:1266
+msgid "Please enter a valid Website URL (i.e. http://www.gravityforms.com)."
+msgstr "Voer een geldige website URL in (bijv: http://www.gravityforms.com)."
+
+#: form_display.php:1279 form_display.php:1314
+msgid "The CAPTCHA wasn't entered correctly. Go back and try it again."
+msgstr "De CAPTCHA is niet correct ingevoerd. Probeer het nogmaals."
+
+#: form_display.php:1335
+msgid "The reCAPTCHA wasn't entered correctly. Go back and try it again."
+msgstr "De reCAPTCHA is niet juist ingevoerd. Ga terug en probeer opnieuw."
+
+#: form_display.php:1348
+msgid "The uploaded file type is not allowed."
+msgstr "Het geüploade bestandstype is niet toegestaan."
+
+#: form_display.php:1352
+msgid "The uploaded file type is not allowed. Must be one of the following: %s"
+msgstr "Het geüploade bestand is niet toegestaan. Moet een van de volgende:%s"
+
+#: form_display.php:1368
+msgid "Please enter a valid quantity"
+msgstr "Voer een geldig aantal in"
+
+#: form_display.php:1861
+msgid "No results matched"
+msgstr "Geen overeenkomsten"
+
+#: form_display.php:1878 form_display.php:2355
+msgid "of"
+msgstr "van"
+
+#: form_display.php:1878
+msgid "max characters"
+msgstr "max. karakters"
+
+#: form_display.php:1921
+msgid "Mismatch"
+msgstr "Verkeerde combinatie"
+
+#: form_display.php:2101 js.php:381
+msgid "Next"
+msgstr "Volgende"
+
+#: form_display.php:2101
+msgid "Next Page"
+msgstr "Volgende pagina"
+
+#: form_display.php:2191
+msgid "click to duplicate this field"
+msgstr "klik om dit veld te dupliceren"
+
+#: form_display.php:2191 form_list.php:232
+msgid "Duplicate"
+msgstr "Dupliceer"
+
+#: form_display.php:2194
+msgid "click to delete this field"
+msgstr "klik om veld te verwijderen"
+
+#: form_display.php:2197
+msgid "Field ID"
+msgstr "Veld ID"
+
+#: form_display.php:2197
+msgid "click to edit this field"
+msgstr "klik om veld te bewerken"
+
+#: form_display.php:2269
+msgid "This page is unsecured. Do not enter a real credit card number. Use this field only for testing purposes. "
+msgstr "Deze pagina is niet beveiligd. Voer geen echte creditcard nummer in. Gebruik dit veld alleen voor testdoeleinden."
+
+#: form_display.php:2355
+msgid "Step"
+msgstr "Stap"
+
+#: form_display.php:2382
+msgid "Sorry. This form is no longer accepting new submissions."
+msgstr "Sorry. Dit formulier accepteert geen nieuwe inzendingen."
+
+#: form_display.php:2398
+msgid "Sorry. This form is no longer available."
+msgstr "Sorry. Dit formulier is niet langer beschikbaar."
+
+#: form_list.php:72 form_list.php:129 form_list.php:213
+msgid "Inactive"
+msgstr "Inactief"
+
+#: form_list.php:76 form_list.php:128 form_list.php:213
+msgid "Active"
+msgstr "Actief"
+
+#: form_list.php:89
+msgid "Ajax error while update form"
+msgstr "Ajax fout tijdens bijwerken formulier"
+
+#: form_list.php:103 form_list.php:235
+msgid "WARNING: You are about to delete this form and ALL entries associated with it. "
+msgstr "WAARSCHUWING: Je staat op het punt dit formulier en alle geassocieerde inzendingen te verwijderen."
+
+#: form_list.php:103 form_list.php:107 form_list.php:235
+msgid "\\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr "\\'Annuleren\\' om te stoppen, \\'OK\\' om te verwijderen."
+
+#: form_list.php:105
+msgid "Are you sure you would like to reset the Views for the selected forms? "
+msgstr "Weet je zeker dat je de weergave van de geselecteerde formulieren wilt herstellen?"
+
+#: form_list.php:105
+msgid "\\'Cancel\\' to stop, \\'OK\\' to reset."
+msgstr "\\'Annuleren\\' om te stoppen, \\'OK\\' om te resetten."
+
+#: form_list.php:107
+msgid "WARNING: You are about to delete ALL entries associated with the selected forms. "
+msgstr "WAARSCHUWING: Je bent van plan om ALLE inzendingen gekoppeld aan de geselecteerde formulieren te verwijderen."
+
+#: form_list.php:118 gravityforms.php:770 gravityforms.php:772
+#: gravityforms.php:775 gravityforms.php:1062
+msgid "Forms"
+msgstr "Formulieren"
+
+#: form_list.php:119
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: form_list.php:142 form_list.php:286
+msgid "Reset Views"
+msgstr "Reset weergaven"
+
+#: form_list.php:143 form_list.php:287
+msgid "Delete Entries"
+msgstr "Verwijder inzendingen"
+
+#: form_list.php:169 form_list.php:187
+msgid "Id"
+msgstr "ID"
+
+#: form_list.php:171 form_list.php:189
+msgid "Views"
+msgstr "Weergaves"
+
+#: form_list.php:173 form_list.php:191
+msgid "Conversion"
+msgstr "Conversie"
+
+#: form_list.php:227 gravityforms.php:1763
+msgid "View entries generated by this form"
+msgstr "Bekijk inzendingen van dit formulier."
+
+#: form_list.php:224
+msgid "Edit notifications sent by this form"
+msgstr "Wijzig notificaties verzonden door dit formulier"
+
+#: form_list.php:232
+msgid "Duplicate this form"
+msgstr "Dupliceer dit formulier"
+
+#: form_list.php:269
+msgid "You don't have any forms. Let's go %screate one%s!"
+msgstr "U heeft geen formulieren. %sMaak er nu één%s!"
+
+#: forms_model.php:406 forms_model.php:724
+msgid "You don't have adequate permission to delete entries."
+msgstr "Je hebt onvoldoende toestemming om gegevens te verwijderen."
+
+#: forms_model.php:460
+msgid "You don't have adequate permission to delete forms."
+msgstr "Je hebt onvoldoende rechten om formulieren te verwijderen."
+
+#: forms_model.php:488
+msgid "You don't have adequate permission to create forms."
+msgstr "Je hebt onvoldoende toestemming om formulieren te creëren."
+
+#: forms_model.php:773
+msgid "You don't have adequate permission to delete notes."
+msgstr "Je hebt onvoldoende toestemming om notities te verwijderen."
+
+#: forms_model.php:802
+msgid "You don't have adequate permission to edit entries."
+msgstr "Je hebt onvoldoende toestemming om gegevens te bewerken."
+
+#: gravityforms.php:765
+msgid "Update Available"
+msgstr "Update beschikbaar"
+
+#: gravityforms.php:786 gravityforms.php:1002 gravityforms.php:1736
+msgid "Settings"
+msgstr "Instellingen"
+
+#: gravityforms.php:788
+msgid "Import/Export"
+msgstr "Importeer/exporteer"
+
+#: gravityforms.php:791
+msgid "Updates"
+msgstr "Updates"
+
+#: gravityforms.php:792 help.php:39
+msgid "Add-Ons"
+msgstr "Add-ons"
+
+#: gravityforms.php:912 gravityforms.php:927
+msgid "Add Gravity Form"
+msgstr "Voeg Gravity Form toe"
+
+#: gravityforms.php:927
+msgid "Add Form"
+msgstr "Formulier toevoegen"
+
+#: gravityforms.php:938
+msgid "Please select a form"
+msgstr "Selecteer een formulier"
+
+#: gravityforms.php:958
+msgid "Insert A Form"
+msgstr "Formulier invoegen"
+
+#: gravityforms.php:960
+msgid "Select a form below to add it to your post or page."
+msgstr "Selecteer hieronder een formulier om het aan je bericht of pagina toe te voegen"
+
+#: gravityforms.php:965
+msgid "Select a Form"
+msgstr "Selecteer een formulier"
+
+#: gravityforms.php:975
+msgid "Can't find your form? Make sure it is active."
+msgstr "Kun je een formulier niet vinden? Zorg dat het actief is."
+
+#: gravityforms.php:978
+msgid "Display form title"
+msgstr "Formulier titel weergeven"
+
+#: gravityforms.php:979
+msgid "Display form description"
+msgstr "Formulier beschrijving weergeven"
+
+#: gravityforms.php:980
+msgid "Enable AJAX"
+msgstr "AJAX inschakelen"
+
+#: gravityforms.php:1017
+msgid "There is a new version of Gravity Forms available."
+msgstr "Nieuwe versie van Gravity Forms beschikbaar"
+
+#: gravityforms.php:1017
+msgid "View version %s Details"
+msgstr "Bekijk details van versie %s"
+
+#: gravityforms.php:1018
+msgid "<a href=\""
+msgstr "<a href=\""
+
+#: gravityforms.php:1047
+msgid "Oops!! Something went wrong.<br/>Please try again or <a href='http://www.gravityforms.com'>contact us</a>."
+msgstr "Er is iets verkeerd gegaan.<br/>Probeer opnieuw of neem <a href='http://www.gravityforms.com'>contact met ons op</a>."
+
+#: gravityforms.php:1089 gravityforms.php:1092
+msgid "View All Entries"
+msgstr "Bekijk alle inzendingen"
+
+#: gravityforms.php:1091
+msgid "Last Entry: %s"
+msgstr "Laatste inzending: %s"
+
+#: gravityforms.php:1102
+msgid "View All Forms"
+msgstr "Bekijk alle formulieren"
+
+#: gravityforms.php:1109
+msgid "You don't have any forms. Let's go %s create one %s!"
+msgstr "U heeft geen formulieren. %s Maak er nu één %s! "
+
+#: gravityforms.php:1139
+msgid "There is an update available for Gravity Forms. %sView Details%s %s"
+msgstr "Er is een update beschikbaar voor Gravity Forms. %sBekijk details%s %s"
+
+#: gravityforms.php:1142
+msgid "Dismiss"
+msgstr "Ontheffen"
+
+#: gravityforms.php:1241
+msgid "Add-On browser is currently unavailable. Please try again later."
+msgstr "Add-on browser is momenteel niet beschikbaar. Probeer het later opnieuw."
+
+#: gravityforms.php:1377
+msgid "There was an error while resending the notifications."
+msgstr "Er was een fout tijdens het opnieuw versturen van de notificaties."
+
+#: gravityforms.php:1389
+msgid "The <strong>Send To</strong> email address provided is not valid."
+msgstr "Het opgegeven <strong>verstuur naar</strong> e-mailadres is ongeldig."
+
+#: gravityforms.php:1724
+msgid "Form Editor"
+msgstr "Formulier editor"
+
+#: gravityforms.php:1637
+msgid "Switch Form"
+msgstr "Switch formulier"
+
+#: help.php:13
+msgid "Gravity Forms Help"
+msgstr "Gravity Forms versie"
+
+#: help.php:17
+msgid "<strong>IMPORTANT NOTICE:</strong> We do not provide support via e-mail. Please post any support queries in our <a href='http://forum.gravityhelp.com/'>support forums</a>."
+msgstr "<strong>BELANGRIJK BERICHT:</strong> Wij bieden geen support aan via e-mail. Wij adviseren je om vragen te stellen via ons <a href='http://forum.gravityhelp.com/'>support forum</a>."
+
+#: help.php:19
+msgid "Please review the plugin documentation and <a href='http://www.gravityhelp.com/frequently-asked-questions/'>frequently asked questions (FAQ)</a> first. If you still can't find the answer you need visit our <a href='http://forum.gravityhelp.com/'>support forums</a> where we will be happy to answer your questions and assist you with any problems. <strong>Please note:</strong> If you have not <a href='http://www.gravityforms.com/purchase-gravity-forms/'>purchased a license</a> from us, you won't have access to these help resources."
+msgstr "Lees eerst de plugin documentatie en de <a href='http://www.gravityhelp.com/frequently-asked-questions/'>veelgestelde vragen (FAQ)</a>. Als je nog steeds niet het antwoord kunt vinden bezoek dan ons <a href='http://forum.gravityhelp.com/'>support forum</a> waar we graag je vragen beantwoorden en je helpen met problemen. <strong>Let op:</strong> Als je nog niet <a href='http://www.gravityforms.com/purchase-gravity-forms/'>een licentie hebt gekocht</a>, dan heb je geen toegang tot deze hulpbronnen."
+
+#: help.php:24
+msgid "Gravity Forms Documentation"
+msgstr "Gravity Forms documentatie"
+
+#: help.php:25
+msgid "<strong>Note:</strong> Only licensed Gravity Forms customers are granted access to the documentation section."
+msgstr "<strong>Opmerking:</strong> Alleen gebruikers met een Gravity Forms licentie hebben toegang tot de documentatie sectie."
+
+#: help.php:33
+msgid "Documentation (please select a topic)"
+msgstr "Documentatie (kies een onderwerp)"
+
+#: help.php:34
+msgid "Getting Started"
+msgstr "Aan de slag"
+
+#: help.php:36
+msgid "Using Gravity Forms"
+msgstr "Gravity Forms gebruiken"
+
+#: help.php:37
+msgid "Design and Layout"
+msgstr "Ontwerp en lay-out"
+
+#: help.php:38
+msgid "Developer Docs"
+msgstr "Ontwikkelaar documenten"
+
+#: help.php:40
+msgid "How To"
+msgstr "Hoe te"
+
+#: help.php:44 help.php:70 help.php:120 help.php:145
+msgid "GO"
+msgstr "Ga"
+
+#: help.php:53
+msgid "Gravity Forms FAQ"
+msgstr "Gravity Forms FAQ"
+
+#: help.php:54
+msgid "<strong>Please Note:</strong> Only licensed Gravity Forms customers are granted access to the FAQ section."
+msgstr "<strong>Opmerking:</strong> Alleen gebruikers met een Gravity Forms licentie hebben toegang tot de FAQ sectie."
+
+#: help.php:62
+msgid "FAQ (please select a topic)"
+msgstr "FAQ (kies een onderwerp)"
+
+#: help.php:63
+msgid "Installation Questions"
+msgstr "Installatie vragen"
+
+#: help.php:64
+msgid "Formatting/Styling Questions"
+msgstr "Opmaak/vormgeving vragen"
+
+#: help.php:65
+msgid "Notification Questions"
+msgstr "Notificatie vragen"
+
+#: help.php:66
+msgid "General Questions"
+msgstr "Algemene vragen"
+
+#: help.php:80
+msgid "Gravity Forms Support Forums"
+msgstr "Gravity Forms support fora"
+
+#: help.php:81
+msgid "<strong>Please Note:</strong> Only licensed Gravity Forms customers are granted access to the support forums."
+msgstr "<strong>Opmerking:</strong> Alleen gebruikers met een Gravity Forms licentie hebben toegang tot het support forum."
+
+#: help.php:89
+msgid "Forums (please select a topic)"
+msgstr "Fora (kies een onderwerp)"
+
+#: help.php:90
+msgid "General"
+msgstr "Algemeen"
+
+#: help.php:91
+msgid "News &amp; Announcements"
+msgstr "Nieuws &amp; aankondigingen"
+
+#: help.php:92
+msgid "Pre-Sale Questions"
+msgstr "Pre-Sale vragen"
+
+#: help.php:94
+msgid "Feature Requests"
+msgstr "Functie verzoeken"
+
+#: help.php:95
+msgid "Testimonials"
+msgstr "Getuigenissen"
+
+#: help.php:97
+msgid "Plugin Support"
+msgstr "Plugin support"
+
+#: help.php:98 help.php:140
+msgid "Gravity Forms"
+msgstr "Gravity Forms"
+
+#: help.php:102
+msgid "Gravity Forms MailChimp Add-On"
+msgstr "Gravity Forms MailChimp add-on"
+
+#: help.php:103
+msgid "Gravity Forms Campaign Monitor Add-On"
+msgstr "Gravity Forms Campaign Monitor add-on"
+
+#: help.php:108
+msgid "Gravity Forms FreshBooks Add-On"
+msgstr "Gravity Forms FreshBooks add-on"
+
+#: help.php:109
+msgid "Gravity Forms PayPal Add-On"
+msgstr "Gravity Forms PayPal add-on"
+
+#: help.php:110
+msgid "Gravity Forms User Registration Add-On"
+msgstr "Gravity Forms User Registration add-on"
+
+#: help.php:130
+msgid "Gravity Forms Downloads"
+msgstr "Gravity Forms downloads"
+
+#: help.php:131
+msgid "<strong>Please Note:</strong> Only licensed Gravity Forms customers are granted access to the downloads section."
+msgstr "<strong>Let op:</strong> Alleen gebruikers met een licentie hebben toegang tot de downloads sectie."
+
+#: help.php:139
+msgid "Downloads (please select a product)"
+msgstr "Downloads (selecteer een product)"
+
+#: help.php:141
+msgid "Gravity Forms Add-Ons"
+msgstr "Gravity Forms add-ons"
+
+#: help.php:156
+msgid "Gravity Forms Tutorials &amp; Resources"
+msgstr "Gravity Forms tutorials &amp; resources"
+
+#: help.php:157
+msgid "<strong>Please note:</strong> The Gravity Forms support team does not provide support for third party scripts, widgets, etc."
+msgstr "<strong>Let op:</strong> Gravity Forms medewerkers leveren geen support op scripts die niet door hun zelf zijn ontwikkeld. "
+
+#: js.php:6
+msgid "Delete this custom choice list? 'OK' to delete, 'Cancel' to abort."
+msgstr "Verwijder deze aangepaste keuzelijst? 'OK' om te verwijderen, 'Annuleren' om te annuleren."
+
+#: js.php:20
+msgid "Item has been deleted."
+msgstr "Item is verwijderd."
+
+#: js.php:27
+msgid "Please enter name."
+msgstr "Voer een naam in."
+
+#: js.php:31
+msgid "This custom choice name is already in use. Please enter another name."
+msgstr "Deze maatwerk keuze naam is al in gebruik. Voer een andere naam in."
+
+#: js.php:50
+msgid "Item has been saved."
+msgstr "Item is opgeslagen."
+
+#: js.php:61 js.php:224
+msgid "To use conditional logic, please create a drop down, checkbox or radio button field."
+msgstr "Voor het gebruik van conditionele logica, maak een uitschuifkeuzelijst, selectievakje of keuzerondjes veld."
+
+#: js.php:113
+msgid "Completed"
+msgstr "Voltooid"
+
+#: js.php:131
+msgid "Close"
+msgstr "Sluiten"
+
+#: js.php:147
+msgid "Select a category"
+msgstr "Selecteer een categorie"
+
+#: js.php:160
+msgid "Parameter Name:"
+msgstr "Parameter naam:"
+
+#: js.php:189
+msgid "This field is not associated with a product. Please add a Product Field to the form."
+msgstr "Dit veld is niet geassocieerd met een product. Voeg een product veld toe aan het formulier."
+
+#: js.php:207
+msgid "Deleted Field"
+msgstr "Verwijder veld"
+
+#: js.php:245
+msgid "Column 1"
+msgstr "Kolom 1"
+
+#: js.php:245
+msgid "Column 2"
+msgstr "Kolom 2"
+
+#: js.php:245
+msgid "Column 3"
+msgstr "Kolom 3"
+
+#: js.php:261
+msgid "The form title you have entered is already taken. Please enter an unique form title"
+msgstr "De gekozen formuliertitel is al in gebruik. Geef het formulier een unieke naam."
+
+#: js.php:267
+msgid "Please enter a Title for this form. When adding the form to a page or post, you will have the option to hide the title."
+msgstr "Vul een titel in voor dit formulier. Wanneer het formulier aan een pagina wordt gekoppeld heb je de optie om de titel te verbergen."
+
+#: js.php:278
+msgid "Your form currently has one ore more pages without any fields in it. Blank pages are a result of Page Breaks that are positioned as the first or last field in the form or right after to each other. Please adjust your Page Breaks and try again."
+msgstr "Je formulier bevat momenteel pagina's waar geen velden in staan. Lege pagina's zijn het gevolg van pagina-einden die als eerst, laatst of opeenvolgend gepositioneerd zijn binnen het formulier. Pas je pagina-einden aan en probeer het nogmaals."
+
+#: js.php:286
+msgid "Your form currently has a product field with a blank label. \\nPlease enter a label for all product fields."
+msgstr "Je formulier bevat momenteel een product veld met een leeg label. \\nVoer een label in voor alle product velden."
+
+#: js.php:295
+msgid "Your form currently has an option field without a product field.\\nYou must add a product field to your form."
+msgstr "Je formulier heeft op dit moment een optie veld zonder een product veld.\\nJe moet een product veld toevoegen aan je formulier."
+
+#: js.php:331
+msgid "Ajax error while saving form"
+msgstr "AJAX fout tijdens opslaan van formulier"
+
+#: js.php:340
+msgid "Warning! Deleting this field will also delete all entry data associated with it. \\'Cancel\\' to stop. \\'OK\\' to delete"
+msgstr "Let op! Door dit veld te verwijderen zullen alle gekoppelde gegevens verloren gaan. \\'Annulerenl\\' om te stoppen. \\'OK\\' om te verwijderen"
+
+#: js.php:387
+msgid "HTML Block"
+msgstr "HTML blok"
+
+#: js.php:421 js.php:434 js.php:446 js.php:663
+msgid "Untitled"
+msgstr "Geen titel"
+
+#: js.php:424 js.php:438 js.php:439 js.php:450 js.php:451
+msgid "First Choice"
+msgstr "Eerste keuze"
+
+#: js.php:424 js.php:438 js.php:439 js.php:450 js.php:451
+msgid "Second Choice"
+msgstr "Tweede keuze"
+
+#: js.php:424 js.php:438 js.php:439 js.php:450 js.php:451
+msgid "Third Choice"
+msgstr "Derde keuze"
+
+#: js.php:459
+msgid "State / Province"
+msgstr "Provincie"
+
+#: js.php:469
+msgid "Card Type"
+msgstr "Kaart type"
+
+#: js.php:470
+msgid "Cardholder\\'s Name"
+msgstr "Naam kaarthouder"
+
+#: js.php:524
+msgid "Hidden Field"
+msgstr "Verborgen veld"
+
+#: js.php:528
+msgid "Post Title"
+msgstr "Titel van bericht"
+
+#: js.php:532
+msgid "Post Body"
+msgstr "Berichttekst"
+
+#: js.php:536
+msgid "Post Excerpt"
+msgstr "Samenvatting"
+
+#: js.php:541
+msgid "Post Tags"
+msgstr "Bericht tags"
+
+#: js.php:548
+msgid "Post Custom Field"
+msgstr "Bericht aangepast veld"
+
+#: js.php:551
+msgid "Post Image"
+msgstr "Bericht afbeelding"
+
+#: js.php:559
+msgid "Captcha"
+msgstr "Captcha"
+
+#: js.php:567
+msgid "Product Name"
+msgstr "Product naam"
+
+#: js.php:609
+msgid "First Option"
+msgstr "Eerste optie"
+
+#: js.php:609
+msgid "Second Option"
+msgstr "Tweede optie"
+
+#: js.php:609
+msgid "Third Option"
+msgstr "Derde optie"
+
+#: js.php:620
+msgid "Donation"
+msgstr "Donatie"
+
+#: js.php:694
+msgid "Only one reCAPTCHA field can be added to the form."
+msgstr "Er kan maar één reCAPTCHA veld toegevoegd worden aan het formulier"
+
+#: js.php:705
+msgid "Only one Shipping field can be added to the form"
+msgstr "Er kan maar één verzending veld toegevoegd worden aan het formulier"
+
+#: js.php:712
+msgid "Only one Post Content field can be added to the form"
+msgstr "Er kan maar één bericht inhoud veld toegevoegd worden aan het formulier"
+
+#: js.php:718
+msgid "Only one Post Title field can be added to the form"
+msgstr "Er kan maar  één bericht titel veld toegevoegd worden aan het formulier"
+
+#: js.php:724
+msgid "Only one Post Excerpt field can be added to the form"
+msgstr "Er kan maar één bericht samenvatting veld toegevoegd worden aan het formulier"
+
+#: js.php:730
+msgid "Only one credit card field can be added to the form"
+msgstr "Er kan maar één creditcard veld toegevoegd worden aan het formulier"
+
+#: js.php:737
+msgid "You must add a product field to the form first"
+msgstr "U moet eerst een product veld toevoegen aan het formulier"
+
+#: js.php:759
+msgid "Ajax error while adding field"
+msgstr "AJAX fout tijdens toevoegen veld"
+
+#: js.php:774
+msgid "Ajax error while duplicating field"
+msgstr "AJAX fout tijdens dupliceren veld"
+
+#: js.php:798
+msgid "Ajax error while changing input type"
+msgstr "AJAX fout tijdens wijzigen input type"
+
+#: js.php:817
+msgid "this field if"
+msgstr "dit veld als"
+
+#: js.php:819
+msgid "this page"
+msgstr "deze pagina"
+
+#: js.php:821
+msgid "this form button"
+msgstr "deze formulier button"
+
+#: js.php:823
+msgid "Show"
+msgstr "Toon"
+
+#: js.php:823
+msgid "Hide"
+msgstr "Verberg"
+
+#: js.php:825
+msgid "Any"
+msgstr "één"
+
+#: js.php:826
+msgid "of the following match:"
+msgstr "van de volgende passende:"
+
+#: js.php:838 notification.php:180 notification.php:449
+msgid "is"
+msgstr "is"
+
+#: js.php:838 notification.php:181 notification.php:450
+msgid "is not"
+msgstr "is niet"
+
+#: js.php:838 notification.php:182 notification.php:451
+msgid "greater than"
+msgstr "groter dan"
+
+#: js.php:838 notification.php:183 notification.php:452
+msgid "less than"
+msgstr "minder dan"
+
+#: js.php:838 notification.php:184 notification.php:453
+msgid "contains"
+msgstr "bevat"
+
+#: js.php:838 notification.php:185 notification.php:454
+msgid "starts with"
+msgstr "begint met"
+
+#: js.php:838 notification.php:186 notification.php:455
+msgid "ends with"
+msgstr "eindigt met"
+
+#: js.php:872
+msgid "Drag to re-order"
+msgstr "Versleep om volgorde te wijzigen"
+
+#: js.php:881
+msgid "add another choice"
+msgstr "andere keuze toevoegen"
+
+#: js.php:884
+msgid "remove this choice"
+msgstr "verwijder deze keuze"
+
+#: js.php:915
+msgid "Select a field"
+msgstr "Selecteer een veld"
+
+#: js.php:915
+msgid "User IP Address"
+msgstr "IP-adres gebruiker"
+
+#: notification.php:177 notification.php:446
+msgid "Send to"
+msgstr "Stuur naar"
+
+#: notification.php:178 notification.php:447
+msgid "if"
+msgstr "als"
+
+#: notification.php:325 notification.php:893
+msgid "Enter value"
+msgstr "Voer waarde in"
+
+#: notification.php:381
+msgid "Notification to Administrator"
+msgstr "Notificatie voor beheerders"
+
+#: notification.php:386
+msgid "Enable email notification to administrators"
+msgstr "E-mail notificatie voor beheerders inschakelen"
+
+#: notification.php:389
+msgid "Enter a message below to receive a notification email when users submit this form."
+msgstr "Type hieronder een bericht om een notificatie te krijgen als een gebruiker het formulier ingevuld heeft."
+
+#: notification.php:398
+msgid "Send To Email"
+msgstr "Verstuur aan e-mail"
+
+#: notification.php:409
+msgid "Routing"
+msgstr "Routing"
+
+#: notification.php:417
+msgid "Please enter a valid email address"
+msgstr "Voer een geldig e-mailadres in"
+
+#: notification.php:428
+msgid "To use notification routing, your form must have a field supported by conditional logic."
+msgstr "Om gebruik te maken van notificatie routing moet je formulier een veld bevatten die ondersteund wordt door conditionele logica."
+
+#: notification.php:467
+msgid "Please enter a valid email address for all highlighted routing rules above."
+msgstr "Voer een geldig e-mailadres in voor alle gemarkeerde routing regels hierboven."
+
+#: notification.php:479 notification.php:663
+msgid "From Name"
+msgstr "Afzender naam"
+
+#: notification.php:486 notification.php:511 notification.php:537
+msgid "OR"
+msgstr "OR"
+
+#: notification.php:488
+msgid "Select a name field"
+msgstr "Selecteer een naam veld"
+
+#: notification.php:504 notification.php:670
+msgid "From Email"
+msgstr "Van"
+
+#: notification.php:513 notification.php:539
+msgid "Select an email field"
+msgstr "Selecteer een e-mailveld"
+
+#: notification.php:530
+msgid "Reply To"
+msgstr "Beantwoord aan"
+
+#: notification.php:555 notification.php:684
+msgid "BCC"
+msgstr "BCC"
+
+#: notification.php:567 notification.php:697
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: notification.php:575
+msgid "Please enter a subject for the notification email"
+msgstr "Voer in een onderwerp in voor de notificatie e-mail"
+
+#: notification.php:586 notification.php:716
+msgid "Message"
+msgstr "Bericht"
+
+#: notification.php:598
+msgid "Please enter a message for the notification email"
+msgstr "Voer een bericht in voor de notificatie e-mail"
+
+#: notification.php:619
+msgid "Notification to User"
+msgstr "Notificatie voor gebruiker"
+
+#: notification.php:630
+msgid "Your form does not have any %semail%s field."
+msgstr "Je formulier heeft geen enkel %se-mail%s veld."
+
+#: notification.php:632
+msgid "Sending notifications to users require that the form has at least one email field. %sEdit your form%s"
+msgstr "Het versturen van notificaties aan gebruikers vereist minimaal één e-mailveld in het formulier. %sWijzig je formulier%s"
+
+#: notification.php:639
+msgid "Enable email notification to users"
+msgstr "E-mail notificatie voor gebruikers inschakelen"
+
+#: notification.php:643
+msgid "Enter a message below to send users an automatic response when they submit this form."
+msgstr "Vul hieronder een bericht in om gebruikers automatisch een notificatie te sturen als zij het formulier invullen."
+
+#: notification.php:647
+msgid "Send To Field"
+msgstr "Verstuur naar veld"
+
+#: notification.php:677
+msgid "Reply To (optional)"
+msgstr "Beantwoord aan (optioneel)"
+
+#: notification.php:705
+msgid "Please enter a subject for the user notification email"
+msgstr "Voer en onderwerp in voor de gebruiker notificatie e-mail"
+
+#: notification.php:729
+msgid "Please enter a message for the user notification email"
+msgstr "Voer een bericht in voor de gebruiker notificatie e-mail"
+
+#: notification.php:755
+msgid "Save Settings"
+msgstr "Instellingen opslaan"
+
+#: notification.php:768
+msgid "Notification Updated."
+msgstr "Notificatie bijgewerkt."
+
+#: notification.php:775
+msgid "Notification could not be updated. Please enter all required information below."
+msgstr "Notificatie kon niet worden bijgewerkt. Voer alle benodigde informatie hieronder in."
+
+#: preview.php:21
+msgid "You don't have adequate permission to preview forms."
+msgstr "Je hebt onvoldoende toestemming om formulier voorbeelden te zien."
+
+#: preview.php:30 preview.php:49
+msgid "Form Preview"
+msgstr "Formulier vooraf bekijken"
+
+#: preview.php:49 print-entry.php:63
+msgid "close window"
+msgstr "venster sluiten"
+
+#: preview.php:51
+msgid "Note: This is a simple form preview. This form may display differently when added to your page based on inheritance from individual theme styles."
+msgstr "Opmerking: Dit is een eenvoudig formulier voorbeeld. Dit formulier kan anders weergegeven worden wanneer het wordt toegevoegd aan je pagina op basis van overerving van individuele thema stijlen."
+
+#: print-entry.php:21
+msgid "You don't have adequate permission to view entries."
+msgstr "Je hebt onvoldoende toestemming om de gegevens te bekijken."
+
+#: print-entry.php:31
+msgid "Form Id and Lead Id are required parameters."
+msgstr "Formulier Id en Lead Id zijn vereiste parameters."
+
+#: print-entry.php:63
+msgid "Print Preview"
+msgstr "Afdruk voorbeeld"
+
+#: select_columns.php:23
+msgid "Oops! We could not locate your form. Please try again."
+msgstr "Helaas! We konden je formulier niet vinden. Probeer het opnieuw."
+
+#: select_columns.php:97
+msgid "Drag & drop to order and select which columns are displayed in the entries table."
+msgstr "Versleep om te sorteren en selecteer welke kolommen weergegeven moeten worden in inzendingen tabel."
+
+#: select_columns.php:100
+msgid "Active Columns"
+msgstr "Actieve kolommen"
+
+#: select_columns.php:115
+msgid "Inactive Columns"
+msgstr "Inactieve kolommen"
+
+#: settings.php:14
+msgid "Gravity Forms Settings"
+msgstr "Gravity Forms instellingen"
+
+#: settings.php:67
+msgid "You don't have adequate permission to edit settings."
+msgstr "Je hebt onvoldoende toestemming om instellingen te bewerken."
+
+#: settings.php:88
+msgid "Settings Updated"
+msgstr "Instellingen bijgewerkt"
+
+#: settings.php:95
+msgid "You don't have adequate permission to uninstall Gravity Forms."
+msgstr "Je hebt onvoldoende toestemming om Gravity Forms te verwijderen."
+
+#: settings.php:120
+msgid "Gravity Forms have been successfully uninstalled. It can be re-activated from the %splugins page%s."
+msgstr "Gravity Forms is succesvol verwijderd. Het kan opnieuw worden geactiveerd vanuit de %splugins pagina%s."
+
+#: settings.php:130
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: settings.php:133
+msgid "Support License Key"
+msgstr "Support licentiecode"
+
+#: settings.php:146
+msgid "The license key is used for access to automatic upgrades and support."
+msgstr "De licentiecode wordt gebruikt voor automatische upgrades en support."
+
+#: settings.php:150 tooltips.php:131
+msgid "Output CSS"
+msgstr "Output CSS"
+
+#: settings.php:152 settings.php:160 settings.php:179
+msgid "Yes"
+msgstr "Ja"
+
+#: settings.php:153 settings.php:161 settings.php:180
+msgid "No"
+msgstr "Nee"
+
+#: settings.php:154
+msgid "Set this to No if you would like to disable the plugin from outputting the form CSS."
+msgstr "Zet dit op Nee als je de formulier CSS output van de plugin wilt uitschakelen."
+
+#: settings.php:158 tooltips.php:132
+msgid "Output HTML5"
+msgstr "Output HTML5"
+
+#: settings.php:162
+msgid "Set this to No if you would like to disable the plugin from outputting HTML5 form fields."
+msgstr "Zet dit op Nee als je HTML5 formulier velden output van deze plugin wilt uitschakelen."
+
+#: settings.php:167 tooltips.php:133
+msgid "No-Conflict Mode"
+msgstr "Geen-conflict mode"
+
+#: settings.php:169
+msgid "On"
+msgstr "Aan"
+
+#: settings.php:170
+msgid "Off"
+msgstr "Uit"
+
+#: settings.php:171
+msgid "Set this to On to prevent extraneous scripts and styles from being printed on Gravity Forms admin pages, reducing conflicts with other plugins and themes."
+msgstr "Zet dit op Aan om te voorkomen dat externe scripts en stijlen worden afgedrukt op Gravity Forms admin pagina's, reduceert conflicten met andere plugins en thema's."
+
+#: settings.php:177 tooltips.php:137
+msgid "Akismet Integration"
+msgstr "Akismet integratie"
+
+#: settings.php:181 tooltips.php:137
+msgid "Protect your form entries from spam using Akismet."
+msgstr "Bescherm je formulier inzendingen tegen spam met behulp van Akismet."
+
+#: settings.php:187 tooltips.php:136
+msgid "Currency"
+msgstr "Valuta"
+
+#: settings.php:212
+msgid "reCAPTCHA Settings"
+msgstr "reCAPTCHA instellingen"
+
+#: settings.php:214
+msgid "Gravity Forms integrates with reCAPTCHA, a free CAPTCHA service that helps to digitize books while protecting your forms from spam bots. "
+msgstr "Gravity Formulieren integreert met reCAPTCHA, een gratis CAPTCHA service die helpt om boeken te digitaliseren en tegelijk formulieren beschermt tegen spamrobots. "
+
+#: settings.php:214
+msgid "Read more about reCAPTCHA"
+msgstr "Lees meer over reCAPTCHA"
+
+#: settings.php:220
+msgid "reCAPTCHA Public Key"
+msgstr "reCAPTCHA Public Key"
+
+#: settings.php:223 settings.php:230
+msgid "Required only if you decide to use the reCAPTCHA field."
+msgstr "Alleen noodzakelijk als je besluit reCAPTCHA te gebruiken."
+
+#: settings.php:223 settings.php:230
+msgid "%sSign up%s for a free account to get the key."
+msgstr "%sMeld je aan%s voor een gratis account om de sleutel te krijgen."
+
+#: settings.php:227
+msgid "reCAPTCHA Private Key"
+msgstr "reCAPTCHA Private Key"
+
+#: settings.php:264
+msgid "Installation Status"
+msgstr "Installatiestatus"
+
+#: settings.php:268
+msgid "PHP Version"
+msgstr "PHP versie"
+
+#: settings.php:282
+msgid "Gravity Forms requires PHP 5 or above."
+msgstr "Gravity Forms vereist PHP 5 of hoger."
+
+#: settings.php:289
+msgid "MySQL Version"
+msgstr "MySQL versie"
+
+#: settings.php:303
+msgid "Gravity Forms requires MySQL 5 or above."
+msgstr "Gravity Forms vereist MySQL 5 of hoger."
+
+#: settings.php:310
+msgid "WordPress Version"
+msgstr "WordPress versie"
+
+#: settings.php:324
+msgid "Gravity Forms requires WordPress v%s or greater. You must upgrade WordPress in order to use this version of Gravity Forms."
+msgstr "Gravity Forms vereist WordPress v%s of hoger. U moet WordPress bijwerken om deze versie van Gravity Forms te gebruiken."
+
+#: settings.php:331
+msgid "Gravity Forms Version"
+msgstr "Gravity Forms versie"
+
+#: settings.php:343
+msgid "New version %s available. Automatic upgrade available on the %splugins page%s"
+msgstr "Nieuwe versie %s beschikbaar. Automatische upgrade beschikbaar op de%splugins pagina%s"
+
+#: settings.php:356 settings.php:359
+msgid "Uninstall Gravity Forms"
+msgstr "Gravity Forms deïnstalleren"
+
+#: settings.php:357
+msgid "Warning"
+msgstr "Waarschuwing"
+
+#: settings.php:357
+msgid "This operation deletes ALL Gravity Forms data. If you continue, You will not be able to retrieve or restore your forms or entries."
+msgstr "Deze operatie verwijdert ALLE Gravity Forms data. Als je doorgaat, zul je niet in staat zijn om inzendingen en formulieren te herstellen."
+
+#: settings.php:359
+msgid "Warning! ALL Gravity Forms data, including form entries will be deleted. This cannot be undone. \\'OK\\' to delete, \\'Cancel\\' to stop"
+msgstr "Waarschuwing! Alle Gravity Forms data, inclusief formulier inzendingen zullen worden verwijderd. Dit kan niet ongedaan worden gemaakt. \\'OK\\' om te verwijderen, \\'Annuleren\\' om te stoppen"
+
+#: tooltips.php:17
+msgid "Send To Email Address"
+msgstr "Verstuur aan e-mailadres"
+
+#: tooltips.php:17
+msgid "Enter the email address you would like the administrator notification email sent to."
+msgstr "Voer het e-mailadres in waar je de beheerder notificatie naar wilt versturen."
+
+#: tooltips.php:18 tooltips.php:44
+msgid "Disable Auto-Formatting"
+msgstr "Auto-opmaak uitschakelen"
+
+#: tooltips.php:18
+msgid "When enabled, auto-formatting will insert paragraph breaks automatically. Disable auto-formatting when using HTML to create email notification content."
+msgstr "Zodra auto-opmaak is ingeschakeld zullen er automatisch paragrafen worden ingevoegd. Schakel auto-opmaak uit wanneer je gebruik maakt van HTML notificatie e-mails."
+
+#: tooltips.php:19
+msgid "Allows notification to be sent to different email addresses depending on values selected in the form."
+msgstr "Sta notificaties naar verschillende e-mailadressen toe afhankelijk van gemaakte keuzes in het formulier."
+
+#: tooltips.php:20 tooltips.php:26
+msgid "From Email Address"
+msgstr "Van e-mailadres"
+
+#: tooltips.php:20
+msgid "Enter the email address you would like the administrator notification email sent from, or select the email from available email form fields."
+msgstr "Voer het e-mailadres in van de afzender van de beheerder notificatie e-mail of selecteer een e-mailadres uit de e-mailformuliervelden."
+
+#: tooltips.php:21
+msgid "Enter the name you would like the administrator notification email sent from, or select the name from available name fields."
+msgstr "Voer de afzender naam in voor de beheerder notificatie e-mail of selecteer een naamveld uit de beschikbare naamvelden."
+
+#: tooltips.php:22
+msgid "Enter the email address you would like to be used as the reply to address for the administrator notification email."
+msgstr "Voer het e-mailadres in dat je wilt gebruiken als antwoordadres voor de beheerder notificatie e-mail."
+
+#: tooltips.php:23 tooltips.php:24 tooltips.php:25
+msgid "Blind Carbon Copy Addresses"
+msgstr "BCC adressen"
+
+#: tooltips.php:23
+msgid "Enter a comma separated list of email addresses you would like to receive a BCC of the administrator notification email."
+msgstr "Voer een komma gescheiden lijst van e-mailadressen in waarvan je wilt dat deze een BCC krijgen van de beheerder notificatie e-mail."
+
+#: tooltips.php:24
+msgid "Select the email form field that the user notification email should be sent to."
+msgstr "Selecteer het e-mail formulierveld waar de gebruiker notificatie e-mail naar verstuurd moet worden."
+
+#: tooltips.php:25
+msgid "Enter a comma separated list of email addresses you would like to receive a BCC of the user notification email."
+msgstr "Voer een komma gescheiden lijst van e-mailadressen in waarvan je wilt dat deze een BCC krijgen van de gebruiker notificatie e-mail."
+
+#: tooltips.php:26
+msgid "Enter the email address you would like the user notification email sent from."
+msgstr "Voer het e-mailadres van de afzender van de notificatie voor inzenders."
+
+#: tooltips.php:27
+msgid "Enter the name you would like the user notification email sent from."
+msgstr "Voer de afzender naam in voor de gebruiker notificatie e-mail."
+
+#: tooltips.php:28
+msgid "Reply To Address"
+msgstr "Antwoorden naar adres"
+
+#: tooltips.php:28
+msgid "Enter the email address you would like to be used as the reply to address for the user notification email."
+msgstr "Voer het e-mailadres in dat je als antwoordadres wilt gebruiken voor de gebruiker notificatie e-mail."
+
+#: tooltips.php:29
+msgid "Limit Form Activity"
+msgstr "Begrens formulier activiteit"
+
+#: tooltips.php:29
+msgid "Limit the number of entries a form can generate and/or schedule a time period the form is active."
+msgstr "Begrens het aantal inzendingen dat een formulier kan genereren en/of plan een periode dat het formulier actief is."
+
+#: tooltips.php:30
+msgid "Limit Number of Entries"
+msgstr "Beperk aantal inzendingen"
+
+#: tooltips.php:30
+msgid "Enter a number in the input box below to limit the number of entries allowed for this form. The form will become inactive when that number is reached."
+msgstr "Type een getal in het invoerveld hieronder om het aantal toegestane inzendingen voor dit formulier te begrensen. Het formulier wordt inactief zodra dit aantal is bereikt."
+
+#: tooltips.php:31
+msgid "Schedule Form"
+msgstr "Formulier inplannen"
+
+#: tooltips.php:31
+msgid "Schedule a time period the form is active."
+msgstr "Plan een periode dat het formulier actief is."
+
+#: tooltips.php:32
+msgid "Enable Anti-spam honeypot"
+msgstr "Anit-spam honeypot inschakelen"
+
+#: tooltips.php:32
+msgid "Enables the honeypot spam protection technique, which is an alternative to the reCAPTCHA field."
+msgstr "Schakelt de honeypot SPAM protectie techniek in, welke een alternatief is voor een reCAPTCHA veld."
+
+#: tooltips.php:33
+msgid "Enable Animation"
+msgstr "Animatie inschakelen"
+
+#: tooltips.php:33
+msgid "Check this option to enable a sliding animation when displaying/hiding conditional logic fields."
+msgstr "Selecteer deze optie om een glijdende animatie te tonen bij het weergeven/verbergen van conditionele logica velden."
+
+#: tooltips.php:34
+msgid "Enter the title of your form."
+msgstr "Voer de titel van je formulier in."
+
+#: tooltips.php:35
+msgid "Form Description"
+msgstr "Formulier beschrijving"
+
+#: tooltips.php:35
+msgid "Enter a description for your form. This may be used for user instructions."
+msgstr "Bepaal de beschrijving van je formulier. Je kunt dit gebruiken om gebruikers instructies te geven."
+
+#: tooltips.php:36
+msgid "Form Label Placement"
+msgstr "Formulier label plaatsing"
+
+#: tooltips.php:36
+msgid "Select the label placement.  Labels can be top aligned above a field, left aligned to the left of a field, or right aligned to the left of a field."
+msgstr "Bepaal hoe je de labels wilt plaatsen. Labels kunnen boven een veld, links van een veld of recht van een veld geplaatst worden."
+
+#: tooltips.php:37
+msgid "Select the description placement.  Descriptions can be placed above the field inputs or below the field inputs."
+msgstr "Selecteer de positie van de beschrijving. Beschrijvingen kunnen boven of onder de invoervelden worden geplaatst."
+
+#: tooltips.php:38
+msgid "Form Button Text"
+msgstr "Formulier button tekst"
+
+#: tooltips.php:38
+msgid "Enter the text you would like to appear on the form submit button."
+msgstr "Vul de tekst in die je voor de verzend button wilt gebruiken."
+
+#: tooltips.php:39
+msgid "Form Button Image"
+msgstr "Formulier button afbeelding"
+
+#: tooltips.php:39
+msgid "Enter the path to an image you would like to use as the form submit button."
+msgstr "Definieer de locatie van de afbeelding die je als verzend button wilt gebruiken."
+
+#: tooltips.php:40
+msgid "Form CSS Class Name"
+msgstr "Formulier CSS klasse naam"
+
+#: tooltips.php:40
+msgid "Enter the CSS class name you would like to use in order to override the default styles for this form."
+msgstr "Type de CSS klasse naam die je wilt gebruiken om de standaard opmaak van dit formulier te overschrijven."
+
+#: tooltips.php:41
+msgid "Enter the URL of a custom image to replace the default 'add item' icon."
+msgstr "Voer de URL van een aangepaste afbeelding in om de standaard 'item toevoegen' icoon te vervangen."
+
+#: tooltips.php:42
+msgid "Enter the URL of a custom image to replace the default 'delete item' icon."
+msgstr "Voer de URL van een aangepaste afbeelding in om de standaard 'verwijder item' icoon te vervangen."
+
+#: tooltips.php:43
+msgid "Confirmation Message Text"
+msgstr "Bevestigingsbericht tekst"
+
+#: tooltips.php:43
+msgid "Enter the text you would like the user to see on the confirmation page of this form."
+msgstr "Type de tekst die je wilt gebruiken voor de bevestigingspagina van dit formulier."
+
+#: tooltips.php:44
+msgid "When enabled, auto-formatting will insert paragraph breaks automatically. Disable auto-formatting when using HTML to create the confirmation content."
+msgstr "Wanneer ingeschakeld zal 'automatische opmaak' automatisch paragrafen invoegen. Schakel 'automatische opmaak' uit bij het gebruik van een HTML bevestiging."
+
+#: tooltips.php:45
+msgid "Redirect Form to Page"
+msgstr "Omleiden naar pagina"
+
+#: tooltips.php:45
+msgid "Select the page you would like the user to be redirected to after they have submitted the form."
+msgstr "Selecteer de pagina waar je zou willen dat de gebruiker naar wordt doorgestuurd nadat ze het formulier hebben ingevuld."
+
+#: tooltips.php:46
+msgid "Redirect Form to URL"
+msgstr "Redirect formulier naar URL"
+
+#: tooltips.php:46
+msgid "Enter the URL of the webpage you would like the user to be redirected to after they have submitted the form."
+msgstr "Type de URL waar je gebruikers naartoe wilt lijden nadat zij het formulier hebben ingevuld."
+
+#: tooltips.php:47
+msgid "Pass Data Via Query String"
+msgstr "Data doorgeven via query string"
+
+#: tooltips.php:47
+msgid "To pass field data to the confirmation page, build a Query String using the 'Insert Merge Tag' drop down. <a href='http://en.wikipedia.org/wiki/Query_string' target='_blank'>..more info on querystrings &raquo;</a>"
+msgstr "Om veld data door te geven aan de bevestigingspagina bouwt u een query string door gebruik te maken van de 'Samenvoegen tag invoegen' dropdown. <a href='http://en.wikipedia.org/wiki/Query_string' target='_blank'>..meer informatie over query strings &raquo;</a>"
+
+#: tooltips.php:48
+msgid "Enter the label of the form field.  This is the field title the user will see when filling out the form."
+msgstr "Type een label voon het veld.  Dit is zichtbaar tijdens het invullen van het formulier."
+
+#: tooltips.php:49
+msgid "Enter the label for this HTML block. It will help you identify your HTML blocks in the form editor, but it will not be displayed on the form."
+msgstr "Type de label voor dit HTML blok. Het zal je helpen om dit HTML blok te identificeren in de formulier editor, maar zal niet worden weergegeven in het formulier."
+
+#: tooltips.php:50
+msgid "Disable Default Margins"
+msgstr "Standaard margins uitschakelen"
+
+#: tooltips.php:50
+msgid "When enabled, margins are added to properly align the HTML content with other form fields."
+msgstr "Wanneer ingeschakeld, zullen er marges toegevoegd worden voor het correct uitlijnen van de HTML content met andere formuliervelden."
+
+#: tooltips.php:51
+msgid "Recaptcha Theme"
+msgstr "ReCAPTCHA Thema"
+
+#: tooltips.php:51
+msgid "Select the visual theme for the reCAPTCHA field the available options to better match your site design."
+msgstr "Selecteer het visuele thema voor het reCAPTCHA veld zodat het beter bij de stijl van je website past."
+
+#: tooltips.php:52
+msgid "CAPTCHA Type"
+msgstr "CAPTCHA Type"
+
+#: tooltips.php:52
+msgid "Select the type of CAPTCHA you would like to use."
+msgstr "Selecteer de type CAPTCHA die je wilt gebruiken."
+
+#: tooltips.php:53
+msgid "Select the custom field name from available existing custom fields, or enter a new custom field name."
+msgstr "Selecteer de naam van het aangepaste veld uit beschikbaar bestaande aangepaste velden of type een nieuwe naam."
+
+#: tooltips.php:54
+msgid "Field type"
+msgstr "Soort veld"
+
+#: tooltips.php:54
+msgid "Select the type of field from the available form fields."
+msgstr "Selecteer het gewenste veldtype uit de beschikbare formuliervelden."
+
+#: tooltips.php:55
+msgid "Enter the maximum number of characters that this field is allowed to have."
+msgstr "Voer het maximum aantal toegestane karakters in voor dit veld."
+
+#: tooltips.php:56
+msgid "Enter the maximum number of rows that users are allowed to add."
+msgstr "Voer het maximum aantal rijen in dat gebruikers mogen toevoegen."
+
+#: tooltips.php:57
+msgid "Select the type of inputs you would like to use for the date field. Date Picker will let users select a date from a calendar. Date Field will let users free type the date."
+msgstr "Selecteer het type input dat je wilt gebruiken voor het datumveld. Date Picker laat gebruikers een datum kiezen uit een kalender. In het datumveld kunnen gebruikers zelf de datum aangeven."
+
+#: tooltips.php:58
+msgid "Select the type of address you would like to use."
+msgstr "Selecteer het type adres dat je wilt gebruiken."
+
+#: tooltips.php:59
+msgid "Default State"
+msgstr "Standaard staat"
+
+#: tooltips.php:59
+msgid "Select the state you would like to be selected by default when the form gets displayed."
+msgstr "Selecteer de staat die je zou je willen worden tonen als standaard wanneer het formulier wordt weergegeven."
+
+#: tooltips.php:60
+msgid "Default Province"
+msgstr "Standaard provincie"
+
+#: tooltips.php:60
+msgid "Select the province you would like to be selected by default when the form gets displayed."
+msgstr "Selecteer de provincie die je standaard geselecteerd wilt hebben wanneer het formulier wordt weergegeven."
+
+#: tooltips.php:61
+msgid "Select the country you would like to be selected by default when the form gets displayed."
+msgstr "Selecteer het land wat je standaard geselecteerd wilt hebben wanneer het formulier wordt weergegeven."
+
+#: tooltips.php:62
+msgid "Hide Country"
+msgstr "Verberg land"
+
+#: tooltips.php:62
+msgid "For addresses that only apply to one country, you can choose to not display the country drop down. Entries will still be recorded with the selected country."
+msgstr "Voor de adressen die alleen van toepassing op een land, kunt je ervoor kiezen om het land uitschuifkeuzelijst niet weer te geven. Inzendingen zullen nog worden opgenomen met het geselecteerde land."
+
+#: tooltips.php:63
+msgid "Hide Address Line 2"
+msgstr "Verberg adresregel 2"
+
+#: tooltips.php:63
+msgid "Check this box to prevent the extra address input (Address Line 2) from being displayed in the form."
+msgstr "Selecteer dit veld om de extra adres invoer (adres regel 2) weer te gegeven in het formulier."
+
+#: tooltips.php:64
+msgid "Hide State Field"
+msgstr "Verberg staat veld"
+
+#: tooltips.php:64
+msgid "Check this box to prevent the State field from being displayed in the form."
+msgstr "Selecteer dit veld om te voorkomen dat het provincie veld weergegeven wordt in dit formulier."
+
+#: tooltips.php:65
+msgid "Hide Province Field"
+msgstr "Verberg provincie veld"
+
+#: tooltips.php:65
+msgid "Check this box to prevent Province field from being displayed in the form."
+msgstr "Selecteer dit veld om te voorkomen dat het provincie veld weergegeven wordt in dit formulier."
+
+#: tooltips.php:66
+msgid "Hide State/Province/Region"
+msgstr "Verberg staat/provincie/regio"
+
+#: tooltips.php:66
+msgid "Check this box to prevent the State/Province/Region from being displayed in the form."
+msgstr "Selecteer dit veld om te voorkomen dat het staat/provincie/regio veld weergegeven wordt in dit formulier."
+
+#: tooltips.php:67
+msgid "Field Name Format"
+msgstr "Veld naam notatie"
+
+#: tooltips.php:67
+msgid "Select the format you would like to use for the Name field.  There are 3 options, Normal which includes First and Last Name, Extended which adds Prefix and Suffix, or Simple which is a single input field."
+msgstr "Selecteer het formaat dat je wilt gebruiken voor het Naamveld. Er zijn 3 opties. Normaal: voor- en achternaam. Uitgebreid: voorvoegsel en achtervoegsel. Eenvoudig: een enkel veld."
+
+#: tooltips.php:68
+msgid "Select the format of numbers that are allowed in this field. You have the option to use a comma or a dot as the decimal separator."
+msgstr "Selecteer het formaat van nummers die zijn toegestaan ​​in dit veld. Je hebt de mogelijkheid om een ​​komma of een punt als decimaal scheidingsteken te gebruiken."
+
+#: tooltips.php:69
+msgid "Check this box to prevent this field from being displayed in a non-secure page (i.e. not https://). It will redirect the page to the same URL, but starting with https:// instead. This option requires a properly configured SSL certificate."
+msgstr "Selecteer dit veld om te voorkomen dat dit veld wordt weergegeven op een onbeveiligde pagina (bijvoorbeeld geen https://). Het zal de pagina doorsturen naar dezelfde URL, maar startende met https://. Deze optie vereist een goed geconfigureerde SSL certificaat."
+
+#: tooltips.php:70
+msgid "Select the style you would like to use for the credit card icons."
+msgstr "Kies de stijl die u wilt gebruiken voor de creditcard iconen."
+
+#: tooltips.php:71
+msgid "Field Date Format"
+msgstr "Veld datum notatie"
+
+#: tooltips.php:71
+msgid "Select the format you would like to use for the date input.  Available options are MM/DD/YYYY and DD/MM/YYYY."
+msgstr "Selecteer het formaat dat je wilt gebruiken voor de datum. Beschikbare opties zijn MM/DD/JJJJ en DD/MM/JJJJ."
+
+#: tooltips.php:72
+msgid "Select the format you would like to use for the time field.  Available options are 12 hour (i.e. 8:30 pm) and 24 hour (i.e. 20:30)."
+msgstr "Selecteer het formaat dat je wilt gebruiken voor het tijd veld. De beschikbare opties zijn 12 uur (8:30 pm) en 24 uur (20:30)."
+
+#: tooltips.php:73
+msgid "Allowed File Extensions"
+msgstr "Toegestane bestand extensies"
+
+#: tooltips.php:73
+msgid "Enter that allowed file extensions for file uploads.  This will limit what type of files a user may upload."
+msgstr "Bepaal de toegestane bestandsformaten voor uploads."
+
+#: tooltips.php:74
+msgid "Phone Number Format"
+msgstr "Telefoonnummer notatie"
+
+#: tooltips.php:74
+msgid "Select the format you would like to use for the phone input.  Available options are domestic US/CANADA style phone number and international long format phone number."
+msgstr "Selecteer het format dat je wilt gebruiken voor de telefoonnummer ingang. Beschikbare opties VS / Canada telefoonnummers en internationale lange-format telefoonnummer."
+
+#: tooltips.php:75
+msgid "Field Description"
+msgstr "Veld beschrijving"
+
+#: tooltips.php:75
+msgid "Enter the description for the form field.  This will be displayed to the user and provide some direction on how the field should be filled out or selected."
+msgstr "Type een beschrijving voor dit veld. Dit wordt getoond aan de gebruiker en biedt insctructies voor het invullen van het veld."
+
+#: tooltips.php:76
+msgid "Required Field"
+msgstr "Verplicht veld"
+
+#: tooltips.php:76
+msgid "Select this option to make the form field required.  A required field will prevent the form from being submitted if it is not filled out or selected."
+msgstr "Selecteer deze optie om dit veld verplicht te maken. Een niet ingevuld of onjuist ingevuld verplicht veld zal voorkomen dat een formulier verzonden wordt."
+
+#: tooltips.php:77
+msgid "Select this option to limit user input to unique values only.  This will require that a value entered in a field does not currently exist in the entry database for that field."
+msgstr "Selecteer deze optie als je wilt dat de gebruiker alleen unieke waarden kan invullen. Dit vereist dat de ingevulde waarde nog niet bestaat in de database voor dat veld."
+
+#: tooltips.php:78
+msgid "Number Range"
+msgstr "Nummer bereik"
+
+#: tooltips.php:78
+msgid "Enter the minimum and maximum values for this form field.  This will require that the value entered by the user must fall within this range."
+msgstr "Voer de minimum en maximum waarde in voor dit veld. Dit vereist dat de ingevulde waarde binnen het bepaalde bereik moet vallen."
+
+#: tooltips.php:79
+msgid "Enabling caculations will allow the value of this field to be dynamically calculated based on a mathematical formula."
+msgstr "Berekeningen inschakelen zal het toestaan om de waarde van dit veld dynamisch te berekenen aan de hand van een wiskundige formule."
+
+#: tooltips.php:80
+msgid "Specify a mathematical formula. The result of this formula will be dynamically populated as the value for this field."
+msgstr "Specificeer een wiskundige formule. Het resultaat van deze formule zal dynamisch worden ingevuld als de waarde voor dit veld."
+
+#: tooltips.php:81
+msgid "Specify how many decimal places the number should be rounded to."
+msgstr "Specificeer op hoeveel cijfers na de komma het nummer moet worden afgerond."
+
+#: tooltips.php:82
+msgid "Enter the admin label of the form field.  Entering a value in this field will override the Field Label when displayed in the Gravity Forms administration tool."
+msgstr "Type een admin label voor dit veld. Het invoeren van een waarde in dit veld heeft voorrang op het veld Label in de admin weergave."
+
+#: tooltips.php:83
+msgid "Select a form field size from the available options. This will set the width of the field."
+msgstr "Selecteer een formulier veld formaat van de beschikbare opties. Dit zal de breedte van het veld instellen."
+
+#: tooltips.php:84
+msgid "If you would like to pre-populate the value of a field, enter it here."
+msgstr "Als je een veld vooraf invulling wilt geven voer je hier een waarde in."
+
+#: tooltips.php:85
+msgid "If you would like to override the default error validation for a field, enter it here.  This message will be displayed if there is an error with this field when the user submits the form."
+msgstr "Wil je de standaard fout validatie overschrijven voor een veld, dan kun je hier een bericht invoeren dat wordt weergegeven als een gebruiker een ongeldige waarde heeft ingevuld."
+
+#: tooltips.php:86
+msgid "reCaptcha Language"
+msgstr "reCaptcha taal"
+
+#: tooltips.php:86
+msgid "Select the language you would like to use for the reCAPTCHA display from the available options."
+msgstr "Selecteer de taal die je wilt gebruiken voor reCAPTCHA."
+
+#: tooltips.php:87
+msgid "Enter the CSS class name you would like to use in order to override the default styles for this field."
+msgstr "Type de CSS klasse naam die je wilt gebruiken om de standaard opmaak van dit veld te overschrijven."
+
+#: tooltips.php:88
+msgid "Select the visibility for this field. Field visibility set to Everyone will be visible by the user submitting the form. Form field visibility set to Admin Only will only be visible within the Gravity Forms administration tool.<br /><br />Setting a field to Admin Only is useful for creating fields that can be used to set a status or priority level on submitted entries."
+msgstr "Selecteer de zichtbaarheid voor dit gebied. Veld zichtbaarheid ingesteld op Iedereen zal zichtbaar zijn voor de gebruiker die het formulier verzendt. Formulier veld zichtbaarheid is ingesteld op Admin zal alleen zichtbaar zijn binnen de Gravity Forms administratie tool. <br /> <br /> Het instellen van een veld op Admin Alleen is bruikbaar voor het maken van velden die kunnen worden gebruikt om een status of prioriteit in te stellen op de ingediende inzendingen."
+
+#: tooltips.php:89
+msgid "Field Choices"
+msgstr "Veld keuzes"
+
+#: tooltips.php:89
+msgid "Add Choices to this field. You can mark each choice as checked by default by using the radio/checkbox fields on the left."
+msgstr "Voeg keuzes toe voor dit veld. Je kunt iedere keuze markeren als standaard aangevinkt met behulp van de radio / checkbox velden aan de linkerkant."
+
+#: tooltips.php:90
+msgid "Enable Choice Values"
+msgstr "Keuze waarden inschakelen"
+
+#: tooltips.php:90
+msgid "Check this option to specify a value for each choice. Choice values are not displayed to the user viewing the form, but are accessible to administrators when viewing the entry."
+msgstr "Selecteer deze optie om voor elke keuze een waarde te specificeren. Deze waarden zijn niet zichtbaar voor bezoekers, maar zijn voor beheerders wel zichtbaar binnen een inzending."
+
+#: tooltips.php:91 tooltips.php:105
+msgid "Conditional Logic"
+msgstr "Conditionele logica"
+
+#: tooltips.php:91
+msgid "Create rules to dynamically display or hide this field based on values from another field"
+msgstr "Regels creëren om dynamisch velden weer te geven of te verbergen op basis van waarden uit een ander veld"
+
+#: tooltips.php:92
+msgid "Enable Enhanced UI"
+msgstr "Verbeterde UI inschakelen"
+
+#: tooltips.php:92
+msgid "By selecting this option, the <a href='http://harvesthq.github.com/chosen/' target='_blank'>Chosen</a> jQuery script will be applied to this field, enabling search capabilities to Drop Down fields and a more user-friendly interface for Multi Select fields."
+msgstr "Door het selecteren van deze optie, zal de <a href='http://harvesthq.github.com/chosen/' target='_blank'>Chosen</a> jQuery script worden toegepast op dit veld, waardoor zoekmogelijkheden voor uitschuifkeuzelijst velden en een meer gebruiksvriendelijke interface voor multikeuzelijst velden zal worden ingeschakeld."
+
+#: tooltips.php:93
+msgid "\"Other\" Choice"
+msgstr "\"Andere\" keuze"
+
+#: tooltips.php:93
+msgid "Check this option to add a text input as the final choice of your radio button field. This allows the user to specify a value that is not a predefined choice."
+msgstr "Selecteer deze optie aan om tekstinvoer als laatste keuze toe te voegen aan het keuzerondjes veld. Hierdoor kan de gebruiker een waarde invoeren die niet vooraf is gedefinieerd."
+
+#: tooltips.php:94
+msgid "Check this option to require a user to be logged in to view this form"
+msgstr "Selecteer deze optie aan om te vereisen dat een gebruiker ingelogd moet zijn om dit formulier te bekijken"
+
+#: tooltips.php:95
+msgid "Enter a message to be displayed to users who are not logged in (shortcodes and HTML are supported)"
+msgstr "Voer een bericht in die moet worden weergegeven aan gebruikers die niet ingelogd zijn (shortcodes en HTML worden ondersteund)"
+
+#: tooltips.php:96
+msgid "Page Conditional Logic"
+msgstr "Pagina conditionele logica"
+
+#: tooltips.php:96
+msgid "Create rules to dynamically display or hide this page based on values from another field"
+msgstr "Creëer regels om deze pagina dynamisch weer te geven of te verbergen, dit gebaseerd op waarden van andere velden."
+
+#: tooltips.php:97
+msgid "Select which type of visual progress indicator you would like to display.  Progress Bar, Steps or None"
+msgstr "Selecteer de type voortgang indicator die je wilt weergeven. Statusbalk, stappen of geen"
+
+#: tooltips.php:98
+msgid "Progress Bar Style"
+msgstr "Voortgangsbalk opmaak"
+
+#: tooltips.php:98
+msgid "Select which progress bar style you would like to use.  Select custom to choose your own text and background color"
+msgstr "Selecteer welke stijl voortgangsbalk wilt gebruiken. Selecteer maatwerk om je eigen tekst en achtergrondkleur te kiezen."
+
+#: tooltips.php:99
+msgid "Name each of the pages on your form.  Page names are displayed with the selected progress indicator"
+msgstr "Geef elke pagina binnen je formulier een naam. De namen van de pagina's worden weergegeven in de geselecteerde voortgangsbalk"
+
+#: tooltips.php:100
+msgid "Next Button Text"
+msgstr "Volgende button tekst"
+
+#: tooltips.php:100
+msgid "Enter the text you would like to appear on the page next button"
+msgstr "Voer de gewenste tekst in die je wilt weergegeven op de volgende pagina button."
+
+#: tooltips.php:101
+msgid "Next Button Image"
+msgstr "Volgende afbeelding button"
+
+#: tooltips.php:101
+msgid "Enter the path to an image you would like to use as the page next button"
+msgstr "Voer het pad in naar de afbeelding die je graag wilt gebruiken voor de volgende pagina button"
+
+#: tooltips.php:102
+msgid "Previous Button Text"
+msgstr "Vorige tekst button"
+
+#: tooltips.php:102
+msgid "Enter the text you would like to appear on the page previous button"
+msgstr "Voer de gewenste tekst in die je wilt weergegeven op de vorige pagina button"
+
+#: tooltips.php:103
+msgid "Previous Button Image"
+msgstr "Vorige afbeelding button"
+
+#: tooltips.php:103
+msgid "Enter the path to an image you would like to use as the page previous button"
+msgstr "Voer het pad in naar de afbeelding die je graag wilt gebruiken voor de vorige button"
+
+#: tooltips.php:104
+msgid "Next Button Conditional Logic"
+msgstr "Volgende button conditionele logica"
+
+#: tooltips.php:104
+msgid "Create rules to dynamically display or hide the page's Next Button based on values from another field"
+msgstr "Creëer regels om de volgende pagina button dynamisch weer te geven / verbergen op basis van waarden uit andere velden."
+
+#: tooltips.php:105
+msgid "Create rules to dynamically display or hide the submit button based on values from another field"
+msgstr "Creëer regels om de verzend button dynamisch weer te geven / verbergen op basis van waarden uit andere velden."
+
+#: tooltips.php:106
+msgid "Select which categories are displayed. You can choose to display all of them or select individual ones."
+msgstr "Selecteer welke categorieën worden weergegeven. Je kunt ervoor kiezen om ze allemaal weer te geven of selecteer ze individueel."
+
+#: tooltips.php:107
+msgid "Select the post status that will be used for the post that is created by the form entry."
+msgstr "Selecteer de bericht status die gebruikt moet worden voor een bericht die gemaakt wordt door het formulier."
+
+#: tooltips.php:108
+msgid "Post Author"
+msgstr "Auteur bericht"
+
+#: tooltips.php:108
+msgid "Select the author that will be used for the post that is created by the form entry."
+msgstr "Selecteer de auteur die gebruikt moet worden voor het bericht dat wordt aangemaakt door het formulier."
+
+#: tooltips.php:109
+msgid "Select the post format that will be used for the post that is created by the form entry."
+msgstr "Selecteer het bericht formaat dat gebruikt moet worden voor het bericht wat aangemaakt wordt door de formulier inzending."
+
+#: tooltips.php:110
+msgid "Post Content Template"
+msgstr "Bericht content sjabloon"
+
+#: tooltips.php:110
+msgid "Check this option to format and insert merge tags into the Post Content."
+msgstr "Selecteer deze optie aan om de samenvoegen tags op te maken in te voegen in de bericht inhoud."
+
+#: tooltips.php:111
+msgid "Post Title Template"
+msgstr "Bericht titel sjabloon"
+
+#: tooltips.php:111
+msgid "Check this option to format and insert merge tags into the Post Title."
+msgstr "Selecteer deze optie aan om de samenvoegen tags op te maken in te voegen in de bericht titel."
+
+#: tooltips.php:112
+msgid "Select the category that will be used for the post that is created by the form entry."
+msgstr "Selecteer de categorie die gebruikt zal worden voor het bericht dat wordt aangemaakt door de formulier entry."
+
+#: tooltips.php:113
+msgid "Use Current User as Author"
+msgstr "Gebruik Huidige Gebruiker als Auteur"
+
+#: tooltips.php:113
+msgid "Selecting this option will set the post author to the WordPress user that submitted the form."
+msgstr "Selecteren van deze optie zet de post auteur WordPress gebruiker die het formulier heeft ingediend."
+
+#: tooltips.php:114
+msgid "Image Meta"
+msgstr "Afbeeldingsmeta"
+
+#: tooltips.php:114
+msgid "Select one or more image metadata field to be displayed along with the image upload field. They enable users to enter additional information about the uploaded image."
+msgstr "Selecteer een of meer metagegevens velden van de afbeelding die getoond moeten worden samen met het uploaden van afbeeldingen veld. Ze stellen gebruikers in staat om aanvullende informatie over de geladen afbeelding in te voeren."
+
+#: tooltips.php:115
+msgid "Check this option to set this image as the post's Featured Image."
+msgstr "Selecteer deze optie aan om deze afbeelding in te stellen als uitgelichte bericht afbeelding."
+
+#: tooltips.php:116
+msgid "Incoming Field Data"
+msgstr "Inkomende veldgegevens"
+
+#: tooltips.php:116
+msgid "Check this option to enable data to be passed to the form and pre-populate this field dynamically. Data can be passed via Query Strings, Shortcode and/or Hooks"
+msgstr "Selecteer deze optie aan om gegevens door te geven aan het formulier en velden vooraf dynamisch in te vullen. Gegevens kunnen worden doorgegeven via query strings, shortcode en/of hooks"
+
+#: tooltips.php:117
+msgid "Enter the content (Text or HTML) to be displayed on the form."
+msgstr "Type de inhoud in (tekst of HTML) om in het formulier weer te geven. "
+
+#: tooltips.php:118
+msgid "Base Price"
+msgstr "Basisprijs"
+
+#: tooltips.php:118
+msgid "Enter the base price for this product."
+msgstr "Voer de basisprijs van het product in."
+
+#: tooltips.php:119
+msgid "Disable Quantity"
+msgstr "Aantal uitschakelen"
+
+#: tooltips.php:119
+msgid "Disables the quantity field.  A quantity of 1 will be assumed or you can add a Quantity field to your form from the Pricing Fields."
+msgstr "Schakel het aantal veld uit. Een hoeveelheid van 1 zal worden aangenomen of je kunt een aantal veld aan je formulier toevoegen vanuit de prijs velden."
+
+#: tooltips.php:120
+msgid "Select which Product this field is tied to."
+msgstr "Selecteer aan welk product dit veld is gebonden."
+
+#: tooltips.php:121
+msgid "Input masks provide a visual guide allowing users to more easily enter data in a specific format such as dates and phone numbers."
+msgstr "Invoermaskers zorgen voor een visuele gids zodat gebruikers gemakkelijker gegevens in een bepaald formaat, zoals datums en telefoonnummers, kunnen invoeren."
+
+#: tooltips.php:122
+msgid "Standard Fields provide basic form functionality."
+msgstr "Standaard velden bieden basis formulier functionaliteiten."
+
+#: tooltips.php:123
+msgid "Advanced Fields are for specific uses.  They enable advanced formatting of regularly used fields such as Name, Email, Address, etc."
+msgstr "Geavanceerde velden bevatten veelgebruikte formuliervelden als naam, e-mail, adres, etc. om tijd en dubbel werk te besparen, maar ook om geavanceerde opmaak mogelijk te maken."
+
+#: tooltips.php:124
+msgid "Post Fields allow you to add fields to your form that create Post Drafts in WordPress from the submitted data."
+msgstr "Bericht velden bieden de mogelijkheid om velden toe te voegen aan je formulier waarmee concept WordPress berichten worden aangemaakt."
+
+#: tooltips.php:125
+msgid "Pricing fields allow you to add fields to your form that calculate pricing for selling goods and services."
+msgstr "Prijsvelden geven je de mogelijkheid om velden aan je formulier toe te voegen voor het berekenen van prijzen en het verkopen van producten en diensten."
+
+#: tooltips.php:126
+msgid "Export Selected Form"
+msgstr "Exporteer het geselecteerde formulier"
+
+#: tooltips.php:126
+msgid "Select the form you would like to export entry data from. You may only export data from one form at a time."
+msgstr "Selecteer het formulier waarvan je data wilt exporteren. Je kunt per keer slecht gegevens van één formulier exporteren."
+
+#: tooltips.php:127
+msgid "Export Selected Forms"
+msgstr "Exporteer geselecteerde formulieren"
+
+#: tooltips.php:127
+msgid "Select the forms you would like to export."
+msgstr "Selecteer de formulieren die je wilt exporteren."
+
+#: tooltips.php:128
+msgid "Export Selected Fields"
+msgstr "Exporteer de geselecteerde velden"
+
+#: tooltips.php:128
+msgid "Select the fields from the select form you would like to export data from."
+msgstr "Selecteer de velden waarvan je de gegevens wilt exporteren."
+
+#: tooltips.php:129
+msgid "Export Date Range"
+msgstr "Exporteer datum bereik"
+
+#: tooltips.php:129
+msgid "Select a date range. Setting a range will only export entries submitted during that date range. If no range is set, all entries will be exported."
+msgstr "Selecteer een periode. Instellen van een periode zal alleen inzendingen binnen die periode exporteren. Als er geen periode is ingesteld, worden alle inzendingen geëxporteerd."
+
+#: tooltips.php:130
+msgid "Settings License Key"
+msgstr "Instellingen licentie sleutel"
+
+#: tooltips.php:130
+msgid "Your Gravity Forms support license key is used to verify your support package, enable automatic updates and receive support."
+msgstr "De Gravity Forms support licentie sleutel wordt gebruikt om te verifiëren of je recht hebt op automatische updates."
+
+#: tooltips.php:131
+msgid "Select yes or no to enable or disable CSS output.  Setting this to no will disable the standard Gravity Forms CSS from being included in your theme."
+msgstr "Selecteer ja of nee om CSS output in of uit te schakelen. Dit zal de standaard styling van Gravity Forms uitschakelen."
+
+#: tooltips.php:132
+msgid "Select yes or no to enable or disable HTML5 output. Setting this to no will disable the standard Gravity Forms HTML5 form field output."
+msgstr "Selecteer ja of nee om  HTML5 output te activeren of te deactiveren. Het instellen van nee zal de standaard Gravity Forms HTML5 formulier output uitschakelen."
+
+#: tooltips.php:133
+msgid "Select On or Off to enable or disable no-conflict mode. Setting this to On will prevent extraneous scripts and styles from being printed on Gravity Forms admin pages, reducing conflicts with other plugins and themes."
+msgstr "Selecteer Aan of Uit om geen-conflict modus in- of uit te schakelen. Deze instelling op Aan zetten voorkomt dat externe scripts en stijlen worden afgedrukt op de Gravity Forms admin pagina's, reduceert conflicten met andere plugins en thema's."
+
+#: tooltips.php:134
+msgid "reCaptcha Public Key"
+msgstr "reCaptcha publieke sleutel"
+
+#: tooltips.php:134
+msgid "Enter your reCAPTCHA Public Key, if you do not have a key you can register for one at the provided link.  reCAPTCHA is a free service."
+msgstr "Type hier je reCAPTCHA Prvate Key. Nog geen reCAPTCHA Key? Meld je aan via de verstrekte link. reCAPTCHA is een gratis service."
+
+#: tooltips.php:135
+msgid "reCaptcha Private Key"
+msgstr "reCaptcha privé sleutel"
+
+#: tooltips.php:135
+msgid "Enter your reCAPTCHA Private Key, if you do not have a key you can register for one at the provided link.  reCAPTCHA is a free service."
+msgstr "Type hier je reCAPTCHA Prvate Key. Nog geen reCAPTCHA Key? Meld je aan via de verstrekte link. reCAPTCHA is een gratis service."
+
+#: tooltips.php:136
+msgid "Please select the currency for your location.  Currency is used for pricing fields and price calculations."
+msgstr "Selecteer de munteenheid van je locatie. De munteenheid zal gebruikt worden voor de prijsvelden en prijsberekeningen."
+
+#: tooltips.php:138
+msgid "Entries Conversion"
+msgstr "Inzendingen conversie"
+
+#: tooltips.php:138
+msgid "Conversion is the percentage of form views that generated an entry. If a form was viewed twice, and one entry was generated, the conversion will be 50%."
+msgstr "Conversie is het percentage van formulierweergaves dat inzending oplevert. Als een formulier twee keer is bekeken, en een keer ingevuld is, zal de conversie 50% zijn."
+
+#: tooltips.php:139
+msgid "Tab Index Start Value"
+msgstr "Tab index start waarde"
+
+#: tooltips.php:139 widget.php:95
+msgid "If you have other forms on the page (i.e. Comments Form), specify a higher tabindex start value so that your Gravity Form does not end up with the same tabindices as your other forms. To disable the tabindex, enter 0 (zero)."
+msgstr "Als je andere formulieren op de pagina hebt staan (bijvoorbeeld een reactieformulier), specificeer dan een hogere tabindex startwaarde zodat Gravity Forms niet dezelfde tabindexen gebruikt van andere formulieren. Om de tabindex uit te schakelen type je 0 (nul) in."
+
+#: tooltips.php:140
+msgid "Override Notifications"
+msgstr "Overschrijf notificaties"
+
+#: tooltips.php:140
+msgid "Enter a comma separated list of email addresses you would like to receive the selected notification emails."
+msgstr "Voer een komma gescheiden lijst in van e-mail adressen die de geselecteerde notificatie e-mails dienen te ontvangen."
+
+#: tooltips.php:141
+msgid "Progress Bar Confirmation Display"
+msgstr "Voortgangsbalk bevestiging weergave"
+
+#: tooltips.php:141
+msgid "Check this box if you would like the progress bar to display with the confirmation text."
+msgstr "Selecteer dit veld als u de voortgangsbalk wilt weergeven met de bevestigingstekst."
+
+#: tooltips.php:142
+msgid "Progress Bar Completion Text"
+msgstr "Voortgangsbalk afronding tekst"
+
+#: tooltips.php:142
+msgid "Enter text to display at the top of the progress bar."
+msgstr "Voer een tekst in om weer te geven boven de voortgangsbalk."
+
+#: update.php:5
+msgid "You don't have permissions to view this page"
+msgstr "Je hebt geen rechten om deze pagina te bekijken"
+
+#: update.php:19
+msgid "Gravity Forms Updates"
+msgstr "Gravity Forms updates"
+
+#: update.php:32
+msgid "<p>You can update to the latest version automatically or download the update and install it manually. %sUpdate Automatically%s %sDownload Update%s"
+msgstr "<p>Je kunt automatisch updaten naar de nieuwste versie of de update downloaden en handmatig installeren. %sUpdate automatisch%s %sDownload update%s"
+
+#: update.php:40
+msgid "<a href=\"admin.php?page=gf_settings\">Register</a> your copy of Gravity Forms to receive access to automatic updates and support. Need a license key? <a href=\"http://www.gravityforms.com\">Purchase one now</a>."
+msgstr "<a href=\"admin.php?page=gf_settings\">Registreer</a> je kopie van Gravity Forms voor het verkrijgen van automatische updates en support. Een licentie sleutel nodig? <a href=\"http://www.gravityforms.com\">Koop er nu één</a>."
+
+#: update.php:53
+msgid "Your version of Gravity Forms is up to date."
+msgstr "Je versie van Gravity Forms is up-to-date."
+
+#: widget.php:15
+msgid "Gravity Forms Widget"
+msgstr "Gravity Forms widget"
+
+#: widget.php:63
+msgid "Contact Us"
+msgstr "Neem contact met ons"
+
+#: widget.php:88
+msgid "advanced options"
+msgstr "geavanceerde instellingen"
+
+#: widget.php:92
+msgid "Disable script output"
+msgstr "Script output uitschakelen"
+
+#: widget.php:93
+msgid "Tab Index Start"
+msgstr "Tab index start"

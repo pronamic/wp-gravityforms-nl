@@ -2,9 +2,9 @@
 /*
 Plugin Name: Gravity Forms (nl)
 Plugin URI: http://pronamic.eu/wp-plugins/gravityforms-nl/
-Description: Extends the Gravity Forms plugin and add-ons with the Dutch language: <strong>Gravity Forms</strong> 1.6.12 | <strong>User Registration Add-On</strong> 1.4 | <strong>Campaign Monitor Add-On</strong> 2.0 | <strong>MailChimp Add-On</strong> 1.7 | <strong>PayPal Add-On</strong> 1.6 | <strong>Signature Add-On</strong> 1.2 | <strong>Polls Add-On</strong> 1.0
+Description: Extends the Gravity Forms plugin and add-ons with the Dutch language: <strong>Gravity Forms</strong> 1.6.12 | <strong>User Registration Add-On</strong> 1.5 | <strong>Campaign Monitor Add-On</strong> 2.1 | <strong>MailChimp Add-On</strong> 2.1 | <strong>PayPal Add-On</strong> 1.7 | <strong>Signature Add-On</strong> 1.3 | <strong>Polls Add-On</strong> 1.2
 
-Version: 2.7
+Version: 2.7.1
 Requires at least: 3.0
 
 Author: Pronamic
@@ -145,7 +145,7 @@ class GravityFormsNL {
 	private static function get_mo_file( $domain ) {
 		$dir = dirname( __FILE__ );
 
-		$mo_file = $dir . '/languages/' . $domain . '/' . self::$language . '.mo';
+		$mo_file = $dir . '/languages/' . $domain . '/nl_NL.mo';
 
 		return $mo_file;
 	}
