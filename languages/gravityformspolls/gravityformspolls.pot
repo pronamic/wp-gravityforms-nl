@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Pronamic
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: Pronamic <info@pronamic.nl>\n"
+"POT-Creation-Date: 2013-04-16 16:07+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plugin-upgrade.php:53 polls.php:1437
+#, php-format
+msgid "View version %s Details"
+msgstr ""
+
+#: plugin-upgrade.php:72
+#, php-format
+msgid "Oops!! Something went wrong.%sPlease try again or %scontact us%s."
+msgstr ""
+
+#: polls.php:208
+msgid "Repeat voting is not allowed"
+msgstr ""
+
+#: polls.php:221 polls.php:605 pollwidget.php:111
+msgid "Poll"
+msgstr ""
+
+#: polls.php:509
+msgid "First Choice"
+msgstr ""
+
+#: polls.php:509
+msgid "Second Choice"
+msgstr ""
+
+#: polls.php:509
+msgid "Third Choice"
+msgstr ""
+
+#: polls.php:565
+msgid "Poll Question"
+msgstr ""
+
+#: polls.php:573
+msgid "Poll Type"
+msgstr ""
+
+#: polls.php:577
+msgid "Drop Down"
+msgstr ""
+
+#: polls.php:578
+msgid "Radio Buttons"
+msgstr ""
+
+#: polls.php:579
+msgid "Checkboxes"
+msgstr ""
+
+#: polls.php:592
+msgid "Randomize order of choices"
+msgstr ""
+
+#: polls.php:631
+msgid "<h2>Original Response</h2>"
+msgstr ""
+
+#: polls.php:835
+msgid "Other"
+msgstr ""
+
+#: polls.php:1201
+msgid "View results"
+msgstr ""
+
+#: polls.php:1202
+msgid "Back to the poll"
+msgstr ""
+
+#: polls.php:1430
+msgid "Gravity Forms "
+msgstr ""
+
+#: polls.php:1437
+msgid "There is a new version of Gravity Forms Polls Add-On available."
+msgstr ""
+
+#: polls.php:1438
+#, php-format
+msgid ""
+"%sRegister%s your copy of Gravity Forms to receive access to automatic "
+"upgrades and support. Need a license key? %sPurchase one now%s."
+msgstr ""
+
+#: pollwidget.php:15
+msgid "Gravity Forms Poll Widget"
+msgstr ""
+
+#: pollwidget.php:133
+msgid "Title"
+msgstr ""
+
+#: pollwidget.php:139
+msgid "Select a Form"
+msgstr ""
+
+#: pollwidget.php:154
+msgid "Display form title"
+msgstr ""
+
+#: pollwidget.php:155
+msgid "Display form description"
+msgstr ""
+
+#: pollwidget.php:156
+msgid "Display form confirmation"
+msgstr ""
+
+#: pollwidget.php:162
+msgid "Display Mode"
+msgstr ""
+
+#: pollwidget.php:170
+msgid "Display results after voting"
+msgstr ""
+
+#: pollwidget.php:173
+msgid "Show link to view results"
+msgstr ""
+
+#: pollwidget.php:175
+msgid "Show percentages"
+msgstr ""
+
+#: pollwidget.php:177
+msgid "Show counts"
+msgstr ""
+
+#: pollwidget.php:181
+msgid "Style"
+msgstr ""
+
+#: pollwidget.php:183
+msgid "Green"
+msgstr ""
+
+#: pollwidget.php:184
+msgid "Blue"
+msgstr ""
+
+#: pollwidget.php:185
+msgid "Red"
+msgstr ""
+
+#: pollwidget.php:186
+msgid "Orange"
+msgstr ""
+
+#: pollwidget.php:193
+msgid "Don't block repeat voting"
+msgstr ""
+
+#: pollwidget.php:194
+msgid "Block repeat voting using cookie"
+msgstr ""
+
+#: pollwidget.php:197
+msgid "Expires:"
+msgstr ""
+
+#: pollwidget.php:201
+msgid "Never"
+msgstr ""
+
+#: pollwidget.php:202
+msgid "1 hour"
+msgstr ""
+
+#: pollwidget.php:203
+msgid "6 hours"
+msgstr ""
+
+#: pollwidget.php:204
+msgid "12 hours"
+msgstr ""
+
+#: pollwidget.php:205
+msgid "1 day"
+msgstr ""
+
+#: pollwidget.php:206
+msgid "1 week"
+msgstr ""
+
+#: pollwidget.php:207
+msgid "1 month"
+msgstr ""
+
+#: pollwidget.php:222
+msgid "advanced options"
+msgstr ""
+
+#: pollwidget.php:225
+msgid "Enable AJAX"
+msgstr ""
+
+#: pollwidget.php:226
+msgid "Disable script output"
+msgstr ""
+
+#: pollwidget.php:227
+msgid "Tab Index Start"
+msgstr ""
+
+#: pollwidget.php:229
+msgid ""
+"If you have other forms on the page (i.e. Comments Form), specify a higher "
+"tabindex start value so that your Gravity Form does not end up with the same "
+"tabindices as your other forms. To disable the tabindex, enter 0 (zero)."
+msgstr ""

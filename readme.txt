@@ -33,6 +33,17 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 WordPress installation and then activate the Plugin from Plugins page.
 
 
+== Developers ==
+
+./update-pot gravityforms
+./update-pot gravityformscampaignmonitor
+./update-pot gravityformsmailchimp
+./update-pot gravityformspaypal
+./update-pot gravityformspolls
+./update-pot gravityformssignature
+./update-pot gravityformsuserregistration
+
+
 == Changelog ==
 
 = 2.7 =
