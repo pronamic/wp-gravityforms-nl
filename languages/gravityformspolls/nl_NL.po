@@ -1,0 +1,215 @@
+# Translation of 1.2 in Dutch
+# This file is distributed under the same license as the 1.2 package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-04-16 15:00:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: 1.2\n"
+
+#: plugin-upgrade.php:53 polls.php:1437
+msgid "View version %s Details"
+msgstr "Bekijk versie %s details"
+
+#: plugin-upgrade.php:72
+msgid "Oops!! Something went wrong.%sPlease try again or %scontact us%s."
+msgstr "Helaas! Er is iets verkeerd gegaan.%sProbeer opnieuw of %sneem contact met ons op%s."
+
+#: polls.php:208
+msgid "Repeat voting is not allowed"
+msgstr "Herhalend stemmen is niet toegestaan"
+
+#: polls.php:221 polls.php:605 pollwidget.php:111
+msgid "Poll"
+msgstr "Opiniepeiling"
+
+#: polls.php:509
+msgid "First Choice"
+msgstr "Eerste keus"
+
+#: polls.php:509
+msgid "Second Choice"
+msgstr "Tweede keus"
+
+#: polls.php:509
+msgid "Third Choice"
+msgstr "Derde keus"
+
+#: polls.php:565
+msgid "Poll Question"
+msgstr "Opiniepeiling vraag"
+
+#: polls.php:573
+msgid "Poll Type"
+msgstr "Opiniepeiling type"
+
+#: polls.php:577
+msgid "Drop Down"
+msgstr "Uitschuifkeuzelijst"
+
+#: polls.php:578
+msgid "Radio Buttons"
+msgstr "Keuzerondjes"
+
+#: polls.php:579
+msgid "Checkboxes"
+msgstr "Selectievakjes"
+
+#: polls.php:592
+msgid "Randomize order of choices"
+msgstr "Willekeurig volgorde van keuzes"
+
+#: polls.php:631
+msgid "<h2>Original Response</h2>"
+msgstr "<h2>Origineel antwoord</h2>"
+
+#: polls.php:835
+msgid "Other"
+msgstr "Andere"
+
+#: polls.php:1201
+msgid "View results"
+msgstr "Bekijk resultaten"
+
+#: polls.php:1202
+msgid "Back to the poll"
+msgstr "Terug naar de opiniepeiling"
+
+#: polls.php:1430
+msgid "Gravity Forms "
+msgstr "Gravity Forms "
+
+#: polls.php:1437
+msgid "There is a new version of Gravity Forms Polls Add-On available."
+msgstr "Er is een nieuwe versie van de Gravity Forms Polls Add-on beschikbaar."
+
+#: polls.php:1438
+msgid "%sRegister%s your copy of Gravity Forms to receive access to automatic upgrades and support. Need a license key? %sPurchase one now%s."
+msgstr "%sRegistreer%s je kopie van Gravity Forms voor het verkrijgen van automatische updates en support. Een licentie sleutel nodig? %sKoop er nu één%s."
+
+#: pollwidget.php:15
+msgid "Gravity Forms Poll Widget"
+msgstr "Gravity Forms opiniepeiling widget"
+
+#: pollwidget.php:133
+msgid "Title"
+msgstr "Titel"
+
+#: pollwidget.php:139
+msgid "Select a Form"
+msgstr "Selecteer een formulier"
+
+#: pollwidget.php:154
+msgid "Display form title"
+msgstr "Formulier titel tonen"
+
+#: pollwidget.php:155
+msgid "Display form description"
+msgstr "Formulier beschrijving tonen"
+
+#: pollwidget.php:156
+msgid "Display form confirmation"
+msgstr "Formulier bevestiging tonen"
+
+#: pollwidget.php:162
+msgid "Display Mode"
+msgstr "Weergavemodus"
+
+#: pollwidget.php:170
+msgid "Display results after voting"
+msgstr "Resultaten tonen na stemmen"
+
+#: pollwidget.php:173
+msgid "Show link to view results"
+msgstr "Link naar bekijk resultaten weergeven"
+
+#: pollwidget.php:175
+msgid "Show percentages"
+msgstr "Percentages weergeven"
+
+#: pollwidget.php:177
+msgid "Show counts"
+msgstr "Telling weergeven"
+
+#: pollwidget.php:181
+msgid "Style"
+msgstr "Opmaak"
+
+#: pollwidget.php:183
+msgid "Green"
+msgstr "Groen"
+
+#: pollwidget.php:184
+msgid "Blue"
+msgstr "Blauw"
+
+#: pollwidget.php:185
+msgid "Red"
+msgstr "Rood"
+
+#: pollwidget.php:186
+msgid "Orange"
+msgstr "Oranje"
+
+#: pollwidget.php:193
+msgid "Don't block repeat voting"
+msgstr "Herhaaldelijk stemmen niet blokkeren"
+
+#: pollwidget.php:194
+msgid "Block repeat voting using cookie"
+msgstr "Blokkeer herhaaldelijk stemmen met cookie"
+
+#: pollwidget.php:197
+msgid "Expires:"
+msgstr "Verloopt:"
+
+#: pollwidget.php:201
+msgid "Never"
+msgstr "Nooit"
+
+#: pollwidget.php:202
+msgid "1 hour"
+msgstr "1 uur"
+
+#: pollwidget.php:203
+msgid "6 hours"
+msgstr "6 uren"
+
+#: pollwidget.php:204
+msgid "12 hours"
+msgstr "12 uren"
+
+#: pollwidget.php:205
+msgid "1 day"
+msgstr "1 dag"
+
+#: pollwidget.php:206
+msgid "1 week"
+msgstr "1 week"
+
+#: pollwidget.php:207
+msgid "1 month"
+msgstr "1 maand"
+
+#: pollwidget.php:222
+msgid "advanced options"
+msgstr "geavanceerde opties"
+
+#: pollwidget.php:225
+msgid "Enable AJAX"
+msgstr "AJAX inschakelen"
+
+#: pollwidget.php:226
+msgid "Disable script output"
+msgstr "Script output uitschakelen"
+
+#: pollwidget.php:227
+msgid "Tab Index Start"
+msgstr "Tab index start"
+
+#: pollwidget.php:229
+msgid "If you have other forms on the page (i.e. Comments Form), specify a higher tabindex start value so that your Gravity Form does not end up with the same tabindices as your other forms. To disable the tabindex, enter 0 (zero)."
+msgstr "Als je andere formulieren op de pagina hebt staan (bijvoorbeeld een reactieformulier), specificeer dan een hogere tabindex startwaarde zodat Gravity Forms niet dezelfde tabindexen gebruikt van andere formulieren. Om de tabindex uit te schakelen type je 0 (nul) in."

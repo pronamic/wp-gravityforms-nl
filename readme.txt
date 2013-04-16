@@ -43,6 +43,14 @@ WordPress installation and then activate the Plugin from Plugins page.
 ./update-pot gravityformssignature
 ./update-pot gravityformsuserregistration
 
+./download-po gravityforms 1.6.12
+./download-po gravityformscampaignmonitor 2.1
+./download-po gravityformsmailchimp 2.1
+./download-po gravityformspaypal 1.7
+./download-po gravityformspolls 1.2
+./download-po gravityformssignature 1.3
+./download-po gravityformsuserregistration 1.5
+
 
 == Changelog ==
 
