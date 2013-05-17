@@ -220,7 +220,7 @@ class GravityFormsNL {
 			'country'     => __( 'Netherlands', 'gravityforms_nl' ),
 			'zip_label'   => __( 'Postal Code', 'gravityforms_nl' ),
 			'state_label' => __( 'Province', 'gravityforms_nl' ),
-			'states'      => array_merge(array(''), self::get_dutch_provinces())
+			'states'      => array_merge( array( '' ), self::get_dutch_provinces() )
 		);
 
 		return $address_types; 
