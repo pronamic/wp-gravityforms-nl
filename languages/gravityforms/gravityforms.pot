@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: Pronamic <info@pronamic.nl>\n"
-"POT-Creation-Date: 2013-04-26 09:58+0200\n"
+"POT-Creation-Date: 2013-05-17 12:32+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,2691 +18,2695 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: common.php:209 common.php:251 common.php:642 form_detail.php:2154
+#: common.php:209 common.php:251 common.php:645 form_detail.php:2154
 msgid "Insert Merge Tag"
 msgstr ""
 
-#: common.php:255 common.php:421 js.php:878
+#: common.php:255 common.php:423 js.php:885
 msgid "All Submitted Fields"
 msgstr ""
 
-#: common.php:310 common.php:527
+#: common.php:310 common.php:530
 msgid "Required form fields"
 msgstr ""
 
-#: common.php:322 common.php:531
+#: common.php:322 common.php:534
 msgid "Optional form fields"
 msgstr ""
 
-#: common.php:334 common.php:535
+#: common.php:334 common.php:538
 msgid "Pricing form fields"
 msgstr ""
 
-#: common.php:338 common.php:490
+#: common.php:338 common.php:492
 msgid "All Pricing Fields"
 msgstr ""
 
-#: common.php:352 common.php:539 common.php:4673 form_detail.php:1267
+#: common.php:352 common.php:542 common.php:4686 form_detail.php:1267
 #: form_detail.php:1269
 msgid "Other"
 msgstr ""
 
-#: common.php:353 common.php:498 form_detail.php:2156
+#: common.php:353 common.php:500 form_detail.php:2156
 msgid "Client IP Address"
 msgstr ""
 
-#: common.php:354 common.php:355 common.php:499 common.php:500 common.php:2194
+#: common.php:354 common.php:355 common.php:501 common.php:502 common.php:2207
 #: form_detail.php:655 form_detail.php:1500 form_detail.php:2157
-#: form_detail.php:2158 js.php:497 js.php:878
+#: form_detail.php:2158 js.php:504 js.php:885
 msgid "Date"
 msgstr ""
 
-#: common.php:356 common.php:501 form_detail.php:2159
+#: common.php:356 common.php:503 form_detail.php:2159
 msgid "Embed Post/Page Id"
 msgstr ""
 
-#: common.php:357 common.php:502 form_detail.php:2160
+#: common.php:357 common.php:504 form_detail.php:2160
 msgid "Embed Post/Page Title"
 msgstr ""
 
-#: common.php:358 common.php:503 form_detail.php:2161
+#: common.php:358 common.php:505 form_detail.php:2161
 msgid "Embed URL"
 msgstr ""
 
-#: common.php:359 common.php:504 entry_detail.php:290 export.php:663
+#: common.php:359 common.php:506 entry_detail.php:290 export.php:663
 #: select_columns.php:88
 msgid "Entry Id"
 msgstr ""
 
-#: common.php:360 common.php:505
+#: common.php:360 common.php:507
 msgid "Entry URL"
 msgstr ""
 
-#: common.php:361 common.php:506
+#: common.php:361 common.php:508
 msgid "Form Id"
 msgstr ""
 
-#: common.php:362 common.php:507 js.php:878 tooltips.php:29
+#: common.php:362 common.php:509 form_list.php:189 js.php:885 tooltips.php:29
 msgid "Form Title"
 msgstr ""
 
-#: common.php:363 common.php:508 form_detail.php:2162
+#: common.php:363 common.php:511 form_detail.php:2163
+msgid "HTTP Referer URL"
+msgstr ""
+
+#: common.php:364 common.php:510 form_detail.php:2162
 msgid "HTTP User Agent"
 msgstr ""
 
-#: common.php:366 common.php:511 export.php:670
+#: common.php:368 common.php:514 export.php:670
 msgid "Post Id"
 msgstr ""
 
-#: common.php:367 common.php:512
+#: common.php:369 common.php:515
 msgid "Post Edit URL"
 msgstr ""
 
-#: common.php:370 common.php:515 form_detail.php:2164
+#: common.php:372 common.php:518 form_detail.php:2164
 msgid "User Display Name"
 msgstr ""
 
-#: common.php:371 common.php:516 form_detail.php:2165
+#: common.php:373 common.php:519 form_detail.php:2165
 msgid "User Email"
 msgstr ""
 
-#: common.php:372 common.php:517 form_detail.php:2166
+#: common.php:374 common.php:520 form_detail.php:2166
 msgid "User Login"
 msgstr ""
 
-#: common.php:380 common.php:543 common.php:672 form_detail.php:210
+#: common.php:382 common.php:546 common.php:675 form_detail.php:210
 #: form_detail.php:1474
 msgid "Custom"
 msgstr ""
 
-#: common.php:608
+#: common.php:611
 msgid "Select image size"
 msgstr ""
 
-#: common.php:609
+#: common.php:612
 msgid "Thumbnail"
 msgstr ""
 
-#: common.php:610
+#: common.php:613
 msgid "Thumbnail - Left Aligned"
 msgstr ""
 
-#: common.php:611
+#: common.php:614
 msgid "Thumbnail - Centered"
 msgstr ""
 
-#: common.php:612
+#: common.php:615
 msgid "Thumbnail - Right Aligned"
 msgstr ""
 
-#: common.php:614 form_detail.php:706 form_detail.php:1279
+#: common.php:617 form_detail.php:706 form_detail.php:1279
 #: form_detail.php:1691
 msgid "Medium"
 msgstr ""
 
-#: common.php:615
+#: common.php:618
 msgid "Medium - Left Aligned"
 msgstr ""
 
-#: common.php:616
+#: common.php:619
 msgid "Medium - Centered"
 msgstr ""
 
-#: common.php:617
+#: common.php:620
 msgid "Medium - Right Aligned"
 msgstr ""
 
-#: common.php:619 form_detail.php:707 form_detail.php:1279
+#: common.php:622 form_detail.php:707 form_detail.php:1279
 #: form_detail.php:1692
 msgid "Large"
 msgstr ""
 
-#: common.php:620
+#: common.php:623
 msgid "Large - Left Aligned"
 msgstr ""
 
-#: common.php:621
+#: common.php:624
 msgid "Large - Centered"
 msgstr ""
 
-#: common.php:622
+#: common.php:625
 msgid "Large - Right Aligned"
 msgstr ""
 
-#: common.php:624
+#: common.php:627
 msgid "Full Size"
 msgstr ""
 
-#: common.php:625
+#: common.php:628
 msgid "Full Size - Left Aligned"
 msgstr ""
 
-#: common.php:626
+#: common.php:629
 msgid "Full Size - Centered"
 msgstr ""
 
-#: common.php:627
+#: common.php:630
 msgid "Full Size - Right Aligned"
 msgstr ""
 
-#: common.php:643
+#: common.php:646
 msgid "Allowable form fields"
 msgstr ""
 
-#: common.php:1199 entry_detail.php:767
+#: common.php:1212 entry_detail.php:767
 msgid "Order"
 msgstr ""
 
-#: common.php:1230 common.php:2238 entry_detail.php:842 gravityforms.php:1108
-#: js.php:596
+#: common.php:1243 common.php:2251 entry_detail.php:842 gravityforms.php:1108
+#: js.php:603
 msgid "Total"
 msgstr ""
 
-#: common.php:1247 common.php:2230 entry_detail.php:779
+#: common.php:1260 common.php:2243 entry_detail.php:779
 msgid "Product"
 msgstr ""
 
-#: common.php:1248 entry_detail.php:780
+#: common.php:1261 entry_detail.php:780
 msgid "Qty"
 msgstr ""
 
-#: common.php:1249 entry_detail.php:781
+#: common.php:1262 entry_detail.php:781
 msgid "Unit Price"
 msgstr ""
 
-#: common.php:1250 common.php:2854 entry_detail.php:782 form_detail.php:480
-#: form_detail.php:1246 js.php:573 js.php:632
+#: common.php:1263 common.php:2867 entry_detail.php:782 form_detail.php:480
+#: form_detail.php:1246 js.php:580 js.php:639
 msgid "Price"
 msgstr ""
 
-#: common.php:1302
+#: common.php:1315
 msgid "Total:"
 msgstr ""
 
-#: common.php:1825
+#: common.php:1838
 #, php-format
 msgid ""
 "Gravity Forms require WordPress %s or greater. You must upgrade WordPress in "
 "order to use Gravity Forms"
 msgstr ""
 
-#: common.php:1911
+#: common.php:1924
 #, php-format
 msgid "%s ago"
 msgstr ""
 
-#: common.php:1913 common.php:1916
+#: common.php:1926 common.php:1929
 #, php-format
 msgid "%1$s at %2$s"
 msgstr ""
 
-#: common.php:2089 common.php:2161
+#: common.php:2102 common.php:2174
 #, php-format
 msgid "%d of %d items shown. Edit field to view all"
 msgstr ""
 
-#: common.php:2170
+#: common.php:2183
 msgid "Single Line Text"
 msgstr ""
 
-#: common.php:2172 form_detail.php:646
+#: common.php:2185 form_detail.php:646
 msgid "Paragraph Text"
 msgstr ""
 
-#: common.php:2174 form_detail.php:454 form_detail.php:471 form_detail.php:505
+#: common.php:2187 form_detail.php:454 form_detail.php:471 form_detail.php:505
 #: form_detail.php:519 form_detail.php:534 form_detail.php:647
 #: form_detail.php:674 form_detail.php:868
 msgid "Drop Down"
 msgstr ""
 
-#: common.php:2176 form_detail.php:648 form_detail.php:675 form_detail.php:871
+#: common.php:2189 form_detail.php:648 form_detail.php:675 form_detail.php:871
 msgid "Multi Select"
 msgstr ""
 
-#: common.php:2178 form_detail.php:533 form_detail.php:649 js.php:482
+#: common.php:2191 form_detail.php:533 form_detail.php:649 js.php:489
 msgid "Number"
 msgstr ""
 
-#: common.php:2180 form_detail.php:506 form_detail.php:650 form_detail.php:676
+#: common.php:2193 form_detail.php:506 form_detail.php:650 form_detail.php:676
 #: form_detail.php:869
 msgid "Checkboxes"
 msgstr ""
 
-#: common.php:2182 form_detail.php:455 form_detail.php:472 form_detail.php:507
+#: common.php:2195 form_detail.php:455 form_detail.php:472 form_detail.php:507
 #: form_detail.php:521 form_detail.php:651 form_detail.php:677
 #: form_detail.php:870
 msgid "Radio Buttons"
 msgstr ""
 
-#: common.php:2184 form_detail.php:457 form_detail.php:535 form_detail.php:652
+#: common.php:2197 form_detail.php:457 form_detail.php:535 form_detail.php:652
 msgid "Hidden"
 msgstr ""
 
-#: common.php:2186
+#: common.php:2199
 msgid "HTML"
 msgstr ""
 
-#: common.php:2188 js.php:370
+#: common.php:2201 js.php:377
 msgid "Section Break"
 msgstr ""
 
-#: common.php:2190 form_display.php:2236
+#: common.php:2203 form_display.php:2236
 msgid "Page Break"
 msgstr ""
 
-#: common.php:2192 js.php:401 js.php:573 notification.php:492
+#: common.php:2205 js.php:408 js.php:580 notification.php:492
 #: notification.php:974
 msgid "Name"
 msgstr ""
 
-#: common.php:2196 form_detail.php:656 js.php:502
+#: common.php:2209 form_detail.php:656 js.php:509
 msgid "Time"
 msgstr ""
 
-#: common.php:2198 form_detail.php:657 js.php:491
+#: common.php:2211 form_detail.php:657 js.php:498
 msgid "Phone"
 msgstr ""
 
-#: common.php:2200 js.php:456
+#: common.php:2213 js.php:463
 msgid "Address"
 msgstr ""
 
-#: common.php:2202 form_detail.php:658 js.php:507
+#: common.php:2215 form_detail.php:658 js.php:514
 msgid "Website"
 msgstr ""
 
-#: common.php:2204 form_detail.php:659 js.php:475
+#: common.php:2217 form_detail.php:659 js.php:482
 msgid "Email"
 msgstr ""
 
-#: common.php:2206 js.php:513
+#: common.php:2219 js.php:520
 msgid "Password"
 msgstr ""
 
-#: common.php:2208 form_detail.php:660
+#: common.php:2221 form_detail.php:660
 msgid "File Upload"
 msgstr ""
 
-#: common.php:2210
+#: common.php:2223
 msgid "CAPTCHA"
 msgstr ""
 
-#: common.php:2212 form_detail.php:661 js.php:393
+#: common.php:2225 form_detail.php:661 js.php:400
 msgid "List"
 msgstr ""
 
-#: common.php:2214 js.php:463
+#: common.php:2227 js.php:470
 msgid "Credit Card"
 msgstr ""
 
-#: common.php:2216 common.php:3119 common.php:4225 form_detail.php:980
+#: common.php:2229 common.php:3132 common.php:4238 form_detail.php:980
 #: form_list.php:330 form_list.php:348 gravityforms.php:1106 widget.php:70
 msgid "Title"
 msgstr ""
 
-#: common.php:2218
+#: common.php:2231
 msgid "Body"
 msgstr ""
 
-#: common.php:2220
+#: common.php:2233
 msgid "Excerpt"
 msgstr ""
 
-#: common.php:2222
+#: common.php:2235
 msgid "Tags"
 msgstr ""
 
-#: common.php:2224 form_detail.php:880
+#: common.php:2237 form_detail.php:880
 msgid "Category"
 msgstr ""
 
-#: common.php:2226 form_detail.php:374 form_detail.php:568 form_detail.php:605
+#: common.php:2239 form_detail.php:374 form_detail.php:568 form_detail.php:605
 #: form_settings.php:433 gravityforms.php:1223
 msgid "Image"
 msgstr ""
 
-#: common.php:2228
+#: common.php:2241
 msgid "Custom Field"
 msgstr ""
 
-#: common.php:2232 js.php:573 js.php:643
+#: common.php:2245 js.php:580 js.php:650
 msgid "Quantity"
 msgstr ""
 
-#: common.php:2234 js.php:602
+#: common.php:2247 js.php:609
 msgid "Option"
 msgstr ""
 
-#: common.php:2236 js.php:585
+#: common.php:2249 js.php:592
 msgid "Shipping"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Afghanistan"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Albania"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Algeria"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "American Samoa"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Andorra"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Angola"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Antigua and Barbuda"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Argentina"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Armenia"
 msgstr ""
 
-#: common.php:2333 form_detail.php:1261
+#: common.php:2346 form_detail.php:1261
 msgid "Australia"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Austria"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Azerbaijan"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Bahamas"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Bahrain"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Bangladesh"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Barbados"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Belarus"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Belgium"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Belize"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Benin"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Bermuda"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Bhutan"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Bolivia"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Bosnia and Herzegovina"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Botswana"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Brazil"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Brunei"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Bulgaria"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Burkina Faso"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Burundi"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Cambodia"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Cameroon"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Canada"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Cape Verde"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Central African Republic"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Chad"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Chile"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "China"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Colombia"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Comoros"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Congo, Democratic Republic of the"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Congo, Republic of the"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Costa Rica"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "C&ocirc;te d'Ivoire"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Croatia"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Cuba"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Cyprus"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Czech Republic"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Denmark"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Djibouti"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Dominica"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Dominican Republic"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "East Timor"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Ecuador"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Egypt"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "El Salvador"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Equatorial Guinea"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Eritrea"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Estonia"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Ethiopia"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Fiji"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Finland"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "France"
 msgstr ""
 
-#: common.php:2333
+#: common.php:2346
 msgid "Gabon"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Gambia"
 msgstr ""
 
-#: common.php:2334 common.php:2553 common.php:2568
+#: common.php:2347 common.php:2566 common.php:2581
 msgid "Georgia"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Germany"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Ghana"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Greece"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Greenland"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Grenada"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Guam"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Guatemala"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Guinea"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Guinea-Bissau"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Guyana"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Haiti"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Honduras"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Hong Kong"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Hungary"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Iceland"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "India"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Indonesia"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Iran"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Iraq"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Ireland"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Israel"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Italy"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Jamaica"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Japan"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Jordan"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Kazakhstan"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Kenya"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Kiribati"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "North Korea"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "South Korea"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Kuwait"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Kyrgyzstan"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Laos"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Latvia"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Lebanon"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Lesotho"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Liberia"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Libya"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Liechtenstein"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Lithuania"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Luxembourg"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Macedonia"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Madagascar"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Malawi"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Malaysia"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Maldives"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Mali"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Malta"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Marshall Islands"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Mauritania"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Mauritius"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Mexico"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Micronesia"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Moldova"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Monaco"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Mongolia"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Montenegro"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Morocco"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Mozambique"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Myanmar"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Namibia"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Nauru"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Nepal"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "Netherlands"
 msgstr ""
 
-#: common.php:2334
+#: common.php:2347
 msgid "New Zealand"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Nicaragua"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Niger"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Nigeria"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Norway"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Northern Mariana Islands"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Oman"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Pakistan"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Palau"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Palestine"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Panama"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Papua New Guinea"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Paraguay"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Peru"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Philippines"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Poland"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Portugal"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Puerto Rico"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Qatar"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Romania"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Russia"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Rwanda"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Saint Kitts and Nevis"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Saint Lucia"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Saint Vincent and the Grenadines"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Samoa"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "San Marino"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Sao Tome and Principe"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Saudi Arabia"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Senegal"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Serbia and Montenegro"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Seychelles"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Sierra Leone"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Singapore"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Slovakia"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Slovenia"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Solomon Islands"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Somalia"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "South Africa"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Spain"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Sri Lanka"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Sudan"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Sudan, South"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Suriname"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Swaziland"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Sweden"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Switzerland"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Syria"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Taiwan"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Tajikistan"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Tanzania"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Thailand"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Togo"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Tonga"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Trinidad and Tobago"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Tunisia"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Turkey"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Turkmenistan"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Tuvalu"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Uganda"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "Ukraine"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "United Arab Emirates"
 msgstr ""
 
-#: common.php:2335
+#: common.php:2348
 msgid "United Kingdom"
 msgstr ""
 
-#: common.php:2336 common.php:4023
+#: common.php:2349 common.php:4036
 msgid "United States"
 msgstr ""
 
-#: common.php:2336
+#: common.php:2349
 msgid "Uruguay"
 msgstr ""
 
-#: common.php:2336
+#: common.php:2349
 msgid "Uzbekistan"
 msgstr ""
 
-#: common.php:2336
+#: common.php:2349
 msgid "Vanuatu"
 msgstr ""
 
-#: common.php:2336
+#: common.php:2349
 msgid "Vatican City"
 msgstr ""
 
-#: common.php:2336
+#: common.php:2349
 msgid "Venezuela"
 msgstr ""
 
-#: common.php:2336
+#: common.php:2349
 msgid "Vietnam"
 msgstr ""
 
-#: common.php:2336
+#: common.php:2349
 msgid "Virgin Islands, British"
 msgstr ""
 
-#: common.php:2336
+#: common.php:2349
 msgid "Virgin Islands, U.S."
 msgstr ""
 
-#: common.php:2336
+#: common.php:2349
 msgid "Yemen"
 msgstr ""
 
-#: common.php:2336
+#: common.php:2349
 msgid "Zambia"
 msgstr ""
 
-#: common.php:2336
+#: common.php:2349
 msgid "Zimbabwe"
 msgstr ""
 
-#: common.php:2343
+#: common.php:2356
 msgid "AFGHANISTAN"
 msgstr ""
 
-#: common.php:2344
+#: common.php:2357
 msgid "ALBANIA"
 msgstr ""
 
-#: common.php:2345
+#: common.php:2358
 msgid "ALGERIA"
 msgstr ""
 
-#: common.php:2346
+#: common.php:2359
 msgid "AMERICAN SAMOA"
 msgstr ""
 
-#: common.php:2347
+#: common.php:2360
 msgid "ANDORRA"
 msgstr ""
 
-#: common.php:2348
+#: common.php:2361
 msgid "ANGOLA"
 msgstr ""
 
-#: common.php:2349
+#: common.php:2362
 msgid "ANTIGUA AND BARBUDA"
 msgstr ""
 
-#: common.php:2350
+#: common.php:2363
 msgid "ARGENTINA"
 msgstr ""
 
-#: common.php:2351
+#: common.php:2364
 msgid "ARMENIA"
 msgstr ""
 
-#: common.php:2352
+#: common.php:2365
 msgid "AUSTRALIA"
 msgstr ""
 
-#: common.php:2353
+#: common.php:2366
 msgid "AUSTRIA"
 msgstr ""
 
-#: common.php:2354
+#: common.php:2367
 msgid "AZERBAIJAN"
 msgstr ""
 
-#: common.php:2355
+#: common.php:2368
 msgid "BAHAMAS"
 msgstr ""
 
-#: common.php:2356
+#: common.php:2369
 msgid "BAHRAIN"
 msgstr ""
 
-#: common.php:2357
+#: common.php:2370
 msgid "BANGLADESH"
 msgstr ""
 
-#: common.php:2358
+#: common.php:2371
 msgid "BARBADOS"
 msgstr ""
 
-#: common.php:2359
+#: common.php:2372
 msgid "BELARUS"
 msgstr ""
 
-#: common.php:2360
+#: common.php:2373
 msgid "BELGIUM"
 msgstr ""
 
-#: common.php:2361
+#: common.php:2374
 msgid "BELIZE"
 msgstr ""
 
-#: common.php:2362
+#: common.php:2375
 msgid "BENIN"
 msgstr ""
 
-#: common.php:2363
+#: common.php:2376
 msgid "BERMUDA"
 msgstr ""
 
-#: common.php:2364
+#: common.php:2377
 msgid "BHUTAN"
 msgstr ""
 
-#: common.php:2365
+#: common.php:2378
 msgid "BOLIVIA"
 msgstr ""
 
-#: common.php:2366
+#: common.php:2379
 msgid "BOSNIA AND HERZEGOVINA"
 msgstr ""
 
-#: common.php:2367
+#: common.php:2380
 msgid "BOTSWANA"
 msgstr ""
 
-#: common.php:2368
+#: common.php:2381
 msgid "BRAZIL"
 msgstr ""
 
-#: common.php:2369
+#: common.php:2382
 msgid "BRUNEI"
 msgstr ""
 
-#: common.php:2370
+#: common.php:2383
 msgid "BULGARIA"
 msgstr ""
 
-#: common.php:2371
+#: common.php:2384
 msgid "BURKINA FASO"
 msgstr ""
 
-#: common.php:2372
+#: common.php:2385
 msgid "BURUNDI"
 msgstr ""
 
-#: common.php:2373
+#: common.php:2386
 msgid "CAMBODIA"
 msgstr ""
 
-#: common.php:2374
+#: common.php:2387
 msgid "CAMEROON"
 msgstr ""
 
-#: common.php:2375
+#: common.php:2388
 msgid "CANADA"
 msgstr ""
 
-#: common.php:2376
+#: common.php:2389
 msgid "CAPE VERDE"
 msgstr ""
 
-#: common.php:2377
+#: common.php:2390
 msgid "CENTRAL AFRICAN REPUBLIC"
 msgstr ""
 
-#: common.php:2378
+#: common.php:2391
 msgid "CHAD"
 msgstr ""
 
-#: common.php:2379
+#: common.php:2392
 msgid "CHILE"
 msgstr ""
 
-#: common.php:2380
+#: common.php:2393
 msgid "CHINA"
 msgstr ""
 
-#: common.php:2381
+#: common.php:2394
 msgid "COLOMBIA"
 msgstr ""
 
-#: common.php:2382
+#: common.php:2395
 msgid "COMOROS"
 msgstr ""
 
-#: common.php:2383
+#: common.php:2396
 msgid "CONGO, DEMOCRATIC REPUBLIC OF THE"
 msgstr ""
 
-#: common.php:2384
+#: common.php:2397
 msgid "CONGO, REPUBLIC OF THE"
 msgstr ""
 
-#: common.php:2385
+#: common.php:2398
 msgid "COSTA RICA"
 msgstr ""
 
-#: common.php:2386
+#: common.php:2399
 msgid "C&OCIRC;TE D'IVOIRE"
 msgstr ""
 
-#: common.php:2387
+#: common.php:2400
 msgid "CROATIA"
 msgstr ""
 
-#: common.php:2388
+#: common.php:2401
 msgid "CUBA"
 msgstr ""
 
-#: common.php:2389
+#: common.php:2402
 msgid "CYPRUS"
 msgstr ""
 
-#: common.php:2390
+#: common.php:2403
 msgid "CZECH REPUBLIC"
 msgstr ""
 
-#: common.php:2391
+#: common.php:2404
 msgid "DENMARK"
 msgstr ""
 
-#: common.php:2392
+#: common.php:2405
 msgid "DJIBOUTI"
 msgstr ""
 
-#: common.php:2393
+#: common.php:2406
 msgid "DOMINICA"
 msgstr ""
 
-#: common.php:2394
+#: common.php:2407
 msgid "DOMINICAN REPUBLIC"
 msgstr ""
 
-#: common.php:2395
+#: common.php:2408
 msgid "EAST TIMOR"
 msgstr ""
 
-#: common.php:2396
+#: common.php:2409
 msgid "ECUADOR"
 msgstr ""
 
-#: common.php:2397
+#: common.php:2410
 msgid "EGYPT"
 msgstr ""
 
-#: common.php:2398
+#: common.php:2411
 msgid "EL SALVADOR"
 msgstr ""
 
-#: common.php:2399
+#: common.php:2412
 msgid "EQUATORIAL GUINEA"
 msgstr ""
 
-#: common.php:2400
+#: common.php:2413
 msgid "ERITREA"
 msgstr ""
 
-#: common.php:2401
+#: common.php:2414
 msgid "ESTONIA"
 msgstr ""
 
-#: common.php:2402
+#: common.php:2415
 msgid "ETHIOPIA"
 msgstr ""
 
-#: common.php:2403
+#: common.php:2416
 msgid "FIJI"
 msgstr ""
 
-#: common.php:2404
+#: common.php:2417
 msgid "FINLAND"
 msgstr ""
 
-#: common.php:2405
+#: common.php:2418
 msgid "FRANCE"
 msgstr ""
 
-#: common.php:2406
+#: common.php:2419
 msgid "GABON"
 msgstr ""
 
-#: common.php:2407
+#: common.php:2420
 msgid "GAMBIA"
 msgstr ""
 
-#: common.php:2408
+#: common.php:2421
 msgid "GEORGIA"
 msgstr ""
 
-#: common.php:2409
+#: common.php:2422
 msgid "GERMANY"
 msgstr ""
 
-#: common.php:2410
+#: common.php:2423
 msgid "GHANA"
 msgstr ""
 
-#: common.php:2411
+#: common.php:2424
 msgid "GREECE"
 msgstr ""
 
-#: common.php:2412
+#: common.php:2425
 msgid "GREENLAND"
 msgstr ""
 
-#: common.php:2413
+#: common.php:2426
 msgid "GRENADA"
 msgstr ""
 
-#: common.php:2414
+#: common.php:2427
 msgid "GUAM"
 msgstr ""
 
-#: common.php:2415
+#: common.php:2428
 msgid "GUATEMALA"
 msgstr ""
 
-#: common.php:2416
+#: common.php:2429
 msgid "GUINEA"
 msgstr ""
 
-#: common.php:2417
+#: common.php:2430
 msgid "GUINEA-BISSAU"
 msgstr ""
 
-#: common.php:2418
+#: common.php:2431
 msgid "GUYANA"
 msgstr ""
 
-#: common.php:2419
+#: common.php:2432
 msgid "HAITI"
 msgstr ""
 
-#: common.php:2420
+#: common.php:2433
 msgid "HONDURAS"
 msgstr ""
 
-#: common.php:2421
+#: common.php:2434
 msgid "HONG KONG"
 msgstr ""
 
-#: common.php:2422
+#: common.php:2435
 msgid "HUNGARY"
 msgstr ""
 
-#: common.php:2423
+#: common.php:2436
 msgid "ICELAND"
 msgstr ""
 
-#: common.php:2424
+#: common.php:2437
 msgid "INDIA"
 msgstr ""
 
-#: common.php:2425
+#: common.php:2438
 msgid "INDONESIA"
 msgstr ""
 
-#: common.php:2426
+#: common.php:2439
 msgid "IRAN"
 msgstr ""
 
-#: common.php:2427
+#: common.php:2440
 msgid "IRAQ"
 msgstr ""
 
-#: common.php:2428
+#: common.php:2441
 msgid "IRELAND"
 msgstr ""
 
-#: common.php:2429
+#: common.php:2442
 msgid "ISRAEL"
 msgstr ""
 
-#: common.php:2430
+#: common.php:2443
 msgid "ITALY"
 msgstr ""
 
-#: common.php:2431
+#: common.php:2444
 msgid "JAMAICA"
 msgstr ""
 
-#: common.php:2432
+#: common.php:2445
 msgid "JAPAN"
 msgstr ""
 
-#: common.php:2433
+#: common.php:2446
 msgid "JORDAN"
 msgstr ""
 
-#: common.php:2434
+#: common.php:2447
 msgid "KAZAKHSTAN"
 msgstr ""
 
-#: common.php:2435
+#: common.php:2448
 msgid "KENYA"
 msgstr ""
 
-#: common.php:2436
+#: common.php:2449
 msgid "KIRIBATI"
 msgstr ""
 
-#: common.php:2437
+#: common.php:2450
 msgid "NORTH KOREA"
 msgstr ""
 
-#: common.php:2438
+#: common.php:2451
 msgid "SOUTH KOREA"
 msgstr ""
 
-#: common.php:2439
+#: common.php:2452
 msgid "KUWAIT"
 msgstr ""
 
-#: common.php:2440
+#: common.php:2453
 msgid "KYRGYZSTAN"
 msgstr ""
 
-#: common.php:2441
+#: common.php:2454
 msgid "LAOS"
 msgstr ""
 
-#: common.php:2442
+#: common.php:2455
 msgid "LATVIA"
 msgstr ""
 
-#: common.php:2443
+#: common.php:2456
 msgid "LEBANON"
 msgstr ""
 
-#: common.php:2444
+#: common.php:2457
 msgid "LESOTHO"
 msgstr ""
 
-#: common.php:2445
+#: common.php:2458
 msgid "LIBERIA"
 msgstr ""
 
-#: common.php:2446
+#: common.php:2459
 msgid "LIBYA"
 msgstr ""
 
-#: common.php:2447
+#: common.php:2460
 msgid "LIECHTENSTEIN"
 msgstr ""
 
-#: common.php:2448
+#: common.php:2461
 msgid "LITHUANIA"
 msgstr ""
 
-#: common.php:2449
+#: common.php:2462
 msgid "LUXEMBOURG"
 msgstr ""
 
-#: common.php:2450
+#: common.php:2463
 msgid "MACEDONIA"
 msgstr ""
 
-#: common.php:2451
+#: common.php:2464
 msgid "MADAGASCAR"
 msgstr ""
 
-#: common.php:2452
+#: common.php:2465
 msgid "MALAWI"
 msgstr ""
 
-#: common.php:2453
+#: common.php:2466
 msgid "MALAYSIA"
 msgstr ""
 
-#: common.php:2454
+#: common.php:2467
 msgid "MALDIVES"
 msgstr ""
 
-#: common.php:2455
+#: common.php:2468
 msgid "MALI"
 msgstr ""
 
-#: common.php:2456
+#: common.php:2469
 msgid "MALTA"
 msgstr ""
 
-#: common.php:2457
+#: common.php:2470
 msgid "MARSHALL ISLANDS"
 msgstr ""
 
-#: common.php:2458
+#: common.php:2471
 msgid "MAURITANIA"
 msgstr ""
 
-#: common.php:2459
+#: common.php:2472
 msgid "MAURITIUS"
 msgstr ""
 
-#: common.php:2460
+#: common.php:2473
 msgid "MEXICO"
 msgstr ""
 
-#: common.php:2461
+#: common.php:2474
 msgid "MICRONESIA"
 msgstr ""
 
-#: common.php:2462
+#: common.php:2475
 msgid "MOLDOVA"
 msgstr ""
 
-#: common.php:2463
+#: common.php:2476
 msgid "MONACO"
 msgstr ""
 
-#: common.php:2464
+#: common.php:2477
 msgid "MONGOLIA"
 msgstr ""
 
-#: common.php:2465
+#: common.php:2478
 msgid "MONTENEGRO"
 msgstr ""
 
-#: common.php:2466
+#: common.php:2479
 msgid "MOROCCO"
 msgstr ""
 
-#: common.php:2467
+#: common.php:2480
 msgid "MOZAMBIQUE"
 msgstr ""
 
-#: common.php:2468
+#: common.php:2481
 msgid "MYANMAR"
 msgstr ""
 
-#: common.php:2469
+#: common.php:2482
 msgid "NAMIBIA"
 msgstr ""
 
-#: common.php:2470
+#: common.php:2483
 msgid "NAURU"
 msgstr ""
 
-#: common.php:2471
+#: common.php:2484
 msgid "NEPAL"
 msgstr ""
 
-#: common.php:2472
+#: common.php:2485
 msgid "NETHERLANDS"
 msgstr ""
 
-#: common.php:2473
+#: common.php:2486
 msgid "NEW ZEALAND"
 msgstr ""
 
-#: common.php:2474
+#: common.php:2487
 msgid "NICARAGUA"
 msgstr ""
 
-#: common.php:2475
+#: common.php:2488
 msgid "NIGER"
 msgstr ""
 
-#: common.php:2476
+#: common.php:2489
 msgid "NIGERIA"
 msgstr ""
 
-#: common.php:2477
+#: common.php:2490
 msgid "NORTHERN MARIANA ISLANDS"
 msgstr ""
 
-#: common.php:2478
+#: common.php:2491
 msgid "NORWAY"
 msgstr ""
 
-#: common.php:2479
+#: common.php:2492
 msgid "OMAN"
 msgstr ""
 
-#: common.php:2480
+#: common.php:2493
 msgid "PAKISTAN"
 msgstr ""
 
-#: common.php:2481
+#: common.php:2494
 msgid "PALAU"
 msgstr ""
 
-#: common.php:2482
+#: common.php:2495
 msgid "PALESTINE"
 msgstr ""
 
-#: common.php:2483
+#: common.php:2496
 msgid "PANAMA"
 msgstr ""
 
-#: common.php:2484
+#: common.php:2497
 msgid "PAPUA NEW GUINEA"
 msgstr ""
 
-#: common.php:2485
+#: common.php:2498
 msgid "PARAGUAY"
 msgstr ""
 
-#: common.php:2486
+#: common.php:2499
 msgid "PERU"
 msgstr ""
 
-#: common.php:2487
+#: common.php:2500
 msgid "PHILIPPINES"
 msgstr ""
 
-#: common.php:2488
+#: common.php:2501
 msgid "POLAND"
 msgstr ""
 
-#: common.php:2489
+#: common.php:2502
 msgid "PORTUGAL"
 msgstr ""
 
-#: common.php:2490
+#: common.php:2503
 msgid "PUERTO RICO"
 msgstr ""
 
-#: common.php:2491
+#: common.php:2504
 msgid "QATAR"
 msgstr ""
 
-#: common.php:2492
+#: common.php:2505
 msgid "ROMANIA"
 msgstr ""
 
-#: common.php:2493
+#: common.php:2506
 msgid "RUSSIA"
 msgstr ""
 
-#: common.php:2494
+#: common.php:2507
 msgid "RWANDA"
 msgstr ""
 
-#: common.php:2495
+#: common.php:2508
 msgid "SAINT KITTS AND NEVIS"
 msgstr ""
 
-#: common.php:2496
+#: common.php:2509
 msgid "SAINT LUCIA"
 msgstr ""
 
-#: common.php:2497
+#: common.php:2510
 msgid "SAINT VINCENT AND THE GRENADINES"
 msgstr ""
 
-#: common.php:2498
+#: common.php:2511
 msgid "SAMOA"
 msgstr ""
 
-#: common.php:2499
+#: common.php:2512
 msgid "SAN MARINO"
 msgstr ""
 
-#: common.php:2500
+#: common.php:2513
 msgid "SAO TOME AND PRINCIPE"
 msgstr ""
 
-#: common.php:2501
+#: common.php:2514
 msgid "SAUDI ARABIA"
 msgstr ""
 
-#: common.php:2502
+#: common.php:2515
 msgid "SENEGAL"
 msgstr ""
 
-#: common.php:2503
+#: common.php:2516
 msgid "SERBIA AND MONTENEGRO"
 msgstr ""
 
-#: common.php:2504
+#: common.php:2517
 msgid "SEYCHELLES"
 msgstr ""
 
-#: common.php:2505
+#: common.php:2518
 msgid "SIERRA LEONE"
 msgstr ""
 
-#: common.php:2506
+#: common.php:2519
 msgid "SINGAPORE"
 msgstr ""
 
-#: common.php:2507
+#: common.php:2520
 msgid "SLOVAKIA"
 msgstr ""
 
-#: common.php:2508
+#: common.php:2521
 msgid "SLOVENIA"
 msgstr ""
 
-#: common.php:2509
+#: common.php:2522
 msgid "SOLOMON ISLANDS"
 msgstr ""
 
-#: common.php:2510
+#: common.php:2523
 msgid "SOMALIA"
 msgstr ""
 
-#: common.php:2511
+#: common.php:2524
 msgid "SOUTH AFRICA"
 msgstr ""
 
-#: common.php:2512
+#: common.php:2525
 msgid "SPAIN"
 msgstr ""
 
-#: common.php:2513
+#: common.php:2526
 msgid "SRI LANKA"
 msgstr ""
 
-#: common.php:2514
+#: common.php:2527
 msgid "SUDAN"
 msgstr ""
 
-#: common.php:2515
+#: common.php:2528
 msgid "SUDAN, SOUTH"
 msgstr ""
 
-#: common.php:2516
+#: common.php:2529
 msgid "SURINAME"
 msgstr ""
 
-#: common.php:2517
+#: common.php:2530
 msgid "SWAZILAND"
 msgstr ""
 
-#: common.php:2518
+#: common.php:2531
 msgid "SWEDEN"
 msgstr ""
 
-#: common.php:2519
+#: common.php:2532
 msgid "SWITZERLAND"
 msgstr ""
 
-#: common.php:2520
+#: common.php:2533
 msgid "SYRIA"
 msgstr ""
 
-#: common.php:2521
+#: common.php:2534
 msgid "TAIWAN"
 msgstr ""
 
-#: common.php:2522
+#: common.php:2535
 msgid "TAJIKISTAN"
 msgstr ""
 
-#: common.php:2523
+#: common.php:2536
 msgid "TANZANIA"
 msgstr ""
 
-#: common.php:2524
+#: common.php:2537
 msgid "THAILAND"
 msgstr ""
 
-#: common.php:2525
+#: common.php:2538
 msgid "TOGO"
 msgstr ""
 
-#: common.php:2526
+#: common.php:2539
 msgid "TONGA"
 msgstr ""
 
-#: common.php:2527
+#: common.php:2540
 msgid "TRINIDAD AND TOBAGO"
 msgstr ""
 
-#: common.php:2528
+#: common.php:2541
 msgid "TUNISIA"
 msgstr ""
 
-#: common.php:2529
+#: common.php:2542
 msgid "TURKEY"
 msgstr ""
 
-#: common.php:2530
+#: common.php:2543
 msgid "TURKMENISTAN"
 msgstr ""
 
-#: common.php:2531
+#: common.php:2544
 msgid "TUVALU"
 msgstr ""
 
-#: common.php:2532
+#: common.php:2545
 msgid "UGANDA"
 msgstr ""
 
-#: common.php:2533
+#: common.php:2546
 msgid "UKRAINE"
 msgstr ""
 
-#: common.php:2534
+#: common.php:2547
 msgid "UNITED ARAB EMIRATES"
 msgstr ""
 
-#: common.php:2535
+#: common.php:2548
 msgid "UNITED KINGDOM"
 msgstr ""
 
-#: common.php:2536
+#: common.php:2549
 msgid "UNITED STATES"
 msgstr ""
 
-#: common.php:2537
+#: common.php:2550
 msgid "URUGUAY"
 msgstr ""
 
-#: common.php:2538
+#: common.php:2551
 msgid "UZBEKISTAN"
 msgstr ""
 
-#: common.php:2539
+#: common.php:2552
 msgid "VANUATU"
 msgstr ""
 
-#: common.php:2540
+#: common.php:2553
 msgid "VATICAN CITY"
 msgstr ""
 
-#: common.php:2541
+#: common.php:2554
 msgid "VENEZUELA"
 msgstr ""
 
-#: common.php:2542
+#: common.php:2555
 msgid "VIRGIN ISLANDS, BRITISH"
 msgstr ""
 
-#: common.php:2543
+#: common.php:2556
 msgid "VIRGIN ISLANDS, U.S."
 msgstr ""
 
-#: common.php:2544
+#: common.php:2557
 msgid "VIETNAM"
 msgstr ""
 
-#: common.php:2545
+#: common.php:2558
 msgid "YEMEN"
 msgstr ""
 
-#: common.php:2546
+#: common.php:2559
 msgid "ZAMBIA"
 msgstr ""
 
-#: common.php:2547
+#: common.php:2560
 msgid "ZIMBABWE"
 msgstr ""
 
-#: common.php:2553 common.php:2558
+#: common.php:2566 common.php:2571
 msgid "Alabama"
 msgstr ""
 
-#: common.php:2553 common.php:2559
+#: common.php:2566 common.php:2572
 msgid "Alaska"
 msgstr ""
 
-#: common.php:2553 common.php:2560
+#: common.php:2566 common.php:2573
 msgid "Arizona"
 msgstr ""
 
-#: common.php:2553 common.php:2561
+#: common.php:2566 common.php:2574
 msgid "Arkansas"
 msgstr ""
 
-#: common.php:2553 common.php:2562
+#: common.php:2566 common.php:2575
 msgid "California"
 msgstr ""
 
-#: common.php:2553 common.php:2563
+#: common.php:2566 common.php:2576
 msgid "Colorado"
 msgstr ""
 
-#: common.php:2553 common.php:2564
+#: common.php:2566 common.php:2577
 msgid "Connecticut"
 msgstr ""
 
-#: common.php:2553 common.php:2565
+#: common.php:2566 common.php:2578
 msgid "Delaware"
 msgstr ""
 
-#: common.php:2553 common.php:2566
+#: common.php:2566 common.php:2579
 msgid "District of Columbia"
 msgstr ""
 
-#: common.php:2553 common.php:2567
+#: common.php:2566 common.php:2580
 msgid "Florida"
 msgstr ""
 
-#: common.php:2553 common.php:2569
+#: common.php:2566 common.php:2582
 msgid "Hawaii"
 msgstr ""
 
-#: common.php:2553 common.php:2570
+#: common.php:2566 common.php:2583
 msgid "Idaho"
 msgstr ""
 
-#: common.php:2553 common.php:2571
+#: common.php:2566 common.php:2584
 msgid "Illinois"
 msgstr ""
 
-#: common.php:2553 common.php:2572
+#: common.php:2566 common.php:2585
 msgid "Indiana"
 msgstr ""
 
-#: common.php:2553 common.php:2573
+#: common.php:2566 common.php:2586
 msgid "Iowa"
 msgstr ""
 
-#: common.php:2553 common.php:2574
+#: common.php:2566 common.php:2587
 msgid "Kansas"
 msgstr ""
 
-#: common.php:2553 common.php:2575
+#: common.php:2566 common.php:2588
 msgid "Kentucky"
 msgstr ""
 
-#: common.php:2553 common.php:2576
+#: common.php:2566 common.php:2589
 msgid "Louisiana"
 msgstr ""
 
-#: common.php:2553 common.php:2577
+#: common.php:2566 common.php:2590
 msgid "Maine"
 msgstr ""
 
-#: common.php:2553 common.php:2578
+#: common.php:2566 common.php:2591
 msgid "Maryland"
 msgstr ""
 
-#: common.php:2553 common.php:2579
+#: common.php:2566 common.php:2592
 msgid "Massachusetts"
 msgstr ""
 
-#: common.php:2553 common.php:2580
+#: common.php:2566 common.php:2593
 msgid "Michigan"
 msgstr ""
 
-#: common.php:2553 common.php:2581
+#: common.php:2566 common.php:2594
 msgid "Minnesota"
 msgstr ""
 
-#: common.php:2553 common.php:2582
+#: common.php:2566 common.php:2595
 msgid "Mississippi"
 msgstr ""
 
-#: common.php:2553 common.php:2583
+#: common.php:2566 common.php:2596
 msgid "Missouri"
 msgstr ""
 
-#: common.php:2553 common.php:2584
+#: common.php:2566 common.php:2597
 msgid "Montana"
 msgstr ""
 
-#: common.php:2553 common.php:2585
+#: common.php:2566 common.php:2598
 msgid "Nebraska"
 msgstr ""
 
-#: common.php:2553 common.php:2586
+#: common.php:2566 common.php:2599
 msgid "Nevada"
 msgstr ""
 
-#: common.php:2553 common.php:2587
+#: common.php:2566 common.php:2600
 msgid "New Hampshire"
 msgstr ""
 
-#: common.php:2553 common.php:2588
+#: common.php:2566 common.php:2601
 msgid "New Jersey"
 msgstr ""
 
-#: common.php:2553 common.php:2589
+#: common.php:2566 common.php:2602
 msgid "New Mexico"
 msgstr ""
 
-#: common.php:2553 common.php:2590
+#: common.php:2566 common.php:2603
 msgid "New York"
 msgstr ""
 
-#: common.php:2553 common.php:2591
+#: common.php:2566 common.php:2604
 msgid "North Carolina"
 msgstr ""
 
-#: common.php:2553 common.php:2592
+#: common.php:2566 common.php:2605
 msgid "North Dakota"
 msgstr ""
 
-#: common.php:2553 common.php:2593
+#: common.php:2566 common.php:2606
 msgid "Ohio"
 msgstr ""
 
-#: common.php:2553 common.php:2594
+#: common.php:2566 common.php:2607
 msgid "Oklahoma"
 msgstr ""
 
-#: common.php:2553 common.php:2595
+#: common.php:2566 common.php:2608
 msgid "Oregon"
 msgstr ""
 
-#: common.php:2553 common.php:2596
+#: common.php:2566 common.php:2609
 msgid "Pennsylvania"
 msgstr ""
 
-#: common.php:2553 common.php:2597
+#: common.php:2566 common.php:2610
 msgid "Rhode Island"
 msgstr ""
 
-#: common.php:2553 common.php:2598
+#: common.php:2566 common.php:2611
 msgid "South Carolina"
 msgstr ""
 
-#: common.php:2553 common.php:2599
+#: common.php:2566 common.php:2612
 msgid "South Dakota"
 msgstr ""
 
-#: common.php:2553 common.php:2600
+#: common.php:2566 common.php:2613
 msgid "Tennessee"
 msgstr ""
 
-#: common.php:2553 common.php:2601
+#: common.php:2566 common.php:2614
 msgid "Texas"
 msgstr ""
 
-#: common.php:2553 common.php:2602
+#: common.php:2566 common.php:2615
 msgid "Utah"
 msgstr ""
 
-#: common.php:2553 common.php:2603
+#: common.php:2566 common.php:2616
 msgid "Vermont"
 msgstr ""
 
-#: common.php:2553 common.php:2604
+#: common.php:2566 common.php:2617
 msgid "Virginia"
 msgstr ""
 
-#: common.php:2553 common.php:2605
+#: common.php:2566 common.php:2618
 msgid "Washington"
 msgstr ""
 
-#: common.php:2553 common.php:2606
+#: common.php:2566 common.php:2619
 msgid "West Virginia"
 msgstr ""
 
-#: common.php:2553 common.php:2607
+#: common.php:2566 common.php:2620
 msgid "Wisconsin"
 msgstr ""
 
-#: common.php:2553 common.php:2608
+#: common.php:2566 common.php:2621
 msgid "Wyoming"
 msgstr ""
 
-#: common.php:2553 common.php:2609
+#: common.php:2566 common.php:2622
 msgid "Armed Forces Americas"
 msgstr ""
 
-#: common.php:2553 common.php:2610
+#: common.php:2566 common.php:2623
 msgid "Armed Forces Europe"
 msgstr ""
 
-#: common.php:2553 common.php:2611
+#: common.php:2566 common.php:2624
 msgid "Armed Forces Pacific"
 msgstr ""
 
-#: common.php:2621
+#: common.php:2634
 msgid "Alberta"
 msgstr ""
 
-#: common.php:2621
+#: common.php:2634
 msgid "British Columbia"
 msgstr ""
 
-#: common.php:2621
+#: common.php:2634
 msgid "Manitoba"
 msgstr ""
 
-#: common.php:2621
+#: common.php:2634
 msgid "New Brunswick"
 msgstr ""
 
-#: common.php:2621
+#: common.php:2634
 msgid "Newfoundland & Labrador"
 msgstr ""
 
-#: common.php:2621
+#: common.php:2634
 msgid "Northwest Territories"
 msgstr ""
 
-#: common.php:2621
+#: common.php:2634
 msgid "Nova Scotia"
 msgstr ""
 
-#: common.php:2621
+#: common.php:2634
 msgid "Nunavut"
 msgstr ""
 
-#: common.php:2621
+#: common.php:2634
 msgid "Ontario"
 msgstr ""
 
-#: common.php:2621
+#: common.php:2634
 msgid "Prince Edward Island"
 msgstr ""
 
-#: common.php:2621
+#: common.php:2634
 msgid "Quebec"
 msgstr ""
 
-#: common.php:2621
+#: common.php:2634
 msgid "Saskatchewan"
 msgstr ""
 
-#: common.php:2621
+#: common.php:2634
 msgid "Yukon"
 msgstr ""
 
-#: common.php:2672
+#: common.php:2685
 #, php-format
 msgid "Please enter a value between %s and %s."
 msgstr ""
 
-#: common.php:2674
+#: common.php:2687
 #, php-format
 msgid "Please enter a value greater than or equal to %s."
 msgstr ""
 
-#: common.php:2676
+#: common.php:2689
 #, php-format
 msgid "Please enter a value less than or equal to %s."
 msgstr ""
 
-#: common.php:2678
+#: common.php:2691
 msgid "Please enter a valid number"
 msgstr ""
 
-#: common.php:2716 common.php:3785
+#: common.php:2729 common.php:3798
 msgid "Month"
 msgstr ""
 
-#: common.php:2720
+#: common.php:2733
 msgid "Day"
 msgstr ""
 
-#: common.php:2726 common.php:3795
+#: common.php:2739 common.php:3808
 msgid "Year"
 msgstr ""
 
-#: common.php:2800
+#: common.php:2813
 msgid "Product fields are not editable"
 msgstr ""
 
-#: common.php:2803
+#: common.php:2816
 msgid "Donations are not editable"
 msgstr ""
 
-#: common.php:2839 common.php:2843
+#: common.php:2852 common.php:2856
 msgid "Quantity:"
 msgstr ""
 
-#: common.php:2922 common.php:2930 notification.php:547
+#: common.php:2935 common.php:2943 notification.php:547
 msgid "Enter Email"
 msgstr ""
 
-#: common.php:2922 common.php:2930
+#: common.php:2935 common.php:2943
 msgid "Confirm Email"
 msgstr ""
 
-#: common.php:3020 js.php:869
+#: common.php:3033 js.php:876
 msgid "Phone format:"
 msgstr ""
 
-#: common.php:3109 common.php:3471
+#: common.php:3122 common.php:3484
 msgid "delete"
 msgstr ""
 
-#: common.php:3113 js.php:518
+#: common.php:3126 js.php:525
 msgid "File"
 msgstr ""
 
-#: common.php:3122 common.php:4226 form_detail.php:985
+#: common.php:3135 common.php:4239 form_detail.php:985
 msgid "Caption"
 msgstr ""
 
-#: common.php:3125 common.php:4227 form_detail.php:990 form_detail.php:1413
+#: common.php:3138 common.php:4240 form_detail.php:990 form_detail.php:1413
 msgid "Description"
 msgstr ""
 
-#: common.php:3135
+#: common.php:3148
 msgid "Click to select..."
 msgstr ""
 
-#: common.php:3174 form_display.php:1941
+#: common.php:3187 form_display.php:1941
 msgid "Strength indicator"
 msgstr ""
 
-#: common.php:3181
+#: common.php:3194
 msgid "Enter Password"
 msgstr ""
 
-#: common.php:3181
+#: common.php:3194
 msgid "Confirm Password"
 msgstr ""
 
-#: common.php:3201 js.php:407
+#: common.php:3214 js.php:414
 msgid "Prefix"
 msgstr ""
 
-#: common.php:3201 common.php:3210 js.php:407 js.php:413
+#: common.php:3214 common.php:3223 js.php:414 js.php:420
 msgid "First"
 msgstr ""
 
-#: common.php:3201 common.php:3210 js.php:407 js.php:413
+#: common.php:3214 common.php:3223 js.php:414 js.php:420
 msgid "Last"
 msgstr ""
 
-#: common.php:3201 js.php:407
+#: common.php:3214 js.php:414
 msgid "Suffix"
 msgstr ""
 
-#: common.php:3234 common.php:4023 form_detail.php:1027
+#: common.php:3247 common.php:4036 form_detail.php:1027
 msgid "State"
 msgstr ""
 
-#: common.php:3235
+#: common.php:3248
 msgid "Zip Code"
 msgstr ""
 
-#: common.php:3255 js.php:457
+#: common.php:3268 js.php:464
 msgid "Street Address"
 msgstr ""
 
-#: common.php:3262 js.php:457
+#: common.php:3275 js.php:464
 msgid "Address Line 2"
 msgstr ""
 
-#: common.php:3272 common.php:3288 js.php:457
+#: common.php:3285 common.php:3301 js.php:464
 msgid "City"
 msgstr ""
 
-#: common.php:3309 js.php:458
+#: common.php:3322 js.php:465
 msgid "Country"
 msgstr ""
 
-#: common.php:3331 common.php:3373 common.php:3390 common.php:3404
-#: common.php:3457
+#: common.php:3344 common.php:3386 common.php:3403 common.php:3417
+#: common.php:3470
 msgid "MM"
 msgstr ""
 
-#: common.php:3332 common.php:3368 common.php:3395 common.php:3409
+#: common.php:3345 common.php:3381 common.php:3408 common.php:3422
 msgid "DD"
 msgstr ""
 
-#: common.php:3333 common.php:3378 common.php:3386 common.php:3414
+#: common.php:3346 common.php:3391 common.php:3399 common.php:3427
 msgid "YYYY"
 msgstr ""
 
-#: common.php:3455
+#: common.php:3468
 msgid "AM"
 msgstr ""
 
-#: common.php:3455
+#: common.php:3468
 msgid "PM"
 msgstr ""
 
-#: common.php:3457
+#: common.php:3470
 msgid "HH"
 msgstr ""
 
-#: common.php:3465
+#: common.php:3478
 msgid "Download file"
 msgstr ""
 
-#: common.php:3465
+#: common.php:3478
 msgid "Delete file"
 msgstr ""
 
-#: common.php:3516
+#: common.php:3529
 msgid "To use the reCaptcha field you must first do the following:"
 msgstr ""
 
-#: common.php:3516
+#: common.php:3529
 #, php-format
 msgid "Sign up%s for a free reCAPTCHA account"
 msgstr ""
 
-#: common.php:3516
+#: common.php:3529
 #, php-format
 msgid "Enter your reCAPTCHA keys in the %ssettings page%s"
 msgstr ""
 
-#: common.php:3603 js.php:465
+#: common.php:3616 js.php:472
 msgid "Card Number"
 msgstr ""
 
-#: common.php:3619 js.php:466
+#: common.php:3632 js.php:473
 msgid "Expiration Date"
 msgstr ""
 
-#: common.php:3629 js.php:467
+#: common.php:3642 js.php:474
 msgid "Security Code"
 msgstr ""
 
-#: common.php:3634
+#: common.php:3647
 msgid "Cardholder Name"
 msgstr ""
 
-#: common.php:3716
+#: common.php:3729
 msgid "Add a row"
 msgstr ""
 
-#: common.php:3717
+#: common.php:3730
 msgid "Remove this row"
 msgstr ""
 
-#: common.php:4022 form_detail.php:1228
+#: common.php:4035 form_detail.php:1228
 msgid "International"
 msgstr ""
 
-#: common.php:4022 js.php:458
+#: common.php:4035 js.php:465
 msgid "ZIP / Postal Code"
 msgstr ""
 
-#: common.php:4022
+#: common.php:4035
 msgid "State / Province / Region"
 msgstr ""
 
-#: common.php:4023
+#: common.php:4036
 msgid "ZIP Code"
 msgstr ""
 
-#: common.php:4024
+#: common.php:4037
 msgid "Canadian"
 msgstr ""
 
-#: common.php:4024 form_detail.php:1031
+#: common.php:4037 form_detail.php:1031
 msgid "Postal Code"
 msgstr ""
 
-#: common.php:4024
+#: common.php:4037
 msgid "Province"
 msgstr ""
 
-#: common.php:4231 common.php:4246 entry_list.php:894 entry_list.php:904
+#: common.php:4244 common.php:4259 entry_list.php:894 entry_list.php:904
 msgid "Click to view"
 msgstr ""
 
-#: common.php:4282
+#: common.php:4295
 msgid "Qty: "
 msgstr ""
 
-#: common.php:4282
+#: common.php:4295
 msgid "Price: "
 msgstr ""
 
-#: common.php:5085 form_list.php:229 form_list.php:286 form_list.php:373
+#: common.php:5102 form_list.php:229 form_list.php:286 form_list.php:373
 msgid "Active"
 msgstr ""
 
-#: common.php:5086 form_list.php:225 form_list.php:287 form_list.php:373
+#: common.php:5103 form_list.php:225 form_list.php:287 form_list.php:373
 msgid "Inactive"
 msgstr ""
 
-#: common.php:5087 common.php:5116 form_detail.php:1314 select_columns.php:149
+#: common.php:5104 common.php:5133 form_detail.php:1314 select_columns.php:149
 msgid "Save"
 msgstr ""
 
-#: common.php:5088 entry_detail.php:397
+#: common.php:5105 entry_detail.php:397
 msgid "Update"
 msgstr ""
 
-#: common.php:5089 form_display.php:540 form_display.php:2120 js.php:382
+#: common.php:5106 form_display.php:540 form_display.php:2120 js.php:389
 msgid "Previous"
 msgstr ""
 
-#: common.php:5090
+#: common.php:5107
 msgid "Select a format"
 msgstr ""
 
-#: common.php:5091
+#: common.php:5108
 #, php-format
 msgid "5 of %d items shown. Edit field to view all"
 msgstr ""
 
-#: common.php:5092
+#: common.php:5109
 msgid "Enter a value"
 msgstr ""
 
-#: common.php:5093
+#: common.php:5110
 msgid "Untitled Form"
 msgstr ""
 
-#: common.php:5094
+#: common.php:5111
 msgid ""
 "We would love to hear from you! Please fill out this form and we will get in "
 "touch with you shortly."
 msgstr ""
 
-#: common.php:5095 common.php:5124 form_detail.php:2298
+#: common.php:5112 common.php:5141 form_detail.php:2298
 msgid "Thanks for contacting us! We will get in touch with you shortly."
 msgstr ""
 
-#: common.php:5096 form_display.php:729 form_list.php:482
+#: common.php:5113 form_display.php:729 form_list.php:483
 msgid "Submit"
 msgstr ""
 
-#: common.php:5097 notification.php:308
+#: common.php:5114 notification.php:308
 msgid "Loading..."
 msgstr ""
 
-#: common.php:5098
+#: common.php:5115
 msgid "this field if"
 msgstr ""
 
-#: common.php:5099
+#: common.php:5116
 msgid "this page"
 msgstr ""
 
-#: common.php:5100
+#: common.php:5117
 msgid "this form button"
 msgstr ""
 
-#: common.php:5101
+#: common.php:5118
 msgid "Show"
 msgstr ""
 
-#: common.php:5102
+#: common.php:5119
 msgid "Hide"
 msgstr ""
 
-#: common.php:5103 entry_list.php:581 form_list.php:285
+#: common.php:5120 entry_list.php:581 form_list.php:285
 msgid "All"
 msgstr ""
 
-#: common.php:5104
+#: common.php:5121
 msgid "Any"
 msgstr ""
 
-#: common.php:5105
+#: common.php:5122
 msgid "of the following match:"
 msgstr ""
 
-#: common.php:5106 notification.php:188 notification.php:642
+#: common.php:5123 notification.php:188 notification.php:642
 msgid "is"
 msgstr ""
 
-#: common.php:5107 notification.php:189 notification.php:643
+#: common.php:5124 notification.php:189 notification.php:643
 msgid "is not"
 msgstr ""
 
-#: common.php:5108 notification.php:190 notification.php:644
+#: common.php:5125 notification.php:190 notification.php:644
 msgid "greater than"
 msgstr ""
 
-#: common.php:5109 notification.php:191 notification.php:645
+#: common.php:5126 notification.php:191 notification.php:645
 msgid "less than"
 msgstr ""
 
-#: common.php:5110 notification.php:192 notification.php:646
+#: common.php:5127 notification.php:192 notification.php:646
 msgid "contains"
 msgstr ""
 
-#: common.php:5111 notification.php:193 notification.php:647
+#: common.php:5128 notification.php:193 notification.php:647
 msgid "starts with"
 msgstr ""
 
-#: common.php:5112 notification.php:194 notification.php:648
+#: common.php:5129 notification.php:194 notification.php:648
 msgid "ends with"
 msgstr ""
 
-#: common.php:5114
+#: common.php:5131
 msgid "Use this confirmation if"
 msgstr ""
 
-#: common.php:5115
+#: common.php:5132
 msgid "Send this notification if"
 msgstr ""
 
-#: common.php:5117
+#: common.php:5134
 msgid "Saving..."
 msgstr ""
 
-#: common.php:5118
+#: common.php:5135
 msgid "Are you sure you wish to cancel these changes?"
 msgstr ""
 
-#: common.php:5119 form_settings.php:1238
+#: common.php:5136 form_settings.php:1243
 msgid "There was an issue saving this confirmation."
 msgstr ""
 
-#: common.php:5120
+#: common.php:5137
 msgid "Are you sure you wish to delete this confirmation?"
 msgstr ""
 
-#: common.php:5121 form_settings.php:1258
+#: common.php:5138 form_settings.php:1263
 msgid "There was an issue deleting this confirmation."
 msgstr ""
 
-#: common.php:5122
+#: common.php:5139
 msgid ""
 "There are unsaved changes to the current confirmation. Would you like to "
 "discard these changes?"
 msgstr ""
 
-#: common.php:5123
+#: common.php:5140
 msgid "Untitled Confirmation"
 msgstr ""
 
-#: common.php:5125
+#: common.php:5142
 msgid "Please select a page."
 msgstr ""
 
-#: common.php:5126
+#: common.php:5143
 msgid "Please enter a URL."
 msgstr ""
 
-#: common.php:5127
+#: common.php:5144
 msgid "Please enter a confirmation name."
 msgstr ""
 
-#: common.php:5129
+#: common.php:5146
 msgid ""
 "This form contains conditional logic dependent upon this field. Are you sure "
 "you want to delete this field? 'OK' to delete, 'Cancel' to abort."
 msgstr ""
 
-#: common.php:5130
+#: common.php:5147
 msgid ""
 "This form contains conditional logic dependent upon this choice. Are you "
 "sure you want to delete this choice? 'OK' to delete, 'Cancel' to abort."
 msgstr ""
 
-#: common.php:5131
+#: common.php:5148
 msgid ""
 "This form contains conditional logic dependent upon this choice. Are you "
 "sure you want to modify this choice? 'OK' to delete, 'Cancel' to abort."
 msgstr ""
 
-#: common.php:5133
+#: common.php:5150
 msgid ""
 "<h6>Merge Tags</h6>Merge tags allow you to dynamically populate submitted "
 "field values in your form content wherever this merge tag icon is present."
@@ -2810,7 +2814,7 @@ msgid ""
 "delete'"
 msgstr ""
 
-#: entry_detail.php:155 js.php:349
+#: entry_detail.php:155 js.php:356
 msgid "Ajax error while deleting field."
 msgstr ""
 
@@ -2921,7 +2925,7 @@ msgstr ""
 
 #: entry_detail.php:397 entry_list.php:765 entry_list.php:788
 #: form_detail.php:163 form_detail.php:351 form_display.php:2215
-#: form_list.php:376 form_settings.php:1370 gravityforms.php:1996 js.php:135
+#: form_list.php:376 form_settings.php:1375 gravityforms.php:1996 js.php:135
 #: notification.php:1031
 msgid "Edit"
 msgstr ""
@@ -2931,7 +2935,7 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: entry_detail.php:415 form_settings.php:1167 notification.php:90
+#: entry_detail.php:415 form_settings.php:1172 notification.php:90
 #: notification.php:414 notification.php:418
 msgid "Notifications"
 msgstr ""
@@ -2980,7 +2984,7 @@ msgstr ""
 
 #: entry_detail.php:579 form_detail.php:1316 form_display.php:2212
 #: form_list.php:299 form_list.php:394 form_list.php:395 form_list.php:443
-#: form_settings.php:1371 notification.php:1032
+#: form_settings.php:1376 notification.php:1032
 msgid "Delete"
 msgstr ""
 
@@ -3817,7 +3821,7 @@ msgstr ""
 msgid "Post Format"
 msgstr ""
 
-#: form_detail.php:852 js.php:362 tooltips.php:101 tooltips.php:107
+#: form_detail.php:852 js.php:369 tooltips.php:101 tooltips.php:107
 msgid "Post Category"
 msgstr ""
 
@@ -4985,10 +4989,6 @@ msgstr ""
 msgid "Preview"
 msgstr ""
 
-#: form_detail.php:2163
-msgid "HTTP Referer URL"
-msgstr ""
-
 #: form_detail.php:2278 forms_model.php:372
 msgid "Admin Notification"
 msgstr ""
@@ -4997,7 +4997,7 @@ msgstr ""
 msgid "New submission from"
 msgstr ""
 
-#: form_detail.php:2295 forms_model.php:3237
+#: form_detail.php:2295 forms_model.php:3262
 msgid "Default Confirmation"
 msgstr ""
 
@@ -5158,7 +5158,7 @@ msgstr ""
 msgid "Mismatch"
 msgstr ""
 
-#: form_display.php:2119 js.php:380
+#: form_display.php:2119 js.php:387
 msgid "Next"
 msgstr ""
 
@@ -5259,6 +5259,14 @@ msgstr ""
 msgid "Saved! Redirecting..."
 msgstr ""
 
+#: form_list.php:194 tooltips.php:30
+msgid "Form Description"
+msgstr ""
+
+#: form_list.php:199
+msgid "Create Form"
+msgstr ""
+
 #: form_list.php:242
 msgid "Ajax error while update form"
 msgstr ""
@@ -5269,7 +5277,7 @@ msgid ""
 "it. "
 msgstr ""
 
-#: form_list.php:256 form_list.php:260 form_settings.php:1371
+#: form_list.php:256 form_list.php:260 form_settings.php:1376
 #: notification.php:1032
 msgid "\\'Cancel\\' to stop, \\'OK\\' to delete."
 msgstr ""
@@ -5293,7 +5301,7 @@ msgstr ""
 msgid "Forms"
 msgstr ""
 
-#: form_list.php:272 form_settings.php:854 notification.php:419
+#: form_list.php:272 form_settings.php:859 notification.php:419
 msgid "Add New"
 msgstr ""
 
@@ -5338,19 +5346,19 @@ msgstr ""
 msgid "You don't have any forms. Let's go %screate one%s!"
 msgstr ""
 
-#: form_list.php:465 form_list.php:491
+#: form_list.php:465 form_list.php:492
 msgid "There was an issue creating your form."
 msgstr ""
 
-#: form_list.php:474
+#: form_list.php:475
 msgid "Please enter a form title."
 msgstr ""
 
-#: form_list.php:495
+#: form_list.php:496
 msgid "Please enter an unique form title."
 msgstr ""
 
-#: form_settings.php:92 form_settings.php:770 form_settings.php:1165
+#: form_settings.php:92 form_settings.php:775 form_settings.php:1170
 #: gravityforms.php:2010
 msgid "Form Settings"
 msgstr ""
@@ -5401,7 +5409,7 @@ msgstr ""
 msgid "Input type"
 msgstr ""
 
-#: form_settings.php:426 form_settings.php:991 form_settings.php:1428
+#: form_settings.php:426 form_settings.php:996 form_settings.php:1433
 msgid "Text"
 msgstr ""
 
@@ -5493,99 +5501,123 @@ msgstr ""
 msgid "Require Login Message"
 msgstr ""
 
-#: form_settings.php:847 form_settings.php:853 form_settings.php:890
-#: form_settings.php:1166
+#: form_settings.php:764
+msgid "Form Basics"
+msgstr ""
+
+#: form_settings.php:765
+msgid "Form Layout"
+msgstr ""
+
+#: form_settings.php:766
+msgid "Form Button"
+msgstr ""
+
+#: form_settings.php:767
+msgid "Restrictions"
+msgstr ""
+
+#: form_settings.php:768
+msgid "Form Options"
+msgstr ""
+
+#: form_settings.php:824
+msgid "Update Form Settings"
+msgstr ""
+
+#: form_settings.php:852 form_settings.php:858 form_settings.php:895
+#: form_settings.php:1171
 msgid "Confirmations"
 msgstr ""
 
-#: form_settings.php:937
+#: form_settings.php:942
 msgid "Save Confirmation"
 msgstr ""
 
-#: form_settings.php:980
+#: form_settings.php:985
 msgid "Confirmation Name"
 msgstr ""
 
-#: form_settings.php:987
+#: form_settings.php:992
 msgid "Confirmation Type"
 msgstr ""
 
-#: form_settings.php:997 form_settings.php:1029 form_settings.php:1431
+#: form_settings.php:1002 form_settings.php:1034 form_settings.php:1436
 #: js.php:78
 msgid "Page"
 msgstr ""
 
-#: form_settings.php:1003 form_settings.php:1434
+#: form_settings.php:1008 form_settings.php:1439
 msgid "Redirect"
 msgstr ""
 
-#: form_settings.php:1013 notification.php:752
+#: form_settings.php:1018 notification.php:752
 msgid "Message"
 msgstr ""
 
-#: form_settings.php:1018
+#: form_settings.php:1023
 msgid "Disable Auto-formatting"
 msgstr ""
 
-#: form_settings.php:1031
+#: form_settings.php:1036
 msgid "Select a page"
 msgstr ""
 
-#: form_settings.php:1040
+#: form_settings.php:1045
 msgid "Redirect URL"
 msgstr ""
 
-#: form_settings.php:1051
+#: form_settings.php:1056
 msgid "Redirect Query String"
 msgstr ""
 
-#: form_settings.php:1053
+#: form_settings.php:1058
 msgid "Pass Field Data Via Query String"
 msgstr ""
 
-#: form_settings.php:1056
+#: form_settings.php:1061
 msgid "Sample: phone={Phone:1}&email={Email:2}"
 msgstr ""
 
-#: form_settings.php:1065 notification.php:795 tooltips.php:86
+#: form_settings.php:1070 notification.php:795 tooltips.php:86
 #: tooltips.php:100
 msgid "Conditional Logic"
 msgstr ""
 
-#: form_settings.php:1205
+#: form_settings.php:1210
 msgid "You must specify a Confirmation Name."
 msgstr ""
 
-#: form_settings.php:1212
+#: form_settings.php:1217
 msgid "You must select a Confirmation Page."
 msgstr ""
 
-#: form_settings.php:1218
+#: form_settings.php:1223
 msgid "You must specify a Redirect URL."
 msgstr ""
 
-#: form_settings.php:1236
+#: form_settings.php:1241
 #, php-format
 msgid "Confirmation saved successfully. %sBack to confirmations.%s"
 msgstr ""
 
-#: form_settings.php:1256
+#: form_settings.php:1261
 msgid "Confirmation deleted."
 msgstr ""
 
-#: form_settings.php:1370 notification.php:1031
+#: form_settings.php:1375 notification.php:1031
 msgid "Edit this item"
 msgstr ""
 
-#: form_settings.php:1371 notification.php:1032
+#: form_settings.php:1376 notification.php:1032
 msgid "Delete this item"
 msgstr ""
 
-#: form_settings.php:1371
+#: form_settings.php:1376
 msgid "WARNING: You are about to delete this confirmation."
 msgstr ""
 
-#: form_settings.php:1411
+#: form_settings.php:1416
 msgid "<em>This page does not exist.</em>"
 msgstr ""
 
@@ -5593,7 +5625,7 @@ msgstr ""
 msgid "User Notification"
 msgstr ""
 
-#: forms_model.php:574 forms_model.php:903
+#: forms_model.php:574 forms_model.php:913
 msgid "You don't have adequate permission to delete entries."
 msgstr ""
 
@@ -5605,11 +5637,11 @@ msgstr ""
 msgid "You don't have adequate permission to create forms."
 msgstr ""
 
-#: forms_model.php:952
+#: forms_model.php:962
 msgid "You don't have adequate permission to delete notes."
 msgstr ""
 
-#: forms_model.php:983
+#: forms_model.php:993
 msgid "You don't have adequate permission to edit entries."
 msgstr ""
 
@@ -5618,7 +5650,7 @@ msgid "Update Available"
 msgstr ""
 
 #: gravityforms.php:814 gravityforms.php:1032 gravityforms.php:2010
-#: settings.php:395
+#: settings.php:411
 msgid "Settings"
 msgstr ""
 
@@ -6044,157 +6076,157 @@ msgid ""
 "add a product field to your form."
 msgstr ""
 
-#: js.php:330
+#: js.php:337
 msgid "Ajax error while saving form"
 msgstr ""
 
-#: js.php:339
+#: js.php:346
 msgid ""
 "Warning! Deleting this field will also delete all entry data associated with "
 "it. \\'Cancel\\' to stop. \\'OK\\' to delete"
 msgstr ""
 
-#: js.php:386
+#: js.php:393
 msgid "HTML Block"
 msgstr ""
 
-#: js.php:420 js.php:433 js.php:445 js.php:662
+#: js.php:427 js.php:440 js.php:452 js.php:669
 msgid "Untitled"
 msgstr ""
 
-#: js.php:423 js.php:437 js.php:438 js.php:449 js.php:450
+#: js.php:430 js.php:444 js.php:445 js.php:456 js.php:457
 msgid "First Choice"
 msgstr ""
 
-#: js.php:423 js.php:437 js.php:438 js.php:449 js.php:450
+#: js.php:430 js.php:444 js.php:445 js.php:456 js.php:457
 msgid "Second Choice"
 msgstr ""
 
-#: js.php:423 js.php:437 js.php:438 js.php:449 js.php:450
+#: js.php:430 js.php:444 js.php:445 js.php:456 js.php:457
 msgid "Third Choice"
 msgstr ""
 
-#: js.php:458
+#: js.php:465
 msgid "State / Province"
 msgstr ""
 
-#: js.php:468
+#: js.php:475
 msgid "Card Type"
 msgstr ""
 
-#: js.php:469
+#: js.php:476
 msgid "Cardholder\\'s Name"
 msgstr ""
 
-#: js.php:523
+#: js.php:530
 msgid "Hidden Field"
 msgstr ""
 
-#: js.php:527
+#: js.php:534
 msgid "Post Title"
 msgstr ""
 
-#: js.php:531
+#: js.php:538
 msgid "Post Body"
 msgstr ""
 
-#: js.php:535
+#: js.php:542
 msgid "Post Excerpt"
 msgstr ""
 
-#: js.php:540
+#: js.php:547
 msgid "Post Tags"
 msgstr ""
 
-#: js.php:547
+#: js.php:554
 msgid "Post Custom Field"
 msgstr ""
 
-#: js.php:550
+#: js.php:557
 msgid "Post Image"
 msgstr ""
 
-#: js.php:558
+#: js.php:565
 msgid "Captcha"
 msgstr ""
 
-#: js.php:566
+#: js.php:573
 msgid "Product Name"
 msgstr ""
 
-#: js.php:608
+#: js.php:615
 msgid "First Option"
 msgstr ""
 
-#: js.php:608
+#: js.php:615
 msgid "Second Option"
 msgstr ""
 
-#: js.php:608
+#: js.php:615
 msgid "Third Option"
 msgstr ""
 
-#: js.php:619
+#: js.php:626
 msgid "Donation"
 msgstr ""
 
-#: js.php:693
+#: js.php:700
 msgid "Only one reCAPTCHA field can be added to the form."
 msgstr ""
 
-#: js.php:704
+#: js.php:711
 msgid "Only one Shipping field can be added to the form"
 msgstr ""
 
-#: js.php:711
+#: js.php:718
 msgid "Only one Post Content field can be added to the form"
 msgstr ""
 
-#: js.php:717
+#: js.php:724
 msgid "Only one Post Title field can be added to the form"
 msgstr ""
 
-#: js.php:723
+#: js.php:730
 msgid "Only one Post Excerpt field can be added to the form"
 msgstr ""
 
-#: js.php:729
+#: js.php:736
 msgid "Only one credit card field can be added to the form"
 msgstr ""
 
-#: js.php:736
+#: js.php:743
 msgid "You must add a product field to the form first"
 msgstr ""
 
-#: js.php:758
+#: js.php:765
 msgid "Ajax error while adding field"
 msgstr ""
 
-#: js.php:784
+#: js.php:791
 msgid "Ajax error while duplicating field"
 msgstr ""
 
-#: js.php:808
+#: js.php:815
 msgid "Ajax error while changing input type"
 msgstr ""
 
-#: js.php:833
+#: js.php:840
 msgid "Drag to re-order"
 msgstr ""
 
-#: js.php:844
+#: js.php:851
 msgid "add another choice"
 msgstr ""
 
-#: js.php:847
+#: js.php:854
 msgid "remove this choice"
 msgstr ""
 
-#: js.php:878
+#: js.php:885
 msgid "Select a field"
 msgstr ""
 
-#: js.php:878
+#: js.php:885
 msgid "User IP Address"
 msgstr ""
 
@@ -6383,193 +6415,193 @@ msgstr ""
 msgid "Inactive Columns"
 msgstr ""
 
-#: settings.php:31 settings.php:74
+#: settings.php:47 settings.php:90
 msgid "Uninstall Gravity Forms"
 msgstr ""
 
-#: settings.php:35
+#: settings.php:51
 msgid "You don't have adequate permission to uninstall Gravity Forms."
 msgstr ""
 
-#: settings.php:60
+#: settings.php:76
 #, php-format
 msgid ""
 "Gravity Forms have been successfully uninstalled. It can be re-activated "
 "from the %splugins page%s."
 msgstr ""
 
-#: settings.php:70
+#: settings.php:86
 msgid "Warning"
 msgstr ""
 
-#: settings.php:71
+#: settings.php:87
 msgid ""
 "This operation deletes ALL Gravity Forms data. If you continue, You will not "
 "be able to retrieve or restore your forms or entries."
 msgstr ""
 
-#: settings.php:74
+#: settings.php:90
 msgid ""
 "Warning! ALL Gravity Forms data, including form entries will be deleted. "
 "This cannot be undone. \\'OK\\' to delete, \\'Cancel\\' to stop"
 msgstr ""
 
-#: settings.php:101
+#: settings.php:117
 msgid "You don't have adequate permission to edit settings."
 msgstr ""
 
-#: settings.php:122
+#: settings.php:138
 msgid "Settings Updated"
 msgstr ""
 
-#: settings.php:129 settings.php:133
+#: settings.php:145 settings.php:149
 msgid "General Settings"
 msgstr ""
 
-#: settings.php:136
+#: settings.php:152
 msgid "Support License Key"
 msgstr ""
 
-#: settings.php:149
+#: settings.php:165
 msgid "The license key is used for access to automatic upgrades and support."
 msgstr ""
 
-#: settings.php:153 tooltips.php:126
+#: settings.php:169 tooltips.php:126
 msgid "Output CSS"
 msgstr ""
 
-#: settings.php:155 settings.php:163 settings.php:182
+#: settings.php:171 settings.php:179 settings.php:198
 msgid "Yes"
 msgstr ""
 
-#: settings.php:156 settings.php:164 settings.php:183
+#: settings.php:172 settings.php:180 settings.php:199
 msgid "No"
 msgstr ""
 
-#: settings.php:157
+#: settings.php:173
 msgid ""
 "Set this to No if you would like to disable the plugin from outputting the "
 "form CSS."
 msgstr ""
 
-#: settings.php:161 tooltips.php:127
+#: settings.php:177 tooltips.php:127
 msgid "Output HTML5"
 msgstr ""
 
-#: settings.php:165
+#: settings.php:181
 msgid ""
 "Set this to No if you would like to disable the plugin from outputting HTML5 "
 "form fields."
 msgstr ""
 
-#: settings.php:170 tooltips.php:128
+#: settings.php:186 tooltips.php:128
 msgid "No-Conflict Mode"
 msgstr ""
 
-#: settings.php:172
+#: settings.php:188
 msgid "On"
 msgstr ""
 
-#: settings.php:173
+#: settings.php:189
 msgid "Off"
 msgstr ""
 
-#: settings.php:174
+#: settings.php:190
 msgid ""
 "Set this to On to prevent extraneous scripts and styles from being printed "
 "on Gravity Forms admin pages, reducing conflicts with other plugins and "
 "themes."
 msgstr ""
 
-#: settings.php:180 tooltips.php:132
+#: settings.php:196 tooltips.php:132
 msgid "Akismet Integration"
 msgstr ""
 
-#: settings.php:184 tooltips.php:132
+#: settings.php:200 tooltips.php:132
 msgid "Protect your form entries from spam using Akismet."
 msgstr ""
 
-#: settings.php:190 tooltips.php:131
+#: settings.php:206 tooltips.php:131
 msgid "Currency"
 msgstr ""
 
-#: settings.php:215
+#: settings.php:231
 msgid "reCAPTCHA Settings"
 msgstr ""
 
-#: settings.php:217
+#: settings.php:233
 msgid ""
 "Gravity Forms integrates with reCAPTCHA, a free CAPTCHA service that helps "
 "to digitize books while protecting your forms from spam bots. "
 msgstr ""
 
-#: settings.php:217
+#: settings.php:233
 msgid "Read more about reCAPTCHA"
 msgstr ""
 
-#: settings.php:223
+#: settings.php:239
 msgid "reCAPTCHA Public Key"
 msgstr ""
 
-#: settings.php:226 settings.php:233
+#: settings.php:242 settings.php:249
 msgid "Required only if you decide to use the reCAPTCHA field."
 msgstr ""
 
-#: settings.php:226 settings.php:233
+#: settings.php:242 settings.php:249
 #, php-format
 msgid "%sSign up%s for a free account to get the key."
 msgstr ""
 
-#: settings.php:230
+#: settings.php:246
 msgid "reCAPTCHA Private Key"
 msgstr ""
 
-#: settings.php:243
+#: settings.php:259
 msgid "Save Settings"
 msgstr ""
 
-#: settings.php:267
+#: settings.php:283
 msgid "Installation Status"
 msgstr ""
 
-#: settings.php:271
+#: settings.php:287
 msgid "PHP Version"
 msgstr ""
 
-#: settings.php:285
+#: settings.php:301
 msgid "Gravity Forms requires PHP 5 or above."
 msgstr ""
 
-#: settings.php:292
+#: settings.php:308
 msgid "MySQL Version"
 msgstr ""
 
-#: settings.php:306
+#: settings.php:322
 msgid "Gravity Forms requires MySQL 5 or above."
 msgstr ""
 
-#: settings.php:313
+#: settings.php:329
 msgid "WordPress Version"
 msgstr ""
 
-#: settings.php:327
+#: settings.php:343
 #, php-format
 msgid ""
 "Gravity Forms requires WordPress v%s or greater. You must upgrade WordPress "
 "in order to use this version of Gravity Forms."
 msgstr ""
 
-#: settings.php:334
+#: settings.php:350
 msgid "Gravity Forms Version"
 msgstr ""
 
-#: settings.php:346
+#: settings.php:362
 #, php-format
 msgid ""
 "New version %s available. Automatic upgrade available on the %splugins page%s"
 msgstr ""
 
-#: settings.php:410
+#: settings.php:428
 msgid "Uninstall"
 msgstr ""
 
@@ -6683,10 +6715,6 @@ msgstr ""
 
 #: tooltips.php:29
 msgid "Enter the title of your form."
-msgstr ""
-
-#: tooltips.php:30
-msgid "Form Description"
 msgstr ""
 
 #: tooltips.php:30
