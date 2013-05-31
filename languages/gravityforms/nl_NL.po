@@ -1,14 +1,167 @@
-# Translation of 1.7.2.11 in Dutch
-# This file is distributed under the same license as the 1.7.2.11 package.
+# Translation of 1.7.5 in Dutch
+# This file is distributed under the same license as the 1.7.5 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-05-17 10:37:19+0000\n"
+"PO-Revision-Date: 2013-05-31 11:35:52+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
-"Project-Id-Version: 1.7.2.11\n"
+"Project-Id-Version: 1.7.5\n"
+
+#: form_detail.php:1153
+msgid "Date Format"
+msgstr "Datum notatie"
+
+#: form_detail.php:1171
+msgid "Allowed file extensions"
+msgstr "Toegestane bestandformaten"
+
+#: form_detail.php:1175
+msgid "Separated with commas (i.e. jpg, gif, png, pdf)"
+msgstr "Kommagescheiden (bijv: jpg, gif, png, pdf)"
+
+#: form_detail.php:1184
+msgid "Enable multiple columns"
+msgstr "Meerdere kolommen inschakelen"
+
+#: form_detail.php:1196 tooltips.php:51
+msgid "Maximum Rows"
+msgstr "Maximum aantal rijen"
+
+#: form_detail.php:1208 tooltips.php:67
+msgid "Time Format"
+msgstr "Tijd notatie"
+
+#: form_detail.php:1212
+msgid "12 hour"
+msgstr "12 uur"
+
+#: form_detail.php:1213
+msgid "24 hour"
+msgstr "24 uur"
+
+#: form_detail.php:1223
+msgid "Phone Format"
+msgstr "Telefoon notatie"
+
+#: form_detail.php:1238
+msgid "show values"
+msgstr "waarden weergeven"
+
+#: form_detail.php:1241
+msgid "Choices"
+msgstr "Keuzes"
+
+#: form_detail.php:1246
+msgid "Label"
+msgstr "Label"
+
+#: form_detail.php:1246
+msgid "Value"
+msgstr "Waarde"
+
+#: form_detail.php:1250
+msgid "Bulk Add / Predefined Choices"
+msgstr "Bulk toevoegen / Voorgedefinieerde keuzes"
+
+#: form_detail.php:1258
+msgid "Countries"
+msgstr "Landen"
+
+#: form_detail.php:1259
+msgid "U.S. States"
+msgstr "Amerikaanse staten"
+
+#: form_detail.php:1260
+msgid "Canadian Province/Territory"
+msgstr "Canadese provincie / gebied"
+
+#: form_detail.php:1261
+msgid "Continents"
+msgstr "Continenten"
+
+#: form_detail.php:1261
+msgid "Africa"
+msgstr "Afrika"
+
+#: form_detail.php:1261
+msgid "Antarctica"
+msgstr "Antarctica"
+
+#: form_detail.php:1261
+msgid "Asia"
+msgstr "Azië"
+
+#: form_detail.php:1261
+msgid "Europe"
+msgstr "Europa"
+
+#: form_detail.php:1261
+msgid "North America"
+msgstr "Noord-Amerika"
+
+#: form_detail.php:1261
+msgid "South America"
+msgstr "Zuid-Amerika"
+
+#: form_detail.php:1262
+msgid "Gender"
+msgstr "Geslacht"
+
+#: form_detail.php:1262
+msgid "Male"
+msgstr "Man"
+
+#: form_detail.php:1262
+msgid "Female"
+msgstr "Vrouw"
+
+#: form_detail.php:1262 form_detail.php:1263 form_detail.php:1265
+#: form_detail.php:1268 form_detail.php:1269
+msgid "Prefer Not to Answer"
+msgstr "Liever niet te beantwoorden"
+
+#: form_detail.php:1263
+msgid "Age"
+msgstr "Leeftijd"
+
+#: form_detail.php:1263
+msgid "Under 18"
+msgstr "Onder 18"
+
+#: form_detail.php:1263
+msgid "18-24"
+msgstr "18-24"
+
+#: form_detail.php:1263
+msgid "25-34"
+msgstr "25-34"
+
+#: form_detail.php:1263
+msgid "35-44"
+msgstr "35-44"
+
+#: form_detail.php:1263
+msgid "45-54"
+msgstr "45-54"
+
+#: form_detail.php:1263
+msgid "55-64"
+msgstr "55-64"
+
+#: form_detail.php:1263
+msgid "65 or Above"
+msgstr "65 of ouder"
+
+#: form_detail.php:1264
+msgid "Marital Status"
+msgstr "Burgerlijke staat"
+
+#: form_detail.php:1264
+msgid "Single"
+msgstr "Single"
 
 #: form_detail.php:1264
 msgid "Married"
@@ -864,7 +1017,7 @@ msgstr "Alleen admin"
 msgid "Allow field to be populated dynamically"
 msgstr "Sta toe dat veld dynamisch gevuld kan worden"
 
-#: form_detail.php:1840 form_settings.php:480
+#: form_detail.php:1840 form_settings.php:479
 msgid "Enable Conditional Logic"
 msgstr "Conditionele logica inschakelen"
 
@@ -904,7 +1057,7 @@ msgstr "Update formulier"
 msgid "Save Form"
 msgstr "Formulier opslaan"
 
-#: form_detail.php:1987 gravityforms.php:2040
+#: form_detail.php:1987 gravityforms.php:2049
 msgid "Preview"
 msgstr "Preview"
 
@@ -916,7 +1069,7 @@ msgstr "Beheerder notificatie"
 msgid "New submission from"
 msgstr "Nieuwe inzending via"
 
-#: form_detail.php:2295 forms_model.php:3262
+#: form_detail.php:2295 forms_model.php:3265
 msgid "Default Confirmation"
 msgstr "Standaard bevestiging"
 
@@ -1081,7 +1234,7 @@ msgstr "Volgende pagina"
 msgid "click to duplicate this field"
 msgstr "klik om dit veld te dupliceren"
 
-#: form_display.php:2209 form_list.php:386
+#: form_display.php:2209 form_list.php:384
 msgid "Duplicate"
 msgstr "Dupliceer"
 
@@ -1151,368 +1304,368 @@ msgid_plural "%s forms have been marked as inactive."
 msgstr[0] "%s formulier is gemarkeerd als inactief."
 msgstr[1] "%s formulieren zijn gemarkeerd als inactief."
 
-#: form_list.php:107
+#: form_list.php:105
 msgid "Create a New Form"
 msgstr "Maak een nieuw formulier"
 
-#: form_list.php:121
+#: form_list.php:119
 msgid "Creating Form..."
 msgstr "Formulier maken..."
 
-#: form_list.php:145
+#: form_list.php:143
 msgid "Saved! Redirecting..."
 msgstr "Opgeslagen! Doorverwijzen..."
 
-#: form_list.php:194 tooltips.php:30
+#: form_list.php:192 tooltips.php:30
 msgid "Form Description"
 msgstr "Formulier beschrijving"
 
-#: form_list.php:199
+#: form_list.php:197
 msgid "Create Form"
 msgstr "Formulier maken"
 
-#: form_list.php:242
+#: form_list.php:240
 msgid "Ajax error while update form"
 msgstr "Ajax fout tijdens bijwerken formulier"
 
-#: form_list.php:256 form_list.php:396
+#: form_list.php:254 form_list.php:394
 msgid "WARNING: You are about to delete this form and ALL entries associated with it. "
 msgstr "WAARSCHUWING: Je staat op het punt dit formulier en alle geassocieerde inzendingen te verwijderen."
 
-#: form_list.php:256 form_list.php:260 form_settings.php:1376
-#: notification.php:1032
+#: form_list.php:254 form_list.php:258 form_settings.php:1372
+#: notification.php:1031
 msgid "\\'Cancel\\' to stop, \\'OK\\' to delete."
 msgstr "\\'Annuleren\\' om te stoppen, \\'OK\\' om te verwijderen."
 
-#: form_list.php:258
+#: form_list.php:256
 msgid "Are you sure you would like to reset the Views for the selected forms? "
 msgstr "Weet je zeker dat je de weergave van de geselecteerde formulieren wilt herstellen?"
 
-#: form_list.php:258
+#: form_list.php:256
 msgid "\\'Cancel\\' to stop, \\'OK\\' to reset."
 msgstr "\\'Annuleren\\' om te stoppen, \\'OK\\' om te resetten."
 
-#: form_list.php:260
+#: form_list.php:258
 msgid "WARNING: You are about to delete ALL entries associated with the selected forms. "
 msgstr "WAARSCHUWING: Je staat op het punt om ALLE inzendingen gekoppeld aan de geselecteerde formulieren te verwijderen."
 
-#: form_list.php:271 gravityforms.php:800 gravityforms.php:803
+#: form_list.php:269 gravityforms.php:800 gravityforms.php:803
 #: gravityforms.php:1093
 msgid "Forms"
 msgstr "Formulieren"
 
-#: form_list.php:272 form_settings.php:859 notification.php:419
+#: form_list.php:270 form_settings.php:858 notification.php:418
 msgid "Add New"
 msgstr "Nieuwe toevoegen"
 
-#: form_list.php:300 form_list.php:444
+#: form_list.php:298 form_list.php:442
 msgid "Mark as Active"
 msgstr "Markeer als actief"
 
-#: form_list.php:301 form_list.php:445
+#: form_list.php:299 form_list.php:443
 msgid "Mark as Inactive"
 msgstr "Markeer als inactief"
 
-#: form_list.php:302 form_list.php:446
+#: form_list.php:300 form_list.php:444
 msgid "Reset Views"
 msgstr "Reset weergaven"
 
-#: form_list.php:303 form_list.php:447
+#: form_list.php:301 form_list.php:445
 msgid "Delete Entries"
 msgstr "Verwijder inzendingen"
 
-#: form_list.php:329 form_list.php:347
+#: form_list.php:327 form_list.php:345
 msgid "Id"
 msgstr "ID"
 
-#: form_list.php:331 form_list.php:349
+#: form_list.php:329 form_list.php:347
 msgid "Views"
 msgstr "Weergaven"
 
-#: form_list.php:333 form_list.php:351
+#: form_list.php:331 form_list.php:349
 msgid "Conversion"
 msgstr "Conversie"
 
-#: form_list.php:387
+#: form_list.php:385
 msgid "Duplicate this form"
 msgstr "Dupliceer dit formulier"
 
-#: form_list.php:396
+#: form_list.php:394
 msgid "\\\"Cancel\\\" to stop, \\\"OK\\\" to delete."
 msgstr "\\\"Annuleren\\\" om te stoppen, \\\"OK\\\" om te verwijderen."
 
-#: form_list.php:427
+#: form_list.php:425
 msgid "You don't have any forms. Let's go %screate one%s!"
 msgstr "U heeft geen formulieren. %sMaak er nu één%s!"
 
-#: form_list.php:465 form_list.php:492
+#: form_list.php:463 form_list.php:490
 msgid "There was an issue creating your form."
 msgstr "Er was een probleem bij het aanmaken van uw formulier."
 
-#: form_list.php:475
+#: form_list.php:473
 msgid "Please enter a form title."
 msgstr "Voer een formulier titel in."
 
-#: form_list.php:496
+#: form_list.php:494
 msgid "Please enter an unique form title."
 msgstr "Voer een unieke formulier titel in."
 
-#: form_settings.php:92 form_settings.php:775 form_settings.php:1170
-#: gravityforms.php:2010
+#: form_settings.php:92 form_settings.php:774 form_settings.php:1166
+#: gravityforms.php:2019
 msgid "Form Settings"
 msgstr "Instellingen"
 
-#: form_settings.php:265
+#: form_settings.php:264
 msgid "The form title you have entered has already been used. Please enter an unique form title."
 msgstr "De formulier titel die je hebt ingevoerd is al gebruikt. Voer een unieke formulier titel in."
 
-#: form_settings.php:305
+#: form_settings.php:304
 msgid "Form title"
 msgstr "Formulier titel"
 
-#: form_settings.php:319
+#: form_settings.php:318
 msgid "Form description"
 msgstr "Formulier beschrijving"
 
-#: form_settings.php:330
+#: form_settings.php:329
 msgid "Top aligned"
 msgstr "Boven uitgelijnd"
 
-#: form_settings.php:331
+#: form_settings.php:330
 msgid "Left aligned"
 msgstr "Links uitgelijnd"
 
-#: form_settings.php:332
+#: form_settings.php:331
 msgid "Right aligned"
 msgstr "Rechts uitgelijnd"
 
-#: form_settings.php:345
+#: form_settings.php:344
 msgid "Label placement"
 msgstr "Label plaatsing"
 
-#: form_settings.php:360
+#: form_settings.php:359
 msgid "Below inputs"
 msgstr "Onder invoervelden"
 
-#: form_settings.php:361
+#: form_settings.php:360
 msgid "Above inputs"
 msgstr "Boven invoervelden"
 
-#: form_settings.php:372
+#: form_settings.php:371
 msgid "Description placement"
 msgstr "Beschrijving plaatsing"
 
-#: form_settings.php:420
+#: form_settings.php:419
 msgid "Input type"
 msgstr "Invoer type"
 
-#: form_settings.php:426 form_settings.php:996 form_settings.php:1433
+#: form_settings.php:425 form_settings.php:992 form_settings.php:1429
 msgid "Text"
 msgstr "Tekst"
 
-#: form_settings.php:444
+#: form_settings.php:443
 msgid "Button text"
 msgstr "Button tekst"
 
-#: form_settings.php:458
+#: form_settings.php:457
 msgid "Button image path"
 msgstr "Button afbeelding pad"
 
-#: form_settings.php:476
+#: form_settings.php:475
 msgid "Button conditional logic"
 msgstr "Button conditionele logica"
 
-#: form_settings.php:506
+#: form_settings.php:505
 msgid "total entries"
 msgstr "totaal aantal inzendingen"
 
-#: form_settings.php:507
+#: form_settings.php:506
 msgid "per day"
 msgstr "per dag"
 
-#: form_settings.php:508
+#: form_settings.php:507
 msgid "per week"
 msgstr "per week"
 
-#: form_settings.php:509
+#: form_settings.php:508
 msgid "per month"
 msgstr "per maand"
 
-#: form_settings.php:510
+#: form_settings.php:509
 msgid "per year"
 msgstr "per jaar"
 
-#: form_settings.php:520
+#: form_settings.php:519
 msgid "Limit number of entries"
 msgstr "Beperk het aantal inzendingen"
 
-#: form_settings.php:524
+#: form_settings.php:523
 msgid "Enable entry limit"
 msgstr "Inzending limiet inschakelen"
 
-#: form_settings.php:534
+#: form_settings.php:533
 msgid "Number of Entries"
 msgstr "Aantal inzendingen"
 
-#: form_settings.php:553
+#: form_settings.php:552
 msgid "Entry Limit Reached Message"
 msgstr "Inzending limiet bereikt bericht"
 
-#: form_settings.php:620 form_settings.php:624
+#: form_settings.php:619 form_settings.php:623
 msgid "Schedule form"
 msgstr "Formulier inplannen"
 
-#: form_settings.php:633
+#: form_settings.php:632
 msgid "Schedule Start Date/Time"
 msgstr "Planning startdatum/tijd"
 
-#: form_settings.php:658
+#: form_settings.php:657
 msgid "Schedule Form End Date/Time"
 msgstr "Planning formulier einddatum/tijd"
 
-#: form_settings.php:683
+#: form_settings.php:682
 msgid "Form Expired Message"
 msgstr "Bericht als formulier verlopen is"
 
-#: form_settings.php:699
+#: form_settings.php:698
 msgid "Anti-spam honeypot"
 msgstr "Anti-spam honeypot"
 
-#: form_settings.php:703
+#: form_settings.php:702
 msgid "Enable anti-spam honeypot"
 msgstr "Anti-spam honeypot inschakelen"
 
-#: form_settings.php:715
+#: form_settings.php:714
 msgid "Animated transitions"
 msgstr "Geanimeerde overgangen"
 
-#: form_settings.php:719
+#: form_settings.php:718
 msgid "Enable animations"
 msgstr "Animaties inschakelen"
 
-#: form_settings.php:735 form_settings.php:739 tooltips.php:89
+#: form_settings.php:734 form_settings.php:738 tooltips.php:89
 msgid "Require user to be logged in"
 msgstr "Vereist gebruiker om in te loggen"
 
-#: form_settings.php:748 tooltips.php:90
+#: form_settings.php:747 tooltips.php:90
 msgid "Require Login Message"
 msgstr "Inloggen vereist bericht"
 
-#: form_settings.php:764
+#: form_settings.php:763
 msgid "Form Basics"
 msgstr "Formulier basis"
 
-#: form_settings.php:765
+#: form_settings.php:764
 msgid "Form Layout"
 msgstr "Formulier opmaak"
 
-#: form_settings.php:766
+#: form_settings.php:765
 msgid "Form Button"
 msgstr "Formulier button"
 
-#: form_settings.php:767
+#: form_settings.php:766
 msgid "Restrictions"
 msgstr "Beperkingen"
 
-#: form_settings.php:768
+#: form_settings.php:767
 msgid "Form Options"
 msgstr "Formulier instellingen"
 
-#: form_settings.php:824
+#: form_settings.php:823
 msgid "Update Form Settings"
 msgstr "Formulier instellingen bijwerken"
 
-#: form_settings.php:852 form_settings.php:858 form_settings.php:895
-#: form_settings.php:1171
+#: form_settings.php:851 form_settings.php:857 form_settings.php:893
+#: form_settings.php:1167
 msgid "Confirmations"
 msgstr "Bevestigingen"
 
-#: form_settings.php:942
+#: form_settings.php:938
 msgid "Save Confirmation"
 msgstr "Bevestiging opslaan"
 
-#: form_settings.php:985
+#: form_settings.php:981
 msgid "Confirmation Name"
 msgstr "Bevestiging naam"
 
-#: form_settings.php:992
+#: form_settings.php:988
 msgid "Confirmation Type"
 msgstr "Bevestiging type"
 
-#: form_settings.php:1002 form_settings.php:1034 form_settings.php:1436
+#: form_settings.php:998 form_settings.php:1030 form_settings.php:1432
 #: js.php:78
 msgid "Page"
 msgstr "Pagina"
 
-#: form_settings.php:1008 form_settings.php:1439
+#: form_settings.php:1004 form_settings.php:1435
 msgid "Redirect"
 msgstr "Redirect"
 
-#: form_settings.php:1018 notification.php:752
+#: form_settings.php:1014 notification.php:751
 msgid "Message"
 msgstr "Bericht"
 
-#: form_settings.php:1023
+#: form_settings.php:1019
 msgid "Disable Auto-formatting"
 msgstr "Auto-opmaak uitschakelen"
 
-#: form_settings.php:1036
+#: form_settings.php:1032
 msgid "Select a page"
 msgstr "Selecteer een pagina"
 
-#: form_settings.php:1045
+#: form_settings.php:1041
 msgid "Redirect URL"
 msgstr "Doorverwijzing URL"
 
-#: form_settings.php:1056
+#: form_settings.php:1052
 msgid "Redirect Query String"
 msgstr "Doorverwijzing query string"
 
-#: form_settings.php:1058
+#: form_settings.php:1054
 msgid "Pass Field Data Via Query String"
 msgstr "Pass Field Data Via Query String"
 
-#: form_settings.php:1061
+#: form_settings.php:1057
 msgid "Sample: phone={Phone:1}&email={Email:2}"
 msgstr "Voorbeeld: telefoon={Telefoon:1}&email={Email:2}"
 
-#: form_settings.php:1070 notification.php:795 tooltips.php:86 tooltips.php:100
+#: form_settings.php:1066 notification.php:794 tooltips.php:86 tooltips.php:100
 msgid "Conditional Logic"
 msgstr "Conditionele logica"
 
-#: form_settings.php:1210
+#: form_settings.php:1206
 msgid "You must specify a Confirmation Name."
 msgstr "U moet een bevestiging naam specificeren."
 
-#: form_settings.php:1217
+#: form_settings.php:1213
 msgid "You must select a Confirmation Page."
 msgstr "U moet een bevestiging pagina selecteren."
 
-#: form_settings.php:1223
+#: form_settings.php:1219
 msgid "You must specify a Redirect URL."
 msgstr "U moet een doorverwijzing URL specificeren."
 
-#: form_settings.php:1241
+#: form_settings.php:1237
 msgid "Confirmation saved successfully. %sBack to confirmations.%s"
 msgstr "Bevestiging succesvol opgeslagen. %sTerug naar bevestigingen.%s"
 
-#: form_settings.php:1261
+#: form_settings.php:1257
 msgid "Confirmation deleted."
 msgstr "Bevestiging verwijderd."
 
-#: form_settings.php:1375 notification.php:1031
+#: form_settings.php:1371 notification.php:1030
 msgid "Edit this item"
 msgstr "Bewerk dit item"
 
-#: form_settings.php:1376 notification.php:1032
+#: form_settings.php:1372 notification.php:1031
 msgid "Delete this item"
 msgstr "Verwijder dit item"
 
-#: form_settings.php:1376
+#: form_settings.php:1372
 msgid "WARNING: You are about to delete this confirmation."
 msgstr "WAARSCHUWING. Je staat op het punt om deze bevestiging te verwijderen."
 
-#: form_settings.php:1416
+#: form_settings.php:1412
 msgid "<em>This page does not exist.</em>"
 msgstr "<em>Deze pagina bestaat niet.</em>"
 
@@ -1520,7 +1673,7 @@ msgstr "<em>Deze pagina bestaat niet.</em>"
 msgid "User Notification"
 msgstr "Gebruiker notificatie"
 
-#: forms_model.php:574 forms_model.php:913
+#: forms_model.php:574 forms_model.php:915
 msgid "You don't have adequate permission to delete entries."
 msgstr "Je hebt onvoldoende toestemming om gegevens te verwijderen."
 
@@ -1532,11 +1685,11 @@ msgstr "Je hebt onvoldoende rechten om formulieren te verwijderen."
 msgid "You don't have adequate permission to create forms."
 msgstr "Je hebt onvoldoende toestemming om formulieren te creëren."
 
-#: forms_model.php:962
+#: forms_model.php:964
 msgid "You don't have adequate permission to delete notes."
 msgstr "Je hebt onvoldoende toestemming om notities te verwijderen."
 
-#: forms_model.php:993
+#: forms_model.php:995
 msgid "You don't have adequate permission to edit entries."
 msgstr "Je hebt onvoldoende toestemming om gegevens te bewerken."
 
@@ -1544,7 +1697,7 @@ msgstr "Je hebt onvoldoende toestemming om gegevens te bewerken."
 msgid "Update Available"
 msgstr "Update beschikbaar"
 
-#: gravityforms.php:814 gravityforms.php:1032 gravityforms.php:2010
+#: gravityforms.php:814 gravityforms.php:1032 gravityforms.php:2019
 #: settings.php:411
 msgid "Settings"
 msgstr "Instellingen"
@@ -1657,35 +1810,35 @@ msgstr "Sluiten"
 msgid "This feature requires inline frames. You have iframes disabled or your browser does not support them."
 msgstr "Deze functionaliteit vereist inline frames. Je hebt iframes uitgeschakeld of je browser ondersteund ze niet."
 
-#: gravityforms.php:1498
+#: gravityforms.php:1499
 msgid "Add-On browser is currently unavailable. Please try again later."
 msgstr "Add-on browser is momenteel niet beschikbaar. Probeer het later opnieuw."
 
-#: gravityforms.php:1634
+#: gravityforms.php:1635
 msgid "There was an error while resending the notifications."
 msgstr "Er was een fout tijdens het opnieuw versturen van de notificaties."
 
-#: gravityforms.php:1640
+#: gravityforms.php:1641
 msgid "No notifications have been selected. Please select a notification to be sent."
 msgstr "Geen notificaties zijn geselecteerd. Selecteer een notificaties om te versturen."
 
-#: gravityforms.php:1643
+#: gravityforms.php:1644
 msgid "The <strong>Send To</strong> email address provided is not valid."
 msgstr "Het opgegeven <strong>verstuur naar</strong> e-mailadres is ongeldig."
 
-#: gravityforms.php:1903
+#: gravityforms.php:1912
 msgid "Switch Form"
 msgstr "Switch formulier"
 
-#: gravityforms.php:1997
+#: gravityforms.php:2006
 msgid "Edit this form"
 msgstr "Bewerk dit formulier"
 
-#: gravityforms.php:2011
+#: gravityforms.php:2020
 msgid "Edit settings for this form"
 msgstr "Bewerk instellingen voor dit formulier"
 
-#: gravityforms.php:2027
+#: gravityforms.php:2036
 msgid "View entries generated by this form"
 msgstr "Bekijk inzendingen van dit formulier."
 
@@ -2085,123 +2238,123 @@ msgstr "Notificatie succesvol opgeslagen. %sTerug naar notificaties.%s"
 msgid "Notification could not be updated. Please enter all required information below."
 msgstr "Notificatie kon niet worden bijgewerkt. Voer alle benodigde informatie hieronder in."
 
-#: notification.php:185 notification.php:639
+#: notification.php:184 notification.php:638
 msgid "Send to"
 msgstr "Stuur naar"
 
-#: notification.php:186 notification.php:640
+#: notification.php:185 notification.php:639
 msgid "if"
 msgstr "als"
 
-#: notification.php:333 notification.php:925
+#: notification.php:332 notification.php:924
 msgid "Enter value"
 msgstr "Voer waarde in"
 
-#: notification.php:397
+#: notification.php:396
 msgid "Save Notification"
 msgstr "Notificatie opslaan"
 
-#: notification.php:397
+#: notification.php:396
 msgid "Update Notification"
 msgstr "Update notificatie"
 
-#: notification.php:456
+#: notification.php:455
 msgid "Notification deleted."
 msgstr "Notificatie verwijderd."
 
-#: notification.php:458
+#: notification.php:457
 msgid "There was an issue deleting this notification."
 msgstr "Er was een probleem bij het verwijderen van deze notificatie."
 
-#: notification.php:503
+#: notification.php:502
 msgid "Form is submitted"
 msgstr "Formulier is ingestuurd"
 
-#: notification.php:509
+#: notification.php:508
 msgid "Event"
 msgstr "Evenement"
 
-#: notification.php:552
+#: notification.php:551
 msgid "Select a Field"
 msgstr "Selecteer een veld"
 
-#: notification.php:557
+#: notification.php:556
 msgid "Configure Routing"
 msgstr "Configureer routering"
 
-#: notification.php:566
+#: notification.php:565
 msgid "Send to Email"
 msgstr "Verstuur naar e-mailadres"
 
-#: notification.php:574
+#: notification.php:573
 msgid "Please enter a valid email address"
 msgstr "Voer een geldig e-mailadres in"
 
-#: notification.php:584
+#: notification.php:583
 msgid "Send to Field"
 msgstr "Verstuur naar veld"
 
-#: notification.php:590
+#: notification.php:589
 msgid "Select an email field"
 msgstr "Selecteer een e-mailveld"
 
-#: notification.php:603
+#: notification.php:602
 msgid "Your form does not have an email field. Add an email field to your form and try again."
 msgstr "Je formulier heeft geen e-mail veld. Voeg een e-mail veld toe aan je formulier en probeer het opnieuw."
 
-#: notification.php:621
+#: notification.php:620
 msgid "To use notification routing, your form must have a field supported by conditional logic."
 msgstr "Om gebruik te maken van notificatie routing moet je formulier een veld bevatten die ondersteund wordt door conditionele logica."
 
-#: notification.php:660
+#: notification.php:659
 msgid "Please enter a valid email address for all highlighted routing rules above."
 msgstr "Voer een geldig e-mailadres in voor alle gemarkeerde routing regels hierboven."
 
-#: notification.php:675 tooltips.php:21
+#: notification.php:674 tooltips.php:21
 msgid "From Name"
 msgstr "Afzender naam"
 
-#: notification.php:688
+#: notification.php:687
 msgid "From Email"
 msgstr "Van"
 
-#: notification.php:701 tooltips.php:22
+#: notification.php:700 tooltips.php:22
 msgid "Reply To"
 msgstr "Beantwoord aan"
 
-#: notification.php:714
+#: notification.php:713
 msgid "BCC"
 msgstr "BCC"
 
-#: notification.php:731 notification.php:975
+#: notification.php:730 notification.php:974
 msgid "Subject"
 msgstr "Onderwerp"
 
-#: notification.php:738
+#: notification.php:737
 msgid "Please enter a subject for the notification email"
 msgstr "Voer in een onderwerp in voor de notificatie e-mail"
 
-#: notification.php:768
+#: notification.php:767
 msgid "Please enter a message for the notification email"
 msgstr "Voer een bericht in voor de notificatie e-mail"
 
-#: notification.php:778
+#: notification.php:777
 msgid "Auto-formatting"
 msgstr "Auto-opmaak"
 
-#: notification.php:785
+#: notification.php:784
 msgid "Disable auto-formatting"
 msgstr "Auto-opmaak uitschakelen"
 
-#: notification.php:800
+#: notification.php:799
 msgid "Enable conditional logic"
 msgstr "Conditionele logica inschakelen"
 
-#: notification.php:1032
+#: notification.php:1031
 msgid "WARNING: You are about to delete this notification."
 msgstr "WAARSCHUWING. Je staat op het punt om deze notificatie te verwijderen."
 
-#: notification.php:1064
+#: notification.php:1063
 msgid "This form doesn't have any notifications. Let's go %screate one%s."
 msgstr "Dit formulier heeft nog geen notificaties. %sMaak er nu één%s."
 
@@ -3241,7 +3394,7 @@ msgstr "Prijs formulier velden"
 msgid "All Pricing Fields"
 msgstr "Alle prijs velden"
 
-#: common.php:352 common.php:542 common.php:4686 form_detail.php:1267
+#: common.php:352 common.php:542 common.php:4692 form_detail.php:1267
 #: form_detail.php:1269
 msgid "Other"
 msgstr "Ander"
@@ -3250,7 +3403,7 @@ msgstr "Ander"
 msgid "Client IP Address"
 msgstr "Bezoeker IP-adres"
 
-#: common.php:354 common.php:355 common.php:501 common.php:502 common.php:2207
+#: common.php:354 common.php:355 common.php:501 common.php:502 common.php:2213
 #: form_detail.php:655 form_detail.php:1500 form_detail.php:2157
 #: form_detail.php:2158 js.php:504 js.php:885
 msgid "Date"
@@ -3281,7 +3434,7 @@ msgstr "Inzending URL"
 msgid "Form Id"
 msgstr "Formulier ID"
 
-#: common.php:362 common.php:509 form_list.php:189 js.php:885 tooltips.php:29
+#: common.php:362 common.php:509 form_list.php:187 js.php:885 tooltips.php:29
 msgid "Form Title"
 msgstr "Formulier titel"
 
@@ -3394,12 +3547,12 @@ msgstr "Toegestane formulier velden"
 msgid "Order"
 msgstr "Bestel"
 
-#: common.php:1243 common.php:2251 entry_detail.php:842 gravityforms.php:1108
+#: common.php:1243 common.php:2257 entry_detail.php:842 gravityforms.php:1108
 #: js.php:603
 msgid "Total"
 msgstr "Totaal"
 
-#: common.php:1260 common.php:2243 entry_detail.php:779
+#: common.php:1260 common.php:2249 entry_detail.php:779
 msgid "Product"
 msgstr "Product"
 
@@ -3411,7 +3564,7 @@ msgstr "Aantal"
 msgid "Unit Price"
 msgstr "Eenheidsprijs"
 
-#: common.php:1263 common.php:2867 entry_detail.php:782 form_detail.php:480
+#: common.php:1263 common.php:2873 entry_detail.php:782 form_detail.php:480
 #: form_detail.php:1246 js.php:580 js.php:639
 msgid "Price"
 msgstr "Prijs"
@@ -3420,2468 +3573,2468 @@ msgstr "Prijs"
 msgid "Total:"
 msgstr "Totaal:"
 
-#: common.php:1838
+#: common.php:1844
 msgid "Gravity Forms require WordPress %s or greater. You must upgrade WordPress in order to use Gravity Forms"
 msgstr "Gravity Forms vereist WordPress %s of hoger. Je moet WordPress bijwerken om Gravity Forms te gebruiken."
 
-#: common.php:1924
+#: common.php:1930
 msgid "%s ago"
 msgstr "%s geleden"
 
-#: common.php:1926 common.php:1929
+#: common.php:1932 common.php:1935
 msgid "%1$s at %2$s"
 msgstr "%1$s op %2$s"
 
-#: common.php:2102 common.php:2174
+#: common.php:2108 common.php:2180
 msgid "%d of %d items shown. Edit field to view all"
 msgstr "%d van %d items weergegeven. Wijzig veld om alles weer te geven"
 
-#: common.php:2183
+#: common.php:2189
 msgid "Single Line Text"
 msgstr "Tekstregel"
 
-#: common.php:2185 form_detail.php:646
+#: common.php:2191 form_detail.php:646
 msgid "Paragraph Text"
 msgstr "Tekstveld"
 
-#: common.php:2187 form_detail.php:454 form_detail.php:471 form_detail.php:505
+#: common.php:2193 form_detail.php:454 form_detail.php:471 form_detail.php:505
 #: form_detail.php:519 form_detail.php:534 form_detail.php:647
 #: form_detail.php:674 form_detail.php:868
 msgid "Drop Down"
 msgstr "Uitschuifkeuzelijst"
 
-#: common.php:2189 form_detail.php:648 form_detail.php:675 form_detail.php:871
+#: common.php:2195 form_detail.php:648 form_detail.php:675 form_detail.php:871
 msgid "Multi Select"
 msgstr "Multikeuzelijst"
 
-#: common.php:2191 form_detail.php:533 form_detail.php:649 js.php:489
+#: common.php:2197 form_detail.php:533 form_detail.php:649 js.php:489
 msgid "Number"
 msgstr "Nummer"
 
-#: common.php:2193 form_detail.php:506 form_detail.php:650 form_detail.php:676
+#: common.php:2199 form_detail.php:506 form_detail.php:650 form_detail.php:676
 #: form_detail.php:869
 msgid "Checkboxes"
 msgstr "Selectievakjes"
 
-#: common.php:2195 form_detail.php:455 form_detail.php:472 form_detail.php:507
+#: common.php:2201 form_detail.php:455 form_detail.php:472 form_detail.php:507
 #: form_detail.php:521 form_detail.php:651 form_detail.php:677
 #: form_detail.php:870
 msgid "Radio Buttons"
 msgstr "Keuzerondjes"
 
-#: common.php:2197 form_detail.php:457 form_detail.php:535 form_detail.php:652
+#: common.php:2203 form_detail.php:457 form_detail.php:535 form_detail.php:652
 msgid "Hidden"
 msgstr "Verborgen"
 
-#: common.php:2199
+#: common.php:2205
 msgid "HTML"
 msgstr "HTML"
 
-#: common.php:2201 js.php:377
+#: common.php:2207 js.php:377
 msgid "Section Break"
 msgstr "Sectie-einde"
 
-#: common.php:2203 form_display.php:2236
+#: common.php:2209 form_display.php:2236
 msgid "Page Break"
 msgstr "Pagina-einde"
 
-#: common.php:2205 js.php:408 js.php:580 notification.php:492
-#: notification.php:974
+#: common.php:2211 js.php:408 js.php:580 notification.php:491
+#: notification.php:973
 msgid "Name"
 msgstr "Naam"
 
-#: common.php:2209 form_detail.php:656 js.php:509
+#: common.php:2215 form_detail.php:656 js.php:509
 msgid "Time"
 msgstr "Tijd"
 
-#: common.php:2211 form_detail.php:657 js.php:498
+#: common.php:2217 form_detail.php:657 js.php:498
 msgid "Phone"
 msgstr "Telefoon"
 
-#: common.php:2213 js.php:463
+#: common.php:2219 js.php:463
 msgid "Address"
 msgstr "Adres"
 
-#: common.php:2215 form_detail.php:658 js.php:514
+#: common.php:2221 form_detail.php:658 js.php:514
 msgid "Website"
 msgstr "Website"
 
-#: common.php:2217 form_detail.php:659 js.php:482
+#: common.php:2223 form_detail.php:659 js.php:482
 msgid "Email"
 msgstr "E-mailadres"
 
-#: common.php:2219 js.php:520
+#: common.php:2225 js.php:520
 msgid "Password"
 msgstr "Wachtwoord"
 
-#: common.php:2221 form_detail.php:660
+#: common.php:2227 form_detail.php:660
 msgid "File Upload"
 msgstr "Bestandsupload"
 
-#: common.php:2223
+#: common.php:2229
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
-#: common.php:2225 form_detail.php:661 js.php:400
+#: common.php:2231 form_detail.php:661 js.php:400
 msgid "List"
 msgstr "Lijst"
 
-#: common.php:2227 js.php:470
+#: common.php:2233 js.php:470
 msgid "Credit Card"
 msgstr "Creditcard"
 
-#: common.php:2229 common.php:3132 common.php:4238 form_detail.php:980
-#: form_list.php:330 form_list.php:348 gravityforms.php:1106 widget.php:70
+#: common.php:2235 common.php:3138 common.php:4244 form_detail.php:980
+#: form_list.php:328 form_list.php:346 gravityforms.php:1106 widget.php:70
 msgid "Title"
 msgstr "Titel"
 
-#: common.php:2231
+#: common.php:2237
 msgid "Body"
 msgstr "Hoofdtekst"
 
-#: common.php:2233
+#: common.php:2239
 msgid "Excerpt"
 msgstr "Samenvatting"
 
-#: common.php:2235
+#: common.php:2241
 msgid "Tags"
 msgstr "Tags"
 
-#: common.php:2237 form_detail.php:880
+#: common.php:2243 form_detail.php:880
 msgid "Category"
 msgstr "Categorie"
 
-#: common.php:2239 form_detail.php:374 form_detail.php:568 form_detail.php:605
-#: form_settings.php:433 gravityforms.php:1223
+#: common.php:2245 form_detail.php:374 form_detail.php:568 form_detail.php:605
+#: form_settings.php:432 gravityforms.php:1223
 msgid "Image"
 msgstr "Afbeelding"
 
-#: common.php:2241
+#: common.php:2247
 msgid "Custom Field"
 msgstr "Aangepast veld"
 
-#: common.php:2245 js.php:580 js.php:650
+#: common.php:2251 js.php:580 js.php:650
 msgid "Quantity"
 msgstr "Aantal"
 
-#: common.php:2247 js.php:609
+#: common.php:2253 js.php:609
 msgid "Option"
 msgstr "Optie"
 
-#: common.php:2249 js.php:592
+#: common.php:2255 js.php:592
 msgid "Shipping"
 msgstr "Verzending"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Afghanistan"
 msgstr "Afghanistan"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Albania"
 msgstr "Albanië"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Algeria"
 msgstr "Algerije"
 
-#: common.php:2346
+#: common.php:2352
 msgid "American Samoa"
 msgstr "Amerikaans-Samoa"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Andorra"
 msgstr "Andorra"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Angola"
 msgstr "Angola"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Antigua and Barbuda"
 msgstr "Antigua en Barbuda"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Argentina"
 msgstr "Argentinië"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Armenia"
 msgstr "Armenië"
 
-#: common.php:2346 form_detail.php:1261
+#: common.php:2352 form_detail.php:1261
 msgid "Australia"
 msgstr "Australië"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Austria"
 msgstr "Oostenrijk"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Azerbaijan"
 msgstr "Azerbeidzjan"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Bahamas"
 msgstr "Bahama's"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Bahrain"
 msgstr "Bahrein"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Bangladesh"
 msgstr "Bangladesh"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Barbados"
 msgstr "Barbados"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Belarus"
 msgstr "Wit-Rusland"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Belgium"
 msgstr "België"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Belize"
 msgstr "Belize"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Benin"
 msgstr "Benin"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Bermuda"
 msgstr "Bermuda"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Bhutan"
 msgstr "Bhutan"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Bolivia"
 msgstr "Bolivia"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Bosnia and Herzegovina"
 msgstr "Bosnië en Herzegovina"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Botswana"
 msgstr "Botswana"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Brazil"
 msgstr "Brazilië"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Brunei"
 msgstr "Brunei "
 
-#: common.php:2346
+#: common.php:2352
 msgid "Bulgaria"
 msgstr "Bulgarije"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Burkina Faso"
 msgstr "Burkina Faso"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Burundi"
 msgstr "Burundi"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Cambodia"
 msgstr "Cambodja"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Cameroon"
 msgstr "Kameroen"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Canada"
 msgstr "Canada"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Cape Verde"
 msgstr "Kaapverdië"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Central African Republic"
 msgstr "Centraal-Afrikaanse Republiek"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Chad"
 msgstr "Tsjaad"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Chile"
 msgstr "Chili"
 
-#: common.php:2346
+#: common.php:2352
 msgid "China"
 msgstr "China"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Colombia"
 msgstr "Colombia"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Comoros"
 msgstr "Comoren"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Congo, Democratic Republic of the"
 msgstr "Congo, Democratische Republiek"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Congo, Republic of the"
 msgstr "Congo, Republiek"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Costa Rica"
 msgstr "Costa Rica"
 
-#: common.php:2346
+#: common.php:2352
 msgid "C&ocirc;te d'Ivoire"
 msgstr "Ivoorkust"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Croatia"
 msgstr "Kroatië"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Cuba"
 msgstr "Cuba"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Cyprus"
 msgstr "Cyprus"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Czech Republic"
 msgstr "Centraal-Afrikaanse Republiek"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Denmark"
 msgstr "Denemarken"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Djibouti"
 msgstr "Djibouti"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Dominica"
 msgstr "Dominica"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Dominican Republic"
 msgstr "Centraal-Afrikaanse Republiek"
 
-#: common.php:2346
+#: common.php:2352
 msgid "East Timor"
 msgstr "Oost-Timor"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Ecuador"
 msgstr "Ecuador"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Egypt"
 msgstr "Egypte"
 
-#: common.php:2346
+#: common.php:2352
 msgid "El Salvador"
 msgstr "El Salvador"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Equatorial Guinea"
 msgstr "Equatoriaal-Guinea"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Eritrea"
 msgstr "Eritrea"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Estonia"
 msgstr "Estland"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Ethiopia"
 msgstr "Ethiopië"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Fiji"
 msgstr "Fiji"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Finland"
 msgstr "Finland"
 
-#: common.php:2346
+#: common.php:2352
 msgid "France"
 msgstr "Frankrijk"
 
-#: common.php:2346
+#: common.php:2352
 msgid "Gabon"
 msgstr "Gabon"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Gambia"
 msgstr "Gambia"
 
-#: common.php:2347 common.php:2566 common.php:2581
+#: common.php:2353 common.php:2572 common.php:2587
 msgid "Georgia"
 msgstr "Georgië"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Germany"
 msgstr "Duitsland"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Ghana"
 msgstr "Ghana"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Greece"
 msgstr "Griekenland"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Greenland"
 msgstr "Groenland"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Grenada"
 msgstr "Grenada"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Guam"
 msgstr "Guam"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Guatemala"
 msgstr "Guatemala"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Guinea"
 msgstr "Guinee"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Guinea-Bissau"
 msgstr "Guinea-Bissau"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Guyana"
 msgstr "Guyana"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Haiti"
 msgstr "Haïti"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Honduras"
 msgstr "Honduras"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Hong Kong"
 msgstr "Hong Kong"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Hungary"
 msgstr "Hongarije"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Iceland"
 msgstr "IJsland"
 
-#: common.php:2347
+#: common.php:2353
 msgid "India"
 msgstr "India"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Indonesia"
 msgstr "Indonesië"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Iran"
 msgstr "Iran"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Iraq"
 msgstr "Irak"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Ireland"
 msgstr "Ierland"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Israel"
 msgstr "Israël"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Italy"
 msgstr "Italië"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Jamaica"
 msgstr "Jamaica"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Japan"
 msgstr "Japan"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Jordan"
 msgstr "Jordanië"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Kazakhstan"
 msgstr "Kazachstan"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Kenya"
 msgstr "Kenia"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Kiribati"
 msgstr "Kiribati"
 
-#: common.php:2347
+#: common.php:2353
 msgid "North Korea"
 msgstr "Noord-Korea"
 
-#: common.php:2347
+#: common.php:2353
 msgid "South Korea"
 msgstr "Zuid-Korea"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Kuwait"
 msgstr "Koeweit"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Kyrgyzstan"
 msgstr "Kirgizië"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Laos"
 msgstr "Laos"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Latvia"
 msgstr "Letland"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Lebanon"
 msgstr "Libanon"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Lesotho"
 msgstr "Lesotho"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Liberia"
 msgstr "Liberia"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Libya"
 msgstr "Libië"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Liechtenstein"
 msgstr "Liechtenstein"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Lithuania"
 msgstr "Litouwen"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Luxembourg"
 msgstr "Luxemburg"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Macedonia"
 msgstr "Macedonië"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Madagascar"
 msgstr "Madagaskar"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Malawi"
 msgstr "Malawi"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Malaysia"
 msgstr "Maleisië"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Maldives"
 msgstr "Maldiven"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Mali"
 msgstr "Mali"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Malta"
 msgstr "Malta"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Marshall Islands"
 msgstr "Marshalleilanden"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Mauritania"
 msgstr "Mauritanië"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Mauritius"
 msgstr "Mauritius"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Mexico"
 msgstr "Mexico"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Micronesia"
 msgstr "Micronesia"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Moldova"
 msgstr "Moldavië"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Monaco"
 msgstr "Monaco"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Mongolia"
 msgstr "Mongolië"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Montenegro"
 msgstr "Montenegro"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Morocco"
 msgstr "Marokko"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Mozambique"
 msgstr "Mozambique"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Myanmar"
 msgstr "Myanmar"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Namibia"
 msgstr "Namibië"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Nauru"
 msgstr "Nauru"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Nepal"
 msgstr "Nepal"
 
-#: common.php:2347
+#: common.php:2353
 msgid "Netherlands"
 msgstr "Nederland"
 
-#: common.php:2347
+#: common.php:2353
 msgid "New Zealand"
 msgstr "Nieuw-Zeeland"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Nicaragua"
 msgstr "Nicaragua"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Niger"
 msgstr "Niger"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Nigeria"
 msgstr "Nigeria"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Norway"
 msgstr "Noorwegen"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Northern Mariana Islands"
 msgstr "Noordelijke Marianen"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Oman"
 msgstr "Oman"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Pakistan"
 msgstr "Pakistan"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Palau"
 msgstr "Palau"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Palestine"
 msgstr "Palestina"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Panama"
 msgstr "Panama"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Papua New Guinea"
 msgstr "Papoea-Nieuw-Guinea"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Paraguay"
 msgstr "Paraguay"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Peru"
 msgstr "Peru"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Philippines"
 msgstr "Filipijnen"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Poland"
 msgstr "Polen"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Portugal"
 msgstr "Portugal"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Puerto Rico"
 msgstr "Puerto Rico"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Qatar"
 msgstr "Qatar"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Romania"
 msgstr "Roemenië"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Russia"
 msgstr "Rusland"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Rwanda"
 msgstr "Rwanda"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Saint Kitts and Nevis"
 msgstr "Saint Kitts en Nevis"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Saint Lucia"
 msgstr "Saint Lucia"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Saint Vincent and the Grenadines"
 msgstr "Saint Vincent en de Grenadines"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Samoa"
 msgstr "Samoa"
 
-#: common.php:2348
+#: common.php:2354
 msgid "San Marino"
 msgstr "San Marino"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Sao Tome and Principe"
 msgstr "Sao Tomé en Principe"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Saudi Arabia"
 msgstr "Saoedi-Arabië"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Senegal"
 msgstr "Senegal"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Serbia and Montenegro"
 msgstr "Antigua en Barbuda"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Seychelles"
 msgstr "Seychellen"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Sierra Leone"
 msgstr "Sierra Leone"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Singapore"
 msgstr "Singapore"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Slovakia"
 msgstr "Slowakije"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Slovenia"
 msgstr "Slovenië"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Solomon Islands"
 msgstr "Salomonseilanden"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Somalia"
 msgstr "Somalië"
 
-#: common.php:2348
+#: common.php:2354
 msgid "South Africa"
 msgstr "Zuid-Afrika"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Spain"
 msgstr "Spanje"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Sri Lanka"
 msgstr "Sri Lanka"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Sudan"
 msgstr "Soedan"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Sudan, South"
 msgstr "Zoedan, Zuid"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Suriname"
 msgstr "Suriname"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Swaziland"
 msgstr "Swaziland"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Sweden"
 msgstr "Zweden"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Switzerland"
 msgstr "Zwitserland"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Syria"
 msgstr "Syrië"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Taiwan"
 msgstr "Taiwan"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Tajikistan"
 msgstr "Tadzjikistan"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Tanzania"
 msgstr "Tanzania"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Thailand"
 msgstr "Thailand"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Togo"
 msgstr "Togo"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Tonga"
 msgstr "Tonga"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Trinidad and Tobago"
 msgstr "Antigua en Barbuda"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Tunisia"
 msgstr "Tunesië"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Turkey"
 msgstr "Turkije"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Turkmenistan"
 msgstr "Turkmenistan"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Tuvalu"
 msgstr "Tuvalu"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Uganda"
 msgstr "Uganda"
 
-#: common.php:2348
+#: common.php:2354
 msgid "Ukraine"
 msgstr "Oekraïne"
 
-#: common.php:2348
+#: common.php:2354
 msgid "United Arab Emirates"
 msgstr "Verenigde Arabische Emiraten"
 
-#: common.php:2348
+#: common.php:2354
 msgid "United Kingdom"
 msgstr "Verenigd Koninkrijk"
 
-#: common.php:2349 common.php:4036
+#: common.php:2355 common.php:4042
 msgid "United States"
 msgstr "Verenigde Staten"
 
-#: common.php:2349
+#: common.php:2355
 msgid "Uruguay"
 msgstr "Uruguay"
 
-#: common.php:2349
+#: common.php:2355
 msgid "Uzbekistan"
 msgstr "Oezbekistan"
 
-#: common.php:2349
+#: common.php:2355
 msgid "Vanuatu"
 msgstr "Vanuatu"
 
-#: common.php:2349
+#: common.php:2355
 msgid "Vatican City"
 msgstr "Vaticaanstad"
 
-#: common.php:2349
+#: common.php:2355
 msgid "Venezuela"
 msgstr "Venezuela"
 
-#: common.php:2349
+#: common.php:2355
 msgid "Vietnam"
 msgstr "Vietnam"
 
-#: common.php:2349
+#: common.php:2355
 msgid "Virgin Islands, British"
 msgstr "Britse Maagdeneilanden"
 
-#: common.php:2349
+#: common.php:2355
 msgid "Virgin Islands, U.S."
 msgstr "Amerikaanse Maagdeneilanden"
 
-#: common.php:2349
+#: common.php:2355
 msgid "Yemen"
 msgstr "Yemen"
 
-#: common.php:2349
+#: common.php:2355
 msgid "Zambia"
 msgstr "Zambia"
 
-#: common.php:2349
+#: common.php:2355
 msgid "Zimbabwe"
 msgstr "Zimbabwe"
 
-#: common.php:2356
+#: common.php:2362
 msgid "AFGHANISTAN"
 msgstr "AFGHANISTAN"
 
-#: common.php:2357
+#: common.php:2363
 msgid "ALBANIA"
 msgstr "ALBANIË"
 
-#: common.php:2358
+#: common.php:2364
 msgid "ALGERIA"
 msgstr "ALGERIJE"
 
-#: common.php:2359
+#: common.php:2365
 msgid "AMERICAN SAMOA"
 msgstr "AMERIKAANS-SAMOA"
 
-#: common.php:2360
+#: common.php:2366
 msgid "ANDORRA"
 msgstr "ANDORRA"
 
-#: common.php:2361
+#: common.php:2367
 msgid "ANGOLA"
 msgstr "ANGOLA"
 
-#: common.php:2362
+#: common.php:2368
 msgid "ANTIGUA AND BARBUDA"
 msgstr "ANTIGUA EN BARBUDA"
 
-#: common.php:2363
+#: common.php:2369
 msgid "ARGENTINA"
 msgstr "ARGENTINIË"
 
-#: common.php:2364
+#: common.php:2370
 msgid "ARMENIA"
 msgstr "ARMENIË"
 
-#: common.php:2365
+#: common.php:2371
 msgid "AUSTRALIA"
 msgstr "AUSTRALIË"
 
-#: common.php:2366
+#: common.php:2372
 msgid "AUSTRIA"
 msgstr "OOSTENRIJK"
 
-#: common.php:2367
+#: common.php:2373
 msgid "AZERBAIJAN"
 msgstr "AZERBEIDZJAN"
 
-#: common.php:2368
+#: common.php:2374
 msgid "BAHAMAS"
 msgstr "BAHAMAS"
 
-#: common.php:2369
+#: common.php:2375
 msgid "BAHRAIN"
 msgstr "BAHREIN"
 
-#: common.php:2370
+#: common.php:2376
 msgid "BANGLADESH"
 msgstr "BANGLADESH"
 
-#: common.php:2371
+#: common.php:2377
 msgid "BARBADOS"
 msgstr "BARBADOS"
 
-#: common.php:2372
+#: common.php:2378
 msgid "BELARUS"
 msgstr "WIT-RUSLAND"
 
-#: common.php:2373
+#: common.php:2379
 msgid "BELGIUM"
 msgstr "BELGIË"
 
-#: common.php:2374
+#: common.php:2380
 msgid "BELIZE"
 msgstr "BELIZE"
 
-#: common.php:2375
+#: common.php:2381
 msgid "BENIN"
 msgstr "BENIN"
 
-#: common.php:2376
+#: common.php:2382
 msgid "BERMUDA"
 msgstr "BERMUDA"
 
-#: common.php:2377
+#: common.php:2383
 msgid "BHUTAN"
 msgstr "BHUTAN"
 
-#: common.php:2378
+#: common.php:2384
 msgid "BOLIVIA"
 msgstr "BOLIVIA"
 
-#: common.php:2379
+#: common.php:2385
 msgid "BOSNIA AND HERZEGOVINA"
 msgstr "BOSNIË-HERZEGOVINA"
 
-#: common.php:2380
+#: common.php:2386
 msgid "BOTSWANA"
 msgstr "BOTSWANA"
 
-#: common.php:2381
+#: common.php:2387
 msgid "BRAZIL"
 msgstr "BRAZILIË"
 
-#: common.php:2382
+#: common.php:2388
 msgid "BRUNEI"
 msgstr "BRUNEI"
 
-#: common.php:2383
+#: common.php:2389
 msgid "BULGARIA"
 msgstr "BULGARIJE"
 
-#: common.php:2384
+#: common.php:2390
 msgid "BURKINA FASO"
 msgstr "BURKINA FASO"
 
-#: common.php:2385
+#: common.php:2391
 msgid "BURUNDI"
 msgstr "BURUNDI"
 
-#: common.php:2386
+#: common.php:2392
 msgid "CAMBODIA"
 msgstr "CAMBODJA"
 
-#: common.php:2387
+#: common.php:2393
 msgid "CAMEROON"
 msgstr "KAMEROEN"
 
-#: common.php:2388
+#: common.php:2394
 msgid "CANADA"
 msgstr "CANADA"
 
-#: common.php:2389
+#: common.php:2395
 msgid "CAPE VERDE"
 msgstr "KAAPVERDIË"
 
-#: common.php:2390
+#: common.php:2396
 msgid "CENTRAL AFRICAN REPUBLIC"
 msgstr "CENTRAAL-AFRIKAANSE REPUBLIEK"
 
-#: common.php:2391
+#: common.php:2397
 msgid "CHAD"
 msgstr "TSJAAD"
 
-#: common.php:2392
+#: common.php:2398
 msgid "CHILE"
 msgstr "CHILI"
 
-#: common.php:2393
+#: common.php:2399
 msgid "CHINA"
 msgstr "CHINA"
 
-#: common.php:2394
+#: common.php:2400
 msgid "COLOMBIA"
 msgstr "COLOMBIA"
 
-#: common.php:2395
+#: common.php:2401
 msgid "COMOROS"
 msgstr "COMOREN"
 
-#: common.php:2396
+#: common.php:2402
 msgid "CONGO, DEMOCRATIC REPUBLIC OF THE"
 msgstr "CONGO, DEMOCRATISCHE REPUBLIEK"
 
-#: common.php:2397
+#: common.php:2403
 msgid "CONGO, REPUBLIC OF THE"
 msgstr "CONGO, REPUBLIEK"
 
-#: common.php:2398
+#: common.php:2404
 msgid "COSTA RICA"
 msgstr "COSTA RICA"
 
-#: common.php:2399
+#: common.php:2405
 msgid "C&OCIRC;TE D'IVOIRE"
 msgstr "IVOORKUST"
 
-#: common.php:2400
+#: common.php:2406
 msgid "CROATIA"
 msgstr "KROATIË"
 
-#: common.php:2401
+#: common.php:2407
 msgid "CUBA"
 msgstr "CUBA"
 
-#: common.php:2402
+#: common.php:2408
 msgid "CYPRUS"
 msgstr "CYPRUS"
 
-#: common.php:2403
+#: common.php:2409
 msgid "CZECH REPUBLIC"
 msgstr "TSJECHIË"
 
-#: common.php:2404
+#: common.php:2410
 msgid "DENMARK"
 msgstr "DENEMARKEN"
 
-#: common.php:2405
+#: common.php:2411
 msgid "DJIBOUTI"
 msgstr "DJIBOUTI"
 
-#: common.php:2406
+#: common.php:2412
 msgid "DOMINICA"
 msgstr "DOMINICA"
 
-#: common.php:2407
+#: common.php:2413
 msgid "DOMINICAN REPUBLIC"
 msgstr "DOMINICAANSE REPUBLIEK"
 
-#: common.php:2408
+#: common.php:2414
 msgid "EAST TIMOR"
 msgstr "OOST-TIMOR"
 
-#: common.php:2409
+#: common.php:2415
 msgid "ECUADOR"
 msgstr "ECUADOR"
 
-#: common.php:2410
+#: common.php:2416
 msgid "EGYPT"
 msgstr "EGYPTE"
 
-#: common.php:2411
+#: common.php:2417
 msgid "EL SALVADOR"
 msgstr "EL SALVADOR"
 
-#: common.php:2412
+#: common.php:2418
 msgid "EQUATORIAL GUINEA"
 msgstr "EQUATORIAAL-GUINEE"
 
-#: common.php:2413
+#: common.php:2419
 msgid "ERITREA"
 msgstr "ERITREA"
 
-#: common.php:2414
+#: common.php:2420
 msgid "ESTONIA"
 msgstr "ESTLAND"
 
-#: common.php:2415
+#: common.php:2421
 msgid "ETHIOPIA"
 msgstr "ETHIOPIË"
 
-#: common.php:2416
+#: common.php:2422
 msgid "FIJI"
 msgstr "FIJI"
 
-#: common.php:2417
+#: common.php:2423
 msgid "FINLAND"
 msgstr "FINLAND"
 
-#: common.php:2418
+#: common.php:2424
 msgid "FRANCE"
 msgstr "FRANKRIJK"
 
-#: common.php:2419
+#: common.php:2425
 msgid "GABON"
 msgstr "GABON"
 
-#: common.php:2420
+#: common.php:2426
 msgid "GAMBIA"
 msgstr "GAMBIA"
 
-#: common.php:2421
+#: common.php:2427
 msgid "GEORGIA"
 msgstr "GEORGIë"
 
-#: common.php:2422
+#: common.php:2428
 msgid "GERMANY"
 msgstr "DUITSLAND"
 
-#: common.php:2423
+#: common.php:2429
 msgid "GHANA"
 msgstr "GHANA"
 
-#: common.php:2424
+#: common.php:2430
 msgid "GREECE"
 msgstr "GRIEKENLAND"
 
-#: common.php:2425
+#: common.php:2431
 msgid "GREENLAND"
 msgstr "GROENLAND"
 
-#: common.php:2426
+#: common.php:2432
 msgid "GRENADA"
 msgstr "GRENADA"
 
-#: common.php:2427
+#: common.php:2433
 msgid "GUAM"
 msgstr "GUAM"
 
-#: common.php:2428
+#: common.php:2434
 msgid "GUATEMALA"
 msgstr "GUATAMALA"
 
-#: common.php:2429
+#: common.php:2435
 msgid "GUINEA"
 msgstr "GUINEA"
 
-#: common.php:2430
+#: common.php:2436
 msgid "GUINEA-BISSAU"
 msgstr "GUINEE-BISSAU"
 
-#: common.php:2431
+#: common.php:2437
 msgid "GUYANA"
 msgstr "GUYANA"
 
-#: common.php:2432
+#: common.php:2438
 msgid "HAITI"
 msgstr "HAÏTI"
 
-#: common.php:2433
+#: common.php:2439
 msgid "HONDURAS"
 msgstr "HONDURAS"
 
-#: common.php:2434
+#: common.php:2440
 msgid "HONG KONG"
 msgstr "HONG KONG"
 
-#: common.php:2435
+#: common.php:2441
 msgid "HUNGARY"
 msgstr "HONGARIJE"
 
-#: common.php:2436
+#: common.php:2442
 msgid "ICELAND"
 msgstr "IJSLAND"
 
-#: common.php:2437
+#: common.php:2443
 msgid "INDIA"
 msgstr "INDIA"
 
-#: common.php:2438
+#: common.php:2444
 msgid "INDONESIA"
 msgstr "INDONESIË"
 
-#: common.php:2439
+#: common.php:2445
 msgid "IRAN"
 msgstr "IRAN"
 
-#: common.php:2440
+#: common.php:2446
 msgid "IRAQ"
 msgstr "IRAK"
 
-#: common.php:2441
+#: common.php:2447
 msgid "IRELAND"
 msgstr "IERLAND"
 
-#: common.php:2442
+#: common.php:2448
 msgid "ISRAEL"
 msgstr "ISREAL"
 
-#: common.php:2443
+#: common.php:2449
 msgid "ITALY"
 msgstr "ITALIË"
 
-#: common.php:2444
+#: common.php:2450
 msgid "JAMAICA"
 msgstr "JAMAICA"
 
-#: common.php:2445
+#: common.php:2451
 msgid "JAPAN"
 msgstr "JAPAN"
 
-#: common.php:2446
+#: common.php:2452
 msgid "JORDAN"
 msgstr "JORDANIË"
 
-#: common.php:2447
+#: common.php:2453
 msgid "KAZAKHSTAN"
 msgstr "KAZACHSTAN"
 
-#: common.php:2448
+#: common.php:2454
 msgid "KENYA"
 msgstr "KENIA"
 
-#: common.php:2449
+#: common.php:2455
 msgid "KIRIBATI"
 msgstr "KIRIBATI"
 
-#: common.php:2450
+#: common.php:2456
 msgid "NORTH KOREA"
 msgstr "NOORD KOREA"
 
-#: common.php:2451
+#: common.php:2457
 msgid "SOUTH KOREA"
 msgstr "ZUID KOREA"
 
-#: common.php:2452
+#: common.php:2458
 msgid "KUWAIT"
 msgstr "KUWEIT"
 
-#: common.php:2453
+#: common.php:2459
 msgid "KYRGYZSTAN"
 msgstr "KIRZIGIË"
 
-#: common.php:2454
+#: common.php:2460
 msgid "LAOS"
 msgstr "LAOS"
 
-#: common.php:2455
+#: common.php:2461
 msgid "LATVIA"
 msgstr "LETLAND"
 
-#: common.php:2456
+#: common.php:2462
 msgid "LEBANON"
 msgstr "LIBANON"
 
-#: common.php:2457
+#: common.php:2463
 msgid "LESOTHO"
 msgstr "LESOTHO"
 
-#: common.php:2458
+#: common.php:2464
 msgid "LIBERIA"
 msgstr "LIBERIA"
 
-#: common.php:2459
+#: common.php:2465
 msgid "LIBYA"
 msgstr "LIBIË"
 
-#: common.php:2460
+#: common.php:2466
 msgid "LIECHTENSTEIN"
 msgstr "LIECHTENSTEIN"
 
-#: common.php:2461
+#: common.php:2467
 msgid "LITHUANIA"
 msgstr "LITOUWEN"
 
-#: common.php:2462
+#: common.php:2468
 msgid "LUXEMBOURG"
 msgstr "LUXEMBURG"
 
-#: common.php:2463
+#: common.php:2469
 msgid "MACEDONIA"
 msgstr "MACEDONIË"
 
-#: common.php:2464
+#: common.php:2470
 msgid "MADAGASCAR"
 msgstr "MADAGASCAR"
 
-#: common.php:2465
+#: common.php:2471
 msgid "MALAWI"
 msgstr "MALAWI"
 
-#: common.php:2466
+#: common.php:2472
 msgid "MALAYSIA"
 msgstr "MALEISIË"
 
-#: common.php:2467
+#: common.php:2473
 msgid "MALDIVES"
 msgstr "MALDIVEN"
 
-#: common.php:2468
+#: common.php:2474
 msgid "MALI"
 msgstr "MALI"
 
-#: common.php:2469
+#: common.php:2475
 msgid "MALTA"
 msgstr "MALTA"
 
-#: common.php:2470
+#: common.php:2476
 msgid "MARSHALL ISLANDS"
 msgstr "MARSHALLEILANDEN"
 
-#: common.php:2471
+#: common.php:2477
 msgid "MAURITANIA"
 msgstr "MAURITANIË"
 
-#: common.php:2472
+#: common.php:2478
 msgid "MAURITIUS"
 msgstr "MAURITIUS"
 
-#: common.php:2473
+#: common.php:2479
 msgid "MEXICO"
 msgstr "MEXICO"
 
-#: common.php:2474
+#: common.php:2480
 msgid "MICRONESIA"
 msgstr "MICRONESIË"
 
-#: common.php:2475
+#: common.php:2481
 msgid "MOLDOVA"
 msgstr "MOLDAVIË"
 
-#: common.php:2476
+#: common.php:2482
 msgid "MONACO"
 msgstr "MONACO"
 
-#: common.php:2477
+#: common.php:2483
 msgid "MONGOLIA"
 msgstr "MONGOLIË"
 
-#: common.php:2478
+#: common.php:2484
 msgid "MONTENEGRO"
 msgstr "MONTENEGRO"
 
-#: common.php:2479
+#: common.php:2485
 msgid "MOROCCO"
 msgstr "MAROKKO"
 
-#: common.php:2480
+#: common.php:2486
 msgid "MOZAMBIQUE"
 msgstr "MOZAMBIQUE"
 
-#: common.php:2481
+#: common.php:2487
 msgid "MYANMAR"
 msgstr "MYANMAR"
 
-#: common.php:2482
+#: common.php:2488
 msgid "NAMIBIA"
 msgstr "NAMIBË"
 
-#: common.php:2483
+#: common.php:2489
 msgid "NAURU"
 msgstr "MAURU"
 
-#: common.php:2484
+#: common.php:2490
 msgid "NEPAL"
 msgstr "NEPAL"
 
-#: common.php:2485
+#: common.php:2491
 msgid "NETHERLANDS"
 msgstr "NEDERLAND"
 
-#: common.php:2486
+#: common.php:2492
 msgid "NEW ZEALAND"
 msgstr "NIEUW ZEELAND"
 
-#: common.php:2487
+#: common.php:2493
 msgid "NICARAGUA"
 msgstr "NICARAGUA"
 
-#: common.php:2488
+#: common.php:2494
 msgid "NIGER"
 msgstr "NIGER"
 
-#: common.php:2489
+#: common.php:2495
 msgid "NIGERIA"
 msgstr "NIGERIA"
 
-#: common.php:2490
+#: common.php:2496
 msgid "NORTHERN MARIANA ISLANDS"
 msgstr "NOORDELIJKE MARIANEN"
 
-#: common.php:2491
+#: common.php:2497
 msgid "NORWAY"
 msgstr "NOORWEGEN"
 
-#: common.php:2492
+#: common.php:2498
 msgid "OMAN"
 msgstr "OMAN"
 
-#: common.php:2493
+#: common.php:2499
 msgid "PAKISTAN"
 msgstr "PAKISTAN"
 
-#: common.php:2494
+#: common.php:2500
 msgid "PALAU"
 msgstr "PALAU"
 
-#: common.php:2495
+#: common.php:2501
 msgid "PALESTINE"
 msgstr "PALESTINA"
 
-#: common.php:2496
+#: common.php:2502
 msgid "PANAMA"
 msgstr "PANAMA"
 
-#: common.php:2497
+#: common.php:2503
 msgid "PAPUA NEW GUINEA"
 msgstr "PAPUA NIEUW GUINEA"
 
-#: common.php:2498
+#: common.php:2504
 msgid "PARAGUAY"
 msgstr "PARAGUAY"
 
-#: common.php:2499
+#: common.php:2505
 msgid "PERU"
 msgstr "PERU"
 
-#: common.php:2500
+#: common.php:2506
 msgid "PHILIPPINES"
 msgstr "FILLIPIJNEN"
 
-#: common.php:2501
+#: common.php:2507
 msgid "POLAND"
 msgstr "POLEN"
 
-#: common.php:2502
+#: common.php:2508
 msgid "PORTUGAL"
 msgstr "PORTUGAL"
 
-#: common.php:2503
+#: common.php:2509
 msgid "PUERTO RICO"
 msgstr "PUERTO RICO"
 
-#: common.php:2504
+#: common.php:2510
 msgid "QATAR"
 msgstr "QATAR"
 
-#: common.php:2505
+#: common.php:2511
 msgid "ROMANIA"
 msgstr "ROEMENIË"
 
-#: common.php:2506
+#: common.php:2512
 msgid "RUSSIA"
 msgstr "RUSLAND"
 
-#: common.php:2507
+#: common.php:2513
 msgid "RWANDA"
 msgstr "RWANDA"
 
-#: common.php:2508
+#: common.php:2514
 msgid "SAINT KITTS AND NEVIS"
 msgstr "SAINT KITTS AND NEVIS"
 
-#: common.php:2509
+#: common.php:2515
 msgid "SAINT LUCIA"
 msgstr "SAINT LUCIA"
 
-#: common.php:2510
+#: common.php:2516
 msgid "SAINT VINCENT AND THE GRENADINES"
 msgstr "SAINT VINCENT AND THE GRENADINES"
 
-#: common.php:2511
+#: common.php:2517
 msgid "SAMOA"
 msgstr "SAMOA"
 
-#: common.php:2512
+#: common.php:2518
 msgid "SAN MARINO"
 msgstr "SAN MARINO"
 
-#: common.php:2513
+#: common.php:2519
 msgid "SAO TOME AND PRINCIPE"
 msgstr "SAO TOMÉ EN PRINCIPE"
 
-#: common.php:2514
+#: common.php:2520
 msgid "SAUDI ARABIA"
 msgstr "SAUDI-ARABIË"
 
-#: common.php:2515
+#: common.php:2521
 msgid "SENEGAL"
 msgstr "SENEGAL"
 
-#: common.php:2516
+#: common.php:2522
 msgid "SERBIA AND MONTENEGRO"
 msgstr "SERVIË EN MONTENEGRO"
 
-#: common.php:2517
+#: common.php:2523
 msgid "SEYCHELLES"
 msgstr "SEYCHELLEN"
 
-#: common.php:2518
+#: common.php:2524
 msgid "SIERRA LEONE"
 msgstr "SIERRA LEONE"
 
-#: common.php:2519
+#: common.php:2525
 msgid "SINGAPORE"
 msgstr "SINGAPORE"
 
-#: common.php:2520
+#: common.php:2526
 msgid "SLOVAKIA"
 msgstr "SLOWAKIJE"
 
-#: common.php:2521
+#: common.php:2527
 msgid "SLOVENIA"
 msgstr "SLOVENIË"
 
-#: common.php:2522
+#: common.php:2528
 msgid "SOLOMON ISLANDS"
 msgstr "SALOMONSEILANDEN"
 
-#: common.php:2523
+#: common.php:2529
 msgid "SOMALIA"
 msgstr "SOMALIË"
 
-#: common.php:2524
+#: common.php:2530
 msgid "SOUTH AFRICA"
 msgstr "ZUID AFRIKA"
 
-#: common.php:2525
+#: common.php:2531
 msgid "SPAIN"
 msgstr "SPANJE"
 
-#: common.php:2526
+#: common.php:2532
 msgid "SRI LANKA"
 msgstr "SRI LANKA"
 
-#: common.php:2527
+#: common.php:2533
 msgid "SUDAN"
 msgstr "SUDAN"
 
-#: common.php:2528
+#: common.php:2534
 msgid "SUDAN, SOUTH"
 msgstr "SOEDAN, ZUID"
 
-#: common.php:2529
+#: common.php:2535
 msgid "SURINAME"
 msgstr "SURINAME"
 
-#: common.php:2530
+#: common.php:2536
 msgid "SWAZILAND"
 msgstr "SWAZILAND"
 
-#: common.php:2531
+#: common.php:2537
 msgid "SWEDEN"
 msgstr "ZWEDEN"
 
-#: common.php:2532
+#: common.php:2538
 msgid "SWITZERLAND"
 msgstr "ZWITSERLAND"
 
-#: common.php:2533
+#: common.php:2539
 msgid "SYRIA"
 msgstr "SYRIË"
 
-#: common.php:2534
+#: common.php:2540
 msgid "TAIWAN"
 msgstr "TAIWAN"
 
-#: common.php:2535
+#: common.php:2541
 msgid "TAJIKISTAN"
 msgstr "TAJIKISTAN"
 
-#: common.php:2536
+#: common.php:2542
 msgid "TANZANIA"
 msgstr "TANZANIA"
 
-#: common.php:2537
+#: common.php:2543
 msgid "THAILAND"
 msgstr "THAILAND"
 
-#: common.php:2538
+#: common.php:2544
 msgid "TOGO"
 msgstr "TOGO"
 
-#: common.php:2539
+#: common.php:2545
 msgid "TONGA"
 msgstr "TONGA"
 
-#: common.php:2540
+#: common.php:2546
 msgid "TRINIDAD AND TOBAGO"
 msgstr "TRINIDAD EN TOBAGO"
 
-#: common.php:2541
+#: common.php:2547
 msgid "TUNISIA"
 msgstr "TUNESÏE"
 
-#: common.php:2542
+#: common.php:2548
 msgid "TURKEY"
 msgstr "TURKIJE"
 
-#: common.php:2543
+#: common.php:2549
 msgid "TURKMENISTAN"
 msgstr "TURKMENISTAN"
 
-#: common.php:2544
+#: common.php:2550
 msgid "TUVALU"
 msgstr "TUVALU"
 
-#: common.php:2545
+#: common.php:2551
 msgid "UGANDA"
 msgstr "OEGANDA"
 
-#: common.php:2546
+#: common.php:2552
 msgid "UKRAINE"
 msgstr "OEKRAÏNE"
 
-#: common.php:2547
+#: common.php:2553
 msgid "UNITED ARAB EMIRATES"
 msgstr "VERENIGDE ARABISCHE EMIRATEN"
 
-#: common.php:2548
+#: common.php:2554
 msgid "UNITED KINGDOM"
 msgstr "VERENIGD KONINKRIJK"
 
-#: common.php:2549
+#: common.php:2555
 msgid "UNITED STATES"
 msgstr "VERENIGDE STATEN"
 
-#: common.php:2550
+#: common.php:2556
 msgid "URUGUAY"
 msgstr "URUGUAY"
 
-#: common.php:2551
+#: common.php:2557
 msgid "UZBEKISTAN"
 msgstr "OEZBEKISTAN"
 
-#: common.php:2552
+#: common.php:2558
 msgid "VANUATU"
 msgstr "VANUATU"
 
-#: common.php:2553
+#: common.php:2559
 msgid "VATICAN CITY"
 msgstr "VATICAANSTAD"
 
-#: common.php:2554
+#: common.php:2560
 msgid "VENEZUELA"
 msgstr "VENEZUELA"
 
-#: common.php:2555
+#: common.php:2561
 msgid "VIRGIN ISLANDS, BRITISH"
 msgstr "VIRGIN ISLANDS, ENGELSE"
 
-#: common.php:2556
+#: common.php:2562
 msgid "VIRGIN ISLANDS, U.S."
 msgstr "VIRGIN ISLANDS, V.S"
 
-#: common.php:2557
+#: common.php:2563
 msgid "VIETNAM"
 msgstr "VIETNAM"
 
-#: common.php:2558
+#: common.php:2564
 msgid "YEMEN"
 msgstr "JEMEN"
 
-#: common.php:2559
+#: common.php:2565
 msgid "ZAMBIA"
 msgstr "ZAMBIË"
 
-#: common.php:2560
+#: common.php:2566
 msgid "ZIMBABWE"
 msgstr "ZIMBABWE"
 
-#: common.php:2566 common.php:2571
+#: common.php:2572 common.php:2577
 msgid "Alabama"
 msgstr "Alabama"
 
-#: common.php:2566 common.php:2572
+#: common.php:2572 common.php:2578
 msgid "Alaska"
 msgstr "Alaska"
 
-#: common.php:2566 common.php:2573
+#: common.php:2572 common.php:2579
 msgid "Arizona"
 msgstr "Arizona"
 
-#: common.php:2566 common.php:2574
+#: common.php:2572 common.php:2580
 msgid "Arkansas"
 msgstr "Arkansas"
 
-#: common.php:2566 common.php:2575
+#: common.php:2572 common.php:2581
 msgid "California"
 msgstr "California"
 
-#: common.php:2566 common.php:2576
+#: common.php:2572 common.php:2582
 msgid "Colorado"
 msgstr "Colorado"
 
-#: common.php:2566 common.php:2577
+#: common.php:2572 common.php:2583
 msgid "Connecticut"
 msgstr "Connecticut"
 
-#: common.php:2566 common.php:2578
+#: common.php:2572 common.php:2584
 msgid "Delaware"
 msgstr "Delaware"
 
-#: common.php:2566 common.php:2579
+#: common.php:2572 common.php:2585
 msgid "District of Columbia"
 msgstr "District of Columbia"
 
-#: common.php:2566 common.php:2580
+#: common.php:2572 common.php:2586
 msgid "Florida"
 msgstr "Florida"
 
-#: common.php:2566 common.php:2582
+#: common.php:2572 common.php:2588
 msgid "Hawaii"
 msgstr "Hawaii"
 
-#: common.php:2566 common.php:2583
+#: common.php:2572 common.php:2589
 msgid "Idaho"
 msgstr "Idaho"
 
-#: common.php:2566 common.php:2584
+#: common.php:2572 common.php:2590
 msgid "Illinois"
 msgstr "Illinois"
 
-#: common.php:2566 common.php:2585
+#: common.php:2572 common.php:2591
 msgid "Indiana"
 msgstr "Indiana"
 
-#: common.php:2566 common.php:2586
+#: common.php:2572 common.php:2592
 msgid "Iowa"
 msgstr "Iowa"
 
-#: common.php:2566 common.php:2587
+#: common.php:2572 common.php:2593
 msgid "Kansas"
 msgstr "Kansas"
 
-#: common.php:2566 common.php:2588
+#: common.php:2572 common.php:2594
 msgid "Kentucky"
 msgstr "Kentucky"
 
-#: common.php:2566 common.php:2589
+#: common.php:2572 common.php:2595
 msgid "Louisiana"
 msgstr "Louisiana"
 
-#: common.php:2566 common.php:2590
+#: common.php:2572 common.php:2596
 msgid "Maine"
 msgstr "Maine"
 
-#: common.php:2566 common.php:2591
+#: common.php:2572 common.php:2597
 msgid "Maryland"
 msgstr "Maryland"
 
-#: common.php:2566 common.php:2592
+#: common.php:2572 common.php:2598
 msgid "Massachusetts"
 msgstr "Massachusetts"
 
-#: common.php:2566 common.php:2593
+#: common.php:2572 common.php:2599
 msgid "Michigan"
 msgstr "Michigan"
 
-#: common.php:2566 common.php:2594
+#: common.php:2572 common.php:2600
 msgid "Minnesota"
 msgstr "Minnesota"
 
-#: common.php:2566 common.php:2595
+#: common.php:2572 common.php:2601
 msgid "Mississippi"
 msgstr "Mississippi"
 
-#: common.php:2566 common.php:2596
+#: common.php:2572 common.php:2602
 msgid "Missouri"
 msgstr "Missouri"
 
-#: common.php:2566 common.php:2597
+#: common.php:2572 common.php:2603
 msgid "Montana"
 msgstr "Montana"
 
-#: common.php:2566 common.php:2598
+#: common.php:2572 common.php:2604
 msgid "Nebraska"
 msgstr "Nebraska"
 
-#: common.php:2566 common.php:2599
+#: common.php:2572 common.php:2605
 msgid "Nevada"
 msgstr "Nevada"
 
-#: common.php:2566 common.php:2600
+#: common.php:2572 common.php:2606
 msgid "New Hampshire"
 msgstr "New Hampshire"
 
-#: common.php:2566 common.php:2601
+#: common.php:2572 common.php:2607
 msgid "New Jersey"
 msgstr "New Jersey"
 
-#: common.php:2566 common.php:2602
+#: common.php:2572 common.php:2608
 msgid "New Mexico"
 msgstr "New Mexico"
 
-#: common.php:2566 common.php:2603
+#: common.php:2572 common.php:2609
 msgid "New York"
 msgstr "New York"
 
-#: common.php:2566 common.php:2604
+#: common.php:2572 common.php:2610
 msgid "North Carolina"
 msgstr "North Carolina"
 
-#: common.php:2566 common.php:2605
+#: common.php:2572 common.php:2611
 msgid "North Dakota"
 msgstr "South Dakota"
 
-#: common.php:2566 common.php:2606
+#: common.php:2572 common.php:2612
 msgid "Ohio"
 msgstr "Ohio"
 
-#: common.php:2566 common.php:2607
+#: common.php:2572 common.php:2613
 msgid "Oklahoma"
 msgstr "Oklahoma"
 
-#: common.php:2566 common.php:2608
+#: common.php:2572 common.php:2614
 msgid "Oregon"
 msgstr "Oregon"
 
-#: common.php:2566 common.php:2609
+#: common.php:2572 common.php:2615
 msgid "Pennsylvania"
 msgstr "Pennsylvania"
 
-#: common.php:2566 common.php:2610
+#: common.php:2572 common.php:2616
 msgid "Rhode Island"
 msgstr "Rhode Island"
 
-#: common.php:2566 common.php:2611
+#: common.php:2572 common.php:2617
 msgid "South Carolina"
 msgstr "South Carolina"
 
-#: common.php:2566 common.php:2612
+#: common.php:2572 common.php:2618
 msgid "South Dakota"
 msgstr "South Dakota"
 
-#: common.php:2566 common.php:2613
+#: common.php:2572 common.php:2619
 msgid "Tennessee"
 msgstr "Tennessee"
 
-#: common.php:2566 common.php:2614
+#: common.php:2572 common.php:2620
 msgid "Texas"
 msgstr "Texas"
 
-#: common.php:2566 common.php:2615
+#: common.php:2572 common.php:2621
 msgid "Utah"
 msgstr "Utah"
 
-#: common.php:2566 common.php:2616
+#: common.php:2572 common.php:2622
 msgid "Vermont"
 msgstr "Vermont"
 
-#: common.php:2566 common.php:2617
+#: common.php:2572 common.php:2623
 msgid "Virginia"
 msgstr "Virginia"
 
-#: common.php:2566 common.php:2618
+#: common.php:2572 common.php:2624
 msgid "Washington"
 msgstr "Washington"
 
-#: common.php:2566 common.php:2619
+#: common.php:2572 common.php:2625
 msgid "West Virginia"
 msgstr "West Virginia"
 
-#: common.php:2566 common.php:2620
+#: common.php:2572 common.php:2626
 msgid "Wisconsin"
 msgstr "Wisconsin"
 
-#: common.php:2566 common.php:2621
+#: common.php:2572 common.php:2627
 msgid "Wyoming"
 msgstr "Wyoming"
 
-#: common.php:2566 common.php:2622
+#: common.php:2572 common.php:2628
 msgid "Armed Forces Americas"
 msgstr "Armed Forces Americas"
 
-#: common.php:2566 common.php:2623
+#: common.php:2572 common.php:2629
 msgid "Armed Forces Europe"
 msgstr "Armed Forces Europe"
 
-#: common.php:2566 common.php:2624
+#: common.php:2572 common.php:2630
 msgid "Armed Forces Pacific"
 msgstr "Armed Forces Pacific"
 
-#: common.php:2634
+#: common.php:2640
 msgid "Alberta"
 msgstr "Alberta"
 
-#: common.php:2634
+#: common.php:2640
 msgid "British Columbia"
 msgstr "British Columbia"
 
-#: common.php:2634
+#: common.php:2640
 msgid "Manitoba"
 msgstr "Manitoba"
 
-#: common.php:2634
+#: common.php:2640
 msgid "New Brunswick"
 msgstr "New Brunswick"
 
-#: common.php:2634
+#: common.php:2640
 msgid "Newfoundland & Labrador"
 msgstr "Newfoundland & Labrador"
 
-#: common.php:2634
+#: common.php:2640
 msgid "Northwest Territories"
 msgstr "Northwest Territories"
 
-#: common.php:2634
+#: common.php:2640
 msgid "Nova Scotia"
 msgstr "Nova Scotia"
 
-#: common.php:2634
+#: common.php:2640
 msgid "Nunavut"
 msgstr "Nunavut"
 
-#: common.php:2634
+#: common.php:2640
 msgid "Ontario"
 msgstr "Ontario"
 
-#: common.php:2634
+#: common.php:2640
 msgid "Prince Edward Island"
 msgstr "Prins Edwardeiland"
 
-#: common.php:2634
+#: common.php:2640
 msgid "Quebec"
 msgstr "Quebec"
 
-#: common.php:2634
+#: common.php:2640
 msgid "Saskatchewan"
 msgstr "Saskatchewan"
 
-#: common.php:2634
+#: common.php:2640
 msgid "Yukon"
 msgstr "Yukon"
 
-#: common.php:2685
+#: common.php:2691
 msgid "Please enter a value between %s and %s."
 msgstr "Voer een waarde in tussen %s en %s."
 
-#: common.php:2687
+#: common.php:2693
 msgid "Please enter a value greater than or equal to %s."
 msgstr "Voer een waarde in groter of gelijk aan %s."
 
-#: common.php:2689
+#: common.php:2695
 msgid "Please enter a value less than or equal to %s."
 msgstr "Voer een waarde in kleiner of gelijk aan %s."
 
-#: common.php:2691
+#: common.php:2697
 msgid "Please enter a valid number"
 msgstr "Voer een geldig nummer in"
 
-#: common.php:2729 common.php:3798
+#: common.php:2735 common.php:3804
 msgid "Month"
 msgstr "Maand"
 
-#: common.php:2733
+#: common.php:2739
 msgid "Day"
 msgstr "Dag"
 
-#: common.php:2739 common.php:3808
+#: common.php:2745 common.php:3814
 msgid "Year"
 msgstr "Jaar"
 
-#: common.php:2813
+#: common.php:2819
 msgid "Product fields are not editable"
 msgstr "Productvelden zijn niet bewerkbaar"
 
-#: common.php:2816
+#: common.php:2822
 msgid "Donations are not editable"
 msgstr "Donaties zijn niet bewerkbaar"
 
-#: common.php:2852 common.php:2856
+#: common.php:2858 common.php:2862
 msgid "Quantity:"
 msgstr "Aantal:"
 
-#: common.php:2935 common.php:2943 notification.php:547
+#: common.php:2941 common.php:2949 notification.php:546
 msgid "Enter Email"
 msgstr "Voer e-mailadres in"
 
-#: common.php:2935 common.php:2943
+#: common.php:2941 common.php:2949
 msgid "Confirm Email"
 msgstr "Bevestig e-mailadres"
 
-#: common.php:3033 js.php:876
+#: common.php:3039 js.php:876
 msgid "Phone format:"
 msgstr "Telefoonnummer notatie:"
 
-#: common.php:3122 common.php:3484
+#: common.php:3128 common.php:3490
 msgid "delete"
 msgstr "verwijder"
 
-#: common.php:3126 js.php:525
+#: common.php:3132 js.php:525
 msgid "File"
 msgstr "Bestand"
 
-#: common.php:3135 common.php:4239 form_detail.php:985
+#: common.php:3141 common.php:4245 form_detail.php:985
 msgid "Caption"
 msgstr "Onderschrift"
 
-#: common.php:3138 common.php:4240 form_detail.php:990 form_detail.php:1413
+#: common.php:3144 common.php:4246 form_detail.php:990 form_detail.php:1413
 msgid "Description"
 msgstr "Beschrijving"
 
-#: common.php:3148
+#: common.php:3154
 msgid "Click to select..."
 msgstr "Klik om te selecteren..."
 
-#: common.php:3187 form_display.php:1941
+#: common.php:3193 form_display.php:1941
 msgid "Strength indicator"
 msgstr "Sterkte-indicator"
 
-#: common.php:3194
+#: common.php:3200
 msgid "Enter Password"
 msgstr "Wachtwoord invoeren"
 
-#: common.php:3194
+#: common.php:3200
 msgid "Confirm Password"
 msgstr "Wachtwoord bevestigen"
 
-#: common.php:3214 js.php:414
+#: common.php:3220 js.php:414
 msgid "Prefix"
 msgstr "Titulatuur"
 
-#: common.php:3214 common.php:3223 js.php:414 js.php:420
+#: common.php:3220 common.php:3229 js.php:414 js.php:420
 msgid "First"
 msgstr "Voornaam"
 
-#: common.php:3214 common.php:3223 js.php:414 js.php:420
+#: common.php:3220 common.php:3229 js.php:414 js.php:420
 msgid "Last"
 msgstr "Achternaam"
 
-#: common.php:3214 js.php:414
+#: common.php:3220 js.php:414
 msgid "Suffix"
 msgstr "Tussenvoegsel"
 
-#: common.php:3247 common.php:4036 form_detail.php:1027
+#: common.php:3253 common.php:4042 form_detail.php:1027
 msgid "State"
 msgstr "Staat"
 
-#: common.php:3248
+#: common.php:3254
 msgid "Zip Code"
 msgstr "Postcode"
 
-#: common.php:3268 js.php:464
+#: common.php:3274 js.php:464
 msgid "Street Address"
 msgstr "Straat + huisnummer"
 
-#: common.php:3275 js.php:464
+#: common.php:3281 js.php:464
 msgid "Address Line 2"
 msgstr "Adresregel 2"
 
-#: common.php:3285 common.php:3301 js.php:464
+#: common.php:3291 common.php:3307 js.php:464
 msgid "City"
 msgstr "Plaats"
 
-#: common.php:3322 js.php:465
+#: common.php:3328 js.php:465
 msgid "Country"
 msgstr "Land"
 
-#: common.php:3344 common.php:3386 common.php:3403 common.php:3417
-#: common.php:3470
+#: common.php:3350 common.php:3392 common.php:3409 common.php:3423
+#: common.php:3476
 msgid "MM"
 msgstr "MM"
 
-#: common.php:3345 common.php:3381 common.php:3408 common.php:3422
+#: common.php:3351 common.php:3387 common.php:3414 common.php:3428
 msgid "DD"
 msgstr "DD"
 
-#: common.php:3346 common.php:3391 common.php:3399 common.php:3427
+#: common.php:3352 common.php:3397 common.php:3405 common.php:3433
 msgid "YYYY"
 msgstr "JJJJ"
 
-#: common.php:3468
+#: common.php:3474
 msgid "AM"
 msgstr "AM"
 
-#: common.php:3468
+#: common.php:3474
 msgid "PM"
 msgstr "PM"
 
-#: common.php:3470
+#: common.php:3476
 msgid "HH"
 msgstr "UU"
 
-#: common.php:3478
+#: common.php:3484
 msgid "Download file"
 msgstr "Bestand downloaden"
 
-#: common.php:3478
+#: common.php:3484
 msgid "Delete file"
 msgstr "Bestand verwijderen"
 
-#: common.php:3529
+#: common.php:3535
 msgid "To use the reCaptcha field you must first do the following:"
 msgstr "Om het reCaptcha veld te gebruiken moet je eerst het volgende doen:"
 
-#: common.php:3529
+#: common.php:3535
 msgid "Sign up%s for a free reCAPTCHA account"
 msgstr "Meld je aan%s voor een gratis reCAPTCHA account"
 
-#: common.php:3529
+#: common.php:3535
 msgid "Enter your reCAPTCHA keys in the %ssettings page%s"
 msgstr "Voer je reCAPTCHA sleutels in op de %sinstellingen pagina%s"
 
-#: common.php:3616 js.php:472
+#: common.php:3622 js.php:472
 msgid "Card Number"
 msgstr "Kaartnummer"
 
-#: common.php:3632 js.php:473
+#: common.php:3638 js.php:473
 msgid "Expiration Date"
 msgstr "Vervaldatum"
 
-#: common.php:3642 js.php:474
+#: common.php:3648 js.php:474
 msgid "Security Code"
 msgstr "Beveiligingscode"
 
-#: common.php:3647
+#: common.php:3653
 msgid "Cardholder Name"
 msgstr "Naam kaarthouder"
 
-#: common.php:3729
+#: common.php:3735
 msgid "Add a row"
 msgstr "Rij toevoegen"
 
-#: common.php:3730
+#: common.php:3736
 msgid "Remove this row"
 msgstr "Verwijder deze rij"
 
-#: common.php:4035 form_detail.php:1228
+#: common.php:4041 form_detail.php:1228
 msgid "International"
 msgstr "Internationaal"
 
-#: common.php:4035 js.php:465
+#: common.php:4041 js.php:465
 msgid "ZIP / Postal Code"
 msgstr "Postcode"
 
-#: common.php:4035
+#: common.php:4041
 msgid "State / Province / Region"
 msgstr "Staat/provincie/regio"
 
-#: common.php:4036
+#: common.php:4042
 msgid "ZIP Code"
 msgstr "Postcode"
 
-#: common.php:4037
+#: common.php:4043
 msgid "Canadian"
 msgstr "Canadees"
 
-#: common.php:4037 form_detail.php:1031
+#: common.php:4043 form_detail.php:1031
 msgid "Postal Code"
 msgstr "Postcode"
 
-#: common.php:4037
+#: common.php:4043
 msgid "Province"
 msgstr "Provincie"
 
-#: common.php:4244 common.php:4259 entry_list.php:894 entry_list.php:904
+#: common.php:4250 common.php:4265 entry_list.php:894 entry_list.php:904
 msgid "Click to view"
 msgstr "Klik om te bekijken"
 
-#: common.php:4295
+#: common.php:4301
 msgid "Qty: "
 msgstr "Aantal:"
 
-#: common.php:4295
+#: common.php:4301
 msgid "Price: "
 msgstr "Prijs: "
 
-#: common.php:5102 form_list.php:229 form_list.php:286 form_list.php:373
+#: common.php:5108 form_list.php:227 form_list.php:284 form_list.php:371
 msgid "Active"
 msgstr "Actief"
 
-#: common.php:5103 form_list.php:225 form_list.php:287 form_list.php:373
+#: common.php:5109 form_list.php:223 form_list.php:285 form_list.php:371
 msgid "Inactive"
 msgstr "Inactief"
 
-#: common.php:5104 common.php:5133 form_detail.php:1314 select_columns.php:149
+#: common.php:5110 common.php:5139 form_detail.php:1314 select_columns.php:149
 msgid "Save"
 msgstr "Opslaan"
 
-#: common.php:5105 entry_detail.php:397
+#: common.php:5111 entry_detail.php:397
 msgid "Update"
 msgstr "Update"
 
-#: common.php:5106 form_display.php:540 form_display.php:2120 js.php:389
+#: common.php:5112 form_display.php:540 form_display.php:2120 js.php:389
 msgid "Previous"
 msgstr "Vorige"
 
-#: common.php:5107
+#: common.php:5113
 msgid "Select a format"
 msgstr "Selecteer een notatie"
 
-#: common.php:5108
+#: common.php:5114
 msgid "5 of %d items shown. Edit field to view all"
 msgstr "5 van %d items weergegeven. Wijzig veld om alles te bekijken"
 
-#: common.php:5109
+#: common.php:5115
 msgid "Enter a value"
 msgstr "Voer een waarde in"
 
-#: common.php:5110
+#: common.php:5116
 msgid "Untitled Form"
 msgstr "Formulier zonder titel"
 
-#: common.php:5111
+#: common.php:5117
 msgid "We would love to hear from you! Please fill out this form and we will get in touch with you shortly."
 msgstr "We horen graag van je! Vul onderstaand formulier in en wij nemen zo snel mogelijk contact met je op."
 
-#: common.php:5112 common.php:5141 form_detail.php:2298
+#: common.php:5118 common.php:5147 form_detail.php:2298
 msgid "Thanks for contacting us! We will get in touch with you shortly."
 msgstr "Bedankt voor je bericht! We nemen zo snel mogelijk contact met je op."
 
-#: common.php:5113 form_display.php:729 form_list.php:483
+#: common.php:5119 form_display.php:729 form_list.php:481
 msgid "Submit"
 msgstr "Verzenden"
 
-#: common.php:5114 notification.php:308
+#: common.php:5120 notification.php:307
 msgid "Loading..."
 msgstr "Bezig met laden..."
 
-#: common.php:5115
+#: common.php:5121
 msgid "this field if"
 msgstr "dit veld als"
 
-#: common.php:5116
+#: common.php:5122
 msgid "this page"
 msgstr "deze pagina"
 
-#: common.php:5117
+#: common.php:5123
 msgid "this form button"
 msgstr "deze formulier button"
 
-#: common.php:5118
+#: common.php:5124
 msgid "Show"
 msgstr "Toon"
 
-#: common.php:5119
+#: common.php:5125
 msgid "Hide"
 msgstr "Verberg"
 
-#: common.php:5120 entry_list.php:581 form_list.php:285
+#: common.php:5126 entry_list.php:581 form_list.php:283
 msgid "All"
 msgstr "Alles"
 
-#: common.php:5121
+#: common.php:5127
 msgid "Any"
 msgstr "één"
 
-#: common.php:5122
+#: common.php:5128
 msgid "of the following match:"
 msgstr "van de volgende passende:"
 
-#: common.php:5123 notification.php:188 notification.php:642
+#: common.php:5129 notification.php:187 notification.php:641
 msgid "is"
 msgstr "is"
 
-#: common.php:5124 notification.php:189 notification.php:643
+#: common.php:5130 notification.php:188 notification.php:642
 msgid "is not"
 msgstr "is niet"
 
-#: common.php:5125 notification.php:190 notification.php:644
+#: common.php:5131 notification.php:189 notification.php:643
 msgid "greater than"
 msgstr "groter dan"
 
-#: common.php:5126 notification.php:191 notification.php:645
+#: common.php:5132 notification.php:190 notification.php:644
 msgid "less than"
 msgstr "minder dan"
 
-#: common.php:5127 notification.php:192 notification.php:646
+#: common.php:5133 notification.php:191 notification.php:645
 msgid "contains"
 msgstr "bevat"
 
-#: common.php:5128 notification.php:193 notification.php:647
+#: common.php:5134 notification.php:192 notification.php:646
 msgid "starts with"
 msgstr "begint met"
 
-#: common.php:5129 notification.php:194 notification.php:648
+#: common.php:5135 notification.php:193 notification.php:647
 msgid "ends with"
 msgstr "eindigt met"
 
-#: common.php:5131
+#: common.php:5137
 msgid "Use this confirmation if"
 msgstr "Gebruik deze bevestiging als"
 
-#: common.php:5132
+#: common.php:5138
 msgid "Send this notification if"
 msgstr "Verstuur deze notificatie als"
 
-#: common.php:5134
+#: common.php:5140
 msgid "Saving..."
 msgstr "Opslaan..."
 
-#: common.php:5135
+#: common.php:5141
 msgid "Are you sure you wish to cancel these changes?"
 msgstr "Weet je zeker dat je deze wijzigingen wilt annuleren?"
 
-#: common.php:5136 form_settings.php:1243
+#: common.php:5142 form_settings.php:1239
 msgid "There was an issue saving this confirmation."
 msgstr "Er was een probleem bij het opslaan van deze bevestiging."
 
-#: common.php:5137
+#: common.php:5143
 msgid "Are you sure you wish to delete this confirmation?"
 msgstr "Weet je zeker dat je deze bevestiging wilt verwijderen?"
 
-#: common.php:5138 form_settings.php:1263
+#: common.php:5144 form_settings.php:1259
 msgid "There was an issue deleting this confirmation."
 msgstr "Er was een probleem bij het verwijderen van deze bevestiging."
 
-#: common.php:5139
+#: common.php:5145
 msgid "There are unsaved changes to the current confirmation. Would you like to discard these changes?"
 msgstr "Er zijn niet opgeslagen wijzigingen in de huidige bevestiging. Wilt u deze wijzigingen negeren?"
 
-#: common.php:5140
+#: common.php:5146
 msgid "Untitled Confirmation"
 msgstr "Bevestiging zonder titel"
 
-#: common.php:5142
+#: common.php:5148
 msgid "Please select a page."
 msgstr "Selecteer een pagina."
 
-#: common.php:5143
+#: common.php:5149
 msgid "Please enter a URL."
 msgstr "Voer een URL in."
 
-#: common.php:5144
+#: common.php:5150
 msgid "Please enter a confirmation name."
 msgstr "Voer een bevestiging naam in."
 
-#: common.php:5146
+#: common.php:5152
 msgid "This form contains conditional logic dependent upon this field. Are you sure you want to delete this field? 'OK' to delete, 'Cancel' to abort."
 msgstr "Dit formulier bevat conditionele logica die afhankelijk zijn van dit veld. Weet u zeker dat u dit veld wilt verwijderen? 'OK' om te verwijderen, 'Annuleren' om af te breken."
 
-#: common.php:5147
+#: common.php:5153
 msgid "This form contains conditional logic dependent upon this choice. Are you sure you want to delete this choice? 'OK' to delete, 'Cancel' to abort."
 msgstr "Dit formulier bevat conditionele logica die afhankelijk zijn van deze keuze. Weet u zeker dat u deze keuze wilt verwijderen? 'OK' om te verwijderen, 'Annuleren' om af te breken."
 
-#: common.php:5148
+#: common.php:5154
 msgid "This form contains conditional logic dependent upon this choice. Are you sure you want to modify this choice? 'OK' to delete, 'Cancel' to abort."
 msgstr "Dit formulier bevat conditionele logica die afhankelijk zijn van deze keuze. Weet u zeker dat u deze keuze wilt wijzigen? 'OK' om te verwijderen, 'Annuleren' om af te breken."
 
-#: common.php:5150
+#: common.php:5156
 msgid "<h6>Merge Tags</h6>Merge tags allow you to dynamically populate submitted field values in your form content wherever this merge tag icon is present."
 msgstr "<h6>Samenvoegen tags</h6>Samenvoegen tags laten je dynamisch ingestuurde veld waarden invullen in je formulier content waar deze samenvoegen tag icoon aanwezig is."
 
@@ -6095,22 +6248,22 @@ msgstr "Markeren als spam"
 
 #: entry_detail.php:397 entry_list.php:765 entry_list.php:788
 #: form_detail.php:163 form_detail.php:351 form_display.php:2215
-#: form_list.php:376 form_settings.php:1375 gravityforms.php:1996 js.php:135
-#: notification.php:1031
+#: form_list.php:374 form_settings.php:1371 gravityforms.php:2005 js.php:135
+#: notification.php:1030
 msgid "Edit"
-msgstr "Bewerken"
+msgstr "Bewerk"
 
 #: entry_detail.php:402 form_detail.php:1315 gravityforms.php:1014
 #: select_columns.php:150
 msgid "Cancel"
 msgstr "Annuleer"
 
-#: entry_detail.php:415 form_settings.php:1172 notification.php:90
-#: notification.php:414 notification.php:418
+#: entry_detail.php:415 form_settings.php:1168 notification.php:90
+#: notification.php:413 notification.php:417
 msgid "Notifications"
 msgstr "Notificaties"
 
-#: entry_detail.php:433 entry_list.php:690 notification.php:539
+#: entry_detail.php:433 entry_list.php:690 notification.php:538
 msgid "Send To"
 msgstr "Verstuur naar"
 
@@ -6153,13 +6306,13 @@ msgid " Bulk action "
 msgstr "Bulk actie"
 
 #: entry_detail.php:579 form_detail.php:1316 form_display.php:2212
-#: form_list.php:299 form_list.php:394 form_list.php:395 form_list.php:443
-#: form_settings.php:1376 notification.php:1032
+#: form_list.php:297 form_list.php:392 form_list.php:393 form_list.php:441
+#: form_settings.php:1372 notification.php:1031
 msgid "Delete"
 msgstr "Verwijderen"
 
 #: entry_detail.php:582 entry_list.php:651 entry_list.php:1174
-#: form_list.php:306 form_list.php:450
+#: form_list.php:304 form_list.php:448
 msgid "Apply"
 msgstr "Toepassen"
 
@@ -6275,8 +6428,8 @@ msgstr "inzendingen"
 msgid "Entry List"
 msgstr "Inzending lijst"
 
-#: entry_list.php:569 form_list.php:332 form_list.php:350 gravityforms.php:807
-#: gravityforms.php:2026
+#: entry_list.php:569 form_list.php:330 form_list.php:348 gravityforms.php:807
+#: gravityforms.php:2035
 msgid "Entries"
 msgstr "Inzendingen"
 
@@ -6306,8 +6459,8 @@ msgstr "Doorzoek inzendingen:"
 msgid "Search"
 msgstr "Zoeken"
 
-#: entry_list.php:601 entry_list.php:1125 form_list.php:296 form_list.php:298
-#: form_list.php:440 form_list.php:442
+#: entry_list.php:601 entry_list.php:1125 form_list.php:294 form_list.php:296
+#: form_list.php:438 form_list.php:440
 msgid "Bulk action"
 msgstr "Bulk actie"
 
@@ -6515,7 +6668,7 @@ msgstr "Selecteer Alles"
 msgid "Select a form below to export entries. Once you have selected a form you may select the fields you would like to export and an optional date range. When you click the download button below, Gravity Forms will create a CSV file for you to save to your computer."
 msgstr "Selecteer een formulier hieronder om inzendingen te exporteren. Zodra je een formulier hebt geselecteerd kun je de velden selecteren die je wilt exporteren en eventueel een periode opgeven. Zodra je klikt op de download button hieronder zal Gravity Forms een CSV bestand, die je op je computer kunt opslaan, creëren."
 
-#: export.php:436 gravityforms.php:1898
+#: export.php:436 gravityforms.php:1907
 msgid "Select A Form"
 msgstr "Selecteer een formulier"
 
@@ -6567,15 +6720,15 @@ msgstr "User Agent"
 msgid "New Form"
 msgstr "Nieuw formulier"
 
-#: form_detail.php:115 gravityforms.php:1996
+#: form_detail.php:115 gravityforms.php:2005
 msgid "Form Editor"
 msgstr "Formulier editor"
 
-#: form_detail.php:125 form_detail.php:1990 form_settings.php:256
+#: form_detail.php:125 form_detail.php:1990 form_settings.php:255
 msgid "There was an error while saving your form."
 msgstr "Er is een fout opgetreden tijdens het opslaan van je formulier."
 
-#: form_detail.php:126 form_detail.php:1991 form_settings.php:257
+#: form_detail.php:126 form_detail.php:1991 form_settings.php:256
 msgid "Please %scontact our support team%s."
 msgstr "Neem %scontact op met ons support team%s."
 
@@ -6583,7 +6736,7 @@ msgstr "Neem %scontact op met ons support team%s."
 msgid "The form title you have entered is already taken. Please enter an unique form title."
 msgstr "Het formulier titel die u heeft ingevoerd is al in gebruik. Voer een unieke formulier titel in."
 
-#: form_detail.php:142 form_detail.php:1986 form_settings.php:274
+#: form_detail.php:142 form_detail.php:1986 form_settings.php:273
 msgid "Form updated successfully."
 msgstr "Het formulier is succesvol opgeslagen!"
 
@@ -6663,7 +6816,7 @@ msgstr "Voltooide voortgangsbalk weergeven bij bevestiging"
 msgid "Completion Text"
 msgstr "Afronding tekst"
 
-#: form_detail.php:261 form_detail.php:1769 form_settings.php:390
+#: form_detail.php:261 form_detail.php:1769 form_settings.php:389
 #: tooltips.php:82
 msgid "CSS Class Name"
 msgstr "CSS klasse naam"
@@ -6780,7 +6933,7 @@ msgstr "Het formulier is succesvol opgeslagen!"
 msgid "What would you like to do next?"
 msgstr "Wat wilt u nu doen?"
 
-#: form_detail.php:403 form_detail.php:1987 gravityforms.php:2041
+#: form_detail.php:403 form_detail.php:1987 gravityforms.php:2050
 msgid "Preview this form"
 msgstr "Preview dit formulier"
 
@@ -7053,156 +7206,3 @@ msgstr "Afbeeldingspad:"
 #: form_detail.php:1144
 msgid "Preview this form to see your custom icon."
 msgstr "Preview dit formulier om uw maatwerk icoon te zien."
-
-#: form_detail.php:1153
-msgid "Date Format"
-msgstr "Datum notatie"
-
-#: form_detail.php:1171
-msgid "Allowed file extensions"
-msgstr "Toegestane bestandformaten"
-
-#: form_detail.php:1175
-msgid "Separated with commas (i.e. jpg, gif, png, pdf)"
-msgstr "Kommagescheiden (bijv: jpg, gif, png, pdf)"
-
-#: form_detail.php:1184
-msgid "Enable multiple columns"
-msgstr "Meerdere kolommen inschakelen"
-
-#: form_detail.php:1196 tooltips.php:51
-msgid "Maximum Rows"
-msgstr "Maximum aantal rijen"
-
-#: form_detail.php:1208 tooltips.php:67
-msgid "Time Format"
-msgstr "Tijd notatie"
-
-#: form_detail.php:1212
-msgid "12 hour"
-msgstr "12 uur"
-
-#: form_detail.php:1213
-msgid "24 hour"
-msgstr "24 uur"
-
-#: form_detail.php:1223
-msgid "Phone Format"
-msgstr "Telefoon notatie"
-
-#: form_detail.php:1238
-msgid "show values"
-msgstr "waarden weergeven"
-
-#: form_detail.php:1241
-msgid "Choices"
-msgstr "Keuzes"
-
-#: form_detail.php:1246
-msgid "Label"
-msgstr "Label"
-
-#: form_detail.php:1246
-msgid "Value"
-msgstr "Waarde"
-
-#: form_detail.php:1250
-msgid "Bulk Add / Predefined Choices"
-msgstr "Bulk toevoegen / Voorgedefinieerde keuzes"
-
-#: form_detail.php:1258
-msgid "Countries"
-msgstr "Landen"
-
-#: form_detail.php:1259
-msgid "U.S. States"
-msgstr "Amerikaanse staten"
-
-#: form_detail.php:1260
-msgid "Canadian Province/Territory"
-msgstr "Canadese provincie / gebied"
-
-#: form_detail.php:1261
-msgid "Continents"
-msgstr "Continenten"
-
-#: form_detail.php:1261
-msgid "Africa"
-msgstr "Afrika"
-
-#: form_detail.php:1261
-msgid "Antarctica"
-msgstr "Antarctica"
-
-#: form_detail.php:1261
-msgid "Asia"
-msgstr "Azië"
-
-#: form_detail.php:1261
-msgid "Europe"
-msgstr "Europa"
-
-#: form_detail.php:1261
-msgid "North America"
-msgstr "Noord-Amerika"
-
-#: form_detail.php:1261
-msgid "South America"
-msgstr "Zuid-Amerika"
-
-#: form_detail.php:1262
-msgid "Gender"
-msgstr "Geslacht"
-
-#: form_detail.php:1262
-msgid "Male"
-msgstr "Man"
-
-#: form_detail.php:1262
-msgid "Female"
-msgstr "Vrouw"
-
-#: form_detail.php:1262 form_detail.php:1263 form_detail.php:1265
-#: form_detail.php:1268 form_detail.php:1269
-msgid "Prefer Not to Answer"
-msgstr "Liever niet te beantwoorden"
-
-#: form_detail.php:1263
-msgid "Age"
-msgstr "Leeftijd"
-
-#: form_detail.php:1263
-msgid "Under 18"
-msgstr "Onder 18"
-
-#: form_detail.php:1263
-msgid "18-24"
-msgstr "18-24"
-
-#: form_detail.php:1263
-msgid "25-34"
-msgstr "25-34"
-
-#: form_detail.php:1263
-msgid "35-44"
-msgstr "35-44"
-
-#: form_detail.php:1263
-msgid "45-54"
-msgstr "45-54"
-
-#: form_detail.php:1263
-msgid "55-64"
-msgstr "55-64"
-
-#: form_detail.php:1263
-msgid "65 or Above"
-msgstr "65 of ouder"
-
-#: form_detail.php:1264
-msgid "Marital Status"
-msgstr "Burgerlijke staat"
-
-#: form_detail.php:1264
-msgid "Single"
-msgstr "Single"
