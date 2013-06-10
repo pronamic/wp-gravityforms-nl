@@ -4,7 +4,7 @@ Plugin Name: Gravity Forms (nl)
 Plugin URI: http://pronamic.eu/wp-plugins/gravityforms-nl/
 Description: Extends the Gravity Forms plugin and add-ons with the Dutch language: <strong>Gravity Forms</strong> 1.7.5 | <strong>User Registration Add-On</strong> 1.5 | <strong>Campaign Monitor Add-On</strong> 2.1 | <strong>MailChimp Add-On</strong> 2.1 | <strong>PayPal Add-On</strong> 1.7 | <strong>Signature Add-On</strong> 1.3 | <strong>Polls Add-On</strong> 1.2
 
-Version: 2.7.5
+Version: 2.7.6
 Requires at least: 3.0
 
 Author: Pronamic
@@ -40,7 +40,7 @@ class GravityFormsNL {
 	 */
 	public static function bootstrap() {
 		// Priority is set to 8, beceasu the Signature Add-On is using priority 9
-		add_action( 'init',                   array( __CLASS__, 'init' ), 8 );
+		add_action( 'init', array( __CLASS__, 'init' ), 8 );
 
 		add_filter( 'load_textdomain_mofile', array( __CLASS__, 'load_textdomain_mofile' ), 10, 2 );
 
@@ -49,7 +49,7 @@ class GravityFormsNL {
 		add_filter( 'gform_address_types',          array( __CLASS__, 'gform_address_types' ) );
 		add_filter( 'gform_address_display_format', array( __CLASS__, 'gform_address_display_format' ) );
 
-		add_action( 'wp_print_scripts',       array( __CLASS__, 'wp_print_scripts' ) );
+		add_action( 'wp_print_scripts', array( __CLASS__, 'wp_print_scripts' ) );
 
 		/*
 		 * @since Gravity Forms v1.6.12
@@ -59,7 +59,7 @@ class GravityFormsNL {
 		 * 
 		 * @see http://stv.whtly.com/2011/09/03/forcing-a-wordpress-plugin-to-be-loaded-before-all-other-plugins/
 		 */ 
-		add_action( 'activated_plugin',       array( __CLASS__, 'activated_plugin' ) );
+		add_action( 'activated_plugin', array( __CLASS__, 'activated_plugin' ) );
 	}
 
 	////////////////////////////////////////////////////////////
@@ -156,12 +156,20 @@ class GravityFormsNL {
 	 * Gravity Forms translate datepicker
 	 */
 	public static function wp_print_scripts() {
-		if ( self::$is_dutch && wp_script_is( 'gforms_ui_datepicker' ) ) {
-			// @see http://code.google.com/p/jquery-ui/source/browse/trunk/ui/i18n/jquery.ui.datepicker-nl.js
-			// @see https://github.com/jquery/jquery-ui/blob/master/ui/i18n/jquery.ui.datepicker-nl.js
-			$src = plugins_url( 'js/jquery.ui.datepicker-nl.js', __FILE__ );
+		if ( self::$is_dutch ) {
+			/**
+			 * gforms_ui_datepicker » @since ?
+			 * gforms_datepicker » @since Gravity Forms 1.7.5
+			 */
+			foreach ( array( 'gforms_ui_datepicker', 'gforms_datepicker' ) as $script_datepicker ) {
+				if ( wp_script_is( $script_datepicker ) ) {
+					// @see http://code.google.com/p/jquery-ui/source/browse/trunk/ui/i18n/jquery.ui.datepicker-nl.js
+					// @see https://github.com/jquery/jquery-ui/blob/master/ui/i18n/jquery.ui.datepicker-nl.js
+					$src = plugins_url( 'js/jquery.ui.datepicker-nl.js', __FILE__ );
 
-			wp_enqueue_script( 'gforms_ui_datepicker_nl', $src, array( 'gforms_ui_datepicker' ), false, true );
+					wp_enqueue_script( 'gforms_ui_datepicker_nl', $src, array( $script_datepicker ), false, true );
+				}
+			}
 		}
 	}
 
@@ -178,7 +186,7 @@ class GravityFormsNL {
 			'formDescription'     => __( 'We would love to hear from you! Please fill out this form and we will get in touch with you shortly.', 'gravityforms_nl' ) ,  
 			'confirmationMessage' => __( 'Thanks for contacting us! We will get in touch with you shortly.', 'gravityforms_nl' ) , 
 			'buttonText'          => __( 'Submit', 'gravityforms_nl' )
-		));
+		) );
 
 		wp_print_scripts( array( 'gravityforms-nl-forms' ) );
 
@@ -194,12 +202,12 @@ class GravityFormsNL {
 	 */
 	public static function gform_currencies( $currencies ) {
 		$currencies['EUR'] = array(
-			'name'               => __( 'Euro', 'gravityforms_nl' ) ,  
-			'symbol_left'        => '€' , 
-			'symbol_right'       => '' ,  
-			'symbol_padding'     => ' ' , 
-			'thousand_separator' => '.' , 
-			'decimal_separator'  => ',' , 
+			'name'               => __( 'Euro', 'gravityforms_nl' ), 
+			'symbol_left'        => '€',
+			'symbol_right'       => '', 
+			'symbol_padding'     => ' ',
+			'thousand_separator' => '.',
+			'decimal_separator'  => ',',
 			'decimals'           => 2
 		);
 
