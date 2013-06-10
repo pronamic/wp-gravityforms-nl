@@ -40,7 +40,7 @@ class GravityFormsNL {
 	 */
 	public static function bootstrap() {
 		// Priority is set to 8, beceasu the Signature Add-On is using priority 9
-		add_action( 'init',                   array( __CLASS__, 'init' ), 8 );
+		add_action( 'init', array( __CLASS__, 'init' ), 8 );
 
 		add_filter( 'load_textdomain_mofile', array( __CLASS__, 'load_textdomain_mofile' ), 10, 2 );
 
@@ -49,7 +49,7 @@ class GravityFormsNL {
 		add_filter( 'gform_address_types',          array( __CLASS__, 'gform_address_types' ) );
 		add_filter( 'gform_address_display_format', array( __CLASS__, 'gform_address_display_format' ) );
 
-		add_action( 'wp_print_scripts',       array( __CLASS__, 'wp_print_scripts' ) );
+		add_action( 'wp_print_scripts', array( __CLASS__, 'wp_print_scripts' ) );
 
 		/*
 		 * @since Gravity Forms v1.6.12
@@ -59,7 +59,7 @@ class GravityFormsNL {
 		 * 
 		 * @see http://stv.whtly.com/2011/09/03/forcing-a-wordpress-plugin-to-be-loaded-before-all-other-plugins/
 		 */ 
-		add_action( 'activated_plugin',       array( __CLASS__, 'activated_plugin' ) );
+		add_action( 'activated_plugin', array( __CLASS__, 'activated_plugin' ) );
 	}
 
 	////////////////////////////////////////////////////////////
