@@ -156,12 +156,20 @@ class GravityFormsNL {
 	 * Gravity Forms translate datepicker
 	 */
 	public static function wp_print_scripts() {
-		if ( self::$is_dutch && wp_script_is( 'gforms_ui_datepicker' ) ) {
-			// @see http://code.google.com/p/jquery-ui/source/browse/trunk/ui/i18n/jquery.ui.datepicker-nl.js
-			// @see https://github.com/jquery/jquery-ui/blob/master/ui/i18n/jquery.ui.datepicker-nl.js
-			$src = plugins_url( 'js/jquery.ui.datepicker-nl.js', __FILE__ );
+		if ( self::$is_dutch ) {
+			/**
+			 * gforms_ui_datepicker » @since ?
+			 * gforms_datepicker » @since Gravity Forms 1.7.5
+			 */
+			foreach ( array( 'gforms_ui_datepicker', 'gforms_datepicker' ) as $script_datepicker ) {
+				if ( wp_script_is( $script_datepicker, 'registered' ) ) {
+					// @see http://code.google.com/p/jquery-ui/source/browse/trunk/ui/i18n/jquery.ui.datepicker-nl.js
+					// @see https://github.com/jquery/jquery-ui/blob/master/ui/i18n/jquery.ui.datepicker-nl.js
+					$src = plugins_url( 'js/jquery.ui.datepicker-nl.js', __FILE__ );
 
-			wp_enqueue_script( 'gforms_ui_datepicker_nl', $src, array( 'gforms_ui_datepicker' ), false, true );
+					wp_enqueue_script( 'gforms_ui_datepicker_nl', $src, array( $script_datepicker ), false, true );
+				}
+			}
 		}
 	}
 
