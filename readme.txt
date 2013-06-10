@@ -4,7 +4,7 @@ Tags: gravityforms, gravity, form, forms, gravity forms, translation, dutch, nl,
 Donate link: http://pronamic.eu/donate/?for=wp-plugin-gravityforms-nl&source=wp-plugin-readme-txt
 Requires at least: 3.0
 Tested up to: 3.5.1
-Stable tag: 2.7.5
+Stable tag: 2.7.6
 
 This WordPress plugin extends the Gravity Forms plugin with the Dutch translation.
 
@@ -61,6 +61,9 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 
 == Changelog ==
+
+= 2.7.6 = 
+*	Improved translating of datepicker in Gravity Forms v1.7.5+
 
 = 2.7.5 = 
 *	Updated to Gravity Forms version 1.7.5
