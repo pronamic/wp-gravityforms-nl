@@ -162,7 +162,7 @@ class GravityFormsNL {
 			 * gforms_datepicker » @since Gravity Forms 1.7.5
 			 */
 			foreach ( array( 'gforms_ui_datepicker', 'gforms_datepicker' ) as $script_datepicker ) {
-				if ( wp_script_is( $script_datepicker, 'registered' ) ) {
+				if ( wp_script_is( $script_datepicker ) ) {
 					// @see http://code.google.com/p/jquery-ui/source/browse/trunk/ui/i18n/jquery.ui.datepicker-nl.js
 					// @see https://github.com/jquery/jquery-ui/blob/master/ui/i18n/jquery.ui.datepicker-nl.js
 					$src = plugins_url( 'js/jquery.ui.datepicker-nl.js', __FILE__ );
