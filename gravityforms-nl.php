@@ -186,7 +186,7 @@ class GravityFormsNL {
 			'formDescription'     => __( 'We would love to hear from you! Please fill out this form and we will get in touch with you shortly.', 'gravityforms_nl' ) ,  
 			'confirmationMessage' => __( 'Thanks for contacting us! We will get in touch with you shortly.', 'gravityforms_nl' ) , 
 			'buttonText'          => __( 'Submit', 'gravityforms_nl' )
-		));
+		) );
 
 		wp_print_scripts( array( 'gravityforms-nl-forms' ) );
 
@@ -202,12 +202,12 @@ class GravityFormsNL {
 	 */
 	public static function gform_currencies( $currencies ) {
 		$currencies['EUR'] = array(
-			'name'               => __( 'Euro', 'gravityforms_nl' ) ,  
-			'symbol_left'        => '€' , 
-			'symbol_right'       => '' ,  
-			'symbol_padding'     => ' ' , 
-			'thousand_separator' => '.' , 
-			'decimal_separator'  => ',' , 
+			'name'               => __( 'Euro', 'gravityforms_nl' ), 
+			'symbol_left'        => '€',
+			'symbol_right'       => '', 
+			'symbol_padding'     => ' ',
+			'thousand_separator' => '.',
+			'decimal_separator'  => ',',
 			'decimals'           => 2
 		);
 
