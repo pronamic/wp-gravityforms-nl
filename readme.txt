@@ -4,14 +4,14 @@ Tags: gravityforms, gravity, form, forms, gravity forms, translation, dutch, nl,
 Donate link: http://pronamic.eu/donate/?for=wp-plugin-gravityforms-nl&source=wp-plugin-readme-txt
 Requires at least: 3.0
 Tested up to: 3.5.1
-Stable tag: 2.7.6
+Stable tag: 2.7.7
 
 This WordPress plugin extends the Gravity Forms plugin with the Dutch translation.
 
 == Description ==
 
-<strong>Gravity Forms</strong> 1.7.5 | 
-<strong>User Registration Add-On</strong> 1.5 | 
+<strong>Gravity Forms</strong> 1.7.6 | 
+<strong>User Registration Add-On</strong> 1.6 | 
 <strong>Campaign Monitor Add-On</strong> 2.1 | 
 <strong>MailChimp Add-On</strong> 2.1 | 
 <strong>PayPal Add-On</strong> 1.7 | 
@@ -35,21 +35,21 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 == Developers ==
 
-./update-pot gravityforms
+./update-pot gravityforms ~/Sites/example.com/wp-content/plugins/gravityforms
 ./update-pot gravityformscampaignmonitor
 ./update-pot gravityformsmailchimp
 ./update-pot gravityformspaypal
 ./update-pot gravityformspolls
 ./update-pot gravityformssignature
-./update-pot gravityformsuserregistration
+./update-pot gravityformsuserregistration ~/Sites/example.com/wp-content/plugins/gravityforms
 
-./download-po gravityforms 1.6.12
+./download-po gravityforms 1.7.6
 ./download-po gravityformscampaignmonitor 2.1
 ./download-po gravityformsmailchimp 2.1
 ./download-po gravityformspaypal 1.7
 ./download-po gravityformspolls 1.2
 ./download-po gravityformssignature 1.3
-./download-po gravityformsuserregistration 1.5
+./download-po gravityformsuserregistration 1.6
 
 ./update-mo gravityforms
 ./update-mo gravityformscampaignmonitor
@@ -61,6 +61,10 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 
 == Changelog ==
+
+= 2.7.7 = 
+*	Updated to Gravity Forms version 1.7.6
+*	Updated to Gravity Forms User Registration Add-On version 1.6
 
 = 2.7.6 = 
 *	Improved translating of datepicker in Gravity Forms v1.7.5+
