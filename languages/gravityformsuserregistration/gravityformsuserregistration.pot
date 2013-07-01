@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: Pronamic <info@pronamic.nl>\n"
-"POT-Creation-Date: 2013-04-16 16:07+0200\n"
+"POT-Creation-Date: 2013-07-01 10:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -146,7 +146,7 @@ msgid "Activate"
 msgstr ""
 
 #: includes/pending_activations.php:310 userregistration.php:375
-#: userregistration.php:423 userregistration.php:2811
+#: userregistration.php:423 userregistration.php:2848
 msgid "Delete"
 msgstr ""
 
@@ -166,12 +166,12 @@ msgstr ""
 msgid "The user is already active."
 msgstr ""
 
-#: plugin-upgrade.php:56 userregistration.php:221
+#: plugin-upgrade.php:50 userregistration.php:221
 #, php-format
 msgid "View version %s Details"
 msgstr ""
 
-#: plugin-upgrade.php:75
+#: plugin-upgrade.php:69
 #, php-format
 msgid "Oops!! Something went wrong.%sPlease try again or %scontact us%s."
 msgstr ""
@@ -192,7 +192,7 @@ msgid ""
 "upgrades and support. Need a license key? %sPurchase one now%s."
 msgstr ""
 
-#: userregistration.php:262 userregistration.php:299 userregistration.php:2772
+#: userregistration.php:262 userregistration.php:299 userregistration.php:2809
 msgid "User Registration"
 msgstr ""
 
@@ -333,7 +333,7 @@ msgid ""
 "work together."
 msgstr ""
 
-#: userregistration.php:300 userregistration.php:1851
+#: userregistration.php:300 userregistration.php:1855
 msgid "Create Site"
 msgstr ""
 
@@ -343,7 +343,7 @@ msgid ""
 "creation of a new site on the network when a new user registers."
 msgstr ""
 
-#: userregistration.php:301 userregistration.php:1859
+#: userregistration.php:301 userregistration.php:1863
 msgid "Site Address"
 msgstr ""
 
@@ -351,7 +351,7 @@ msgstr ""
 msgid "Select the form field that should be used for the site address."
 msgstr ""
 
-#: userregistration.php:302 userregistration.php:1864
+#: userregistration.php:302 userregistration.php:1868
 msgid "Site Title"
 msgstr ""
 
@@ -359,7 +359,7 @@ msgstr ""
 msgid "Select the form field that should be used for the site title."
 msgstr ""
 
-#: userregistration.php:303 userregistration.php:1870
+#: userregistration.php:303 userregistration.php:1874
 msgid "Site Role"
 msgstr ""
 
@@ -367,7 +367,7 @@ msgstr ""
 msgid "Select role the user should be assigned on the newly created site."
 msgstr ""
 
-#: userregistration.php:304 userregistration.php:1881
+#: userregistration.php:304 userregistration.php:1885
 msgid "Current Site Role"
 msgstr ""
 
@@ -513,9 +513,9 @@ msgstr ""
 msgid "Select an Action"
 msgstr ""
 
-#: userregistration.php:788 userregistration.php:826 userregistration.php:1859
-#: userregistration.php:1864 userregistration.php:1871
-#: userregistration.php:1882
+#: userregistration.php:788 userregistration.php:826 userregistration.php:1863
+#: userregistration.php:1868 userregistration.php:1875
+#: userregistration.php:1886
 msgid "required"
 msgstr ""
 
@@ -631,105 +631,109 @@ msgstr ""
 msgid "BuddyPress Profile"
 msgstr ""
 
-#: userregistration.php:1848
+#: userregistration.php:1852
 msgid "Network Options"
 msgstr ""
 
-#: userregistration.php:1853
+#: userregistration.php:1857
 msgid "Create new site when a user registers."
 msgstr ""
 
-#: userregistration.php:2508
+#: userregistration.php:2521
 msgid "Passwords may not contain the character \"\\\""
 msgstr ""
 
-#: userregistration.php:2552
+#: userregistration.php:2546
+msgid "Sorry, that email address is already used!"
+msgstr ""
+
+#: userregistration.php:2586 userregistration.php:2588
 msgid "This email address is already registered"
 msgstr ""
 
-#: userregistration.php:2555
+#: userregistration.php:2592
 msgid "The email address can not be empty"
 msgstr ""
 
-#: userregistration.php:2563
+#: userregistration.php:2600
 msgid "This username is already registered"
 msgstr ""
 
-#: userregistration.php:2566
+#: userregistration.php:2603
 msgid ""
 "The username can only contain alphanumeric characters (A-Z, 0-9), "
 "underscores, dashes and spaces"
 msgstr ""
 
-#: userregistration.php:2569
+#: userregistration.php:2606
 msgid ""
 "The username can only contain alphanumeric characters (A-Z, 0-9), "
 "underscores and dashes"
 msgstr ""
 
-#: userregistration.php:2572
+#: userregistration.php:2609
 msgid "The username can not be empty"
 msgstr ""
 
-#: userregistration.php:2783
+#: userregistration.php:2820
 msgid "Register user only when a payment is received."
 msgstr ""
 
-#: userregistration.php:2785
+#: userregistration.php:2822
 msgid "Register user and create site only when a payment is received."
 msgstr ""
 
-#: userregistration.php:2793
+#: userregistration.php:2830
 msgid "Update <strong>user</strong> when subscription is cancelled."
 msgstr ""
 
-#: userregistration.php:2799
+#: userregistration.php:2836
 #, php-format
 msgid "Set User as %s"
 msgstr ""
 
-#: userregistration.php:2808
+#: userregistration.php:2845
 msgid "Update <strong>site</strong> when subscription is cancelled."
 msgstr ""
 
-#: userregistration.php:2811
+#: userregistration.php:2848
 msgid "Deactivate"
 msgstr ""
 
-#: userregistration.php:2813
+#: userregistration.php:2850
 #, php-format
 msgid "%s site"
 msgstr ""
 
-#: userregistration.php:2950
+#: userregistration.php:2997
 msgid ""
 "You don't have adequate permission to uninstall the User Registration Add-On."
 msgstr ""
 
-#: userregistration.php:2999 userregistration.php:3059
+#: userregistration.php:3048 userregistration.php:3108
 msgid "Full"
 msgstr ""
 
-#: userregistration.php:3216
+#: userregistration.php:3265
 msgid "&mdash; No role for this site &mdash;"
 msgstr ""
 
-#: userregistration.php:3459
+#: userregistration.php:3585
 msgid "Oops! You need to be logged in to use this form."
 msgstr ""
 
-#: userregistration.php:3498
+#: userregistration.php:3624
 msgid "Select a form"
 msgstr ""
 
-#: userregistration.php:3537
+#: userregistration.php:3663
 msgid "Pending Activation:"
 msgstr ""
 
-#: userregistration.php:3545
+#: userregistration.php:3671
 msgid "Are you sure you want to activate this user?"
 msgstr ""
 
-#: userregistration.php:3565
+#: userregistration.php:3691
 msgid "User Activated Successfully"
 msgstr ""
