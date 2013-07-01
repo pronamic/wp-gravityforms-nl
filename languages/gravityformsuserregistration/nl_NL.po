@@ -1,190 +1,14 @@
-# Translation of 1.5 in Dutch
-# This file is distributed under the same license as the 1.5 package.
+# Translation of 1.6 in Dutch
+# This file is distributed under the same license as the 1.6 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-04-16 15:00:40+0000\n"
+"PO-Revision-Date: 2013-07-01 08:31:05+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
-"Project-Id-Version: 1.5\n"
-
-#: includes/activate.php:67
-msgid "An error occurred during the activation"
-msgstr "Er is een fout opgetreden tijdens de activering"
-
-#: includes/activate.php:62
-msgid "Your site at <a href=\"%1$s\">%2$s</a> is active. You may now log in to your site using your chosen username of &#8220;%3$s&#8221;.  Please check your email inbox at %4$s for your password and login instructions.  If you do not receive an email, please check your junk or spam folder.  If you still do not receive an email within an hour, you can <a href=\"%5$s\">reset your password</a>."
-msgstr "Uw website op <a href=\"%1$s\">%2$s</a> is geactiveerd. U kunt nu inloggen op uw website met uw gekozen gebruikersnaam of &#8220;%3$s&#8221;. Controleer uw e-mail van %4$s voor uw wachtwoord en inloggen instructies. Als u geen e-mail heeft ontvangen controleer dan uw spam map. Als u binnen een uur nog geen e-mail heeft ontvangen <a href=\"%5$s\">herstel dan uw wachtwoord</a>."
-
-#: includes/activate.php:60
-msgid "Your account has been activated. You may now <a href=\"%1$s\">log in</a> to the site using your chosen username of &#8220;%2$s&#8221;.  Please check your email inbox at %3$s for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href=\"%4$s\">reset your password</a>."
-msgstr "Uw account is geactiveerd. U kunt nu <a href=\"%1$s\">inloggen</a> op de website met uw gekozen gebruikersnaam of &#8220;%2$s&#8221;. Controleer uw e-mail van %3$s voor uw wachtwoord en inloggen instructies. Als u geen e-mail heeft ontvangen controleer dan uw spam map. Als u binnen een uur nog geen e-mail heeft ontvangen <a href=\"%4$s\">herstel dan uw wachtwoord</a>. "
-
-#: includes/activate.php:56 includes/activate.php:76
-msgid "Your account is now active!"
-msgstr "Uw account is nu geactiveerd!"
-
-#: includes/activate.php:40
-msgid "Activation Key:"
-msgstr "Activatie sleutel:"
-
-#: includes/activate.php:37
-msgid "Activation Key Required"
-msgstr "Activatie sleutel vereist"
-
-#: includes/activate.php:79
-msgid "Username:"
-msgstr "Gebruikersnaam:"
-
-#: includes/activate.php:80
-msgid "Password:"
-msgstr "Wachtwoord:"
-
-#: includes/activate.php:84
-msgid "Your account is now activated. <a href=\"%1$s\">View your site</a> or <a href=\"%2$s\">Log in</a>"
-msgstr "Uw account is nu geactiveerd. <a href=\"%1$s\">Bekijk uw website</a> of <a href=\"%2$s\">Log in</a>"
-
-#: includes/activate.php:86
-msgid "Your account is now activated. <a href=\"%1$s\">Log in</a> or go back to the <a href=\"%2$s\">homepage</a>."
-msgstr "Uw account is nu geactiveerd. <a href=\"%1$s\">Log in</a> of ga terug naar de <a href=\"%2$s\">homepage</a>."
-
-#: includes/pending_activations.php:26 userregistration.php:419
-#: userregistration.php:1529
-msgid "Pending Activations"
-msgstr "Activaties in afwachting"
-
-#: includes/pending_activations.php:29
-msgid "Pending Activations for %s"
-msgstr "Activaties in afwachting voor %s"
-
-#: includes/pending_activations.php:40
-msgid "Select a Form"
-msgstr "Selecteer een formulier"
-
-#: includes/pending_activations.php:41
-msgid "View All Pending Activations"
-msgstr "Bekijk alle activaties in afwachting"
-
-#: includes/pending_activations.php:42
-msgid "Forms"
-msgstr "Formulieren"
-
-#: includes/pending_activations.php:184
-msgid "Item deleted."
-msgid_plural "Items deleted."
-msgstr[0] "Item verwijderd."
-msgstr[1] "Items verwijderd."
-
-#: includes/pending_activations.php:186
-msgid "There was an issue deleting this item."
-msgid_plural "There was an issue deleting one or more selected items."
-msgstr[0] "Er was een probleem bij het verwijderen van dit item."
-msgstr[1] "Er was een probleem bij het verwijderen van één of meerdere geselecteerde items."
-
-#: includes/pending_activations.php:192
-msgid "Item activated."
-msgid_plural "Items activated."
-msgstr[0] "Item geactiveerd."
-msgstr[1] "Items geactiveerd."
-
-#: includes/pending_activations.php:194
-msgid "There was an issue activating this item"
-msgid_plural "There was an issue activating one or more selected items"
-msgstr[0] "Er was een probleem bij het activeren van dit item."
-msgstr[1] "Er was een probleem bij het activeren van één of meerdere geselecteerde items."
-
-#: includes/pending_activations.php:290
-msgid "Activate this sign up? "
-msgstr "Activeer deze aanmelding?"
-
-#: includes/pending_activations.php:290
-msgid "\\'Cancel\\' to stop, \\'OK\\' to activate."
-msgstr "\\'Annuleer\\' om te stoppen, \\'OK\\' om te activeren."
-
-#: includes/pending_activations.php:296
-msgid "Delete this sign up? "
-msgstr "Verwijder deze aanmelding?"
-
-#: includes/pending_activations.php:296 userregistration.php:378
-#: userregistration.php:423
-msgid "\\'Cancel\\' to stop, \\'OK\\' to delete."
-msgstr "\\'Annuleer\\' om te stoppen, \\'OK\\' om te verwijderen."
-
-#: includes/pending_activations.php:309
-msgid "Activate"
-msgstr "Activeer"
-
-#: includes/pending_activations.php:310 userregistration.php:375
-#: userregistration.php:423 userregistration.php:2811
-msgid "Delete"
-msgstr "Verwijder"
-
-#: includes/signups.php:144
-msgid "Could not create user"
-msgstr "Kon gebruiker niet aanmaken"
-
-#: includes/signups.php:149
-msgid "That username is already activated."
-msgstr "Die gebruikersnaam is al geactiveerd."
-
-#: includes/signups.php:202
-msgid "Invalid activation key."
-msgstr "Ongeldige activatie sleutel."
-
-#: includes/signups.php:205
-msgid "The user is already active."
-msgstr "Deze gebruiker is al geactiveerd."
-
-#: plugin-upgrade.php:56 userregistration.php:221
-msgid "View version %s Details"
-msgstr "Bekijk versie %s details"
-
-#: plugin-upgrade.php:75
-msgid "Oops!! Something went wrong.%sPlease try again or %scontact us%s."
-msgstr "Oeps! Er ging iets verkeerd.%sProbeer het nogmaals of neem %scontact met ons op%s."
-
-#: userregistration.php:214
-msgid "Gravity Forms "
-msgstr "Gravity Forms"
-
-#: userregistration.php:221
-msgid "There is a new version of Gravity Forms User Registration Add-On available."
-msgstr "Er is een nieuwe versie van de Gravity Forms gebruikersregistratie add-on beschikbaar."
-
-#: userregistration.php:222
-msgid "%sRegister%s your copy of Gravity Forms to receive access to automatic upgrades and support. Need a license key? %sPurchase one now%s."
-msgstr "%sRegistreer%s je kopie van Gravity Forms om automatisch upgrade en support te ontvangen. Heb je een licentiecode nodig? %sKoop er nu één%s."
-
-#: userregistration.php:262 userregistration.php:299 userregistration.php:2772
-msgid "User Registration"
-msgstr "Gebruikersregistratie"
-
-#: userregistration.php:285 userregistration.php:768
-msgid "Gravity Form"
-msgstr "Gravity Forms formulier"
-
-#: userregistration.php:285
-msgid "Select the Gravity Form you would like to use to register users for your WordPress website."
-msgstr "Selecteer het Gravity Forms formulier die je wilt gebruiken om gebruikers te laten registreren op je WordPress website."
-
-#: userregistration.php:286 userregistration.php:388 userregistration.php:397
-#: userregistration.php:754
-msgid "Action"
-msgstr "Actie"
-
-#: userregistration.php:286
-msgid "Select the type of feed you would like to create. \"Create\" feeds will create a new user. \"Update\" feeds will update users."
-msgstr "Selecteer de type feed die u wilt aanmaken. \"Aanmaken\" feeds zullen een nieuwe gebruiker aanmaken. \"Bijwerken\" feeds zullen gebruikers bijwerken. "
-
-#: userregistration.php:287 userregistration.php:788
-msgid "Username"
-msgstr "Gebruikersnaam"
-
-#: userregistration.php:287
-msgid "Select the form field that should be used for the user's username."
-msgstr "Selecteer het formulierveld die gebruikt moet worden voor de gebruikersnaam."
+"Project-Id-Version: 1.6\n"
 
 #: userregistration.php:288 userregistration.php:793
 msgid "First Name"
@@ -278,7 +102,7 @@ msgstr "Als de registratie conditie is ingeschakeld zal een gebruiker alleen ger
 msgid "The selected form also has a User Registration feed. These options allow you to specify how you would like the PayPal and User Registration Add-ons to work together."
 msgstr "Het geselecteerde formulier heeft ook een gebruikersregistratie formulier. Binnen deze opties kun je aangeven hoe PayPal en de gebruikersregistratie add-on moeten samenwerken."
 
-#: userregistration.php:300 userregistration.php:1851
+#: userregistration.php:300 userregistration.php:1855
 msgid "Create Site"
 msgstr "Creëer website"
 
@@ -286,7 +110,7 @@ msgstr "Creëer website"
 msgid "When WordPress Multisite is enabled, checking this option will enable the creation of a new site on the network when a new user registers."
 msgstr "Als WordPress Multisite is ingeschakelen zal het aanvinken van deze optie er voor zorgen dat er een nieuwe website wordt aangemaakt zodra een nieuwe gebruiker zich registreert."
 
-#: userregistration.php:301 userregistration.php:1859
+#: userregistration.php:301 userregistration.php:1863
 msgid "Site Address"
 msgstr "Website adres"
 
@@ -294,7 +118,7 @@ msgstr "Website adres"
 msgid "Select the form field that should be used for the site address."
 msgstr "Selecteer het formulierveld dat gebruikt moet worden voor het website adres."
 
-#: userregistration.php:302 userregistration.php:1864
+#: userregistration.php:302 userregistration.php:1868
 msgid "Site Title"
 msgstr "Website titel"
 
@@ -302,7 +126,7 @@ msgstr "Website titel"
 msgid "Select the form field that should be used for the site title."
 msgstr "Selecteer het formulierveld dat gebruikt moet worden voor de website titel."
 
-#: userregistration.php:303 userregistration.php:1870
+#: userregistration.php:303 userregistration.php:1874
 msgid "Site Role"
 msgstr "Website rol"
 
@@ -310,7 +134,7 @@ msgstr "Website rol"
 msgid "Select role the user should be assigned on the newly created site."
 msgstr "Selecteer de rol die de gebruiker toegewezen krijgt op de nieuw aangemaakte website."
 
-#: userregistration.php:304 userregistration.php:1881
+#: userregistration.php:304 userregistration.php:1885
 msgid "Current Site Role"
 msgstr "Huidige website rol"
 
@@ -442,9 +266,9 @@ msgstr "Oops! Er waren enkele problemen met uw feed."
 msgid "Select an Action"
 msgstr "Selecteer een actie"
 
-#: userregistration.php:788 userregistration.php:826 userregistration.php:1859
-#: userregistration.php:1864 userregistration.php:1871
-#: userregistration.php:1882
+#: userregistration.php:788 userregistration.php:826 userregistration.php:1863
+#: userregistration.php:1868 userregistration.php:1875
+#: userregistration.php:1886
 msgid "required"
 msgstr "verplicht"
 
@@ -556,98 +380,278 @@ msgstr "Nieuwe feed"
 msgid "BuddyPress Profile"
 msgstr "BuddyPress profiel"
 
-#: userregistration.php:1848
+#: userregistration.php:1852
 msgid "Network Options"
 msgstr "Netwerk opties"
 
-#: userregistration.php:1853
+#: userregistration.php:1857
 msgid "Create new site when a user registers."
 msgstr "Creëer nieuwe website zodra gebruiker registreert."
 
-#: userregistration.php:2508
+#: userregistration.php:2521
 msgid "Passwords may not contain the character \"\\\""
 msgstr "Wachtwoorden mogen geen \"\\'\" teken bevatten"
 
-#: userregistration.php:2552
+#: userregistration.php:2546
+msgid "Sorry, that email address is already used!"
+msgstr "Sorry, dat e-mailadres is al in gebruik!"
+
+#: userregistration.php:2586 userregistration.php:2588
 msgid "This email address is already registered"
 msgstr "Dit e-mailadres is al geregistreerd"
 
-#: userregistration.php:2555
+#: userregistration.php:2592
 msgid "The email address can not be empty"
 msgstr "Het e-mailadres kan niet leeg zijn"
 
-#: userregistration.php:2563
+#: userregistration.php:2600
 msgid "This username is already registered"
 msgstr "Deze gebruikersnaam is al geregistreerd"
 
-#: userregistration.php:2566
+#: userregistration.php:2603
 msgid "The username can only contain alphanumeric characters (A-Z, 0-9), underscores, dashes and spaces"
 msgstr "De gebruikersnaam kan alleen alfanumerieke tekens bevatten (AZ, 0-9), onderstrepingstekens, streepjes en spaties"
 
-#: userregistration.php:2569
+#: userregistration.php:2606
 msgid "The username can only contain alphanumeric characters (A-Z, 0-9), underscores and dashes"
 msgstr "De gebruikersnaam kan alleen alfanumerieke tekens bevatten (AZ, 0-9), onderstrepingstekens en streepjes"
 
-#: userregistration.php:2572
+#: userregistration.php:2609
 msgid "The username can not be empty"
 msgstr "De gebruikersnaam kan niet leeg zijn"
 
-#: userregistration.php:2783
+#: userregistration.php:2820
 msgid "Register user only when a payment is received."
 msgstr "Registreer gebruiker alleen zodra betaling is ontvangen."
 
-#: userregistration.php:2785
+#: userregistration.php:2822
 msgid "Register user and create site only when a payment is received."
 msgstr "Registreer gebruiker en creëer website alleen zodra betaling is ontvangen."
 
-#: userregistration.php:2793
+#: userregistration.php:2830
 msgid "Update <strong>user</strong> when subscription is cancelled."
 msgstr "Update <strong>gebruiker</strong>zodra abonnement is geannuleerd."
 
-#: userregistration.php:2799
+#: userregistration.php:2836
 msgid "Set User as %s"
 msgstr "Zet gebruiker als %s"
 
-#: userregistration.php:2808
+#: userregistration.php:2845
 msgid "Update <strong>site</strong> when subscription is cancelled."
 msgstr "Update <strong>website</strong> zodra abonnement is geannuleerd."
 
-#: userregistration.php:2811
+#: userregistration.php:2848
 msgid "Deactivate"
 msgstr "Deactiveren"
 
-#: userregistration.php:2813
+#: userregistration.php:2850
 msgid "%s site"
 msgstr "%s site"
 
-#: userregistration.php:2950
+#: userregistration.php:2997
 msgid "You don't have adequate permission to uninstall the User Registration Add-On."
 msgstr "U heeft niet de juiste rechten om de User Registration Add-On te verwijderen. "
 
-#: userregistration.php:2999 userregistration.php:3059
+#: userregistration.php:3048 userregistration.php:3108
 msgid "Full"
 msgstr "Vol"
 
-#: userregistration.php:3216
+#: userregistration.php:3265
 msgid "&mdash; No role for this site &mdash;"
 msgstr "&mdash; Geen rol voor deze website &mdash;"
 
-#: userregistration.php:3459
+#: userregistration.php:3585
 msgid "Oops! You need to be logged in to use this form."
 msgstr "Oops! U moet ingelogd zijn om dit formulier te gebruiken."
 
-#: userregistration.php:3498
+#: userregistration.php:3624
 msgid "Select a form"
 msgstr "Selecteer een formulier"
 
-#: userregistration.php:3537
+#: userregistration.php:3663
 msgid "Pending Activation:"
 msgstr "Activatie in afwachting:"
 
-#: userregistration.php:3545
+#: userregistration.php:3671
 msgid "Are you sure you want to activate this user?"
 msgstr "Weet u zeker dat u deze gebruiker wilt activeren?"
 
-#: userregistration.php:3565
+#: userregistration.php:3691
 msgid "User Activated Successfully"
 msgstr "Gebruiker succesvol geactiveerd"
+
+#: includes/activate.php:37
+msgid "Activation Key Required"
+msgstr "Activatie sleutel vereist"
+
+#: includes/activate.php:40
+msgid "Activation Key:"
+msgstr "Activatie sleutel:"
+
+#: includes/activate.php:56 includes/activate.php:76
+msgid "Your account is now active!"
+msgstr "Uw account is nu geactiveerd!"
+
+#: includes/activate.php:60
+msgid "Your account has been activated. You may now <a href=\"%1$s\">log in</a> to the site using your chosen username of &#8220;%2$s&#8221;.  Please check your email inbox at %3$s for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href=\"%4$s\">reset your password</a>."
+msgstr "Uw account is geactiveerd. U kunt nu <a href=\"%1$s\">inloggen</a> op de website met uw gekozen gebruikersnaam of &#8220;%2$s&#8221;. Controleer uw e-mail van %3$s voor uw wachtwoord en inloggen instructies. Als u geen e-mail heeft ontvangen controleer dan uw spam map. Als u binnen een uur nog geen e-mail heeft ontvangen <a href=\"%4$s\">herstel dan uw wachtwoord</a>. "
+
+#: includes/activate.php:62
+msgid "Your site at <a href=\"%1$s\">%2$s</a> is active. You may now log in to your site using your chosen username of &#8220;%3$s&#8221;.  Please check your email inbox at %4$s for your password and login instructions.  If you do not receive an email, please check your junk or spam folder.  If you still do not receive an email within an hour, you can <a href=\"%5$s\">reset your password</a>."
+msgstr "Uw website op <a href=\"%1$s\">%2$s</a> is geactiveerd. U kunt nu inloggen op uw website met uw gekozen gebruikersnaam of &#8220;%3$s&#8221;. Controleer uw e-mail van %4$s voor uw wachtwoord en inloggen instructies. Als u geen e-mail heeft ontvangen controleer dan uw spam map. Als u binnen een uur nog geen e-mail heeft ontvangen <a href=\"%5$s\">herstel dan uw wachtwoord</a>."
+
+#: includes/activate.php:67
+msgid "An error occurred during the activation"
+msgstr "Er is een fout opgetreden tijdens de activering"
+
+#: includes/activate.php:79
+msgid "Username:"
+msgstr "Gebruikersnaam:"
+
+#: includes/activate.php:80
+msgid "Password:"
+msgstr "Wachtwoord:"
+
+#: includes/activate.php:84
+msgid "Your account is now activated. <a href=\"%1$s\">View your site</a> or <a href=\"%2$s\">Log in</a>"
+msgstr "Uw account is nu geactiveerd. <a href=\"%1$s\">Bekijk uw website</a> of <a href=\"%2$s\">Log in</a>"
+
+#: includes/activate.php:86
+msgid "Your account is now activated. <a href=\"%1$s\">Log in</a> or go back to the <a href=\"%2$s\">homepage</a>."
+msgstr "Uw account is nu geactiveerd. <a href=\"%1$s\">Log in</a> of ga terug naar de <a href=\"%2$s\">homepage</a>."
+
+#: includes/pending_activations.php:26 userregistration.php:419
+#: userregistration.php:1529
+msgid "Pending Activations"
+msgstr "Activaties in afwachting"
+
+#: includes/pending_activations.php:29
+msgid "Pending Activations for %s"
+msgstr "Activaties in afwachting voor %s"
+
+#: includes/pending_activations.php:40
+msgid "Select a Form"
+msgstr "Selecteer een formulier"
+
+#: includes/pending_activations.php:41
+msgid "View All Pending Activations"
+msgstr "Bekijk alle activaties in afwachting"
+
+#: includes/pending_activations.php:42
+msgid "Forms"
+msgstr "Formulieren"
+
+#: includes/pending_activations.php:184
+msgid "Item deleted."
+msgid_plural "Items deleted."
+msgstr[0] "Item verwijderd."
+msgstr[1] "Items verwijderd."
+
+#: includes/pending_activations.php:186
+msgid "There was an issue deleting this item."
+msgid_plural "There was an issue deleting one or more selected items."
+msgstr[0] "Er was een probleem bij het verwijderen van dit item."
+msgstr[1] "Er was een probleem bij het verwijderen van één of meerdere geselecteerde items."
+
+#: includes/pending_activations.php:192
+msgid "Item activated."
+msgid_plural "Items activated."
+msgstr[0] "Item geactiveerd."
+msgstr[1] "Items geactiveerd."
+
+#: includes/pending_activations.php:194
+msgid "There was an issue activating this item"
+msgid_plural "There was an issue activating one or more selected items"
+msgstr[0] "Er was een probleem bij het activeren van dit item."
+msgstr[1] "Er was een probleem bij het activeren van één of meerdere geselecteerde items."
+
+#: includes/pending_activations.php:290
+msgid "Activate this sign up? "
+msgstr "Activeer deze aanmelding?"
+
+#: includes/pending_activations.php:290
+msgid "\\'Cancel\\' to stop, \\'OK\\' to activate."
+msgstr "\\'Annuleer\\' om te stoppen, \\'OK\\' om te activeren."
+
+#: includes/pending_activations.php:296
+msgid "Delete this sign up? "
+msgstr "Verwijder deze aanmelding?"
+
+#: includes/pending_activations.php:296 userregistration.php:378
+#: userregistration.php:423
+msgid "\\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr "\\'Annuleer\\' om te stoppen, \\'OK\\' om te verwijderen."
+
+#: includes/pending_activations.php:309
+msgid "Activate"
+msgstr "Activeer"
+
+#: includes/pending_activations.php:310 userregistration.php:375
+#: userregistration.php:423 userregistration.php:2848
+msgid "Delete"
+msgstr "Verwijder"
+
+#: includes/signups.php:144
+msgid "Could not create user"
+msgstr "Kon gebruiker niet aanmaken"
+
+#: includes/signups.php:149
+msgid "That username is already activated."
+msgstr "Die gebruikersnaam is al geactiveerd."
+
+#: includes/signups.php:202
+msgid "Invalid activation key."
+msgstr "Ongeldige activatie sleutel."
+
+#: includes/signups.php:205
+msgid "The user is already active."
+msgstr "Deze gebruiker is al geactiveerd."
+
+#: plugin-upgrade.php:50 userregistration.php:221
+msgid "View version %s Details"
+msgstr "Bekijk versie %s details"
+
+#: plugin-upgrade.php:69
+msgid "Oops!! Something went wrong.%sPlease try again or %scontact us%s."
+msgstr "Oeps! Er ging iets verkeerd.%sProbeer het nogmaals of neem %scontact met ons op%s."
+
+#: userregistration.php:214
+msgid "Gravity Forms "
+msgstr "Gravity Forms"
+
+#: userregistration.php:221
+msgid "There is a new version of Gravity Forms User Registration Add-On available."
+msgstr "Er is een nieuwe versie van de Gravity Forms gebruikersregistratie add-on beschikbaar."
+
+#: userregistration.php:222
+msgid "%sRegister%s your copy of Gravity Forms to receive access to automatic upgrades and support. Need a license key? %sPurchase one now%s."
+msgstr "%sRegistreer%s je kopie van Gravity Forms om automatisch upgrade en support te ontvangen. Heb je een licentiecode nodig? %sKoop er nu één%s."
+
+#: userregistration.php:262 userregistration.php:299 userregistration.php:2809
+msgid "User Registration"
+msgstr "Gebruikersregistratie"
+
+#: userregistration.php:285 userregistration.php:768
+msgid "Gravity Form"
+msgstr "Gravity Forms formulier"
+
+#: userregistration.php:285
+msgid "Select the Gravity Form you would like to use to register users for your WordPress website."
+msgstr "Selecteer het Gravity Forms formulier die je wilt gebruiken om gebruikers te laten registreren op je WordPress website."
+
+#: userregistration.php:286 userregistration.php:388 userregistration.php:397
+#: userregistration.php:754
+msgid "Action"
+msgstr "Actie"
+
+#: userregistration.php:286
+msgid "Select the type of feed you would like to create. \"Create\" feeds will create a new user. \"Update\" feeds will update users."
+msgstr "Selecteer de type feed die u wilt aanmaken. \"Aanmaken\" feeds zullen een nieuwe gebruiker aanmaken. \"Bijwerken\" feeds zullen gebruikers bijwerken. "
+
+#: userregistration.php:287 userregistration.php:788
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: userregistration.php:287
+msgid "Select the form field that should be used for the user's username."
+msgstr "Selecteer het formulierveld die gebruikt moet worden voor de gebruikersnaam."
