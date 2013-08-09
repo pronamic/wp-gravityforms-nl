@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Gravity Forms (nl)
-Plugin URI: http://pronamic.eu/wp-plugins/gravityforms-nl/
+Plugin URI: http://pronamic.eu/wordpress-plugins/gravity-forms-nl/
 Description: Extends the Gravity Forms plugin and add-ons with the Dutch language: <strong>Gravity Forms</strong> 1.7.7 | <strong>User Registration Add-On</strong> 1.6 | <strong>Campaign Monitor Add-On</strong> 2.1 | <strong>MailChimp Add-On</strong> 2.1 | <strong>PayPal Add-On</strong> 1.7 | <strong>Signature Add-On</strong> 1.3 | <strong>Polls Add-On</strong> 1.2
 
 Version: 2.7.8
@@ -209,7 +209,7 @@ class GravityFormsNLPlugin {
 	/**
 	 * Gravity Forms admin pre render
 	 */
-	public static function gform_admin_pre_render( $form ) {
+	public function gform_admin_pre_render( $form ) {
 		wp_register_script( 'gravityforms-nl-forms', plugins_url( 'js/forms-nl.js', $this->file ) );
 
 		wp_localize_script( 'gravityforms-nl-forms', 'gravityFormsNlL10n', array(
@@ -231,7 +231,7 @@ class GravityFormsNLPlugin {
 	 * 
 	 * @param array $currencies
 	 */
-	public static function gform_currencies( $currencies ) {
+	public function gform_currencies( $currencies ) {
 		$currencies['EUR'] = array(
 			'name'               => __( 'Euro', 'gravityforms_nl' ), 
 			'symbol_left'        => '€',
@@ -252,7 +252,7 @@ class GravityFormsNLPlugin {
 	 * 
 	 * @param array $address_types
 	 */
-	public static function gform_address_types( $address_types ) {
+	public function gform_address_types( $address_types ) {
 		// @see http://www.gravityhelp.com/forums/topic/add-custom-field-to-address-field-set
 		$address_types['dutch'] = array(
 			'label'       => __( 'Dutch', 'gravityforms_nl' ),
