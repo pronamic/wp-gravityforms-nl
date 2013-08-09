@@ -62,7 +62,7 @@ WordPress installation and then activate the Plugin from Plugins page.
 *	./download-po gravityforms 1.7.6
 *	./download-po gravityformscampaignmonitor 2.1
 *	./download-po gravityformsmailchimp 2.3
-*	./download-po gravityformspaypal 1.7
+*	./download-po gravityformspaypal 1.8
 *	./download-po gravityformspolls 1.5
 *	./download-po gravityformssignature 1.3
 *	./download-po gravityformsuserregistration 1.6
@@ -82,6 +82,7 @@ WordPress installation and then activate the Plugin from Plugins page.
 *	Updated to Gravity Forms version 1.7.7
 *	Updated to Gravity Forms MailChimp Add-On version 2.3
 *	Updated to Gravity Forms Polls Add-On 1.5
+*	Updated to Gravity Forms PayPal Add-On 1.8
 *	Override loading MO files is now more efficient
 *	Improved support for WordPress network/multisite installations
 
