@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: Gravity Forms (nl)
-Plugin URI: http://pronamic.eu/wp-plugins/gravityforms-nl/
-Description: Extends the Gravity Forms plugin and add-ons with the Dutch language: <strong>Gravity Forms</strong> 1.7.6 | <strong>User Registration Add-On</strong> 1.6 | <strong>Campaign Monitor Add-On</strong> 2.1 | <strong>MailChimp Add-On</strong> 2.1 | <strong>PayPal Add-On</strong> 1.7 | <strong>Signature Add-On</strong> 1.3 | <strong>Polls Add-On</strong> 1.2
+Plugin URI: http://pronamic.eu/wordpress-plugins/gravity-forms-nl/
+Description: Extends the Gravity Forms plugin and add-ons with the Dutch language: <strong>Gravity Forms</strong> 1.7.7 | <strong>User Registration Add-On</strong> 1.6 | <strong>Campaign Monitor Add-On</strong> 2.1 | <strong>MailChimp Add-On</strong> 2.3 | <strong>PayPal Add-On</strong> 1.8 | <strong>Signature Add-On</strong> 1.3 | <strong>Polls Add-On</strong> 1.5
 
-Version: 2.7.7
+Version: 2.7.8
 Requires at least: 3.0
 
 Author: Pronamic
@@ -18,38 +18,49 @@ License: GPL
 GitHub URI: https://github.com/pronamic/wp-gravityforms-nl
 */
 
-class GravityFormsNL {
+class GravityFormsNLPlugin {
+	/**
+	 * The plugin file
+	 * 
+	 * @var string
+	 */
+	private $file;
+
+	////////////////////////////////////////////////////////////
+
 	/**
 	 * The current langauge
 	 * 
 	 * @var string
 	 */
-	private static $language;
+	private $language;
 
 	/**
 	 * Flag for the dutch langauge, true if current langauge is dutch, false otherwise
 	 * 
 	 * @var boolean
 	 */
-	private static $is_dutch;
+	private $is_dutch;
 
 	////////////////////////////////////////////////////////////
 
 	/**
-	 * Bootstrap
+	 * Construct and intialize
 	 */
-	public static function bootstrap() {
+	public function __construct( $file ) {
+		$this->file = $file;
+
 		// Priority is set to 8, beceasu the Signature Add-On is using priority 9
-		add_action( 'init', array( __CLASS__, 'init' ), 8 );
+		add_action( 'init', array( $this, 'init' ), 8 );
 
-		add_filter( 'load_textdomain_mofile', array( __CLASS__, 'load_textdomain_mofile' ), 10, 2 );
+		add_filter( 'load_textdomain_mofile', array( $this, 'load_textdomain_mofile' ), 10, 2 );
 
-		add_filter( 'gform_admin_pre_render',       array( __CLASS__, 'gform_admin_pre_render' ) );
-		add_filter( 'gform_currencies',             array( __CLASS__, 'gform_currencies' ) );
-		add_filter( 'gform_address_types',          array( __CLASS__, 'gform_address_types' ) );
-		add_filter( 'gform_address_display_format', array( __CLASS__, 'gform_address_display_format' ) );
+		add_filter( 'gform_admin_pre_render',       array( $this, 'gform_admin_pre_render' ) );
+		add_filter( 'gform_currencies',             array( $this, 'gform_currencies' ) );
+		add_filter( 'gform_address_types',          array( $this, 'gform_address_types' ) );
+		add_filter( 'gform_address_display_format', array( $this, 'gform_address_display_format' ) );
 
-		add_action( 'wp_print_scripts', array( __CLASS__, 'wp_print_scripts' ) );
+		add_action( 'wp_print_scripts', array( $this, 'wp_print_scripts' ) );
 
 		/*
 		 * @since Gravity Forms v1.6.12
@@ -59,7 +70,7 @@ class GravityFormsNL {
 		 * 
 		 * @see http://stv.whtly.com/2011/09/03/forcing-a-wordpress-plugin-to-be-loaded-before-all-other-plugins/
 		 */ 
-		add_action( 'activated_plugin', array( __CLASS__, 'activated_plugin' ) );
+		add_action( 'activated_plugin', array( $this, 'activated_plugin' ) );
 	}
 
 	////////////////////////////////////////////////////////////
@@ -67,8 +78,8 @@ class GravityFormsNL {
 	/**
 	 * Activated plugin
 	 */
-	function activated_plugin() {
-		$path = str_replace( WP_PLUGIN_DIR . '/', '', __FILE__ );
+	public function activated_plugin() {
+		$path = str_replace( WP_PLUGIN_DIR . '/', '', $this->file );
 
 		if ( $plugins = get_option( 'active_plugins' ) ) {
 			if ( $key = array_search( $path, $plugins ) ) {
@@ -78,6 +89,15 @@ class GravityFormsNL {
 				update_option( 'active_plugins', $plugins );
 			}
 		}
+		
+		if ( $plugins = get_site_option( 'active_sitewide_plugins' ) ) {
+			if ( $key = array_search( $path, $plugins ) ) {
+				array_splice( $plugins, $key, 1 );
+				array_unshift( $plugins, $path );
+		
+				update_site_option( 'active_sitewide_plugins', $plugins );
+			}
+		}
 	}
 
 	////////////////////////////////////////////////////////////
@@ -85,8 +105,20 @@ class GravityFormsNL {
 	/**
 	 * Initialize
 	 */
-	public static function init() {		
-		$rel_path = dirname( plugin_basename( __FILE__ ) ) . '/languages/';
+	public function init() {		
+		$rel_path = dirname( plugin_basename( $this->file ) ) . '/languages/';
+
+		// Determine language
+		if ( $this->language == null ) {
+			$this->language = get_option( 'WPLANG', WPLANG );
+			$this->is_dutch = ( $this->language == 'nl' || $this->language == 'nl_NL' );
+		}
+		
+		// The ICL_LANGUAGE_CODE constant is defined from an plugin, so this constant
+		// is not always defined in the first 'load_textdomain_mofile' filter call
+		if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
+			$this->is_dutch = ( ICL_LANGUAGE_CODE == 'nl' );
+		}
 
 		// Load plugin text domain - Gravity Forms (nl)
 		load_plugin_textdomain( 'gravityforms_nl', false, $rel_path );
@@ -103,31 +135,46 @@ class GravityFormsNL {
 	 * @param string $moFile
 	 * @param string $domain
 	 */
-	public static function load_textdomain_mofile( $mo_file, $domain ) {
-		if ( self::$language == null ) {
-			self::$language = get_option( 'WPLANG', WPLANG );
-			self::$is_dutch = ( self::$language == 'nl' || self::$language == 'nl_NL' );
-		}
-
-		// The ICL_LANGUAGE_CODE constant is defined from an plugin, so this constant
-		// is not always defined in the first 'load_textdomain_mofile' filter call
-		if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
-			self::$is_dutch = ( ICL_LANGUAGE_CODE == 'nl' );
-		}
-
-		if ( self::$is_dutch ) {
+	public function load_textdomain_mofile( $mo_file, $domain ) {
+		// First do quick check if an Dutch .MO file is loaded
+		if ( strpos( $mo_file, 'nl_NL.mo' ) !== false ) {
 			$domains = array(
-				'gravityforms',
-				'gravityformscampaignmonitor',
-				'gravityformsmailchimp',
-				'gravityformspaypal',
-				'gravityformspolls',
-				'gravityformssignature',
-				'gravityformsuserregistration'
+				// @see https://github.com/woothemes/woocommerce/tree/v2.0.5
+				'gravityforms'                 => array(
+					'languages/gravityforms-nl_NL.mo'                 => 'gravityforms/nl_NL.mo'
+				),
+				'gravityformscampaignmonitor'  => array(
+					'languages/gravityformscampaignmonitor-nl_NL.mo'  => 'gravityformscampaignmonitor/nl_NL.mo'
+				),
+				'gravityformsmailchimp'        => array(
+					'languages/gravityformsmailchimp-nl_NL.mo'        => 'gravityformsmailchimp/nl_NL.mo'
+				),
+				'gravityformspaypal'           => array(
+					'languages/gravityformspaypal-nl_NL.mo'           => 'gravityformspaypal/nl_NL.mo'
+				),
+				'gravityformspolls'            => array(
+					'languages/gravityformspolls-nl_NL.mo'            => 'gravityformspolls/nl_NL.mo'
+				),
+				'gravityformssignature'        => array(
+					'languages/gravityformssignature-nl_NL.mo'        => 'gravityformssignature/nl_NL.mo'
+				),
+				'gravityformsuserregistration' => array(
+					'languages/gravityformsuserregistration-nl_NL.mo' => 'gravityformsuserregistration/nl_NL.mo'
+				)
 			);
-
-			if ( in_array( $domain, $domains ) ) {
-				$mo_file = self::get_mo_file( $domain );
+			
+			if ( isset( $domains[$domain] ) ) {
+				$paths = $domains[$domain];
+			
+				foreach ( $paths as $path => $file ) {
+					if ( substr( $mo_file, -strlen( $path ) ) == $path ) {
+						$new_file = dirname( $this->file ) . '/languages/' . $file;
+			
+						if ( is_readable( $new_file ) ) {
+							$mo_file = $new_file;
+						}
+					}
+				}
 			}
 		}
 
@@ -137,26 +184,10 @@ class GravityFormsNL {
 	////////////////////////////////////////////////////////////
 
 	/**
-	 * Get the MO file for the specified domain, version and language
-	 * 
-	 * @param string $domain
-	 * @return string
-	 */
-	private static function get_mo_file( $domain ) {
-		$dir = dirname( __FILE__ );
-
-		$mo_file = $dir . '/languages/' . $domain . '/nl_NL.mo';
-
-		return $mo_file;
-	}
-
-	////////////////////////////////////////////////////////////
-
-	/**
 	 * Gravity Forms translate datepicker
 	 */
-	public static function wp_print_scripts() {
-		if ( self::$is_dutch ) {
+	public function wp_print_scripts() {
+		if ( $this->is_dutch ) {
 			/**
 			 * gforms_ui_datepicker » @since ?
 			 * gforms_datepicker » @since Gravity Forms 1.7.5
@@ -165,7 +196,7 @@ class GravityFormsNL {
 				if ( wp_script_is( $script_datepicker ) ) {
 					// @see http://code.google.com/p/jquery-ui/source/browse/trunk/ui/i18n/jquery.ui.datepicker-nl.js
 					// @see https://github.com/jquery/jquery-ui/blob/master/ui/i18n/jquery.ui.datepicker-nl.js
-					$src = plugins_url( 'js/jquery.ui.datepicker-nl.js', __FILE__ );
+					$src = plugins_url( 'js/jquery.ui.datepicker-nl.js', $this->file );
 
 					wp_enqueue_script( 'gforms_ui_datepicker_nl', $src, array( $script_datepicker ), false, true );
 				}
@@ -178,8 +209,8 @@ class GravityFormsNL {
 	/**
 	 * Gravity Forms admin pre render
 	 */
-	public static function gform_admin_pre_render( $form ) {
-		wp_register_script( 'gravityforms-nl-forms', plugins_url( 'js/forms-nl.js', __FILE__ ) );
+	public function gform_admin_pre_render( $form ) {
+		wp_register_script( 'gravityforms-nl-forms', plugins_url( 'js/forms-nl.js', $this->file ) );
 
 		wp_localize_script( 'gravityforms-nl-forms', 'gravityFormsNlL10n', array(
 			'formTitle'           => __( 'Untitled Form', 'gravityforms_nl' ) , 
@@ -200,7 +231,7 @@ class GravityFormsNL {
 	 * 
 	 * @param array $currencies
 	 */
-	public static function gform_currencies( $currencies ) {
+	public function gform_currencies( $currencies ) {
 		$currencies['EUR'] = array(
 			'name'               => __( 'Euro', 'gravityforms_nl' ), 
 			'symbol_left'        => '€',
@@ -221,7 +252,7 @@ class GravityFormsNL {
 	 * 
 	 * @param array $address_types
 	 */
-	public static function gform_address_types( $address_types ) {
+	public function gform_address_types( $address_types ) {
 		// @see http://www.gravityhelp.com/forums/topic/add-custom-field-to-address-field-set
 		$address_types['dutch'] = array(
 			'label'       => __( 'Dutch', 'gravityforms_nl' ),
@@ -266,8 +297,8 @@ class GravityFormsNL {
 	 * @see http://www.gravityhelp.com/documentation/page/Gform_address_display_format
 	 * @param array $address_types
 	 */
-	public static function gform_address_display_format( $format ) {
-		if ( self::$is_dutch ) {
+	public function gform_address_display_format( $format ) {
+		if ( $this->is_dutch ) {
 			return 'zip_before_city';
 		}
 		
@@ -275,4 +306,6 @@ class GravityFormsNL {
 	}
 }
 
-GravityFormsNL::bootstrap();
+global $gravityforms_nl_plugin;
+
+$gravityforms_nl_plugin = new GravityFormsNLPlugin( __FILE__ );

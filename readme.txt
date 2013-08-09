@@ -4,19 +4,35 @@ Tags: gravityforms, gravity, form, forms, gravity forms, translation, dutch, nl,
 Donate link: http://pronamic.eu/donate/?for=wp-plugin-gravityforms-nl&source=wp-plugin-readme-txt
 Requires at least: 3.0
 Tested up to: 3.5.1
-Stable tag: 2.7.7
+Stable tag: 2.7.8
 
 This WordPress plugin extends the Gravity Forms plugin with the Dutch translation.
 
 == Description ==
 
-<strong>Gravity Forms</strong> 1.7.6 | 
-<strong>User Registration Add-On</strong> 1.6 | 
-<strong>Campaign Monitor Add-On</strong> 2.1 | 
-<strong>MailChimp Add-On</strong> 2.1 | 
-<strong>PayPal Add-On</strong> 1.7 | 
-<strong>Signature Add-On</strong> 1.3 | 
-<strong>Polls Add-On</strong> 1.2
+*	[Gravity Forms][gravityforms glotpress] 1.7.7
+*	[Campaign Monitor Add-On][gravityformscampaignmonitor glotpress] 2.1
+*	[MailChimp Add-On][gravityformsmailchimp glotpress] 2.3
+*	[PayPal Add-On][gravityformspaypal glotpress] 1.7
+*	[Polls Add-On][gravityformspolls glotpress] 1.5
+*	[Signature Add-On][gravityformssignature glotpress] 1.5
+*	[User Registration Add-On][gravityformsuserregistration glotpress] 1.6 
+
+[gravityforms glotpress]: http://glotpress.pronamic.nl/projects/gravityforms
+	"Gravity Forms GlotPress project"
+[gravityformscampaignmonitor glotpress]: http://glotpress.pronamic.nl/projects/gravityformscampaignmonitor
+	"Gravity Forms Campaign Monitor Add-On GlotPress project" 
+[gravityformsmailchimp glotpress]: http://glotpress.pronamic.nl/projects/gravityformsmailchimp
+	"Gravity Forms MailChimp Add-On GlotPress project"
+[gravityformspaypal glotpress]: http://glotpress.pronamic.nl/projects/gravityformspaypal
+	"Gravity Forms PayPal Add-On GlotPress project"
+[gravityformspolls glotpress]: http://glotpress.pronamic.nl/projects/gravityformspolls
+	"Gravity Forms Polls Add-On GlotPress project"
+[gravityformssignature glotpress]: http://glotpress.pronamic.nl/projects/gravityformssignature
+	"Gravity Forms Signature Add-On GlotPress project"
+[gravityformsuserregistration glotpress]: http://glotpress.pronamic.nl/projects/gravityformsuserregistration
+	"Gravity Forms User Registration Add-On GlotPress project"
+
 
 > This plugin requires the <a href="http://www.gravityforms.com/">Gravity Forms plugin</a>. <strong>Don't use Gravity Forms? <a href="http://www.gravityforms.com/">Buy the plugin</a></strong> and start using this revolutionary plugin!
 
@@ -35,32 +51,40 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 == Developers ==
 
-./update-pot gravityforms ~/Sites/example.com/wp-content/plugins/gravityforms
-./update-pot gravityformscampaignmonitor
-./update-pot gravityformsmailchimp
-./update-pot gravityformspaypal
-./update-pot gravityformspolls
-./update-pot gravityformssignature
-./update-pot gravityformsuserregistration ~/Sites/example.com/wp-content/plugins/gravityforms
+*	./update-pot gravityforms ~/Sites/example.com/wp-content/plugins/gravityforms
+*	./update-pot gravityformscampaignmonitor
+*	./update-pot gravityformsmailchimp
+*	./update-pot gravityformspaypal
+*	./update-pot gravityformspolls
+*	./update-pot gravityformssignature
+*	./update-pot gravityformsuserregistration ~/Sites/example.com/wp-content/plugins/gravityforms
 
-./download-po gravityforms 1.7.6
-./download-po gravityformscampaignmonitor 2.1
-./download-po gravityformsmailchimp 2.1
-./download-po gravityformspaypal 1.7
-./download-po gravityformspolls 1.2
-./download-po gravityformssignature 1.3
-./download-po gravityformsuserregistration 1.6
+*	./download-po gravityforms 1.7.6
+*	./download-po gravityformscampaignmonitor 2.1
+*	./download-po gravityformsmailchimp 2.3
+*	./download-po gravityformspaypal 1.8
+*	./download-po gravityformspolls 1.5
+*	./download-po gravityformssignature 1.3
+*	./download-po gravityformsuserregistration 1.6
 
-./update-mo gravityforms
-./update-mo gravityformscampaignmonitor
-./update-mo gravityformsmailchimp
-./update-mo gravityformspaypal
-./update-mo gravityformspolls
-./update-mo gravityformssignature
-./update-mo gravityformsuserregistration
+*	./update-mo gravityforms
+*	./update-mo gravityformscampaignmonitor
+*	./update-mo gravityformsmailchimp
+*	./update-mo gravityformspaypal
+*	./update-mo gravityformspolls
+*	./update-mo gravityformssignature
+*	./update-mo gravityformsuserregistration
 
 
 == Changelog ==
+
+= 2.7.8 = 
+*	Updated to Gravity Forms version 1.7.7
+*	Updated to Gravity Forms MailChimp Add-On version 2.3
+*	Updated to Gravity Forms Polls Add-On 1.5
+*	Updated to Gravity Forms PayPal Add-On 1.8
+*	Override loading MO files is now more efficient
+*	Improved support for WordPress network/multisite installations
 
 = 2.7.7 = 
 *	Updated to Gravity Forms version 1.7.6
@@ -303,7 +327,7 @@ WordPress installation and then activate the Plugin from Plugins page.
 *	[Markdown's Syntax Documentation][markdown syntax]
 
 [markdown syntax]: http://daringfireball.net/projects/markdown/syntax
-            "Markdown is what the parser uses to process much of the readme file"
+	"Markdown is what the parser uses to process much of the readme file"
 
 
 == Pronamic plugins ==
