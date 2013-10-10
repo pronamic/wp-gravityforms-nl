@@ -51,7 +51,7 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 == Developers ==
 
-*	./update-pot gravityforms ~/Downloads/gravityforms
+*	php ~/wp/svn/i18n-tools/makepot.php wp-plugin ~/Downloads/gravityforms ~/wp/git/gravityforms-nl/languages/gravityforms/gravityforms.pot
 *	./update-pot gravityformscampaignmonitor
 *	./update-pot gravityformsmailchimp
 *	./update-pot gravityformspaypal
