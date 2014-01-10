@@ -1,16 +1,16 @@
 === Gravity Forms (nl) ===
 Contributors: pronamic, remcotolsma
 Tags: gravityforms, gravity, form, forms, gravity forms, translation, dutch, nl, nl_NL
-Donate link: http://pronamic.eu/donate/?for=wp-plugin-gravityforms-nl&source=wp-plugin-readme-txt
+Donate link: http://www.pronamic.eu/donate/?for=wp-plugin-gravityforms-nl&source=wp-plugin-readme-txt
 Requires at least: 3.0
 Tested up to: 3.8
-Stable tag: 2.8.1
+Stable tag: 2.8.2
 
 This WordPress plugin extends the Gravity Forms plugin with the Dutch translation.
 
 == Description ==
 
-*	[Gravity Forms][gravityforms glotpress] 1.7.13
+*	[Gravity Forms][gravityforms glotpress] 1.8.1
 *	[Campaign Monitor Add-On][gravityformscampaignmonitor glotpress] 2.1
 *	[MailChimp Add-On][gravityformsmailchimp glotpress] 2.3
 *	[PayPal Add-On][gravityformspaypal glotpress] 1.7
@@ -59,7 +59,7 @@ WordPress installation and then activate the Plugin from Plugins page.
 *	./update-pot gravityformssignature
 *	./update-pot gravityformsuserregistration ~/Sites/example.com/wp-content/plugins/gravityforms
 
-*	./download-po gravityforms 1.7.13
+*	./download-po gravityforms 1.8.1
 *	./download-po gravityformscampaignmonitor 2.1
 *	./download-po gravityformsmailchimp 2.3
 *	./download-po gravityformspaypal 1.8
@@ -78,86 +78,89 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 == Changelog ==
 
+= 2.8.2 =
+*	Updated to Gravity Forms version 1.8.1.
+
 = 2.8.1 =
-*	Updated to Gravity Forms version 1.7.13
+*	Updated to Gravity Forms version 1.7.13.
 
 = 2.8.0 =
-*	Updated to Gravity Forms version 1.7.11
+*	Updated to Gravity Forms version 1.7.11.
 
 = 2.7.10 = 
-*	Updated to Gravity Forms version 1.7.10
+*	Updated to Gravity Forms version 1.7.10.
 
 = 2.7.9 = 
-*	Updated to Gravity Forms version 1.7.8
+*	Updated to Gravity Forms version 1.7.8.
 
 = 2.7.8 = 
-*	Updated to Gravity Forms version 1.7.7
-*	Updated to Gravity Forms MailChimp Add-On version 2.3
-*	Updated to Gravity Forms Polls Add-On 1.5
-*	Updated to Gravity Forms PayPal Add-On 1.8
-*	Override loading MO files is now more efficient
-*	Improved support for WordPress network/multisite installations
+*	Updated to Gravity Forms version 1.7.7.
+*	Updated to Gravity Forms MailChimp Add-On version 2.3.
+*	Updated to Gravity Forms Polls Add-On 1.5.
+*	Updated to Gravity Forms PayPal Add-On 1.8.
+*	Override loading MO files is now more efficient.
+*	Improved support for WordPress network/multisite installations.
 
 = 2.7.7 = 
-*	Updated to Gravity Forms version 1.7.6
-*	Updated to Gravity Forms User Registration Add-On version 1.6
+*	Updated to Gravity Forms version 1.7.6.
+*	Updated to Gravity Forms User Registration Add-On version 1.6.
 
 = 2.7.6 = 
-*	Improved translating of datepicker in Gravity Forms v1.7.5+
+*	Improved translating of datepicker in Gravity Forms v1.7.5+.
 
 = 2.7.5 = 
-*	Updated to Gravity Forms version 1.7.5
+*	Updated to Gravity Forms version 1.7.5.
 
 = 2.7.4 = 
-*	Updated to Gravity Forms version 1.7.2.11
+*	Updated to Gravity Forms version 1.7.2.11.
 
 = 2.7.3 =
-*	Addition of a default value to provinces
+*	Addition of a default value to provinces.
 
 = 2.7.2 =
-*	Updated to Gravity Forms version 1.7.2, not everything is translatable
-	http://www.gravityhelp.com/forums/topic/translation-issues-172#post-225110 
+*	Updated to Gravity Forms version 1.7.2, not everything is translatable.
+	http://www.gravityhelp.com/forums/topic/translation-issues-172#post-225110.
 
 = 2.7.1 =
-*	Updated all plugin translations to the latest version
+*	Updated all plugin translations to the latest version.
  
 = 2.7 =
-*	Added Dutch address type
-*	Move Zip field before City field
+*	Added Dutch address type.
+*	Move Zip field before City field.
 
 = 2.6.19 =
-*	Improved a few translations
+*	Improved a few translations.
 
 = 2.6.18 =
-*	Updated to Gravity Forms version 1.6.12, added 3 translations and improved a few
-*	Updated to Gravity Forms PayPal Add-On version 1.6,  added 7 translations and improved a few
+*	Updated to Gravity Forms version 1.6.12, added 3 translations and improved a few.
+*	Updated to Gravity Forms PayPal Add-On version 1.6,  added 7 translations and improved a few.
 
 = 2.6.17 =
-*	Updated to Gravity Forms version 1.6.11, one new translation and improved a few
+*	Updated to Gravity Forms version 1.6.11, one new translation and improved a few.
 
 = 2.6.16 =
-*	Updated to Gravity Forms version 1.6.10.1, one new translation and improved a few
+*	Updated to Gravity Forms version 1.6.10.1, one new translation and improved a few.
 
 = 2.6.15 =
-*	Updated to Gravity Forms version 1.6.10, one new translation and improved a few
+*	Updated to Gravity Forms version 1.6.10, one new translation and improved a few.
 
 = 2.6.14 =
-*	Improved a few translations
+*	Improved a few translations.
 
 = 2.6.13 =
-*	Updated to Gravity Forms version 1.6.9, improved a few translations
-*	Removed translations of different versions, saving almost 10 MB
+*	Updated to Gravity Forms version 1.6.9, improved a few translations.
+*	Removed translations of different versions, saving almost 10 MB.
 
 = 2.6.12 =
-*	Added translations for Gravity Forms version 1.6.8.1
-*	Added translations for Gravity Forms version 1.6.8
+*	Added translations for Gravity Forms version 1.6.8.1.
+*	Added translations for Gravity Forms version 1.6.8.
 
 = 2.6.11 = 
-*	Updated to Gravity Forms Polls Add-On version 1.0
+*	Updated to Gravity Forms Polls Add-On version 1.0.
 
 = 2.6.10 =
-*	Updated to Gravity Forms Signature Add-On version 1.2
-*	Updated to Gravity Forms Signature Add-On version 1.1
+*	Updated to Gravity Forms Signature Add-On version 1.2.
+*	Updated to Gravity Forms Signature Add-On version 1.1.
 
 = 2.6.9 =
 *	Updated to Gravity Forms version 1.6.7, removed 1 translation and improved a few
