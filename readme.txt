@@ -36,6 +36,8 @@ This WordPress plugin extends the Gravity Forms plugin with the Dutch translatio
 
 > This plugin requires the <a href="http://www.gravityforms.com/">Gravity Forms plugin</a>. <strong>Don't use Gravity Forms? <a href="http://www.gravityforms.com/">Buy the plugin</a></strong> and start using this revolutionary plugin!
 
+> This plugin requires a <a href="http://nl.wordpress.org/">Dutch WordPress installation</a>. Make sure you have `define( 'WPLANG', 'nl_NL' );` in your WordPress `wp-config.php` file. 
+
 The [Gravity Forms](http://www.gravityforms.com/) developers don't focus on translating 
 their plugin. Instead they concentrate on the core functionalities of the plugin itself. 
 Therefore there are regular updates of the Gravity Forms plugin. However, after each 
