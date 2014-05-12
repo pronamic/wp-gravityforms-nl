@@ -1,0 +1,124 @@
+# Copyright (C) 2014 Gravity Forms (nl)
+# This file is distributed under the same license as the Gravity Forms (nl) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms (nl) 2.8.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/gravityforms-nl\n"
+"POT-Creation-Date: 2014-05-12 12:31:55+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: gravityforms-nl.php:216
+msgid "Untitled Form"
+msgstr ""
+
+#: gravityforms-nl.php:217
+msgid ""
+"We would love to hear from you! Please fill out this form and we will get "
+"in touch with you shortly."
+msgstr ""
+
+#: gravityforms-nl.php:218
+msgid "Thanks for contacting us! We will get in touch with you shortly."
+msgstr ""
+
+#: gravityforms-nl.php:219
+msgid "Submit"
+msgstr ""
+
+#: gravityforms-nl.php:236
+msgid "Euro"
+msgstr ""
+
+#: gravityforms-nl.php:258
+msgid "Dutch"
+msgstr ""
+
+#: gravityforms-nl.php:259
+msgid "Netherlands"
+msgstr ""
+
+#: gravityforms-nl.php:260
+msgid "Postal Code"
+msgstr ""
+
+#: gravityforms-nl.php:261
+msgid "Province"
+msgstr ""
+
+#: gravityforms-nl.php:277
+msgid "Drenthe"
+msgstr ""
+
+#: gravityforms-nl.php:278
+msgid "Flevoland"
+msgstr ""
+
+#: gravityforms-nl.php:279
+msgid "Friesland"
+msgstr ""
+
+#: gravityforms-nl.php:280
+msgid "Gelderland"
+msgstr ""
+
+#: gravityforms-nl.php:281
+msgid "Groningen"
+msgstr ""
+
+#: gravityforms-nl.php:282
+msgid "Limburg"
+msgstr ""
+
+#: gravityforms-nl.php:283
+msgid "Noord-Brabant"
+msgstr ""
+
+#: gravityforms-nl.php:284
+msgid "Noord-Holland"
+msgstr ""
+
+#: gravityforms-nl.php:285
+msgid "Overijssel"
+msgstr ""
+
+#: gravityforms-nl.php:286
+msgid "Utrecht"
+msgstr ""
+
+#: gravityforms-nl.php:287
+msgid "Zeeland"
+msgstr ""
+
+#: gravityforms-nl.php:288
+msgid "Zuid-Holland"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Gravity Forms (nl)"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.happywp.com/plugins/gravityforms-nl/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Extends the Gravity Forms plugin and add-ons with the Dutch language: "
+"<strong>Gravity Forms</strong> 1.8.7.11 | <strong>User Registration "
+"Add-On</strong> 1.6 | <strong>Campaign Monitor Add-On</strong> 2.1 | "
+"<strong>MailChimp Add-On</strong> 2.3 | <strong>PayPal Add-On</strong> 1.8 "
+"| <strong>Signature Add-On</strong> 1.3 | <strong>Polls Add-On</strong> 1.5"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Pronamic"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.pronamic.eu/"
+msgstr ""
