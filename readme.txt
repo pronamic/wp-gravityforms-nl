@@ -3,14 +3,14 @@ Contributors: pronamic, remcotolsma
 Tags: gravityforms, gravity, form, forms, gravity forms, translation, dutch, nl, nl_NL
 Donate link: http://www.pronamic.eu/donate/?for=wp-plugin-gravityforms-nl&source=wp-plugin-readme-txt
 Requires at least: 3.0
-Tested up to: 3.8
-Stable tag: 2.8.2
+Tested up to: 3.9.1
+Stable tag: 2.8.3
 
 This WordPress plugin extends the Gravity Forms plugin with the Dutch translation.
 
 == Description ==
 
-*	[Gravity Forms][gravityforms glotpress] 1.8.1
+*	[Gravity Forms][gravityforms glotpress] 1.8.7.11
 *	[Campaign Monitor Add-On][gravityformscampaignmonitor glotpress] 2.1
 *	[MailChimp Add-On][gravityformsmailchimp glotpress] 2.3
 *	[PayPal Add-On][gravityformspaypal glotpress] 1.7
@@ -36,6 +36,8 @@ This WordPress plugin extends the Gravity Forms plugin with the Dutch translatio
 
 > This plugin requires the <a href="http://www.gravityforms.com/">Gravity Forms plugin</a>. <strong>Don't use Gravity Forms? <a href="http://www.gravityforms.com/">Buy the plugin</a></strong> and start using this revolutionary plugin!
 
+> This plugin requires a <a href="http://nl.wordpress.org/">Dutch WordPress installation</a>. Make sure you have `define( 'WPLANG', 'nl_NL' );` in your WordPress `wp-config.php` file. 
+
 The [Gravity Forms](http://www.gravityforms.com/) developers don't focus on translating 
 their plugin. Instead they concentrate on the core functionalities of the plugin itself. 
 Therefore there are regular updates of the Gravity Forms plugin. However, after each 
@@ -59,24 +61,13 @@ WordPress installation and then activate the Plugin from Plugins page.
 *	./update-pot gravityformssignature
 *	./update-pot gravityformsuserregistration ~/Sites/example.com/wp-content/plugins/gravityforms
 
-*	./download-po gravityforms 1.8.1
-*	./download-po gravityformscampaignmonitor 2.1
-*	./download-po gravityformsmailchimp 2.3
-*	./download-po gravityformspaypal 1.8
-*	./download-po gravityformspolls 1.5
-*	./download-po gravityformssignature 1.3
-*	./download-po gravityformsuserregistration 1.6
-
-*	./update-mo gravityforms
-*	./update-mo gravityformscampaignmonitor
-*	./update-mo gravityformsmailchimp
-*	./update-mo gravityformspaypal
-*	./update-mo gravityformspolls
-*	./update-mo gravityformssignature
-*	./update-mo gravityformsuserregistration
+*	grunt downloadPo --project=gravityforms/1.8.7.11 --destination=languages/gravityforms/nl_NL.po
 
 
 == Changelog ==
+
+= 2.8.3 =
+*	Updated to Gravity Forms version 1.8.7.11.
 
 = 2.8.2 =
 *	Updated to Gravity Forms version 1.8.1.
