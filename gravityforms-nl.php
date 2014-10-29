@@ -2,9 +2,9 @@
 /*
 Plugin Name: Gravity Forms (nl)
 Plugin URI: http://www.happywp.com/plugins/gravityforms-nl/
-Description: Extends the Gravity Forms plugin and add-ons with the Dutch language: <strong>Gravity Forms</strong> 1.8.7.11 | <strong>User Registration Add-On</strong> 1.6 | <strong>Campaign Monitor Add-On</strong> 2.1 | <strong>MailChimp Add-On</strong> 2.3 | <strong>PayPal Add-On</strong> 1.8 | <strong>Signature Add-On</strong> 1.3 | <strong>Polls Add-On</strong> 1.5
+Description: Extends the Gravity Forms plugin and add-ons with the Dutch language: <strong>Gravity Forms</strong> 1.8.18 | <strong>User Registration Add-On</strong> 1.6 | <strong>Campaign Monitor Add-On</strong> 2.1 | <strong>MailChimp Add-On</strong> 2.3 | <strong>PayPal Add-On</strong> 1.8 | <strong>Signature Add-On</strong> 1.3 | <strong>Polls Add-On</strong> 1.5
 
-Version: 2.8.3
+Version: 2.8.4
 Requires at least: 3.0
 
 Author: Pronamic
@@ -191,8 +191,9 @@ class GravityFormsNLPlugin {
 			/**
 			 * gforms_ui_datepicker » @since ?
 			 * gforms_datepicker » @since Gravity Forms 1.7.5
+			 * gform_datepicker_init » @since Gravity Forms 1.8.9
 			 */
-			foreach ( array( 'gforms_ui_datepicker', 'gforms_datepicker' ) as $script_datepicker ) {
+			foreach ( array( 'gforms_ui_datepicker', 'gforms_datepicker', 'gform_datepicker_init' ) as $script_datepicker ) {
 				if ( wp_script_is( $script_datepicker ) ) {
 					// @see http://code.google.com/p/jquery-ui/source/browse/trunk/ui/i18n/jquery.ui.datepicker-nl.js
 					// @see https://github.com/jquery/jquery-ui/blob/master/ui/i18n/jquery.ui.datepicker-nl.js
