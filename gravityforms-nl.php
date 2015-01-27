@@ -110,7 +110,14 @@ class GravityFormsNLPlugin {
 
 		// Determine language
 		if ( $this->language == null ) {
-			$this->language = get_option( 'WPLANG', WPLANG );
+			// WPLANG constant is undefined since WordPress v4.0
+			if( !defined( 'WPLANG' ) ) {
+				$default_lang = 'en';
+			} else {
+				$default_lang = WPLANG;
+			}
+
+			$this->language = get_option( 'WPLANG', $default_lang );
 			$this->is_dutch = ( $this->language == 'nl' || $this->language == 'nl_NL' );
 		}
 
