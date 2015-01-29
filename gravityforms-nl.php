@@ -240,7 +240,7 @@ class GravityFormsNLPlugin {
 			'symbol_padding'     => ' ',
 			'thousand_separator' => '.',
 			'decimal_separator'  => ',',
-			'decimals'           => 2
+			'decimals'           => 2,
 		);
 
 		return $currencies;
