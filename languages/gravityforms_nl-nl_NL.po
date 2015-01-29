@@ -2,26 +2,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Gravity Forms (nl)\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/gravityforms-nl\n"
-"POT-Creation-Date: 2014-05-12 12:31:55+00:00\n"
-"PO-Revision-Date: 2014-05-12 14:32+0100\n"
+"POT-Creation-Date: 2015-01-29 11:21:59+00:00\n"
+"PO-Revision-Date: 2015-01-29 12:23+0100\n"
 "Last-Translator: Remco Tolsma <info@remcotolsma.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__withdesc;_ewithdesc;_c;"
-"_n_noop:1,2;__ngettext_noop:1,2;_x:2c,1;_nc:1,2;esc_attr_e;esc_html_e;"
-"esc_attr__;_nx:4c,1,2;_nx_noop:4c,1,2;esc_html_x:2c,1;esc_html__;_ex:2c,1\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.6.5\n"
+"X-Generator: Poedit 1.7.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: gravityforms-nl.php:216
+#: gravityforms-nl.php:217
 msgid "Untitled Form"
 msgstr "Formulier zonder titel"
 
-#: gravityforms-nl.php:217
+#: gravityforms-nl.php:218
 msgid ""
 "We would love to hear from you! Please fill out this form and we will get in "
 "touch with you shortly."
@@ -29,80 +26,80 @@ msgstr ""
 "We horen graag van u! Vul dit formulier in en we zullen zo snel mogelijk "
 "contact met u opnemen."
 
-#: gravityforms-nl.php:218
+#: gravityforms-nl.php:219
 msgid "Thanks for contacting us! We will get in touch with you shortly."
 msgstr ""
 "Bedankt voor uw bericht. Wij zullen zo snel mogelijk contact met u opnemen."
 
-#: gravityforms-nl.php:219
+#: gravityforms-nl.php:220
 msgid "Submit"
 msgstr "Verzenden"
 
-#: gravityforms-nl.php:236
+#: gravityforms-nl.php:237
 msgid "Euro"
 msgstr "Euro"
 
-#: gravityforms-nl.php:258
+#: gravityforms-nl.php:259
 msgid "Dutch"
 msgstr "Nederlands"
 
-#: gravityforms-nl.php:259
+#: gravityforms-nl.php:260
 msgid "Netherlands"
 msgstr "Nederland"
 
-#: gravityforms-nl.php:260
+#: gravityforms-nl.php:261
 msgid "Postal Code"
 msgstr "Postcode"
 
-#: gravityforms-nl.php:261
+#: gravityforms-nl.php:262
 msgid "Province"
 msgstr "Provincie"
 
-#: gravityforms-nl.php:277
+#: gravityforms-nl.php:278
 msgid "Drenthe"
 msgstr "Drenthe"
 
-#: gravityforms-nl.php:278
+#: gravityforms-nl.php:279
 msgid "Flevoland"
 msgstr "Flevoland"
 
-#: gravityforms-nl.php:279
+#: gravityforms-nl.php:280
 msgid "Friesland"
 msgstr "Friesland"
 
-#: gravityforms-nl.php:280
+#: gravityforms-nl.php:281
 msgid "Gelderland"
 msgstr "Gelderland"
 
-#: gravityforms-nl.php:281
+#: gravityforms-nl.php:282
 msgid "Groningen"
 msgstr "Groningen"
 
-#: gravityforms-nl.php:282
+#: gravityforms-nl.php:283
 msgid "Limburg"
 msgstr "Limburg"
 
-#: gravityforms-nl.php:283
+#: gravityforms-nl.php:284
 msgid "Noord-Brabant"
 msgstr "Noord-Brabant"
 
-#: gravityforms-nl.php:284
+#: gravityforms-nl.php:285
 msgid "Noord-Holland"
 msgstr "Noord-Holland"
 
-#: gravityforms-nl.php:285
+#: gravityforms-nl.php:286
 msgid "Overijssel"
 msgstr "Overijssel"
 
-#: gravityforms-nl.php:286
+#: gravityforms-nl.php:287
 msgid "Utrecht"
 msgstr "Utrecht"
 
-#: gravityforms-nl.php:287
+#: gravityforms-nl.php:288
 msgid "Zeeland"
 msgstr "Zeeland"
 
-#: gravityforms-nl.php:288
+#: gravityforms-nl.php:289
 msgid "Zuid-Holland"
 msgstr "Zuid-Holland"
 
@@ -117,13 +114,13 @@ msgstr "http://www.happywp.com/plugins/gravityforms-nl/"
 #. Description of the plugin/theme
 msgid ""
 "Extends the Gravity Forms plugin and add-ons with the Dutch language: "
-"<strong>Gravity Forms</strong> 1.8.7.11 | <strong>User Registration Add-On</"
+"<strong>Gravity Forms</strong> 1.9 | <strong>User Registration Add-On</"
 "strong> 1.6 | <strong>Campaign Monitor Add-On</strong> 2.1 | "
 "<strong>MailChimp Add-On</strong> 2.3 | <strong>PayPal Add-On</strong> 1.8 | "
 "<strong>Signature Add-On</strong> 1.3 | <strong>Polls Add-On</strong> 1.5"
 msgstr ""
 "Uitbreiding voor de Gravity Forms plugin en add-ons met de Nederlandse taal: "
-"<strong>Gravity Forms</strong> 1.8.7.11 | <strong>User Registration Add-On</"
+"<strong>Gravity Forms</strong> 1.9 | <strong>User Registration Add-On</"
 "strong> 1.6 | <strong>Campaign Monitor Add-On</strong> 2.1 | "
 "<strong>MailChimp Add-On</strong> 2.3 | <strong>PayPal Add-On</strong> 1.8 | "
 "<strong>Signature Add-On</strong> 1.3 | <strong>Polls Add-On</strong> 1.5"
