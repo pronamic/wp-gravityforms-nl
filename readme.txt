@@ -61,7 +61,7 @@ WordPress installation and then activate the Plugin from Plugins page.
 *	./update-pot gravityformssignature
 *	./update-pot gravityformsuserregistration ~/Sites/example.com/wp-content/plugins/gravityforms
 
-*	grunt downloadPo --project=gravityforms/1.8.18 --destination=languages/gravityforms/nl_NL.po
+*	grunt downloadPo --project=gravityforms/1.9 --destination=languages/gravityforms/nl_NL.po
 
 
 == Changelog ==
