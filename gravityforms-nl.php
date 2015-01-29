@@ -2,9 +2,9 @@
 /*
 Plugin Name: Gravity Forms (nl)
 Plugin URI: http://www.happywp.com/plugins/gravityforms-nl/
-Description: Extends the Gravity Forms plugin and add-ons with the Dutch language: <strong>Gravity Forms</strong> 1.8.18 | <strong>User Registration Add-On</strong> 1.6 | <strong>Campaign Monitor Add-On</strong> 2.1 | <strong>MailChimp Add-On</strong> 2.3 | <strong>PayPal Add-On</strong> 1.8 | <strong>Signature Add-On</strong> 1.3 | <strong>Polls Add-On</strong> 1.5
+Description: Extends the Gravity Forms plugin and add-ons with the Dutch language: <strong>Gravity Forms</strong> 1.9 | <strong>User Registration Add-On</strong> 1.6 | <strong>Campaign Monitor Add-On</strong> 2.1 | <strong>MailChimp Add-On</strong> 2.3 | <strong>PayPal Add-On</strong> 1.8 | <strong>Signature Add-On</strong> 1.3 | <strong>Polls Add-On</strong> 1.5
 
-Version: 2.8.4
+Version: 2.9.0
 Requires at least: 3.0
 
 Author: Pronamic
@@ -110,7 +110,7 @@ class GravityFormsNLPlugin {
 
 		// Determine language
 		if ( $this->language == null ) {
-			$this->language = get_option( 'WPLANG', WPLANG );
+			$this->language = get_locale();
 			$this->is_dutch = ( $this->language == 'nl' || $this->language == 'nl_NL' );
 		}
 
@@ -137,34 +137,34 @@ class GravityFormsNLPlugin {
 	 */
 	public function load_textdomain_mofile( $mo_file, $domain ) {
 		// First do quick check if an Dutch .MO file is loaded
-		if ( strpos( $mo_file, 'nl_NL.mo' ) !== false ) {
+		if ( false !== strpos( $mo_file, 'nl_NL.mo' ) ) {
 			$domains = array(
 				// @see https://github.com/woothemes/woocommerce/tree/v2.0.5
 				'gravityforms'                 => array(
-					'languages/gravityforms-nl_NL.mo'                 => 'gravityforms/nl_NL.mo'
+					'languages/gravityforms-nl_NL.mo'                 => 'gravityforms/nl_NL.mo',
 				),
 				'gravityformscampaignmonitor'  => array(
-					'languages/gravityformscampaignmonitor-nl_NL.mo'  => 'gravityformscampaignmonitor/nl_NL.mo'
+					'languages/gravityformscampaignmonitor-nl_NL.mo'  => 'gravityformscampaignmonitor/nl_NL.mo',
 				),
 				'gravityformsmailchimp'        => array(
-					'languages/gravityformsmailchimp-nl_NL.mo'        => 'gravityformsmailchimp/nl_NL.mo'
+					'languages/gravityformsmailchimp-nl_NL.mo'        => 'gravityformsmailchimp/nl_NL.mo',
 				),
 				'gravityformspaypal'           => array(
-					'languages/gravityformspaypal-nl_NL.mo'           => 'gravityformspaypal/nl_NL.mo'
+					'languages/gravityformspaypal-nl_NL.mo'           => 'gravityformspaypal/nl_NL.mo',
 				),
 				'gravityformspolls'            => array(
-					'languages/gravityformspolls-nl_NL.mo'            => 'gravityformspolls/nl_NL.mo'
+					'languages/gravityformspolls-nl_NL.mo'            => 'gravityformspolls/nl_NL.mo',
 				),
 				'gravityformssignature'        => array(
-					'languages/gravityformssignature-nl_NL.mo'        => 'gravityformssignature/nl_NL.mo'
+					'languages/gravityformssignature-nl_NL.mo'        => 'gravityformssignature/nl_NL.mo',
 				),
 				'gravityformsuserregistration' => array(
-					'languages/gravityformsuserregistration-nl_NL.mo' => 'gravityformsuserregistration/nl_NL.mo'
+					'languages/gravityformsuserregistration-nl_NL.mo' => 'gravityformsuserregistration/nl_NL.mo',
 				)
 			);
 
-			if ( isset( $domains[$domain] ) ) {
-				$paths = $domains[$domain];
+			if ( isset( $domains[ $domain ] ) ) {
+				$paths = $domains[ $domain ];
 
 				foreach ( $paths as $path => $file ) {
 					if ( substr( $mo_file, -strlen( $path ) ) == $path ) {
@@ -240,7 +240,7 @@ class GravityFormsNLPlugin {
 			'symbol_padding'     => ' ',
 			'thousand_separator' => '.',
 			'decimal_separator'  => ',',
-			'decimals'           => 2
+			'decimals'           => 2,
 		);
 
 		return $currencies;
@@ -286,7 +286,7 @@ class GravityFormsNLPlugin {
 			__( 'Overijssel', 'gravityforms_nl' ),
 			__( 'Utrecht', 'gravityforms_nl' ),
 			__( 'Zeeland', 'gravityforms_nl' ),
-			__( 'Zuid-Holland', 'gravityforms_nl' )
+			__( 'Zuid-Holland', 'gravityforms_nl' ),
 		);
 	}
 

@@ -9,5 +9,5 @@
 # WordPress SVN
 /wp-svn
 
-# Grunt
+# Node.js
 /node_modules
