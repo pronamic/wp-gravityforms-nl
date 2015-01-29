@@ -141,25 +141,25 @@ class GravityFormsNLPlugin {
 			$domains = array(
 				// @see https://github.com/woothemes/woocommerce/tree/v2.0.5
 				'gravityforms'                 => array(
-					'languages/gravityforms-nl_NL.mo'                 => 'gravityforms/nl_NL.mo'
+					'languages/gravityforms-nl_NL.mo'                 => 'gravityforms/nl_NL.mo',
 				),
 				'gravityformscampaignmonitor'  => array(
-					'languages/gravityformscampaignmonitor-nl_NL.mo'  => 'gravityformscampaignmonitor/nl_NL.mo'
+					'languages/gravityformscampaignmonitor-nl_NL.mo'  => 'gravityformscampaignmonitor/nl_NL.mo',
 				),
 				'gravityformsmailchimp'        => array(
-					'languages/gravityformsmailchimp-nl_NL.mo'        => 'gravityformsmailchimp/nl_NL.mo'
+					'languages/gravityformsmailchimp-nl_NL.mo'        => 'gravityformsmailchimp/nl_NL.mo',
 				),
 				'gravityformspaypal'           => array(
-					'languages/gravityformspaypal-nl_NL.mo'           => 'gravityformspaypal/nl_NL.mo'
+					'languages/gravityformspaypal-nl_NL.mo'           => 'gravityformspaypal/nl_NL.mo',
 				),
 				'gravityformspolls'            => array(
-					'languages/gravityformspolls-nl_NL.mo'            => 'gravityformspolls/nl_NL.mo'
+					'languages/gravityformspolls-nl_NL.mo'            => 'gravityformspolls/nl_NL.mo',
 				),
 				'gravityformssignature'        => array(
-					'languages/gravityformssignature-nl_NL.mo'        => 'gravityformssignature/nl_NL.mo'
+					'languages/gravityformssignature-nl_NL.mo'        => 'gravityformssignature/nl_NL.mo',
 				),
 				'gravityformsuserregistration' => array(
-					'languages/gravityformsuserregistration-nl_NL.mo' => 'gravityformsuserregistration/nl_NL.mo'
+					'languages/gravityformsuserregistration-nl_NL.mo' => 'gravityformsuserregistration/nl_NL.mo',
 				)
 			);
 
