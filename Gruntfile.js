@@ -100,7 +100,7 @@ module.exports = function( grunt ) {
 					'GLOTPRESS_URL=http://glotpress.pronamic.nl/projects/<%= shell.downloadPo.options.project %>/nl/nl_NL/export-translations',
 					'PO_FILE=<%= shell.downloadPo.options.destination %>',
 					'touch $PO_FILE',
-					'wget -O $PO_FILE $GLOTPRESS_URL'
+					'curl -o $PO_FILE $GLOTPRESS_URL'
 				].join( '&&' )
 			},
 			generateMos: {
