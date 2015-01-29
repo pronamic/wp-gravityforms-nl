@@ -137,7 +137,7 @@ class GravityFormsNLPlugin {
 	 */
 	public function load_textdomain_mofile( $mo_file, $domain ) {
 		// First do quick check if an Dutch .MO file is loaded
-		if ( strpos( $mo_file, 'nl_NL.mo' ) !== false ) {
+		if ( false !== strpos( $mo_file, 'nl_NL.mo' ) ) {
 			$domains = array(
 				// @see https://github.com/woothemes/woocommerce/tree/v2.0.5
 				'gravityforms'                 => array(
