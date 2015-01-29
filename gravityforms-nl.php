@@ -286,7 +286,7 @@ class GravityFormsNLPlugin {
 			__( 'Overijssel', 'gravityforms_nl' ),
 			__( 'Utrecht', 'gravityforms_nl' ),
 			__( 'Zeeland', 'gravityforms_nl' ),
-			__( 'Zuid-Holland', 'gravityforms_nl' )
+			__( 'Zuid-Holland', 'gravityforms_nl' ),
 		);
 	}
 
