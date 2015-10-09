@@ -1,16 +1,16 @@
 <?php
 /*
 Plugin Name: Gravity Forms (nl)
-Plugin URI: http://www.happywp.com/plugins/gravityforms-nl/
+Plugin URI: http://www.pronamic.eu/plugins/gravityforms-nl/
 Description: Extends the Gravity Forms plugin and add-ons with the Dutch language: <strong>Gravity Forms</strong> 1.9.1 | <strong>User Registration Add-On</strong> 1.6 | <strong>Campaign Monitor Add-On</strong> 2.1 | <strong>MailChimp Add-On</strong> 2.3 | <strong>PayPal Add-On</strong> 1.8 | <strong>Signature Add-On</strong> 1.3 | <strong>Polls Add-On</strong> 1.5
 
-Version: 2.9.1
+Version: 2.9.2
 Requires at least: 3.0
 
 Author: Pronamic
 Author URI: http://www.pronamic.eu/
 
-Text Domain: gravityforms_nl
+Text Domain: gravityforms-nl
 Domain Path: /languages/
 
 License: GPL
@@ -109,19 +109,19 @@ class GravityFormsNLPlugin {
 		$rel_path = dirname( plugin_basename( $this->file ) ) . '/languages/';
 
 		// Determine language
-		if ( $this->language == null ) {
+		if ( null === $this->language ) {
 			$this->language = get_locale();
-			$this->is_dutch = ( $this->language == 'nl' || $this->language == 'nl_NL' );
+			$this->is_dutch = ( 'nl' === $this->language || 'nl_NL' === $this->language );
 		}
 
 		// The ICL_LANGUAGE_CODE constant is defined from an plugin, so this constant
 		// is not always defined in the first 'load_textdomain_mofile' filter call
 		if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
-			$this->is_dutch = ( ICL_LANGUAGE_CODE == 'nl' );
+			$this->is_dutch = ( 'nl' === ICL_LANGUAGE_CODE );
 		}
 
 		// Load plugin text domain - Gravity Forms (nl)
-		load_plugin_textdomain( 'gravityforms_nl', false, $rel_path );
+		load_plugin_textdomain( 'gravityforms-nl', false, $rel_path );
 
 		// Load plugin text domain - Gravity Forms user registration Add-On
 		load_plugin_textdomain( 'gravityformsuserregistration', false, $rel_path );
@@ -160,14 +160,14 @@ class GravityFormsNLPlugin {
 				),
 				'gravityformsuserregistration' => array(
 					'languages/gravityformsuserregistration-nl_NL.mo' => 'gravityformsuserregistration/nl_NL.mo',
-				)
+				),
 			);
 
 			if ( isset( $domains[ $domain ] ) ) {
 				$paths = $domains[ $domain ];
 
 				foreach ( $paths as $path => $file ) {
-					if ( substr( $mo_file, -strlen( $path ) ) == $path ) {
+					if ( substr( $mo_file, -strlen( $path ) ) === $path ) {
 						$new_file = dirname( $this->file ) . '/languages/' . $file;
 
 						if ( is_readable( $new_file ) ) {
@@ -189,9 +189,9 @@ class GravityFormsNLPlugin {
 	public function wp_print_scripts() {
 		if ( $this->is_dutch ) {
 			/**
-			 * gforms_ui_datepicker » @since ?
-			 * gforms_datepicker » @since Gravity Forms 1.7.5
-			 * gform_datepicker_init » @since Gravity Forms 1.8.9
+			 * Filter gforms_ui_datepicker » @since ?
+			 * Filter gforms_datepicker » @since Gravity Forms 1.7.5
+			 * Filter gform_datepicker_init » @since Gravity Forms 1.8.9
 			 */
 			foreach ( array( 'gforms_ui_datepicker', 'gforms_datepicker', 'gform_datepicker_init' ) as $script_datepicker ) {
 				if ( wp_script_is( $script_datepicker ) ) {
@@ -214,10 +214,10 @@ class GravityFormsNLPlugin {
 		wp_register_script( 'gravityforms-nl-forms', plugins_url( 'js/forms-nl.js', $this->file ) );
 
 		wp_localize_script( 'gravityforms-nl-forms', 'gravityFormsNlL10n', array(
-			'formTitle'           => __( 'Untitled Form', 'gravityforms_nl' ) ,
-			'formDescription'     => __( 'We would love to hear from you! Please fill out this form and we will get in touch with you shortly.', 'gravityforms_nl' ) ,
-			'confirmationMessage' => __( 'Thanks for contacting us! We will get in touch with you shortly.', 'gravityforms_nl' ) ,
-			'buttonText'          => __( 'Submit', 'gravityforms_nl' )
+			'formTitle'           => __( 'Untitled Form', 'gravityforms-nl' ),
+			'formDescription'     => __( 'We would love to hear from you! Please fill out this form and we will get in touch with you shortly.', 'gravityforms-nl' ),
+			'confirmationMessage' => __( 'Thanks for contacting us! We will get in touch with you shortly.', 'gravityforms-nl' ),
+			'buttonText'          => __( 'Submit', 'gravityforms-nl' ),
 		) );
 
 		wp_print_scripts( array( 'gravityforms-nl-forms' ) );
@@ -234,7 +234,7 @@ class GravityFormsNLPlugin {
 	 */
 	public function gform_currencies( $currencies ) {
 		$currencies['EUR'] = array(
-			'name'               => __( 'Euro', 'gravityforms_nl' ),
+			'name'               => __( 'Euro', 'gravityforms-nl' ),
 			'symbol_left'        => '€',
 			'symbol_right'       => '',
 			'symbol_padding'     => ' ',
@@ -256,11 +256,11 @@ class GravityFormsNLPlugin {
 	public function gform_address_types( $address_types ) {
 		// @see http://www.gravityhelp.com/forums/topic/add-custom-field-to-address-field-set
 		$address_types['dutch'] = array(
-			'label'       => __( 'Dutch', 'gravityforms_nl' ),
-			'country'     => __( 'Netherlands', 'gravityforms_nl' ),
-			'zip_label'   => __( 'Postal Code', 'gravityforms_nl' ),
-			'state_label' => __( 'Province', 'gravityforms_nl' ),
-			'states'      => array_merge( array( '' ), self::get_dutch_provinces() )
+			'label'       => __( 'Dutch', 'gravityforms-nl' ),
+			'country'     => __( 'Netherlands', 'gravityforms-nl' ),
+			'zip_label'   => __( 'Postal Code', 'gravityforms-nl' ),
+			'state_label' => __( 'Province', 'gravityforms-nl' ),
+			'states'      => array_merge( array( '' ), self::get_dutch_provinces() ),
 		);
 
 		return $address_types;
@@ -275,18 +275,18 @@ class GravityFormsNLPlugin {
 	 */
 	public static function get_dutch_provinces() {
 		return array(
-			__( 'Drenthe', 'gravityforms_nl' ),
-			__( 'Flevoland', 'gravityforms_nl' ),
-			__( 'Friesland', 'gravityforms_nl' ),
-			__( 'Gelderland', 'gravityforms_nl' ),
-			__( 'Groningen', 'gravityforms_nl' ),
-			__( 'Limburg', 'gravityforms_nl' ),
-			__( 'Noord-Brabant', 'gravityforms_nl' ),
-			__( 'Noord-Holland', 'gravityforms_nl' ),
-			__( 'Overijssel', 'gravityforms_nl' ),
-			__( 'Utrecht', 'gravityforms_nl' ),
-			__( 'Zeeland', 'gravityforms_nl' ),
-			__( 'Zuid-Holland', 'gravityforms_nl' ),
+			__( 'Drenthe', 'gravityforms-nl' ),
+			__( 'Flevoland', 'gravityforms-nl' ),
+			__( 'Friesland', 'gravityforms-nl' ),
+			__( 'Gelderland', 'gravityforms-nl' ),
+			__( 'Groningen', 'gravityforms-nl' ),
+			__( 'Limburg', 'gravityforms-nl' ),
+			__( 'Noord-Brabant', 'gravityforms-nl' ),
+			__( 'Noord-Holland', 'gravityforms-nl' ),
+			__( 'Overijssel', 'gravityforms-nl' ),
+			__( 'Utrecht', 'gravityforms-nl' ),
+			__( 'Zeeland', 'gravityforms-nl' ),
+			__( 'Zuid-Holland', 'gravityforms-nl' ),
 		);
 	}
 
