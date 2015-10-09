@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Gravity Forms (nl)\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/gravityforms-nl\n"
-"POT-Creation-Date: 2015-02-12 12:15:44+00:00\n"
-"PO-Revision-Date: 2015-02-12 13:16+0100\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gravityforms-nl\n"
+"POT-Creation-Date: 2015-10-09 08:38:55+00:00\n"
+"PO-Revision-Date: 2015-10-09 10:39+0100\n"
 "Last-Translator: Remco Tolsma <info@remcotolsma.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "Language: nl_NL\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.7.1\n"
+"X-Generator: Poedit 1.7.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: gravityforms-nl.php:217
@@ -108,8 +108,8 @@ msgid "Gravity Forms (nl)"
 msgstr "Gravity Forms (nl)"
 
 #. Plugin URI of the plugin/theme
-msgid "http://www.happywp.com/plugins/gravityforms-nl/"
-msgstr "http://www.happywp.com/plugins/gravityforms-nl/"
+msgid "http://www.pronamic.eu/plugins/gravityforms-nl/"
+msgstr "http://www.pronamic.eu/plugins/gravityforms-nl/"
 
 #. Description of the plugin/theme
 msgid ""

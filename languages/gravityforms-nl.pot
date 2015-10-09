@@ -2,16 +2,16 @@
 # This file is distributed under the GPL.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gravity Forms (nl) 2.9.1\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/gravityforms-nl\n"
-"POT-Creation-Date: 2015-02-12 12:15:44+00:00\n"
+"Project-Id-Version: Gravity Forms (nl) 2.9.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gravityforms-nl\n"
+"POT-Creation-Date: 2015-10-09 08:38:55+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"X-Generator: grunt-wp-i18n 0.4.9\n"
+"X-Generator: grunt-wp-i18n 0.5.3\n"
 
 #: gravityforms-nl.php:217
 msgid "Untitled Form"
@@ -104,7 +104,7 @@ msgid "Gravity Forms (nl)"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "http://www.happywp.com/plugins/gravityforms-nl/"
+msgid "http://www.pronamic.eu/plugins/gravityforms-nl/"
 msgstr ""
 
 #. Description of the plugin/theme
