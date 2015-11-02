@@ -10,7 +10,7 @@ This WordPress plugin extends the Gravity Forms plugin with the Dutch translatio
 
 == Description ==
 
-*	[Gravity Forms][gravityforms glotpress] 1.9.1
+*	[Gravity Forms][gravityforms glotpress] 1.9.14
 *	[Campaign Monitor Add-On][gravityformscampaignmonitor glotpress] 2.1
 *	[MailChimp Add-On][gravityformsmailchimp glotpress] 2.3
 *	[PayPal Add-On][gravityformspaypal glotpress] 1.7
