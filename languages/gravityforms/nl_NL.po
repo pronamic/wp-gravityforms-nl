@@ -5445,7 +5445,7 @@ msgstr "Redirect formulier naar URL"
 
 #: tooltips.php:48
 msgid "Enter the URL of the webpage you would like the user to be redirected to after they have submitted the form."
-msgstr "Type de URL waar je gebruikers naartoe wilt lijden nadat zij het formulier hebben ingevuld."
+msgstr "Type de URL waar je gebruikers naartoe wilt leiden nadat zij het formulier hebben ingevuld."
 
 #: tooltips.php:49
 msgid "Pass Data Via Query String"
