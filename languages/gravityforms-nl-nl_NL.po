@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Gravity Forms (nl)\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-gravityforms-"
 "nl\n"
-"POT-Creation-Date: 2020-08-24 08:58:47+00:00\n"
-"PO-Revision-Date: 2020-08-24 11:00+0200\n"
+"POT-Creation-Date: 2020-09-01 20:54:50+00:00\n"
+"PO-Revision-Date: 2020-09-01 22:55+0200\n"
 "Last-Translator: Reüel van der Steege <reuel@pronamic.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "Language: nl_NL\n"
@@ -17,71 +17,55 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: src/Plugin.php:124
+#: src/Plugin.php:171
 msgid "Euro"
 msgstr "Euro"
 
-#: src/Plugin.php:145
-msgid "Dutch"
-msgstr "Nederlands"
-
-#: src/Plugin.php:146
-msgid "Netherlands"
-msgstr "Nederland"
-
-#: src/Plugin.php:147
-msgid "Postal Code"
-msgstr "Postcode"
-
-#: src/Plugin.php:148
-msgid "Province"
-msgstr "Provincie"
-
-#: src/Plugin.php:162
+#: src/Plugin.php:222
 msgid "Drenthe"
 msgstr "Drenthe"
 
-#: src/Plugin.php:163
+#: src/Plugin.php:223
 msgid "Flevoland"
 msgstr "Flevoland"
 
-#: src/Plugin.php:164
+#: src/Plugin.php:224
 msgid "Friesland"
 msgstr "Friesland"
 
-#: src/Plugin.php:165
+#: src/Plugin.php:225
 msgid "Gelderland"
 msgstr "Gelderland"
 
-#: src/Plugin.php:166
+#: src/Plugin.php:226
 msgid "Groningen"
 msgstr "Groningen"
 
-#: src/Plugin.php:167
+#: src/Plugin.php:227
 msgid "Limburg"
 msgstr "Limburg"
 
-#: src/Plugin.php:168
+#: src/Plugin.php:228
 msgid "Noord-Brabant"
 msgstr "Noord-Brabant"
 
-#: src/Plugin.php:169
+#: src/Plugin.php:229
 msgid "Noord-Holland"
 msgstr "Noord-Holland"
 
-#: src/Plugin.php:170
+#: src/Plugin.php:230
 msgid "Overijssel"
 msgstr "Overijssel"
 
-#: src/Plugin.php:171
+#: src/Plugin.php:231
 msgid "Utrecht"
 msgstr "Utrecht"
 
-#: src/Plugin.php:172
+#: src/Plugin.php:232
 msgid "Zeeland"
 msgstr "Zeeland"
 
-#: src/Plugin.php:173
+#: src/Plugin.php:233
 msgid "Zuid-Holland"
 msgstr "Zuid-Holland"
 
@@ -106,6 +90,26 @@ msgstr "Pronamic"
 #. Author URI of the plugin/theme
 msgid "https://www.pronamic.eu/"
 msgstr "https://www.pronamic.eu/"
+
+#: src/Plugin.php:205
+msgctxt "Dutch address type"
+msgid "Dutch"
+msgstr "Nederlands"
+
+#: src/Plugin.php:206
+msgctxt "Dutch address type"
+msgid "Netherlands"
+msgstr "Nederland"
+
+#: src/Plugin.php:207
+msgctxt "Dutch address type"
+msgid "Postal Code"
+msgstr "Postcode"
+
+#: src/Plugin.php:208
+msgctxt "Dutch address type"
+msgid "Province"
+msgstr "Provincie"
 
 #, fuzzy
 #~ msgid ""
