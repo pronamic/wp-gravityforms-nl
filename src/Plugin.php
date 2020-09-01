@@ -166,7 +166,8 @@ class Plugin {
 			return $currencies;
 		}
 
-		$currencies['EUR'] = array(
+		// Euro currency definition.
+		$euro = array(
 			'name'               => __( 'Euro', 'gravityforms-nl' ),
 			'symbol_left'        => '€',
 			'symbol_right'       => '',
@@ -175,6 +176,19 @@ class Plugin {
 			'decimal_separator'  => ',',
 			'decimals'           => 2,
 		);
+
+		// Only move symbol if currency already exists.
+		if ( \array_key_exists( 'EUR', $currencies ) ) {
+			$euro = \wp_parse_args(
+				array(
+					'symbol_left'  => '€',
+					'symbol_right' => '',
+				),
+				$currencies['EUR']
+			);
+		}
+
+		$currencies['EUR'] = $euro;
 
 		return $currencies;
 	}
