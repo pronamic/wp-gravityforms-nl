@@ -202,11 +202,11 @@ class Plugin {
 	 */
 	public function gform_address_types( $address_types ) {
 		$address_types['dutch'] = array(
-			'label'       => __( 'Dutch', 'gravityforms-nl' ),
-			'country'     => __( 'Netherlands', 'gravityforms-nl' ),
-			'zip_label'   => __( 'Postal Code', 'gravityforms-nl' ),
-			'state_label' => __( 'Province', 'gravityforms-nl' ),
-			'states'      => \array_merge( array( '' ), self::get_dutch_provinces() ),
+			'label'       => \apply_filters( 'pronamic_gravityforms_nl_address_label', _x( 'Dutch', 'Dutch address type', 'gravityforms-nl' ) ),
+			'country'     => \apply_filters( 'pronamic_gravityforms_nl_address_country', _x( 'Netherlands', 'Dutch address type', 'gravityforms-nl' ) ),
+			'zip_label'   => \apply_filters( 'pronamic_gravityforms_nl_address_zip_label', _x( 'Postal Code', 'Dutch address type', 'gravityforms-nl' ) ),
+			'state_label' => \apply_filters( 'pronamic_gravityforms_nl_address_state_label', _x( 'Province', 'Dutch address type', 'gravityforms-nl' ) ),
+			'states'      => \array_merge( array( '' ), \apply_filters( 'pronamic_gravityforms_nl_address_states', self::get_dutch_provinces() ) ),
 		);
 
 		return $address_types;
