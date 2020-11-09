@@ -26,15 +26,18 @@
 /**
  * Bootstrap.
  */
-add_action( 'plugins_loaded', function() {
-	if ( ! \class_exists( '\GFCommon' ) ) {
-		return;
-	}
+add_action(
+	'plugins_loaded',
+	function() {
+		if ( ! \class_exists( '\GFCommon' ) ) {
+			return;
+		}
 
-	// Initialize.
-	\Pronamic\WordPress\GravityFormsNL\Plugin::instance(
-		array(
-			'file' => __FILE__,
-		)
-	);
-} );
+		// Initialize.
+		\Pronamic\WordPress\GravityFormsNL\Plugin::instance(
+			array(
+				'file' => __FILE__,
+			)
+		);
+	}
+);
