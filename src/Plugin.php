@@ -14,7 +14,7 @@ namespace Pronamic\WordPress\GravityFormsNL;
  * Plugin.
  *
  * @author  Remco Tolsma
- * @version 3.0.0
+ * @version 3.0.1
  * @since   1.0.0
  */
 class Plugin {
@@ -77,7 +77,7 @@ class Plugin {
 		$args = wp_parse_args(
 			$args,
 			array(
-				'file'    => null,
+				'file'    => __DIR__ . '/../gravityforms-nl.php',
 				'options' => array(),
 			)
 		);
