@@ -1,0 +1,54 @@
+{
+	"name": "pronamic/wp-gravityforms-nl",
+	"description": "WordPress Gravity Forms (nl) library.",
+	"license": "GPL-3.0-or-later" ,
+	"autoload": {
+		"psr-4": {
+			"Pronamic\\WordPress\\GravityFormsNL\\": "src"
+		}
+	},
+	"config": {
+		"sort-packages": true
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://wp-languages.github.io"
+		}
+	],
+	"require": {
+		"php": ">=5.6.20"
+	},
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+		"koodimonni-language/nl_nl": "*",
+		"php-coveralls/php-coveralls": "^2.1",
+		"phpcompatibility/php-compatibility": "^9.3",
+		"phpcompatibility/phpcompatibility-wp": "^2.1",
+		"phpmd/phpmd": "^2.4",
+		"phpunit/phpunit": "^5.7 || ^6.0",
+		"roots/wordpress": "^5.5",
+		"squizlabs/php_codesniffer": "^3.5",
+		"wp-coding-standards/wpcs": "^2.3",
+		"wp-phpunit/wp-phpunit": "^5.5"
+	},
+	"scripts": {
+		"bamarni/composer-bin-plugin": "^1.4",
+		"coveralls": "vendor/bin/coveralls -v",
+		"phpcbf":"vendor/bin/phpcbf",
+		"phpcs": "vendor/bin/phpcs -s -v",
+		"phplint": "find src -name '*.php' | xargs -n 1 -P 4 php -l",
+		"phpmd": "vendor/bin/phpmd src text phpmd.ruleset.xml --suffixes php",
+		"phpstan": "vendor/bin/phpstan analyse",
+		"phpunit": "vendor/bin/phpunit",
+		"post-autoload-dump": [
+			"for file in languages/*.mo ; do ln -f -s ../../../../../../$file vendor/wp-phpunit/wp-phpunit/data/languages/plugins/. ; done",
+			"for file in vendor/koodimonni-language/*/*.mo ; do ln -f -s ../../../../../$file vendor/wp-phpunit/wp-phpunit/data/languages/. ; done",
+			"for file in vendor/koodimonni-plugin-language/*/*.mo ; do ln -f -s ../../../../../../$file vendor/wp-phpunit/wp-phpunit/data/languages/plugins/. ; done",
+			"for file in vendor/koodimonni-theme-language/*/*.mo ; do ln -f -s ../../../../../../$file vendor/wp-phpunit/wp-phpunit/data/languages/themes/. ; done"
+		],
+		"post-install-cmd": "echo 'Optionally run: composer bin all install'",
+		"post-update-cmd": "echo 'Optionally run: composer bin all update'",
+		"psalm": "vendor/bin/psalm"
+	}
+}

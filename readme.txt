@@ -1,70 +1,41 @@
 === Gravity Forms (nl) ===
 Contributors: pronamic, remcotolsma
 Tags: gravityforms, gravity, form, forms, gravity forms, translation, dutch, nl, nl_NL
-Donate link: http://www.pronamic.eu/donate/?for=wp-plugin-gravityforms-nl&source=wp-plugin-readme-txt
-Requires at least: 3.0
-Tested up to: 4.4.2
-Stable tag: 2.9.3
+Donate link: https://www.pronamic.eu/donate/?for=wp-plugin-gravityforms-nl&source=wp-plugin-readme-txt
+Requires at least: 4.7
+Tested up to: 5.5
+Stable tag: 3.0.0
 
-This WordPress plugin extends the Gravity Forms plugin with the Dutch translation.
+This WordPress plugin extends Gravity Forms with Dutch address notation and places the Euro sign to the left of input fields.
+
 
 == Description ==
 
 *	[Gravity Forms][gravityforms glotpress] 1.9.14
-*	[Campaign Monitor Add-On][gravityformscampaignmonitor glotpress] 2.1
-*	[MailChimp Add-On][gravityformsmailchimp glotpress] 2.3
-*	[PayPal Add-On][gravityformspaypal glotpress] 1.7
-*	[Polls Add-On][gravityformspolls glotpress] 1.5
-*	[Signature Add-On][gravityformssignature glotpress] 1.5
-*	[User Registration Add-On][gravityformsuserregistration glotpress] 1.6 
 
 [gravityforms glotpress]: http://glotpress.pronamic.nl/projects/gravityforms
 	"Gravity Forms GlotPress project"
-[gravityformscampaignmonitor glotpress]: http://glotpress.pronamic.nl/projects/gravityformscampaignmonitor
-	"Gravity Forms Campaign Monitor Add-On GlotPress project" 
-[gravityformsmailchimp glotpress]: http://glotpress.pronamic.nl/projects/gravityformsmailchimp
-	"Gravity Forms MailChimp Add-On GlotPress project"
-[gravityformspaypal glotpress]: http://glotpress.pronamic.nl/projects/gravityformspaypal
-	"Gravity Forms PayPal Add-On GlotPress project"
-[gravityformspolls glotpress]: http://glotpress.pronamic.nl/projects/gravityformspolls
-	"Gravity Forms Polls Add-On GlotPress project"
-[gravityformssignature glotpress]: http://glotpress.pronamic.nl/projects/gravityformssignature
-	"Gravity Forms Signature Add-On GlotPress project"
-[gravityformsuserregistration glotpress]: http://glotpress.pronamic.nl/projects/gravityformsuserregistration
-	"Gravity Forms User Registration Add-On GlotPress project"
 
-
-> This plugin requires the <a href="http://www.gravityforms.com/">Gravity Forms plugin</a>. <strong>Don't use Gravity Forms? <a href="http://www.gravityforms.com/">Buy the plugin</a></strong> and start using this revolutionary plugin!
+> This plugin requires the <a href="https://www.gravityforms.com/">Gravity Forms plugin</a>.
 
 > This plugin requires a <a href="http://nl.wordpress.org/">Dutch WordPress installation</a>. Make sure you have `define( 'WPLANG', 'nl_NL' );` in your WordPress `wp-config.php` file. 
 
-The [Gravity Forms](http://www.gravityforms.com/) developers don't focus on translating 
-their plugin. Instead they concentrate on the core functionalities of the plugin itself. 
-Therefore there are regular updates of the Gravity Forms plugin. However, after each 
-automatic update, the manually placed Dutch translations are deleted. This plugin fixes 
-that issue for all the Dutch WordPress and Gravity Forms users!
+The [Gravity Forms](https://www.gravityforms.com/) plugin by default only includes
+US and international address types. This plugin adds an option for Dutch address notation.
 
 
 == Installation ==
 
-Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your 
-WordPress installation and then activate the Plugin from Plugins page.
-
-
-== Developers ==
-
-*	php ~/wp/svn/i18n-tools/makepot.php wp-plugin ~/Downloads/gravityforms ./languages/gravityforms/gravityforms.pot
-*	./update-pot gravityformscampaignmonitor
-*	./update-pot gravityformsmailchimp
-*	./update-pot gravityformspaypal
-*	./update-pot gravityformspolls
-*	./update-pot gravityformssignature
-*	./update-pot gravityformsuserregistration ~/Sites/example.com/wp-content/plugins/gravityforms
-
-*	grunt downloadPo --project=gravityforms/1.9.16 --destination=languages/gravityforms/nl_NL.po
+Extract the ZIP file and move the resulting `wp-gravityforms-nl` directory to the ``/wp-content/plugins/`
+directory of your  WordPress installation. Then activate the plugin from the Plugins page in the WordPress admin.
 
 
 == Changelog ==
+
+= 3.0.0 =
+*	Removed (add-on) translations, as Gravity Forms now includes its own Dutch translations.
+*	Added support for 'Dutch (formal)' WordPress language.
+*	Only update Euro currency sign position when Dutch language is active.
 
 = 2.9.3 =
 *	Updated to Gravity Forms version 1.9.16.
@@ -348,10 +319,6 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 *	[Pronamic](http://pronamic.eu/)
 *	[Remco Tolsma](http://remcotolsma.nl/)
-*	[Markdown's Syntax Documentation][markdown syntax]
-
-[markdown syntax]: http://daringfireball.net/projects/markdown/syntax
-	"Markdown is what the parser uses to process much of the readme file"
 
 
 == Pronamic plugins ==
