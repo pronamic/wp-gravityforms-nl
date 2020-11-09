@@ -14,7 +14,7 @@ namespace Pronamic\WordPress\GravityFormsNL;
  * Plugin.
  *
  * @author  Remco Tolsma
- * @version 3.0.0
+ * @version 3.0.1
  * @since   1.0.0
  */
 class Plugin {
