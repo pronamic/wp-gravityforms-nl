@@ -77,7 +77,7 @@ class Plugin {
 		$args = wp_parse_args(
 			$args,
 			array(
-				'file'    => null,
+				'file'    => __DIR__ . '/../gravityforms-nl.php',
 				'options' => array(),
 			)
 		);
