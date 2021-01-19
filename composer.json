@@ -22,7 +22,7 @@
 	"require-dev": {
 		"dealerdirect/phpcodesniffer-composer-installer": "^0.7",
 		"koodimonni-language/nl_nl": "*",
-		"php-coveralls/php-coveralls": "^2.1",
+		"php-coveralls/php-coveralls": "^2.4",
 		"phpcompatibility/php-compatibility": "^9.3",
 		"phpcompatibility/phpcompatibility-wp": "^2.1",
 		"phpmd/phpmd": "^2.4",
@@ -34,7 +34,7 @@
 	},
 	"scripts": {
 		"bamarni/composer-bin-plugin": "^1.4",
-		"coveralls": "vendor/bin/coveralls -v",
+		"coveralls": "vendor/bin/php-coveralls -v",
 		"phpcbf":"vendor/bin/phpcbf",
 		"phpcs": "vendor/bin/phpcs -s -v",
 		"phplint": "find src -name '*.php' | xargs -n 1 -P 4 php -l",
