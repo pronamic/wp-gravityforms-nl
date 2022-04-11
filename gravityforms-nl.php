@@ -4,7 +4,7 @@
  * Plugin URI: https://www.pronamic.eu/plugins/gravityforms-nl/
  * Description: Extend the Gravity Forms plugin with Dutch address and Euro sign notation.
  *
- * Version: 3.0.1
+ * Version: 3.0.2
  * Requires at least: 3.0
  *
  * Author: Pronamic
@@ -18,7 +18,7 @@
  * GitHub URI: https://github.com/pronamic/wp-gravityforms-nl
  *
  * @author    Pronamic <info@pronamic.eu>
- * @copyright 2005-2020 Pronamic
+ * @copyright 2005-2022 Pronamic
  * @license   GPL-3.0-or-later
  * @package   Pronamic\WordPress\Pay
  */
