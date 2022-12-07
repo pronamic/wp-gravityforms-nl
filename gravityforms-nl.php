@@ -37,9 +37,9 @@ add_action(
 
 		// Initialize.
 		\Pronamic\WordPress\GravityFormsNL\Plugin::instance(
-			array(
+			[
 				'file' => __FILE__,
-			)
+			]
 		);
 	}
 );

@@ -60,7 +60,7 @@ class Plugin {
 	 *
 	 * @return Plugin
 	 */
-	public static function instance( $args = array() ) {
+	public static function instance( $args = [] ) {
 		if ( is_null( self::$instance ) ) {
 			self::$instance = new self( $args );
 		}
@@ -76,15 +76,15 @@ class Plugin {
 	public function __construct( $args ) {
 		$args = wp_parse_args(
 			$args,
-			array(
+			[
 				'file'    => __DIR__ . '/../gravityforms-nl.php',
-				'options' => array(),
-			)
+				'options' => [],
+			]
 		);
 
 		// Version from plugin file header.
 		if ( null !== $args['file'] ) {
-			$file_data = get_file_data( $args['file'], array( 'Version' => 'Version' ) );
+			$file_data = get_file_data( $args['file'], [ 'Version' => 'Version' ] );
 
 			if ( \array_key_exists( 'Version', $file_data ) ) {
 				$this->version = (string) $file_data['Version'];
@@ -95,13 +95,13 @@ class Plugin {
 		$this->is_dutch    = false;
 
 		// Actions.
-		\add_action( 'init', array( $this, 'init' ) );
-		\add_action( 'wp_print_scripts', array( $this, 'wp_print_scripts' ) );
+		\add_action( 'init', [ $this, 'init' ] );
+		\add_action( 'wp_print_scripts', [ $this, 'wp_print_scripts' ] );
 
 		// Filters.
-		\add_filter( 'gform_currencies', array( $this, 'gform_currencies' ) );
-		\add_filter( 'gform_address_types', array( $this, 'gform_address_types' ) );
-		\add_filter( 'gform_address_display_format', array( $this, 'gform_address_display_format' ) );
+		\add_filter( 'gform_currencies', [ $this, 'gform_currencies' ] );
+		\add_filter( 'gform_address_types', [ $this, 'gform_address_types' ] );
+		\add_filter( 'gform_address_display_format', [ $this, 'gform_address_display_format' ] );
 	}
 
 	/**
@@ -115,7 +115,7 @@ class Plugin {
 		// Determine language.
 		if ( null === $this->language ) {
 			$this->language = \get_locale();
-			$this->is_dutch = \in_array( $this->language, array( 'nl', 'nl_NL', 'nl_NL_formal' ), true );
+			$this->is_dutch = \in_array( $this->language, [ 'nl', 'nl_NL', 'nl_NL_formal' ], true );
 		}
 
 		// The `ICL_LANGUAGE_CODE` constant is defined from a plugin.
@@ -142,7 +142,7 @@ class Plugin {
 		 * Filter `gforms_datepicker` » @since Gravity Forms 1.7.5
 		 * Filter `gform_datepicker_init` » @since Gravity Forms 1.8.9
 		 */
-		foreach ( array( 'gforms_ui_datepicker', 'gforms_datepicker', 'gform_datepicker_init' ) as $script_datepicker ) {
+		foreach ( [ 'gforms_ui_datepicker', 'gforms_datepicker', 'gform_datepicker_init' ] as $script_datepicker ) {
 			if ( ! \wp_script_is( $script_datepicker ) ) {
 				continue;
 			}
@@ -151,7 +151,7 @@ class Plugin {
 			// @link https://github.com/jquery/jquery-ui/blob/master/ui/i18n/jquery.ui.datepicker-nl.js
 			$src = \plugins_url( 'js/jquery.ui.datepicker-nl.js', $this->plugin_file );
 
-			\wp_enqueue_script( 'gforms_ui_datepicker_nl', $src, array( $script_datepicker ), $this->version, true );
+			\wp_enqueue_script( 'gforms_ui_datepicker_nl', $src, [ $script_datepicker ], $this->version, true );
 		}
 	}
 
@@ -167,7 +167,7 @@ class Plugin {
 		}
 
 		// Euro currency definition.
-		$euro = array(
+		$euro = [
 			'name'               => __( 'Euro', 'gravityforms-nl' ),
 			'symbol_left'        => '€',
 			'symbol_right'       => '',
@@ -175,15 +175,15 @@ class Plugin {
 			'thousand_separator' => '.',
 			'decimal_separator'  => ',',
 			'decimals'           => 2,
-		);
+		];
 
 		// Only move symbol if currency already exists.
 		if ( \array_key_exists( 'EUR', $currencies ) ) {
 			$euro = \wp_parse_args(
-				array(
+				[
 					'symbol_left'  => '€',
 					'symbol_right' => '',
-				),
+				],
 				$currencies['EUR']
 			);
 		}
@@ -201,13 +201,13 @@ class Plugin {
 	 * @link http://www.gravityhelp.com/forums/topic/add-custom-field-to-address-field-set
 	 */
 	public function gform_address_types( $address_types ) {
-		$address_types['dutch'] = array(
+		$address_types['dutch'] = [
 			'label'       => \apply_filters( 'pronamic_gravityforms_nl_address_label', _x( 'Dutch', 'Dutch address type', 'gravityforms-nl' ) ),
 			'country'     => \apply_filters( 'pronamic_gravityforms_nl_address_country', _x( 'Netherlands', 'Dutch address type', 'gravityforms-nl' ) ),
 			'zip_label'   => \apply_filters( 'pronamic_gravityforms_nl_address_zip_label', _x( 'Postal Code', 'Dutch address type', 'gravityforms-nl' ) ),
 			'state_label' => \apply_filters( 'pronamic_gravityforms_nl_address_state_label', _x( 'Province', 'Dutch address type', 'gravityforms-nl' ) ),
-			'states'      => \array_merge( array( '' ), \apply_filters( 'pronamic_gravityforms_nl_address_states', self::get_dutch_provinces() ) ),
-		);
+			'states'      => \array_merge( [ '' ], \apply_filters( 'pronamic_gravityforms_nl_address_states', self::get_dutch_provinces() ) ),
+		];
 
 		return $address_types;
 	}
@@ -218,7 +218,7 @@ class Plugin {
 	 * @return array<int, string>
 	 */
 	public static function get_dutch_provinces() {
-		return array(
+		return [
 			__( 'Drenthe', 'gravityforms-nl' ),
 			__( 'Flevoland', 'gravityforms-nl' ),
 			__( 'Friesland', 'gravityforms-nl' ),
@@ -231,7 +231,7 @@ class Plugin {
 			__( 'Utrecht', 'gravityforms-nl' ),
 			__( 'Zeeland', 'gravityforms-nl' ),
 			__( 'Zuid-Holland', 'gravityforms-nl' ),
-		);
+		];
 	}
 
 	/**
