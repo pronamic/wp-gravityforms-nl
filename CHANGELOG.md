@@ -7,6 +7,17 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## [Unreleased][unreleased]
 -
 
+## [3.0.4] - 2023-03-27
+
+### Commits
+
+- Set Composer type to WordPress plugin. ([ff36a7e](https://github.com/pronamic/wp-gravityforms-nl/commit/ff36a7ec057d51eec93bf169b7e384aa7e89e41a))
+- Updated .gitattributes ([5ee25fe](https://github.com/pronamic/wp-gravityforms-nl/commit/5ee25fe3c4ea36371a482253b52666017b1b6380))
+
+Full set of changes: [`3.0.3...3.0.4`][3.0.4]
+
+[3.0.4]: https://github.com/pronamic/wp-gravityforms-nl/compare/v3.0.3...v3.0.4
+
 ## [3.0.3] - 2023-01-31
 ### Composer
 
