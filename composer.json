@@ -1,7 +1,8 @@
 {
 	"name": "pronamic/wp-gravityforms-nl",
 	"description": "WordPress Gravity Forms (nl) library.",
-	"license": "GPL-3.0-or-later" ,
+	"license": "GPL-3.0-or-later",
+	"type": "wordpress-plugin",
 	"autoload": {
 		"psr-4": {
 			"Pronamic\\WordPress\\GravityFormsNL\\": "src"
