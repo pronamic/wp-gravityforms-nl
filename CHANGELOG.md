@@ -7,6 +7,17 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## [Unreleased][unreleased]
 -
 
+## [3.0.5] - 2023-06-01
+
+### Commits
+
+- Switch from `pronamic/wp-deployer` to `pronamic/pronamic-cli`. ([a90b3af](https://github.com/pronamic/wp-gravityforms-nl/commit/a90b3afa8a3a73cd75adb71cda529cc8b132fcb0))
+- Updated .gitattributes ([e8b8c4e](https://github.com/pronamic/wp-gravityforms-nl/commit/e8b8c4e0a144bea598023e1a01bfc2633e0e6912))
+
+Full set of changes: [`3.0.4...3.0.5`][3.0.5]
+
+[3.0.5]: https://github.com/pronamic/wp-gravityforms-nl/compare/v3.0.4...v3.0.5
+
 ## [3.0.4] - 2023-03-27
 
 ### Commits
