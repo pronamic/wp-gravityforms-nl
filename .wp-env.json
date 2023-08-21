@@ -1,0 +1,7 @@
+{
+    "core": null,
+    "plugins": [
+        ".",
+        "pronamic/gravityforms"
+    ]
+}

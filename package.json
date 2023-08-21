@@ -33,6 +33,7 @@
   },
   "homepage": "https://github.com/pronamic/wp-gravityforms-nl",
   "devDependencies": {
+    "@wordpress/env": "^8.6.0",
     "grunt": "^1.3",
     "grunt-checktextdomain": "^1.0.0",
     "grunt-wp-i18n": "^1.0.0",
