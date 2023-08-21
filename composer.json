@@ -15,7 +15,8 @@
 			"roots/wordpress-core-installer": true,
 			"dealerdirect/phpcodesniffer-composer-installer": true,
 			"bamarni/composer-bin-plugin": true
-		}
+		},
+		"wp-slug": "gravityforms-nl"
 	},
 	"repositories": [
 		{
@@ -31,7 +32,7 @@
 		"koodimonni-language/nl_nl": "*",
 		"php-coveralls/php-coveralls": "^2.4",
 		"phpmd/phpmd": "^2.9",
-		"pronamic/pronamic-cli": "^1.0",
+		"pronamic/pronamic-cli": "dev-main",
 		"pronamic/wp-coding-standards": "^1.3",
 		"roots/wordpress": "^6.0",
 		"wp-phpunit/wp-phpunit": "^6.1",
@@ -39,6 +40,7 @@
 	},
 	"scripts": {
 		"bamarni/composer-bin-plugin": "^1.4",
+		"build": "vendor/bin/pronamic wp-build",
 		"coveralls": "vendor/bin/php-coveralls -v",
 		"phpcbf": "XDEBUG_MODE=off vendor/bin/phpcbf",
 		"phpcs": "XDEBUG_MODE=off vendor/bin/phpcs -s -v",
@@ -46,7 +48,8 @@
 		"phpmd": "vendor/bin/phpmd src text phpmd.ruleset.xml --suffixes php",
 		"phpstan": "vendor/bin/phpstan analyse --memory-limit=-1",
 		"phpunit": "vendor/bin/phpunit",
-		"post-autoload-dump": [
+		"release": "vendor/bin/pronamic release --gcloud-storage --pronamic-directory --github",
+		"symlink": [
 			"for file in languages/*.mo ; do ln -f -s ../../../../../../$file vendor/wp-phpunit/wp-phpunit/data/languages/plugins/. ; done",
 			"for file in vendor/koodimonni-language/*/*.mo ; do ln -f -s ../../../../../$file vendor/wp-phpunit/wp-phpunit/data/languages/. ; done",
 			"for file in vendor/koodimonni-plugin-language/*/*.mo ; do ln -f -s ../../../../../../$file vendor/wp-phpunit/wp-phpunit/data/languages/plugins/. ; done",

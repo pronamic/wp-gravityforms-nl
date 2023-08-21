@@ -1,0 +1,11 @@
+# Composer (https://getcomposer.org/)
+/vendor/
+
+# Node.js (https://nodejs.org/)
+/node_modules/
+
+# Build
+/build/
+
+# Tests
+/tests/
