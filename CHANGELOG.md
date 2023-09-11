@@ -7,6 +7,17 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## [Unreleased][unreleased]
 -
 
+## [3.0.6] - 2023-09-11
+
+### Commits
+
+- Added build scripts. ([45b9cef](https://github.com/pronamic/wp-gravityforms-nl/commit/45b9cefd9a1aadbcc219575c4e0eca65f49e1bbf))
+- Added @wordpress/env to test issue #5. ([afbb492](https://github.com/pronamic/wp-gravityforms-nl/commit/afbb492efd88261d84f6129874b7b7d67420958d))
+
+Full set of changes: [`3.0.5...3.0.6`][3.0.6]
+
+[3.0.6]: https://github.com/pronamic/wp-gravityforms-nl/compare/v3.0.5...v3.0.6
+
 ## [3.0.5] - 2023-06-01
 
 ### Commits
