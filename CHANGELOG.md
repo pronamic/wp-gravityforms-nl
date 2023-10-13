@@ -7,6 +7,17 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## [Unreleased][unreleased]
 -
 
+## [3.0.7] - 2023-10-13
+
+### Changed
+
+- Composer config "platform-check": false. ([62790c4](https://github.com/pronamic/wp-gravityforms-nl/commit/62790c4bae2eeed3318e82bb35e4838ec6a99e1d))
+- Requires PHP 7.4. ([ac956e7](https://github.com/pronamic/wp-gravityforms-nl/commit/ac956e7cdb1f2409c5f8003aeef19dddd6bbddd9))
+
+Full set of changes: [`3.0.6...3.0.7`][3.0.7]
+
+[3.0.7]: https://github.com/pronamic/wp-gravityforms-nl/compare/v3.0.6...v3.0.7
+
 ## [3.0.6] - 2023-09-11
 
 ### Commits

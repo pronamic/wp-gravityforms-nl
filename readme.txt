@@ -5,7 +5,7 @@ Donate link: https://www.pronamic.eu/donate/?for=wp-plugin-gravityforms-nl&sourc
 Requires at least: 4.7
 Tested up to: 5.5
 Requires PHP: 7.4
-Stable tag: 3.0.6
+Stable tag: 3.0.7
 
 This WordPress plugin extends Gravity Forms with Dutch address notation and places the Euro sign to the left of input fields.
 
