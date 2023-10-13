@@ -9,6 +9,7 @@
 		}
 	},
 	"config": {
+		"platform-check": false,
 		"sort-packages": true,
 		"allow-plugins": {
 			"koodimonni/composer-dropin-installer": true,
