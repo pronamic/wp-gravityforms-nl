@@ -7,6 +7,16 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## [Unreleased][unreleased]
 -
 
+## [3.0.9] - 2024-03-26
+
+### Composer
+
+- Changed `php` from `>=7.4` to `>=8.0`.
+
+Full set of changes: [`3.0.8...3.0.9`][3.0.9]
+
+[3.0.9]: https://github.com/pronamic/wp-gravityforms-nl/compare/v3.0.8...v3.0.9
+
 ## [3.0.8] - 2024-03-26
 
 ### Commits
