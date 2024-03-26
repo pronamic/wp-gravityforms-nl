@@ -48,7 +48,6 @@
 		"phpmd": "vendor/bin/phpmd src text phpmd.ruleset.xml --suffixes php",
 		"phpstan": "vendor/bin/phpstan analyse --memory-limit=-1",
 		"phpunit": "vendor/bin/phpunit",
-		"release": "vendor/bin/pronamic release --gcloud-storage --pronamic-directory --github",
 		"symlink": [
 			"for file in languages/*.mo ; do ln -f -s ../../../../../../$file vendor/wp-phpunit/wp-phpunit/data/languages/plugins/. ; done",
 			"for file in vendor/koodimonni-language/*/*.mo ; do ln -f -s ../../../../../$file vendor/wp-phpunit/wp-phpunit/data/languages/. ; done",
