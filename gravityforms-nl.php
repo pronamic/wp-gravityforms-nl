@@ -31,7 +31,7 @@ require __DIR__ . '/vendor/autoload.php';
 
 add_action(
 	'plugins_loaded',
-	function() {
+	function () {
 		if ( ! \class_exists( '\GFCommon' ) ) {
 			return;
 		}
