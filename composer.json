@@ -17,6 +17,9 @@
 			"dealerdirect/phpcodesniffer-composer-installer": true,
 			"bamarni/composer-bin-plugin": true
 		},
+		"platform": {
+			"php": "8.2"
+		},
 		"wp-slug": "gravityforms-nl"
 	},
 	"repositories": [
@@ -30,7 +33,7 @@
 	},
 	"require-dev": {
 		"bamarni/composer-bin-plugin": "^1.8",
-		"koodimonni-language/nl_nl": "*",
+		"koodimonni-language/core-nl_nl": "*",
 		"php-coveralls/php-coveralls": "^2.7",
 		"phpmd/phpmd": "^2.15",
 		"phpstan/phpstan": "^1.11",
