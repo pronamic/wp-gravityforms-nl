@@ -7,6 +7,16 @@ This projects adheres to [Semantic Versioning](http://semver.org/) and [Keep a C
 ## [Unreleased][unreleased]
 -
 
+## [3.0.10] - 2024-12-17
+
+### Commits
+
+- Happy 2024. ([844dfaa](https://github.com/pronamic/wp-gravityforms-nl/commit/844dfaa40547bc73bf07a000fb4c94ee83be58f0))
+
+Full set of changes: [`3.0.9...3.0.10`][3.0.10]
+
+[3.0.10]: https://github.com/pronamic/wp-gravityforms-nl/compare/v3.0.9...v3.0.10
+
 ## [3.0.9] - 2024-03-26
 
 ### Composer
